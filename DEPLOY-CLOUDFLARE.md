@@ -45,13 +45,22 @@ Configure these in Workers settings:
 pnpm deploy
 ```
 
-## 6. GitHub auto deploy (recommended)
+## 6. GitHub auto deploy (already configured)
 
-1. Push code to `https://github.com/kimleo5808/theforgecodes.app.git`
-2. In Cloudflare Dashboard:
-   - Workers & Pages -> Create -> Workers -> Import a repository
-3. Build command:
-   - `pnpm deploy`
-4. Set environment variables in Cloudflare UI.
+This repo includes:
+
+- `.github/workflows/deploy-cloudflare.yml`
+
+It deploys on every push to `main`.
+
+Required GitHub Secrets:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+- `NEXT_PUBLIC_GOOGLE_ID`
+- `NEXT_PUBLIC_GOOGLE_ADSENSE_ID`
+- optional: `NEXT_PUBLIC_BAIDU_TONGJI`
+- optional: `NEXT_PUBLIC_PLAUSIBLE_DOMAIN`
+- optional: `NEXT_PUBLIC_PLAUSIBLE_SRC`
 
 For production routing, keep worker name and service binding aligned with `wrangler.jsonc`.
