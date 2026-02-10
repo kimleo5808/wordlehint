@@ -1,7 +1,6 @@
 import {
-  activeForgeCodes,
-  expiredForgeCodes,
-  forgeUpdateLog,
+  forgeLatestSnapshot,
+  getForgeMonthSnapshots,
 } from "@/lib/forge-data";
 import { Locale } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
@@ -28,9 +27,14 @@ export async function generateMetadata({
 }
 
 export default function February2026Page() {
-  const februaryEvents = forgeUpdateLog.filter((item) =>
-    item.time.startsWith("2026-02")
-  );
+  const monthSnapshots = getForgeMonthSnapshots("2026-02");
+  const monthActive =
+    monthSnapshots[monthSnapshots.length - 1]?.activeCodes ??
+    forgeLatestSnapshot.activeCodes;
+  const monthExpired =
+    monthSnapshots[monthSnapshots.length - 1]?.expiredCodes ??
+    forgeLatestSnapshot.expiredCodes;
+  const monthEvents = monthSnapshots.flatMap((item) => item.updateLog);
 
   return (
     <div className="mx-auto w-full max-w-5xl space-y-6 px-4 py-10 sm:px-6 lg:px-8">
@@ -53,7 +57,7 @@ export default function February2026Page() {
           Active The Forge Codes (February 2026)
         </h2>
         <ul className="mt-4 grid gap-3">
-          {activeForgeCodes.map((item) => (
+          {monthActive.map((item) => (
             <li
               key={item.code}
               className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-4 dark:border-emerald-900/60 dark:bg-emerald-900/20"
@@ -74,7 +78,7 @@ export default function February2026Page() {
           Expired The Forge Codes (February 2026 checks)
         </h2>
         <ul className="mt-4 grid gap-3">
-          {expiredForgeCodes.slice(0, 6).map((item) => (
+          {monthExpired.slice(0, 6).map((item) => (
             <li
               key={item.code}
               className="rounded-xl border border-rose-200 bg-rose-50/60 p-4 dark:border-rose-900/60 dark:bg-rose-900/20"
@@ -95,7 +99,7 @@ export default function February2026Page() {
           February Change Log
         </h2>
         <ul className="mt-4 space-y-3">
-          {februaryEvents.map((item) => (
+          {monthEvents.map((item) => (
             <li
               key={`${item.time}-${item.code}`}
               className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50"
@@ -116,4 +120,3 @@ export default function February2026Page() {
     </div>
   );
 }
-

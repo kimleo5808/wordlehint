@@ -1,4 +1,4 @@
-import { expiredForgeCodes, forgeUpdateLog } from "@/lib/forge-data";
+import { forgeDailySnapshots } from "@/lib/forge-data";
 import { Locale } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
 import { Metadata } from "next";
@@ -24,6 +24,22 @@ export async function generateMetadata({
 }
 
 export default function ForgeHistoryPage() {
+  const historyLog = [...forgeDailySnapshots]
+    .reverse()
+    .flatMap((snapshot) => snapshot.updateLog)
+    .slice(0, 80);
+  const expiredMap = new Map<string, (typeof forgeDailySnapshots)[number]["expiredCodes"][number]>();
+
+  for (const snapshot of forgeDailySnapshots) {
+    for (const code of snapshot.expiredCodes) {
+      expiredMap.set(code.code, code);
+    }
+  }
+
+  const expiredArchive = [...expiredMap.values()].sort((a, b) =>
+    b.lastTested.localeCompare(a.lastTested)
+  );
+
   return (
     <div className="mx-auto w-full max-w-5xl space-y-6 px-4 py-10 sm:px-6 lg:px-8">
       <header className="rounded-2xl border border-orange-200/70 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 p-6 dark:border-orange-900/40 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
@@ -42,7 +58,7 @@ export default function ForgeHistoryPage() {
           Historical change timeline
         </h2>
         <ul className="mt-4 space-y-3">
-          {forgeUpdateLog.map((item) => (
+          {historyLog.map((item) => (
             <li
               key={`${item.time}-${item.code}`}
               className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50"
@@ -75,7 +91,7 @@ export default function ForgeHistoryPage() {
               </tr>
             </thead>
             <tbody>
-              {expiredForgeCodes.map((item) => (
+              {expiredArchive.map((item) => (
                 <tr
                   key={item.code}
                   className="border-b border-orange-50 last:border-none dark:border-orange-950"
@@ -98,4 +114,3 @@ export default function ForgeHistoryPage() {
     </div>
   );
 }
-

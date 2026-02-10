@@ -1,5 +1,6 @@
 import { siteConfig } from '@/config/site'
 import { DEFAULT_LOCALE, LOCALES } from '@/i18n/routing'
+import { forgeDailySnapshots } from '@/lib/forge-data'
 import { getPosts } from '@/lib/getBlogs'
 import { MetadataRoute } from 'next'
 
@@ -65,8 +66,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     )
   ).flat()
 
+  const dailyForgePages = LOCALES.flatMap((locale) => {
+    const localePrefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`
+
+    return forgeDailySnapshots.map((snapshot) => ({
+      url: `${siteUrl}${localePrefix}/the-forge-codes/${snapshot.date}`,
+      lastModified: snapshot.generatedAt ? new Date(snapshot.generatedAt) : new Date(),
+      changeFrequency: 'daily' as ChangeFrequency,
+      priority: 0.7,
+    }))
+  })
+
   return [
     ...pages,
     ...blogPages,
+    ...dailyForgePages,
   ]
 }

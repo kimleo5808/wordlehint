@@ -4,6 +4,7 @@ import {
   FAQItem,
   forgeFaq,
   forgeKeywordNarrative,
+  forgeRecentSnapshots,
   forgeRedeemSteps,
   forgeSiteFacts,
   forgeTroubleshooting,
@@ -147,13 +148,13 @@ export function ForgeHero() {
         </div>
 
         <h1 className="mt-6 max-w-4xl text-4xl font-black tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl">
-          The Forge Codes (February 2026): Active, Expired, and Daily Verified
+          The Forge Codes: Active, Expired, and Daily Auto-Collected Updates
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700 dark:text-slate-300">
           This is a live answer page for <strong>the forge codes</strong>. We
-          test <strong>the forge codes</strong> every day, split active and
-          expired status, and publish transparent logs so you can redeem faster
-          with fewer failed attempts.
+          auto-collect <strong>the forge codes</strong> from public sources
+          every day, split active and expired status, and publish transparent
+          logs so you can redeem faster with fewer failed attempts.
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <div className="rounded-2xl border border-orange-200 bg-white/90 p-4 dark:border-orange-900/40 dark:bg-slate-900/80">
@@ -206,6 +207,10 @@ export function ForgeHero() {
             <Hammer className="h-4 w-4" />
           </Link>
         </div>
+        <p className="mt-4 text-sm text-slate-600 dark:text-slate-300">
+          Codes are automatically aggregated from public sources and may expire
+          quickly. Always verify in-game before relying on rewards.
+        </p>
       </div>
     </section>
   );
@@ -298,8 +303,8 @@ export function ForgeUpdateLogAndFaq() {
           The Forge Codes Update Log
         </h2>
         <p className="mt-3 text-slate-700 dark:text-slate-300">
-          Each event below documents how the forge codes moved between active
-          and expired status.
+          Each event below documents how codes moved between active and expired
+          based on automated source refreshes.
         </p>
         <div className="mt-5 space-y-3">
           {forgeUpdateLog.map((item) => (
@@ -368,3 +373,36 @@ export function ForgeKeywordNarrativeSection() {
   );
 }
 
+export function ForgeDailySnapshotArchive() {
+  return (
+    <section className="w-full rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
+      <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+        Daily Snapshot Pages
+      </h2>
+      <p className="mt-2 text-slate-600 dark:text-slate-300">
+        A new page is generated for each day. Use these links to browse rolling
+        daily updates for the forge codes.
+      </p>
+      <div className="mt-5 grid gap-3 sm:grid-cols-2">
+        {forgeRecentSnapshots.slice(0, 14).map((item) => (
+          <Link
+            key={item.date}
+            href={`/the-forge-codes/${item.date}`}
+            className="rounded-xl border border-orange-100 p-4 transition hover:border-orange-300 hover:bg-orange-50/40 dark:border-orange-900/50 dark:hover:bg-orange-900/10"
+          >
+            <p className="text-sm text-slate-500 dark:text-slate-400">
+              {item.date}
+            </p>
+            <p className="mt-1 font-semibold text-slate-900 dark:text-slate-100">
+              {item.activeCodes.length} active · {item.expiredCodes.length}{" "}
+              expired
+            </p>
+          </Link>
+        ))}
+      </div>
+      <p className="mt-4 text-xs text-slate-500 dark:text-slate-400">
+        Latest snapshot date: {forgeSiteFacts.latestSnapshotDate}
+      </p>
+    </section>
+  );
+}

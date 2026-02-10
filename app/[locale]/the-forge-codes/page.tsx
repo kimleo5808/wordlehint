@@ -14,9 +14,9 @@ export async function generateMetadata({
 
   return constructMetadata({
     page: "TheForgeCodes",
-    title: "The Forge Codes (February 2026): Active & Expired + Last Verified",
+    title: "The Forge Codes: Latest Active & Expired Auto-Collected List",
     description:
-      "Get the latest the forge codes with active and expired status, timestamps, redeem steps, and transparent updates.",
+      "Get the latest the forge codes with auto-collected active and expired status, timestamps, redeem steps, and daily archive links.",
     locale: locale as Locale,
     path: "/the-forge-codes",
     canonicalUrl: "/the-forge-codes",
