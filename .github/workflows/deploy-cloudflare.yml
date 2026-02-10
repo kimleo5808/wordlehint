@@ -41,5 +41,5 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build and deploy with OpenNext
-        run: pnpm deploy
+        run: pnpm run deploy
 
