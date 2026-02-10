@@ -1,4 +1,5 @@
 import { Locale, LOCALES } from "@/i18n/routing";
+import { ForgeDailySnapshotArchive } from "@/components/forge/ForgeSections";
 import {
   ForgeCode,
   forgeDailySnapshots,
@@ -104,63 +105,71 @@ export default async function DailyForgeCodesPage({
   const formattedDate = toLongDate(snapshot.date);
 
   return (
-    <div className="mx-auto w-full max-w-5xl space-y-6 px-4 py-10 sm:px-6 lg:px-8">
-      <header className="rounded-2xl border border-orange-200/70 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 p-6 dark:border-orange-900/40 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
-        <p className="text-xs uppercase tracking-[0.16em] text-orange-700 dark:text-orange-300">
-          Daily snapshot
-        </p>
-        <h1 className="mt-2 text-3xl font-black text-slate-900 dark:text-slate-100 sm:text-4xl">
-          The Forge Codes ({formattedDate})
-        </h1>
-        <p className="mt-4 max-w-3xl text-slate-700 dark:text-slate-300">
-          Auto-collected daily snapshot for the forge codes. Data is aggregated
-          from public pages and may change quickly in-game.
-        </p>
-      </header>
+    <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
+        <div className="space-y-6">
+          <header className="rounded-2xl border border-orange-200/70 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 p-6 dark:border-orange-900/40 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
+            <p className="text-xs uppercase tracking-[0.16em] text-orange-700 dark:text-orange-300">
+              Daily snapshot
+            </p>
+            <h1 className="mt-2 text-3xl font-black text-slate-900 dark:text-slate-100 sm:text-4xl">
+              The Forge Codes ({formattedDate})
+            </h1>
+            <p className="mt-4 max-w-3xl text-slate-700 dark:text-slate-300">
+              Auto-collected daily snapshot for the forge codes. Data is aggregated
+              from public pages and may change quickly in-game.
+            </p>
+          </header>
 
-      <CodeList title="Active codes" codes={snapshot.activeCodes} />
-      <CodeList title="Expired codes" codes={snapshot.expiredCodes} />
+          <CodeList title="Active codes" codes={snapshot.activeCodes} />
+          <CodeList title="Expired codes" codes={snapshot.expiredCodes} />
 
-      <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
-          Update log
-        </h2>
-        <ul className="mt-4 space-y-3">
-          {snapshot.updateLog.map((item) => (
-            <li
-              key={`${item.time}-${item.code}`}
-              className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50"
-            >
-              <p className="text-sm text-slate-500 dark:text-slate-400">
-                {item.time}
-              </p>
-              <p className="mt-1 font-mono font-semibold text-slate-900 dark:text-slate-100">
-                {item.code}
-              </p>
-              <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
-                {item.summary}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </section>
+          <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              Update log
+            </h2>
+            <ul className="mt-4 space-y-3">
+              {snapshot.updateLog.map((item) => (
+                <li
+                  key={`${item.time}-${item.code}`}
+                  className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50"
+                >
+                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                    {item.time}
+                  </p>
+                  <p className="mt-1 font-mono font-semibold text-slate-900 dark:text-slate-100">
+                    {item.code}
+                  </p>
+                  <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
+                    {item.summary}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </section>
 
-      <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
-          Source coverage
-        </h2>
-        <ul className="mt-4 space-y-2">
-          {snapshot.sources.map((source) => (
-            <li
-              key={`${source.name}-${source.fetchedAt}`}
-              className="rounded-lg border border-orange-100 px-3 py-2 text-sm text-slate-700 dark:border-orange-900/50 dark:text-slate-300"
-            >
-              {source.name}: {source.foundCodes} codes ·{" "}
-              {source.ok ? "ok" : "fetch-error"}
-            </li>
-          ))}
-        </ul>
-      </section>
+          <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              Source coverage
+            </h2>
+            <ul className="mt-4 space-y-2">
+              {snapshot.sources.map((source) => (
+                <li
+                  key={`${source.name}-${source.fetchedAt}`}
+                  className="rounded-lg border border-orange-100 px-3 py-2 text-sm text-slate-700 dark:border-orange-900/50 dark:text-slate-300"
+                >
+                  {source.name}: {source.foundCodes} codes ·{" "}
+                  {source.ok ? "ok" : "fetch-error"}
+                </li>
+              ))}
+            </ul>
+          </section>
+        </div>
+
+        <div className="lg:sticky lg:top-20">
+          <ForgeDailySnapshotArchive currentDate={snapshot.date} />
+        </div>
+      </div>
     </div>
   );
 }

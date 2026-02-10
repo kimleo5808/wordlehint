@@ -373,36 +373,72 @@ export function ForgeKeywordNarrativeSection() {
   );
 }
 
-export function ForgeDailySnapshotArchive() {
+type ForgeDailySnapshotArchiveProps = {
+  currentDate?: string;
+};
+
+function formatRecentDate(dateText: string) {
+  const date = new Date(`${dateText}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) {
+    return dateText;
+  }
+
+  return date.toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}
+
+export function ForgeDailySnapshotArchive({
+  currentDate,
+}: ForgeDailySnapshotArchiveProps) {
   return (
-    <section className="w-full rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
-      <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
-        Daily Snapshot Pages
+    <aside className="rounded-xl border border-orange-200/70 bg-white p-4 shadow-sm dark:border-orange-900/40 dark:bg-slate-950">
+      <div className="grid grid-cols-2 gap-2">
+        <Link
+          href="/the-forge-codes"
+          className="rounded-md bg-slate-900 px-3 py-2 text-center text-xs font-semibold uppercase tracking-wide text-white hover:bg-slate-800"
+        >
+          Latest
+        </Link>
+        <Link
+          href="/the-forge-codes-history"
+          className="rounded-md bg-slate-900 px-3 py-2 text-center text-xs font-semibold uppercase tracking-wide text-white hover:bg-slate-800"
+        >
+          History
+        </Link>
+      </div>
+
+      <h2 className="mt-4 text-3xl font-black text-slate-900 dark:text-slate-100">
+        Recent Codes
       </h2>
-      <p className="mt-2 text-slate-600 dark:text-slate-300">
-        A new page is generated for each day. Use these links to browse rolling
-        daily updates for the forge codes.
-      </p>
-      <div className="mt-5 grid gap-3 sm:grid-cols-2">
-        {forgeRecentSnapshots.slice(0, 14).map((item) => (
+
+      <div className="mt-3 overflow-hidden rounded-lg border border-orange-100 dark:border-orange-900/50">
+        {forgeRecentSnapshots.slice(0, 30).map((item, index) => (
           <Link
             key={item.date}
             href={`/the-forge-codes/${item.date}`}
-            className="rounded-xl border border-orange-100 p-4 transition hover:border-orange-300 hover:bg-orange-50/40 dark:border-orange-900/50 dark:hover:bg-orange-900/10"
+            className={`block border-b border-orange-100 px-3 py-3 text-sm transition last:border-b-0 dark:border-orange-900/50 ${
+              currentDate === item.date
+                ? "bg-orange-100/70 font-semibold text-slate-900 dark:bg-orange-900/30 dark:text-slate-100"
+                : "text-slate-700 hover:bg-orange-50 dark:text-slate-300 dark:hover:bg-orange-900/10"
+            }`}
           >
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              {item.date}
+            <p>
+              The Forge Codes ({formatRecentDate(item.date)})
             </p>
-            <p className="mt-1 font-semibold text-slate-900 dark:text-slate-100">
-              {item.activeCodes.length} active · {item.expiredCodes.length}{" "}
-              expired
+            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+              {item.activeCodes.length} active · {item.expiredCodes.length} expired
             </p>
           </Link>
         ))}
       </div>
+
       <p className="mt-4 text-xs text-slate-500 dark:text-slate-400">
         Latest snapshot date: {forgeSiteFacts.latestSnapshotDate}
       </p>
-    </section>
+    </aside>
   );
 }
