@@ -1,11 +1,14 @@
-﻿import { forgeRecentSnapshots, forgeSiteFacts } from "@/lib/forge-data";
+import { forgeRecentSnapshots, forgeSiteFacts } from "@/lib/forge-data";
 import {
   ArrowRight,
   CalendarClock,
+  ChevronDown,
+  CircleDot,
   Flame,
   Gift,
   ListChecks,
   SearchCheck,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -214,49 +217,70 @@ function formatRecentDate(dateText: string) {
 
 function RecentCodesList({ currentDate }: RecentListProps) {
   return (
-    <aside className="rounded-xl border border-orange-200/70 bg-white p-4 shadow-sm dark:border-orange-900/40 dark:bg-slate-950">
-      <div className="grid grid-cols-2 gap-2">
+    <aside className="overflow-hidden rounded-2xl border border-indigo-100 bg-white shadow-lg dark:border-indigo-900/40 dark:bg-slate-950">
+      <div className="grid grid-cols-2 gap-2 p-4">
         <Link
           href="/the-forge-codes"
-          className="rounded-md bg-slate-900 px-3 py-2 text-center text-xs font-semibold uppercase tracking-wide text-white hover:bg-slate-800"
+          className="rounded-lg bg-indigo-600 px-3 py-2.5 text-center text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-indigo-700"
         >
           Live Hub
         </Link>
         <Link
           href="/the-forge-codes-history"
-          className="rounded-md bg-slate-900 px-3 py-2 text-center text-xs font-semibold uppercase tracking-wide text-white hover:bg-slate-800"
+          className="rounded-lg bg-violet-600 px-3 py-2.5 text-center text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-violet-700"
         >
           History
         </Link>
       </div>
 
-      <h2 className="mt-4 text-3xl font-black text-slate-900 dark:text-slate-100">
-        Recent Codes
-      </h2>
+      <div className="px-4 pb-2">
+        <h2 className="font-heading text-2xl text-slate-900 dark:text-slate-100">
+          Recent Codes
+        </h2>
+      </div>
 
-      <div className="mt-3 overflow-hidden rounded-lg border border-orange-100 dark:border-orange-900/50">
+      <div className="border-t border-indigo-100 dark:border-indigo-900/50">
         {forgeRecentSnapshots.slice(0, 20).map((item) => (
           <Link
             key={item.date}
             href={`/the-forge-codes/${item.date}`}
-            className={`block border-b border-orange-100 px-3 py-3 text-sm transition last:border-b-0 dark:border-orange-900/50 ${
+            className={`block border-b border-indigo-50 px-4 py-3 text-sm transition-colors last:border-b-0 dark:border-indigo-900/30 ${
               currentDate === item.date
-                ? "bg-orange-100/70 font-semibold text-slate-900 dark:bg-orange-900/30 dark:text-slate-100"
-                : "text-slate-700 hover:bg-orange-50 dark:text-slate-300 dark:hover:bg-orange-900/10"
+                ? "bg-indigo-50 font-semibold text-indigo-900 dark:bg-indigo-900/30 dark:text-indigo-200"
+                : "text-slate-700 hover:bg-indigo-50/60 dark:text-slate-300 dark:hover:bg-indigo-900/10"
             }`}
           >
             <p>The Forge Codes ({formatRecentDate(item.date)})</p>
             <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-              {item.activeCodes.length} active | {item.expiredCodes.length} expired
+              <span className="font-semibold text-emerald-600 dark:text-emerald-400">{item.activeCodes.length}</span> active |{" "}
+              <span className="font-semibold text-red-500">{item.expiredCodes.length}</span> expired
             </p>
           </Link>
         ))}
       </div>
 
-      <p className="mt-4 text-xs text-slate-500 dark:text-slate-400">
-        Latest snapshot date: {forgeSiteFacts.latestSnapshotDate}
-      </p>
+      <div className="border-t border-indigo-100 px-4 py-3 dark:border-indigo-900/50">
+        <p className="text-xs text-slate-500 dark:text-slate-400">
+          Latest snapshot date: {forgeSiteFacts.latestSnapshotDate}
+        </p>
+      </div>
     </aside>
+  );
+}
+
+function FaqAccordionItem({ question, answer }: { question: string; answer: string }) {
+  return (
+    <details className="group rounded-xl border border-indigo-100 transition-colors open:bg-indigo-50/40 dark:border-indigo-900/40 dark:open:bg-indigo-900/10">
+      <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-slate-900 transition-colors hover:text-indigo-700 dark:text-slate-100 dark:hover:text-indigo-400 [&::-webkit-details-marker]:hidden">
+        <h3 className="text-[0.95rem] leading-snug">{question}</h3>
+        <ChevronDown className="h-4 w-4 shrink-0 text-indigo-400 transition-transform group-open:rotate-180" />
+      </summary>
+      <div className="px-5 pb-4">
+        <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+          {answer}
+        </p>
+      </div>
+    </details>
   );
 }
 
@@ -265,87 +289,101 @@ export default function HomeComponent() {
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_340px] lg:items-start">
         <div className="flex flex-col gap-8">
-          <section className="rounded-3xl border border-orange-200/70 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 p-8 shadow-sm dark:border-orange-900/40 dark:from-slate-900 dark:via-slate-900 dark:to-slate-950">
-            <p className="inline-flex items-center gap-2 rounded-full border border-orange-300/60 bg-white/80 px-3 py-1 text-xs uppercase tracking-[0.18em] text-orange-700 dark:border-orange-800 dark:bg-slate-900/80 dark:text-orange-300">
-              <Flame className="h-3.5 w-3.5" />
-              theforgecodes.app
-            </p>
-            <h1 className="mt-4 max-w-5xl text-4xl font-black tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl">
-              The Forge Codes Homepage: Daily-Updated Strategy, Trends, and
-              Redemption Guidance
-            </h1>
-            <p className="mt-4 max-w-4xl text-lg leading-8 text-slate-700 dark:text-slate-300">
-              This homepage is designed to rank for <strong>the forge codes</strong>{" "}
-              and help users act fast. It combines keyword insights, redemption
-              guidance, troubleshooting logic, and direct links to live and
-              historical pages so visitors can find <strong>the forge codes</strong>{" "}
-              they need without guessing where to start.
-            </p>
-            <p className="mt-3 max-w-4xl text-base leading-7 text-slate-700 dark:text-slate-300">
-              If you only need the latest list, open the live hub first. If you
-              want the full strategy behind <strong>the forge codes</strong>,
-              keep reading this page. It was intentionally expanded to a
-              long-form pillar so it can capture both quick-intent users and
-              deep-research users from Google.
-            </p>
+          {/* Hero */}
+          <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-50 via-white to-violet-50 p-8 shadow-md dark:from-slate-900 dark:via-slate-900 dark:to-indigo-950/50">
+            <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-indigo-200/30 blur-3xl dark:bg-indigo-600/10" />
+            <div className="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-violet-200/30 blur-3xl dark:bg-violet-600/10" />
 
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Link
-                href="/the-forge-codes"
-                className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800 dark:bg-orange-500 dark:text-slate-950 dark:hover:bg-orange-400"
-              >
-                Open Live The Forge Codes Hub
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-              <Link
-                href="/the-forge-codes-history"
-                className="inline-flex items-center gap-2 rounded-xl border border-orange-300 bg-white px-5 py-3 text-sm font-semibold text-slate-800 hover:bg-orange-100 dark:border-orange-800 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800"
-              >
-                Browse Code History
-                <ListChecks className="h-4 w-4" />
-              </Link>
+            <div className="relative">
+              <p className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-indigo-700 dark:border-indigo-800 dark:bg-slate-900/80 dark:text-indigo-300">
+                <Flame className="h-3.5 w-3.5" />
+                theforgecodes.app
+              </p>
+              <h1 className="mt-4 max-w-4xl font-heading text-4xl tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl">
+                The Forge Codes Homepage: Daily-Updated Strategy, Trends, and
+                Redemption Guidance
+              </h1>
+              <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+                This homepage is designed to rank for <strong className="text-slate-800 dark:text-slate-100">the forge codes</strong>{" "}
+                and help users act fast. It combines keyword insights, redemption
+                guidance, troubleshooting logic, and direct links to live and
+                historical pages so visitors can find <strong className="text-slate-800 dark:text-slate-100">the forge codes</strong>{" "}
+                they need without guessing where to start.
+              </p>
+              <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600 dark:text-slate-300">
+                If you only need the latest list, open the live hub first. If you
+                want the full strategy behind <strong className="text-slate-800 dark:text-slate-100">the forge codes</strong>,
+                keep reading this page. It was intentionally expanded to a
+                long-form pillar so it can capture both quick-intent users and
+                deep-research users from Google.
+              </p>
+
+              <div className="mt-7 flex flex-wrap gap-3">
+                <Link
+                  href="/the-forge-codes"
+                  className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-orange-500 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-orange-500/30"
+                >
+                  <span className="relative z-10 flex items-center gap-2">
+                    Open Live The Forge Codes Hub
+                    <ArrowRight className="h-4 w-4" />
+                  </span>
+                  <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
+                </Link>
+                <Link
+                  href="/the-forge-codes-history"
+                  className="inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-white px-5 py-3 text-sm font-semibold text-indigo-700 transition-all hover:border-indigo-300 hover:bg-indigo-50 dark:border-indigo-800 dark:bg-slate-900 dark:text-indigo-300 dark:hover:bg-indigo-950/50"
+                >
+                  Browse Code History
+                  <ListChecks className="h-4 w-4" />
+                </Link>
+              </div>
             </div>
           </section>
 
+          {/* Keyword Signal Cards */}
           <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {keywordSignalCards.map((item) => (
               <article
                 key={item.label}
-                className="rounded-2xl border border-orange-100 bg-white p-5 dark:border-orange-900/40 dark:bg-slate-950"
+                className="rounded-2xl border-l-4 border-l-indigo-500 border-t border-r border-b border-t-slate-100 border-r-slate-100 border-b-slate-100 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md dark:border-t-slate-800 dark:border-r-slate-800 dark:border-b-slate-800 dark:bg-slate-950"
               >
-                <p className="text-xs uppercase tracking-[0.15em] text-slate-500 dark:text-slate-400">
+                <p className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-500 dark:text-slate-400">
                   {item.label}
                 </p>
-                <p className="mt-1 text-2xl font-bold text-slate-900 dark:text-slate-100">
+                <p className="mt-1 font-heading text-3xl text-indigo-600 dark:text-indigo-400">
                   {item.value}
                 </p>
-                <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                <p className="mt-2 text-sm leading-relaxed text-slate-500 dark:text-slate-400">
                   {item.note}
                 </p>
               </article>
             ))}
           </section>
 
-          <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 text-2xl font-bold text-slate-900 dark:text-slate-100">
-              <Gift className="h-5 w-5 text-orange-500" />
+          {/* Quick Active Preview */}
+          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
+              <Gift className="h-5 w-5 text-indigo-500" />
               Quick Active Preview
             </h2>
-            <p className="mt-2 text-slate-600 dark:text-slate-300">
+            <p className="mt-2 text-slate-500 dark:text-slate-400">
               Preview only. For full status, sources, and detailed updates,
-              continue to the live <strong>the forge codes</strong> hub.
+              continue to the live <strong className="text-slate-700 dark:text-slate-200">the forge codes</strong> hub.
             </p>
 
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {latestActivePreview.map((item) => (
                 <div
                   key={item.code}
-                  className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50"
+                  className="group rounded-xl border border-slate-100 bg-slate-50/50 p-4 transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-slate-800 dark:bg-slate-900/50 dark:hover:border-indigo-800"
                 >
-                  <p className="font-mono font-semibold text-slate-900 dark:text-slate-100">
-                    {item.code}
-                  </p>
-                  <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
+                  <div className="flex items-center gap-2">
+                    <CircleDot className="h-3 w-3 text-emerald-500" />
+                    <p className="font-mono text-sm font-bold text-indigo-700 dark:text-indigo-300">
+                      {item.code}
+                    </p>
+                  </div>
+                  <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
                     {item.reward}
                   </p>
                 </div>
@@ -355,7 +393,7 @@ export default function HomeComponent() {
             <div className="mt-6">
               <Link
                 href="/the-forge-codes"
-                className="inline-flex items-center gap-2 text-sm font-semibold text-orange-700 hover:text-orange-800 dark:text-orange-300 dark:hover:text-orange-200"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-600 transition-colors hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
               >
                 See full active and expired the forge codes tables
                 <ArrowRight className="h-4 w-4" />
@@ -363,66 +401,77 @@ export default function HomeComponent() {
             </div>
           </section>
 
-          <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 text-2xl font-bold text-slate-900 dark:text-slate-100">
-              <CalendarClock className="h-5 w-5 text-orange-500" />
+          {/* Operational Snapshot */}
+          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
+              <CalendarClock className="h-5 w-5 text-indigo-500" />
               Operational Snapshot
             </h2>
             <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <article className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50">
+              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
                 <p className="text-sm text-slate-500 dark:text-slate-400">
                   Active Codes
                 </p>
-                <p className="mt-1 text-2xl font-bold text-slate-900 dark:text-slate-100">
+                <p className="mt-1 font-heading text-3xl text-emerald-600 dark:text-emerald-400">
                   {forgeSiteFacts.activeCount}
                 </p>
               </article>
-              <article className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50">
+              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
                 <p className="text-sm text-slate-500 dark:text-slate-400">
                   Expired Tracked
                 </p>
-                <p className="mt-1 text-2xl font-bold text-slate-900 dark:text-slate-100">
+                <p className="mt-1 font-heading text-3xl text-red-500">
                   {forgeSiteFacts.expiredCount}
                 </p>
               </article>
-              <article className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50">
+              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
                 <p className="text-sm text-slate-500 dark:text-slate-400">
                   Latest Snapshot
                 </p>
-                <p className="mt-1 text-2xl font-bold text-slate-900 dark:text-slate-100">
+                <p className="mt-1 font-heading text-3xl text-indigo-600 dark:text-indigo-400">
                   {forgeSiteFacts.latestSnapshotDate}
                 </p>
               </article>
-              <article className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50">
+              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
                 <p className="text-sm text-slate-500 dark:text-slate-400">
                   Avg Search
                 </p>
-                <p className="mt-1 text-2xl font-bold text-slate-900 dark:text-slate-100">
+                <p className="mt-1 font-heading text-3xl text-violet-600 dark:text-violet-400">
                   {forgeSiteFacts.monthlySearchEstimate}
                 </p>
               </article>
             </div>
           </section>
 
-          {homepageSections.map((section) => (
+          {/* SEO Content Sections */}
+          {homepageSections.map((section, sectionIndex) => (
             <section
               key={section.id}
               id={section.id}
-              className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950"
+              className={`rounded-2xl border border-slate-100 p-6 shadow-sm dark:border-slate-800 ${
+                sectionIndex % 2 === 0
+                  ? "bg-white dark:bg-slate-950"
+                  : "bg-slate-50/70 dark:bg-slate-900/50"
+              }`}
             >
-              <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+              <h2 className="border-l-4 border-indigo-500 pl-4 font-heading text-2xl text-slate-900 dark:text-slate-100">
                 {section.title}
               </h2>
-              <div className="prose prose-slate mt-5 max-w-none dark:prose-invert">
+              <div className="mt-5 space-y-5">
                 {section.subsections.map((sub, si) => (
                   <div key={si}>
                     {sub.h3 && (
-                      <h3 className="mt-6 text-xl font-semibold text-slate-800 first:mt-0 dark:text-slate-200">
+                      <h3 className="mb-3 text-lg font-bold text-indigo-700 dark:text-indigo-400">
                         {sub.h3}
                       </h3>
                     )}
                     {sub.paragraphs.map((paragraph, pi) => (
-                      <p key={pi}>{paragraph}</p>
+                      <p
+                        key={pi}
+                        className="mt-3 text-[0.95rem] leading-relaxed text-slate-600 first:mt-0 dark:text-slate-300"
+                      >
+                        {paragraph}
+                      </p>
                     ))}
                   </div>
                 ))}
@@ -430,33 +479,29 @@ export default function HomeComponent() {
             </section>
           ))}
 
-          <section className="rounded-2xl border border-orange-100 bg-white p-6 dark:border-orange-900/40 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 text-2xl font-bold text-slate-900 dark:text-slate-100">
-              <SearchCheck className="h-5 w-5 text-orange-500" />
+          {/* FAQ Accordion */}
+          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
+            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
+              <SearchCheck className="h-5 w-5 text-indigo-500" />
               Homepage FAQ For The Forge Codes
             </h2>
-            <p className="mt-2 text-slate-600 dark:text-slate-300">
+            <p className="mt-2 text-slate-500 dark:text-slate-400">
               These quick answers summarize the most frequent decisions users
-              make before redeeming <strong>the forge codes</strong>.
+              make before redeeming <strong className="text-slate-700 dark:text-slate-200">the forge codes</strong>.
             </p>
-            <div className="mt-5 grid gap-3">
+            <div className="mt-5 flex flex-col gap-3">
               {faqItems.map((item) => (
-                <article
+                <FaqAccordionItem
                   key={item.question}
-                  className="rounded-xl border border-orange-100 p-4 dark:border-orange-900/50"
-                >
-                  <h3 className="font-semibold text-slate-900 dark:text-slate-100">
-                    {item.question}
-                  </h3>
-                  <p className="mt-1 text-sm text-slate-700 dark:text-slate-300">
-                    {item.answer}
-                  </p>
-                </article>
+                  question={item.question}
+                  answer={item.answer}
+                />
               ))}
             </div>
           </section>
         </div>
 
+        {/* Sidebar */}
         <div className="lg:sticky lg:top-20">
           <RecentCodesList />
         </div>

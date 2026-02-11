@@ -12,6 +12,21 @@ import { constructMetadata } from "@/lib/metadata";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
+import { Russo_One, Chakra_Petch } from "next/font/google";
+
+const russoOne = Russo_One({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-heading",
+  display: "swap",
+});
+
+const chakraPetch = Chakra_Petch({
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+});
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -72,7 +87,10 @@ export default async function LocaleLayout({
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background flex flex-col font-sans antialiased"
+          "min-h-screen bg-background flex flex-col antialiased",
+          russoOne.variable,
+          chakraPetch.variable,
+          "font-body"
         )}
       >
         <NextIntlClientProvider messages={messages}>

@@ -24,8 +24,8 @@ export const siteConfig: SiteConfig = {
     email: EMAIL_URL,
   },
   themeColors: [
-    { media: "(prefers-color-scheme: light)", color: "#fffaf4" },
-    { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
+    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
+    { media: "(prefers-color-scheme: dark)", color: "#020817" },
   ],
   defaultNextTheme: "system", // next-theme option: system | dark | light
   icons: {
