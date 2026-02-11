@@ -241,7 +241,7 @@ function RecentCodesList({ currentDate }: RecentListProps) {
       </div>
 
       <div className="border-t border-indigo-100 dark:border-indigo-900/50">
-        {forgeRecentSnapshots.slice(0, 20).map((item) => (
+        {forgeRecentSnapshots.slice(0, 7).map((item) => (
           <Link
             key={item.date}
             href={`/the-forge-codes/${item.date}`}
@@ -261,9 +261,12 @@ function RecentCodesList({ currentDate }: RecentListProps) {
       </div>
 
       <div className="border-t border-indigo-100 px-4 py-3 dark:border-indigo-900/50">
-        <p className="text-xs text-slate-500 dark:text-slate-400">
-          Latest snapshot date: {forgeSiteFacts.latestSnapshotDate}
-        </p>
+        <Link
+          href="/the-forge-codes-history"
+          className="flex items-center justify-center gap-1 text-sm font-semibold text-indigo-600 transition-colors hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+        >
+          View All History →
+        </Link>
       </div>
     </aside>
   );
