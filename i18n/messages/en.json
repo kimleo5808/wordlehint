@@ -1,63 +1,61 @@
 {
-  "LanguageDetection": {
-    "title": "Language Suggestion",
-    "description": "We noticed your browser language differs from the current site language. You can switch languages anytime.",
-    "countdown": "Closing in {countdown} seconds",
-    "switchTo": "Switch to"
-  },
   "Header": {
     "links": [
       {
-        "name": "Live Codes",
-        "href": "/the-forge-codes"
+        "name": "Today's Hints",
+        "href": "/connections-hint-today"
       },
       {
-        "name": "Redeem Guide",
-        "href": "/how-to-redeem-the-forge-codes"
+        "name": "How to Play",
+        "href": "/how-to-play-connections"
       },
       {
         "name": "FAQ",
-        "href": "/the-forge-codes-faq"
+        "href": "/connections-hint-faq"
       },
       {
-        "name": "History",
-        "href": "/the-forge-codes-history"
+        "name": "Archive",
+        "href": "/connections-hint-archive"
       }
     ]
   },
   "Footer": {
-    "Copyright": "Copyright © {year} {name} All rights reserved.",
+    "Copyright": "Copyright © {year} {name}. All rights reserved.",
     "PrivacyPolicy": "Privacy Policy",
     "TermsOfService": "Terms of Service",
     "Links": {
       "groups": [
         {
-          "title": "Navigation",
+          "title": "Puzzles",
           "links": [
             {
               "href": "/",
-              "name": "The Forge Codes"
+              "name": "Connections Hint"
             },
             {
-              "href": "/the-forge-codes",
-              "name": "Live Codes"
+              "href": "/connections-hint-today",
+              "name": "Today's Hints"
             },
             {
-              "href": "/the-forge-codes-history",
-              "name": "History"
+              "href": "/connections-hint-archive",
+              "name": "Puzzle Archive"
             }
           ]
         },
         {
-          "title": "Guides",
+          "title": "Resources",
           "links": [
             {
-              "href": "/how-to-redeem-the-forge-codes",
-              "name": "How to Redeem"
+              "href": "/how-to-play-connections",
+              "name": "How to Play"
             },
             {
-              "href": "/the-forge-codes-faq",
+              "href": "/connections-hint-faq",
               "name": "FAQ"
+            },
+            {
+              "href": "/blog",
+              "name": "Tips & Guides"
             }
           ]
         },
@@ -66,7 +64,7 @@
           "links": [
             {
               "href": "/about",
-              "name": "About theforgecodes"
+              "name": "About ConnectionsHint"
             },
             {
               "href": "/privacy-policy",
@@ -82,335 +80,114 @@
     }
   },
   "Home": {
-    "title": "The Forge Codes",
-    "tagLine": "Daily auto-collected The Forge Roblox code tracker",
-    "description": "Find active and expired the forge codes with daily auto-collected updates, timestamps, redeem steps, and troubleshooting."
+    "title": "Connections Hint",
+    "tagLine": "Daily hints and answers for NYT Connections puzzle",
+    "description": "Get today's NYT Connections hints with progressive clues for all four groups. Daily puzzle tracking, answers archive, and strategy tips."
   },
   "Blog": {
-    "title": "Updates",
-    "description": "Latest updates for The Forge code tracking"
+    "title": "Tips & Guides",
+    "description": "Strategies, tips, and insights for solving NYT Connections puzzles"
   },
   "About": {
-    "title": "About theforgecodes",
-    "description": "How we verify the forge codes and maintain update transparency"
+    "title": "About ConnectionsHint",
+    "description": "How we provide daily Connections hints and maintain our puzzle archive"
   },
   "TermsOfService": {
     "title": "Terms of Service",
-    "description": "Terms of service for theforgecodes.app — usage rules, disclaimers, and acceptable use for our Roblox code tracking service."
+    "description": "Terms of service for connectionshint.app — usage rules, disclaimers, and acceptable use."
   },
   "PrivacyPolicy": {
     "title": "Privacy Policy",
-    "description": "Privacy policy for theforgecodes.app — what data we collect, how we use analytics, and your privacy rights."
+    "description": "Privacy policy for connectionshint.app — what data we collect, how we use analytics, and your privacy rights."
   },
-  "Showcase": {
-    "title": "Related Resources",
-    "description": "Useful references for The Forge players and code trackers.",
-    "visitSite": "Visit site"
-  },
-  "ForgeSections": {
-    "tableHeaders": {
-      "code": "Code",
-      "reward": "Reward",
-      "status": "Status",
-      "lastTested": "Last tested",
-      "source": "Source"
-    },
-    "statusLabels": {
-      "active": "active",
-      "expired": "expired",
-      "added": "Added",
-      "retested": "Retested"
-    },
-    "sidebar": {
-      "latest": "Latest",
-      "history": "History",
-      "recentCodes": "Recent Codes",
-      "viewAllHistory": "View All History →",
-      "active": "active",
-      "expired": "expired"
-    },
-    "hero": {
-      "lastVerified": "Last verified: {time}",
-      "heading": "The Forge Codes: Active, Expired, and Daily Auto-Collected Updates",
-      "description": "This is a live answer page for <b>the forge codes</b>. We auto-collect <b>the forge codes</b> from public sources every day, split active and expired status, and publish transparent logs so you can redeem faster with fewer failed attempts.",
-      "activeCodes": "Active codes",
-      "expiredTracked": "Expired tracked",
-      "relatedKeywords": "Related keywords",
-      "avgMonthlyVolume": "Avg monthly volume",
-      "viewActiveBtn": "View active the forge codes",
-      "redeemGuideBtn": "How to redeem codes in the forge",
-      "disclaimer": "Codes are automatically aggregated from public sources and may expire quickly. Always verify in-game before relying on rewards."
-    },
-    "activeTable": {
-      "title": "Active The Forge Codes",
-      "description": "These are the current the forge working codes. Each row shows reward, status, and last tested timestamp."
-    },
-    "expiredTable": {
-      "title": "Expired The Forge Codes",
-      "description": "We keep expired the forge codes visible so users do not waste time retrying old codes for the forge."
-    },
-    "redeem": {
-      "title": "How to Redeem Codes in The Forge",
-      "description": "If you search where to put codes in the forge, use this exact flow. It works for the forge roblox codes on both desktop and mobile.",
-      "pcCaption": "PC: Open Settings and find the Codes input field",
-      "mobileCaption": "Mobile: Tap Settings and enter your code"
-    },
-    "troubleshoot": {
-      "title": "Why The Forge Codes Are Not Working",
-      "description": "Most users searching the forge codes not working can fix the issue in under a minute with this checklist."
-    },
-    "updateLog": {
-      "title": "The Forge Codes Update Log",
-      "description": "Each event below documents how codes moved between active and expired based on automated source refreshes."
-    },
-    "faq": {
-      "title": "The Forge Codes FAQ",
-      "description": "This FAQ covers the most searched questions around the forge codes roblox, redeem flow, and expiration behavior."
-    },
-    "redeemSteps": [
-      {
-        "title": "Open The Forge in Roblox",
-        "detail": "Launch the game on PC or mobile and wait until your character fully loads."
-      },
-      {
-        "title": "Open the Codes panel",
-        "detail": "Find the reward or gift icon in the UI. This is where to put codes in the forge."
-      },
-      {
-        "title": "Paste the code exactly",
-        "detail": "Enter the code with the same capitalization and symbols, then tap redeem."
-      },
-      {
-        "title": "Confirm reward message",
-        "detail": "If the code is active, the reward appears instantly in your inventory or spin balance."
-      }
-    ],
-    "troubleshootItems": [
-      {
-        "question": "Why are the forge codes not working for me?",
-        "answer": "Most failures come from expiration, wrong capitalization, or extra spaces when pasting."
-      },
-      {
-        "question": "Can I redeem the same code twice?",
-        "answer": "No. Most the forge codes are one-time use per account and will fail after redemption."
-      },
-      {
-        "question": "How often do new codes for the forge appear?",
-        "answer": "This site auto-collects updates from multiple public sources several times per day."
-      },
-      {
-        "question": "Do the forge roblox codes work on all devices?",
-        "answer": "Yes. The same code usually works on PC and mobile as long as your game build is current."
-      }
-    ],
-    "faqItems": [
-      {
-        "question": "What are the latest the forge codes right now?",
-        "answer": "Use the active table at the top of the page. Codes are auto-collected from public sources and updated daily."
-      },
-      {
-        "question": "What is the difference between active and expired the forge codes?",
-        "answer": "Active codes are currently marked as working by source consensus. Expired the forge codes are repeatedly flagged as unavailable."
-      },
-      {
-        "question": "How to redeem codes in the forge quickly?",
-        "answer": "Open the code menu, paste the exact code, and redeem. The redeem guide section shows each step."
-      },
-      {
-        "question": "Where to put codes in the forge?",
-        "answer": "Enter them in the in-game codes box, not on Roblox catalog pages."
-      },
-      {
-        "question": "Why keep expired codes for the forge?",
-        "answer": "Keeping expired entries prevents repeated failed attempts and keeps historical transparency."
-      },
-      {
-        "question": "How is this page different from other the forge codes roblox pages?",
-        "answer": "This page keeps a date-by-date snapshot archive and rolls updates from multiple sources into one feed."
-      }
-    ]
-  },
-  "TheForgeCodes": {
-    "title": "The Forge Codes: Latest Active & Expired Auto-Collected List",
-    "description": "Get the latest the forge codes with auto-collected active and expired status, timestamps, redeem steps, and daily archive links."
+  "ConnectionsHintToday": {
+    "title": "Connections Hint Today — NYT Puzzle Hints & Answers",
+    "description": "Get progressive hints and answers for today's NYT Connections puzzle. Clues for all four color groups without spoiling the fun."
   },
   "FAQ": {
-    "title": "The Forge Codes FAQ: Why Codes Fail and How to Fix",
-    "description": "Common questions about the forge codes roblox, including failed redemptions, expiration behavior, and redeem troubleshooting."
+    "title": "Connections Hint FAQ — Common Questions Answered",
+    "description": "Frequently asked questions about NYT Connections, puzzle strategies, and how our hint system works."
   },
-  "History": {
-    "title": "The Forge Codes History: Daily Snapshot Archive and Code Timeline",
-    "description": "Browse every daily snapshot of the forge codes organized by month. Track when codes were added, expired, and compare changes across days."
+  "Archive": {
+    "title": "Connections Hint Archive — Past Puzzle Answers & History",
+    "description": "Browse every past NYT Connections puzzle organized by date. Find answers, themes, and difficulty ratings for any day."
   },
-  "RedeemGuide": {
-    "title": "How to Redeem Codes in The Forge (2026 Guide)",
-    "description": "Step-by-step guide for how to redeem codes in the forge and where to put codes in the forge across Roblox devices."
-  },
-  "Month": {
-    "title": "The Forge Codes February 2026: Monthly Trend, Active Flow, and Archive",
-    "description": "Monthly report for The Forge codes in February 2026 with trend analysis, active and expired patterns, redeem usage guidance, and daily archive links."
+  "HowToPlay": {
+    "title": "How to Play NYT Connections — Complete Guide",
+    "description": "Learn how to play the NYT Connections word puzzle. Rules, strategies, tips for finding groups, and common mistakes to avoid."
   },
   "Daily": {
-    "title": "The Forge Codes ({date}): Daily Auto-Collected Snapshot",
-    "description": "Daily snapshot page for the forge codes with auto-collected active and expired lists, redeem guidance, and source coverage."
-  },
-  "Submission": {
-    "badge": "Updates",
-    "title": "Submit a Source",
-    "description": "Share a reliable source for the forge codes and we may add it to our verification queue.",
-    "productNameLabel": "Source Name",
-    "productNamePlaceholder": "Official Discord / Creator post",
-    "productUrlLabel": "Source URL",
-    "submit": "Submit Source",
-    "submitting": "Submitting...",
-    "successMessage": "Thanks! Your source was received.",
-    "errorMessage": "Something went wrong. Please try again."
+    "title": "Connections Hint ({date}) — Puzzle #{id} Hints & Answer",
+    "description": "Hints and answers for NYT Connections Puzzle #{id} on {date}. Progressive clues for all four groups."
   },
   "HomePage": {
-    "sidebar": {
-      "liveHub": "Live Hub",
-      "history": "History",
-      "recentCodes": "Recent Codes",
-      "viewAllHistory": "View All History →",
-      "active": "active",
-      "expired": "expired"
-    },
     "hero": {
-      "openLiveHub": "Open Live The Forge Codes Hub",
-      "browseHistory": "Browse Code History",
-      "title": "The Forge Codes Homepage: Daily-Updated Strategy, Trends, and Redemption Guidance",
-      "description1": "This homepage is designed to rank for <strong>the forge codes</strong> and help users act fast. It combines keyword insights, redemption guidance, troubleshooting logic, and direct links to live and historical pages so visitors can find <strong>the forge codes</strong> they need without guessing where to start.",
-      "description2": "If you only need the latest list, open the live hub first. If you want the full strategy behind <strong>the forge codes</strong>, keep reading this page. It was intentionally expanded to a long-form pillar so it can capture both quick-intent users and deep-research users from Google."
+      "badge": "Puzzle #{id}",
+      "title": "Connections Hint Today",
+      "subtitle": "Get progressive hints for today's NYT Connections puzzle without spoiling the answer.",
+      "ctaHints": "Get Today's Hints",
+      "ctaArchive": "Browse Archive",
+      "countdown": "Next puzzle in"
     },
-    "quickPreview": {
-      "title": "Quick Active Preview",
-      "description": "Preview only. For full status, sources, and detailed updates, continue to the live <strong>the forge codes</strong> hub.",
-      "seeFullTables": "See full active and expired the forge codes tables"
-    },
-    "snapshot": {
-      "title": "Operational Snapshot",
-      "activeCodes": "Active Codes",
-      "expiredTracked": "Expired Tracked",
-      "latestSnapshot": "Latest Snapshot",
-      "avgSearch": "Avg Search"
-    },
-    "signalCards": [
-      { "label": "US Monthly Search", "value": "5.4K", "note": "Primary commercial region in your keyword screenshots." },
-      { "label": "Global Monthly Search", "value": "12.3K", "note": "Total head-term demand for the forge codes family." },
-      { "label": "Tracked Variations", "value": "141+", "note": "Strong synonym cluster such as the forge roblox codes." },
-      { "label": "Question Keywords", "value": "20+", "note": "Includes how to redeem, how to use, and where to put flows." }
+    "features": [
+      {
+        "title": "Progressive Hints",
+        "description": "Start with vague clues and reveal more specific hints only when you need them. Stay challenged."
+      },
+      {
+        "title": "All Four Groups",
+        "description": "Separate hints for yellow, green, blue, and purple categories so you can target where you're stuck."
+      },
+      {
+        "title": "Daily Updates",
+        "description": "New hints published every day as soon as the puzzle goes live. Never miss a day."
+      },
+      {
+        "title": "Full Archive",
+        "description": "Browse past puzzles, answers, and themes. Track your progress across hundreds of puzzles."
+      },
+      {
+        "title": "Spoiler-Free",
+        "description": "Hints are hidden behind reveal buttons so you never accidentally see the answer."
+      },
+      {
+        "title": "Strategy Tips",
+        "description": "Learn solving techniques, common patterns, and how to spot tricky connections."
+      }
     ],
-    "crafting": {
-      "title": "What You Can Get With The Forge Codes",
-      "description": "The Forge codes unlock rerolls, luck totems, boosts, gems, and crafting advantages. Below is the in-game crafting interface where you can use your rewards."
-    },
     "faq": {
-      "title": "Homepage FAQ For The Forge Codes",
-      "description": "These quick answers summarize the most frequent decisions users make before redeeming <strong>the forge codes</strong>."
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers about NYT Connections and how our hints work."
     },
     "faqItems": [
-      { "question": "Are these the forge codes guaranteed to work for every player?", "answer": "No code page can guarantee permanent validity. We publish the forge codes based on the latest collected signals, then move entries to expired when repeated checks fail." },
-      { "question": "How often should I check for new codes in the forge?", "answer": "Check at least once per day and after major game updates. The homepage and Recent Codes sidebar are designed for this quick repeat workflow." },
-      { "question": "What is the difference between the homepage and /the-forge-codes?", "answer": "The homepage is the long-form pillar and guidance layer. The /the-forge-codes page is the live operational list with deeper status tables and update logs." },
-      { "question": "Where do I find old the forge codes that stopped working?", "answer": "Use the history and date pages from the Recent Codes list. Keeping expired records prevents repeated failed attempts." },
-      { "question": "Do the forge roblox codes and the forge codes roblox mean different things?", "answer": "In practice they represent the same intent cluster. We cover both language variants to match how users search in the real world." },
-      { "question": "Can I rely only on one source for the forge codes?", "answer": "It is safer to use an aggregated source with timestamped updates. That is why this site keeps a daily snapshot system and visible recency indicators." }
-    ],
-    "sections": [
       {
-        "id": "the-forge-codes-2026",
-        "title": "The Forge Codes in 2026: Why This Keyword Matters",
-        "subsections": [
-          { "paragraphs": ["The forge codes is not a tiny niche phrase; it is a recurring intent cluster with clear user urgency. The headline query the forge codes has meaningful volume on its own, and the related variants the forge roblox codes, the forge codes roblox, codes for the forge, and new codes for the forge all sit close enough to be solved by one tightly structured content system. This is why the homepage acts as a ranking-ready pillar for the forge codes, summarizes the latest market signals, and funnels users into the live update pages without forcing extra clicks."] },
-          { "h3": "The Forge Roblox Codes and Related Search Variants", "paragraphs": ["The strongest takeaway from the keyword data is not only volume, but intent composition. Most terms around this query are informational with immediate action behavior. A user searching this term usually wants to redeem in the next minute. A user searching how to redeem codes in the forge is even closer to action. A user searching where to put codes in the forge is blocked by UI confusion and needs one exact answer. The right model is depth plus speed: prominent quick answers, then long-form support sections below.", "This keyword family has many lexical variants with similar intent. This matters because search engines often rotate which page wins for each variant, especially when one site uses only one phrase repeatedly without covering adjacent language. The homepage intentionally includes the forge codes, the forge roblox codes, the forge codes roblox, codes in the forge, new codes in the forge, and all codes in the forge in naturally placed headings and paragraphs. That pattern improves semantic coverage while keeping one canonical homepage URL as the topical anchor."] },
-          { "h3": "Why Fresh Codes for The Forge Outperform Static Lists", "paragraphs": ["Competition indicators imply that content freshness and internal authority both matter. Large domains can rank quickly with shorter pages, but a focused brand like theforgecodes can still compete by publishing clearer structure and better update hygiene. The homepage states verification timestamps, links to daily pages, and explains how the update cycle works. For the forge codes topic, users reward transparent recency. If they see when the list changed and where to check day-specific snapshots, they return. Returning users create repeat engagement signals that help the main page hold rankings longer."] }
-        ]
+        "question": "What is NYT Connections?",
+        "answer": "NYT Connections is a daily word puzzle by The New York Times. You are given 16 words and must sort them into four groups of four, each sharing a hidden connection. The groups are color-coded by difficulty: yellow (easiest), green, blue, and purple (hardest)."
       },
       {
-        "id": "how-to-redeem-codes-in-the-forge",
-        "title": "How to Redeem Codes in The Forge",
-        "subsections": [
-          { "paragraphs": ["The phrase how to redeem codes in the forge is a high-intent query cluster. The short answer is direct: open Roblox The Forge, find the in-game codes entry panel, paste one code exactly as shown, and redeem before it expires. The long answer needs failure safeguards. Tell users to avoid extra spaces, preserve capitalization, and redeem the newest code first to validate that their account and session are healthy. If the first high-confidence code fails, the issue is usually game version mismatch or UI location confusion rather than code status."] },
-          { "h3": "How to Enter Codes in The Forge Step by Step", "paragraphs": ["To avoid cannibalization, the homepage and the /the-forge-codes hub serve different jobs. The homepage is the strategic pillar: it explains the search landscape, teaches the redeem workflow, answers common failures, and routes users to live snapshots. The /the-forge-codes URL remains the operational list page with complete active and expired tables, timeline rows, and deep archives. When someone lands on the homepage from the forge codes query, the above-the-fold area should solve three questions fast: are there active codes now, when was the latest check, and where can I see today's detailed page."] },
-          { "h3": "Where to Put Codes in The Forge", "paragraphs": ["The phrase where to put codes in the forge deserves explicit visual language because this is where many first-time players fail. The exact target is the in-game redemption field, not Roblox catalog search, not group walls, and not off-site claim forms. Common UI labels include the gift icon or codes button. If the field does not appear after updates, rejoin a server. A section that solves where to put codes in the forge captures frustrated traffic that otherwise bounces to multiple competitor pages before finding one clear instruction."] },
-          { "h3": "How to Use Codes in The Forge for Rerolls and Rewards", "paragraphs": ["The phrase how to use codes in the forge sounds similar to how to redeem, but users asking it often want outcome context rather than only UI steps. Codes can unlock spins, resources, progression boosts, or event rewards depending on current game patches. Usage timing matters: new codes in the forge are usually most reliable right after update windows, then degrade as players redeem and events close. By explicitly connecting new entries to practical reward timing, the homepage becomes more helpful than pages that only repeat static lists without teaching when to act."] }
-        ]
+        "question": "How do the progressive hints work?",
+        "answer": "Each group has three hint levels. Level 1 gives a vague thematic clue. Level 2 narrows it down with a more specific hint. Level 3 reveals the category name. You choose how much help you want."
       },
       {
-        "id": "why-are-the-forge-codes-not-working",
-        "title": "Why Are The Forge Codes Not Working?",
-        "subsections": [
-          { "h3": "Common Reasons The Forge Codes Fail", "paragraphs": ["Major competitors rank for the forge codes because they have strong domain authority and broad game coverage. Their advantage is scale. The advantage of a dedicated tracker like theforgecodes is precision: cleaner layout, faster path to active entries, transparent daily archive, and focused topical depth. Instead of pretending every code is always working, the freshness model reminds users that codes can expire quickly. Transparent uncertainty builds more trust than overconfident claims, especially in fast-moving Roblox code cycles.", "A practical workflow closes the loop between content and action. First, users discover updates on the homepage. Second, they open the main list page for live status. Third, if redemption fails, they compare with today's date page and check whether a code was moved into expired. This is the biggest difference between a generic article and a truly useful platform that users bookmark and revisit."] },
-          { "h3": "How Long Do The Forge Codes Last", "paragraphs": ["Most the forge codes are time-limited. Some expire within days of release, while others last through entire update cycles. Weekend codes typically disappear by the following week. The homepage should explain what automation can and cannot guarantee. Automation helps discover candidate codes quickly, but individual rewards can still expire between fetch windows. This is not a weakness; it is normal behavior for game code ecosystems. Users should test top entries first, then consult the same-day page if a result fails. This guidance reduces frustration and keeps your audience aligned with how codes change in real time."] }
-        ]
+        "question": "When does the daily Connections puzzle reset?",
+        "answer": "A new NYT Connections puzzle is released every day at midnight Eastern Time (ET). Our hints are published shortly after."
       },
       {
-        "id": "what-codes-are-there-now-in-the-forge",
-        "title": "What Codes Are There Now in The Forge",
-        "subsections": [
-          { "h3": "Active The Forge Codes This Week", "paragraphs": ["A practical homepage structure for this niche looks like this: hero summary, keyword signal cards, active preview grid, redemption mini-guide, troubleshooting guide, editorial sections on update logic, and a right sidebar Recent Codes archive. This mirrors user behavior shown by top competitors but improves clarity. On competitor pages, users often scan a long article and still struggle to find historical links. On the homepage, the Recent Codes list remains visible while scrolling so visitors can jump to date pages immediately. That makes the forge codes journey faster and keeps internal linking strong.", "A second advantage is archive usability. Many users check these updates repeatedly but do not remember what changed since yesterday. A sticky Recent Codes sidebar solves this immediately by giving one-click access to date pages. When a code fails, users can inspect the previous two or three days and detect movement. This is practical value that improves satisfaction and lowers bounce. It also strengthens internal linking signals because each homepage session naturally opens multiple pages in this cluster."] },
-          { "h3": "When Does The Forge Release New Codes", "paragraphs": ["Most drops happen around game updates, events, and social milestones. The homepage carries broad intent and long-form explanations, while /the-forge-codes carries live tables, /the-forge-codes/yyyy-mm-dd carries daily snapshots, and /the-forge-codes/month-name-year carries monthly trend summaries. This layered architecture makes coverage deeper than a single page that gets overwritten daily. It also gives search engines stable URL purposes, reducing indexing confusion and helping each page rank for the most relevant part of the query family.", "The brand voice stays consistent: practical, direct, and timestamp-driven. Players searching the forge codes do not need hype text. They need confidence that the page is current and honest. Keep the copy factual, show last verified time, and maintain clear active versus expired separation. Over time, this consistency is how theforgecodes becomes a recognized destination, even when competing against larger general gaming publications."] }
-        ]
+        "question": "Is this site affiliated with The New York Times?",
+        "answer": "No. ConnectionsHint is an independent fan site. We provide hints and discussion to help players enjoy the puzzle. NYT Connections is a trademark of The New York Times Company."
       },
       {
-        "id": "how-the-forge-codes-stay-updated",
-        "title": "How The Forge Codes Stay Updated Every Day",
-        "subsections": [
-          { "h3": "Daily Snapshots and The Forge Beta Codes Tracking", "paragraphs": ["The infrastructure already supports scheduled updates. The data feed refreshes on a predictable cadence, snapshots are generated automatically, and each snapshot is published with a date route. This tells users why they can trust recency without checking social media constantly. For SEO, this also reinforces freshness signals by pairing textual promises with real date-based pages and sitemap updates that search engines can crawl.", "Every section must answer a specific intent cluster in the keyword map. If text does not help someone redeem faster, verify faster, or choose the correct page faster, it should be removed. This standard keeps the long-form format useful and prevents quality loss over time as you add new monthly and daily assets around the forge codes topic."] },
-          { "h3": "Monthly Archives: The Forge Codes February 2026 and Beyond", "paragraphs": ["Monthly summaries add another layer of value. Daily pages answer what changed today, while monthly pages explain trend behavior such as patch spikes, seasonal bursts, and keyword pattern shifts like the forge codes 2026 and the forge beta codes. The homepage links to the latest month summary so users can understand context, not just single-day noise. Context improves trust and encourages longer sessions, which supports both user retention and SEO quality for the forge codes ecosystem.", "Over time, this operating model creates a durable moat: homepage for strategy, hub for live action, daily pages for immutable history, and monthly pages for interpretation. This is exactly the structure needed to compete in a query space where the forge codes demand stays high but status changes quickly. The strongest sites in this niche are not only fast at publishing; they are fast at organizing information so users can decide correctly with minimal friction."] }
-        ]
+        "question": "Can I browse past puzzle answers?",
+        "answer": "Yes. Our archive page has every past puzzle organized by date, with full answers, group themes, and difficulty ratings."
+      },
+      {
+        "question": "What is the best strategy for solving Connections?",
+        "answer": "Start by looking for the easiest group (yellow). Scan all 16 words for obvious themes first. Beware of words that could fit multiple groups — the purple group often uses tricky wordplay or less obvious connections."
       }
-    ]
-  },
-  "HistoryPage": {
-    "heading": "The Forge Codes History",
-    "totalSnapshots": "Total snapshots",
-    "uniqueCodesTracked": "Unique codes tracked",
-    "latestSnapshot": "Latest snapshot",
-    "viewLiveCodes": "View Live Codes",
-    "february2026Summary": "February 2026 Summary",
-    "snapshotCount": "{count} snapshot",
-    "snapshotsCount": "{count} snapshots",
-    "latest": "Latest",
-    "active": "active",
-    "expired": "expired",
-    "viewDetails": "View Details →",
-    "showMore": "Show More",
-    "showLess": "Show Less"
-  },
-  "FaqPage": {
-    "heading": "The Forge Codes FAQ",
-    "coreFaq": "Core FAQ",
-    "failureChecklist": "Fast failure checklist"
-  },
-  "DailyPage": {
-    "dailySnapshot": "Daily snapshot",
-    "activeCodes": "Active codes",
-    "expiredCodes": "Expired codes",
-    "updateLog": "Update Log",
-    "added": "Added",
-    "expired": "Expired",
-    "retested": "Retested",
-    "ok": "ok",
-    "fetchError": "fetch-error"
-  },
-  "MonthPage": {
-    "monthlyArchive": "Monthly archive",
-    "monthlyOverview": "Monthly Overview",
-    "snapshotDays": "Snapshot days",
-    "uniqueActive": "Unique active",
-    "uniqueExpired": "Unique expired",
-    "peakUpdateDay": "Peak update day",
-    "weeklyTrend": "Weekly Trend Breakdown",
-    "monthlyPlaybook": "Monthly Playbook",
-    "changeLog": "February Change Log",
-    "added": "Added",
-    "expired": "Expired",
-    "retested": "Retested",
-    "snapshots": "snapshot(s)",
-    "active": "active",
-    "expiredLabel": "expired",
-    "addedLabel": "added",
-    "expiredEvents": "expired events"
+    ],
+    "recentPuzzles": {
+      "title": "Recent Puzzles",
+      "viewAll": "View All Puzzles →"
+    }
   }
 }

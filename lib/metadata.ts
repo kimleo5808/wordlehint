@@ -26,19 +26,15 @@ export async function constructMetadata({
   path,
   canonicalUrl,
 }: MetadataProps): Promise<Metadata> {
-  // get translations
   const t = await getTranslations({ locale, namespace: 'Home' })
 
-  // get page specific metadata translations
   const pageTitle = title || t(`title`)
   const pageDescription = description || t(`description`)
 
-  // build full title
   const finalTitle = page === 'Home'
     ? `${pageTitle} - ${t('tagLine')}`
     : `${pageTitle} | ${t('title')}`
 
-  // build image URLs
   const imageUrls = images.length > 0
     ? images.map(img => ({
       url: img.startsWith('http') ? img : `${siteConfig.url}/${img}`,
@@ -49,11 +45,9 @@ export async function constructMetadata({
       alt: pageTitle,
     }]
 
-  // Open Graph Site
   const localizedPath = `${locale === DEFAULT_LOCALE ? '' : `/${locale}`}${path || ''}`
   const pageURL = `${siteConfig.url}${localizedPath}`
 
-  // build alternate language links
   const alternateLanguages = Object.keys(LOCALE_NAMES).reduce((acc, lang) => {
     const path = canonicalUrl
       ? `${lang === DEFAULT_LOCALE ? '' : `/${lang}`}${canonicalUrl === '/' ? '' : canonicalUrl}`
@@ -67,8 +61,9 @@ export async function constructMetadata({
     title: finalTitle,
     description: pageDescription,
     keywords: keywords.length > 0 ? keywords : [
-      'the forge codes', 'the forge roblox codes', 'roblox the forge codes',
-      'the forge codes 2026', 'codes for the forge',
+      'connections hint', 'connections hint today', 'nyt connections hint',
+      'connections answers today', 'nyt connections answers',
+      'connections puzzle', 'connections game help',
     ],
     authors: siteConfig.authors,
     creator: siteConfig.creator,

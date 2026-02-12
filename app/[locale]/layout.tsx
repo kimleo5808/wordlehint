@@ -1,10 +1,8 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAdsense from "@/app/GoogleAdsense";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
 import PlausibleAnalytics from "@/app/PlausibleAnalytics";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import { LanguageDetectionAlert } from "@/components/LanguageDetectionAlert";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
 import { siteConfig } from "@/config/site";
 import { DEFAULT_LOCALE, Locale, routing } from "@/i18n/routing";
@@ -13,21 +11,29 @@ import { JsonLd, websiteSchema } from "@/lib/jsonld";
 import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
-import { Russo_One, Chakra_Petch } from "next/font/google";
+import { Outfit, DM_Sans, JetBrains_Mono } from "next/font/google";
 
-const russoOne = Russo_One({
-  weight: "400",
+const outfit = Outfit({
+  weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--font-heading",
   display: "swap",
 });
 
-const chakraPetch = Chakra_Petch({
+const dmSans = DM_Sans({
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
 });
+
+const jetbrainsMono = JetBrains_Mono({
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+  variable: "--font-mono-code",
+  display: "swap",
+});
+
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -72,15 +78,12 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  // Ensure that the incoming `locale` is valid
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   setRequestLocale(locale);
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
@@ -91,8 +94,9 @@ export default async function LocaleLayout({
       <body
         className={cn(
           "min-h-screen bg-background flex flex-col antialiased",
-          russoOne.variable,
-          chakraPetch.variable,
+          outfit.variable,
+          dmSans.variable,
+          jetbrainsMono.variable,
           "font-body"
         )}
       >
@@ -102,7 +106,6 @@ export default async function LocaleLayout({
             defaultTheme={siteConfig.defaultNextTheme}
             enableSystem
           >
-            {messages.LanguageDetection && <LanguageDetectionAlert />}
             {messages.Header && <Header />}
 
             <main className="flex-1 flex flex-col items-center">
@@ -118,7 +121,6 @@ export default async function LocaleLayout({
         ) : (
           <>
             <Analytics />
-            <BaiDuAnalytics />
             <GoogleAnalytics />
             <GoogleAdsense />
             <PlausibleAnalytics />

@@ -1,119 +1,39 @@
-import { forgeRecentSnapshots, forgeSiteFacts } from "@/lib/forge-data";
+import { PuzzleCardCompact } from "@/components/connections/PuzzleCard";
+import { getLatestPuzzle, getRecentPuzzles } from "@/lib/connections-data";
+import dayjs from "dayjs";
 import {
   ArrowRight,
-  CalendarClock,
   ChevronDown,
-  CircleDot,
-  Flame,
-  Gift,
-  ListChecks,
-  SearchCheck,
-  Zap,
+  Clock,
+  Eye,
+  Grid3X3,
+  Lightbulb,
+  Puzzle,
+  Search,
+  Shield,
+  Sparkles,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 
-const latestSnapshot = forgeRecentSnapshots[0];
-const latestActivePreview = (latestSnapshot?.activeCodes ?? []).slice(0, 8);
+const GROUP_COLORS = [
+  { name: "Yellow", bg: "bg-yellow-400", text: "text-yellow-900", border: "border-yellow-400" },
+  { name: "Green", bg: "bg-emerald-500", text: "text-white", border: "border-emerald-500" },
+  { name: "Blue", bg: "bg-blue-400", text: "text-white", border: "border-blue-400" },
+  { name: "Purple", bg: "bg-purple-500", text: "text-white", border: "border-purple-500" },
+];
 
-/* keywordSignalCards moved to translation files: HomePage.signalCards */
-
-/* homepageSections and faqItems moved to translation files: HomePage.sections / HomePage.faqItems */
-
-type RecentListProps = {
-  currentDate?: string;
-  labels: {
-    liveHub: string;
-    history: string;
-    recentCodes: string;
-    viewAllHistory: string;
-    active: string;
-    expired: string;
-  };
-  locale: string;
-};
-
-function formatRecentDate(dateText: string, locale: string) {
-  const date = new Date(`${dateText}T00:00:00Z`);
-  if (Number.isNaN(date.getTime())) {
-    return dateText;
-  }
-
-  const localeMap: Record<string, string> = { en: "en-US", zh: "zh-CN", ja: "ja-JP" };
-  return date.toLocaleDateString(localeMap[locale] || "en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "UTC",
-  });
-}
-
-function RecentCodesList({ currentDate, labels, locale }: RecentListProps) {
-  return (
-    <aside className="overflow-hidden rounded-2xl border border-indigo-100 bg-white shadow-lg dark:border-indigo-900/40 dark:bg-slate-950">
-      <div className="grid grid-cols-2 gap-2 p-4">
-        <Link
-          href="/the-forge-codes"
-          className="rounded-lg bg-indigo-600 px-3 py-2.5 text-center text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-indigo-700"
-        >
-          {labels.liveHub}
-        </Link>
-        <Link
-          href="/the-forge-codes-history"
-          className="rounded-lg bg-violet-600 px-3 py-2.5 text-center text-xs font-bold uppercase tracking-wide text-white transition-colors hover:bg-violet-700"
-        >
-          {labels.history}
-        </Link>
-      </div>
-
-      <div className="px-4 pb-2">
-        <h2 className="font-heading text-2xl text-slate-900 dark:text-slate-100">
-          {labels.recentCodes}
-        </h2>
-      </div>
-
-      <div className="border-t border-indigo-100 dark:border-indigo-900/50">
-        {forgeRecentSnapshots.slice(0, 7).map((item) => (
-          <Link
-            key={item.date}
-            href={`/the-forge-codes/${item.date}`}
-            className={`block border-b border-indigo-50 px-4 py-3 text-sm transition-colors last:border-b-0 dark:border-indigo-900/30 ${
-              currentDate === item.date
-                ? "bg-indigo-50 font-semibold text-indigo-900 dark:bg-indigo-900/30 dark:text-indigo-200"
-                : "text-slate-700 hover:bg-indigo-50/60 dark:text-slate-300 dark:hover:bg-indigo-900/10"
-            }`}
-          >
-            <p>The Forge Codes ({formatRecentDate(item.date, locale)})</p>
-            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-              <span className="font-semibold text-emerald-600 dark:text-emerald-400">{item.activeCodes.length}</span> {labels.active} |{" "}
-              <span className="font-semibold text-red-500">{item.expiredCodes.length}</span> {labels.expired}
-            </p>
-          </Link>
-        ))}
-      </div>
-
-      <div className="border-t border-indigo-100 px-4 py-3 dark:border-indigo-900/50">
-        <Link
-          href="/the-forge-codes-history"
-          className="flex items-center justify-center gap-1 text-sm font-semibold text-indigo-600 transition-colors hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
-        >
-          {labels.viewAllHistory}
-        </Link>
-      </div>
-    </aside>
-  );
-}
+const FEATURE_ICONS = [Lightbulb, Grid3X3, Clock, Puzzle, Shield, Sparkles];
 
 function FaqAccordionItem({ question, answer }: { question: string; answer: string }) {
   return (
-    <details className="group rounded-xl border border-indigo-100 transition-colors open:bg-indigo-50/40 dark:border-indigo-900/40 dark:open:bg-indigo-900/10">
-      <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-slate-900 transition-colors hover:text-indigo-700 dark:text-slate-100 dark:hover:text-indigo-400 [&::-webkit-details-marker]:hidden">
+    <details className="group rounded-xl border border-purple-100 transition-colors open:bg-purple-50/40 dark:border-purple-900/40 dark:open:bg-purple-900/10">
+      <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-foreground transition-colors hover:text-purple-700 dark:hover:text-purple-400 [&::-webkit-details-marker]:hidden">
         <h3 className="text-[0.95rem] leading-snug">{question}</h3>
-        <ChevronDown className="h-4 w-4 shrink-0 text-indigo-400 transition-transform group-open:rotate-180" />
+        <ChevronDown className="h-4 w-4 shrink-0 text-purple-400 transition-transform group-open:rotate-180" />
       </summary>
       <div className="px-5 pb-4">
-        <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+        <p className="text-sm leading-relaxed text-muted-foreground">
           {answer}
         </p>
       </div>
@@ -123,275 +43,197 @@ function FaqAccordionItem({ question, answer }: { question: string; answer: stri
 
 export default async function HomeComponent() {
   const t = await getTranslations("HomePage");
-  const locale = await getLocale();
+  const latestPuzzle = await getLatestPuzzle();
+  const recentPuzzles = await getRecentPuzzles(7);
+
+  const todayDate = latestPuzzle
+    ? dayjs(latestPuzzle.date).format("MMMM D, YYYY")
+    : "";
+
   return (
-    <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_340px] lg:items-start">
-        <div className="flex flex-col gap-8">
-          {/* Hero */}
-          <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-50 via-white to-violet-50 p-8 shadow-md dark:from-slate-900 dark:via-slate-900 dark:to-indigo-950/50">
-            <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-indigo-200/30 blur-3xl dark:bg-indigo-600/10" />
-            <div className="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-violet-200/30 blur-3xl dark:bg-violet-600/10" />
+    <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+      <div className="flex flex-col gap-10">
+        {/* Hero */}
+        <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-50 via-white to-violet-50 p-8 sm:p-12 shadow-md dark:from-zinc-900 dark:via-zinc-900 dark:to-purple-950/30">
+          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-purple-200/30 blur-3xl dark:bg-purple-600/10" />
+          <div className="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-violet-200/30 blur-3xl dark:bg-violet-600/10" />
 
-            <div className="relative">
-              <p className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-indigo-700 dark:border-indigo-800 dark:bg-slate-900/80 dark:text-indigo-300">
-                <Flame className="h-3.5 w-3.5" />
-                theforgecodes.app
-              </p>
-              <h1 className="mt-4 max-w-4xl font-heading text-4xl tracking-tight text-slate-900 dark:text-slate-100 sm:text-5xl">
-                {t("hero.title")}
-              </h1>
-              <p
-                className="mt-4 max-w-3xl text-lg leading-8 text-slate-600 dark:text-slate-300 [&_strong]:text-slate-800 dark:[&_strong]:text-slate-100"
-                dangerouslySetInnerHTML={{ __html: t("hero.description1") }}
-              />
-              <p
-                className="mt-3 max-w-3xl text-base leading-7 text-slate-600 dark:text-slate-300 [&_strong]:text-slate-800 dark:[&_strong]:text-slate-100"
-                dangerouslySetInnerHTML={{ __html: t("hero.description2") }}
-              />
-
-              <div className="mt-6 overflow-hidden rounded-2xl border border-indigo-100 dark:border-indigo-900/40">
-                <Image
-                  src="/images/the-forge-roblox-official-artwork.jpg"
-                  alt="The Forge Roblox game official artwork showing a blacksmith forging weapons with sparks and the game logo"
-                  width={960}
-                  height={540}
-                  className="w-full object-cover"
-                  priority
-                />
-              </div>
-
-              <div className="mt-7 flex flex-wrap gap-3">
-                <Link
-                  href="/the-forge-codes"
-                  className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-orange-500 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-orange-500/30"
-                >
-                  <span className="relative z-10 flex items-center gap-2">
-                    {t("hero.openLiveHub")}
-                    <ArrowRight className="h-4 w-4" />
-                  </span>
-                  <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
-                </Link>
-                <Link
-                  href="/the-forge-codes-history"
-                  className="inline-flex items-center gap-2 rounded-xl border-2 border-indigo-200 bg-white px-5 py-3 text-sm font-semibold text-indigo-700 transition-all hover:border-indigo-300 hover:bg-indigo-50 dark:border-indigo-800 dark:bg-slate-900 dark:text-indigo-300 dark:hover:bg-indigo-950/50"
-                >
-                  {t("hero.browseHistory")}
-                  <ListChecks className="h-4 w-4" />
-                </Link>
-              </div>
-            </div>
-          </section>
-
-          {/* Keyword Signal Cards */}
-          <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[0, 1, 2, 3].map((index) => (
-              <article
-                key={index}
-                className="rounded-2xl border-l-4 border-l-indigo-500 border-t border-r border-b border-t-slate-100 border-r-slate-100 border-b-slate-100 bg-white p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md dark:border-t-slate-800 dark:border-r-slate-800 dark:border-b-slate-800 dark:bg-slate-950"
-              >
-                <p className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-500 dark:text-slate-400">
-                  {t(`signalCards.${index}.label`)}
-                </p>
-                <p className="mt-1 font-heading text-3xl text-indigo-600 dark:text-indigo-400">
-                  {t(`signalCards.${index}.value`)}
-                </p>
-                <p className="mt-2 text-sm leading-relaxed text-slate-500 dark:text-slate-400">
-                  {t(`signalCards.${index}.note`)}
-                </p>
-              </article>
-            ))}
-          </section>
-
-          {/* Quick Active Preview */}
-          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
-              <Gift className="h-5 w-5 text-indigo-500" />
-              {t("quickPreview.title")}
-            </h2>
-            <p className="mt-2 text-slate-500 dark:text-slate-400" dangerouslySetInnerHTML={{ __html: t("quickPreview.description") }}>
-
-            </p>
-
-            <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {latestActivePreview.map((item) => (
-                <div
-                  key={item.code}
-                  className="group rounded-xl border border-slate-100 bg-slate-50/50 p-4 transition-all hover:-translate-y-0.5 hover:border-indigo-200 hover:shadow-md dark:border-slate-800 dark:bg-slate-900/50 dark:hover:border-indigo-800"
-                >
-                  <div className="flex items-center gap-2">
-                    <CircleDot className="h-3 w-3 text-emerald-500" />
-                    <p className="font-mono text-sm font-bold text-indigo-700 dark:text-indigo-300">
-                      {item.code}
-                    </p>
-                  </div>
-                  <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
-                    {item.reward}
-                  </p>
-                </div>
+          <div className="relative text-center max-w-3xl mx-auto">
+            {/* Color dots */}
+            <div className="flex items-center justify-center gap-2 mb-6">
+              {GROUP_COLORS.map((color) => (
+                <span key={color.name} className={`h-3 w-3 rounded-full ${color.bg}`} />
               ))}
             </div>
 
-            <div className="mt-6">
+            {latestPuzzle && (
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold text-purple-700 dark:bg-purple-900/40 dark:text-purple-300">
+                <Clock className="h-3 w-3" />
+                Puzzle #{latestPuzzle.id} · {todayDate}
+              </div>
+            )}
+
+            <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
+              {t("hero.title")}
+            </h1>
+            <p className="mt-4 text-lg leading-8 text-muted-foreground sm:text-xl">
+              {t("hero.subtitle")}
+            </p>
+
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Link
-                href="/the-forge-codes"
-                className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-600 transition-colors hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300"
+                href="/connections-hint-today"
+                className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-purple-600 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-purple-500/25 transition-all hover:bg-purple-700 hover:shadow-purple-500/30"
               >
-                {t("quickPreview.seeFullTables")}
-                <ArrowRight className="h-4 w-4" />
+                <span className="relative z-10 flex items-center gap-2">
+                  {t("hero.ctaHints")}
+                  <ArrowRight className="h-4 w-4" />
+                </span>
+                <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
+              </Link>
+              <Link
+                href="/connections-hint-archive"
+                className="inline-flex items-center gap-2 rounded-xl border-2 border-purple-200 bg-white px-6 py-3.5 text-sm font-semibold text-purple-700 transition-all hover:border-purple-300 hover:bg-purple-50 dark:border-purple-800 dark:bg-zinc-900 dark:text-purple-300 dark:hover:bg-purple-950/50"
+              >
+                {t("hero.ctaArchive")}
+                <Search className="h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Today's Preview + Recent Sidebar */}
+        {latestPuzzle && (
+          <section className="flex flex-col gap-6 lg:flex-row">
+            {/* Today's preview card */}
+            <div className="flex-1 rounded-2xl border border-border bg-card p-6 shadow-sm">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="flex items-center gap-2 font-heading text-xl font-bold text-foreground">
+                  <Eye className="h-5 w-5 text-purple-500" />
+                  Today&apos;s Puzzle Preview
+                </h2>
+                <Link
+                  href="/connections-hint-today"
+                  className="text-xs font-medium text-purple-600 hover:text-purple-700 transition-colors dark:text-purple-400"
+                >
+                  Get Hints →
+                </Link>
+              </div>
+
+              {/* Scrambled word grid */}
+              <div className="grid grid-cols-4 gap-1.5 sm:gap-2">
+                {[...latestPuzzle.answers.flatMap((g) => g.members)]
+                  .sort(() => 0.5 - Math.random())
+                  .map((word) => (
+                    <div
+                      key={word}
+                      className="flex items-center justify-center rounded-lg bg-zinc-100 px-1 py-3 sm:py-4 text-center font-mono text-[0.6rem] sm:text-xs font-bold uppercase tracking-wide text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200"
+                    >
+                      {word}
+                    </div>
+                  ))}
+              </div>
+
+              <div className="mt-4 flex items-center justify-center gap-3">
+                {GROUP_COLORS.map((color) => (
+                  <div key={color.name} className="flex items-center gap-1">
+                    <span className={`h-2 w-2 rounded-full ${color.bg}`} />
+                    <span className="text-[0.65rem] text-muted-foreground">{color.name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Recent puzzles sidebar */}
+            <div className="w-full lg:w-72 shrink-0 rounded-2xl border border-border bg-card p-4 shadow-sm">
+              <h3 className="flex items-center gap-2 font-heading text-sm font-bold text-foreground">
+                <Clock className="h-4 w-4 text-purple-500" />
+                {t("recentPuzzles.title")}
+              </h3>
+              <div className="mt-3 divide-y divide-border">
+                {recentPuzzles.slice(0, 7).map((p) => (
+                  <PuzzleCardCompact key={p.date} puzzle={p} />
+                ))}
+              </div>
+              <Link
+                href="/connections-hint-archive"
+                className="mt-3 block text-center text-xs font-medium text-purple-600 hover:text-purple-700 transition-colors dark:text-purple-400"
+              >
+                {t("recentPuzzles.viewAll")}
               </Link>
             </div>
           </section>
+        )}
 
-          {/* Operational Snapshot */}
-          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
-              <CalendarClock className="h-5 w-5 text-indigo-500" />
-              {t("snapshot.title")}
-            </h2>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  {t("snapshot.activeCodes")}
-                </p>
-                <p className="mt-1 font-heading text-3xl text-emerald-600 dark:text-emerald-400">
-                  {forgeSiteFacts.activeCount}
-                </p>
-              </article>
-              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  {t("snapshot.expiredTracked")}
-                </p>
-                <p className="mt-1 font-heading text-3xl text-red-500">
-                  {forgeSiteFacts.expiredCount}
-                </p>
-              </article>
-              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  {t("snapshot.latestSnapshot")}
-                </p>
-                <p className="mt-1 font-heading text-3xl text-indigo-600 dark:text-indigo-400">
-                  {forgeSiteFacts.latestSnapshotDate}
-                </p>
-              </article>
-              <article className="rounded-xl border border-slate-100 p-4 dark:border-slate-800">
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  {t("snapshot.avgSearch")}
-                </p>
-                <p className="mt-1 font-heading text-3xl text-violet-600 dark:text-violet-400">
-                  {forgeSiteFacts.monthlySearchEstimate}
-                </p>
-              </article>
+        {/* How It Works: 4 Color Groups */}
+        <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {GROUP_COLORS.map((color, i) => (
+            <div
+              key={color.name}
+              className={`rounded-2xl border-l-4 ${color.border} border-t border-r border-b border-t-border border-r-border border-b-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md`}
+            >
+              <div className={`inline-flex h-8 w-8 items-center justify-center rounded-lg ${color.bg} ${color.text} text-sm font-bold`}>
+                {i + 1}
+              </div>
+              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+                {color.name} Group
+              </p>
+              <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                {i === 0 && "Straightforward — the most obvious connections"}
+                {i === 1 && "Moderate — requires a bit more thought"}
+                {i === 2 && "Tricky — connections are less obvious"}
+                {i === 3 && "Hardest — wordplay, puns, or abstract links"}
+              </p>
             </div>
-          </section>
+          ))}
+        </section>
 
-          {/* SEO Content Sections */}
-          {[0, 1, 2, 3, 4].map((sectionIndex) => {
-            const sectionId = t(`sections.${sectionIndex}.id`);
-            const subsectionKeys = sectionIndex === 0 ? [0, 1, 2] : sectionIndex === 1 ? [0, 1, 2, 3] : [0, 1];
-            return (
-              <section
-                key={sectionId}
-                id={sectionId}
-                className={`rounded-2xl border border-slate-100 p-6 shadow-sm dark:border-slate-800 ${
-                  sectionIndex % 2 === 0
-                    ? "bg-white dark:bg-slate-950"
-                    : "bg-slate-50/70 dark:bg-slate-900/50"
-                }`}
-              >
-                <h2 className="border-l-4 border-indigo-500 pl-4 font-heading text-2xl text-slate-900 dark:text-slate-100">
-                  {t(`sections.${sectionIndex}.title`)}
-                </h2>
-                <div className="mt-5 space-y-5">
-                  {subsectionKeys.map((si) => {
-                    const h3Key = `sections.${sectionIndex}.subsections.${si}.h3`;
-                    const h3Text = t.has(h3Key) ? t(h3Key) : null;
-                    return (
-                      <div key={si}>
-                        {h3Text && (
-                          <h3 className="mb-3 text-lg font-bold text-indigo-700 dark:text-indigo-400">
-                            {h3Text}
-                          </h3>
-                        )}
-                        {(() => {
-                          const paragraphs: string[] = [];
-                          for (let pi = 0; pi < 5; pi++) {
-                            const pKey = `sections.${sectionIndex}.subsections.${si}.paragraphs.${pi}`;
-                            if (t.has(pKey)) paragraphs.push(t(pKey));
-                            else break;
-                          }
-                          return paragraphs.map((paragraph, pi) => (
-                            <p
-                              key={pi}
-                              className="mt-3 text-[0.95rem] leading-relaxed text-slate-600 first:mt-0 dark:text-slate-300"
-                            >
-                              {paragraph}
-                            </p>
-                          ));
-                        })()}
-                      </div>
-                    );
-                  })}
-                </div>
-              </section>
-            );
-          })}
-
-          {/* Crafting UI Preview */}
-          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
-              <Zap className="h-5 w-5 text-indigo-500" />
-              {t("crafting.title")}
-            </h2>
-            <p className="mt-2 text-slate-500 dark:text-slate-400">
-              {t("crafting.description")}
-            </p>
-            <div className="mt-5 overflow-hidden rounded-xl border border-indigo-100 dark:border-indigo-900/40">
-              <Image
-                src="/images/the-forge-crafting-interface.webp"
-                alt="The Forge crafting interface showing Knight Leggings item with masterwork percentage, materials, defense stats, and price"
-                width={800}
-                height={450}
-                className="w-full object-cover"
-              />
-            </div>
-          </section>
-
-          {/* FAQ Accordion */}
-          <section className="rounded-2xl border border-slate-100 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-950">
-            <h2 className="flex items-center gap-2 font-heading text-2xl text-slate-900 dark:text-slate-100">
-              <SearchCheck className="h-5 w-5 text-indigo-500" />
-              {t("faq.title")}
-            </h2>
-            <p className="mt-2 text-slate-500 dark:text-slate-400" dangerouslySetInnerHTML={{ __html: t("faq.description") }}>
-
-            </p>
-            <div className="mt-5 flex flex-col gap-3">
-              {[0, 1, 2, 3, 4, 5].map((index) => (
-                <FaqAccordionItem
+        {/* Features Grid */}
+        <section className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
+          <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl">
+            Why Use ConnectionsHint?
+          </h2>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {[0, 1, 2, 3, 4, 5].map((index) => {
+              const Icon = FEATURE_ICONS[index];
+              return (
+                <div
                   key={index}
-                  question={t(`faqItems.${index}.question`)}
-                  answer={t(`faqItems.${index}.answer`)}
-                />
-              ))}
-            </div>
-          </section>
-        </div>
+                  className="group rounded-xl border border-border bg-background p-5 transition-all hover:-translate-y-0.5 hover:border-purple-200 hover:shadow-md dark:hover:border-purple-800"
+                >
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100 text-purple-600 transition-transform group-hover:scale-110 dark:bg-purple-900/30 dark:text-purple-400">
+                    <Icon className="h-5 w-5" />
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold text-foreground">
+                    {t(`features.${index}.title`)}
+                  </h3>
+                  <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    {t(`features.${index}.description`)}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
 
-        {/* Sidebar */}
-        <div className="lg:sticky lg:top-20">
-          <RecentCodesList
-            locale={locale}
-            labels={{
-              liveHub: t("sidebar.liveHub"),
-              history: t("sidebar.history"),
-              recentCodes: t("sidebar.recentCodes"),
-              viewAllHistory: t("sidebar.viewAllHistory"),
-              active: t("sidebar.active"),
-              expired: t("sidebar.expired"),
-            }}
-          />
-        </div>
+        {/* FAQ Accordion */}
+        <section className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
+          <h2 className="font-heading text-2xl font-bold text-foreground">
+            {t("faq.title")}
+          </h2>
+          <p className="mt-2 text-muted-foreground">
+            {t("faq.description")}
+          </p>
+          <div className="mt-6 flex flex-col gap-3">
+            {[0, 1, 2, 3, 4, 5].map((index) => (
+              <FaqAccordionItem
+                key={index}
+                question={t(`faqItems.${index}.question`)}
+                answer={t(`faqItems.${index}.answer`)}
+              />
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );

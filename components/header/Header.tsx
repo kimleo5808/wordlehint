@@ -1,33 +1,24 @@
 import HeaderLinks from "@/components/header/HeaderLinks";
 import MobileMenu from "@/components/header/MobileMenu";
-import LocaleSwitcher from "@/components/LocaleSwitcher";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { siteConfig } from "@/config/site";
 import { Link as I18nLink } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 
 const Header = () => {
   const t = useTranslations("Home");
 
   return (
-    <header className="py-2 px-6 backdrop-blur-md bg-white/80 dark:bg-slate-950/80 border-b border-indigo-100 dark:border-indigo-900/40 sticky top-0 z-50">
+    <header className="py-2 px-6 backdrop-blur-md bg-white/80 dark:bg-zinc-950/80 border-b border-purple-100 dark:border-purple-900/40 sticky top-0 z-50">
       <nav className="flex justify-between items-center w-full max-w-6xl mx-auto">
         <div className="flex items-center space-x-6 md:space-x-12">
           <I18nLink
             href="/"
             prefetch={false}
-            className="flex items-center space-x-1 font-bold"
+            className="flex items-center space-x-2 font-bold"
           >
-            <Image
-              alt={siteConfig.name}
-              src="/logo.svg"
-              className="w-6 h-6"
-              width={32}
-              height={32}
-            />
-            <span className="font-heading text-slate-900 dark:text-slate-100">
-              {t("title")}
+            <span className="text-lg font-heading font-bold bg-gradient-to-r from-purple-600 to-violet-500 bg-clip-text text-transparent">
+              {siteConfig.name}
             </span>
           </I18nLink>
           <HeaderLinks />
@@ -36,7 +27,6 @@ const Header = () => {
         <div className="flex items-center gap-x-2 md:gap-x-4 lg:gap-x-6 flex-1 justify-end">
           {/* PC */}
           <div className="hidden md:flex items-center gap-x-4">
-            <LocaleSwitcher />
             <ThemeToggle />
           </div>
 

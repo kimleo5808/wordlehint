@@ -21,11 +21,11 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "theforgecodes",
+    name: "ConnectionsHint",
     url: BASE_URL,
     description:
-      "Daily verified The Forge Roblox code tracker with active and expired codes, timestamps, redeem steps, and troubleshooting.",
-    inLanguage: ["en", "zh", "ja"],
+      "Daily hints and answers for NYT Connections puzzle with progressive clues, full archive, and strategy tips.",
+    inLanguage: "en",
   };
 }
 
@@ -122,12 +122,12 @@ export function articleSchema({
     dateModified: dateModified || datePublished,
     author: {
       "@type": "Organization",
-      name: "theforgecodes",
+      name: "ConnectionsHint",
       url: BASE_URL,
     },
     publisher: {
       "@type": "Organization",
-      name: "theforgecodes",
+      name: "ConnectionsHint",
       url: BASE_URL,
       logo: {
         "@type": "ImageObject",

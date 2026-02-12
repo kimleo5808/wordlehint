@@ -1,29 +1,29 @@
 import { SiteConfig } from "@/types/siteConfig";
 
 export const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://theforgecodes.app";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://connectionshint.app";
 
 export const siteConfig: SiteConfig = {
-  name: "theforgecodes",
-  tagLine: "Daily verified The Forge Roblox code tracker",
+  name: "ConnectionsHint",
+  tagLine: "Daily hints and answers for NYT Connections puzzle",
   description:
-    "Find active and expired the forge codes with daily verification, timestamps, redeem instructions, and troubleshooting.",
+    "Get today's NYT Connections hints, answers, and archive. Progressive clues for all four groups with daily puzzle tracking.",
   url: BASE_URL,
   authors: [
     {
-      name: "theforgecodes",
-      url: "https://theforgecodes.app",
+      name: "ConnectionsHint",
+      url: "https://connectionshint.app",
     },
   ],
-  creator: "@theforgecodes",
+  creator: "@connectionshint",
   themeColors: [
-    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
-    { media: "(prefers-color-scheme: dark)", color: "#020817" },
+    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0b" },
   ],
-  defaultNextTheme: "system", // next-theme option: system | dark | light
+  defaultNextTheme: "system",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/logo.png",
-    apple: "/logo.png", // apple-touch-icon.png
+    apple: "/logo.png",
   },
 };

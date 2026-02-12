@@ -22,8 +22,8 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     keywords: [
-      "the forge codes blog", "the forge roblox blog", "roblox the forge news",
-      "the forge codes updates", "the forge tips and guides",
+      "connections tips", "nyt connections strategy", "connections puzzle guide",
+      "connections hints blog", "word puzzle tips",
     ],
     locale: locale as Locale,
     path: `/blog`,
