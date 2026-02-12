@@ -615,7 +615,7 @@ export async function generateStaticParams() {
   const params: { locale: string; date: string }[] = [];
 
   for (const locale of LOCALES) {
-    for (const puzzle of allPuzzles.slice(0, 200)) {
+    for (const puzzle of allPuzzles.slice(0, 60)) {
       params.push({ locale, date: puzzle.date });
     }
   }
