@@ -71,8 +71,8 @@ const DIFFICULTY_GROUPS = [
   },
   {
     color: "Purple",
-    bg: "bg-purple-500",
-    textBg: "bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300",
+    bg: "bg-blue-500",
+    textBg: "bg-blue-100 text-purple-800 dark:bg-blue-900/40 dark:text-purple-300",
     label: "Challenging",
     description:
       "The hardest category. Often involves wordplay, puns, hidden patterns, or abstract connections. This is where most mistakes happen.",
@@ -134,13 +134,13 @@ export default async function HowToPlayPage({ params }: { params: Params }) {
       />
 
       {/* Header */}
-      <header className="relative overflow-hidden rounded-2xl border border-purple-200/70 bg-gradient-to-br from-purple-50 via-white to-violet-50 p-6 sm:p-8 dark:border-purple-900/40 dark:from-zinc-900 dark:via-zinc-900 dark:to-purple-950/30">
-        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-purple-200/30 blur-3xl" />
-        <div className="pointer-events-none absolute -bottom-12 -left-12 h-36 w-36 rounded-full bg-violet-200/30 blur-3xl" />
+      <header className="relative overflow-hidden rounded-2xl border border-blue-200/70 bg-gradient-to-br from-blue-50 via-white to-blue-50 p-6 sm:p-8 dark:border-blue-900/40 dark:from-zinc-900 dark:via-zinc-900 dark:to-blue-950/30">
+        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-blue-200/30 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-12 -left-12 h-36 w-36 rounded-full bg-blue-200/20 blur-3xl" />
         <div className="relative">
           <div className="flex items-center gap-2">
-            <BookOpen className="h-5 w-5 text-purple-500" />
-            <span className="text-sm font-medium text-purple-600 dark:text-purple-400">
+            <BookOpen className="h-5 w-5 text-blue-500" />
+            <span className="text-sm font-medium text-blue-600 dark:text-blue-400">
               Guide
             </span>
           </div>
@@ -158,7 +158,7 @@ export default async function HowToPlayPage({ params }: { params: Params }) {
         {/* Basic Rules */}
         <section className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
           <h2 className="flex items-center gap-2 font-heading text-xl font-bold text-foreground">
-            <Grid3X3 className="h-5 w-5 text-purple-500" />
+            <Grid3X3 className="h-5 w-5 text-blue-500" />
             The Rules
           </h2>
           <div className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">
@@ -228,7 +228,7 @@ export default async function HowToPlayPage({ params }: { params: Params }) {
                 className="rounded-xl border border-border p-4 transition-all hover:-translate-y-0.5 hover:border-purple-200 hover:shadow-sm dark:hover:border-purple-800"
               >
                 <div className="flex items-center gap-2">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-purple-100 text-purple-600 dark:bg-purple-900/30 dark:text-purple-400">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-100 text-blue-600 dark:bg-purple-900/30 dark:text-blue-400">
                     <strategy.icon className="h-4 w-4" />
                   </div>
                   <h3 className="text-sm font-bold text-foreground">
@@ -244,17 +244,17 @@ export default async function HowToPlayPage({ params }: { params: Params }) {
         </section>
 
         {/* CTA */}
-        <section className="rounded-2xl bg-gradient-to-br from-purple-600 to-violet-600 p-6 sm:p-8 text-center text-white">
+        <section className="rounded-2xl bg-gradient-to-br from-blue-600 to-blue-700 p-6 sm:p-8 text-center text-white">
           <h2 className="font-heading text-2xl font-bold">
             Ready to Play?
           </h2>
-          <p className="mt-2 text-purple-100">
+          <p className="mt-2 text-blue-100">
             Check out today&apos;s puzzle hints or browse our archive.
           </p>
           <div className="mt-5 flex flex-wrap justify-center gap-3">
             <Link
               href="/connections-hint-today"
-              className="rounded-xl bg-white px-6 py-2.5 text-sm font-bold text-purple-700 transition-all hover:bg-purple-50"
+              className="rounded-xl bg-white px-6 py-2.5 text-sm font-bold text-blue-700 transition-all hover:bg-blue-50"
             >
               Today&apos;s Hints
             </Link>

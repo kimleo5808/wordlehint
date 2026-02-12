@@ -25,7 +25,7 @@ export default function MobileMenu() {
     <div className="flex items-center gap-1 md:hidden">
       <ThemeToggle />
       <DropdownMenu>
-        <DropdownMenuTrigger className="p-2">
+        <DropdownMenuTrigger className="p-2 text-slate-300 hover:text-white">
           <Menu className="h-5 w-5" />
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end" className="w-64">
@@ -35,7 +35,7 @@ export default function MobileMenu() {
               prefetch={true}
               className="flex items-center space-x-2 font-bold"
             >
-              <span className="font-heading text-lg bg-gradient-to-r from-purple-600 to-violet-500 bg-clip-text text-transparent">
+              <span className="font-heading text-lg text-foreground">
                 {siteConfig.name}
               </span>
             </I18nLink>

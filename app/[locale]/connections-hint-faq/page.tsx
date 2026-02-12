@@ -108,13 +108,13 @@ export default async function FAQPage({ params }: { params: Params }) {
       />
 
       {/* Header */}
-      <header className="relative overflow-hidden rounded-2xl border border-purple-200/70 bg-gradient-to-br from-purple-50 via-white to-violet-50 p-6 sm:p-8 dark:border-purple-900/40 dark:from-zinc-900 dark:via-zinc-900 dark:to-purple-950/30">
-        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-purple-200/30 blur-3xl" />
-        <div className="pointer-events-none absolute -bottom-12 -left-12 h-36 w-36 rounded-full bg-violet-200/30 blur-3xl" />
+      <header className="relative overflow-hidden rounded-2xl border border-blue-200/70 bg-gradient-to-br from-blue-50 via-white to-blue-50 p-6 sm:p-8 dark:border-blue-900/40 dark:from-zinc-900 dark:via-zinc-900 dark:to-blue-950/30">
+        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-blue-200/30 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-12 -left-12 h-36 w-36 rounded-full bg-blue-200/20 blur-3xl" />
         <div className="relative">
           <div className="flex items-center gap-2">
-            <HelpCircle className="h-5 w-5 text-purple-500" />
-            <span className="text-sm font-medium text-purple-600 dark:text-purple-400">
+            <HelpCircle className="h-5 w-5 text-blue-500" />
+            <span className="text-sm font-medium text-blue-600 dark:text-blue-400">
               FAQ
             </span>
           </div>
@@ -133,11 +133,11 @@ export default async function FAQPage({ params }: { params: Params }) {
         {FAQ_ITEMS.map((item, index) => (
           <details
             key={index}
-            className="group rounded-xl border border-purple-100 bg-card transition-colors open:bg-purple-50/30 dark:border-purple-900/40 dark:open:bg-purple-900/10"
+            className="group rounded-xl border border-blue-100 bg-card transition-colors open:bg-blue-50/30 dark:border-blue-900/40 dark:open:bg-blue-900/10"
           >
-            <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-foreground transition-colors hover:text-purple-700 dark:hover:text-purple-400 [&::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-foreground transition-colors hover:text-blue-700 dark:hover:text-blue-400 [&::-webkit-details-marker]:hidden">
               <h2 className="text-[0.95rem] leading-snug">{item.question}</h2>
-              <ChevronDown className="h-4 w-4 shrink-0 text-purple-400 transition-transform group-open:rotate-180" />
+              <ChevronDown className="h-4 w-4 shrink-0 text-blue-400 transition-transform group-open:rotate-180" />
             </summary>
             <div className="px-5 pb-4">
               <p className="text-sm leading-relaxed text-muted-foreground">
@@ -149,17 +149,17 @@ export default async function FAQPage({ params }: { params: Params }) {
       </div>
 
       {/* CTA */}
-      <div className="mt-8 rounded-2xl bg-gradient-to-br from-purple-600 to-violet-600 p-6 text-center text-white">
+      <div className="mt-8 rounded-2xl bg-gradient-to-br from-blue-600 to-blue-700 p-6 text-center text-white">
         <h2 className="font-heading text-xl font-bold">
           Still have questions?
         </h2>
-        <p className="mt-1 text-sm text-purple-100">
+        <p className="mt-1 text-sm text-blue-100">
           Check out our detailed guide or jump straight to today&apos;s puzzle.
         </p>
         <div className="mt-4 flex flex-wrap justify-center gap-3">
           <Link
             href="/how-to-play-connections"
-            className="rounded-xl bg-white px-5 py-2 text-sm font-bold text-purple-700 transition-all hover:bg-purple-50"
+            className="rounded-xl bg-white px-5 py-2 text-sm font-bold text-blue-700 transition-all hover:bg-blue-50"
           >
             How to Play
           </Link>

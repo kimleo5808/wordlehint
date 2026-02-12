@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        heading: ['var(--font-heading)', 'sans-serif'],
+        heading: ['var(--font-mono-code)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
         body: ['var(--font-body)', 'sans-serif'],
         mono: ['var(--font-mono-code)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
@@ -78,20 +78,12 @@ const config = {
       },
       keyframes: {
         'accordion-down': {
-          from: {
-            height: '0'
-          },
-          to: {
-            height: 'var(--radix-accordion-content-height)'
-          }
+          from: { height: '0' },
+          to: { height: 'var(--radix-accordion-content-height)' }
         },
         'accordion-up': {
-          from: {
-            height: 'var(--radix-accordion-content-height)'
-          },
-          to: {
-            height: '0'
-          }
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0' }
         },
         'fade-in-up': {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
@@ -101,12 +93,18 @@ const config = {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.7' },
         },
+        'flip-digit': {
+          '0%': { transform: 'rotateX(0deg)' },
+          '50%': { transform: 'rotateX(90deg)' },
+          '100%': { transform: 'rotateX(0deg)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
         'pulse-soft': 'pulse-soft 2s ease-in-out infinite',
+        'flip-digit': 'flip-digit 0.6s ease-in-out',
       }
     }
   },

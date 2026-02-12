@@ -9,15 +9,15 @@ const Header = () => {
   const t = useTranslations("Home");
 
   return (
-    <header className="py-2 px-6 backdrop-blur-md bg-white/80 dark:bg-zinc-950/80 border-b border-purple-100 dark:border-purple-900/40 sticky top-0 z-50">
+    <header className="py-3 px-6 bg-slate-900 border-b border-slate-800 sticky top-0 z-50">
       <nav className="flex justify-between items-center w-full max-w-6xl mx-auto">
-        <div className="flex items-center space-x-6 md:space-x-12">
+        <div className="flex items-center space-x-6 md:space-x-10">
           <I18nLink
             href="/"
             prefetch={false}
             className="flex items-center space-x-2 font-bold"
           >
-            <span className="text-lg font-heading font-bold bg-gradient-to-r from-purple-600 to-violet-500 bg-clip-text text-transparent">
+            <span className="text-lg font-heading font-bold text-white">
               {siteConfig.name}
             </span>
           </I18nLink>

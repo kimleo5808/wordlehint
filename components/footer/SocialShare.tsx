@@ -47,7 +47,7 @@ export default function SocialShare() {
           rel="noreferrer noopener"
           aria-label={`Share on ${platform.name}`}
           title={`Share on ${platform.name}`}
-          className="inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-zinc-700 text-zinc-400 transition-colors hover:border-purple-500 hover:bg-purple-500/10 hover:text-white"
+          className="inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-md border border-zinc-700 text-zinc-400 transition-colors hover:border-blue-500 hover:bg-blue-500/10 hover:text-white"
         >
           {platform.icon}
         </a>

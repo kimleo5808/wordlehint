@@ -39,14 +39,9 @@ const COLOR_STYLES: Record<
 function generateHints(group: ConnectionsGroup): string[] {
   const { members, group: categoryName } = group;
 
-  // Hint 1: Very vague, based on word count and first letter patterns
   const firstLetters = [...new Set(members.map((m) => m[0]))].join(", ");
   const hint1 = `Think about what ${members.length} words could share in common. Starting letters include: ${firstLetters}.`;
-
-  // Hint 2: Category type hint
   const hint2 = `The connection is: "${categoryName}". Now figure out which 4 words fit this category.`;
-
-  // Hint 3: Reveal 2 of the 4 members
   const hint3 = `Two of the words in this group are "${members[0]}" and "${members[2]}". Can you find the other two?`;
 
   return [hint1, hint2, hint3];
@@ -89,7 +84,6 @@ export function HintCard({ group, defaultExpanded = false }: HintCardProps) {
       {/* Hint content */}
       {expanded && (
         <div className="border-t border-border px-5 pb-5 pt-4 space-y-3">
-          {/* Progressive hints */}
           {hints.map((hint, i) => (
             <div key={i}>
               {i < revealLevel ? (
@@ -102,7 +96,7 @@ export function HintCard({ group, defaultExpanded = false }: HintCardProps) {
               ) : i === revealLevel ? (
                 <button
                   onClick={() => setRevealLevel(revealLevel + 1)}
-                  className="flex w-full items-center gap-2 rounded-lg border border-dashed border-muted-foreground/30 px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:border-purple-400 hover:text-purple-600 dark:hover:border-purple-500 dark:hover:text-purple-400"
+                  className="flex w-full items-center gap-2 rounded-lg border border-dashed border-muted-foreground/30 px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:border-blue-400 hover:text-blue-600 dark:hover:border-blue-500 dark:hover:text-blue-400"
                 >
                   <Eye className="h-4 w-4" />
                   Reveal Hint {i + 1} of 3
@@ -136,7 +130,7 @@ export function HintCard({ group, defaultExpanded = false }: HintCardProps) {
               ) : (
                 <button
                   onClick={() => setShowAnswer(true)}
-                  className="flex items-center gap-2 text-sm font-medium text-purple-600 transition-colors hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300"
+                  className="flex items-center gap-2 text-sm font-medium text-blue-600 transition-colors hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
                 >
                   <EyeOff className="h-4 w-4" />
                   Show Full Answer

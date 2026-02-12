@@ -1,11 +1,12 @@
-import { PuzzleCardCompact } from "@/components/connections/PuzzleCard";
+import { ClickToReveal } from "@/components/connections/ClickToReveal";
+import { CountdownTimer } from "@/components/connections/CountdownTimer";
 import { getLatestPuzzle, getRecentPuzzles } from "@/lib/connections-data";
 import dayjs from "dayjs";
 import {
   ArrowRight,
+  BookOpen,
   ChevronDown,
   Clock,
-  Eye,
   Grid3X3,
   Lightbulb,
   Puzzle,
@@ -16,21 +17,14 @@ import {
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 
-const GROUP_COLORS = [
-  { name: "Yellow", bg: "bg-yellow-400", text: "text-yellow-900", border: "border-yellow-400" },
-  { name: "Green", bg: "bg-emerald-500", text: "text-white", border: "border-emerald-500" },
-  { name: "Blue", bg: "bg-blue-400", text: "text-white", border: "border-blue-400" },
-  { name: "Purple", bg: "bg-purple-500", text: "text-white", border: "border-purple-500" },
-];
-
 const FEATURE_ICONS = [Lightbulb, Grid3X3, Clock, Puzzle, Shield, Sparkles];
 
 function FaqAccordionItem({ question, answer }: { question: string; answer: string }) {
   return (
-    <details className="group rounded-xl border border-purple-100 transition-colors open:bg-purple-50/40 dark:border-purple-900/40 dark:open:bg-purple-900/10">
-      <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-foreground transition-colors hover:text-purple-700 dark:hover:text-purple-400 [&::-webkit-details-marker]:hidden">
+    <details className="group rounded-xl border border-border bg-card transition-colors open:bg-blue-50/30 dark:open:bg-blue-950/10">
+      <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 text-left font-semibold text-foreground transition-colors hover:text-blue-600 dark:hover:text-blue-400 [&::-webkit-details-marker]:hidden">
         <h3 className="text-[0.95rem] leading-snug">{question}</h3>
-        <ChevronDown className="h-4 w-4 shrink-0 text-purple-400 transition-transform group-open:rotate-180" />
+        <ChevronDown className="h-4 w-4 shrink-0 text-blue-400 transition-transform group-open:rotate-180" />
       </summary>
       <div className="px-5 pb-4">
         <p className="text-sm leading-relaxed text-muted-foreground">
@@ -44,164 +38,212 @@ function FaqAccordionItem({ question, answer }: { question: string; answer: stri
 export default async function HomeComponent() {
   const t = await getTranslations("HomePage");
   const latestPuzzle = await getLatestPuzzle();
-  const recentPuzzles = await getRecentPuzzles(7);
+  const recentPuzzles = await getRecentPuzzles(9);
 
   const todayDate = latestPuzzle
     ? dayjs(latestPuzzle.date).format("MMMM D, YYYY")
     : "";
 
-  return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
-      <div className="flex flex-col gap-10">
-        {/* Hero */}
-        <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-50 via-white to-violet-50 p-8 sm:p-12 shadow-md dark:from-zinc-900 dark:via-zinc-900 dark:to-purple-950/30">
-          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-purple-200/30 blur-3xl dark:bg-purple-600/10" />
-          <div className="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-violet-200/30 blur-3xl dark:bg-violet-600/10" />
+  // Scramble words for display
+  const allWords = latestPuzzle
+    ? [...latestPuzzle.answers.flatMap((g) => g.members)].sort(() => 0.5 - Math.random())
+    : [];
 
-          <div className="relative text-center max-w-3xl mx-auto">
-            {/* Color dots */}
-            <div className="flex items-center justify-center gap-2 mb-6">
-              {GROUP_COLORS.map((color) => (
-                <span key={color.name} className={`h-3 w-3 rounded-full ${color.bg}`} />
+  return (
+    <div className="w-full grid-bg">
+      {/* Hero Section - Dark blue */}
+      <section className="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 py-16 sm:py-20">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <h1 className="font-heading text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
+            {t("hero.title")}
+          </h1>
+          <p className="mt-4 text-lg text-slate-300 sm:text-xl">
+            {t("hero.subtitle")}
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/connections-hint-today"
+              className="group inline-flex items-center gap-2 rounded-xl bg-blue-600 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-blue-600/25 transition-all hover:bg-blue-700 hover:shadow-blue-600/30"
+            >
+              {t("hero.ctaHints")}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+            </Link>
+            <Link
+              href="/connections-hint-archive"
+              className="inline-flex items-center gap-2 rounded-xl border-2 border-slate-600 px-6 py-3.5 text-sm font-semibold text-slate-200 transition-all hover:border-slate-500 hover:bg-slate-800"
+            >
+              {t("hero.ctaArchive")}
+              <Search className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Today's Clues Section */}
+      {latestPuzzle && (
+        <section className="bg-slate-800 py-12">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6">
+            <div className="text-center">
+              <h2 className="font-heading text-2xl font-bold text-white">
+                Today&apos;s Connections Words
+              </h2>
+              <p className="mt-2 text-sm text-slate-400">
+                Puzzle #{latestPuzzle.id} — {todayDate}
+              </p>
+            </div>
+
+            {/* Word chips */}
+            <div className="mt-6 flex flex-wrap justify-center gap-2">
+              {allWords.map((word) => (
+                <span
+                  key={word}
+                  className="rounded-lg bg-blue-600/20 border border-blue-500/30 px-4 py-2 text-sm font-mono font-bold text-blue-200 uppercase tracking-wide"
+                >
+                  {word}
+                </span>
               ))}
             </div>
 
-            {latestPuzzle && (
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-purple-100 px-4 py-1.5 text-xs font-bold text-purple-700 dark:bg-purple-900/40 dark:text-purple-300">
-                <Clock className="h-3 w-3" />
-                Puzzle #{latestPuzzle.id} · {todayDate}
-              </div>
-            )}
+            {/* Click to reveal */}
+            <div className="mt-8 flex justify-center">
+              <ClickToReveal puzzle={latestPuzzle} />
+            </div>
 
-            <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              {t("hero.title")}
-            </h1>
-            <p className="mt-4 text-lg leading-8 text-muted-foreground sm:text-xl">
-              {t("hero.subtitle")}
-            </p>
-
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
+            {/* Link to full hints */}
+            <div className="mt-4 text-center">
               <Link
                 href="/connections-hint-today"
-                className="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-purple-600 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-purple-500/25 transition-all hover:bg-purple-700 hover:shadow-purple-500/30"
+                className="text-sm text-blue-400 hover:text-blue-300 transition-colors"
               >
-                <span className="relative z-10 flex items-center gap-2">
-                  {t("hero.ctaHints")}
-                  <ArrowRight className="h-4 w-4" />
-                </span>
-                <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
-              </Link>
-              <Link
-                href="/connections-hint-archive"
-                className="inline-flex items-center gap-2 rounded-xl border-2 border-purple-200 bg-white px-6 py-3.5 text-sm font-semibold text-purple-700 transition-all hover:border-purple-300 hover:bg-purple-50 dark:border-purple-800 dark:bg-zinc-900 dark:text-purple-300 dark:hover:bg-purple-950/50"
-              >
-                {t("hero.ctaArchive")}
-                <Search className="h-4 w-4" />
+                Need progressive hints? Click here for step-by-step clues →
               </Link>
             </div>
           </div>
         </section>
+      )}
 
-        {/* Today's Preview + Recent Sidebar */}
-        {latestPuzzle && (
-          <section className="flex flex-col gap-6 lg:flex-row">
-            {/* Today's preview card */}
-            <div className="flex-1 rounded-2xl border border-border bg-card p-6 shadow-sm">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="flex items-center gap-2 font-heading text-xl font-bold text-foreground">
-                  <Eye className="h-5 w-5 text-purple-500" />
-                  Today&apos;s Puzzle Preview
-                </h2>
-                <Link
-                  href="/connections-hint-today"
-                  className="text-xs font-medium text-purple-600 hover:text-purple-700 transition-colors dark:text-purple-400"
-                >
-                  Get Hints →
-                </Link>
-              </div>
+      {/* Countdown Timer */}
+      <section className="py-12 bg-background">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <h2 className="font-heading text-lg font-bold text-foreground">
+            {t("hero.countdown")}
+          </h2>
+          <div className="mt-5">
+            <CountdownTimer />
+          </div>
+        </div>
+      </section>
 
-              {/* Scrambled word grid */}
-              <div className="grid grid-cols-4 gap-1.5 sm:gap-2">
-                {[...latestPuzzle.answers.flatMap((g) => g.members)]
-                  .sort(() => 0.5 - Math.random())
-                  .map((word) => (
-                    <div
-                      key={word}
-                      className="flex items-center justify-center rounded-lg bg-zinc-100 px-1 py-3 sm:py-4 text-center font-mono text-[0.6rem] sm:text-xs font-bold uppercase tracking-wide text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200"
-                    >
-                      {word}
-                    </div>
-                  ))}
-              </div>
-
-              <div className="mt-4 flex items-center justify-center gap-3">
-                {GROUP_COLORS.map((color) => (
-                  <div key={color.name} className="flex items-center gap-1">
-                    <span className={`h-2 w-2 rounded-full ${color.bg}`} />
-                    <span className="text-[0.65rem] text-muted-foreground">{color.name}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Recent puzzles sidebar */}
-            <div className="w-full lg:w-72 shrink-0 rounded-2xl border border-border bg-card p-4 shadow-sm">
-              <h3 className="flex items-center gap-2 font-heading text-sm font-bold text-foreground">
-                <Clock className="h-4 w-4 text-purple-500" />
-                {t("recentPuzzles.title")}
-              </h3>
-              <div className="mt-3 divide-y divide-border">
-                {recentPuzzles.slice(0, 7).map((p) => (
-                  <PuzzleCardCompact key={p.date} puzzle={p} />
-                ))}
-              </div>
-              <Link
-                href="/connections-hint-archive"
-                className="mt-3 block text-center text-xs font-medium text-purple-600 hover:text-purple-700 transition-colors dark:text-purple-400"
-              >
-                {t("recentPuzzles.viewAll")}
-              </Link>
-            </div>
-          </section>
-        )}
-
-        {/* How It Works: 4 Color Groups */}
-        <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {GROUP_COLORS.map((color, i) => (
-            <div
-              key={color.name}
-              className={`rounded-2xl border-l-4 ${color.border} border-t border-r border-b border-t-border border-r-border border-b-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md`}
+      {/* Recent Puzzles Grid */}
+      <section className="py-12 bg-background">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="font-heading text-2xl font-bold text-foreground">
+              Recent Connections Answers
+            </h2>
+            <Link
+              href="/connections-hint-archive"
+              className="text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors dark:text-blue-400"
             >
-              <div className={`inline-flex h-8 w-8 items-center justify-center rounded-lg ${color.bg} ${color.text} text-sm font-bold`}>
-                {i + 1}
+              {t("recentPuzzles.viewAll")}
+            </Link>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {recentPuzzles.map((puzzle) => {
+              const sorted = [...puzzle.answers].sort((a, b) => a.level - b.level);
+              return (
+                <Link
+                  key={puzzle.date}
+                  href={`/connections-hint/${puzzle.date}`}
+                  className="group rounded-xl border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg dark:hover:border-blue-700"
+                >
+                  <div className="flex items-center justify-between">
+                    <span className="inline-block rounded-md bg-blue-600 px-3 py-1 text-xs font-bold text-white">
+                      Puzzle #{puzzle.id}
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      {dayjs(puzzle.date).format("MMM D, YYYY")}
+                    </span>
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold text-foreground">
+                    Connections #{puzzle.id} Answer & Hints
+                  </h3>
+                  <div className="mt-2 space-y-1">
+                    {sorted.slice(0, 2).map((g) => (
+                      <p key={g.level} className="truncate text-xs text-muted-foreground">
+                        {g.members.join(", ")}
+                      </p>
+                    ))}
+                  </div>
+                  <div className="mt-3 flex items-center gap-1 text-xs font-medium text-blue-600 group-hover:text-blue-700 dark:text-blue-400">
+                    Read Analysis
+                    <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* What is NYT Connections? */}
+      <section className="py-12 bg-muted/30">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <h2 className="font-heading text-2xl font-bold text-foreground sm:text-3xl">
+            What is NYT Connections?
+          </h2>
+          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+            NYT Connections is a daily word puzzle by The New York Times where you sort 16 words into four groups of four, each sharing a hidden connection. Groups are color-coded by difficulty: yellow (easiest), green, blue, and purple (hardest).
+          </p>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+            <div className="flex flex-col items-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400">
+                <Grid3X3 className="h-7 w-7" />
               </div>
-              <p className="mt-2 text-xs font-semibold uppercase tracking-[0.15em] text-muted-foreground">
-                {color.name} Group
-              </p>
-              <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                {i === 0 && "Straightforward — the most obvious connections"}
-                {i === 1 && "Moderate — requires a bit more thought"}
-                {i === 2 && "Tricky — connections are less obvious"}
-                {i === 3 && "Hardest — wordplay, puns, or abstract links"}
+              <h3 className="mt-3 text-sm font-bold text-foreground">16 Words</h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Sort them into four groups of four connected words.
               </p>
             </div>
-          ))}
-        </section>
+            <div className="flex flex-col items-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400">
+                <Puzzle className="h-7 w-7" />
+              </div>
+              <h3 className="mt-3 text-sm font-bold text-foreground">4 Groups</h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Each group shares a hidden connection or theme.
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400">
+                <BookOpen className="h-7 w-7" />
+              </div>
+              <h3 className="mt-3 text-sm font-bold text-foreground">Daily Puzzle</h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                A new puzzle is released every day at midnight ET.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        {/* Features Grid */}
-        <section className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
+      {/* Features Grid */}
+      <section className="py-12 bg-background">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl">
             Why Use ConnectionsHint?
           </h2>
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[0, 1, 2, 3, 4, 5].map((index) => {
               const Icon = FEATURE_ICONS[index];
               return (
                 <div
                   key={index}
-                  className="group rounded-xl border border-border bg-background p-5 transition-all hover:-translate-y-0.5 hover:border-purple-200 hover:shadow-md dark:hover:border-purple-800"
+                  className="group rounded-xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md dark:hover:border-blue-700"
                 >
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100 text-purple-600 transition-transform group-hover:scale-110 dark:bg-purple-900/30 dark:text-purple-400">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 text-blue-600 transition-transform group-hover:scale-110 dark:bg-blue-900/30 dark:text-blue-400">
                     <Icon className="h-5 w-5" />
                   </div>
                   <h3 className="mt-3 text-sm font-bold text-foreground">
@@ -214,17 +256,19 @@ export default async function HomeComponent() {
               );
             })}
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* FAQ Accordion */}
-        <section className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
-          <h2 className="font-heading text-2xl font-bold text-foreground">
+      {/* FAQ - 2 column */}
+      <section className="py-12 bg-muted/30">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <h2 className="font-heading text-2xl font-bold text-foreground text-center">
             {t("faq.title")}
           </h2>
-          <p className="mt-2 text-muted-foreground">
+          <p className="mt-2 text-center text-muted-foreground">
             {t("faq.description")}
           </p>
-          <div className="mt-6 flex flex-col gap-3">
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
             {[0, 1, 2, 3, 4, 5].map((index) => (
               <FaqAccordionItem
                 key={index}
@@ -233,8 +277,35 @@ export default async function HomeComponent() {
               />
             ))}
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      {/* CTA Banner */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-700">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
+          <h2 className="font-heading text-2xl font-bold text-white sm:text-3xl">
+            Ready to Solve Today&apos;s Puzzle?
+          </h2>
+          <p className="mt-3 text-blue-100">
+            Get progressive hints without spoiling the fun. Start with a gentle nudge and reveal more only when you need it.
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/connections-hint-today"
+              className="inline-flex items-center gap-2 rounded-xl bg-white px-7 py-3.5 text-sm font-bold text-blue-700 shadow-lg transition-all hover:bg-blue-50"
+            >
+              Get Today&apos;s Hints
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+            <Link
+              href="/how-to-play-connections"
+              className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-white/10"
+            >
+              How to Play
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -17,8 +17,8 @@ export const siteConfig: SiteConfig = {
   ],
   creator: "@connectionshint",
   themeColors: [
-    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a0a0b" },
+    { media: "(prefers-color-scheme: light)", color: "#f5f7fa" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
   ],
   defaultNextTheme: "system",
   icons: {

@@ -21,7 +21,7 @@ export function PuzzleCard({ puzzle }: PuzzleCardProps) {
   return (
     <Link
       href={`/connections-hint/${puzzle.date}`}
-      className="group block rounded-xl border border-border bg-card p-4 transition-all hover:-translate-y-0.5 hover:border-purple-200 hover:shadow-md dark:hover:border-purple-800"
+      className="group block rounded-xl border border-border bg-card p-4 transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md dark:hover:border-blue-700"
     >
       <div className="flex items-center justify-between">
         <div>
@@ -32,7 +32,7 @@ export function PuzzleCard({ puzzle }: PuzzleCardProps) {
             {formattedDate}
           </p>
         </div>
-        <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-purple-500" />
+        <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-blue-500" />
       </div>
 
       <div className="mt-3 space-y-1.5">
@@ -57,7 +57,7 @@ export function PuzzleCardCompact({ puzzle }: PuzzleCardProps) {
   return (
     <Link
       href={`/connections-hint/${puzzle.date}`}
-      className="group flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-purple-50 dark:hover:bg-purple-950/20"
+      className="group flex items-center gap-3 rounded-lg px-3 py-2.5 transition-colors hover:bg-blue-50 dark:hover:bg-blue-950/20"
     >
       <div className="flex gap-0.5">
         {DOT_COLORS.map((color) => (
@@ -69,7 +69,7 @@ export function PuzzleCardCompact({ puzzle }: PuzzleCardProps) {
           #{puzzle.id} — {formattedDate}
         </p>
       </div>
-      <ArrowRight className="h-3 w-3 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:text-purple-500" />
+      <ArrowRight className="h-3 w-3 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:text-blue-500" />
     </Link>
   );
 }

@@ -69,9 +69,9 @@ export default async function PrivacyPolicyPage({
 
   return (
     <div className="mx-auto w-full max-w-4xl space-y-6 px-4 py-10 sm:px-6 lg:px-8">
-      <header className="relative overflow-hidden rounded-2xl border border-purple-200/70 bg-gradient-to-br from-purple-50 via-violet-50 to-purple-50 p-6 dark:border-purple-900/40 dark:from-zinc-900 dark:via-zinc-900 dark:to-zinc-950">
-        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-purple-200/30 blur-3xl" />
-        <div className="pointer-events-none absolute -bottom-12 -left-12 h-36 w-36 rounded-full bg-violet-200/30 blur-3xl" />
+      <header className="relative overflow-hidden rounded-2xl border border-blue-200/70 bg-gradient-to-br from-blue-50 via-blue-50 to-blue-50 p-6 dark:border-blue-900/40 dark:from-zinc-900 dark:via-zinc-900 dark:to-zinc-950">
+        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-blue-200/20 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-12 -left-12 h-36 w-36 rounded-full bg-blue-200/20 blur-3xl" />
         <h1 className="relative font-heading text-3xl font-bold text-foreground sm:text-4xl">
           Privacy Policy
         </h1>
@@ -81,7 +81,7 @@ export default async function PrivacyPolicyPage({
         </p>
       </header>
 
-      <article className="rounded-2xl border border-purple-100 bg-card p-6 dark:border-purple-900/40 sm:p-8">
+      <article className="rounded-2xl border border-blue-100 bg-card p-6 dark:border-blue-900/40 sm:p-8">
         <MDXRemote
           source={content}
           components={MDXComponents}
