@@ -109,6 +109,22 @@ const nextConfig = {
         destination: "/en/strands-hint/:date",
         permanent: true,
       },
+
+      // --- Spanish locale → English (language dropped) ---
+      { source: "/es", destination: "/", permanent: true },
+      { source: "/es/hints", destination: "/strands-hint", permanent: true },
+      { source: "/es/answers", destination: "/strands-hint", permanent: true },
+      { source: "/es/archive", destination: "/strands-hint", permanent: true },
+      {
+        source: "/es/archive/:date",
+        destination: "/strands-hint/:date",
+        permanent: true,
+      },
+      { source: "/es/faq", destination: "/strands-hint-faq", permanent: true },
+      { source: "/es/about", destination: "/about", permanent: true },
+      { source: "/es/contact", destination: "/contact", permanent: true },
+      { source: "/es/privacy", destination: "/privacy-policy", permanent: true },
+      { source: "/es/terms", destination: "/terms-of-service", permanent: true },
     ];
   },
 };
