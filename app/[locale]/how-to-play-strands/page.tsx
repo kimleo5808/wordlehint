@@ -1,6 +1,6 @@
 import { BASE_URL } from "@/config/site";
 import { Locale, LOCALES } from "@/i18n/routing";
-import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
+import { breadcrumbSchema, howToSchema, JsonLd } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import {
   BookOpen,
@@ -125,6 +125,20 @@ export default async function HowToPlayPage({ params }: { params: Params }) {
             url: `${BASE_URL}/how-to-play-strands`,
           },
         ])}
+      />
+      <JsonLd
+        data={howToSchema(
+          "How to Play NYT Strands",
+          "Learn the rules and strategies to solve the NYT Strands word puzzle every day.",
+          [
+            { name: "Read the Theme Clue", text: "Every puzzle has a theme clue at the top. Read it carefully — it tells you what all the theme words have in common. Consider multiple interpretations; the clue might be a pun or double meaning." },
+            { name: "Scan for the Spangram", text: "Look for a long word that spans the entire board from one edge to the opposite edge. The Spangram describes the overall theme and is highlighted in gold when found." },
+            { name: "Find Theme Words", text: "Connect adjacent letters (horizontally, vertically, or diagonally) to form words related to the theme. Words can twist and turn in any direction. Theme words highlight in blue when found." },
+            { name: "Earn Hints", text: "Find valid non-theme words (at least 4 letters) to earn hint tokens. Every 3 tokens reveals a letter in a remaining theme word." },
+            { name: "Use Elimination", text: "As you find words, track which letters are used. Every letter belongs to exactly one answer. The remaining uncovered letters must form the remaining answers." },
+            { name: "Complete the Puzzle", text: "The puzzle is solved when you find the Spangram and all theme words. Every letter on the board will be highlighted." },
+          ]
+        )}
       />
 
       {/* Header */}
