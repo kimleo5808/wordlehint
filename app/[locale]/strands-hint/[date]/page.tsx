@@ -540,7 +540,7 @@ export default async function DailyPuzzlePage({
                     className="flex items-center justify-between rounded-lg px-3 py-2 text-sm transition-colors hover:bg-primary/5"
                   >
                     <span className="font-medium text-foreground">
-                      Strands #{p.id}
+                      Strands Hints #{p.id}
                     </span>
                     <ArrowRight className="h-3 w-3 text-muted-foreground" />
                   </Link>
@@ -551,7 +551,7 @@ export default async function DailyPuzzlePage({
                 href="/strands-hint"
                 className="block text-center text-xs font-medium text-primary hover:text-primary/80 transition-colors"
               >
-                View All Hints →
+                All Strands Hints →
               </Link>
             </div>
           </div>
