@@ -6,6 +6,10 @@
         "href": "/wordle-hint-today"
       },
       {
+        "name": "Hint Archive",
+        "href": "/wordle-hint"
+      },
+      {
         "name": "5 Letter Wordle",
         "href": "/5-letters"
       },
