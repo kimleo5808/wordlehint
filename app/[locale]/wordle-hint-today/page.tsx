@@ -1,13 +1,24 @@
 import { BASE_URL } from "@/config/site";
+import AnswerDefinition from "@/components/wordle/AnswerDefinition";
 import DailyAnswerReveal from "@/components/wordle/DailyAnswerReveal";
 import DailyCountdown from "@/components/wordle/DailyCountdown";
 import DailyHintCard from "@/components/wordle/DailyHintCard";
+import DifficultyRatingCard from "@/components/wordle/DifficultyRating";
 import PuzzleCard from "@/components/wordle/PuzzleCard";
+import WordleFAQ, { WORDLE_FAQ_ITEMS } from "@/components/wordle/WordleFAQ";
+import WordleStrategyContent from "@/components/wordle/WordleStrategyContent";
+import YesterdayRecap from "@/components/wordle/YesterdayRecap";
 import { Locale, LOCALES } from "@/i18n/routing";
-import { breadcrumbSchema, faqPageSchema, JsonLd } from "@/lib/jsonld";
+import {
+  articleSchema,
+  breadcrumbSchema,
+  faqPageSchema,
+  JsonLd,
+} from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import {
   getTodayPuzzle,
+  getYesterdayPuzzle,
   getRecentPuzzles,
   getTodayDateString,
 } from "@/lib/wordle-daily";
@@ -60,6 +71,7 @@ export async function generateMetadata({
 
 export default function WordleHintTodayPage() {
   const puzzle = getTodayPuzzle();
+  const yesterday = getYesterdayPuzzle();
   const today = getTodayDateString();
   const recentPuzzles = getRecentPuzzles(8);
 
@@ -85,14 +97,18 @@ export default function WordleHintTodayPage() {
 
   const hints = generateHints(puzzle);
 
-  const formattedDate = new Date(puzzle.date + "T12:00:00Z").toLocaleDateString(
-    "en-US",
-    { weekday: "long", month: "long", day: "numeric", year: "numeric" }
-  );
+  const formattedDate = new Date(
+    puzzle.date + "T12:00:00Z"
+  ).toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
 
   return (
     <div className="w-full">
-      {/* Schema.org */}
+      {/* Schema.org — Breadcrumb */}
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: BASE_URL },
@@ -102,19 +118,18 @@ export default function WordleHintTodayPage() {
           },
         ])}
       />
+      {/* Schema.org — NewsArticle */}
       <JsonLd
-        data={faqPageSchema([
-          {
-            question: `What is the Wordle hint for ${formattedDate}?`,
-            answer: `We provide 5 progressive hints for Wordle #${puzzle.id}. Start with a category clue, then reveal vowel info, first letter, last letter, and finally a letter pattern. Use as few hints as you need!`,
-          },
-          {
-            question: "How do Wordle hints work?",
-            answer:
-              "Our hint system gives you 5 levels of progressive clues. Each hint reveals a little more about the answer. Try to solve it with as few hints as possible for the best challenge.",
-          },
-        ])}
+        data={articleSchema({
+          title: `Wordle Hint Today — ${formattedDate} (Puzzle #${puzzle.id})`,
+          description: `5 progressive hints for Wordle #${puzzle.id} on ${formattedDate}. Reveal clues one at a time to solve today's NYT Wordle puzzle.`,
+          url: `${BASE_URL}/wordle-hint-today`,
+          datePublished: `${puzzle.date}T05:00:00Z`,
+          dateModified: `${puzzle.date}T05:00:00Z`,
+        })}
       />
+      {/* Schema.org — FAQPage */}
+      <JsonLd data={faqPageSchema(WORDLE_FAQ_ITEMS.slice(0, 10))} />
 
       {/* Hero */}
       <section className="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 py-12 sm:py-16">
@@ -124,17 +139,18 @@ export default function WordleHintTodayPage() {
             Daily Wordle Hint
           </div>
           <h1 className="mt-5 font-heading text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            Wordle Hint Today
+            Wordle Hint Today — {formattedDate}
           </h1>
           <div className="mt-3 flex items-center justify-center gap-3 text-slate-300">
             <Calendar className="h-4 w-4" />
-            <span className="text-sm font-medium">{formattedDate}</span>
-            <span className="text-slate-500">|</span>
             <span className="text-sm font-medium">Puzzle #{puzzle.id}</span>
+            <span className="text-slate-500">|</span>
+            <span className="text-sm font-medium">5 Progressive Hints</span>
           </div>
           <p className="mx-auto mt-4 max-w-xl text-slate-400">
-            Reveal hints one at a time to help you solve today&apos;s Wordle.
-            Try to use as few hints as possible!
+            Stuck on today&apos;s Wordle? Reveal hints one at a time — from a
+            broad category clue down to the letter pattern. Use as few hints as
+            possible to keep the challenge alive!
           </p>
         </div>
       </section>
@@ -149,6 +165,15 @@ export default function WordleHintTodayPage() {
             {/* Answer reveal */}
             <DailyAnswerReveal answer={puzzle.answer} />
 
+            {/* Definition & Etymology */}
+            <AnswerDefinition word={puzzle.answer} />
+
+            {/* Difficulty Rating */}
+            <DifficultyRatingCard word={puzzle.answer} />
+
+            {/* Yesterday Recap */}
+            <YesterdayRecap puzzle={yesterday ?? null} />
+
             {/* Countdown */}
             <DailyCountdown />
 
@@ -158,13 +183,21 @@ export default function WordleHintTodayPage() {
               <p className="mt-2 text-sm font-medium text-foreground">
                 Want to practice? Play unlimited Wordle games for free!
               </p>
-              <Link
-                href="/5-letters"
-                className="mt-3 inline-flex items-center gap-2 rounded-lg bg-cta px-5 py-2.5 text-sm font-bold text-cta-foreground shadow-md transition-all hover:bg-cta/90"
-              >
-                Play 5-Letter Wordle
-                <ArrowRight className="h-4 w-4" />
-              </Link>
+              <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
+                <Link
+                  href="/5-letters"
+                  className="inline-flex items-center gap-2 rounded-lg bg-cta px-5 py-2.5 text-sm font-bold text-cta-foreground shadow-md transition-all hover:bg-cta/90"
+                >
+                  Play 5-Letter Wordle
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+                <Link
+                  href="/wordle-solver"
+                  className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-all hover:bg-muted"
+                >
+                  Try Wordle Solver
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -175,7 +208,7 @@ export default function WordleHintTodayPage() {
         <div className="mx-auto max-w-2xl px-4 sm:px-6">
           <div className="flex items-center justify-between">
             <h2 className="font-heading text-lg font-bold text-foreground">
-              Recent Puzzles
+              Recent Wordle Puzzles
             </h2>
             <Link
               href="/wordle-hint"
@@ -195,33 +228,50 @@ export default function WordleHintTodayPage() {
         </div>
       </section>
 
-      {/* SEO content */}
+      {/* Strategy Content (evergreen) */}
+      <WordleStrategyContent />
+
+      {/* FAQ (evergreen, 10 items) */}
+      <WordleFAQ maxItems={10} />
+
+      {/* SEO content — How Our Hints Work */}
       <section className="border-t border-border bg-background py-10">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <h2 className="font-heading text-xl font-bold text-foreground">
-            About Today&apos;s Wordle Hint
+            How Our Daily Wordle Hints Work
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            Every day, we provide 5 progressive hints for the daily NYT Wordle
-            puzzle. Our hint system is designed to give you just enough
-            information to solve the puzzle without completely spoiling the
-            answer. Start with a category clue, then gradually reveal more
-            specific information like vowel count, first letter, last letter,
-            and finally a letter pattern.
-          </p>
-          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            <strong className="text-foreground">Tip:</strong> Try to solve the
-            puzzle using only the first hint or two. The more hints you use, the
-            easier it gets — but the real satisfaction comes from solving with
-            minimal help. If you&apos;re stuck, check our{" "}
-            <Link
-              href="/how-to-play-wordle"
-              className="font-medium text-primary hover:text-primary/80"
-            >
-              How to Play Wordle
-            </Link>{" "}
-            guide for general strategy tips.
-          </p>
+          <div className="mt-4 space-y-3 text-sm leading-relaxed text-muted-foreground">
+            <p>
+              Every day, we publish 5 progressive hints for the current NYT
+              Wordle puzzle. Our system is designed to give you exactly the right
+              amount of help — no more, no less. Start with Hint 1 (a broad
+              category clue) and only reveal more if you&apos;re truly stuck.
+              Most experienced players solve with just 1-2 hints.
+            </p>
+            <p>
+              Unlike other hint sites that spoil the answer immediately, our
+              click-to-reveal system ensures you never see information you
+              didn&apos;t ask for. The answer itself is always hidden behind a
+              clearly marked spoiler button — you&apos;re always in control.
+            </p>
+            <p>
+              Looking for hints from previous days? Browse our{" "}
+              <Link
+                href="/wordle-hint"
+                className="font-medium text-primary hover:text-primary/80"
+              >
+                complete hint archive
+              </Link>{" "}
+              with every past puzzle, or check our{" "}
+              <Link
+                href="/how-to-play-wordle"
+                className="font-medium text-primary hover:text-primary/80"
+              >
+                How to Play Wordle
+              </Link>{" "}
+              guide for general strategy tips and best starting words.
+            </p>
+          </div>
         </div>
       </section>
     </div>

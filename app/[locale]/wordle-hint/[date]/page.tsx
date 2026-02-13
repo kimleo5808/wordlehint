@@ -1,9 +1,18 @@
 import { BASE_URL } from "@/config/site";
+import AnswerDefinition from "@/components/wordle/AnswerDefinition";
 import DailyAnswerReveal from "@/components/wordle/DailyAnswerReveal";
 import DailyHintCard from "@/components/wordle/DailyHintCard";
+import DifficultyRatingCard from "@/components/wordle/DifficultyRating";
 import PuzzleCard from "@/components/wordle/PuzzleCard";
+import WordleFAQ, { WORDLE_FAQ_ITEMS } from "@/components/wordle/WordleFAQ";
+import WordleStrategyContent from "@/components/wordle/WordleStrategyContent";
 import { Locale, LOCALES } from "@/i18n/routing";
-import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
+import {
+  articleSchema,
+  breadcrumbSchema,
+  faqPageSchema,
+  JsonLd,
+} from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import {
   getAllPuzzles,
@@ -47,7 +56,7 @@ export async function generateMetadata({
   return constructMetadata({
     page: "WordleHintDate",
     title: `Wordle Hint for ${formattedDate} — Puzzle #${puzzle.id}`,
-    description: `Wordle hints and answer for ${formattedDate} (Puzzle #${puzzle.id}). 5 progressive clues to help you solve or review this Wordle puzzle.`,
+    description: `Wordle hints and answer for ${formattedDate} (Puzzle #${puzzle.id}). 5 progressive clues, word definition, difficulty rating, and strategy tips.`,
     keywords: [
       `wordle hint ${date}`,
       `wordle ${formattedDate}`,
@@ -94,6 +103,7 @@ export default async function WordleHintDatePage({
 
   return (
     <div className="w-full">
+      {/* Schema.org — Breadcrumb */}
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: BASE_URL },
@@ -104,6 +114,18 @@ export default async function WordleHintDatePage({
           },
         ])}
       />
+      {/* Schema.org — NewsArticle */}
+      <JsonLd
+        data={articleSchema({
+          title: `Wordle Hint for ${formattedDate} — Puzzle #${puzzle.id}`,
+          description: `5 progressive hints for Wordle #${puzzle.id} on ${formattedDate}. Includes word definition, difficulty rating, and solving tips.`,
+          url: `${BASE_URL}/wordle-hint/${date}`,
+          datePublished: `${puzzle.date}T05:00:00Z`,
+          dateModified: `${puzzle.date}T05:00:00Z`,
+        })}
+      />
+      {/* Schema.org — FAQPage */}
+      <JsonLd data={faqPageSchema(WORDLE_FAQ_ITEMS.slice(0, 5))} />
 
       {/* Header */}
       <section className="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 py-10 sm:py-14">
@@ -114,11 +136,13 @@ export default async function WordleHintDatePage({
             </div>
           )}
           <h1 className="font-heading text-2xl font-bold text-white sm:text-3xl lg:text-4xl">
-            Wordle Hint #{puzzle.id}
+            Wordle Hint for {formattedDate}
           </h1>
           <div className="mt-2 flex items-center justify-center gap-2 text-slate-300">
             <Calendar className="h-4 w-4" />
-            <span className="text-sm">{formattedDate}</span>
+            <span className="text-sm">Puzzle #{puzzle.id}</span>
+            <span className="text-slate-500">|</span>
+            <span className="text-sm">5 Progressive Hints</span>
           </div>
         </div>
       </section>
@@ -162,6 +186,12 @@ export default async function WordleHintDatePage({
         <div className="mx-auto max-w-2xl space-y-6 px-4 sm:px-6">
           <DailyHintCard hints={hints} />
           <DailyAnswerReveal answer={puzzle.answer} />
+
+          {/* Definition & Etymology */}
+          <AnswerDefinition word={puzzle.answer} />
+
+          {/* Difficulty Rating */}
+          <DifficultyRatingCard word={puzzle.answer} />
         </div>
       </section>
 
@@ -184,6 +214,12 @@ export default async function WordleHintDatePage({
           </div>
         </section>
       )}
+
+      {/* Strategy Content (evergreen, shared component) */}
+      <WordleStrategyContent />
+
+      {/* FAQ (evergreen, 5 items for archive pages) */}
+      <WordleFAQ maxItems={5} />
     </div>
   );
 }

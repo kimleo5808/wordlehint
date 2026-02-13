@@ -38,6 +38,14 @@ export function getTodayPuzzle(): DailyPuzzle | undefined {
   return getPuzzleByDate(today);
 }
 
+export function getYesterdayPuzzle(): DailyPuzzle | undefined {
+  const today = toEasternDateString();
+  const all = loadData().puzzles;
+  const todayIdx = all.findIndex((p) => p.date === today);
+  if (todayIdx <= 0) return all.length >= 2 ? all[all.length - 2] : undefined;
+  return all[todayIdx - 1];
+}
+
 export function getRecentPuzzles(count: number): DailyPuzzle[] {
   const today = toEasternDateString();
   const all = loadData().puzzles;

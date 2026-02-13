@@ -1,0 +1,2387 @@
+{
+  "ABBOT": {
+    "definition": "The superior or head of an abbey or monastery.",
+    "partOfSpeech": "noun",
+    "example": "The newly appointed abbot decided to take a tour of the abbey with the cardinal's emissary.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The superior or head of an abbey or monastery.",
+        "example": "The newly appointed abbot decided to take a tour of the abbey with the cardinal's emissary."
+      }
+    ]
+  },
+  "ABHOR": {
+    "definition": "To regard with horror or detestation; to shrink back with shuddering from; to feel excessive repugnance toward; to detest to extremity; to loathe.",
+    "partOfSpeech": "verb",
+    "example": "I absolutely abhor being stuck in traffic jams",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To regard with horror or detestation; to shrink back with shuddering from; to feel excessive repugnance toward; to detest to extremity; to loathe.",
+        "example": "I absolutely abhor being stuck in traffic jams"
+      }
+    ]
+  },
+  "ALLOT": {
+    "definition": "To distribute or apportion by (or as if by) lot.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To distribute or apportion by (or as if by) lot.",
+        "example": null
+      }
+    ]
+  },
+  "AMONG": {
+    "definition": "Denotes a mingling or intermixing with distinct or separable objects. (See Usage Note at amidst.)",
+    "partOfSpeech": "preposition",
+    "example": "How can you speak with authority about their customs when you have never lived among them?",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "preposition",
+        "definition": "Denotes a mingling or intermixing with distinct or separable objects. (See Usage Note at amidst.)",
+        "example": "How can you speak with authority about their customs when you have never lived among them?"
+      }
+    ]
+  },
+  "AMUSE": {
+    "definition": "To entertain or occupy in a pleasant manner; to stir with pleasing emotions.",
+    "partOfSpeech": "verb",
+    "example": "I watch these movies because they amuse me.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To entertain or occupy in a pleasant manner; to stir with pleasing emotions.",
+        "example": "I watch these movies because they amuse me."
+      }
+    ]
+  },
+  "ANNOY": {
+    "definition": "A feeling of discomfort or vexation caused by what one dislikes.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A feeling of discomfort or vexation caused by what one dislikes.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To disturb or irritate, especially by continued or repeated acts; to bother with unpleasant deeds.",
+        "example": "Marc loved his sister, but when she annoyed him he wanted to switch her off."
+      }
+    ]
+  },
+  "ARISE": {
+    "definition": "To come up from a lower to a higher position.",
+    "partOfSpeech": "verb",
+    "example": "to arise from a kneeling posture",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To come up from a lower to a higher position.",
+        "example": "to arise from a kneeling posture"
+      }
+    ]
+  },
+  "AVOID": {
+    "definition": "To try not to meet or communicate with (a person); to shun",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To try not to meet or communicate with (a person); to shun",
+        "example": null
+      }
+    ]
+  },
+  "AWOKE": {
+    "definition": "To become conscious after having slept.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To become conscious after having slept.",
+        "example": null
+      }
+    ]
+  },
+  "BARON": {
+    "definition": "The male ruler of a barony.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The male ruler of a barony.",
+        "example": null
+      }
+    ]
+  },
+  "BATCH": {
+    "definition": "The quantity of bread or other baked goods baked at one time.",
+    "partOfSpeech": "noun",
+    "example": "We made a batch of cookies to take to the party.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The quantity of bread or other baked goods baked at one time.",
+        "example": "We made a batch of cookies to take to the party."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To aggregate things together into a batch.",
+        "example": "The contractor batched the purchase orders for the entire month into one statement."
+      }
+    ]
+  },
+  "BEARD": {
+    "definition": "Facial hair on the chin, cheeks, jaw and neck.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Facial hair on the chin, cheeks, jaw and neck.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To grow hair on the chin and jaw.",
+        "example": null
+      }
+    ]
+  },
+  "BLAST": {
+    "definition": "A violent gust of wind.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A violent gust of wind.",
+        "example": null
+      }
+    ]
+  },
+  "BLEAT": {
+    "definition": "The characteristic cry of a sheep or a goat.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The characteristic cry of a sheep or a goat.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "Of a sheep or goat, to make its characteristic cry; of a human, to mimic this sound.",
+        "example": null
+      }
+    ]
+  },
+  "BLUNT": {
+    "definition": "A fencer's practice foil with a soft tip.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A fencer's practice foil with a soft tip.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Having a thick edge or point; not sharp.",
+        "example": null
+      }
+    ]
+  },
+  "BUNNY": {
+    "definition": "A rabbit, especially a juvenile.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A rabbit, especially a juvenile.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Easy or unchallenging.",
+        "example": "Let’s start on the bunny slope."
+      }
+    ]
+  },
+  "CACTI": {
+    "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
+        "example": null
+      }
+    ]
+  },
+  "CATTY": {
+    "definition": "(of a person or remark) With subtle hostility in an effort to hurt, annoy or upset, particularly among women.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "(of a person or remark) With subtle hostility in an effort to hurt, annoy or upset, particularly among women.",
+        "example": null
+      }
+    ]
+  },
+  "CELLO": {
+    "definition": "A large stringed instrument of the violin family with four strings, tuned from lowest to highest C-G-D-A, and played with a bow, also possessing an endpin to support the instrument's weight.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A large stringed instrument of the violin family with four strings, tuned from lowest to highest C-G-D-A, and played with a bow, also possessing an endpin to support the instrument's weight.",
+        "example": null
+      }
+    ]
+  },
+  "CHASM": {
+    "definition": "A deep, steep-sided rift, gap or fissure; a gorge or abyss.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A deep, steep-sided rift, gap or fissure; a gorge or abyss.",
+        "example": null
+      }
+    ]
+  },
+  "CHIDE": {
+    "definition": "To admonish in blame; to reproach angrily.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To admonish in blame; to reproach angrily.",
+        "example": null
+      }
+    ]
+  },
+  "CIGAR": {
+    "definition": "Tobacco rolled and wrapped with an outer covering of tobacco leaves, intended to be smoked.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Tobacco rolled and wrapped with an outer covering of tobacco leaves, intended to be smoked.",
+        "example": null
+      }
+    ]
+  },
+  "CIVIL": {
+    "definition": "Having to do with people and government office as opposed to the military or religion.",
+    "partOfSpeech": "adjective",
+    "example": "She went into civil service because she wanted to help the people.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Having to do with people and government office as opposed to the military or religion.",
+        "example": "She went into civil service because she wanted to help the people."
+      }
+    ]
+  },
+  "CLAMP": {
+    "definition": "A brace, band, or clasp for strengthening or holding things together.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A brace, band, or clasp for strengthening or holding things together.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To fasten in place or together with (or as if with) a clamp.",
+        "example": null
+      }
+    ]
+  },
+  "CLIFF": {
+    "definition": "A vertical (or nearly vertical) rock face.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A vertical (or nearly vertical) rock face.",
+        "example": null
+      }
+    ]
+  },
+  "CLINK": {
+    "definition": "The sound of metal on metal, or glass on glass.",
+    "partOfSpeech": "noun",
+    "example": "You could hear the clink of the glasses from the next room.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The sound of metal on metal, or glass on glass.",
+        "example": "You could hear the clink of the glasses from the next room."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To make a clinking sound; to make a sound of metal on metal or glass on glass; to strike materials such as metal or glass against one another.",
+        "example": "The hammers clinked on the stone all night."
+      }
+    ]
+  },
+  "CLUNG": {
+    "definition": "To hold very tightly, as to not fall off.",
+    "partOfSpeech": "verb",
+    "example": "Seaweed clung to the anchor.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To hold very tightly, as to not fall off.",
+        "example": "Seaweed clung to the anchor."
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Wasted away; shrunken",
+        "example": null
+      }
+    ]
+  },
+  "COLIC": {
+    "definition": "Severe pains that grip the abdomen or the disease that causes such pains (due to intestinal or bowel-related problems).",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Severe pains that grip the abdomen or the disease that causes such pains (due to intestinal or bowel-related problems).",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Relating to the colon; colonic.",
+        "example": null
+      }
+    ]
+  },
+  "CONCH": {
+    "definition": "A marine gastropod of the family Strombidae which lives in its own spiral shell.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A marine gastropod of the family Strombidae which lives in its own spiral shell.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To refine the flavour and texture of chocolate by warming and grinding, either in a traditional concher, or between rollers.",
+        "example": null
+      }
+    ]
+  },
+  "COVEN": {
+    "definition": "A formal group or assembly of witches.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A formal group or assembly of witches.",
+        "example": null
+      }
+    ]
+  },
+  "CRUEL": {
+    "definition": "To spoil or ruin (one's chance of success)",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To spoil or ruin (one's chance of success)",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Intentionally causing or reveling in pain and suffering; merciless, heartless.",
+        "example": "The supervisor was very cruel to Josh, as he would always give Josh the hardest, most degrading work he could find."
+      }
+    ]
+  },
+  "CUBIC": {
+    "definition": "A cubic curve.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A cubic curve.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Used in the names of units of volume formed by multiplying a unit of length by itself twice.",
+        "example": "cubic foot"
+      }
+    ]
+  },
+  "DALLY": {
+    "definition": "To waste time in trivial activities, or in idleness; to trifle.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To waste time in trivial activities, or in idleness; to trifle.",
+        "example": null
+      }
+    ]
+  },
+  "DECOR": {
+    "definition": "The style of decoration of a room or building.",
+    "partOfSpeech": "noun",
+    "example": "Her living room had a lush Persian-style decor.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The style of decoration of a room or building.",
+        "example": "Her living room had a lush Persian-style decor."
+      }
+    ]
+  },
+  "DEFER": {
+    "definition": "To delay or postpone",
+    "partOfSpeech": "verb",
+    "example": "We're going to defer the decision until we have all the facts.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To delay or postpone",
+        "example": "We're going to defer the decision until we have all the facts."
+      }
+    ]
+  },
+  "DETOX": {
+    "definition": "Detoxification, especially of the body from alcohol or illegal, addictive drugs.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Detoxification, especially of the body from alcohol or illegal, addictive drugs.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To detoxify, especially from alcohol or recreational drugs.",
+        "example": null
+      }
+    ]
+  },
+  "DEUCE": {
+    "definition": "A card with two pips, one of four in a standard deck of playing cards.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A card with two pips, one of four in a standard deck of playing cards.",
+        "example": null
+      }
+    ]
+  },
+  "DODGY": {
+    "definition": "Evasive and shifty",
+    "partOfSpeech": "adjective",
+    "example": "Asked why, a spokesman gave a dodgy answer about legal ramifications.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Evasive and shifty",
+        "example": "Asked why, a spokesman gave a dodgy answer about legal ramifications."
+      }
+    ]
+  },
+  "DOUGH": {
+    "definition": "A thick, malleable substance made by mixing flour with other ingredients such as water, eggs, and/or butter, that is made into a particular form and then baked.",
+    "partOfSpeech": "noun",
+    "example": "Pizza dough is very stretchy.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A thick, malleable substance made by mixing flour with other ingredients such as water, eggs, and/or butter, that is made into a particular form and then baked.",
+        "example": "Pizza dough is very stretchy."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To make into dough.",
+        "example": "The flour was doughed with a suitable quantity of water."
+      }
+    ]
+  },
+  "DRAPE": {
+    "definition": "A curtain; a drapery.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A curtain; a drapery.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To cover or adorn with drapery or folds of cloth, or as with drapery",
+        "example": "to drape a bust, a building, etc."
+      }
+    ]
+  },
+  "DRILL": {
+    "definition": "A tool used to remove material so as to create a hole, typically by plunging a rotating cutting bit into a stationary workpiece.",
+    "partOfSpeech": "noun",
+    "example": "Wear safety glasses when operating an electric drill.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A tool used to remove material so as to create a hole, typically by plunging a rotating cutting bit into a stationary workpiece.",
+        "example": "Wear safety glasses when operating an electric drill."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To create (a hole) by removing material with a drill (tool).",
+        "example": "Drill a small hole to start the screw in the right direction."
+      }
+    ]
+  },
+  "DUSKY": {
+    "definition": "A dusky shark.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A dusky shark.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Dimly lit, as at dusk (evening).",
+        "example": "I like it when it is dusky, just before the street lights come on."
+      }
+    ]
+  },
+  "EIGHT": {
+    "definition": "The digit/figure 8.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The digit/figure 8.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "numeral",
+        "definition": "A numerical value equal to 8; the number occurring after seven and before nine.",
+        "example": null
+      }
+    ]
+  },
+  "EMBED": {
+    "definition": "An embedded reporter or journalist, such as a war reporter assigned to and travelling with a military unit, or a political reporter assigned to follow and report on the campaign of a candidate.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An embedded reporter or journalist, such as a war reporter assigned to and travelling with a military unit, or a political reporter assigned to follow and report on the campaign of a candidate.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To lay as in a bed; to lay in surrounding matter; to bed.",
+        "example": "to embed something in clay, mortar, or sand"
+      }
+    ]
+  },
+  "ERASE": {
+    "definition": "The operation of deleting data.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The operation of deleting data.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To remove markings or information",
+        "example": "I erased that note because it was wrong."
+      }
+    ]
+  },
+  "FABLE": {
+    "definition": "A fictitious narrative intended to enforce some useful truth or precept, usually with animals, etc. as characters; an apologue. Prototypically, Aesop's Fables.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A fictitious narrative intended to enforce some useful truth or precept, usually with animals, etc. as characters; an apologue. Prototypically, Aesop's Fables.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To compose fables; hence, to write or speak fiction; to write or utter what is not true.",
+        "example": null
+      }
+    ]
+  },
+  "FETID": {
+    "definition": "The foul-smelling asafoetida plant, or its extracts.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The foul-smelling asafoetida plant, or its extracts.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Foul-smelling, stinking.",
+        "example": "I caught the fetid odor of dirty socks."
+      }
+    ]
+  },
+  "FIERY": {
+    "definition": "Of or relating to fire.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Of or relating to fire.",
+        "example": null
+      }
+    ]
+  },
+  "FILLY": {
+    "definition": "A young female horse.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A young female horse.",
+        "example": null
+      }
+    ]
+  },
+  "FLAKY": {
+    "definition": "Consisting of flakes or of small, loose masses; lying, or cleaving off, in flakes or layers; flakelike.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Consisting of flakes or of small, loose masses; lying, or cleaving off, in flakes or layers; flakelike.",
+        "example": null
+      }
+    ]
+  },
+  "FLUTE": {
+    "definition": "A woodwind instrument consisting of a tube with a row of holes that produce sound through vibrations caused by air blown across the edge of the holes, often tuned by plugging one or more holes with a finger; the Western concert flute, a transverse side-blown flute of European origin.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A woodwind instrument consisting of a tube with a row of holes that produce sound through vibrations caused by air blown across the edge of the holes, often tuned by plugging one or more holes with a finger; the Western concert flute, a transverse side-blown flute of European origin.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To play on a flute.",
+        "example": null
+      }
+    ]
+  },
+  "FORUM": {
+    "definition": "A place for discussion.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A place for discussion.",
+        "example": null
+      }
+    ]
+  },
+  "FREAK": {
+    "definition": "A sudden change of mind",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A sudden change of mind",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To make greatly distressed and/or a discomposed appearance",
+        "example": null
+      }
+    ]
+  },
+  "FRITZ": {
+    "definition": "The state of being defective.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The state of being defective.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To go wrong or become defective.",
+        "example": null
+      }
+    ]
+  },
+  "FRUIT": {
+    "definition": "(often in the plural) In general, a product of plant growth useful to man or animals.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(often in the plural) In general, a product of plant growth useful to man or animals.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To produce fruit, seeds, or spores.",
+        "example": null
+      }
+    ]
+  },
+  "FUGUE": {
+    "definition": "A contrapuntal piece of music wherein a particular melody is played in a number of voices, each voice introduced in turn by playing the melody.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A contrapuntal piece of music wherein a particular melody is played in a number of voices, each voice introduced in turn by playing the melody.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To improvise, in singing, by introducing vocal ornamentation to fill gaps etc.",
+        "example": null
+      }
+    ]
+  },
+  "GAUGE": {
+    "definition": "A measure; a standard of measure; an instrument to determine dimensions, distance, or capacity; a standard",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A measure; a standard of measure; an instrument to determine dimensions, distance, or capacity; a standard",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To measure or determine with a gauge; to measure the capacity of.",
+        "example": null
+      }
+    ]
+  },
+  "GAVEL": {
+    "definition": "Rent.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Rent.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To divide or distribute according to the gavel system.",
+        "example": null
+      }
+    ]
+  },
+  "GEESE": {
+    "definition": "Any of various grazing waterfowl of the family Anatidae, which have feathers and webbed feet and are capable of flying, swimming, and walking on land, and which are bigger than ducks.",
+    "partOfSpeech": "noun",
+    "example": "There is a flock of geese on the pond.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Any of various grazing waterfowl of the family Anatidae, which have feathers and webbed feet and are capable of flying, swimming, and walking on land, and which are bigger than ducks.",
+        "example": "There is a flock of geese on the pond."
+      }
+    ]
+  },
+  "GIZMO": {
+    "definition": "Something, generally a device, for which one does not know the proper term.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Something, generally a device, for which one does not know the proper term.",
+        "example": null
+      }
+    ]
+  },
+  "GLARE": {
+    "definition": "An intense, blinding light.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An intense, blinding light.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To stare angrily.",
+        "example": "He walked in late, with the teacher glaring at him the whole time."
+      }
+    ]
+  },
+  "GLINT": {
+    "definition": "A short flash of light.",
+    "partOfSpeech": "noun",
+    "example": "I saw the glint of metal as he raised the gun.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A short flash of light.",
+        "example": "I saw the glint of metal as he raised the gun."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To flash or gleam briefly.",
+        "example": "A wedding ring glinted on her finger."
+      }
+    ]
+  },
+  "GOOEY": {
+    "definition": "Of or relating to goo",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Of or relating to goo",
+        "example": null
+      }
+    ]
+  },
+  "GRASS": {
+    "definition": "Any plant of the family Poaceae, characterized by leaves that arise from nodes in the stem and leaf bases that wrap around the stem, especially those grown as ground cover rather than for grain.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Any plant of the family Poaceae, characterized by leaves that arise from nodes in the stem and leaf bases that wrap around the stem, especially those grown as ground cover rather than for grain.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To lay out on the grass; to knock down (an opponent etc.).",
+        "example": null
+      }
+    ]
+  },
+  "GRAVE": {
+    "definition": "An excavation in the earth as a place of burial",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An excavation in the earth as a place of burial",
+        "example": null
+      }
+    ]
+  },
+  "GRAVY": {
+    "definition": "A thick sauce made from the fat or juices that come out from meat or vegetables as they are being cooked.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A thick sauce made from the fat or juices that come out from meat or vegetables as they are being cooked.",
+        "example": null
+      }
+    ]
+  },
+  "GROSS": {
+    "definition": "Twelve dozen = 144.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Twelve dozen = 144.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To earn money, not including expenses.",
+        "example": "The movie grossed three million on the first weekend."
+      }
+    ]
+  },
+  "GRUFF": {
+    "definition": "To speak gruffly.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To speak gruffly.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Having a rough, surly, and harsh demeanor and nature.",
+        "example": null
+      }
+    ]
+  },
+  "GUESS": {
+    "definition": "To reach a partly (or totally) unqualified conclusion.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To reach a partly (or totally) unqualified conclusion.",
+        "example": null
+      }
+    ]
+  },
+  "GUISE": {
+    "definition": "Customary way of speaking or acting; fashion, manner, practice (often used formerly in such phrases as \"at his own guise\"; that is, in his own fashion, to suit himself.)",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Customary way of speaking or acting; fashion, manner, practice (often used formerly in such phrases as \"at his own guise\"; that is, in his own fashion, to suit himself.)",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To dress.",
+        "example": null
+      }
+    ]
+  },
+  "GUMBO": {
+    "definition": "A soup or stew made with okra.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A soup or stew made with okra.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "The edible immature mucilaginous seed pod (properly, capsule) of the Abelmoschus esculentus.",
+        "example": null
+      }
+    ]
+  },
+  "HARDY": {
+    "definition": "(usually in the plural) Anything, especially a plant, that is hardy.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(usually in the plural) Anything, especially a plant, that is hardy.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Having rugged physical strength; inured to fatigue or hardships.",
+        "example": null
+      }
+    ]
+  },
+  "HASTE": {
+    "definition": "Speed; swiftness; dispatch.",
+    "partOfSpeech": "noun",
+    "example": "We were running late so we finished our meal in haste.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Speed; swiftness; dispatch.",
+        "example": "We were running late so we finished our meal in haste."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To urge onward; to hasten.",
+        "example": null
+      }
+    ]
+  },
+  "HAVEN": {
+    "definition": "A harbour or anchorage protected from the sea.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A harbour or anchorage protected from the sea.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To put into, or provide with a haven.",
+        "example": null
+      }
+    ]
+  },
+  "HOLLY": {
+    "definition": "Any of various shrubs or (mostly) small trees, of the genus Ilex, either evergreen or deciduous, used as decoration especially at Christmas.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Any of various shrubs or (mostly) small trees, of the genus Ilex, either evergreen or deciduous, used as decoration especially at Christmas.",
+        "example": null
+      }
+    ]
+  },
+  "HOVEL": {
+    "definition": "An open shed for sheltering cattle, or protecting produce, etc., from the weather.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An open shed for sheltering cattle, or protecting produce, etc., from the weather.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To put in a hovel; to shelter.",
+        "example": null
+      }
+    ]
+  },
+  "IDEAL": {
+    "definition": "A perfect standard of beauty, intellect etc., or a standard of excellence to aim at.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A perfect standard of beauty, intellect etc., or a standard of excellence to aim at.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Optimal; being the best possibility.",
+        "example": null
+      }
+    ]
+  },
+  "JUMBO": {
+    "definition": "An especially large or powerful person, animal, or thing.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An especially large or powerful person, animal, or thing.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Especially large or powerful.",
+        "example": null
+      }
+    ]
+  },
+  "KNIFE": {
+    "definition": "A utensil or a tool designed for cutting, consisting of a flat piece of hard material, usually steel or other metal (the blade), usually sharpened on one edge, attached to a handle. The blade may be pointed for piercing.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A utensil or a tool designed for cutting, consisting of a flat piece of hard material, usually steel or other metal (the blade), usually sharpened on one edge, attached to a handle. The blade may be pointed for piercing.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To cut with a knife.",
+        "example": null
+      }
+    ]
+  },
+  "LATER": {
+    "definition": "Near the end of a period of time.",
+    "partOfSpeech": "adjective",
+    "example": "It was late in the evening when we finally arrived.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Near the end of a period of time.",
+        "example": "It was late in the evening when we finally arrived."
+      },
+      {
+        "partOfSpeech": "adverb",
+        "definition": "After a deadline has passed, past a designated time.",
+        "example": "We drove as fast as we could, but we still arrived late."
+      }
+    ]
+  },
+  "LATHE": {
+    "definition": "To invite; bid; ask.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To invite; bid; ask.",
+        "example": null
+      }
+    ]
+  },
+  "LEACH": {
+    "definition": "A quantity of wood ashes, through which water passes, and thus imbibes the alkali.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A quantity of wood ashes, through which water passes, and thus imbibes the alkali.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "An aquatic blood-sucking annelid of class Hirudinea, especially Hirudo medicinalis.",
+        "example": null
+      }
+    ]
+  },
+  "LEVER": {
+    "definition": "(except in generalized senses below) A crowbar.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(except in generalized senses below) A crowbar.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To move with a lever.",
+        "example": "With great effort and a big crowbar I managed to lever the beam off the floor."
+      }
+    ]
+  },
+  "LIMBO": {
+    "definition": "(Roman Catholic theology, since circa 400 A.D.) The place where innocent souls exist temporarily until they can enter heaven, notably those of the saints who died before the advent of Christ (limbus patruum) and those of unbaptized but innocent children (limbus infantum).",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(Roman Catholic theology, since circa 400 A.D.) The place where innocent souls exist temporarily until they can enter heaven, notably those of the saints who died before the advent of Christ (limbus patruum) and those of unbaptized but innocent children (limbus infantum).",
+        "example": null
+      }
+    ]
+  },
+  "LURID": {
+    "definition": "Shocking, horrifying.",
+    "partOfSpeech": "adjective",
+    "example": "The accident was described with lurid detail.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Shocking, horrifying.",
+        "example": "The accident was described with lurid detail."
+      }
+    ]
+  },
+  "MAKER": {
+    "definition": "Someone who makes; a person or thing that makes or produces something.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Someone who makes; a person or thing that makes or produces something.",
+        "example": null
+      }
+    ]
+  },
+  "MANIC": {
+    "definition": "Of or pertaining to someone who exhibits mania or craziness; wicked.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Of or pertaining to someone who exhibits mania or craziness; wicked.",
+        "example": null
+      }
+    ]
+  },
+  "MISER": {
+    "definition": "A person who hoards money rather than spending it; one who is cheap or extremely parsimonious.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A person who hoards money rather than spending it; one who is cheap or extremely parsimonious.",
+        "example": null
+      }
+    ]
+  },
+  "MOOCH": {
+    "definition": "An aimless stroll.",
+    "partOfSpeech": "noun",
+    "example": "Jack wouldn't be arriving for another ten minutes, so I had a mooch around the garden.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An aimless stroll.",
+        "example": "Jack wouldn't be arriving for another ten minutes, so I had a mooch around the garden."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To wander around aimlessly, often causing irritation to others.",
+        "example": null
+      }
+    ]
+  },
+  "MOTEL": {
+    "definition": "A type of hotel or lodging establishment, often located near a major highway, which typically features a series of rooms the entrances of which are immediately adjacent to a parking lot to facilitate convenient access to automobiles parked there.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A type of hotel or lodging establishment, often located near a major highway, which typically features a series of rooms the entrances of which are immediately adjacent to a parking lot to facilitate convenient access to automobiles parked there.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To stay in a motel or motels.",
+        "example": null
+      }
+    ]
+  },
+  "MOUTH": {
+    "definition": "The opening of a creature through which food is ingested.",
+    "partOfSpeech": "noun",
+    "example": "\"Open your mouth and say 'aah',\" directed the doctor.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The opening of a creature through which food is ingested.",
+        "example": "\"Open your mouth and say 'aah',\" directed the doctor."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To speak; to utter.",
+        "example": "He mouthed his opinions on the subject at the meeting."
+      }
+    ]
+  },
+  "MUGGY": {
+    "definition": "(Of the weather, air, etc) humid, or hot and humid.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "(Of the weather, air, etc) humid, or hot and humid.",
+        "example": null
+      }
+    ]
+  },
+  "MYRRH": {
+    "definition": "A red-brown resinous material, the dried sap of a tree of the species Commiphora myrrha.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A red-brown resinous material, the dried sap of a tree of the species Commiphora myrrha.",
+        "example": null
+      }
+    ]
+  },
+  "NYLON": {
+    "definition": "Originally, the DuPont company trade name for polyamide, a copolymer whose molecules consist of alternating diamine and dicarboxylic acid monomers bonded together; now generically used for this type of polymer.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Originally, the DuPont company trade name for polyamide, a copolymer whose molecules consist of alternating diamine and dicarboxylic acid monomers bonded together; now generically used for this type of polymer.",
+        "example": null
+      }
+    ]
+  },
+  "OOMPH": {
+    "definition": "Strength, power, passion or effectiveness; clout.",
+    "partOfSpeech": "noun",
+    "example": "Use a mild cleanser, but pick something with enough oomph to do the job.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Strength, power, passion or effectiveness; clout.",
+        "example": "Use a mild cleanser, but pick something with enough oomph to do the job."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To produce a bassy grunting or thudding sound.",
+        "example": null
+      }
+    ]
+  },
+  "OPINE": {
+    "definition": "To have or express an opinion; to state as an opinion; to suppose, consider (that).",
+    "partOfSpeech": "verb",
+    "example": "\"Your decisions,\" she opined, \"have been unfailingly disastrous for this company.\"",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To have or express an opinion; to state as an opinion; to suppose, consider (that).",
+        "example": "\"Your decisions,\" she opined, \"have been unfailingly disastrous for this company.\""
+      }
+    ]
+  },
+  "PECAN": {
+    "definition": "A deciduous tree, Carya illinoinensis, of the central and southern United States, having deeply furrowed bark, pinnately compound leaves, and edible nuts.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A deciduous tree, Carya illinoinensis, of the central and southern United States, having deeply furrowed bark, pinnately compound leaves, and edible nuts.",
+        "example": null
+      }
+    ]
+  },
+  "PERIL": {
+    "definition": "A situation of serious and immediate danger.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A situation of serious and immediate danger.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To cause to be in danger; to imperil; to risk.",
+        "example": null
+      }
+    ]
+  },
+  "PLANE": {
+    "definition": "A level or flat surface.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A level or flat surface.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Of a surface: flat or level.",
+        "example": null
+      }
+    ]
+  },
+  "PLEAD": {
+    "definition": "To present (an argument or a plea), especially in a legal case.",
+    "partOfSpeech": "verb",
+    "example": "The defendant has decided to plead not guilty.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To present (an argument or a plea), especially in a legal case.",
+        "example": "The defendant has decided to plead not guilty."
+      }
+    ]
+  },
+  "PLUMP": {
+    "definition": "To grow plump; to swell out.",
+    "partOfSpeech": "verb",
+    "example": "Her cheeks have plumped.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To grow plump; to swell out.",
+        "example": "Her cheeks have plumped."
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Having a full and rounded shape; chubby, somewhat overweight.",
+        "example": "a plump baby;  plump cheeks"
+      }
+    ]
+  },
+  "POSSE": {
+    "definition": "A group or company of people, originally especially one having hostile intent; a throng, a crowd.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A group or company of people, originally especially one having hostile intent; a throng, a crowd.",
+        "example": null
+      }
+    ]
+  },
+  "PRISM": {
+    "definition": "A polyhedron with parallel ends of the same size and shape, the other faces being parallelogram-shaped sides.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A polyhedron with parallel ends of the same size and shape, the other faces being parallelogram-shaped sides.",
+        "example": null
+      }
+    ]
+  },
+  "PROOF": {
+    "definition": "An effort, process, or operation designed to establish or discover a fact or truth; an act of testing; a test; a trial.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An effort, process, or operation designed to establish or discover a fact or truth; an act of testing; a test; a trial.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To proofread.",
+        "example": null
+      }
+    ]
+  },
+  "QUARK": {
+    "definition": "In the Standard Model, an elementary subatomic particle that forms matter. They combine to form hadrons, such as protons and neutrons.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "In the Standard Model, an elementary subatomic particle that forms matter. They combine to form hadrons, such as protons and neutrons.",
+        "example": null
+      }
+    ]
+  },
+  "QUILL": {
+    "definition": "The lower shaft of a feather, specifically the region lacking barbs.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The lower shaft of a feather, specifically the region lacking barbs.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To pierce or be pierced with quills.",
+        "example": null
+      }
+    ]
+  },
+  "QUILT": {
+    "definition": "A bed covering consisting of two layers of fabric stitched together, with insulation between, often having a decorative design.",
+    "partOfSpeech": "noun",
+    "example": "My grandmother is going to sew a quilt.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A bed covering consisting of two layers of fabric stitched together, with insulation between, often having a decorative design.",
+        "example": "My grandmother is going to sew a quilt."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To construct a quilt.",
+        "example": null
+      }
+    ]
+  },
+  "RABID": {
+    "definition": "A human or animal infected with rabies.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A human or animal infected with rabies.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Affected with rabies.",
+        "example": null
+      }
+    ]
+  },
+  "RACER": {
+    "definition": "Someone who takes part in a race.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Someone who takes part in a race.",
+        "example": null
+      }
+    ]
+  },
+  "RELAY": {
+    "definition": "A new set of hounds.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A new set of hounds.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To release a new set of hounds.",
+        "example": null
+      }
+    ]
+  },
+  "REMIT": {
+    "definition": "Terms of reference; set of responsibilities; scope.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Terms of reference; set of responsibilities; scope.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To transmit or send (e.g. money in payment); to supply.",
+        "example": null
+      }
+    ]
+  },
+  "RUGBY": {
+    "definition": "(usually uncountable) A form of football in which players can hold or kick an ovoid ball. The ball cannot be handled forwards and points are scored by touching the ball to the ground in the area past their opponent’s territory or kicking the ball between goalposts and over a crossbar.",
+    "partOfSpeech": "noun",
+    "example": "The scrum is a distinctive element of rugby.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(usually uncountable) A form of football in which players can hold or kick an ovoid ball. The ball cannot be handled forwards and points are scored by touching the ball to the ground in the area past their opponent’s territory or kicking the ball between goalposts and over a crossbar.",
+        "example": "The scrum is a distinctive element of rugby."
+      }
+    ]
+  },
+  "SCENE": {
+    "definition": "The location of an event that attracts attention.",
+    "partOfSpeech": "noun",
+    "example": "the scene of the crime",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The location of an event that attracts attention.",
+        "example": "the scene of the crime"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To exhibit as a scene; to make a scene of; to display.",
+        "example": null
+      }
+    ]
+  },
+  "SEGUE": {
+    "definition": "An instance of segueing, a transition.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An instance of segueing, a transition.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To move smoothly from one state or subject to another.",
+        "example": "I can tell she’s going to segue from our conversation about school to the topic of marriage."
+      }
+    ]
+  },
+  "SHORT": {
+    "definition": "A short circuit.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A short circuit.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To cause a short circuit in (something).",
+        "example": null
+      }
+    ]
+  },
+  "SIREN": {
+    "definition": "One of a group of nymphs who lured mariners to their death on the rocks.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "One of a group of nymphs who lured mariners to their death on the rocks.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To make a noise with, or as if with, a siren.",
+        "example": null
+      }
+    ]
+  },
+  "SITAR": {
+    "definition": "A Hindustani/Indian classical stringed instrument, typically having a gourd as its resonating chamber.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A Hindustani/Indian classical stringed instrument, typically having a gourd as its resonating chamber.",
+        "example": null
+      }
+    ]
+  },
+  "SNIDE": {
+    "definition": "An underhanded, tricky person given to sharp practise; a sharper; a cheat.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An underhanded, tricky person given to sharp practise; a sharper; a cheat.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Disparaging or derisive in an insinuative way.",
+        "example": "Don't make snide remarks to me."
+      }
+    ]
+  },
+  "SPASM": {
+    "definition": "A sudden, involuntary contraction of a muscle, a group of muscles, or a hollow organ.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A sudden, involuntary contraction of a muscle, a group of muscles, or a hollow organ.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To produce and undergo a spasm.",
+        "example": null
+      }
+    ]
+  },
+  "SPEED": {
+    "definition": "The state of moving quickly or the capacity for rapid motion; rapidity.",
+    "partOfSpeech": "noun",
+    "example": "How does Usain Bolt run at that speed?",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The state of moving quickly or the capacity for rapid motion; rapidity.",
+        "example": "How does Usain Bolt run at that speed?"
+      }
+    ]
+  },
+  "SPINY": {
+    "definition": "Full of or covered with spines; thorny.",
+    "partOfSpeech": "adjective",
+    "example": "The spiny cactus thrives in the desert.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Full of or covered with spines; thorny.",
+        "example": "The spiny cactus thrives in the desert."
+      }
+    ]
+  },
+  "SPOIL": {
+    "definition": "(Also in plural: spoils) Plunder taken from an enemy or victim.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(Also in plural: spoils) Plunder taken from an enemy or victim.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To strip (someone who has been killed or defeated) of their arms or armour.",
+        "example": null
+      }
+    ]
+  },
+  "SPOOF": {
+    "definition": "An act of deception; a hoax; a joking prank.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An act of deception; a hoax; a joking prank.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To gently satirize.",
+        "example": null
+      }
+    ]
+  },
+  "SPOOL": {
+    "definition": "A reel; a device around which thread, wire or cable is wound, especially a cylinder or spindle.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A reel; a device around which thread, wire or cable is wound, especially a cylinder or spindle.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To wind on a spool or spools.",
+        "example": null
+      }
+    ]
+  },
+  "STACK": {
+    "definition": "(heading) A pile.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(heading) A pile.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To arrange in a stack, or to add to an existing stack.",
+        "example": "Please stack those chairs in the corner."
+      }
+    ]
+  },
+  "STRUT": {
+    "definition": "Protuberance, air pressure",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Protuberance, air pressure",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To swell; protuberate; bulge or spread out.",
+        "example": null
+      }
+    ]
+  },
+  "STUNT": {
+    "definition": "A daring or dangerous feat, often involving the display of gymnastic skills.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A daring or dangerous feat, often involving the display of gymnastic skills.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "(cheerleading) To perform a stunt.",
+        "example": null
+      }
+    ]
+  },
+  "SULLY": {
+    "definition": "A blemish.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A blemish.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To soil or stain; to dirty.",
+        "example": "He did not wish to sully his hands with gardening."
+      }
+    ]
+  },
+  "SUMAC": {
+    "definition": "Any of various shrubs or small trees of the genus Rhus and other genera in Anacardiaceae, particularly the elm-leaved sumac, Sicilian sumac, or tanner's sumac (Rhus coriaria).",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Any of various shrubs or small trees of the genus Rhus and other genera in Anacardiaceae, particularly the elm-leaved sumac, Sicilian sumac, or tanner's sumac (Rhus coriaria).",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To apply a preparation of sumac to (an object), for example, to a piece of leather to tan it.",
+        "example": null
+      }
+    ]
+  },
+  "SURGE": {
+    "definition": "A sudden transient rush, flood or increase.",
+    "partOfSpeech": "noun",
+    "example": "He felt a surge of excitement.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A sudden transient rush, flood or increase.",
+        "example": "He felt a surge of excitement."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To rush, flood, or increase suddenly.",
+        "example": "Toaster sales surged last year."
+      }
+    ]
+  },
+  "SWING": {
+    "definition": "The manner in which something is swung.",
+    "partOfSpeech": "noun",
+    "example": "Door swing indicates direction the door opens.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The manner in which something is swung.",
+        "example": "Door swing indicates direction the door opens."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To rotate about an off-centre fixed point.",
+        "example": "The plant swung in the breeze."
+      }
+    ]
+  },
+  "SWOOP": {
+    "definition": "An instance, or the act of suddenly plunging downward.",
+    "partOfSpeech": "noun",
+    "example": "The quality of decision is like the well-timed swoop of a falcon which enables it to strike and destroy its victim. – Sun Tzu",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An instance, or the act of suddenly plunging downward.",
+        "example": "The quality of decision is like the well-timed swoop of a falcon which enables it to strike and destroy its victim. – Sun Tzu"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To fly or glide downwards suddenly; to plunge (in the air) or nosedive.",
+        "example": "The lone eagle swooped down into the lake, snatching its prey, a small fish."
+      }
+    ]
+  },
+  "TABBY": {
+    "definition": "A kind of waved silk, usually called watered silk, manufactured like taffeta, but thicker and stronger. The watering is given to it by calendering.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A kind of waved silk, usually called watered silk, manufactured like taffeta, but thicker and stronger. The watering is given to it by calendering.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To give a wavy or watered appearance to (a textile).",
+        "example": null
+      }
+    ]
+  },
+  "TEETH": {
+    "definition": "The ability to be enforced, or to be enforced to any useful effect.",
+    "partOfSpeech": "noun",
+    "example": "The international community's sanctions against the regime had some teeth to them this time around.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The ability to be enforced, or to be enforced to any useful effect.",
+        "example": "The international community's sanctions against the regime had some teeth to them this time around."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To grow teeth.",
+        "example": "Babies typically start teething at about six months."
+      }
+    ]
+  },
+  "THICK": {
+    "definition": "The thickest, or most active or intense, part of something.",
+    "partOfSpeech": "noun",
+    "example": "It was mayhem in the thick of battle.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The thickest, or most active or intense, part of something.",
+        "example": "It was mayhem in the thick of battle."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To thicken.",
+        "example": null
+      }
+    ]
+  },
+  "TINGE": {
+    "definition": "A small added amount of colour; (by extension) a small added amount of some other thing.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A small added amount of colour; (by extension) a small added amount of some other thing.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To add a small amount of colour; to tint; (by extension) to add a small amount of some other thing.",
+        "example": null
+      }
+    ]
+  },
+  "TRIAL": {
+    "definition": "An opportunity to test something out; a test.",
+    "partOfSpeech": "noun",
+    "example": "They will perform the trials for the new equipment next week.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An opportunity to test something out; a test.",
+        "example": "They will perform the trials for the new equipment next week."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To carry out a series of tests on (a new product, procedure etc.) before marketing or implementing it.",
+        "example": "The warning system was extensively trialed before being fitted to all our vehicles."
+      }
+    ]
+  },
+  "TRUCK": {
+    "definition": "A small wheel or roller, specifically the wheel of a gun carriage.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A small wheel or roller, specifically the wheel of a gun carriage.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To drive a truck: Generally a truck driver's slang.",
+        "example": null
+      }
+    ]
+  },
+  "TUBER": {
+    "definition": "A fleshy, thickened underground stem of a plant, usually containing stored starch, for example a potato or arrowroot.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A fleshy, thickened underground stem of a plant, usually containing stored starch, for example a potato or arrowroot.",
+        "example": null
+      }
+    ]
+  },
+  "TULIP": {
+    "definition": "A type of flowering plant, genus Tulipa.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A type of flowering plant, genus Tulipa.",
+        "example": null
+      }
+    ]
+  },
+  "VEGAN": {
+    "definition": "A person who does not eat, drink or otherwise consume any animal products",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A person who does not eat, drink or otherwise consume any animal products",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "(of a product or practice, especially food) Not containing animal products (meat, eggs, milk, leather, etc) or inherently involving animal use.",
+        "example": "He eats a completely vegan diet."
+      }
+    ]
+  },
+  "VENUE": {
+    "definition": "A theater, auditorium, arena, or other area designated for sporting or entertainment events.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A theater, auditorium, arena, or other area designated for sporting or entertainment events.",
+        "example": null
+      }
+    ]
+  },
+  "VOWEL": {
+    "definition": "A sound produced by the vocal cords with relatively little restriction of the oral cavity, forming the prominent sound of a syllable.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A sound produced by the vocal cords with relatively little restriction of the oral cavity, forming the prominent sound of a syllable.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To add vowel points to a consonantal script (e.g. niqqud in Hebrew or harakat in Arabic)",
+        "example": null
+      }
+    ]
+  },
+  "WAIST": {
+    "definition": "The part of the body between the pelvis and the stomach.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The part of the body between the pelvis and the stomach.",
+        "example": null
+      }
+    ]
+  },
+  "WAXEN": {
+    "definition": "Grown.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Grown.",
+        "example": null
+      }
+    ]
+  },
+  "WEIGH": {
+    "definition": "To determine the weight of an object.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To determine the weight of an object.",
+        "example": null
+      }
+    ]
+  },
+  "WHITE": {
+    "definition": "The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To make white; to whiten; to bleach.",
+        "example": null
+      }
+    ]
+  },
+  "WIDTH": {
+    "definition": "The state of being wide.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "The state of being wide.",
+        "example": null
+      }
+    ]
+  },
+  "WIELD": {
+    "definition": "To command, rule over; to possess or own.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To command, rule over; to possess or own.",
+        "example": null
+      }
+    ]
+  },
+  "WOUND": {
+    "definition": "An injury, such as a cut, stab, or tear, to a (usually external) part of the body.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An injury, such as a cut, stab, or tear, to a (usually external) part of the body.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To hurt or injure (someone) by cutting, piercing, or tearing the skin.",
+        "example": "The police officer wounded the suspect during the fight that ensued."
+      }
+    ]
+  }
+}
