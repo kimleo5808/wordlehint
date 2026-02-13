@@ -4,7 +4,7 @@ import { BASE_URL } from "@/config/site";
 
 const SHARE_URL = BASE_URL;
 const SHARE_TEXT =
-  "Strands Hint — Daily hints and answers for NYT Strands puzzle. Progressive clues, Spangram reveals, and theme words.";
+  "WordleHint — Play unlimited Wordle games from 4 to 11 letters. Free hints, strategy guides, and best starting words.";
 
 const socialPlatforms = [
   {

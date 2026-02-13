@@ -26,14 +26,14 @@ export async function generateMetadata({
 
   return constructMetadata({
     page: "Share",
-    title: "Share Strands Hint",
+    title: "Share WordleHint",
     description:
-      "Share Strands Hint with friends and family. Spread the love of word puzzles and brain challenges!",
+      "Share WordleHint with friends and family. Spread the love of word puzzles and brain challenges!",
     keywords: [
       "share",
       "social media",
       "word puzzles",
-      "strands hint",
+      "wordlehint",
       "invite friends",
     ],
     locale: locale as Locale,
@@ -46,7 +46,7 @@ const SOCIAL_LINKS = [
   {
     name: "Twitter",
     icon: "𝕏",
-    href: `https://twitter.com/intent/tweet?text=Check%20out%20Strands%20Hint%20-%20Amazing%20word%20puzzles%20with%20daily%20hints!&url=${encodeURIComponent(BASE_URL)}`,
+    href: `https://twitter.com/intent/tweet?text=Check%20out%20WordleHint%20-%20Unlimited%20Wordle%20games%20with%20hints%20and%20strategies!&url=${encodeURIComponent(BASE_URL)}`,
     className:
       "bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200",
   },
@@ -65,7 +65,7 @@ const SOCIAL_LINKS = [
   {
     name: "Reddit",
     icon: "r/",
-    href: `https://www.reddit.com/submit?url=${encodeURIComponent(BASE_URL)}&title=Amazing%20Word%20Puzzle%20Games%20-%20Strands%20Hint`,
+    href: `https://www.reddit.com/submit?url=${encodeURIComponent(BASE_URL)}&title=Unlimited%20Wordle%20Games%20-%20WordleHint`,
     className: "bg-orange-600 text-white hover:bg-orange-700",
   },
   {
@@ -129,7 +129,7 @@ export default async function SharePage({ params }: { params: Params }) {
           </h1>
           <p className="mt-2 text-muted-foreground">
             Love our word puzzles? Help us grow the community by sharing
-            Strands Hint with your friends, family, and fellow puzzle
+            WordleHint with your friends, family, and fellow puzzle
             enthusiasts!
           </p>
         </div>
@@ -189,7 +189,7 @@ export default async function SharePage({ params }: { params: Params }) {
           Send a personalized message to friends and family:
         </p>
         <a
-          href={`mailto:?subject=Check%20out%20Strands%20Hint!&body=Hi!%20I%20found%20this%20amazing%20word%20puzzle%20website%20and%20thought%20you'd%20love%20it.%20They%20have%20daily%20Strands%20hints%20and%20word%20games%20with%204-11%20letter%20challenges!%0A%0ACheck%20it%20out:%20${encodeURIComponent(siteConfig.url)}%0A%0AHappy%20puzzling!`}
+          href={`mailto:?subject=Check%20out%20WordleHint!&body=Hi!%20I%20found%20this%20awesome%20Wordle%20website%20and%20thought%20you'd%20love%20it.%20They%20have%20unlimited%20Wordle%20games%20with%204-11%20letter%20challenges%20and%20strategy%20guides!%0A%0ACheck%20it%20out:%20${encodeURIComponent(siteConfig.url)}%0A%0AHappy%20puzzling!`}
           className="mt-3 inline-flex items-center gap-2 rounded-lg border border-primary/30 px-5 py-2.5 text-sm font-semibold text-primary transition-colors hover:bg-primary/5"
         >
           <Mail className="h-4 w-4" />
@@ -200,7 +200,7 @@ export default async function SharePage({ params }: { params: Params }) {
       {/* Why Share */}
       <div className="mt-8">
         <h2 className="font-heading text-xl font-bold text-foreground">
-          Why Share Strands Hint?
+          Why Share WordleHint?
         </h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {REASONS.map((reason) => (
@@ -226,7 +226,7 @@ export default async function SharePage({ params }: { params: Params }) {
           Spread the Puzzle Love
         </h2>
         <p className="mt-2 text-sm text-muted-foreground">
-          When you share Strands Hint, you&apos;re helping:
+          When you share WordleHint, you&apos;re helping:
         </p>
         <ul className="mt-3 space-y-2">
           {[

@@ -41,16 +41,15 @@ html {
     --input: 214 32% 91%;
     --ring: 239 84% 67%;
 
-    /* --- CTA action color (Amber / Spangram gold) --- */
+    /* --- CTA action color --- */
     --cta: 38 92% 50%;
     --cta-foreground: 0 0% 100%;
 
-    /* --- Game-specific colors --- */
-    --strands-theme: 217 91% 60%;
-    --strands-spangram: 38 92% 50%;
-    --strands-hint: 160 84% 39%;
-    --strands-grid: 210 40% 96%;
-    --strands-selected: 226 100% 94%;
+    /* --- Wordle game colors --- */
+    --wordle-correct: 142 71% 45%;
+    --wordle-present: 48 89% 50%;
+    --wordle-absent: 215 14% 45%;
+    --wordle-key: 210 40% 96%;
 
     /* --- Charts --- */
     --chart-1: 239 84% 67%;
@@ -112,16 +111,15 @@ html {
     --input: 217 33% 17%;
     --ring: 232 92% 81%;
 
-    /* --- CTA action color (Amber / Spangram gold) --- */
+    /* --- CTA action color --- */
     --cta: 43 96% 56%;
     --cta-foreground: 0 0% 0%;
 
-    /* --- Game-specific colors --- */
-    --strands-theme: 213 94% 68%;
-    --strands-spangram: 43 96% 56%;
-    --strands-hint: 160 67% 52%;
-    --strands-grid: 215 25% 14%;
-    --strands-selected: 244 47% 20%;
+    /* --- Wordle game colors --- */
+    --wordle-correct: 142 64% 40%;
+    --wordle-present: 48 86% 46%;
+    --wordle-absent: 215 14% 34%;
+    --wordle-key: 215 25% 14%;
 
     /* --- Charts --- */
     --chart-1: 232 92% 81%;

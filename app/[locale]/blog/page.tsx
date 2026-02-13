@@ -22,8 +22,8 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     keywords: [
-      "strands tips", "nyt strands strategy", "strands puzzle guide",
-      "strands hints blog", "word puzzle tips",
+      "wordle tips", "wordle strategy", "wordle puzzle guide",
+      "wordle hints blog", "word puzzle tips",
     ],
     locale: locale as Locale,
     path: `/blog`,

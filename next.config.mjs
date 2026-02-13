@@ -52,75 +52,46 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // --- Existing redirects ---
-      {
-        source: "/nyt-strands-hint",
-        destination: "/strands-hint",
-        permanent: true,
-      },
-      {
-        source: "/about-us",
-        destination: "/about",
-        permanent: true,
-      },
-      {
-        source: "/how-to-play",
-        destination: "/how-to-play-strands",
-        permanent: true,
-      },
-      {
-        source: "/strands-hint-archive",
-        destination: "/strands-hint",
-        permanent: true,
-      },
-
-      // --- Old URL structure → New URL structure (GSC indexed pages) ---
-
-      // Core pages
-      { source: "/today", destination: "/strands-hint-today", permanent: true },
-      { source: "/archive", destination: "/strands-hint", permanent: true },
-      { source: "/hints", destination: "/strands-hint", permanent: true },
-      { source: "/faq", destination: "/strands-hint-faq", permanent: true },
+      // --- Legacy short URLs → current routes ---
+      { source: "/about-us", destination: "/about", permanent: true },
+      { source: "/how-to-play", destination: "/how-to-play-wordle", permanent: true },
+      { source: "/faq", destination: "/wordle-hint-faq", permanent: true },
       { source: "/privacy", destination: "/privacy-policy", permanent: true },
       { source: "/terms", destination: "/terms-of-service", permanent: true },
+      { source: "/today", destination: "/wordle-hint-today", permanent: true },
+      { source: "/hints", destination: "/wordle-hint-today", permanent: true },
+      { source: "/answers", destination: "/wordle-hint-today", permanent: true },
+      { source: "/strategy", destination: "/how-to-play-wordle", permanent: true },
+      { source: "/tips", destination: "/guides", permanent: true },
+      { source: "/archive", destination: "/wordle-hint", permanent: true },
 
-      // Content pages → closest equivalent
-      { source: "/strategy", destination: "/how-to-play-strands", permanent: true },
-      { source: "/tips", destination: "/how-to-play-strands", permanent: true },
-      { source: "/answers", destination: "/strands-hint", permanent: true },
+      // --- Old Strands routes → Wordle equivalents ---
+      { source: "/nyt-strands-hint", destination: "/wordle-hint-today", permanent: true },
+      { source: "/strands-hint", destination: "/wordle-hint-today", permanent: true },
+      { source: "/strands-hint-today", destination: "/wordle-hint-today", permanent: true },
+      { source: "/strands-hint-archive", destination: "/wordle-hint", permanent: true },
+      { source: "/strands-hint-faq", destination: "/wordle-hint-faq", permanent: true },
+      { source: "/how-to-play-strands", destination: "/how-to-play-wordle", permanent: true },
+      { source: "/strands-hint/:date", destination: "/wordle-hint/:date", permanent: true },
+      { source: "/archive/:date", destination: "/wordle-hint/:date", permanent: true },
 
-      // Date-based archive pages: /archive/YYYY-MM-DD → /strands-hint/YYYY-MM-DD
-      {
-        source: "/archive/:date",
-        destination: "/strands-hint/:date",
-        permanent: true,
-      },
-
-      // Locale-prefixed variants (English)
-      { source: "/en/today", destination: "/en/strands-hint-today", permanent: true },
-      { source: "/en/archive", destination: "/en/strands-hint", permanent: true },
-      { source: "/en/hints", destination: "/en/strands-hint", permanent: true },
-      { source: "/en/faq", destination: "/en/strands-hint-faq", permanent: true },
-      { source: "/en/answers", destination: "/en/strands-hint", permanent: true },
-      { source: "/en/strategy", destination: "/en/how-to-play-strands", permanent: true },
-      { source: "/en/tips", destination: "/en/how-to-play-strands", permanent: true },
-      {
-        source: "/en/archive/:date",
-        destination: "/en/strands-hint/:date",
-        permanent: true,
-      },
+      // --- Locale-prefixed variants (English) ---
+      { source: "/en/today", destination: "/en/5-letters", permanent: true },
+      { source: "/en/hints", destination: "/en/5-letters", permanent: true },
+      { source: "/en/answers", destination: "/en/5-letters", permanent: true },
+      { source: "/en/faq", destination: "/en/wordle-hint-faq", permanent: true },
+      { source: "/en/strategy", destination: "/en/how-to-play-wordle", permanent: true },
+      { source: "/en/tips", destination: "/en/guides", permanent: true },
+      { source: "/en/archive", destination: "/en/5-letters", permanent: true },
+      { source: "/en/archive/:date", destination: "/en/5-letters", permanent: true },
 
       // --- Spanish locale → English (language dropped) ---
       { source: "/es", destination: "/", permanent: true },
-      { source: "/es/hints", destination: "/strands-hint", permanent: true },
-      { source: "/es/answers", destination: "/strands-hint", permanent: true },
-      { source: "/es/archive", destination: "/strands-hint", permanent: true },
-      {
-        source: "/es/archive/:date",
-        destination: "/strands-hint/:date",
-        permanent: true,
-      },
-      { source: "/es/faq", destination: "/strands-hint-faq", permanent: true },
+      { source: "/es/hints", destination: "/5-letters", permanent: true },
+      { source: "/es/answers", destination: "/5-letters", permanent: true },
+      { source: "/es/archive", destination: "/5-letters", permanent: true },
+      { source: "/es/archive/:date", destination: "/5-letters", permanent: true },
+      { source: "/es/faq", destination: "/wordle-hint-faq", permanent: true },
       { source: "/es/about", destination: "/about", permanent: true },
       { source: "/es/contact", destination: "/contact", permanent: true },
       { source: "/es/privacy", destination: "/privacy-policy", permanent: true },

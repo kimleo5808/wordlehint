@@ -51,7 +51,7 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     keywords: [
-      "strandshint privacy policy", "strands hint privacy",
+      "wordlehint privacy policy", "wordle hint privacy",
     ],
     locale: locale as Locale,
     path: `/privacy-policy`,
@@ -76,7 +76,7 @@ export default async function PrivacyPolicyPage({
           Privacy Policy
         </h1>
         <p className="relative mt-4 text-muted-foreground">
-          What data we collect on strandshint.app, how we use analytics, and
+          What data we collect on wordlehint.info, how we use analytics, and
           your privacy rights.
         </p>
       </header>

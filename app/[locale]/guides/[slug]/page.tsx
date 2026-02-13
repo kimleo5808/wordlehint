@@ -55,12 +55,12 @@ export default async function GuidePage({ params }: { params: Params }) {
           image: `${BASE_URL}/og.png`,
           author: {
             "@type": "Organization",
-            name: "Strands Hint",
+            name: "WordleHint",
             url: BASE_URL,
           },
           publisher: {
             "@type": "Organization",
-            name: "Strands Hint",
+            name: "WordleHint",
             logo: { "@type": "ImageObject", url: `${BASE_URL}/logo.png` },
           },
           datePublished: "2025-01-10",
@@ -224,11 +224,11 @@ export default async function GuidePage({ params }: { params: Params }) {
         </p>
         <div className="mt-4 flex flex-wrap justify-center gap-3">
           <I18nLink
-            href="/strands-hint-today"
+            href="/5-letters"
             prefetch={false}
             className="rounded-xl bg-white px-5 py-2 text-sm font-bold text-primary transition-all hover:bg-white/90"
           >
-            Today&apos;s Hints
+            Play 5-Letter Wordle
           </I18nLink>
           <I18nLink
             href="/guides"

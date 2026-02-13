@@ -19,12 +19,12 @@ export async function generateMetadata({
     page: "Contact",
     title: "Contact Us",
     description:
-      "Contact Strands Hint - Get in touch with us for support, feedback, or questions about our word puzzle games.",
+      "Contact WordleHint - Get in touch with us for support, feedback, or questions about our word puzzle games.",
     keywords: [
       "contact",
       "support",
       "feedback",
-      "strands hint",
+      "wordle hint",
       "customer service",
     ],
     locale: locale as Locale,
@@ -38,19 +38,19 @@ const CONTACT_METHODS = [
     icon: Mail,
     title: "Email Support",
     description: "For general inquiries, technical support, or feedback:",
-    email: "support@strandshint.app",
+    email: "support@wordlehint.info",
   },
   {
     icon: Lightbulb,
     title: "Feature Requests",
     description: "Have an idea for a new game mode or feature?",
-    email: "feedback@strandshint.app",
+    email: "feedback@wordlehint.info",
   },
   {
     icon: Bug,
     title: "Bug Reports",
     description: "Found a bug or technical issue?",
-    email: "bugs@strandshint.app",
+    email: "bugs@wordlehint.info",
   },
 ];
 
@@ -208,7 +208,7 @@ export default async function ContactPage({ params }: { params: Params }) {
         </p>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           <I18nLink
-            href="/how-to-play-strands"
+            href="/how-to-play-wordle"
             prefetch={false}
             className="rounded-xl border border-primary/20 bg-primary/5 p-4 transition-colors hover:bg-primary/5 dark:border-primary/30 dark:bg-primary/10 dark:hover:bg-primary/20"
           >
@@ -220,7 +220,7 @@ export default async function ContactPage({ params }: { params: Params }) {
             </p>
           </I18nLink>
           <I18nLink
-            href="/strands-hint-faq"
+            href="/wordle-hint-faq"
             prefetch={false}
             className="rounded-xl border border-primary/20 bg-primary/5 p-4 transition-colors hover:bg-primary/5 dark:border-primary/30 dark:bg-primary/10 dark:hover:bg-primary/20"
           >

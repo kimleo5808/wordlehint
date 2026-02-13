@@ -1,7 +1,7 @@
 import { siteConfig } from '@/config/site'
-import { getAllPuzzles } from '@/lib/strands-data'
 import { getPosts } from '@/lib/getBlogs'
 import { GUIDE_SLUGS } from '@/data/guides'
+import { getAllPuzzles } from '@/lib/wordle-daily'
 import { MetadataRoute } from 'next'
 
 const siteUrl = siteConfig.url
@@ -11,21 +11,39 @@ type ChangeFrequency = 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'y
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages = [
     '',
-    '/strands-hint-today',
-    '/how-to-play-strands',
-    '/strands-hint-faq',
-    '/strands-hint',
+    '/wordle-hint-today',
+    '/wordle-hint',
+    '/how-to-play-wordle',
+    '/wordle-hint-faq',
+    '/wordle-solver',
     '/about',
     '/contact',
     '/privacy-policy',
     '/terms-of-service',
   ]
 
+  const priorityMap: Record<string, number> = {
+    '': 1.0,
+    '/wordle-hint-today': 0.95,
+    '/wordle-hint': 0.8,
+    '/how-to-play-wordle': 0.9,
+    '/wordle-solver': 0.9,
+  }
+
   const pages = staticPages.map(page => ({
     url: `${siteUrl}${page}`,
     lastModified: new Date(),
-    changeFrequency: (page === '' || page === '/strands-hint-today' ? 'daily' : 'weekly') as ChangeFrequency,
-    priority: page === '' ? 1.0 : page === '/strands-hint-today' ? 0.95 : 0.8,
+    changeFrequency: (page === '' || page === '/wordle-hint-today' ? 'daily' : 'weekly') as ChangeFrequency,
+    priority: priorityMap[page] ?? 0.8,
+  }))
+
+  // Daily puzzle hint pages
+  const dailyPuzzles = getAllPuzzles()
+  const puzzlePages = dailyPuzzles.map(p => ({
+    url: `${siteUrl}/wordle-hint/${p.date}`,
+    lastModified: new Date(p.date + 'T12:00:00Z'),
+    changeFrequency: 'monthly' as ChangeFrequency,
+    priority: 0.6,
   }))
 
   // Letter game pages (4-11 letters)
@@ -33,7 +51,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${siteUrl}/${n}-letters`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as ChangeFrequency,
-    priority: 0.5,
+    priority: n === 5 ? 0.9 : 0.7,
   }))
 
   // Guides pages
@@ -47,15 +65,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const guidePages = GUIDE_SLUGS.map(slug => ({
     url: `${siteUrl}/guides/${slug}`,
     lastModified: new Date(),
-    changeFrequency: 'monthly' as ChangeFrequency,
-    priority: 0.6,
-  }))
-
-  // Puzzle pages
-  const allPuzzles = await getAllPuzzles()
-  const puzzlePages = allPuzzles.map(puzzle => ({
-    url: `${siteUrl}/strands-hint/${puzzle.printDate}`,
-    lastModified: new Date(puzzle.printDate),
     changeFrequency: 'monthly' as ChangeFrequency,
     priority: 0.6,
   }))
@@ -88,10 +97,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...pages,
+    ...puzzlePages,
     ...letterGamePages,
     guidesIndex,
     ...guidePages,
-    ...puzzlePages,
     blogIndex,
     ...postPages,
   ]

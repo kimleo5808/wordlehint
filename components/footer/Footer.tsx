@@ -73,7 +73,7 @@ export default async function Footer() {
             })}
           </p>
           <p className="text-xs text-slate-600">
-            Not affiliated with The New York Times. NYT Strands is a trademark of The New York Times Company.
+            Not affiliated with The New York Times. Wordle is a trademark of The New York Times Company.
           </p>
         </div>
       </div>

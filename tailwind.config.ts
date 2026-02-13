@@ -68,12 +68,11 @@ const config = {
           DEFAULT: 'hsl(var(--cta))',
           foreground: 'hsl(var(--cta-foreground))',
         },
-        strands: {
-          theme: 'hsl(var(--strands-theme))',
-          spangram: 'hsl(var(--strands-spangram))',
-          hint: 'hsl(var(--strands-hint))',
-          grid: 'hsl(var(--strands-grid))',
-          selected: 'hsl(var(--strands-selected))',
+        wordle: {
+          correct: 'hsl(var(--wordle-correct))',
+          present: 'hsl(var(--wordle-present))',
+          absent: 'hsl(var(--wordle-absent))',
+          key: 'hsl(var(--wordle-key))',
         }
       },
       borderRadius: {

@@ -1,27 +1,28 @@
-import { StrandsClickToReveal } from "@/components/strands/StrandsClickToReveal";
-import { CountdownTimer } from "@/components/strands/CountdownTimer";
 import { GUIDES } from "@/data/guides";
 import { LETTER_GAMES } from "@/data/letter-games";
-import { getLatestPuzzle, getRecentPuzzles } from "@/lib/strands-data";
-import dayjs from "dayjs";
+import { generateHints } from "@/lib/wordle-hints";
+import { getTodayPuzzle, getRecentPuzzles, getPuzzleCount } from "@/lib/wordle-daily";
 import {
   ArrowRight,
   BookOpen,
+  CalendarDays,
   ChevronDown,
-  Clock,
+  Eye,
   Gamepad2,
-  Grid3X3,
   Lightbulb,
+  Lock,
   Map,
   Puzzle,
-  Search,
   Shield,
   Sparkles,
+  Target,
+  TrendingUp,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 
-const FEATURE_ICONS = [Lightbulb, Grid3X3, Clock, Puzzle, Shield, Sparkles];
+const FEATURE_ICONS = [Lightbulb, Target, Zap, BookOpen, Puzzle, Shield];
 
 function FaqAccordionItem({ question, answer }: { question: string; answer: string }) {
   return (
@@ -39,187 +40,284 @@ function FaqAccordionItem({ question, answer }: { question: string; answer: stri
   );
 }
 
+const WORD_LENGTH_META: Record<number, { label: string; difficulty: string; color: string }> = {
+  4: { label: "Quick & Easy", difficulty: "Beginner", color: "from-emerald-500 to-emerald-600" },
+  5: { label: "Classic Wordle", difficulty: "Standard", color: "from-blue-500 to-blue-600" },
+  6: { label: "Step Up", difficulty: "Intermediate", color: "from-violet-500 to-violet-600" },
+  7: { label: "Advanced", difficulty: "Advanced", color: "from-amber-500 to-amber-600" },
+  8: { label: "Expert", difficulty: "Expert", color: "from-orange-500 to-orange-600" },
+  9: { label: "Master", difficulty: "Master", color: "from-rose-500 to-rose-600" },
+  10: { label: "Ultimate", difficulty: "Ultimate", color: "from-red-600 to-red-700" },
+  11: { label: "Maximum", difficulty: "Extreme", color: "from-red-700 to-red-900" },
+};
+
+const HINT_COLORS = [
+  "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
+  "bg-blue-500/10 text-blue-400 border-blue-500/20",
+  "bg-violet-500/10 text-violet-400 border-violet-500/20",
+  "bg-amber-500/10 text-amber-400 border-amber-500/20",
+  "bg-rose-500/10 text-rose-400 border-rose-500/20",
+];
+
+function formatDateDisplay(dateStr: string): string {
+  const d = new Date(dateStr + "T12:00:00Z");
+  return d.toLocaleDateString("en-US", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 export default async function HomeComponent() {
   const t = await getTranslations("HomePage");
-  const latestPuzzle = await getLatestPuzzle();
-  const recentPuzzles = await getRecentPuzzles(9);
 
-  const todayDate = latestPuzzle
-    ? dayjs(latestPuzzle.printDate).format("MMMM D, YYYY")
-    : "";
+  const todayPuzzle = getTodayPuzzle();
+  const hints = todayPuzzle ? generateHints(todayPuzzle) : null;
+  const recentPuzzles = getRecentPuzzles(7);
+  const puzzleCount = getPuzzleCount();
 
   return (
     <div className="w-full grid-bg">
-      {/* Hero Section - Dark blue */}
-      <section className="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 py-16 sm:py-20">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 py-16 sm:py-24">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
-          <h1 className="font-heading text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
+          <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 border border-primary/20 px-4 py-1.5 text-sm font-medium text-primary">
+            <CalendarDays className="h-4 w-4" />
+            {t("hero.badge")}
+            {todayPuzzle && (
+              <span className="text-primary/70">
+                — {formatDateDisplay(todayPuzzle.date)}
+              </span>
+            )}
+          </div>
+          <h1 className="mt-6 font-heading text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
             {t("hero.title")}
           </h1>
-          <p className="mt-4 text-lg text-slate-300 sm:text-xl">
+          <p className="mt-5 text-lg text-slate-300 sm:text-xl max-w-2xl mx-auto">
             {t("hero.subtitle")}
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
-              href="/strands-hint-today"
+              href="/wordle-hint-today"
               className="group inline-flex items-center gap-2 rounded-xl bg-cta px-7 py-3.5 text-sm font-bold text-cta-foreground shadow-lg shadow-cta/25 transition-all hover:bg-cta/90 hover:shadow-cta/30"
             >
-              {t("hero.ctaHints")}
+              <Lightbulb className="h-4 w-4" />
+              Today&apos;s Wordle Hint
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
             <Link
-              href="/strands-hint"
+              href="/5-letters"
               className="inline-flex items-center gap-2 rounded-xl border-2 border-slate-600 px-6 py-3.5 text-sm font-semibold text-slate-200 transition-all hover:border-slate-500 hover:bg-slate-800"
             >
-              {t("hero.ctaArchive")}
-              <Search className="h-4 w-4" />
+              {t("hero.ctaPrimary")}
             </Link>
+          </div>
+
+          {/* Quick stats — dynamic */}
+          <div className="mt-12 grid grid-cols-3 gap-4 max-w-lg mx-auto">
+            {todayPuzzle ? (
+              <>
+                <div className="text-center">
+                  <div className="font-heading text-2xl font-bold text-white">#{todayPuzzle.id}</div>
+                  <div className="text-xs text-slate-400">Today&apos;s Puzzle</div>
+                </div>
+                <div className="text-center">
+                  <div className="font-heading text-2xl font-bold text-white">5</div>
+                  <div className="text-xs text-slate-400">Hints Available</div>
+                </div>
+                <div className="text-center">
+                  <div className="font-heading text-2xl font-bold text-white">Free</div>
+                  <div className="text-xs text-slate-400">No Spoilers</div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="text-center">
+                  <div className="font-heading text-2xl font-bold text-white">{puzzleCount}+</div>
+                  <div className="text-xs text-slate-400">Daily Puzzles</div>
+                </div>
+                <div className="text-center">
+                  <div className="font-heading text-2xl font-bold text-white">4-11</div>
+                  <div className="text-xs text-slate-400">Letter Games</div>
+                </div>
+                <div className="text-center">
+                  <div className="font-heading text-2xl font-bold text-white">Free</div>
+                  <div className="text-xs text-slate-400">No Spoilers</div>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </section>
 
-      {/* Today's Puzzle Preview */}
-      {latestPuzzle && (
-        <section className="bg-slate-800 py-12">
-          <div className="mx-auto max-w-4xl px-4 sm:px-6">
-            <div className="text-center">
-              <h2 className="font-heading text-2xl font-bold text-white">
-                Today&apos;s Strands Puzzle
-              </h2>
-              <p className="mt-2 text-sm text-slate-400">
-                Puzzle #{latestPuzzle.id} — {todayDate}
-              </p>
-            </div>
-
-            {/* Theme clue */}
-            <div className="mt-6 text-center">
-              <p className="text-lg font-bold text-primary">
-                &ldquo;{latestPuzzle.clue}&rdquo;
-              </p>
-              <p className="mt-2 text-sm text-slate-400">
-                {latestPuzzle.themeWords.length} theme words + 1 Spangram
-              </p>
-            </div>
-
-            {/* Click to reveal */}
-            <div className="mt-8 flex justify-center">
-              <StrandsClickToReveal puzzle={latestPuzzle} />
-            </div>
-
-            {/* Link to full hints */}
-            <div className="mt-4 text-center">
+      {/* Today's Wordle Hint Preview */}
+      <section className="py-10 bg-background">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 via-background to-primary/5 p-6 sm:p-8">
+            <div className="flex items-center justify-between gap-4 mb-6">
+              <div>
+                <h2 className="font-heading text-xl font-bold text-foreground sm:text-2xl">
+                  Hint for Today&apos;s Wordle
+                </h2>
+                {todayPuzzle && (
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    Puzzle #{todayPuzzle.id} — {formatDateDisplay(todayPuzzle.date)}
+                  </p>
+                )}
+              </div>
               <Link
-                href="/strands-hint-today"
-                className="text-sm text-primary hover:text-primary/80 transition-colors"
+                href="/wordle-hint-today"
+                className="shrink-0 inline-flex items-center gap-1.5 rounded-lg bg-primary/10 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/20"
               >
-                Need progressive hints? Click here for step-by-step clues →
+                All 5 Hints
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
+            </div>
+
+            {hints ? (
+              <div className="space-y-3">
+                {/* Hint 1 — revealed */}
+                <div className={`flex items-start gap-3 rounded-xl border p-4 ${HINT_COLORS[0]}`}>
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-500/20 text-sm font-bold">
+                    {hints[0].icon}
+                  </div>
+                  <div className="min-w-0">
+                    <div className="text-xs font-semibold uppercase tracking-wide opacity-70">
+                      Hint 1 — {hints[0].label}
+                    </div>
+                    <p className="mt-1 text-sm font-medium text-foreground">
+                      {hints[0].hint}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Hints 2-5 — locked */}
+                {hints.slice(1).map((h, i) => (
+                  <div
+                    key={h.level}
+                    className="flex items-center gap-3 rounded-xl border border-border/50 bg-muted/30 p-4 opacity-60"
+                  >
+                    <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-muted text-muted-foreground">
+                      <Lock className="h-4 w-4" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
+                        Hint {h.level} — {h.label}
+                      </div>
+                      <p className="mt-0.5 text-sm text-muted-foreground/70">
+                        Reveal on the full hints page
+                      </p>
+                    </div>
+                    <Eye className="h-4 w-4 shrink-0 text-muted-foreground/50" />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="rounded-xl border border-border bg-muted/30 p-6 text-center">
+                <Lightbulb className="mx-auto h-8 w-8 text-primary/40" />
+                <p className="mt-3 text-sm text-muted-foreground">
+                  Today&apos;s Wordle hints are being prepared. Check back soon!
+                </p>
+              </div>
+            )}
+
+            <div className="mt-5 text-center">
+              <Link
+                href="/wordle-hint-today"
+                className="group inline-flex items-center gap-2 rounded-xl bg-cta px-6 py-3 text-sm font-bold text-cta-foreground shadow-md shadow-cta/20 transition-all hover:bg-cta/90"
+              >
+                <Lightbulb className="h-4 w-4" />
+                See All Today&apos;s Wordle Hints
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </Link>
             </div>
           </div>
-        </section>
-      )}
-
-      {/* Countdown Timer */}
-      <section className="py-12 bg-background">
-        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
-          <h2 className="font-heading text-lg font-bold text-foreground">
-            {t("hero.countdown")}
-          </h2>
-          <div className="mt-5">
-            <CountdownTimer />
-          </div>
         </div>
       </section>
 
-      {/* Recent Puzzles Grid */}
-      <section className="py-12 bg-background">
+      {/* Word Games Grid */}
+      <section id="word-games" className="py-14 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="font-heading text-2xl font-bold text-foreground">
-              Recent Strands Answers
+          <div className="text-center">
+            <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
+              <Gamepad2 className="h-4 w-4" />
+              Word Games
+            </div>
+            <h2 className="mt-4 font-heading text-2xl font-bold text-foreground sm:text-3xl">
+              {t("wordGames.title")}
             </h2>
-            <Link
-              href="/strands-hint"
-              className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
-            >
-              {t("recentPuzzles.viewAll")}
-            </Link>
+            <p className="mt-2 text-muted-foreground">
+              {t("wordGames.description")}
+            </p>
           </div>
-
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {recentPuzzles.map((puzzle) => (
-              <Link
-                key={puzzle.printDate}
-                href={`/strands-hint/${puzzle.printDate}`}
-                className="group rounded-xl border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="inline-block rounded-md bg-primary px-3 py-1 text-xs font-bold text-primary-foreground">
-                    Puzzle #{puzzle.id}
-                  </span>
-                  <span className="text-xs text-muted-foreground">
-                    {dayjs(puzzle.printDate).format("MMM D, YYYY")}
-                  </span>
-                </div>
-                <h3 className="mt-3 text-sm font-bold text-foreground line-clamp-1">
-                  &ldquo;{puzzle.clue}&rdquo;
-                </h3>
-                <div className="mt-2 space-y-1">
-                  <p className="flex items-center gap-2 text-xs text-muted-foreground">
-                    <span className="h-2 w-2 rounded-full bg-strands-spangram" />
-                    <span className="truncate">Spangram: {puzzle.spangram.length} letters</span>
+          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            {LETTER_GAMES.map((g) => {
+              const meta = WORD_LENGTH_META[g.wordLength];
+              return (
+                <Link
+                  key={g.slug}
+                  href={`/${g.slug}`}
+                  className="group relative overflow-hidden rounded-xl border border-border bg-card p-5 text-center transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
+                >
+                  <div className={`mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${meta.color} font-heading text-xl font-bold text-white transition-transform group-hover:scale-110`}>
+                    {g.wordLength}
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold text-foreground">
+                    {g.wordLength} Letter Wordle
+                  </h3>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    {meta.label}
                   </p>
-                  <p className="flex items-center gap-2 text-xs text-muted-foreground">
-                    <span className="h-2 w-2 rounded-full bg-strands-theme" />
-                    <span>{puzzle.themeWords.length} theme words</span>
-                  </p>
-                </div>
-                <div className="mt-3 flex items-center gap-1 text-xs font-medium text-primary">
-                  View Hints
-                  <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
-                </div>
-              </Link>
-            ))}
+                  <span className="mt-1 inline-block rounded-full bg-muted px-2 py-0.5 text-[10px] font-medium text-muted-foreground">
+                    {meta.difficulty}
+                  </span>
+                  <div className="mt-2 text-xs font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
+                    Play Now →
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      {/* What is NYT Strands? */}
-      <section className="py-12 bg-muted/30">
+      {/* What is Wordle? */}
+      <section className="py-14 bg-muted/30">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
           <h2 className="font-heading text-2xl font-bold text-foreground sm:text-3xl">
-            What is NYT Strands?
+            What is Wordle?
           </h2>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
-            NYT Strands is a daily word puzzle by The New York Times where you find theme words hidden in a 6x8 letter grid. Words are formed by connecting adjacent letters (including diagonals). Each puzzle has a theme clue, several theme words, and one special Spangram that spans the entire board.
+            Wordle is a word guessing game where you have 6 attempts to guess a hidden word. After each guess, color-coded feedback tells you how close you are to the answer.
           </p>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-3">
             <div className="flex flex-col items-center">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <Grid3X3 className="h-7 w-7" />
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-wordle-correct/20 text-wordle-correct">
+                <span className="font-heading text-xl font-bold">G</span>
               </div>
-              <h3 className="mt-3 text-sm font-bold text-foreground">6x8 Letter Grid</h3>
+              <h3 className="mt-3 text-sm font-bold text-foreground">Green = Correct</h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                Find words by connecting adjacent letters on the board.
+                The letter is in the word and in the right position.
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <Puzzle className="h-7 w-7" />
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-wordle-present/20 text-wordle-present">
+                <span className="font-heading text-xl font-bold">Y</span>
               </div>
-              <h3 className="mt-3 text-sm font-bold text-foreground">Theme Words</h3>
+              <h3 className="mt-3 text-sm font-bold text-foreground">Yellow = Present</h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                All words connect to a daily theme revealed by the clue.
+                The letter is in the word but in the wrong position.
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <BookOpen className="h-7 w-7" />
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-wordle-absent/20 text-wordle-absent">
+                <span className="font-heading text-xl font-bold">X</span>
               </div>
-              <h3 className="mt-3 text-sm font-bold text-foreground">Daily Puzzle</h3>
+              <h3 className="mt-3 text-sm font-bold text-foreground">Gray = Absent</h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                A new puzzle is released every day at midnight ET.
+                The letter is not in the word at all.
               </p>
             </div>
           </div>
@@ -227,10 +325,10 @@ export default async function HomeComponent() {
       </section>
 
       {/* Features Grid */}
-      <section className="py-12 bg-background">
+      <section className="py-14 bg-background">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl">
-            How Our NYT Strands Hints Work
+            Wordle Hints &amp; Tools to Improve Your Game
           </h2>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[0, 1, 2, 3, 4, 5].map((index) => {
@@ -257,7 +355,7 @@ export default async function HomeComponent() {
       </section>
 
       {/* FAQ - 2 column */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-14 bg-muted/30">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-2xl font-bold text-foreground text-center">
             {t("faq.title")}
@@ -266,7 +364,7 @@ export default async function HomeComponent() {
             {t("faq.description")}
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
-            {[0, 1, 2, 3, 4, 5, 6, 7].map((index) => (
+            {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((index) => (
               <FaqAccordionItem
                 key={index}
                 question={t(`faqItems.${index}.question`)}
@@ -277,71 +375,24 @@ export default async function HomeComponent() {
         </div>
       </section>
 
-      {/* Word Games Grid */}
-      <section className="py-12 bg-background">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
-              <Gamepad2 className="h-4 w-4" />
-              Word Games
-            </div>
-            <h2 className="mt-4 font-heading text-2xl font-bold text-foreground sm:text-3xl">
-              Free Word Games — Practice Your Skills
-            </h2>
-            <p className="mt-2 text-muted-foreground">
-              Challenge yourself with word puzzles from 4 to 11 letters
-            </p>
-          </div>
-          <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {LETTER_GAMES.map((g) => (
-              <Link
-                key={g.slug}
-                href={`/${g.slug}`}
-                className="group relative overflow-hidden rounded-xl border border-border bg-card p-5 text-center transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
-              >
-                <div className="font-heading text-3xl font-bold text-primary transition-transform group-hover:scale-110">
-                  {g.wordLength}
-                </div>
-                <h3 className="mt-1 text-sm font-bold text-foreground">
-                  {g.wordLength} Letter Words
-                </h3>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  {g.wordLength <= 5
-                    ? g.wordLength === 4
-                      ? "Quick and easy"
-                      : "Classic Wordle"
-                    : g.wordLength <= 7
-                      ? "Advanced challenge"
-                      : g.wordLength <= 9
-                        ? "Expert level"
-                        : "Ultimate difficulty"}
-                </p>
-                <div className="mt-2 text-xs font-medium text-primary opacity-0 transition-opacity group-hover:opacity-100">
-                  Play Now →
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Guides Promotion */}
-      <section className="py-12 bg-muted/30">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
-              <Map className="h-4 w-4" />
-              Strategy Guides
+      {GUIDES.length > 0 && (
+        <section className="py-14 bg-background">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
+                <Map className="h-4 w-4" />
+                Strategy Guides
+              </div>
+              <h2 className="mt-4 font-heading text-2xl font-bold text-foreground sm:text-3xl">
+                Master Wordle with Expert Guides
+              </h2>
+              <p className="mt-2 text-muted-foreground">
+                Take your Wordle skills to the next level with our comprehensive strategy guides
+              </p>
             </div>
-            <h2 className="mt-4 font-heading text-2xl font-bold text-foreground sm:text-3xl">
-              Master Strands with Expert Guides
-            </h2>
-            <p className="mt-2 text-muted-foreground">
-              Take your puzzle-solving skills to the next level with our comprehensive strategy guides
-            </p>
-          </div>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {GUIDES.map((guide) => (
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {GUIDES.slice(0, 6).map((guide) => (
                 <Link
                   key={guide.slug}
                   href={`/guides/${guide.slug}`}
@@ -353,7 +404,7 @@ export default async function HomeComponent() {
                   <h3 className="mt-3 text-sm font-bold text-foreground">
                     {guide.title}
                   </h3>
-                  <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">
+                  <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground line-clamp-2">
                     {guide.description}
                   </p>
                   <span className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-primary">
@@ -361,55 +412,79 @@ export default async function HomeComponent() {
                     <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
                   </span>
                 </Link>
-            ))}
+              ))}
+            </div>
+            {GUIDES.length > 6 && (
+              <div className="mt-6 text-center">
+                <Link
+                  href="/guides"
+                  className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+                >
+                  View All {GUIDES.length} Guides →
+                </Link>
+              </div>
+            )}
           </div>
-          <div className="mt-6 rounded-xl border border-primary/20 bg-primary/5 p-4 text-center text-sm text-muted-foreground">
-            <strong className="text-foreground">Pro Tip:</strong>{" "}
-            Start with the{" "}
-            <Link href="/guides/beginner-guide" className="font-medium text-primary hover:text-primary/80">
-              Beginner&apos;s Guide
-            </Link>{" "}
-            if you&apos;re new, or jump to{" "}
-            <Link href="/guides/strategy-tips" className="font-medium text-primary hover:text-primary/80">
-              Strategy Tips
-            </Link>{" "}
-            to improve your current approach!
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
-      {/* Long-form SEO Article */}
-      <section className="py-12 bg-background">
+      {/* Long-form SEO Content */}
+      <section className="py-14 bg-muted/30">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-2xl font-bold text-foreground sm:text-3xl">
-            NYT Strands Hints: Complete Guide &amp; Today&apos;s Answers
+            Wordle Hint Today: Your Complete Daily Guide
           </h2>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            Welcome to the premier destination for <strong className="text-foreground">Strands hint</strong> enthusiasts and word puzzle players! Whether you&apos;re seeking today&apos;s puzzle solutions or looking to sharpen your word-finding skills, you&apos;ve found the perfect resource.
+            Welcome to <strong className="text-foreground">WordleHint</strong> — the go-to destination for <strong className="text-foreground">today&apos;s Wordle hints</strong>, daily clues, and spoiler-free answers. Whether you need a quick <strong className="text-foreground">hint for today&apos;s Wordle</strong> or want to practice with unlimited free games, you&apos;ll find everything here.
           </p>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            What is a Strands Hint?
+            What is a Wordle Hint?
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            A <strong className="text-foreground">Strands hint today</strong> refers to the subtle clues and strategies that help players find hidden theme words on the 6x8 letter grid. The New York Times Strands game challenges players to connect adjacent letters to form words that all relate to a daily theme, making <strong className="text-foreground">NYT Strands hints</strong> an essential tool for puzzle enthusiasts worldwide.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Our platform provides progressive hints that guide you from the theme clue to the Spangram and individual theme words. By understanding letter connections and thematic relationships, players can significantly improve their puzzle-solving abilities.
+            A <strong className="text-foreground">Wordle hint</strong> is any clue that helps you guess the hidden word more efficiently. Hints range from general advice (like &ldquo;start with a vowel-rich word&rdquo;) to specific clues (like &ldquo;the word contains the letter E&rdquo;). On WordleHint, we provide a <strong className="text-foreground">5-level progressive hint system</strong> for the daily NYT Wordle puzzle, plus strategy guides and pattern recognition tips for every skill level.
           </p>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            How to Solve NYT Strands Puzzles
+            Today&apos;s Wordle Hints: How Our Daily Clues Work
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Every <strong className="text-foreground">Strands hint</strong> serves a specific purpose in guiding players toward the solution. The 6x8 grid format creates a unique word search experience. Here&apos;s how to approach the puzzle:
+            Every day, we publish 5 progressive <strong className="text-foreground">Wordle hints</strong> for the current NYT puzzle. Each hint reveals a little more about the answer — you choose how much help you need:
           </p>
           <ul className="mt-3 space-y-2">
             {[
-              ["Read the theme clue:", "The clue at the top reveals the common thread connecting all hidden words"],
-              ["Find the Spangram first:", "The Spangram spans the entire board and is often the key to understanding the theme"],
-              ["Look for shorter words:", "Start with 4-5 letter words before tackling longer ones"],
-              ["Use hint letters:", "Finding non-theme words earns hint letters that highlight cells on the grid"],
+              ["Hint 1 — Letter Composition:", "How many vowels and consonants, plus whether any letters repeat."],
+              ["Hint 2 — Vowel Info:", "Which specific vowels appear in the word."],
+              ["Hint 3 — First Letter:", "The word's starting letter — often enough to solve it."],
+              ["Hint 4 — Last Letter:", "The word's ending letter narrows it down further."],
+              ["Hint 5 — Letter Pattern:", "First and last letters revealed with blanks in between."],
+            ].map(([title, desc]) => (
+              <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                <span><strong className="text-foreground">{title}</strong> {desc}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 leading-relaxed text-muted-foreground">
+            Visit our{" "}
+            <Link href="/wordle-hint-today" className="font-medium text-primary hover:text-primary/80">today&apos;s Wordle hint page</Link>{" "}
+            to try the progressive clues, or browse the{" "}
+            <Link href="/wordle-hint" className="font-medium text-primary hover:text-primary/80">hint archive</Link>{" "}
+            for past puzzles.
+          </p>
+
+          <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
+            Best Starting Words for Wordle
+          </h3>
+          <p className="mt-3 leading-relaxed text-muted-foreground">
+            Choosing the right starting word is the most important <strong className="text-foreground">Wordle hint</strong> we can offer. The best opening words contain high-frequency letters and test multiple vowels:
+          </p>
+          <ul className="mt-3 space-y-2">
+            {[
+              ["CRANE:", "Covers C, R, A, N, E — five of the most common letters in English. Widely regarded as the statistically optimal first guess."],
+              ["SLATE:", "Tests S, L, A, T, E — another top-tier combination that reveals critical information on your first move."],
+              ["TRACE:", "Includes T, R, A, C, E — strong consonant coverage with two common vowels."],
+              ["ADIEU:", "Tests four vowels (A, D, I, E, U) in a single guess — ideal if you prefer a vowel-first strategy."],
             ].map(([title, desc]) => (
               <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
@@ -419,20 +494,18 @@ export default async function HomeComponent() {
           </ul>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            NYT Strands Hints: Advanced Strategies
+            Wordle Strategy: How to Solve in Fewer Guesses
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            The <strong className="text-foreground">NYT Strands hints</strong> system relies on understanding how letters connect on the grid. Successful players develop spatial awareness that extends beyond simple word knowledge.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Key strategies for Strands include:
+            Beyond choosing a strong starting word, effective <strong className="text-foreground">Wordle hint</strong> strategy involves systematic letter elimination and pattern recognition:
           </p>
           <ul className="mt-3 space-y-2">
             {[
-              ["Adjacent letter scanning:", "Words form by connecting horizontally, vertically, and diagonally adjacent cells"],
-              ["Theme interpretation:", "The clue often has a double meaning — think broadly about what words could fit"],
-              ["Board coverage:", "Every letter on the board belongs to exactly one word — use this to eliminate possibilities"],
-              ["Spangram awareness:", "The Spangram always spans from one side of the board to the other"],
+              ["Eliminate, don't confirm:", "Use your second guess to test entirely new letters rather than confirming ones you already know are present."],
+              ["Track letter positions:", "A yellow letter in position 2 means that letter exists but NOT in position 2 — use this information precisely."],
+              ["Think about common patterns:", "English words frequently end in -TION, -IGHT, -OUND, -ANCE, and -MENT. Recognizing these patterns narrows your options fast."],
+              ["Consider double letters:", "Words like HAPPY, TEETH, and CHESS contain repeated letters. If you're stuck with 4 confirmed letters, a double might be the answer."],
+              ["Use Hard Mode thinking:", "Even in normal mode, forcing yourself to use known information in every guess builds better solving habits."],
             ].map(([title, desc]) => (
               <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
@@ -442,56 +515,52 @@ export default async function HomeComponent() {
           </ul>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            Daily Puzzle Strategy and Strands Hint Today
+            Hint for Today&apos;s Wordle: Quick Tips
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Finding the right <strong className="text-foreground">Strands hint today</strong> requires a systematic approach. Start by reading the theme clue carefully — it often contains wordplay or a double meaning that reveals the connection between all theme words.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Advanced players recommend finding the Spangram first, as it reveals the overarching theme and makes the remaining words easier to identify. The Spangram always connects two opposite edges of the board, so look for long words that traverse the grid.
+            Need a quick <strong className="text-foreground">hint for today&apos;s Wordle</strong>? Start with CRANE or SLATE, then use your second guess to test 5 completely new letters. By guess 3, you should have enough information to narrow down the answer. If you&apos;re still stuck, our{" "}
+            <Link href="/wordle-hint-today" className="font-medium text-primary hover:text-primary/80">daily Wordle hint page</Link>{" "}
+            gives you 5 progressive clues — reveal only what you need.
           </p>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            What Is the Spangram (Spanogram) in Strands?
+            NYT Wordle Hint: How We Generate Daily Clues
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            The <strong className="text-foreground">Spangram</strong> (sometimes misspelled as &ldquo;spanogram&rdquo;) is the most important word in every Strands puzzle. Unlike regular theme words, the Spangram spans the entire board from one edge to the opposite edge — left to right, top to bottom, or diagonally across the grid.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            The Spangram always relates to the overarching theme and is highlighted in gold when found. Finding it early is a powerful strategy because it reveals the theme connection, making the remaining words much easier to identify. Look for long words (typically 7-10 letters) that could physically stretch across the 6-column or 8-row grid.
+            Our <strong className="text-foreground">NYT Wordle hints</strong> are generated fresh every day based on the official New York Times Wordle puzzle. We analyze the answer word and create 5 increasingly specific clues — from general letter composition all the way to a partial letter pattern. This way, you can get exactly the level of help you need without accidentally seeing the full answer.
           </p>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            Strands Answers: How to Find Past Puzzle Solutions
+            Wordle for Every Skill Level
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Looking for <strong className="text-foreground">Strands answers</strong> from previous days? Our archive contains every past NYT Strands puzzle with complete solutions — including all theme words, the Spangram, and the theme clue. Each puzzle page shows the full 6x8 grid with highlighted word positions so you can see exactly how the answers fit together.
+            Beyond daily hints, WordleHint offers unlimited free Wordle games in every word length from 4 to 11 letters:
           </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Reviewing past <strong className="text-foreground">Strands answers</strong> is one of the best ways to improve. You&apos;ll start noticing patterns in how themes are structured, where Spangrams typically run across the board, and which types of words the puzzle creators favor. Browse the archive by date to study past puzzles at your own pace.
-          </p>
+          <ul className="mt-3 space-y-2">
+            {[
+              ["4-5 Letter Words:", "Perfect for beginners and daily warm-ups. The classic 5-letter format is the gold standard of Wordle."],
+              ["6-7 Letter Words:", "Intermediate challenges where prefixes, suffixes, and double letters become key strategic elements."],
+              ["8-9 Letter Words:", "Advanced puzzles requiring compound word awareness, morphological thinking, and strong vocabulary."],
+              ["10-11 Letter Words:", "The ultimate challenge — academic vocabulary, Latin/Greek roots, and multi-morpheme analysis required."],
+            ].map(([title, desc]) => (
+              <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                <span><strong className="text-foreground">{title}</strong> {desc}</span>
+              </li>
+            ))}
+          </ul>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            How Many Hints Do You Get in Strands?
+            Start Playing Now
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            In the official NYT Strands game, hints are earned — not given freely. Every time you find a valid English word on the grid that isn&apos;t a theme word, you earn progress toward a hint. After finding three non-theme words, you receive one hint that highlights a single cell on the board, showing you one letter of a theme word.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            There&apos;s no limit to how many hints you can earn in a single puzzle, but each one requires finding three more non-theme words. On StrandsHint, we take a different approach: we provide up to five progressive <strong className="text-foreground">hint levels</strong> for each puzzle, ranging from vague thematic nudges to specific letter reveals to full answers — so you control exactly how much help you get.
-          </p>
-
-          <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
-            Getting Started: Your First Steps
-          </h3>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Begin your puzzle-solving journey with today&apos;s Strands puzzle. Start by reading the theme clue, scanning the grid for obvious words, and working toward the Spangram. Remember, every expert puzzle solver started with simple <strong className="text-foreground">Strands hint</strong> strategies before developing advanced techniques.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Join our community of puzzle enthusiasts and share your progress. Whether you&apos;re seeking today&apos;s <strong className="text-foreground">Strands hint</strong> or celebrating finding the Spangram on your first try, you&apos;ll find support and encouragement here.
-          </p>
-          <p className="mt-3 leading-relaxed text-muted-foreground">
-            Ready to challenge yourself? Start with today&apos;s puzzle and discover how strategic thinking and the right hints can transform your solving experience. Welcome to the world of Strands, letter grids, and the satisfaction of puzzle mastery!
+            Ready to put these <strong className="text-foreground">Wordle hint</strong> strategies to the test? Check{" "}
+            <Link href="/wordle-hint-today" className="font-medium text-primary hover:text-primary/80">today&apos;s Wordle hints</Link>{" "}
+            for the daily puzzle, jump into our classic{" "}
+            <Link href="/5-letters" className="font-medium text-primary hover:text-primary/80">5-letter Wordle</Link>{" "}
+            for unlimited practice, or explore our{" "}
+            <Link href="/guides" className="font-medium text-primary hover:text-primary/80">strategy guides</Link>{" "}
+            for deeper insights. Every game is free, unlimited, and requires no account.
           </p>
         </div>
       </section>
@@ -500,24 +569,25 @@ export default async function HomeComponent() {
       <section className="py-16 bg-primary">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
           <h2 className="font-heading text-2xl font-bold text-primary-foreground sm:text-3xl">
-            Ready to Solve Today&apos;s Puzzle?
+            Ready to Play?
           </h2>
           <p className="mt-3 text-primary-foreground/80">
-            Get progressive hints without spoiling the fun. Start with a gentle nudge and reveal more only when you need it.
+            Get today&apos;s Wordle hint or play unlimited free games — no account required.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
-              href="/strands-hint-today"
+              href="/wordle-hint-today"
               className="inline-flex items-center gap-2 rounded-xl bg-white px-7 py-3.5 text-sm font-bold text-primary shadow-lg transition-all hover:bg-white/90"
             >
-              Get Today&apos;s Hints
+              <Lightbulb className="h-4 w-4" />
+              Today&apos;s Hint
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
-              href="/how-to-play-strands"
+              href="/5-letters"
               className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-white/10"
             >
-              How to Play
+              Play 5-Letter Wordle
             </Link>
           </div>
         </div>
