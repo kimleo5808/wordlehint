@@ -19,54 +19,54 @@ html {
 @layer base {
   :root {
     /* --- Brand colors --- */
-    --primary: 239 84% 67%;
+    --primary: 142 71% 45%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 47% 20%;
+    --secondary: 210 20% 94%;
+    --secondary-foreground: 215 28% 17%;
 
     /* --- Page base --- */
-    --background: 210 40% 98%;
-    --foreground: 215 25% 17%;
+    --background: 210 33% 98%;
+    --foreground: 215 28% 17%;
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 17%;
+    --card-foreground: 215 28% 17%;
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 17%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
-    --accent: 210 40% 96%;
-    --accent-foreground: 222 47% 20%;
+    --popover-foreground: 215 28% 17%;
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 14% 34%;
+    --accent: 48 96% 53%;
+    --accent-foreground: 222 47% 11%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 239 84% 67%;
+    --border: 214 28% 86%;
+    --input: 214 28% 86%;
+    --ring: 142 71% 45%;
 
     /* --- CTA action color --- */
     --cta: 38 92% 50%;
-    --cta-foreground: 0 0% 100%;
+    --cta-foreground: 222 47% 11%;
 
     /* --- Wordle game colors --- */
     --wordle-correct: 142 71% 45%;
-    --wordle-present: 48 89% 50%;
+    --wordle-present: 48 96% 53%;
     --wordle-absent: 215 14% 45%;
     --wordle-key: 210 40% 96%;
 
     /* --- Charts --- */
-    --chart-1: 239 84% 67%;
-    --chart-2: 160 84% 39%;
-    --chart-3: 38 92% 50%;
-    --chart-4: 271 47% 71%;
+    --chart-1: 142 71% 45%;
+    --chart-2: 48 96% 53%;
+    --chart-3: 199 89% 48%;
+    --chart-4: 271 47% 63%;
     --chart-5: 0 84% 60%;
 
     /* --- Sidebar --- */
-    --sidebar: 210 40% 98%;
-    --sidebar-foreground: 215 25% 17%;
-    --sidebar-primary: 239 84% 67%;
+    --sidebar: 210 33% 98%;
+    --sidebar-foreground: 215 28% 17%;
+    --sidebar-primary: 142 71% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 40% 96%;
-    --sidebar-accent-foreground: 222 47% 20%;
-    --sidebar-border: 214 32% 91%;
-    --sidebar-ring: 239 84% 67%;
+    --sidebar-accent: 210 20% 94%;
+    --sidebar-accent-foreground: 215 28% 17%;
+    --sidebar-border: 214 28% 86%;
+    --sidebar-ring: 142 71% 45%;
 
     /* --- Typography --- */
     --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
@@ -89,54 +89,54 @@ html {
 
   .dark {
     /* --- Brand colors --- */
-    --primary: 232 92% 81%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 217 33% 17%;
+    --primary: 142 70% 55%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 24% 16%;
     --secondary-foreground: 210 40% 98%;
 
     /* --- Page base --- */
-    --background: 222 47% 6%;
+    --background: 222 47% 8%;
     --foreground: 210 40% 96%;
-    --card: 215 25% 14%;
+    --card: 222 35% 12%;
     --card-foreground: 210 40% 98%;
-    --popover: 215 25% 14%;
+    --popover: 222 35% 12%;
     --popover-foreground: 210 40% 98%;
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 25% 67%;
-    --accent: 217 33% 17%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 63% 31%;
+    --muted: 217 24% 16%;
+    --muted-foreground: 215 20% 70%;
+    --accent: 43 96% 56%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 62% 44%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 232 92% 81%;
+    --border: 217 24% 22%;
+    --input: 217 24% 22%;
+    --ring: 142 70% 55%;
 
     /* --- CTA action color --- */
     --cta: 43 96% 56%;
-    --cta-foreground: 0 0% 0%;
+    --cta-foreground: 222 47% 11%;
 
     /* --- Wordle game colors --- */
     --wordle-correct: 142 64% 40%;
-    --wordle-present: 48 86% 46%;
+    --wordle-present: 48 89% 50%;
     --wordle-absent: 215 14% 34%;
-    --wordle-key: 215 25% 14%;
+    --wordle-key: 217 24% 16%;
 
     /* --- Charts --- */
-    --chart-1: 232 92% 81%;
-    --chart-2: 160 67% 52%;
-    --chart-3: 43 96% 56%;
+    --chart-1: 142 70% 55%;
+    --chart-2: 43 96% 56%;
+    --chart-3: 199 89% 58%;
     --chart-4: 271 47% 71%;
-    --chart-5: 0 84% 60%;
+    --chart-5: 0 84% 66%;
 
     /* --- Sidebar --- */
-    --sidebar: 222 47% 6%;
+    --sidebar: 222 47% 8%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 232 92% 81%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 217 33% 17%;
+    --sidebar-primary: 142 70% 55%;
+    --sidebar-primary-foreground: 222 47% 11%;
+    --sidebar-accent: 217 24% 16%;
     --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 217 33% 17%;
-    --sidebar-ring: 232 92% 81%;
+    --sidebar-border: 217 24% 22%;
+    --sidebar-ring: 142 70% 55%;
 
     /* --- Typography --- */
     --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
@@ -159,14 +159,14 @@ html {
 /* Grid background pattern - Indigo tint */
 .grid-bg {
   background-image:
-    linear-gradient(rgba(79, 70, 229, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(79, 70, 229, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(34, 197, 94, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 197, 94, 0.03) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
 .dark .grid-bg {
   background-image:
-    linear-gradient(rgba(79, 70, 229, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(79, 70, 229, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(74, 222, 128, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74, 222, 128, 0.06) 1px, transparent 1px);
   background-size: 40px 40px;
 }
