@@ -264,7 +264,7 @@ export default async function HomeComponent() {
                     {g.wordLength}
                   </div>
                   <h3 className="mt-3 text-sm font-bold text-foreground">
-                    {g.wordLength}-Word Wordle
+                    {g.wordLength} Letter Wordle
                   </h3>
                   <p className="mt-1 text-xs text-muted-foreground">
                     {meta.label}
