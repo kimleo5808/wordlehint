@@ -131,7 +131,7 @@
   "Home": {
     "title": "Wordle Hint Today — Daily Wordle Hints, Clues & Answers",
     "tagLine": "Daily Hints, Clues & Answers for Today's Wordle",
-    "description": "Get today's Wordle hint with 5 progressive clues — no spoilers. Free daily Wordle hints, answers, strategy tips, and unlimited word games from 4 to 11 letters."
+    "description": "Get today's Wordle hint with 5 progressive clues — no spoilers. Free daily Wordle hints, answers, strategy tips, and unlimited word games from 4 to 11 characters."
   },
   "Blog": {
     "title": "Tips & Articles",
@@ -169,7 +169,7 @@
     "features": [
       {
         "title": "Daily Wordle Hints",
-        "description": "Get 5 progressive hints for today's Wordle — from letter composition to the full pattern. Reveal only what you need, no spoilers."
+        "description": "Get 5 progressive hints for today's Wordle — from word makeup to the full pattern. Reveal only what you need, no spoilers."
       },
       {
         "title": "Best Starting Words",
@@ -177,11 +177,11 @@
       },
       {
         "title": "Unlimited Free Games",
-        "description": "No daily limit — play as many Wordle games as you want in 4 to 11 letter word lengths. No account or download required."
+        "description": "No daily limit — play as many Wordle games as you want in 4 to 11 word sizes. No account or download required."
       },
       {
         "title": "Strategy Guides",
-        "description": "In-depth guides on letter frequency, vowel placement, common patterns, and advanced elimination techniques."
+        "description": "In-depth guides on character frequency, vowel placement, common patterns, and advanced elimination techniques."
       },
       {
         "title": "Hint Archive",
@@ -199,19 +199,19 @@
     "faqItems": [
       {
         "question": "What is Wordle?",
-        "answer": "Wordle is a word guessing game where you have 6 attempts to guess a hidden word. After each guess, tiles change color: green means the letter is correct and in the right position, yellow means the letter is in the word but in the wrong position, and gray means the letter is not in the word at all."
+        "answer": "Wordle is a word guessing game where you have 6 attempts to guess a hidden word. After each guess, tiles change color: green means it's correct and in the right spot, yellow means it's in the word but in the wrong position, and gray means it's not in the word at all."
       },
       {
         "question": "What is the best starting word for Wordle?",
-        "answer": "Popular high-performing starting words include CRANE, SLATE, TRACE, and ADIEU. These words contain the most frequently used letters in English (E, A, R, S, T, L, N) and help you eliminate or confirm key letters on your first guess."
+        "answer": "Popular high-performing starting words include CRANE, SLATE, TRACE, and ADIEU. These words contain the most frequently used characters in English (E, A, R, S, T, L, N) and help you gather maximum information on your first guess."
       },
       {
         "question": "How many Wordle games can I play here?",
-        "answer": "Unlimited! Unlike the official daily Wordle, our site lets you play as many games as you want in any word length from 4 to 11 letters. No account or download required."
+        "answer": "Unlimited! Unlike the official daily Wordle, our site lets you play as many games as you want in any word size from 4 to 11 characters. No account or download required."
       },
       {
         "question": "What word lengths are available?",
-        "answer": "We offer Wordle games in 8 different word lengths: 4, 5, 6, 7, 8, 9, 10, and 11 letters. The classic Wordle format is 5 letters, but you can try shorter or longer words for a different challenge."
+        "answer": "We offer Wordle games in 8 different sizes: 4, 5, 6, 7, 8, 9, 10, and 11 characters. The classic Wordle format is 5 characters, but you can try shorter or longer words for a different challenge."
       },
       {
         "question": "Is this the official Wordle game?",
@@ -219,23 +219,23 @@
       },
       {
         "question": "What are the best strategies for solving Wordle?",
-        "answer": "Start with a word rich in common letters (like CRANE or SLATE). Use your second guess to test new letters rather than confirming known ones. Pay attention to letter position — a yellow letter tells you the letter exists but needs to move. Avoid reusing gray letters. In later guesses, think about common word patterns and endings (-TION, -IGHT, -OUND)."
+        "answer": "Start with a word rich in common characters (like CRANE or SLATE). Use your second guess to test new characters rather than confirming known ones. Pay attention to tile position — a yellow tile tells you the character exists but needs to move. Avoid reusing grayed-out characters. In later guesses, think about common word patterns and endings (-TION, -IGHT, -OUND)."
       },
       {
         "question": "What is Wordle Hard Mode?",
-        "answer": "In Hard Mode, any revealed hints must be used in subsequent guesses. If a letter turns green, it must stay in that position. If a letter turns yellow, it must be included in your next guess. This prevents random guessing and forces you to build on what you know."
+        "answer": "In Hard Mode, any revealed hints must be used in subsequent guesses. If a tile turns green, it must stay in that position. If a tile turns yellow, that character must be included in your next guess. This prevents random guessing and forces you to build on what you know."
       },
       {
         "question": "How do I improve at Wordle?",
-        "answer": "Practice with our unlimited games across different word lengths. Learn common letter patterns and word endings. Study our strategy guides on letter frequency, vowel placement, and elimination techniques. Start with shorter words (4-5 letters) and work your way up to build pattern recognition skills."
+        "answer": "Practice with our unlimited games across different word sizes. Learn common word patterns and endings. Study our strategy guides on character frequency, vowel placement, and elimination techniques. Start with shorter words (4–5 characters) and work your way up to build pattern recognition skills."
       },
       {
         "question": "What is today's Wordle hint?",
-        "answer": "We publish 5 progressive Wordle hints every day for the current NYT Wordle puzzle. Visit our Today's Hint page to see clues about letter composition, vowels, starting letter, ending letter, and the word pattern — without spoiling the full answer."
+        "answer": "We publish 5 progressive Wordle hints every day for the current NYT Wordle puzzle. Visit our Today's Hint page to see clues about word makeup, vowels, first character, last character, and the word pattern — without spoiling the full answer."
       },
       {
         "question": "Where can I find daily Wordle hints without spoilers?",
-        "answer": "WordleHint provides a 5-level hint system that lets you reveal clues one at a time. Start with a vague hint about the word's letter makeup, and only reveal more if you're still stuck. The full answer is always hidden behind a spoiler button so you never see it accidentally."
+        "answer": "WordleHint provides a 5-level hint system that lets you reveal clues one at a time. Start with a vague hint about the word's composition, and only reveal more if you're still stuck. The full answer is always hidden behind a spoiler button so you never see it accidentally."
       },
       {
         "question": "Does WordleHint show the Wordle answer for today?",
@@ -244,7 +244,7 @@
     ],
     "wordGames": {
       "title": "Choose Your Word Length",
-      "description": "Play Wordle in 8 different word lengths — from quick 4-letter puzzles to challenging 11-letter marathons."
+      "description": "Play Wordle in 8 different word sizes — from quick 4-character puzzles to challenging 11-character marathons."
     }
   }
 }

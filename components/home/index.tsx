@@ -139,7 +139,7 @@ export default async function HomeComponent() {
                 </div>
                 <div className="text-center">
                   <div className="font-heading text-2xl font-bold text-white">4-11</div>
-                  <div className="text-xs text-slate-400">Letter Games</div>
+                  <div className="text-xs text-slate-400">Word Games</div>
                 </div>
                 <div className="text-center">
                   <div className="font-heading text-2xl font-bold text-white">Free</div>
@@ -264,7 +264,7 @@ export default async function HomeComponent() {
                     {g.wordLength}
                   </div>
                   <h3 className="mt-3 text-sm font-bold text-foreground">
-                    {g.wordLength} Letter Wordle
+                    {g.wordLength}-Word Wordle
                   </h3>
                   <p className="mt-1 text-xs text-muted-foreground">
                     {meta.label}
@@ -299,7 +299,7 @@ export default async function HomeComponent() {
               </div>
               <h3 className="mt-3 text-sm font-bold text-foreground">Green = Correct</h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                The letter is in the word and in the right position.
+                Right character, right position.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -308,7 +308,7 @@ export default async function HomeComponent() {
               </div>
               <h3 className="mt-3 text-sm font-bold text-foreground">Yellow = Present</h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                The letter is in the word but in the wrong position.
+                In the word, but wrong position.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -317,7 +317,7 @@ export default async function HomeComponent() {
               </div>
               <h3 className="mt-3 text-sm font-bold text-foreground">Gray = Absent</h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                The letter is not in the word at all.
+                Not in the word at all.
               </p>
             </div>
           </div>
@@ -442,7 +442,7 @@ export default async function HomeComponent() {
             What is a Wordle Hint?
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            A <strong className="text-foreground">Wordle hint</strong> is any clue that helps you guess the hidden word more efficiently. Hints range from general advice (like &ldquo;start with a vowel-rich word&rdquo;) to specific clues (like &ldquo;the word contains the letter E&rdquo;). On WordleHint, we provide a <strong className="text-foreground">5-level progressive hint system</strong> for the daily NYT Wordle puzzle, plus strategy guides and pattern recognition tips for every skill level.
+            A <strong className="text-foreground">Wordle hint</strong> is any clue that helps you guess the hidden word more efficiently. Hints range from general advice (like &ldquo;start with a vowel-rich word&rdquo;) to specific clues (like &ldquo;the answer contains E&rdquo;). On WordleHint, we provide a <strong className="text-foreground">5-level progressive hint system</strong> for the daily NYT Wordle puzzle, plus strategy guides and pattern recognition tips for every skill level.
           </p>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
@@ -453,11 +453,11 @@ export default async function HomeComponent() {
           </p>
           <ul className="mt-3 space-y-2">
             {[
-              ["Hint 1 — Letter Composition:", "How many vowels and consonants, plus whether any letters repeat."],
-              ["Hint 2 — Vowel Info:", "Which specific vowels appear in the word."],
-              ["Hint 3 — First Letter:", "The word's starting letter — often enough to solve it."],
-              ["Hint 4 — Last Letter:", "The word's ending letter narrows it down further."],
-              ["Hint 5 — Letter Pattern:", "First and last letters revealed with blanks in between."],
+              ["Hint 1 — Word Makeup:", "How many vowels and consonants, plus whether any characters repeat."],
+              ["Hint 2 — Vowel Clue:", "Which specific vowels appear in the word."],
+              ["Hint 3 — Starting Clue:", "The word's opening character — often enough to solve it."],
+              ["Hint 4 — Ending Clue:", "The word's final character narrows it down further."],
+              ["Hint 5 — Word Pattern:", "First and last positions revealed with blanks in between."],
             ].map(([title, desc]) => (
               <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
@@ -477,11 +477,11 @@ export default async function HomeComponent() {
             Best Starting Words for Wordle
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Choosing the right starting word is the most important <strong className="text-foreground">Wordle hint</strong> we can offer. The best opening words contain high-frequency letters and test multiple vowels:
+            Choosing the right starting word is the most important <strong className="text-foreground">Wordle hint</strong> we can offer. The best opening words contain common characters and test multiple vowels:
           </p>
           <ul className="mt-3 space-y-2">
             {[
-              ["CRANE:", "Covers C, R, A, N, E — five of the most common letters in English. Widely regarded as the statistically optimal first guess."],
+              ["CRANE:", "Covers C, R, A, N, E — five of the most frequent characters in English. Widely regarded as the statistically optimal first guess."],
               ["SLATE:", "Tests S, L, A, T, E — another top-tier combination that reveals critical information on your first move."],
               ["TRACE:", "Includes T, R, A, C, E — strong consonant coverage with two common vowels."],
               ["ADIEU:", "Tests four vowels (A, D, I, E, U) in a single guess — ideal if you prefer a vowel-first strategy."],
@@ -497,14 +497,14 @@ export default async function HomeComponent() {
             Wordle Strategy: How to Solve in Fewer Guesses
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Beyond choosing a strong starting word, effective <strong className="text-foreground">Wordle hint</strong> strategy involves systematic letter elimination and pattern recognition:
+            Beyond choosing a strong starting word, effective <strong className="text-foreground">Wordle hint</strong> strategy involves systematic elimination and pattern recognition:
           </p>
           <ul className="mt-3 space-y-2">
             {[
-              ["Eliminate, don't confirm:", "Use your second guess to test entirely new letters rather than confirming ones you already know are present."],
-              ["Track letter positions:", "A yellow letter in position 2 means that letter exists but NOT in position 2 — use this information precisely."],
+              ["Eliminate, don't confirm:", "Use your second guess to test entirely new characters rather than confirming ones you already know are present."],
+              ["Track tile positions:", "A yellow tile in position 2 means that character exists but NOT in position 2 — use this information precisely."],
               ["Think about common patterns:", "English words frequently end in -TION, -IGHT, -OUND, -ANCE, and -MENT. Recognizing these patterns narrows your options fast."],
-              ["Consider double letters:", "Words like HAPPY, TEETH, and CHESS contain repeated letters. If you're stuck with 4 confirmed letters, a double might be the answer."],
+              ["Consider doubles:", "Words like HAPPY, TEETH, and CHESS contain repeated characters. If you're stuck with 4 confirmed spots, a double might be the answer."],
               ["Use Hard Mode thinking:", "Even in normal mode, forcing yourself to use known information in every guess builds better solving habits."],
             ].map(([title, desc]) => (
               <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -518,7 +518,7 @@ export default async function HomeComponent() {
             Hint for Today&apos;s Wordle: Quick Tips
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Need a quick <strong className="text-foreground">hint for today&apos;s Wordle</strong>? Start with CRANE or SLATE, then use your second guess to test 5 completely new letters. By guess 3, you should have enough information to narrow down the answer. If you&apos;re still stuck, our{" "}
+            Need a quick <strong className="text-foreground">hint for today&apos;s Wordle</strong>? Start with CRANE or SLATE, then use your second guess to test 5 completely new characters. By guess 3, you should have enough information to narrow down the answer. If you&apos;re still stuck, our{" "}
             <Link href="/wordle-hint-today" className="font-medium text-primary hover:text-primary/80">daily Wordle hint page</Link>{" "}
             gives you 5 progressive clues — reveal only what you need.
           </p>
@@ -527,21 +527,21 @@ export default async function HomeComponent() {
             NYT Wordle Hint: How We Generate Daily Clues
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Our <strong className="text-foreground">NYT Wordle hints</strong> are generated fresh every day based on the official New York Times Wordle puzzle. We analyze the answer word and create 5 increasingly specific clues — from general letter composition all the way to a partial letter pattern. This way, you can get exactly the level of help you need without accidentally seeing the full answer.
+            Our <strong className="text-foreground">NYT Wordle hints</strong> are generated fresh every day based on the official New York Times Wordle puzzle. We analyze the answer word and create 5 increasingly specific clues — from general word makeup all the way to a partial reveal pattern. This way, you can get exactly the level of help you need without accidentally seeing the full answer.
           </p>
 
           <h3 className="mt-8 font-heading text-lg font-semibold text-foreground">
             Wordle for Every Skill Level
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Beyond daily hints, WordleHint offers unlimited free Wordle games in every word length from 4 to 11 letters:
+            Beyond daily hints, WordleHint offers unlimited free Wordle games in every word size from 4 to 11 characters:
           </p>
           <ul className="mt-3 space-y-2">
             {[
-              ["4-5 Letter Words:", "Perfect for beginners and daily warm-ups. The classic 5-letter format is the gold standard of Wordle."],
-              ["6-7 Letter Words:", "Intermediate challenges where prefixes, suffixes, and double letters become key strategic elements."],
-              ["8-9 Letter Words:", "Advanced puzzles requiring compound word awareness, morphological thinking, and strong vocabulary."],
-              ["10-11 Letter Words:", "The ultimate challenge — academic vocabulary, Latin/Greek roots, and multi-morpheme analysis required."],
+              ["4–5 Characters:", "Perfect for beginners and daily warm-ups. The classic 5-character format is the gold standard of Wordle."],
+              ["6–7 Characters:", "Intermediate challenges where prefixes, suffixes, and doubles become key strategic elements."],
+              ["8–9 Characters:", "Advanced puzzles requiring compound word awareness, morphological thinking, and strong vocabulary."],
+              ["10–11 Characters:", "The ultimate challenge — academic vocabulary, Latin/Greek roots, and multi-morpheme analysis required."],
             ].map(([title, desc]) => (
               <li key={title} className="flex items-start gap-2 text-sm text-muted-foreground">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
@@ -554,7 +554,7 @@ export default async function HomeComponent() {
             Start Playing Now
           </h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Ready to put these <strong className="text-foreground">Wordle hint</strong> strategies to the test? Check{" "}
+            Ready to put these <strong className="text-foreground">Wordle hint</strong> strategies into action? Check{" "}
             <Link href="/wordle-hint-today" className="font-medium text-primary hover:text-primary/80">today&apos;s Wordle hints</Link>{" "}
             for the daily puzzle, jump into our classic{" "}
             <Link href="/5-letters" className="font-medium text-primary hover:text-primary/80">5-letter Wordle</Link>{" "}
