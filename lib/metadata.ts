@@ -30,10 +30,12 @@ export async function constructMetadata({
 
   const pageTitle = title || t(`title`)
   const pageDescription = description || t(`description`)
+  const brandName = siteConfig.name
+  const twitterHandle = siteConfig.creator?.startsWith('@') ? siteConfig.creator : undefined
 
   const finalTitle = page === 'Home'
-    ? `${pageTitle} - ${t('tagLine')}`
-    : `${pageTitle} | ${t('title')}`
+    ? pageTitle
+    : `${pageTitle} | ${brandName}`
 
   const imageUrls = images.length > 0
     ? images.map(img => ({
@@ -86,9 +88,9 @@ export async function constructMetadata({
       card: 'summary_large_image',
       title: finalTitle,
       description: pageDescription,
-      site: siteConfig.url,
+      site: twitterHandle,
       images: imageUrls,
-      creator: siteConfig.creator,
+      creator: twitterHandle,
     },
     robots: {
       index: !noIndex,

@@ -37,6 +37,7 @@ export async function generateMetadata({
       "invite friends",
     ],
     locale: locale as Locale,
+    noIndex: true,
     path: `/share`,
     canonicalUrl: `/share`,
   });

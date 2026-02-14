@@ -30,18 +30,35 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/wordle-solver': 0.9,
   }
 
+  // Daily puzzle hint pages
+  const dailyPuzzles = getAllPuzzles()
+  const puzzleModifiedDates = dailyPuzzles.map(p => new Date(`${p.date}T12:00:00Z`))
+  const latestPuzzleModified = puzzleModifiedDates.length > 0
+    ? new Date(Math.max(...puzzleModifiedDates.map(d => d.getTime())))
+    : new Date('2024-01-01T00:00:00Z')
+
+  // Blog pages
+  const { posts } = await getPosts('en')
+  const blogModifiedDates = posts
+    .map(post => (post.date ? new Date(post.date) : null))
+    .filter((date): date is Date => Boolean(date && !Number.isNaN(date.getTime())))
+  const latestBlogModified = blogModifiedDates.length > 0
+    ? new Date(Math.max(...blogModifiedDates.map(d => d.getTime())))
+    : latestPuzzleModified
+  const siteLastModified = new Date(
+    Math.max(latestPuzzleModified.getTime(), latestBlogModified.getTime())
+  )
+
   const pages = staticPages.map(page => ({
     url: `${siteUrl}${page}`,
-    lastModified: new Date(),
+    lastModified: siteLastModified,
     changeFrequency: (page === '' || page === '/wordle-hint-today' ? 'daily' : 'weekly') as ChangeFrequency,
     priority: priorityMap[page] ?? 0.8,
   }))
 
-  // Daily puzzle hint pages
-  const dailyPuzzles = getAllPuzzles()
   const puzzlePages = dailyPuzzles.map(p => ({
     url: `${siteUrl}/wordle-hint/${p.date}`,
-    lastModified: new Date(p.date + 'T12:00:00Z'),
+    lastModified: new Date(`${p.date}T12:00:00Z`),
     changeFrequency: 'monthly' as ChangeFrequency,
     priority: 0.6,
   }))
@@ -49,7 +66,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Letter game pages (4-11 letters)
   const letterGamePages = [4, 5, 6, 7, 8, 9, 10, 11].map(n => ({
     url: `${siteUrl}/${n}-letters`,
-    lastModified: new Date(),
+    lastModified: latestPuzzleModified,
     changeFrequency: 'weekly' as ChangeFrequency,
     priority: n === 5 ? 0.9 : 0.7,
   }))
@@ -57,24 +74,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Guides pages
   const guidesIndex = {
     url: `${siteUrl}/guides`,
-    lastModified: new Date(),
+    lastModified: siteLastModified,
     changeFrequency: 'weekly' as ChangeFrequency,
     priority: 0.7,
   }
 
   const guidePages = GUIDE_SLUGS.map(slug => ({
     url: `${siteUrl}/guides/${slug}`,
-    lastModified: new Date(),
+    lastModified: siteLastModified,
     changeFrequency: 'monthly' as ChangeFrequency,
     priority: 0.6,
   }))
 
-  // Blog pages
-  const { posts } = await getPosts('en')
-
   const blogIndex = {
     url: `${siteUrl}/blog`,
-    lastModified: new Date(),
+    lastModified: latestBlogModified,
     changeFrequency: 'daily' as ChangeFrequency,
     priority: 0.7,
   }
@@ -89,7 +103,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
       return {
         url: `${siteUrl}${postPath}`,
-        lastModified: post.date ? new Date(post.date) : new Date(),
+        lastModified: post.date ? new Date(post.date) : latestBlogModified,
         changeFrequency: 'weekly' as ChangeFrequency,
         priority: 0.6,
       }

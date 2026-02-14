@@ -44,11 +44,26 @@ export async function generateMetadata({
     });
   }
 
+  const keywordSet = new Set<string>([
+    "wordle blog",
+    "wordle tips",
+    "word game strategy",
+  ]);
+
+  if (post.tags) {
+    post.tags
+      .split(",")
+      .map((tag) => tag.trim().toLowerCase())
+      .filter(Boolean)
+      .forEach((tag) => keywordSet.add(tag));
+  }
+
   return constructMetadata({
     page: "blog",
     title: post.title,
     description: post.description,
     images: post.image ? [post.image] : [],
+    keywords: Array.from(keywordSet),
     locale: locale as Locale,
     path: `/blog/${slug}`,
     canonicalUrl: `/blog/${slug}`,
