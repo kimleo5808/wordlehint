@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T05:02:41.543Z",
+  "lastUpdated": "2026-02-23T05:13:22.769Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -953,6 +953,12 @@
       "date": "2026-02-22",
       "id": 2184,
       "answer": "GUAVA",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-02-23",
+      "id": 2229,
+      "answer": "ATTIC",
       "editor": "Tracy Bennett"
     }
   ]
