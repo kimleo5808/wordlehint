@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T04:58:30.156Z",
+  "lastUpdated": "2026-03-14T04:56:30.917Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1067,6 +1067,12 @@
       "date": "2026-03-13",
       "id": 784,
       "answer": "EATEN",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-03-14",
+      "id": 1748,
+      "answer": "ANKLE",
       "editor": "Tracy Bennett"
     }
   ]
