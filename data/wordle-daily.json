@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16T05:28:09.383Z",
+  "lastUpdated": "2026-03-17T05:08:17.111Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1085,6 +1085,12 @@
       "date": "2026-03-16",
       "id": 1806,
       "answer": "DRAMA",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-03-17",
+      "id": 900,
+      "answer": "CLASP",
       "editor": "Tracy Bennett"
     }
   ]
