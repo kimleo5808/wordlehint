@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-22T05:06:47.811Z",
+  "lastUpdated": "2026-03-23T05:19:04.221Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1103,6 +1103,12 @@
       "date": "2026-03-22",
       "id": 1811,
       "answer": "BASIL",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-03-23",
+      "id": 2068,
+      "answer": "SERIF",
       "editor": "Tracy Bennett"
     }
   ]
