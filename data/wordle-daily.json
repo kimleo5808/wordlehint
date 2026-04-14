@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T05:59:42.858Z",
+  "lastUpdated": "2026-04-14T05:35:30.104Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1235,6 +1235,12 @@
       "date": "2026-04-13",
       "id": 1740,
       "answer": "ELFIN",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-04-14",
+      "id": 714,
+      "answer": "CYCLE",
       "editor": "Tracy Bennett"
     }
   ]
