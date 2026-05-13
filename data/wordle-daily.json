@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T06:24:06.394Z",
+  "lastUpdated": "2026-05-13T06:36:51.690Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1409,6 +1409,12 @@
       "date": "2026-05-12",
       "id": 2805,
       "answer": "CLOCK",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-05-13",
+      "id": 754,
+      "answer": "DOWDY",
       "editor": "Tracy Bennett"
     }
   ]
