@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T06:09:56.170Z",
+  "lastUpdated": "2026-05-17T06:33:20.134Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1433,6 +1433,12 @@
       "date": "2026-05-16",
       "id": 1423,
       "answer": "MOVER",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-05-17",
+      "id": 1177,
+      "answer": "BYLAW",
       "editor": "Tracy Bennett"
     }
   ]
