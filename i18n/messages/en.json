@@ -14,16 +14,16 @@
         "href": "/5-letters"
       },
       {
+        "name": "Unlimited",
+        "href": "/wordle-unlimited"
+      },
+      {
         "name": "How to Play",
         "href": "/how-to-play-wordle"
       },
       {
         "name": "Solver",
         "href": "/wordle-solver"
-      },
-      {
-        "name": "Guides",
-        "href": "/guides"
       }
     ]
   },
