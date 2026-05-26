@@ -22,6 +22,11 @@ const config = {
         heading: ['var(--font-heading)', 'var(--font-body)', 'sans-serif'],
         body: ['var(--font-body)', 'sans-serif'],
         mono: ['var(--font-mono-code)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+        // Editorial Newsprint stack — scoped to /wordle-unlimited
+        fraunces: ['var(--font-fraunces)', 'Georgia', 'serif'],
+        newsreader: ['var(--font-newsreader)', 'Georgia', 'serif'],
+        'plex-mono': ['var(--font-plex-mono)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+        'plex-sans': ['var(--font-plex-sans)', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: 'hsl(var(--border))',
@@ -73,7 +78,31 @@ const config = {
           present: 'hsl(var(--wordle-present))',
           absent: 'hsl(var(--wordle-absent))',
           key: 'hsl(var(--wordle-key))',
-        }
+        },
+        // Editorial Newsprint palette — scoped to /wordle-unlimited.
+        // Uses raw hex (not CSS vars) to avoid touching the global theme system.
+        brand: {
+          cream: '#F5F1E8',
+          paper: '#FBF8F0',
+          ink: '#1A1814',
+          midInk: '#3A3631',
+          tan: '#D9D2C2',
+          subtle: '#6B6660',
+          signal: '#C2410C',
+          signalDark: '#9A3309',
+          signalLight: '#FED7AA',
+        },
+        // Dark-mode counterparts for the Editorial palette
+        'brand-dark': {
+          bg: '#1C1A17',
+          paper: '#2A2622',
+          ink: '#F5F1E8',
+        },
+        // Wordle color-blind alternative palette (blue + orange)
+        'wordle-cb': {
+          correct: '#1976D2',
+          present: '#E65100',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',

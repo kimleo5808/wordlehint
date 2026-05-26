@@ -271,6 +271,17 @@ export default function WordleHintTodayPage() {
               </Link>{" "}
               guide for general strategy tips and best starting words.
             </p>
+            <p>
+              Need warmup rounds before opening today&apos;s puzzle?{" "}
+              <Link
+                href="/wordle-unlimited"
+                className="font-medium text-primary hover:text-primary/80"
+              >
+                Switch to Wordle Unlimited
+              </Link>{" "}
+              for endless practice across 4 to 11 letter modes, then come back
+              here for the daily clue when you sit down with the real puzzle.
+            </p>
           </div>
         </div>
       </section>

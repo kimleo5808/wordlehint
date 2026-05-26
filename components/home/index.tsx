@@ -112,6 +112,13 @@ export default async function HomeComponent() {
             >
               {t("hero.ctaPrimary")}
             </Link>
+            <Link
+              href="/wordle-unlimited"
+              className="inline-flex items-center gap-2 rounded-xl border-2 border-slate-600 px-6 py-3.5 text-sm font-semibold text-slate-200 transition-all hover:border-slate-500 hover:bg-slate-800"
+            >
+              <Gamepad2 className="h-4 w-4" />
+              Play Wordle Unlimited
+            </Link>
           </div>
 
           {/* Quick stats — dynamic */}

@@ -93,6 +93,50 @@ export function breadcrumbSchema(
 }
 
 /* ------------------------------------------------------------------ */
+/*  VideoGame schema (for /wordle-unlimited)                           */
+/*  None of the 10 competitor sites we benchmarked ship this — it      */
+/*  is a low-cost differentiation play for richer SERP eligibility.    */
+/* ------------------------------------------------------------------ */
+
+export function videoGameSchema({
+  name,
+  description,
+  url,
+  image,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  image?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    name,
+    description,
+    url,
+    image: image || `${BASE_URL}/og.png`,
+    applicationCategory: "Game",
+    genre: ["Word Game", "Puzzle"],
+    playMode: "SinglePlayer",
+    gamePlatform: ["Web Browser"],
+    operatingSystem: "Any",
+    inLanguage: "en",
+    isAccessibleForFree: true,
+    author: {
+      "@type": "Organization",
+      name: "WordleHint",
+      url: BASE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "WordleHint",
+      url: BASE_URL,
+    },
+  };
+}
+
+/* ------------------------------------------------------------------ */
 /*  Article schema (for blog posts)                                    */
 /* ------------------------------------------------------------------ */
 

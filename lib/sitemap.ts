@@ -24,6 +24,7 @@ const staticPageRules: Record<string, { changeFrequency: ChangeFrequency; lastMo
   '/how-to-play-wordle': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/wordle-hint-faq': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/wordle-solver': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
+  '/wordle-unlimited': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/about': { changeFrequency: 'yearly', lastModifiedKind: 'about' },
   '/contact': { changeFrequency: 'yearly', lastModifiedKind: 'contact' },
   '/privacy-policy': { changeFrequency: 'yearly', lastModifiedKind: 'legal' },
@@ -110,6 +111,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/how-to-play-wordle',
     '/wordle-hint-faq',
     '/wordle-solver',
+    '/wordle-unlimited',
     '/about',
     '/contact',
     '/privacy-policy',
@@ -122,6 +124,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/wordle-hint': 0.8,
     '/how-to-play-wordle': 0.9,
     '/wordle-solver': 0.9,
+    '/wordle-unlimited': 0.85,
   }
 
   const allPuzzles = getAllPuzzles()

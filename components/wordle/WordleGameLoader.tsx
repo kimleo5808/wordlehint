@@ -9,8 +9,10 @@ const WordleGame = dynamic(
 
 export default function WordleGameLoader({
   wordLength,
+  hideControls,
 }: {
   wordLength: number;
+  hideControls?: boolean;
 }) {
-  return <WordleGame wordLength={wordLength} />;
+  return <WordleGame wordLength={wordLength} hideControls={hideControls} />;
 }

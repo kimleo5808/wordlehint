@@ -63,6 +63,17 @@ export default async function LetterGamePage({ params }: { params: Params }) {
         <p className="mt-2 text-muted-foreground">
           {game.description}
         </p>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Want to switch lengths mid-session?{" "}
+          <I18nLink
+            href="/wordle-unlimited"
+            prefetch={false}
+            className="font-semibold text-blue-600 underline-offset-2 hover:underline dark:text-blue-400"
+          >
+            Play Wordle Unlimited
+          </I18nLink>{" "}
+          for all 4–11 letter modes in one page.
+        </p>
       </header>
 
       {/* Game */}

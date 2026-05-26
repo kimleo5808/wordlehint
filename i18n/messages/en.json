@@ -95,6 +95,10 @@
               "name": "Wordle Solver"
             },
             {
+              "href": "/wordle-unlimited",
+              "name": "Wordle Unlimited"
+            },
+            {
               "href": "/guides",
               "name": "Strategy Guides"
             },

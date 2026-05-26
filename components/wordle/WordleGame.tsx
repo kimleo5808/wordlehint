@@ -79,8 +79,12 @@ function createInitialState(wordLength: number): GameState {
 
 export default function WordleGame({
   wordLength,
+  hideControls = false,
 }: {
   wordLength: number;
+  /** Hide the built-in "New Game" + "Get Hint" footer buttons. The shell
+   *  on /wordle-unlimited provides its own editorial-styled controls. */
+  hideControls?: boolean;
 }) {
   const [state, setState] = useState<GameState>(() =>
     createInitialState(wordLength)
@@ -309,20 +313,22 @@ export default function WordleGame({
       </div>
 
       {/* Controls */}
-      <div className="mt-2 flex gap-3">
-        <button
-          onClick={newGame}
-          className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
-        >
-          New Game
-        </button>
-        <button
-          onClick={showHint}
-          className="rounded-lg border border-blue-500/30 px-5 py-2 text-sm font-semibold text-blue-600 transition-colors hover:bg-blue-50 dark:text-blue-400 dark:hover:bg-blue-900/20"
-        >
-          Get Hint
-        </button>
-      </div>
+      {!hideControls && (
+        <div className="mt-2 flex gap-3">
+          <button
+            onClick={newGame}
+            className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
+          >
+            New Game
+          </button>
+          <button
+            onClick={showHint}
+            className="rounded-lg border border-blue-500/30 px-5 py-2 text-sm font-semibold text-blue-600 transition-colors hover:bg-blue-50 dark:text-blue-400 dark:hover:bg-blue-900/20"
+          >
+            Get Hint
+          </button>
+        </div>
+      )}
     </div>
   );
 }

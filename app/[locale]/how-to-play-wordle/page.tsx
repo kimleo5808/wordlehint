@@ -309,6 +309,12 @@ export default async function HowToPlayWordlePage({
             <ArrowRight className="h-4 w-4" />
           </Link>
           <Link
+            href="/wordle-unlimited"
+            className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
+          >
+            Practice on Wordle Unlimited
+          </Link>
+          <Link
             href="/guides"
             className="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
           >
