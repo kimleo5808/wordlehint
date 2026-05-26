@@ -134,6 +134,10 @@ package-lock.json
 # sitemap
 */sitemap*.xml
 */robots.txt
+!app/sitemap-index.xml/
+!app/sitemap-index.xml/route.ts
+!app/sitemap-main.xml/
+!app/sitemap-main.xml/route.ts
 # OpenNext
 .open-next
 .dev.vars
