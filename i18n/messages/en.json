@@ -72,6 +72,13 @@
             {
               "href": "/11-letters",
               "name": "11 Letter Wordle"
+            },
+            {
+              "href": "https://minutecryptic.org/",
+              "name": "MinuteCryptic",
+              "useA": true,
+              "target": "_blank",
+              "rel": "noopener"
             }
           ]
         },
