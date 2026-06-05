@@ -10,6 +10,14 @@
         "href": "/wordle-hint"
       },
       {
+        "name": "Past Answers",
+        "href": "/wordle-answers"
+      },
+      {
+        "name": "Connections",
+        "href": "/connections-hint-today"
+      },
+      {
         "name": "5 Letter Wordle",
         "href": "/5-letters"
       },

@@ -137,6 +137,102 @@ export function videoGameSchema({
 }
 
 /* ------------------------------------------------------------------ */
+/*  SoftwareApplication schema (for tool pages)                        */
+/* ------------------------------------------------------------------ */
+
+export function softwareApplicationSchema({
+  name,
+  description,
+  url,
+  applicationCategory = "GameApplication",
+}: {
+  name: string;
+  description: string;
+  url: string;
+  applicationCategory?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name,
+    description,
+    url,
+    applicationCategory,
+    operatingSystem: "Web",
+    isAccessibleForFree: true,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "WordleHint",
+      url: BASE_URL,
+    },
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Dataset schema (for the answer archive — aids AI/LLM citation)     */
+/* ------------------------------------------------------------------ */
+
+export function datasetSchema({
+  name,
+  description,
+  url,
+  dateModified,
+  measurementCount,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  dateModified?: string;
+  measurementCount?: number;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name,
+    description,
+    url,
+    ...(dateModified ? { dateModified } : {}),
+    ...(measurementCount
+      ? { variableMeasured: `${measurementCount} Wordle answers` }
+      : {}),
+    isAccessibleForFree: true,
+    license: "https://wordlehint.info/terms-of-service",
+    creator: {
+      "@type": "Organization",
+      name: "WordleHint",
+      url: BASE_URL,
+    },
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/*  ItemList schema (for ranked lists — aids rich results + AI)        */
+/* ------------------------------------------------------------------ */
+
+export function itemListSchema(
+  name: string,
+  items: string[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name,
+    numberOfItems: items.length,
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item,
+    })),
+  };
+}
+
+/* ------------------------------------------------------------------ */
 /*  Article schema (for blog posts)                                    */
 /* ------------------------------------------------------------------ */
 

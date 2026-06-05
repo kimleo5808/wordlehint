@@ -17,7 +17,9 @@
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "seed:wordle": "node scripts/seed-wordle-answers.mjs",
-    "update:wordle": "node scripts/update-wordle.mjs"
+    "update:wordle": "node scripts/update-wordle.mjs",
+    "seed:connections": "node scripts/seed-connections.mjs",
+    "update:connections": "node scripts/update-connections.mjs"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^16.1.5",

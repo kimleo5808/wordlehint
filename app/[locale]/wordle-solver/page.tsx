@@ -1,13 +1,47 @@
 import { BASE_URL } from "@/config/site";
 import { Locale, LOCALES } from "@/i18n/routing";
 import { Link as I18nLink } from "@/i18n/routing";
-import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
+import {
+  breadcrumbSchema,
+  faqPageSchema,
+  howToSchema,
+  JsonLd,
+  softwareApplicationSchema,
+} from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
-import { Search } from "lucide-react";
-import { Metadata } from "next";
+import { getAnswerLookup } from "@/lib/wordle-answer-lookup";
+import { getStartingWordData } from "@/lib/wordle-starting-words";
+import {
+  FAQ_ITEMS,
+  PAGE_META,
+  SECTIONS,
+  SOLVER_DEFINITION,
+} from "@/data/wordle-solver/content";
+import { RELATED_TOOLS } from "@/data/wordle-answers/content";
+import { WordTiles } from "@/components/wordle-answers/WordTiles";
+import AnswersFAQ from "@/components/wordle-answers/AnswersFAQ";
+import RelatedTools from "@/components/wordle-answers/RelatedTools";
 import WordleSolver from "@/components/wordle/WordleSolver";
+import { Search } from "lucide-react";
+import Link from "next/link";
+import { Metadata } from "next";
 
 type Params = Promise<{ locale: string }>;
+
+const HOWTO_STEPS = [
+  {
+    name: "Enter your letters",
+    text: "Type your guessed letters into the cells. The cursor moves automatically to the next position.",
+  },
+  {
+    name: "Set the colors",
+    text: "Click each cell to cycle its color — green (correct), yellow (wrong spot), or gray (not in word) — to match your Wordle feedback.",
+  },
+  {
+    name: "Review the results",
+    text: "See all matching words instantly, with real past answers flagged and defined. Use the keyboard to mark more absent letters.",
+  },
+];
 
 export async function generateMetadata({
   params,
@@ -15,29 +49,22 @@ export async function generateMetadata({
   params: Params;
 }): Promise<Metadata> {
   const { locale } = await params;
-
   return constructMetadata({
     page: "WordleSolver",
-    title: "Wordle Solver — Find Matching Words Instantly",
-    description:
-      "Free Wordle solver and word finder. Enter your green, yellow, and gray letters to get a list of possible words. Works for 4 to 11 letter Wordle games.",
-    keywords: [
-      "wordle solver",
-      "wordle helper",
-      "wordle word finder",
-      "wordle cheat",
-      "wordle hint tool",
-      "5 letter word finder",
-      "wordle answer finder",
-      "wordle filter",
-      "wordle clue solver",
-      "word puzzle solver",
-    ],
+    title: PAGE_META.title,
+    description: PAGE_META.description,
+    keywords: PAGE_META.keywords,
     locale: locale as Locale,
     path: "/wordle-solver",
     canonicalUrl: "/wordle-solver",
   });
 }
+
+const COLOR_CLASS = {
+  correct: "bg-wordle-correct",
+  present: "bg-wordle-present",
+  absent: "bg-wordle-absent",
+} as const;
 
 export default async function WordleSolverPage({
   params,
@@ -46,156 +73,245 @@ export default async function WordleSolverPage({
 }) {
   await params;
 
+  const answerLookup = getAnswerLookup();
+  const starterWords = getStartingWordData().rankings.slice(0, 3).map((r) => r.word);
+  const pageUrl = `${BASE_URL}/wordle-solver`;
+
   return (
     <div className="mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: BASE_URL },
-          { name: "Wordle Solver", url: `${BASE_URL}/wordle-solver` },
+          { name: "Wordle Solver", url: pageUrl },
         ])}
       />
-
       <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          name: "Wordle Solver",
-          url: `${BASE_URL}/wordle-solver`,
-          description:
-            "Free Wordle solver tool. Enter your green, yellow, and gray letters to filter possible words from 4 to 11 letters.",
+        data={softwareApplicationSchema({
+          name: "Wordle Solver & Word Finder",
+          description: PAGE_META.description,
+          url: pageUrl,
           applicationCategory: "UtilitiesApplication",
-          operatingSystem: "Any",
-          offers: {
-            "@type": "Offer",
-            price: "0",
-            priceCurrency: "USD",
-          },
-        }}
+        })}
       />
+      <JsonLd
+        data={howToSchema(
+          "How to Use the Wordle Solver",
+          "Enter your green, yellow, and gray letters to find every matching Wordle word.",
+          HOWTO_STEPS
+        )}
+      />
+      <JsonLd data={faqPageSchema(FAQ_ITEMS)} />
 
       {/* Header */}
       <header className="mb-8 text-center">
         <div className="mx-auto flex items-center justify-center gap-2">
-          <Search className="h-5 w-5 text-blue-500" />
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-400">
-            Word Finder Tool
-          </span>
+          <Search className="h-5 w-5 text-cta" />
+          <span className="text-sm font-medium text-cta">Word Finder Tool</span>
         </div>
         <h1 className="mt-2 font-heading text-3xl font-bold text-foreground sm:text-4xl">
-          Wordle Solver
+          {PAGE_META.h1}
         </h1>
-        <p className="mt-2 text-muted-foreground">
-          Enter your Wordle results to find all possible matching words. Works
-          for 4 to 11 letter games.
+        <p className="mx-auto mt-2 max-w-xl text-muted-foreground">
+          Enter the letters you know — green, yellow, and gray — and get every
+          possible word, with real past Wordle answers flagged and defined.
+          Works for 4 to 11 letters.
         </p>
       </header>
 
       {/* Solver Tool */}
-      <section className="rounded-2xl border border-blue-200/70 bg-gradient-to-b from-white to-blue-50/30 p-6 sm:p-8 dark:border-blue-900/40 dark:from-zinc-900 dark:to-zinc-900">
-        <WordleSolver />
+      <section className="rounded-2xl border border-border bg-card p-6 sm:p-8">
+        <WordleSolver answerLookup={answerLookup} starterWords={starterWords} />
       </section>
 
       {/* How to Use */}
-      <section className="mt-10 border-t border-blue-100 pt-8 dark:border-blue-900/40">
+      <section className="mt-12 border-t border-border pt-8">
         <h2 className="font-heading text-xl font-bold text-foreground">
           How to Use the Wordle Solver
         </h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-3">
-          <div className="rounded-xl border border-blue-100 bg-card p-5 dark:border-blue-900/40">
-            <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-green-500 text-sm font-bold text-white">
-              1
-            </div>
-            <h3 className="font-heading font-semibold text-foreground">
-              Enter Letters
-            </h3>
-            <p className="mt-1 text-sm text-muted-foreground">
-              Type your guessed letters into the cells. The cursor moves
-              automatically to the next position.
-            </p>
-          </div>
-          <div className="rounded-xl border border-blue-100 bg-card p-5 dark:border-blue-900/40">
-            <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-yellow-500 text-sm font-bold text-white">
-              2
-            </div>
-            <h3 className="font-heading font-semibold text-foreground">
-              Set Colors
-            </h3>
-            <p className="mt-1 text-sm text-muted-foreground">
-              Click each cell to cycle its color — green (correct), yellow
-              (wrong spot), or gray (not in word) — matching your Wordle
-              feedback.
-            </p>
-          </div>
-          <div className="rounded-xl border border-blue-100 bg-card p-5 dark:border-blue-900/40">
-            <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500 text-sm font-bold text-white">
-              3
-            </div>
-            <h3 className="font-heading font-semibold text-foreground">
-              Review Results
-            </h3>
-            <p className="mt-1 text-sm text-muted-foreground">
-              See all matching words instantly. Use the keyboard below to mark
-              additional absent letters for more precise filtering.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Strategy Tips */}
-      <section className="mt-10 border-t border-blue-100 pt-8 dark:border-blue-900/40">
-        <h2 className="font-heading text-xl font-bold text-foreground">
-          Wordle Solving Strategy
-        </h2>
-        <div className="mt-4 space-y-4 text-muted-foreground">
-          <p>
-            The key to solving Wordle efficiently is <strong className="text-foreground">eliminating as many letters as possible</strong> with
-            each guess. Start with a word rich in common letters like{" "}
-            <strong className="text-foreground">CRANE</strong>,{" "}
-            <strong className="text-foreground">SLATE</strong>, or{" "}
-            <strong className="text-foreground">ADIEU</strong> to maximize
-            information from your first attempt.
-          </p>
-          <p>
-            After your first guess, use this solver to see all remaining
-            possibilities. If there are too many matches, choose your next guess
-            to eliminate the most common letters among the remaining candidates.
-            Focus on <strong className="text-foreground">letter frequency</strong> — letters like E, A, R,
-            S, T, and L appear most often in English words.
-          </p>
-          <p>
-            Pay attention to <strong className="text-foreground">letter position patterns</strong>. Many
-            5-letter words end in -IGHT, -OUND, -TION, or -ATCH. Recognizing
-            these patterns helps you narrow down possibilities faster than
-            letter-by-letter elimination alone.
-          </p>
-          <p>
-            For <strong className="text-foreground">Hard Mode</strong>, where you must reuse confirmed
-            hints, this solver is especially valuable. Enter all your known
-            constraints after each guess, and the tool will show you only valid
-            remaining words that satisfy Hard Mode rules.
-          </p>
-        </div>
-      </section>
-
-      {/* Related Pages */}
-      <section className="mt-10 border-t border-blue-100 pt-8 dark:border-blue-900/40">
-        <h2 className="font-heading text-xl font-bold text-foreground">
-          Play Wordle Games
-        </h2>
-        <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {[5, 6, 7, 4].map((n) => (
-            <I18nLink
-              key={n}
-              href={`/${n}-letters`}
-              prefetch={false}
-              className="group rounded-xl border border-blue-100 bg-card p-4 text-center transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md dark:border-blue-900/40 dark:hover:border-blue-700/60"
+          {HOWTO_STEPS.map((step, i) => (
+            <div
+              key={i}
+              className="rounded-xl border border-border bg-card p-5"
             >
-              <div className="font-heading text-2xl font-bold text-blue-600 dark:text-blue-400">
-                {n}
+              <div className="mb-2 flex h-8 w-8 items-center justify-center rounded-lg bg-wordle-correct text-sm font-bold text-white">
+                {i + 1}
               </div>
-              <div className="mt-1 text-xs text-muted-foreground">letters</div>
-            </I18nLink>
+              <h3 className="font-heading font-semibold text-foreground">
+                {step.name}
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">{step.text}</p>
+            </div>
           ))}
+        </div>
+      </section>
+
+      {/* What is a solver */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          {SECTIONS.whatIs.heading}
+        </h2>
+        {SECTIONS.whatIs.body.map((p, i) => (
+          <p key={i} className="mt-3 leading-relaxed text-muted-foreground">
+            {p}
+          </p>
+        ))}
+        <blockquote className="mt-4 border-l-4 border-wordle-correct bg-muted/40 px-5 py-4 text-foreground">
+          <p className="font-medium leading-relaxed">{SOLVER_DEFINITION}</p>
+        </blockquote>
+      </section>
+
+      {/* Colors */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          {SECTIONS.colors.heading}
+        </h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          {SECTIONS.colors.items.map((item) => (
+            <div
+              key={item.color}
+              className="rounded-xl border border-border bg-card p-5"
+            >
+              <span
+                className={`inline-block h-7 w-7 rounded ${COLOR_CLASS[item.color]}`}
+              />
+              <h3 className="mt-3 font-heading font-semibold text-foreground">
+                {item.title}
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">{item.text}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-3 text-sm text-muted-foreground">
+          📝 {SECTIONS.colors.note}
+        </p>
+      </section>
+
+      {/* Real answers */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          {SECTIONS.realAnswers.heading}
+        </h2>
+        {SECTIONS.realAnswers.body.map((p, i) => (
+          <p key={i} className="mt-3 leading-relaxed text-muted-foreground">
+            {p}
+          </p>
+        ))}
+        <p className="mt-3 text-sm text-muted-foreground">
+          See them all in our{" "}
+          <Link
+            href="/wordle-answers"
+            className="font-semibold text-cta hover:underline"
+          >
+            archive of real Wordle answers
+          </Link>
+          .
+        </p>
+      </section>
+
+      {/* Solver vs hints vs answers */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          {SECTIONS.vsHints.heading}
+        </h2>
+        {SECTIONS.vsHints.body.map((p, i) => (
+          <p key={i} className="mt-3 leading-relaxed text-muted-foreground">
+            {p}
+          </p>
+        ))}
+        <div className="mt-4 overflow-hidden rounded-xl border border-border">
+          <table className="w-full text-sm">
+            <thead className="bg-muted/60">
+              <tr>
+                {SECTIONS.vsHints.comparison.headers.map((h, i) => (
+                  <th
+                    key={i}
+                    className="px-4 py-2.5 text-left font-heading font-semibold text-foreground"
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-border">
+              {SECTIONS.vsHints.comparison.rows.map((row, i) => (
+                <tr key={i}>
+                  {row.map((cell, j) => (
+                    <td
+                      key={j}
+                      className={
+                        j === 0
+                          ? "px-4 py-2.5 font-medium text-foreground"
+                          : "px-4 py-2.5 text-muted-foreground"
+                      }
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-4 text-sm text-muted-foreground">
+          Want less help?{" "}
+          <Link
+            href="/wordle-hint-today"
+            className="font-semibold text-cta hover:underline"
+          >
+            Today&apos;s hints
+          </Link>{" "}
+          reveal the answer one clue at a time, or jump straight to{" "}
+          <Link
+            href="/todays-wordle-answer"
+            className="font-semibold text-cta hover:underline"
+          >
+            today&apos;s answer
+          </Link>
+          .
+        </p>
+      </section>
+
+      {/* First guess */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          {SECTIONS.firstGuess.heading}
+        </h2>
+        {SECTIONS.firstGuess.body.map((p, i) => (
+          <p key={i} className="mt-3 leading-relaxed text-muted-foreground">
+            {p}
+          </p>
+        ))}
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          {starterWords.map((w) => (
+            <WordTiles key={w} word={w} size="sm" />
+          ))}
+          <Link
+            href="/best-wordle-starting-words"
+            className="text-sm font-semibold text-cta hover:underline"
+          >
+            See the best starting words →
+          </Link>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          Frequently Asked Questions
+        </h2>
+        <div className="mt-4">
+          <AnswersFAQ items={FAQ_ITEMS} />
+        </div>
+      </section>
+
+      {/* Related tools */}
+      <section className="mt-12 border-t border-border pt-8">
+        <h2 className="font-heading text-xl font-bold text-foreground">
+          Related Tools
+        </h2>
+        <div className="mt-4">
+          <RelatedTools tools={RELATED_TOOLS} />
         </div>
       </section>
     </div>

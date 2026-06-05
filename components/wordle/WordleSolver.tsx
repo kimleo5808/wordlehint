@@ -3,6 +3,18 @@
 import { WORD_LISTS } from "@/data/wordle-words";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link as I18nLink } from "@/i18n/routing";
+import { Check, Copy } from "lucide-react";
+import type { AnswerLookup } from "@/lib/wordle-answer-lookup";
+
+type SolverSort = "likely" | "alpha";
+
+function formatUsedDate(date: string): string {
+  return new Date(`${date}T12:00:00`).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
 
 type CellColor = "empty" | "correct" | "present" | "absent";
 
@@ -47,7 +59,15 @@ function cellColorClass(color: CellColor, hasLetter: boolean): string {
   }
 }
 
-export default function WordleSolver() {
+export default function WordleSolver({
+  answerLookup = {},
+  starterWords = [],
+}: {
+  /** Map of real past-answer words to their date + definition. */
+  answerLookup?: AnswerLookup;
+  /** Top opener words shown when no constraints are set. */
+  starterWords?: string[];
+} = {}) {
   const [wordLength, setWordLength] = useState(5);
   const [cells, setCells] = useState<Cell[]>(() =>
     Array.from({ length: 5 }, () => ({ letter: "", color: "empty" as CellColor }))
@@ -55,6 +75,18 @@ export default function WordleSolver() {
   const [absentLetters, setAbsentLetters] = useState<Set<string>>(new Set());
   const [focusedCell, setFocusedCell] = useState(0);
   const [showAll, setShowAll] = useState(false);
+  const [sort, setSort] = useState<SolverSort>("likely");
+  const [copied, setCopied] = useState<string | null>(null);
+
+  const copyWord = useCallback((word: string) => {
+    try {
+      navigator.clipboard?.writeText(word);
+      setCopied(word);
+      window.setTimeout(() => setCopied((c) => (c === word ? null : c)), 1000);
+    } catch {
+      /* clipboard unavailable — no-op */
+    }
+  }, []);
 
   // Reset when word length changes
   useEffect(() => {
@@ -69,9 +101,20 @@ export default function WordleSolver() {
     setShowAll(false);
   }, [wordLength]);
 
+  // Effective dictionary = the curated list for this length, plus every real
+  // past answer of this length (so the solver can actually surface — and flag
+  // — genuine answers, most of which aren't in the curated common-word list).
+  const dictionary = useMemo(() => {
+    const base = WORD_LISTS[wordLength] || [];
+    const answerWords = Object.keys(answerLookup).filter(
+      (w) => w.length === wordLength
+    );
+    return Array.from(new Set([...base, ...answerWords]));
+  }, [wordLength, answerLookup]);
+
   // Filter words based on constraints
   const results = useMemo(() => {
-    const words = WORD_LISTS[wordLength] || [];
+    const words = dictionary;
 
     // Collect constraints from cells
     const greens: { pos: number; letter: string }[] = [];
@@ -123,7 +166,7 @@ export default function WordleSolver() {
       }
       return true;
     });
-  }, [cells, absentLetters, wordLength]);
+  }, [cells, absentLetters, dictionary]);
 
   const toggleAbsent = useCallback((letter: string) => {
     setAbsentLetters((prev) => {
@@ -222,7 +265,24 @@ export default function WordleSolver() {
     return { green, yellow };
   }, [cells]);
 
-  const displayedResults = showAll ? results : results.slice(0, 100);
+  // Sort: "likely" floats real past answers to the top (alpha within groups);
+  // "alpha" is plain alphabetical.
+  const sortedResults = useMemo(() => {
+    const list = [...results].sort((a, b) => a.localeCompare(b));
+    if (sort === "alpha") return list;
+    return list.sort((a, b) => {
+      const ra = answerLookup[a] ? 0 : 1;
+      const rb = answerLookup[b] ? 0 : 1;
+      return ra - rb;
+    });
+  }, [results, sort, answerLookup]);
+
+  const answerMatchCount = useMemo(
+    () => results.reduce((n, w) => n + (answerLookup[w] ? 1 : 0), 0),
+    [results, answerLookup]
+  );
+
+  const displayedResults = showAll ? sortedResults : sortedResults.slice(0, 100);
 
   const cellSize =
     wordLength <= 5
@@ -329,41 +389,138 @@ export default function WordleSolver() {
       <div className="w-full max-w-2xl">
         {results.length > 0 ? (
           <>
-            <div className="mb-3 flex items-center justify-between">
-              <h3 className="font-heading text-lg font-bold text-foreground">
-                Matching Words
-              </h3>
-              <span className="rounded-full bg-blue-100 px-3 py-1 text-sm font-semibold text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
-                {results.length} {results.length === 1 ? "word" : "words"}
-              </span>
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+              <div className="flex items-center gap-2">
+                <h3 className="font-heading text-lg font-bold text-foreground">
+                  Matching Words
+                </h3>
+                <span className="rounded-full bg-muted px-3 py-1 text-sm font-semibold text-foreground">
+                  {results.length}
+                </span>
+                {answerMatchCount > 0 && (
+                  <span className="rounded-full bg-wordle-correct/15 px-3 py-1 text-xs font-semibold text-wordle-correct">
+                    {answerMatchCount} past answer{answerMatchCount === 1 ? "" : "s"}
+                  </span>
+                )}
+              </div>
+              <div
+                role="group"
+                aria-label="Sort results"
+                className="inline-flex rounded-lg border border-input bg-muted/40 p-1 text-xs"
+              >
+                {(
+                  [
+                    { key: "likely", label: "Likely first" },
+                    { key: "alpha", label: "A–Z" },
+                  ] as const
+                ).map((o) => (
+                  <button
+                    key={o.key}
+                    type="button"
+                    aria-pressed={sort === o.key}
+                    onClick={() => setSort(o.key)}
+                    className={`rounded-md px-2.5 py-1 font-semibold transition-colors ${
+                      sort === o.key
+                        ? "bg-background text-foreground shadow-sm"
+                        : "text-muted-foreground hover:text-foreground"
+                    }`}
+                  >
+                    {o.label}
+                  </button>
+                ))}
+              </div>
             </div>
-            <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-5">
-              {displayedResults.map((word) => (
-                <div
-                  key={word}
-                  className="rounded-lg border border-blue-100 bg-card px-3 py-2 text-center text-sm font-mono font-semibold tracking-wider text-foreground dark:border-blue-900/40"
-                >
-                  {word}
-                </div>
-              ))}
-            </div>
+
+            <ul className="grid gap-2 sm:grid-cols-2">
+              {displayedResults.map((word) => {
+                const meta = answerLookup[word];
+                return (
+                  <li
+                    key={word}
+                    className={`group flex items-start gap-2 rounded-lg border bg-card px-3 py-2 ${
+                      meta
+                        ? "border-l-4 border-l-wordle-correct border-y-border border-r-border"
+                        : "border-border"
+                    }`}
+                  >
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+                        <span className="font-mono text-sm font-bold tracking-wider text-foreground">
+                          {word}
+                        </span>
+                        {meta && (
+                          <span className="inline-flex items-center gap-1 rounded border border-wordle-correct/40 px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wide text-wordle-correct">
+                            Past answer · {formatUsedDate(meta.date)}
+                          </span>
+                        )}
+                      </div>
+                      {meta?.definition && (
+                        <p className="mt-0.5 line-clamp-1 text-xs text-muted-foreground">
+                          {meta.partOfSpeech ? `${meta.partOfSpeech} · ` : ""}
+                          {meta.definition}
+                        </p>
+                      )}
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => copyWord(word)}
+                      aria-label={`Copy ${word}`}
+                      className="shrink-0 rounded p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                    >
+                      {copied === word ? (
+                        <Check className="h-3.5 w-3.5 text-wordle-correct" />
+                      ) : (
+                        <Copy className="h-3.5 w-3.5" />
+                      )}
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+
             {results.length > 100 && !showAll && (
               <button
                 onClick={() => setShowAll(true)}
-                className="mt-4 w-full rounded-lg border border-blue-200 py-2 text-sm font-semibold text-blue-600 transition-colors hover:bg-blue-50 dark:border-blue-800 dark:text-blue-400 dark:hover:bg-blue-900/20"
+                className="mt-4 w-full rounded-lg border border-border py-2 text-sm font-semibold text-cta transition-colors hover:bg-muted"
               >
                 Show all {results.length} words
               </button>
             )}
           </>
+        ) : cells.some((c) => c.letter) || absentLetters.size > 0 ? (
+          <div className="rounded-xl border border-dashed border-border p-8 text-center text-muted-foreground">
+            <p className="font-medium">
+              No matching words found. Try adjusting your constraints.
+            </p>
+          </div>
         ) : (
-          <div className="rounded-xl border border-dashed border-slate-300 p-8 text-center text-muted-foreground dark:border-slate-700">
-            {cells.some((c) => c.letter) || absentLetters.size > 0 ? (
-              <p className="font-medium">No matching words found. Try adjusting your constraints.</p>
-            ) : (
-              <p className="font-medium">
-                Enter your Wordle results above to find matching words.
-              </p>
+          /* No constraints yet — guide toward a strong opener. */
+          <div className="rounded-xl border border-border bg-muted/30 p-6 text-center">
+            <p className="font-medium text-foreground">
+              Enter your Wordle tiles above to find matching words.
+            </p>
+            {starterWords.length > 0 && (
+              <>
+                <p className="mt-3 text-sm text-muted-foreground">
+                  Not sure what to play first? Try a top opener:
+                </p>
+                <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
+                  {starterWords.slice(0, 3).map((w) => (
+                    <span
+                      key={w}
+                      className="rounded-lg bg-wordle-correct px-3 py-1.5 font-mono text-sm font-bold tracking-wider text-white"
+                    >
+                      {w}
+                    </span>
+                  ))}
+                </div>
+                <I18nLink
+                  href="/best-wordle-starting-words"
+                  className="mt-4 inline-block text-sm font-semibold text-cta hover:underline"
+                >
+                  See the best starting words →
+                </I18nLink>
+              </>
             )}
           </div>
         )}
