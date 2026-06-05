@@ -20,6 +20,7 @@ import {
   getTodayDateString,
 } from "@/lib/wordle-daily";
 import { generateHints } from "@/lib/wordle-hints";
+import { getDefinition } from "@/lib/wordle-definitions";
 import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -81,7 +82,7 @@ export default async function WordleHintDatePage({
 
   if (!puzzle) notFound();
 
-  const hints = generateHints(puzzle);
+  const hints = generateHints(puzzle, getDefinition(puzzle.answer)?.partOfSpeech);
   const today = getTodayDateString();
   const isToday = puzzle.date === today;
 

@@ -23,6 +23,7 @@ import {
   getTodayDateString,
 } from "@/lib/wordle-daily";
 import { generateHints } from "@/lib/wordle-hints";
+import { getDefinition } from "@/lib/wordle-definitions";
 import {
   ArrowRight,
   Calendar,
@@ -95,7 +96,7 @@ export default function WordleHintTodayPage() {
     );
   }
 
-  const hints = generateHints(puzzle);
+  const hints = generateHints(puzzle, getDefinition(puzzle.answer)?.partOfSpeech);
 
   const formattedDate = new Date(
     puzzle.date + "T12:00:00Z"

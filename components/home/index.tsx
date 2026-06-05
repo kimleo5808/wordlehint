@@ -1,6 +1,7 @@
 import { GUIDES } from "@/data/guides";
 import { LETTER_GAMES } from "@/data/letter-games";
 import { generateHints } from "@/lib/wordle-hints";
+import { getDefinition } from "@/lib/wordle-definitions";
 import { getTodayPuzzle, getRecentPuzzles, getPuzzleCount } from "@/lib/wordle-daily";
 import {
   ArrowRight,
@@ -73,7 +74,9 @@ export default async function HomeComponent() {
   const t = await getTranslations("HomePage");
 
   const todayPuzzle = getTodayPuzzle();
-  const hints = todayPuzzle ? generateHints(todayPuzzle) : null;
+  const hints = todayPuzzle
+    ? generateHints(todayPuzzle, getDefinition(todayPuzzle.answer)?.partOfSpeech)
+    : null;
   const recentPuzzles = getRecentPuzzles(7);
   const puzzleCount = getPuzzleCount();
 

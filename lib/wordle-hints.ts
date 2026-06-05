@@ -42,10 +42,18 @@ function getConsonantCount(word: string): number {
 /*  Generate 5 progressive hints                                       */
 /* ------------------------------------------------------------------ */
 
-export function generateHints(puzzle: DailyPuzzle): HintLevel[] {
+/** "a" / "an" for a part of speech (e.g. "an adjective", "a noun"). */
+function articleFor(word: string): string {
+  return /^[aeiou]/i.test(word) ? "an" : "a";
+}
+
+export function generateHints(
+  puzzle: DailyPuzzle,
+  partOfSpeech?: string | null
+): HintLevel[] {
   const word = puzzle.answer.toUpperCase();
 
-  // Level 1: Letter composition (vowels + consonants + doubles)
+  // Level 1: Word type (part of speech, when known) + letter composition
   const vowelInfo = getVowelInfo(word);
   const consonants = getConsonantCount(word);
   const doubles = hasDoubleLetters(word);
@@ -54,7 +62,10 @@ export function generateHints(puzzle: DailyPuzzle): HintLevel[] {
     `${consonants} consonant${consonants !== 1 ? "s" : ""}`,
   ];
   if (doubles) compositionParts.push("has a repeated letter");
-  const compositionHint = `This word has ${compositionParts.join(", ")}.`;
+  const makeup = compositionParts.join(", ");
+  const compositionHint = partOfSpeech
+    ? `Today's word is ${articleFor(partOfSpeech)} ${partOfSpeech}. It has ${makeup}.`
+    : `This word has ${makeup}.`;
 
   // Level 2: Vowel positions
   const vowelText =
@@ -70,7 +81,7 @@ export function generateHints(puzzle: DailyPuzzle): HintLevel[] {
   return [
     {
       level: 1,
-      label: "Letter Composition",
+      label: partOfSpeech ? "Word Type & Makeup" : "Letter Composition",
       icon: "💡",
       hint: compositionHint,
     },
