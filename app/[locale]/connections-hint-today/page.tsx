@@ -161,6 +161,12 @@ export default function ConnectionsHintTodayPage() {
           <p className="mt-4 font-mono text-xs text-slate-400">
             WordleHint Editorial · Updated {formattedDate}
           </p>
+          <Link
+            href="/connections-answers"
+            className="mt-4 inline-block text-sm font-semibold text-primary hover:text-primary/80"
+          >
+            Browse past Connections answers →
+          </Link>
         </div>
       </section>
 

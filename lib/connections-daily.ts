@@ -70,3 +70,58 @@ export function firstLetterHint(group: ConnectionsGroup): string {
     .sort()
     .join(" · ");
 }
+
+/* ------------------------------------------------------------------ */
+/*  Archive + stats                                                    */
+/* ------------------------------------------------------------------ */
+
+/** All puzzles before today (today excluded to avoid spoilers), newest first. */
+export const getArchiveConnections = cache((): ConnectionsPuzzle[] => {
+  const today = getTodayDateString();
+  return loadData()
+    .puzzles.filter((p) => p.date < today)
+    .slice()
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+});
+
+export interface ConnectionsStats {
+  total: number;
+  firstDate: string;
+  lastDate: string;
+  facts: string[];
+}
+
+export const getConnectionsStats = cache((): ConnectionsStats => {
+  const puzzles = loadData().puzzles;
+  const total = puzzles.length;
+  const dates = puzzles.map((p) => p.date).sort();
+
+  const wordCounts = new Map<string, number>();
+  let purpleCount = 0;
+  for (const p of puzzles) {
+    for (const g of p.groups) {
+      for (const w of g.words) {
+        wordCounts.set(w, (wordCounts.get(w) ?? 0) + 1);
+      }
+    }
+    purpleCount += p.groups.length === 4 ? 1 : 0;
+  }
+  const topWord = Array.from(wordCounts.entries()).sort(
+    (a, b) => b[1] - a[1] || a[0].localeCompare(b[0])
+  )[0];
+
+  const facts = [
+    `${total} Connections puzzles have been published since June 12, 2023.`,
+    topWord
+      ? `${topWord[0]} is the most-used word in the archive, appearing in ${topWord[1]} puzzles.`
+      : "",
+    `Every puzzle has four colour groups: yellow (easiest) through purple (trickiest).`,
+  ].filter(Boolean);
+
+  return {
+    total,
+    firstDate: dates[0],
+    lastDate: dates[dates.length - 1],
+    facts,
+  };
+});
