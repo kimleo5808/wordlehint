@@ -2,40 +2,59 @@
 
 import { Link as I18nLink, usePathname } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
-import { HeaderLink } from "@/types/common";
-import { ExternalLink } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
+
+type MenuItem = { name: string; href: string };
+type Menu = { name: string; items: MenuItem[] };
 
 const HeaderLinks = () => {
   const tHeader = useTranslations("Header");
   const pathname = usePathname();
 
-  const headerLinks: HeaderLink[] = tHeader.raw("links");
+  const menus: Menu[] = tHeader.raw("menus");
 
   return (
-    <div className="hidden md:flex flex-row items-center gap-x-1 text-sm font-medium">
-      {headerLinks.map((link) => (
-        <I18nLink
-          key={link.name}
-          href={link.href}
-          title={link.name}
-          prefetch={link.target && link.target === "_blank" ? false : true}
-          target={link.target || "_self"}
-          rel={link.rel || undefined}
-          className={cn(
-            "rounded-lg px-3 py-2 flex items-center gap-x-1 text-slate-300 transition-colors hover:bg-slate-800 hover:text-white",
-            pathname === link.href && "font-semibold bg-slate-800 text-white"
-          )}
-        >
-          {link.name}
-          {link.target && link.target === "_blank" && (
-            <span className="text-xs">
-              <ExternalLink className="w-4 h-4" />
-            </span>
-          )}
-        </I18nLink>
-      ))}
-    </div>
+    <nav className="hidden flex-row items-center gap-x-1 text-sm font-medium md:flex">
+      {menus.map((menu) => {
+        const active = menu.items.some((it) => it.href === pathname);
+        return (
+          <DropdownMenu key={menu.name}>
+            <DropdownMenuTrigger
+              className={cn(
+                "flex items-center gap-x-1 rounded-lg px-3 py-2 text-slate-300 outline-none transition-colors hover:bg-slate-800 hover:text-white data-[state=open]:bg-slate-800 data-[state=open]:text-white",
+                active && "bg-slate-800 text-white"
+              )}
+            >
+              {menu.name}
+              <ChevronDown className="h-3.5 w-3.5 opacity-70" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-56">
+              {menu.items.map((it) => (
+                <DropdownMenuItem key={it.href} asChild>
+                  <I18nLink
+                    href={it.href}
+                    title={it.name}
+                    className={cn(
+                      "w-full cursor-pointer",
+                      pathname === it.href && "font-semibold text-cta"
+                    )}
+                  >
+                    {it.name}
+                  </I18nLink>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+        );
+      })}
+    </nav>
   );
 };
 

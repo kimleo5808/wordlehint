@@ -65,14 +65,14 @@ const nextConfig = {
       { source: "/tips", destination: "/guides", permanent: true },
       { source: "/archive", destination: "/wordle-hint", permanent: true },
 
-      // --- Old Strands routes → Wordle equivalents ---
-      { source: "/nyt-strands-hint", destination: "/wordle-hint-today", permanent: true },
-      { source: "/strands-hint", destination: "/wordle-hint-today", permanent: true },
-      { source: "/strands-hint-today", destination: "/wordle-hint-today", permanent: true },
-      { source: "/strands-hint-archive", destination: "/wordle-hint", permanent: true },
-      { source: "/strands-hint-faq", destination: "/wordle-hint-faq", permanent: true },
-      { source: "/how-to-play-strands", destination: "/how-to-play-wordle", permanent: true },
-      { source: "/strands-hint/:date", destination: "/wordle-hint/:date", permanent: true },
+      // --- Old Strands routes → live Strands hint page (we now cover Strands) ---
+      // NOTE: /strands-hint-today is a REAL page now, so it must NOT be redirected.
+      { source: "/nyt-strands-hint", destination: "/strands-hint-today", permanent: true },
+      { source: "/strands-hint", destination: "/strands-hint-today", permanent: true },
+      { source: "/strands-hint-archive", destination: "/strands-hint-today", permanent: true },
+      { source: "/strands-hint-faq", destination: "/strands-hint-today", permanent: true },
+      { source: "/how-to-play-strands", destination: "/strands-hint-today", permanent: true },
+      { source: "/strands-hint/:date", destination: "/strands-hint-today", permanent: true },
       { source: "/archive/:date", destination: "/wordle-hint/:date", permanent: true },
 
       // --- Locale-prefixed variants (English) ---

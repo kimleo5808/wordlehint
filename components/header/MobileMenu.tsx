@@ -12,14 +12,15 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { siteConfig } from "@/config/site";
 import { Link as I18nLink } from "@/i18n/routing";
-import { HeaderLink } from "@/types/common";
 import { Menu } from "lucide-react";
 import { useTranslations } from "next-intl";
 
+type MenuItem = { name: string; href: string };
+type NavMenu = { name: string; items: MenuItem[] };
+
 export default function MobileMenu() {
   const tHeader = useTranslations("Header");
-
-  const headerLinks: HeaderLink[] = tHeader.raw("links");
+  const menus: NavMenu[] = tHeader.raw("menus");
 
   return (
     <div className="flex items-center gap-1 md:hidden">
@@ -28,7 +29,7 @@ export default function MobileMenu() {
         <DropdownMenuTrigger className="p-2 text-slate-300 hover:text-white">
           <Menu className="h-5 w-5" />
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-64">
+        <DropdownMenuContent align="end" className="max-h-[80vh] w-64 overflow-y-auto">
           <DropdownMenuLabel>
             <I18nLink
               href="/"
@@ -40,24 +41,21 @@ export default function MobileMenu() {
               </span>
             </I18nLink>
           </DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          <DropdownMenuGroup>
-            {headerLinks.map((link) => (
-              <DropdownMenuItem key={link.name}>
-                <I18nLink
-                  href={link.href}
-                  title={link.name}
-                  prefetch={
-                    link.target && link.target === "_blank" ? false : true
-                  }
-                  target={link.target || "_self"}
-                  rel={link.rel || undefined}
-                >
-                  {link.name}
-                </I18nLink>
-              </DropdownMenuItem>
-            ))}
-          </DropdownMenuGroup>
+          {menus.map((menu) => (
+            <DropdownMenuGroup key={menu.name}>
+              <DropdownMenuSeparator />
+              <DropdownMenuLabel className="text-xs uppercase tracking-wider text-muted-foreground">
+                {menu.name}
+              </DropdownMenuLabel>
+              {menu.items.map((it) => (
+                <DropdownMenuItem key={it.href} asChild>
+                  <I18nLink href={it.href} title={it.name} className="w-full cursor-pointer">
+                    {it.name}
+                  </I18nLink>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuGroup>
+          ))}
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

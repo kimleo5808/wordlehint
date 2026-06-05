@@ -1,37 +1,33 @@
 {
   "Header": {
-    "links": [
+    "menus": [
       {
-        "name": "Today's Hint",
-        "href": "/wordle-hint-today"
-      },
-      {
-        "name": "Hint Archive",
-        "href": "/wordle-hint"
-      },
-      {
-        "name": "Past Answers",
-        "href": "/wordle-answers"
+        "name": "Wordle",
+        "items": [
+          { "name": "Today's Hint", "href": "/wordle-hint-today" },
+          { "name": "Today's Answer", "href": "/todays-wordle-answer" },
+          { "name": "Yesterday's Answer", "href": "/yesterdays-wordle-answer" },
+          { "name": "Past Answers", "href": "/wordle-answers" },
+          { "name": "Hint Archive", "href": "/wordle-hint" },
+          { "name": "Best Starting Words", "href": "/best-wordle-starting-words" },
+          { "name": "Solver", "href": "/wordle-solver" },
+          { "name": "Unlimited", "href": "/wordle-unlimited" },
+          { "name": "5 Letter Wordle", "href": "/5-letters" },
+          { "name": "How to Play", "href": "/how-to-play-wordle" }
+        ]
       },
       {
         "name": "Connections",
-        "href": "/connections-hint-today"
+        "items": [
+          { "name": "Today's Hint", "href": "/connections-hint-today" },
+          { "name": "Past Answers", "href": "/connections-answers" }
+        ]
       },
       {
-        "name": "5 Letter Wordle",
-        "href": "/5-letters"
-      },
-      {
-        "name": "Unlimited",
-        "href": "/wordle-unlimited"
-      },
-      {
-        "name": "How to Play",
-        "href": "/how-to-play-wordle"
-      },
-      {
-        "name": "Solver",
-        "href": "/wordle-solver"
+        "name": "Strands",
+        "items": [
+          { "name": "Today's Hint", "href": "/strands-hint-today" }
+        ]
       }
     ]
   },
