@@ -30,7 +30,9 @@ async function fetchPuzzle(dateStr) {
   const data = await res.json();
   return {
     date: data.print_date,
-    id: data.id,
+    // The displayed Wordle puzzle number is `days_since_launch`, NOT `id`
+    // (`id` is an internal CMS id that is effectively random).
+    id: data.days_since_launch,
     answer: data.solution.toUpperCase(),
     editor: data.editor || "",
   };
