@@ -42,6 +42,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/todays-wordle-answer",
     canonicalUrl: "/todays-wordle-answer",
+    images: ["og/todays-wordle-answer.png"],
   });
 }
 

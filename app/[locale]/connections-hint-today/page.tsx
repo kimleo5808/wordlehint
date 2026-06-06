@@ -67,6 +67,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/connections-hint-today",
     canonicalUrl: "/connections-hint-today",
+    images: ["og/connections-hint-today.png"],
   });
 }
 

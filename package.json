@@ -21,7 +21,8 @@
     "seed:connections": "node scripts/seed-connections.mjs",
     "update:connections": "node scripts/update-connections.mjs",
     "seed:strands": "node scripts/seed-strands.mjs",
-    "update:strands": "node scripts/update-strands.mjs"
+    "update:strands": "node scripts/update-strands.mjs",
+    "og:images": "node scripts/generate-og-images.mjs"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^16.1.5",

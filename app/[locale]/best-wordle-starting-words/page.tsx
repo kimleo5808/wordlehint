@@ -51,6 +51,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/best-wordle-starting-words",
     canonicalUrl: "/best-wordle-starting-words",
+    images: ["og/best-wordle-starting-words.png"],
   });
 }
 

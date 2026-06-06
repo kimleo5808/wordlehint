@@ -57,6 +57,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/wordle-solver",
     canonicalUrl: "/wordle-solver",
+    images: ["og/wordle-solver.png"],
   });
 }
 

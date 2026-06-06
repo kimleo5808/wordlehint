@@ -59,6 +59,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/strands-hint-today",
     canonicalUrl: "/strands-hint-today",
+    images: ["og/strands-hint-today.png"],
   });
 }
 

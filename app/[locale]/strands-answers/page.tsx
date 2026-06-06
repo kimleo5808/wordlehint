@@ -78,6 +78,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/strands-answers",
     canonicalUrl: "/strands-answers",
+    images: ["og/strands-answers.png"],
   });
 }
 

@@ -43,6 +43,7 @@ export async function generateMetadata({
     locale: locale as Locale,
     path: "/yesterdays-wordle-answer",
     canonicalUrl: "/yesterdays-wordle-answer",
+    images: ["og/yesterdays-wordle-answer.png"],
   });
 }
 
