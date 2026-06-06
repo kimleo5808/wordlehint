@@ -10,7 +10,7 @@
  */
 
 import sharp from "sharp";
-import { mkdirSync } from "fs";
+import { mkdirSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -67,8 +67,40 @@ function logo() {
     </g>`;
 }
 
+/** Trio motif (blog cover): one emblem per game, in a row bottom-right. */
+function trioMotif() {
+  const y = H - 64 - 96;
+  // Wordle: two stacked tiles
+  let s = tile(W - 64 - 96, y, 96, GREEN, "W");
+  // Connections: 2×2 grid
+  const cs = 44;
+  const cg = 8;
+  const cx = W - 64 - 96 - 40 - cs * 2 - cg;
+  const cy = y;
+  const cols = [YELLOW, GREEN, BLUE, PURPLE];
+  cols.forEach((col, i) => {
+    const x = cx + (i % 2) * (cs + cg);
+    const yy = cy + Math.floor(i / 2) * (cs + cg);
+    s += `<rect x="${x}" y="${yy}" width="${cs}" height="${cs}" rx="8" fill="${col}"/>`;
+  });
+  // Strands: yellow pill + blue pill
+  const sx = cx - 40 - 150;
+  s += `<rect x="${sx}" y="${y + 14}" width="150" height="32" rx="8" fill="${YELLOW}"/>`;
+  s += `<rect x="${sx + 20}" y="${y + 54}" width="110" height="28" rx="8" fill="${BLUE}"/>`;
+  return s;
+}
+
+/** 3-colour left bar for the blog cover. */
+function trioBar() {
+  const seg = H / 3;
+  return [GREEN, PURPLE, YELLOW]
+    .map((c, i) => `<rect x="0" y="${i * seg}" width="12" height="${seg}" fill="${c}"/>`)
+    .join("");
+}
+
 /** Per-game motif drawn bottom-right. */
 function motif(kind) {
+  if (kind === "trio") return trioMotif();
   if (kind === "connections") {
     // 2×2 difficulty colour grid
     const c = [YELLOW, GREEN, BLUE, PURPLE];
@@ -124,7 +156,7 @@ function card({ title, subtitle, kind, accent }) {
       </linearGradient>
     </defs>
     <rect width="${W}" height="${H}" fill="url(#bg)"/>
-    <rect x="0" y="0" width="12" height="${H}" fill="${accent}"/>
+    ${kind === "trio" ? trioBar() : `<rect x="0" y="0" width="12" height="${H}" fill="${accent}"/>`}
     ${logo()}
     ${titleSvg}
     <text x="64" y="${250 + lines.length * 86 + 6}" font-family="${FONT}" font-weight="500" font-size="32" fill="#94a3b8">${esc(subtitle)}</text>
@@ -143,13 +175,16 @@ const PAGES = [
   { file: "connections-answers", title: "NYT Connections Archive", subtitle: "Every past answer, searchable", kind: "connections", accent: PURPLE },
   { file: "strands-hint-today", title: "Strands Hint Today", subtitle: "Spangram and theme-word hints", kind: "strands", accent: YELLOW },
   { file: "strands-answers", title: "NYT Strands Archive", subtitle: "Past answers and spangrams", kind: "strands", accent: YELLOW },
+  // Blog cover (all three games) — also emit an .svg source.
+  { file: "blog-best-daily-word-game-hint-sites", title: "Best Daily Word Game Hint Sites", subtitle: "Wordle · Connections · Strands", kind: "trio", accent: GREEN, svg: true },
 ];
 
 async function main() {
   for (const p of PAGES) {
     const svg = card(p);
     await sharp(Buffer.from(svg)).png().toFile(join(OUT_DIR, `${p.file}.png`));
-    console.log(`✅ og/${p.file}.png`);
+    if (p.svg) writeFileSync(join(OUT_DIR, `${p.file}.svg`), svg, "utf-8");
+    console.log(`✅ og/${p.file}.png${p.svg ? " (+ .svg)" : ""}`);
   }
   console.log(`Done — ${PAGES.length} OG images in public/og/`);
 }
