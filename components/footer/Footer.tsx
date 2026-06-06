@@ -12,9 +12,9 @@ export default async function Footer() {
 
   return (
     <footer className="mt-12 w-full border-t border-slate-800 bg-slate-900 text-slate-300">
-      <div className="mx-auto grid max-w-7xl gap-x-6 gap-y-8 px-4 py-12 sm:px-6 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr] lg:px-8 xl:gap-x-10">
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:flex lg:gap-10 lg:px-8">
         {/* About column */}
-        <div>
+        <div className="mb-10 lg:mb-0 lg:w-72 lg:shrink-0">
           <h2 className="font-heading text-xl font-bold text-white">
             {siteConfig.name}
           </h2>
@@ -25,6 +25,7 @@ export default async function Footer() {
         </div>
 
         {/* Footer link groups */}
+        <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
         {footerLinks.map((section) => (
           <div key={section.title}>
             <h3 className="font-heading text-sm font-semibold uppercase tracking-wide text-slate-200">
@@ -61,6 +62,7 @@ export default async function Footer() {
             </ul>
           </div>
         ))}
+        </div>
       </div>
 
       {/* Bottom bar */}

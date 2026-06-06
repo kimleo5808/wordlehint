@@ -39,120 +39,57 @@
     "Links": {
       "groups": [
         {
-          "title": "Popular Games",
+          "title": "Wordle",
           "links": [
-            {
-              "href": "/5-letters",
-              "name": "5 Letter Wordle"
-            },
-            {
-              "href": "/6-letters",
-              "name": "6 Letter Wordle"
-            },
-            {
-              "href": "/7-letters",
-              "name": "7 Letter Wordle"
-            },
-            {
-              "href": "/4-letters",
-              "name": "4 Letter Wordle"
-            }
+            { "href": "/wordle-hint-today", "name": "Today's Hint" },
+            { "href": "/todays-wordle-answer", "name": "Today's Answer" },
+            { "href": "/wordle-answers", "name": "Past Answers" },
+            { "href": "/wordle-hint", "name": "Hint Archive" },
+            { "href": "/best-wordle-starting-words", "name": "Best Starting Words" },
+            { "href": "/wordle-solver", "name": "Wordle Solver" },
+            { "href": "/wordle-unlimited", "name": "Wordle Unlimited" }
           ]
         },
         {
-          "title": "More Word Games",
+          "title": "Connections & Strands",
           "links": [
-            {
-              "href": "/8-letters",
-              "name": "8 Letter Wordle"
-            },
-            {
-              "href": "/9-letters",
-              "name": "9 Letter Wordle"
-            },
-            {
-              "href": "/10-letters",
-              "name": "10 Letter Wordle"
-            },
-            {
-              "href": "/11-letters",
-              "name": "11 Letter Wordle"
-            },
-            {
-              "href": "https://connectionshint.app/",
-              "name": "Connections Hint",
-              "useA": true,
-              "target": "_blank",
-              "rel": "noopener"
-            },
-            {
-              "href": "https://strandshint.app/",
-              "name": "Strands Hint",
-              "useA": true,
-              "target": "_blank",
-              "rel": "noopener"
-            },
-            {
-              "href": "https://minutecryptic.org/",
-              "name": "MinuteCryptic",
-              "useA": true,
-              "target": "_blank",
-              "rel": "noopener"
-            }
+            { "href": "/connections-hint-today", "name": "Connections Hint" },
+            { "href": "/connections-answers", "name": "Connections Answers" },
+            { "href": "/strands-hint-today", "name": "Strands Hint" },
+            { "href": "/strands-answers", "name": "Strands Answers" }
+          ]
+        },
+        {
+          "title": "More Games",
+          "links": [
+            { "href": "/4-letters", "name": "4 Letter Wordle" },
+            { "href": "/5-letters", "name": "5 Letter Wordle" },
+            { "href": "/6-letters", "name": "6 Letter Wordle" },
+            { "href": "/7-letters", "name": "7 Letter Wordle" },
+            { "href": "/8-letters", "name": "8 Letter Wordle" },
+            { "href": "/9-letters", "name": "9 Letter Wordle" },
+            { "href": "/10-letters", "name": "10 Letter Wordle" },
+            { "href": "/11-letters", "name": "11 Letter Wordle" }
           ]
         },
         {
           "title": "Resources",
           "links": [
-            {
-              "href": "/wordle-hint-today",
-              "name": "Today's Hint"
-            },
-            {
-              "href": "/wordle-hint",
-              "name": "Hint Archive"
-            },
-            {
-              "href": "/how-to-play-wordle",
-              "name": "How to Play"
-            },
-            {
-              "href": "/wordle-solver",
-              "name": "Wordle Solver"
-            },
-            {
-              "href": "/wordle-unlimited",
-              "name": "Wordle Unlimited"
-            },
-            {
-              "href": "/guides",
-              "name": "Strategy Guides"
-            },
-            {
-              "href": "/blog",
-              "name": "Tips & Articles"
-            }
+            { "href": "/how-to-play-wordle", "name": "How to Play" },
+            { "href": "/guides", "name": "Strategy Guides" },
+            { "href": "/blog", "name": "Tips & Articles" },
+            { "href": "https://connectionshint.app/", "name": "ConnectionsHint", "useA": true, "target": "_blank", "rel": "noopener" },
+            { "href": "https://strandshint.app/", "name": "StrandsHint", "useA": true, "target": "_blank", "rel": "noopener" },
+            { "href": "https://minutecryptic.org/", "name": "MinuteCryptic", "useA": true, "target": "_blank", "rel": "noopener" }
           ]
         },
         {
           "title": "Legal & Info",
           "links": [
-            {
-              "href": "/about",
-              "name": "About WordleHint"
-            },
-            {
-              "href": "/privacy-policy",
-              "name": "Privacy Policy"
-            },
-            {
-              "href": "/terms-of-service",
-              "name": "Terms of Service"
-            },
-            {
-              "href": "/contact",
-              "name": "Contact Us"
-            }
+            { "href": "/about", "name": "About WordleHint" },
+            { "href": "/privacy-policy", "name": "Privacy Policy" },
+            { "href": "/terms-of-service", "name": "Terms of Service" },
+            { "href": "/contact", "name": "Contact Us" }
           ]
         }
       ]
