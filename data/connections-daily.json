@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T15:48:22.178Z",
+  "lastUpdated": "2026-06-06T06:41:29.567Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -50992,6 +50992,53 @@
             "OSCAR",
             "QUATRAIN",
             "SITUATIONSHIP"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "id": 1091,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PILLAR",
+          "words": [
+            "POLE",
+            "POST",
+            "SHAFT",
+            "STAKE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "INDICATE, AS EMOTIONS",
+          "words": [
+            "BETRAY",
+            "DISPLAY",
+            "EXPRESS",
+            "REGISTER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF LIZARDS",
+          "words": [
+            "BASILISK",
+            "DRAGON",
+            "MONITOR",
+            "SKINK"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ TABLE",
+          "words": [
+            "DINNER",
+            "DRAFTING",
+            "ROUND",
+            "TIMES"
           ]
         }
       ]

@@ -2378,6 +2378,19 @@
       }
     ]
   },
+  "MORPH": {
+    "definition": "(grammar) A physical form representing some morpheme in language. It is a recurrent distinctive sound or sequence of sounds.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "(grammar) A physical form representing some morpheme in language. It is a recurrent distinctive sound or sequence of sounds.",
+        "example": null
+      }
+    ]
+  },
   "MOTEL": {
     "definition": "A type of hotel or lodging establishment, often located near a major highway, which typically features a series of rooms the entrances of which are immediately adjacent to a parking lot to facilitate convenient access to automobiles parked there.",
     "partOfSpeech": "noun",
