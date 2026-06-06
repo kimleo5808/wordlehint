@@ -26,7 +26,8 @@
       {
         "name": "Strands",
         "items": [
-          { "name": "Today's Hint", "href": "/strands-hint-today" }
+          { "name": "Today's Hint", "href": "/strands-hint-today" },
+          { "name": "Past Answers", "href": "/strands-answers" }
         ]
       }
     ]
