@@ -1,9 +1,8 @@
+import FooterSections from "@/components/footer/FooterSections";
 import SocialShare from "@/components/footer/SocialShare";
 import { siteConfig } from "@/config/site";
-import { Link as I18nLink } from "@/i18n/routing";
 import { FooterLink } from "@/types/common";
 import { getTranslations } from "next-intl/server";
-import Link from "next/link";
 
 export default async function Footer() {
   const t = await getTranslations("Home");
@@ -24,45 +23,8 @@ export default async function Footer() {
           <SocialShare />
         </div>
 
-        {/* Footer link groups */}
-        <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
-        {footerLinks.map((section) => (
-          <div key={section.title}>
-            <h3 className="font-heading text-sm font-semibold uppercase tracking-wide text-slate-200">
-              {section.title}
-            </h3>
-            <ul className="mt-4 space-y-2 text-sm">
-              {section.links.map((link) => (
-                <li key={link.href}>
-                  {link.href.startsWith("/") && !link.useA ? (
-                    <I18nLink
-                      href={link.href}
-                      title={link.name}
-                      prefetch={false}
-                      className="text-slate-400 transition-colors hover:text-primary"
-                      target={link.target || undefined}
-                      rel={link.rel || undefined}
-                    >
-                      {link.name}
-                    </I18nLink>
-                  ) : (
-                    <Link
-                      href={link.href}
-                      title={link.name}
-                      prefetch={false}
-                      className="text-slate-400 transition-colors hover:text-primary"
-                      target={link.target || undefined}
-                      rel={link.rel || undefined}
-                    >
-                      {link.name}
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-        </div>
+        {/* Footer link groups (accordion on mobile, columns on sm+) */}
+        <FooterSections groups={footerLinks} />
       </div>
 
       {/* Bottom bar */}
