@@ -184,6 +184,18 @@ export default function ConnectionsAnswersPage() {
           <div className="mt-5">
             <ColorLegend />
           </div>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Prefer{" "}
+            <a
+              href="https://connectionshint.app/"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-cta hover:underline"
+            >
+              a site dedicated to NYT Connections
+            </a>
+            ? It covers the daily puzzle in depth.
+          </p>
         </section>
 
         {/* FAQ */}

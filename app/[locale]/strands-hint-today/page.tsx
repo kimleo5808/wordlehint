@@ -254,6 +254,18 @@ export default function StrandsHintTodayPage() {
           <blockquote className="mt-4 border-l-4 border-cta bg-muted/40 px-5 py-4 text-foreground">
             <p className="font-medium leading-relaxed">{STRANDS_DEFINITION}</p>
           </blockquote>
+          <p className="mt-4 text-sm text-muted-foreground">
+            For a site built entirely around Strands, visit{" "}
+            <a
+              href="https://strandshint.app/"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-cta hover:underline"
+            >
+              StrandsHint
+            </a>{" "}
+            for daily spangram and theme-word help.
+          </p>
         </section>
 
         {/* Strategy */}

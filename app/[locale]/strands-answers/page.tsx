@@ -152,6 +152,19 @@ export default function StrandsAnswersPage() {
           ))}
         </ul>
 
+        <p className="mt-4 text-sm text-muted-foreground">
+          Looking for{" "}
+          <a
+            href="https://strandshint.app/"
+            target="_blank"
+            rel="noopener"
+            className="font-semibold text-cta hover:underline"
+          >
+            a dedicated Strands hints site
+          </a>
+          ? It tracks every day&apos;s spangram and theme words.
+        </p>
+
         {/* Archive */}
         <section className="mt-8" aria-labelledby="browse-heading">
           <h2

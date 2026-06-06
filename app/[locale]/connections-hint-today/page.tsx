@@ -237,6 +237,18 @@ export default function ConnectionsHintTodayPage() {
               {CONNECTIONS_DEFINITION}
             </p>
           </blockquote>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Want a site focused entirely on Connections?{" "}
+            <a
+              href="https://connectionshint.app/"
+              target="_blank"
+              rel="noopener"
+              className="font-semibold text-cta hover:underline"
+            >
+              ConnectionsHint
+            </a>{" "}
+            publishes daily Connections hints and answers.
+          </p>
         </section>
 
         {/* Colors */}

@@ -79,6 +79,20 @@
               "name": "11 Letter Wordle"
             },
             {
+              "href": "https://connectionshint.app/",
+              "name": "Connections Hint",
+              "useA": true,
+              "target": "_blank",
+              "rel": "noopener"
+            },
+            {
+              "href": "https://strandshint.app/",
+              "name": "Strands Hint",
+              "useA": true,
+              "target": "_blank",
+              "rel": "noopener"
+            },
+            {
               "href": "https://minutecryptic.org/",
               "name": "MinuteCryptic",
               "useA": true,
