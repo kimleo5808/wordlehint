@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T16:16:14.532Z",
+  "lastUpdated": "2026-06-07T07:39:57.865Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1128,6 +1128,30 @@
         "TEILGC",
         "WUDIOK",
         "NPTALS"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "id": 826,
+      "editor": "Tracy Bennett",
+      "clue": "Herpetology 101",
+      "spangram": "COLDBLOODED",
+      "themeWords": [
+        "BULLFROG",
+        "CHAMELEON",
+        "CROCODILE",
+        "SNAKE",
+        "TURTLE"
+      ],
+      "board": [
+        "SNCOLD",
+        "RFAKEB",
+        "OLLULO",
+        "GEBOEN",
+        "LTOLAH",
+        "RDCEMC",
+        "UEROCO",
+        "TDELID"
       ]
     }
   ]
