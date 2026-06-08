@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T07:39:57.865Z",
+  "lastUpdated": "2026-06-08T08:26:18.243Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1152,6 +1152,32 @@
         "RDCEMC",
         "UEROCO",
         "TDELID"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "id": 827,
+      "editor": "Tracy Bennett",
+      "clue": "Play time",
+      "spangram": "GAMENIGHT",
+      "themeWords": [
+        "BOARDS",
+        "CARDS",
+        "CHIPS",
+        "DICE",
+        "SPINNERS",
+        "TILES",
+        "TOKENS"
+      ],
+      "board": [
+        "SGACAS",
+        "RESMRD",
+        "NPESIT",
+        "NINELS",
+        "NTOIDA",
+        "SEKGRO",
+        "IDHCHB",
+        "CETSPI"
       ]
     }
   ]

@@ -2308,6 +2308,19 @@
       }
     ]
   },
+  "MAFIA": {
+    "definition": "A hierarchically structured secret organisation engaged in illegal activities like distribution of narcotics, gambling and extortion.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A hierarchically structured secret organisation engaged in illegal activities like distribution of narcotics, gambling and extortion.",
+        "example": null
+      }
+    ]
+  },
   "MAKER": {
     "definition": "Someone who makes; a person or thing that makes or produces something.",
     "partOfSpeech": "noun",
