@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T08:26:18.243Z",
+  "lastUpdated": "2026-06-09T07:00:39.961Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1178,6 +1178,31 @@
         "SEKGRO",
         "IDHCHB",
         "CETSPI"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "id": 828,
+      "editor": "Tracy Bennett",
+      "clue": "Dramamine, anyone?",
+      "spangram": "IMONABOAT",
+      "themeWords": [
+        "DANCING",
+        "DECK",
+        "DRINKS",
+        "SEASICKNESS",
+        "SNACKS",
+        "WAVES"
+      ],
+      "board": [
+        "SNSING",
+        "AKCNAD",
+        "CVWRKS",
+        "SEADIN",
+        "IOAOAT",
+        "SMNBDE",
+        "ESCNSC",
+        "AIKESK"
       ]
     }
   ]

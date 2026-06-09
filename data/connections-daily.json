@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T08:26:17.786Z",
+  "lastUpdated": "2026-06-09T07:00:39.489Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51133,6 +51133,53 @@
             "INVISIBLE",
             "OMEGA",
             "RUNNING"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "id": 1094,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SYMBOLS OF INNOCENCE",
+          "words": [
+            "ANGEL",
+            "BABE",
+            "DOVE",
+            "LAMB"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS YOU'RE NOT SUPPOSED TO REVEAL",
+          "words": [
+            "PASSWORD",
+            "SECRET",
+            "SPOILER",
+            "SURPRISE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS REPRESENTED IN SUPERSCRIPT",
+          "words": [
+            "ASTERISK",
+            "DEGREE",
+            "EXPONENT",
+            "TRADEMARK"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SLANG FOR MUSICAL INSTRUMENTS",
+          "words": [
+            "AXE",
+            "BONE",
+            "KEYS",
+            "SKINS"
           ]
         }
       ]
