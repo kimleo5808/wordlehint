@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T07:00:39.489Z",
+  "lastUpdated": "2026-06-10T07:50:44.971Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51180,6 +51180,53 @@
             "BONE",
             "KEYS",
             "SKINS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "id": 1095,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TECHNIQUE",
+          "words": [
+            "FASHION",
+            "MANNER",
+            "METHOD",
+            "WAY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "GROSS THINGS THAT FORM ON WET SURFACES",
+          "words": [
+            "CRUST",
+            "FILM",
+            "SCUM",
+            "SKIN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PARTS OF A THEATER",
+          "words": [
+            "CATWALK",
+            "PIT",
+            "STAGE",
+            "WINGS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "COUNTED IN DOCUMENT WORD COUNTS",
+          "words": [
+            "CHARACTER",
+            "LINE",
+            "PAGE",
+            "WORD"
           ]
         }
       ]
