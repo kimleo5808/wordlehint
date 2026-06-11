@@ -3691,6 +3691,19 @@
       }
     ]
   },
+  "TESTY": {
+    "definition": "Easily annoyed, irritable.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Easily annoyed, irritable.",
+        "example": null
+      }
+    ]
+  },
   "THEFT": {
     "definition": "The act of stealing property.",
     "partOfSpeech": "noun",

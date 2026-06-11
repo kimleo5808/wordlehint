@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T07:50:44.971Z",
+  "lastUpdated": "2026-06-11T08:18:34.862Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51227,6 +51227,53 @@
             "LINE",
             "PAGE",
             "WORD"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "id": 1096,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PARTS OF A WORKOUT ROUTINE",
+          "words": [
+            "BALANCE",
+            "CARDIO",
+            "STRETCHING",
+            "WEIGHTS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS WITH HORNS",
+          "words": [
+            "BRASS BAND",
+            "DEVIL",
+            "RHINO",
+            "VIKING HELMET"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "HOMOPHONES OF SUVS",
+          "words": [
+            "BRONCHO",
+            "FORERUNNER",
+            "TROUPER",
+            "UCONN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "PAYMENT APPS MINUS A LETTER",
+          "words": [
+            "ELLE",
+            "PAPAL",
+            "STRIP",
+            "VENO"
           ]
         }
       ]
