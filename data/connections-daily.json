@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T08:18:34.862Z",
+  "lastUpdated": "2026-06-12T08:06:57.902Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51274,6 +51274,53 @@
             "PAPAL",
             "STRIP",
             "VENO"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "id": 1097,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "STARTING WITH INCANTATIONS",
+          "words": [
+            "CHARM BRACELET",
+            "CURSE WORD",
+            "HEX KEY",
+            "SPELL CHECKER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "STARTING WITH ANIMAL GROUP NAMES",
+          "words": [
+            "MURDER MYSTERY",
+            "PACK RAT",
+            "PRIDE ROCK",
+            "SCHOOL DAYS"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "STARTING WITH SYNONYMS FOR \"REPEAT\"",
+          "words": [
+            "COPY EDITOR",
+            "ECHO PARK",
+            "MIRROR SELFIE",
+            "QUOTE UNQUOTE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH PARTS OF A RIVER",
+          "words": [
+            "BANK TELLER",
+            "BED HEAD",
+            "DELTA AIRLINES",
+            "MOUTH GUARD"
           ]
         }
       ]

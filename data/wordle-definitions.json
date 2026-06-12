@@ -424,6 +424,24 @@
       }
     ]
   },
+  "BREAK": {
+    "definition": "An instance of breaking something into two or more pieces.",
+    "partOfSpeech": "noun",
+    "example": "The femur has a clean break and so should heal easily.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An instance of breaking something into two or more pieces.",
+        "example": "The femur has a clean break and so should heal easily."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To separate into two or more pieces, to fracture or crack, by a process that cannot easily be reversed for reassembly.",
+        "example": "If the vase falls to the floor, it might break."
+      }
+    ]
+  },
   "BRING": {
     "definition": "(ditransitive) To transport toward somebody/somewhere.",
     "partOfSpeech": "verb",
