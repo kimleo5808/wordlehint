@@ -2823,6 +2823,24 @@
       }
     ]
   },
+  "QUELL": {
+    "definition": "A subduing.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A subduing.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To subdue, to put down; to silence or force (someone) to submit.",
+        "example": null
+      }
+    ]
+  },
   "QUILL": {
     "definition": "The lower shaft of a feather, specifically the region lacking barbs.",
     "partOfSpeech": "noun",

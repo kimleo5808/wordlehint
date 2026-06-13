@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T08:06:58.355Z",
+  "lastUpdated": "2026-06-13T07:08:43.409Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1279,6 +1279,31 @@
         "ISOPNO",
         "OUNETP",
         "NLCECH"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "id": 832,
+      "editor": "Tracy Bennett",
+      "clue": "Track event",
+      "spangram": "KARAOKE",
+      "themeWords": [
+        "LOUDSPEAKER",
+        "LYRICS",
+        "MICROPHONE",
+        "MUSIC",
+        "QUEUE",
+        "SONG"
+      ],
+      "board": [
+        "UEUEMU",
+        "QNGCIS",
+        "SOAOKE",
+        "KARLYR",
+        "UOLSCI",
+        "DIMENO",
+        "SCROPH",
+        "PEAKER"
       ]
     }
   ]

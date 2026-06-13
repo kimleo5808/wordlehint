@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T08:06:57.902Z",
+  "lastUpdated": "2026-06-13T07:08:42.943Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51321,6 +51321,53 @@
             "BED HEAD",
             "DELTA AIRLINES",
             "MOUTH GUARD"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "id": 1098,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SEEN AT A TEA SERVICE",
+          "words": [
+            "SAUCER",
+            "SPOON",
+            "TEACUP",
+            "TONGS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ENDURING SONG",
+          "words": [
+            "CLASSIC",
+            "HIT",
+            "OLDIE",
+            "STANDARD"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "USED IN MOVIE PRACTICAL EFFECTS",
+          "words": [
+            "MAKEUP",
+            "MINIATURE",
+            "PROSTHETIC",
+            "PUPPET"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS BEFORE \"STORY\" IN MOVIE TITLES",
+          "words": [
+            "CHRISTMAS",
+            "NEVERENDING",
+            "TOY",
+            "WEST SIDE"
           ]
         }
       ]
