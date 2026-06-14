@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T07:08:42.943Z",
+  "lastUpdated": "2026-06-14T07:59:18.114Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51368,6 +51368,53 @@
             "NEVERENDING",
             "TOY",
             "WEST SIDE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "id": 1099,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CLASSIC SLAPSTICK PROPS",
+          "words": [
+            "BANANA PEEL",
+            "CREAM PIE",
+            "RUBBER CHICKEN",
+            "SELTZER BOTTLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS THAT SPIN",
+          "words": [
+            "GLOBE",
+            "GRINDSTONE",
+            "GYROSCOPE",
+            "ROULETTE WHEEL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FEATURED IN \"ALICE'S ADVENTURES IN WONDERLAND\"",
+          "words": [
+            "CATERPILLAR",
+            "POCKET WATCH",
+            "RABBIT HOLE",
+            "TEA PARTY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT \"MA\" MIGHT REFER TO",
+          "words": [
+            "MASSACHUSETTS",
+            "MASTER OF ARTS",
+            "MILLIAMPERE",
+            "MOTHER"
           ]
         }
       ]

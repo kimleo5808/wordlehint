@@ -3073,6 +3073,24 @@
       }
     ]
   },
+  "SEPIA": {
+    "definition": "A dark brown pigment made from the secretions of the cuttlefish.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A dark brown pigment made from the secretions of the cuttlefish.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definition": "(colour)  Of a dark reddish-brown colour.",
+        "example": null
+      }
+    ]
+  },
   "SERIF": {
     "definition": "A short line added to the end of a stroke in traditional typefaces, such as Times New Roman.",
     "partOfSpeech": "noun",

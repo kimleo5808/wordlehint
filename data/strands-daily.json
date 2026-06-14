@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T07:08:43.409Z",
+  "lastUpdated": "2026-06-14T07:59:18.538Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1304,6 +1304,32 @@
         "DIMENO",
         "SCROPH",
         "PEAKER"
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "id": 833,
+      "editor": "Tracy Bennett",
+      "clue": "Peer group",
+      "spangram": "NOBILITY",
+      "themeWords": [
+        "BARON",
+        "DUCHESS",
+        "EARL",
+        "LADY",
+        "LORD",
+        "MARQUESS",
+        "VISCOUNT"
+      ],
+      "board": [
+        "EHNYDA",
+        "SCUOVL",
+        "SDBCSI",
+        "RQUIOU",
+        "AELDRN",
+        "MSSIOT",
+        "BNTRAL",
+        "AROYLE"
       ]
     }
   ]
