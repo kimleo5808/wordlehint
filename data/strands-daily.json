@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T07:59:18.538Z",
+  "lastUpdated": "2026-06-15T09:41:47.606Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1330,6 +1330,30 @@
         "MSSIOT",
         "BNTRAL",
         "AROYLE"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "id": 834,
+      "editor": "Tracy Bennett",
+      "clue": "Moving mountains",
+      "spangram": "YOUVEGOTTHIS",
+      "themeWords": [
+        "CONQUER",
+        "OVERCOME",
+        "QUASH",
+        "SURMOUNT",
+        "VANQUISH"
+      ],
+      "board": [
+        "YISHUO",
+        "OUTNRM",
+        "UQSUME",
+        "VNAVOC",
+        "EGOTTR",
+        "QUEUHE",
+        "SARQIV",
+        "HCONSO"
       ]
     }
   ]

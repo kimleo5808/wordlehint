@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T07:59:18.114Z",
+  "lastUpdated": "2026-06-15T09:41:47.096Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51415,6 +51415,53 @@
             "MASTER OF ARTS",
             "MILLIAMPERE",
             "MOTHER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "id": 1100,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "STAYING POWER",
+          "words": [
+            "LEGS",
+            "MOMENTUM",
+            "STAMINA",
+            "TRACTION"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "GET READY FOR A NIGHT OUT",
+          "words": [
+            "ACCESSORIZE",
+            "CHANGE",
+            "PRIMP",
+            "SHOWER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "CHINESE ZODIAC ANIMALS",
+          "words": [
+            "DOG",
+            "DRAGON",
+            "HORSE",
+            "SNAKE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "FLOWERS",
+          "words": [
+            "ANEMONE",
+            "LARKSPUR",
+            "MONKSHOOD",
+            "PHLOX"
           ]
         }
       ]
