@@ -108,6 +108,24 @@
       }
     ]
   },
+  "AMAZE": {
+    "definition": "Amazement, astonishment.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Amazement, astonishment.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To fill with wonder and surprise; to astonish, astound, surprise or perplex.",
+        "example": "He was amazed when he found that the girl was a robot."
+      }
+    ]
+  },
   "AMONG": {
     "definition": "Denotes a mingling or intermixing with distinct or separable objects. (See Usage Note at amidst.)",
     "partOfSpeech": "preposition",

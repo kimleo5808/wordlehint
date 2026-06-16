@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T09:41:47.096Z",
+  "lastUpdated": "2026-06-16T09:07:17.161Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51462,6 +51462,53 @@
             "LARKSPUR",
             "MONKSHOOD",
             "PHLOX"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "id": 1101,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CREAMY SALAD DRESSINGS",
+          "words": [
+            "BLUE CHEESE",
+            "CAESAR",
+            "GREEN GODDESS",
+            "RANCH"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ATTENDANTS",
+          "words": [
+            "COURT",
+            "ENTOURAGE",
+            "RETINUE",
+            "SUITE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "RARE THINGS, IDIOMATICALLY",
+          "words": [
+            "BLACK SWAN",
+            "BLUE MOON",
+            "PERFECT STORM",
+            "UNICORN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT \"HOOPS\" MIGHT REFER TO",
+          "words": [
+            "BASKETBALL",
+            "EARRINGS",
+            "RED TAPE",
+            "RHYTHMIC GYMNASTICS GEAR"
           ]
         }
       ]

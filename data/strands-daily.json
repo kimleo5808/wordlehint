@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T09:41:47.606Z",
+  "lastUpdated": "2026-06-16T09:07:17.663Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1354,6 +1354,32 @@
         "QUEUHE",
         "SARQIV",
         "HCONSO"
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "id": 835,
+      "editor": "Tracy Bennett",
+      "clue": "For here or to go?",
+      "spangram": "WHATSFORLUNCH",
+      "themeWords": [
+        "GYRO",
+        "RAMEN",
+        "SALAD",
+        "SANDWICH",
+        "SOUP",
+        "TACOS",
+        "WRAP"
+      ],
+      "board": [
+        "WHATSF",
+        "ANDWOL",
+        "SCIRAA",
+        "HRLDRS",
+        "AMUOWA",
+        "EGNUSP",
+        "NYCPAT",
+        "ROHCOS"
       ]
     }
   ]
