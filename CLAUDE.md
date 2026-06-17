@@ -3,7 +3,7 @@
 > **Domain:** wordlehint.info
 > **Brand:** WordleHint
 > **Core keyword:** Wordle Hint
-> A daily Wordle hint + unlimited word-game site. (Originally migrated from a Strands site — that migration is complete; no Strands content remains in source.)
+> A daily word-game hint site. Wordle is the core (daily hints/answers + unlimited 4–11 letter modes), expanded with daily **Connections** and **Strands** hint/answer pages. All three share the same NYT-fetch → JSON → read-layer pipeline shape.
 
 ---
 
@@ -28,6 +28,9 @@
 | `pnpm preview` | OpenNext local preview |
 | `pnpm seed:wordle` | Seed `data/wordle-daily.json` from scratch |
 | `pnpm update:wordle` | Fetch today's NYT Wordle answer and append to the daily JSON |
+| `pnpm seed:connections` / `pnpm update:connections` | Seed / append today's NYT Connections puzzle (`data/connections-daily.json`) |
+| `pnpm seed:strands` / `pnpm update:strands` | Seed / append today's NYT Strands puzzle (`data/strands-daily.json`) |
+| `pnpm og:images` | Generate OG share images (`scripts/generate-og-images.mjs`) |
 
 ---
 
@@ -36,9 +39,11 @@
 | Group | Routes |
 |-------|--------|
 | Home | `/` |
-| Daily hints | `/wordle-hint-today`, `/wordle-hint` (archive), `/wordle-hint/[date]` |
-| Tools | `/wordle-solver`, `/wordle-unlimited` |
+| Wordle daily hints | `/wordle-hint-today`, `/wordle-hint` (archive), `/wordle-hint/[date]`, `/todays-wordle-answer`, `/yesterdays-wordle-answer`, `/wordle-answers` |
+| Wordle tools | `/wordle-solver`, `/wordle-unlimited`, `/best-wordle-starting-words` |
 | Letter games | `/4-letters` … `/11-letters` (one route per word length, 4–11) |
+| Connections | `/connections-hint-today`, `/connections-answers` |
+| Strands | `/strands-hint-today`, `/strands-answers` |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
 | Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share`, `/unsubscribe` |
 | API | `/api/newsletter` |
@@ -48,17 +53,21 @@ Redirects (legacy short URLs, old Strands paths, dropped `/es` locale) live in `
 
 ---
 
-## Daily Wordle data pipeline
+## Daily data pipelines (Wordle / Connections / Strands)
 
-This is the core of the site — understand it before touching anything date-related.
+This is the core of the site — understand it before touching anything date-related. All three games share the same shape: **NYT JSON endpoint → idempotent updater script → `data/*-daily.json` → cached read layer**. All date logic uses **America/New_York** to match NYT's rollover (`getTodayDateString()` in `lib/wordle-daily.ts` is the shared source of truth — Connections/Strands import it).
 
-1. **Data file:** `data/wordle-daily.json` — `{ lastUpdated, puzzles: [{ date, id, answer, editor }] }`, sorted by date.
-2. **Updater:** `scripts/update-wordle.mjs` fetches `https://www.nytimes.com/svc/wordle/v2/<YYYY-MM-DD>.json` for **today in US Eastern time** and appends it if missing (idempotent).
-3. **Automation:** `.github/workflows/deploy-cloudflare.yml` runs `pnpm run update:wordle` on every deploy and on a **cron (`30 3 * * *` + `30 8 * * *` UTC)**, commits the updated JSON back to `main`, then deploys. So daily data freshness depends on this workflow succeeding.
-4. **Read API:** `lib/wordle-daily.ts` — `getTodayPuzzle()`, `getYesterdayPuzzle()`, `getRecentPuzzles(n)`, `getPuzzleByDate()`, `getPuzzlesByMonth()`, `getAvailableMonths()`, `getPuzzleCount()`. All date logic uses **America/New_York** to match NYT's rollover.
-5. **Hint generation:** `lib/wordle-hints.ts` → `generateHints(puzzle)` returns 5 progressive `HintLevel`s (composition → vowels → first letter → last letter → pattern). **Note:** hardcoded for 5-letter words (uses `word[4]`), since the NYT daily is always 5 letters.
+| Game | Data file | NYT endpoint (`<…>/<YYYY-MM-DD>.json`) | Updater | Read layer |
+|------|-----------|-----------------------------------------|---------|------------|
+| Wordle | `data/wordle-daily.json` — `{ lastUpdated, puzzles: [{ date, id, answer, editor }] }` | `…/svc/wordle/v2` | `scripts/update-wordle.mjs` | `lib/wordle-daily.ts` |
+| Connections | `data/connections-daily.json` — puzzles with 4 colour `groups` (`level` 0–3, `name`, `words`) | `…/svc/connections/v2` | `scripts/update-connections.mjs` | `lib/connections-daily.ts` |
+| Strands | `data/strands-daily.json` — puzzles with `clue`, `spangram`, `themeWords`, `board` | `…/svc/strands/v2` | `scripts/update-strands.mjs` | `lib/strands-daily.ts` |
 
-> If "Today's Wordle Hint" shows the "hints are being prepared" fallback, `getTodayPuzzle()` returned undefined → the daily JSON is missing today's entry → check the GitHub Actions cron / `update:wordle` run.
+- **Read APIs:** Wordle — `getTodayPuzzle()`, `getYesterdayPuzzle()`, `getRecentPuzzles(n)`, `getPuzzleByDate()`, `getPuzzlesByMonth()`, `getAvailableMonths()`, `getPuzzleCount()`. Connections/Strands mirror this — `getToday*()`, `getRecent*(n)`, `get*ByDate()`, `getArchive*()` (today excluded for spoilers), `get*Stats()`, plus hint helpers (`firstLetterHint`, `spangramClue`, `themeWordClue`).
+- **Automation:** `.github/workflows/deploy-cloudflare.yml` runs on every push and on a **cron (`30 3 * * *` + `30 8 * * *` UTC)**. It runs `update:wordle`, then `update:connections` and `update:strands` (both `continue-on-error: true`, so a Connections/Strands fetch failure won't block deploy — Wordle is the hard dependency), then `scripts/generate-definitions.mjs`. On `schedule` runs it commits the updated JSON files back to `main`, then deploys. Daily freshness depends on this workflow succeeding.
+- **Wordle hint generation:** `lib/wordle-hints.ts` → `generateHints(puzzle)` returns 5 progressive `HintLevel`s (composition → vowels → first letter → last letter → pattern). **Note:** hardcoded for 5-letter words (uses `word[4]`), since the NYT daily is always 5 letters.
+
+> If "Today's Wordle Hint" shows the "hints are being prepared" fallback, `getTodayPuzzle()` returned undefined → the daily JSON is missing today's entry → check the GitHub Actions cron / `update:wordle` run. Same logic for Connections/Strands "today" pages.
 
 ---
 
@@ -72,13 +81,19 @@ This is the core of the site — understand it before touching anything date-rel
 | Header / Footer | `components/header/`, `components/footer/` |
 | Wordle game UI | `components/wordle/` |
 | Unlimited mode UI | `components/wordle-unlimited/` |
-| Daily data read API | `lib/wordle-daily.ts` |
-| Hint generator | `lib/wordle-hints.ts` |
+| Connections / Strands UI | `components/connections/`, `components/strands/` |
+| Other page UI | `components/wordle-answers/`, `components/best-starting-words/` |
+| Wordle daily read API | `lib/wordle-daily.ts` |
+| Connections / Strands read API | `lib/connections-daily.ts`, `lib/strands-daily.ts` |
+| Hint generator (Wordle) | `lib/wordle-hints.ts` |
 | Word definitions | `lib/wordle-definitions.ts` + `data/wordle-definitions.json` |
 | Difficulty logic | `lib/wordle-difficulty.ts` |
 | Letter-game data | `data/letter-games.ts`, `data/letter-games-content.ts`, `data/wordle-words.ts` |
 | Unlimited-mode data | `data/wordle-unlimited/*` (comparison, content, faq, length-table, modes, related-games) |
-| Guides data (~20 entries) | `data/guides.ts` |
+| Connections / Strands page copy | `data/connections/content.ts`, `data/strands/content.ts` |
+| Other page copy | `data/wordle-answers/*`, `data/best-starting-words/content.ts`, `data/wordle-solver/content.ts` |
+| Game type defs | `types/wordle-daily.ts`, `types/connections.ts`, `types/strands.ts` |
+| Guides data (~5 entries) | `data/guides.ts` |
 | Blog posts (MDX) | `blogs/en/*.mdx` |
 | Legal / about content (MDX) | `content/{about,privacy-policy,terms-of-service}/en.mdx` |
 | SEO metadata helpers | `lib/metadata.ts` |
@@ -106,4 +121,4 @@ This is the core of the site — understand it before touching anything date-rel
 - **Domain:** wordlehint.info
 - **Tone:** helpful, game-focused, casual-expert
 - **Colors:** Wordle palette — green (correct) / yellow (present) / gray (absent); see `tailwind.config.ts`
-- No Strands references anywhere.
+- **Brand stays Wordle-first:** WordleHint is the brand and Wordle is the hero. Connections and Strands are complementary daily-puzzle hint pages, not co-equal brands — keep them as supporting content, not a rename of the site.

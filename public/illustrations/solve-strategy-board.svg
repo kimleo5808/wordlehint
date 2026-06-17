@@ -1,0 +1,33 @@
+<svg width="300" height="360" viewBox="0 0 300 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mini Wordle board showing an S-opener strategy: green S in the first column">
+  <style>
+    .out { fill: none; stroke: currentColor; stroke-width: 2; opacity: 0.45; }
+    .g { fill: currentColor; font-family: 'JetBrains Mono', ui-monospace, monospace; font-weight: 700; font-size: 26px; }
+    .lbl { fill: currentColor; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; opacity: 0.6; }
+  </style>
+  <!-- Row 1: SLATE — S green, others absent gray -->
+  <g>
+    <rect x="12" y="12" width="48" height="48" rx="8" fill="#6aaa64"/><text x="36" y="46" text-anchor="middle" class="g" fill="#fff">S</text>
+    <rect x="66" y="12" width="48" height="48" rx="8" fill="#787c7e"/><text x="90" y="46" text-anchor="middle" class="g" fill="#fff">L</text>
+    <rect x="120" y="12" width="48" height="48" rx="8" fill="#c9b458"/><text x="144" y="46" text-anchor="middle" class="g" fill="#fff">A</text>
+    <rect x="174" y="12" width="48" height="48" rx="8" fill="#787c7e"/><text x="198" y="46" text-anchor="middle" class="g" fill="#fff">T</text>
+    <rect x="228" y="12" width="48" height="48" rx="8" fill="#787c7e"/><text x="252" y="46" text-anchor="middle" class="g" fill="#fff">E</text>
+  </g>
+  <!-- Row 2: SAUCE — S green, A green -->
+  <g>
+    <rect x="12" y="72" width="48" height="48" rx="8" fill="#6aaa64"/><text x="36" y="106" text-anchor="middle" class="g" fill="#fff">S</text>
+    <rect x="66" y="72" width="48" height="48" rx="8" fill="#6aaa64"/><text x="90" y="106" text-anchor="middle" class="g" fill="#fff">A</text>
+    <rect x="120" y="72" width="48" height="48" rx="8" fill="#787c7e"/><text x="144" y="106" text-anchor="middle" class="g" fill="#fff">U</text>
+    <rect x="174" y="72" width="48" height="48" rx="8" fill="#787c7e"/><text x="198" y="106" text-anchor="middle" class="g" fill="#fff">C</text>
+    <rect x="228" y="72" width="48" height="48" rx="8" fill="#787c7e"/><text x="252" y="106" text-anchor="middle" class="g" fill="#fff">E</text>
+  </g>
+  <!-- Row 3-6: empty outlines -->
+  <rect x="12" y="132" width="48" height="48" rx="8" class="out"/><rect x="66" y="132" width="48" height="48" rx="8" class="out"/><rect x="120" y="132" width="48" height="48" rx="8" class="out"/><rect x="174" y="132" width="48" height="48" rx="8" class="out"/><rect x="228" y="132" width="48" height="48" rx="8" class="out"/>
+  <rect x="12" y="192" width="48" height="48" rx="8" class="out"/><rect x="66" y="192" width="48" height="48" rx="8" class="out"/><rect x="120" y="192" width="48" height="48" rx="8" class="out"/><rect x="174" y="192" width="48" height="48" rx="8" class="out"/><rect x="228" y="192" width="48" height="48" rx="8" class="out"/>
+  <!-- caption -->
+  <text x="12" y="276" class="lbl">Lock the S, then chase the vowel.</text>
+  <text x="12" y="296" class="lbl">Green = right spot · Yellow = wrong spot</text>
+  <!-- legend tiles -->
+  <rect x="12" y="312" width="20" height="20" rx="5" fill="#6aaa64"/>
+  <rect x="40" y="312" width="20" height="20" rx="5" fill="#c9b458"/>
+  <rect x="68" y="312" width="20" height="20" rx="5" fill="#787c7e"/>
+</svg>

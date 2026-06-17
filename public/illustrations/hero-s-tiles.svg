@@ -1,0 +1,16 @@
+<svg width="520" height="140" viewBox="0 0 520 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wordle tile row beginning with the letter S">
+  <style>
+    .tile { fill: none; stroke: currentColor; stroke-width: 2; opacity: 0.55; }
+    .glyph { fill: currentColor; font-family: 'JetBrains Mono', ui-monospace, monospace; font-weight: 700; font-size: 56px; }
+  </style>
+  <!-- Tile 1: S (filled green) -->
+  <rect x="8" y="20" width="96" height="96" rx="10" fill="#6aaa64"/>
+  <text x="56" y="88" text-anchor="middle" class="glyph" fill="#ffffff">S</text>
+  <!-- Tiles 2-5: empty outline -->
+  <rect x="112" y="20" width="96" height="96" rx="10" class="tile"/>
+  <rect x="216" y="20" width="96" height="96" rx="10" class="tile"/>
+  <rect x="320" y="20" width="96" height="96" rx="10" class="tile"/>
+  <rect x="424" y="20" width="96" height="96" rx="10" class="tile"/>
+  <!-- subtle present-yellow accent corner on tile 3 -->
+  <circle cx="296" cy="36" r="6" fill="#c9b458" opacity="0.8"/>
+</svg>

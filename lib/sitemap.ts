@@ -207,6 +207,23 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     priority: n === 5 ? 0.9 : 0.7,
   }))
 
+  // Hand-crafted 5-letter word-list pages (hub + live starting-letter spokes).
+  const wordListStartingLetters = 'abcdefghijklmnopqrstuvwxyz'.split('')
+  const wordListPages = [
+    {
+      url: `${siteUrl}/5-letter-words`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.8,
+    },
+    ...wordListStartingLetters.map(letter => ({
+      url: `${siteUrl}/5-letter-words/starting-with-${letter}`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.75,
+    })),
+  ]
+
   const guidesIndex = {
     url: `${siteUrl}/guides`,
     lastModified: siteLastModified,
@@ -248,6 +265,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     ...pages,
     ...puzzlePages,
     ...letterGamePages,
+    ...wordListPages,
     guidesIndex,
     ...guidePages,
     blogIndex,
