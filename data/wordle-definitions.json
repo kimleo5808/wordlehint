@@ -3879,6 +3879,24 @@
       }
     ]
   },
+  "TOKEN": {
+    "definition": "Something serving as an expression of something else.",
+    "partOfSpeech": "noun",
+    "example": "According to the Bible, the rainbow is a token of God's covenant with Noah.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Something serving as an expression of something else.",
+        "example": "According to the Bible, the rainbow is a token of God's covenant with Noah."
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To betoken, indicate, portend, designate, denote",
+        "example": null
+      }
+    ]
+  },
   "TRIAL": {
     "definition": "An opportunity to test something out; a test.",
     "partOfSpeech": "noun",

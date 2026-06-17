@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T09:07:17.161Z",
+  "lastUpdated": "2026-06-17T08:39:26.142Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51509,6 +51509,53 @@
             "EARRINGS",
             "RED TAPE",
             "RHYTHMIC GYMNASTICS GEAR"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "id": 1102,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ALCOVE",
+          "words": [
+            "CAVITY",
+            "NICHE",
+            "NOOK",
+            "RECESS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "BODILY WORDS FOR ATTITUDE",
+          "words": [
+            "CHEEK",
+            "LIP",
+            "MOUTH",
+            "NERVE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FIGURES IN GREEK MYTH",
+          "words": [
+            "CALLIOPE",
+            "ECHO",
+            "IRIS",
+            "NEMESIS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH SYNONYMS FOR \"ILK\"",
+          "words": [
+            "CLASSIC",
+            "KINDLE",
+            "SORTIE",
+            "TYPEFACE"
           ]
         }
       ]

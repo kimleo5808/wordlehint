@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T09:07:17.663Z",
+  "lastUpdated": "2026-06-17T08:39:26.526Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1380,6 +1380,30 @@
         "EGNUSP",
         "NYCPAT",
         "ROHCOS"
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "id": 836,
+      "editor": "Tracy Bennett",
+      "clue": "In the barnyard",
+      "spangram": "FARMING",
+      "themeWords": [
+        "BUCKET",
+        "PITCHFORK",
+        "SAWHORSE",
+        "TRACTOR",
+        "WHEELBARROW"
+      ],
+      "board": [
+        "CHRKOR",
+        "TFOWHS",
+        "IPRMAE",
+        "FABAIS",
+        "RLWHRN",
+        "ATEERG",
+        "CRWOCB",
+        "TOTEKU"
       ]
     }
   ]
