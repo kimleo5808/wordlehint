@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T08:39:26.142Z",
+  "lastUpdated": "2026-06-18T08:22:45.519Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51556,6 +51556,53 @@
             "KINDLE",
             "SORTIE",
             "TYPEFACE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "id": 1103,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FITNESS CLASS TYPES",
+          "words": [
+            "AEROBICS",
+            "BARRE",
+            "BOOTCAMP",
+            "PILATES"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "DEMEANOR",
+          "words": [
+            "ATTITUDE",
+            "BEARING",
+            "CARRIAGE",
+            "PRESENCE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PEACE ACTIVISTS",
+          "words": [
+            "GANDHI",
+            "KING",
+            "MANDELA",
+            "TUTU"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "TOOLS MINUS LAST TWO LETTERS",
+          "words": [
+            "HAMM",
+            "JIGS",
+            "PLIE",
+            "WREN"
           ]
         }
       ]

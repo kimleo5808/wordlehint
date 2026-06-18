@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T08:39:26.526Z",
+  "lastUpdated": "2026-06-18T08:22:46.018Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1404,6 +1404,32 @@
         "ATEERG",
         "CRWOCB",
         "TOTEKU"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "id": 837,
+      "editor": "Tracy Bennett",
+      "clue": "Beneath the waves",
+      "spangram": "CORALREEF",
+      "themeWords": [
+        "ALGAE",
+        "CRAB",
+        "FISH",
+        "PLANKTON",
+        "SEAWEED",
+        "SHARK",
+        "URCHIN"
+      ],
+      "board": [
+        "FEKTON",
+        "RKENAF",
+        "AHSRLI",
+        "EELPSH",
+        "DWSARC",
+        "AERUHB",
+        "EALOIA",
+        "AGCNRC"
       ]
     }
   ]
