@@ -10377,6 +10377,19 @@
       }
     ]
   },
+  "EMOJI": {
+    "definition": "A digital graphic icon with a unique code point used to represent a concept or object, originally used in Japanese text messaging but since adopted internationally in other contexts such as social media.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A digital graphic icon with a unique code point used to represent a concept or object, originally used in Japanese text messaging but since adopted internationally in other contexts such as social media.",
+        "example": null
+      }
+    ]
+  },
   "EMPTY": {
     "definition": "(usually plural) A container, especially a bottle, whose contents have been used up, leaving it empty.",
     "partOfSpeech": "noun",

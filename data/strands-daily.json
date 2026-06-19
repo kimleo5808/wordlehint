@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T08:22:46.018Z",
+  "lastUpdated": "2026-06-19T08:43:06.558Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1430,6 +1430,32 @@
         "AERUHB",
         "EALOIA",
         "AGCNRC"
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "id": 838,
+      "editor": "Tracy Bennett",
+      "clue": "Look to the West",
+      "spangram": "COWPOKES",
+      "themeWords": [
+        "BANDANA",
+        "BOOTS",
+        "CHAPS",
+        "JEANS",
+        "SADDLE",
+        "SPURS",
+        "STETSON"
+      ],
+      "board": [
+        "CESADS",
+        "OWLDKE",
+        "NSPOUR",
+        "AEJSPS",
+        "TSBNDC",
+        "TEAAPH",
+        "SNNASA",
+        "OSTOOB"
       ]
     }
   ]

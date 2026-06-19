@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T08:22:45.519Z",
+  "lastUpdated": "2026-06-19T08:43:06.094Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51603,6 +51603,53 @@
             "JIGS",
             "PLIE",
             "WREN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "id": 1104,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "UMAMI-RICH FOODS",
+          "words": [
+            "MISO PASTE",
+            "PARMESAN",
+            "SOY SAUCE",
+            "VEGEMITE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS A BEGINNER MIGHT LEARN ON THE PIANO",
+          "words": [
+            "CHOPSTICKS",
+            "FÜR ELISE",
+            "HEART AND SOUL",
+            "THE ENTERTAINER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "STARTING WITH MAGAZINES",
+          "words": [
+            "FORTUNE COOKIE",
+            "PEOPLE PERSON",
+            "SPINDERELLA",
+            "TIME MACHINE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN SYNONYMS FOR \"AGGREGATE\"",
+          "words": [
+            "COINCIDENTALLY",
+            "DIM SUM",
+            "TEETOTAL",
+            "VISCOUNT"
           ]
         }
       ]
