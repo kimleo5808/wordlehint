@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T08:43:06.094Z",
+  "lastUpdated": "2026-06-20T07:10:54.815Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51650,6 +51650,53 @@
             "DIM SUM",
             "TEETOTAL",
             "VISCOUNT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "id": 1105,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FEATURING SILENT AND PRONOUNCED \"K\"S",
+          "words": [
+            "JACKKNIFE",
+            "KNAPSACK",
+            "KNICKS",
+            "KNOCK-KNOCK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ENDORSE",
+          "words": [
+            "BACK",
+            "BOLSTER",
+            "CHAMPION",
+            "SUPPORT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF CHAIRS",
+          "words": [
+            "BEANBAG",
+            "RECLINER",
+            "ROCKER",
+            "STOOL"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS REPEATED IN HIT SONG TITLES",
+          "words": [
+            "JUMPIN'",
+            "LOUIE",
+            "NEW YORK",
+            "REBEL"
           ]
         }
       ]

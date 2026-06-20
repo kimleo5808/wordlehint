@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T08:43:06.558Z",
+  "lastUpdated": "2026-06-20T07:10:55.285Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1456,6 +1456,30 @@
         "TEAAPH",
         "SNNASA",
         "OSTOOB"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "id": 839,
+      "editor": "Tracy Bennett",
+      "clue": "Knicks knack",
+      "spangram": "GARDENPARTY",
+      "themeWords": [
+        "CHANT",
+        "COURTSIDE",
+        "JUMBOTRON",
+        "MARQUEE",
+        "RAFTERS"
+      ],
+      "board": [
+        "GCEDIS",
+        "AROURT",
+        "CDENPY",
+        "HANQAT",
+        "UJTRUR",
+        "MNAEER",
+        "BOMRSA",
+        "OTRETF"
       ]
     }
   ]
