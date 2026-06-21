@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T07:10:55.285Z",
+  "lastUpdated": "2026-06-21T08:13:10.957Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1480,6 +1480,30 @@
         "MNAEER",
         "BOMRSA",
         "OTRETF"
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "id": 840,
+      "editor": "Tracy Bennett",
+      "clue": "That's included!",
+      "spangram": "HOTELAMENITIES",
+      "themeWords": [
+        "BREAKFAST",
+        "FRIDGE",
+        "INTERNET",
+        "LAUNDRY",
+        "SAFE"
+      ],
+      "board": [
+        "ESINTE",
+        "FATENR",
+        "HTALYR",
+        "OASUND",
+        "TKFIES",
+        "EARTFI",
+        "LEBIRD",
+        "AMENEG"
       ]
     }
   ]

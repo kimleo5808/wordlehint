@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T07:10:54.815Z",
+  "lastUpdated": "2026-06-21T08:13:10.377Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51697,6 +51697,53 @@
             "LOUIE",
             "NEW YORK",
             "REBEL"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "id": 1106,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PRECIPITATION",
+          "words": [
+            "DRIZZLE",
+            "RAIN",
+            "SHOWERS",
+            "SPRINKLES"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "BOWLS OVER",
+          "words": [
+            "FLOORS",
+            "ROCKS",
+            "STUNS",
+            "SURPRISES"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "NBC SITCOMS",
+          "words": [
+            "COMMUNITY",
+            "FRIENDS",
+            "SCRUBS",
+            "WINGS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH KINDS OF INSULTS",
+          "words": [
+            "BARBADOS",
+            "DIGGITY",
+            "DISSECT",
+            "SLAPDASH"
           ]
         }
       ]
