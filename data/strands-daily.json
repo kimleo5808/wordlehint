@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T08:13:10.957Z",
+  "lastUpdated": "2026-06-22T09:25:39.850Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1504,6 +1504,30 @@
         "EARTFI",
         "LEBIRD",
         "AMENEG"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "id": 841,
+      "editor": "Tracy Bennett",
+      "clue": "Heebie-jeebies",
+      "spangram": "GOOSEBUMPS",
+      "themeWords": [
+        "BUTTERFLIES",
+        "CREEPS",
+        "JITTERS",
+        "SHIVERS",
+        "WILLIES"
+      ],
+      "board": [
+        "IWSEIL",
+        "LLERFS",
+        "IETTUR",
+        "SOOSBE",
+        "GSIVET",
+        "CHREBT",
+        "PRSUJI",
+        "SEEMPS"
       ]
     }
   ]

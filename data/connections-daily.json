@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T08:13:10.377Z",
+  "lastUpdated": "2026-06-22T09:25:39.377Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51744,6 +51744,53 @@
             "DIGGITY",
             "DISSECT",
             "SLAPDASH"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "id": 1107,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DOMINANT",
+          "words": [
+            "ALPHA",
+            "HEAD",
+            "LEAD",
+            "PRIMARY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MULTIPLICATION INDICATORS",
+          "words": [
+            "BY",
+            "TIMES",
+            "X",
+            "●"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PRONUNCIATION DESCRIPTORS",
+          "words": [
+            "SHORT",
+            "SILENT",
+            "SOFT",
+            "STRESSED"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH EXPLOSIVE ONOMATOPOEIA",
+          "words": [
+            "BANGKOK",
+            "BOOMER",
+            "POPSICLE",
+            "POWDER"
           ]
         }
       ]
