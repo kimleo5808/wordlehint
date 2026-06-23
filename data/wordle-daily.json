@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T09:25:38.852Z",
+  "lastUpdated": "2026-06-23T07:01:49.915Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1655,6 +1655,12 @@
       "date": "2026-06-22",
       "id": 1829,
       "answer": "OVATE",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-06-23",
+      "id": 1830,
+      "answer": "CURRY",
       "editor": "Tracy Bennett"
     }
   ]

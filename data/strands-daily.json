@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T09:25:39.850Z",
+  "lastUpdated": "2026-06-23T07:01:50.494Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1528,6 +1528,32 @@
         "CHREBT",
         "PRSUJI",
         "SEEMPS"
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "id": 842,
+      "editor": "Tracy Bennett",
+      "clue": "A whole new world",
+      "spangram": "MINECRAFT",
+      "themeWords": [
+        "ARMOR",
+        "BLOCK",
+        "BUILDING",
+        "FOOD",
+        "PORTAL",
+        "STORAGE",
+        "TOOL"
+      ],
+      "board": [
+        "FOTROP",
+        "ODALFT",
+        "CKBRAI",
+        "OLECUL",
+        "MINRBD",
+        "LOOTOI",
+        "GEARMN",
+        "AROTSG"
       ]
     }
   ]
