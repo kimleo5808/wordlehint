@@ -60,14 +60,23 @@
 - `pnpm build` 已通过（885/64/Only 7、DELTA、DRAMA、MA 簇、hub 链接均验证）
 - ⚠️ 仅 1 个常用词缺释义（MECCA）—— 待有网环境补
 
-### 2026-06-24，ending-with-n（蓝图 `ending-with-n-blueprint.md` / `-ui-spec.md`）
+### 2026-06-24，ending-with-n（蓝图 `ending-with-n-blueprint.md` / `-ui-spec.md`，commit `16962bb`）
 - **第六个 spoke：** `/5-letter-words/ending-with-n`（618 词 / 130 常用 / 19 个曾作答案，topOpener=**LEARN**）
 - 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
-- 注册：`LIVE_ENDING = ["E","T","Y","R","A","N"]`、`wordListEndingLetters` 加 `n`
+- 注册：`LIVE_ENDING`、`wordListEndingLetters` 加 `n`
 - 核心特征：六个均衡家族 `-EN/-ON/-IN/-AN/-WN/-RN`，第 4 字母为决定性线索；柱状图为平滑递减阶梯
 - N 是开局友好强结尾（LEARN 测五个最高频字母），诚实正面；独有角度：静音 -GN（ALIGN/REIGN）
 - `pnpm build` 已通过（618/130/19、LEARN、TOKEN、EN 簇、hub 链接均验证）
 - ✅ 释义零缺失（130 个常用词全有）
+
+### 2026-06-24，ending-with-d（蓝图 `ending-with-d-blueprint.md` / `-ui-spec.md`）
+- **第七个 spoke：** `/5-letter-words/ending-with-d`（874 词 / 118 常用 / 15 个曾作答案，topOpener=**TREAD**）
+- 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
+- 注册：`LIVE_ENDING = ["E","T","Y","R","A","N","D"]`、`wordListEndingLetters` 加 `d`
+- 六个家族 `-ID/-ED/-ND/-RD/-AD/-LD`；独有陷阱：`-IED` 过去式（CRIED/DRIED）+ `-ID` 形容词大家族（25 个）
+- TREAD/STAND/BOARD 强开局，诚实提醒 -ED 过去式词差开局
+- `pnpm build` 已通过（874/118/15、TREAD、BEARD、ID 簇、hub 链接均验证）
+- ✅ 释义零缺失（118 个常用词全有）
 
 ---
 
@@ -101,7 +110,7 @@ ending 专用助手（已加）：
 
 ## 4. 下次继续：新增一个结尾字母的步骤清单
 
-建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~ ~~A~~ ~~N~~（已完成）→ **D → H → K → L → O …**
+建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~ ~~A~~ ~~N~~ ~~D~~（已完成）→ **H → K → L → O …**
 
 每个字母按既定工作流走，**先研究+蓝图、批准后再写码**。写码阶段的机械步骤：
 
