@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T07:01:50.213Z",
+  "lastUpdated": "2026-06-24T06:59:02.391Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51838,6 +51838,53 @@
             "EMPEROR",
             "FIREPLACE",
             "YANKEES"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "id": 1109,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PROG BANDS",
+          "words": [
+            "GENESIS",
+            "KING CRIMSON",
+            "PINK FLOYD",
+            "RUSH"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CLASSIC WEDDING GIFTS",
+          "words": [
+            "CHINA",
+            "LUGGAGE",
+            "MONEY",
+            "TOASTER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "RED CHARACTERS",
+          "words": [
+            "CLIFFORD",
+            "DEADPOOL",
+            "KOOL-AID MAN",
+            "MR. KRABS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "RHYMING COMPOUND WORDS",
+          "words": [
+            "CHICK FLICK",
+            "HELTER SKELTER",
+            "HUMPTY DUMPTY",
+            "MUMBO JUMBO"
           ]
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T07:01:50.494Z",
+  "lastUpdated": "2026-06-24T06:59:02.938Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1554,6 +1554,31 @@
         "LOOTOI",
         "GEARMN",
         "AROTSG"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "id": 843,
+      "editor": "Tracy Bennett",
+      "clue": "Just chill",
+      "spangram": "BEVERAGECOOLERS",
+      "themeWords": [
+        "BEER",
+        "JUICE",
+        "KOMBUCHA",
+        "SELTZER",
+        "SODA",
+        "WATER"
+      ],
+      "board": [
+        "EBASER",
+        "ERDOAT",
+        "STZERW",
+        "ELBIUJ",
+        "EVEECS",
+        "ROMUCR",
+        "AKBHAE",
+        "GECOOL"
       ]
     }
   ]
