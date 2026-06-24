@@ -11,6 +11,7 @@
           { "name": "Hint Archive", "href": "/wordle-hint" },
           { "name": "Best Starting Words", "href": "/best-wordle-starting-words" },
           { "name": "5-Letter Word Lists", "href": "/5-letter-words" },
+          { "name": "Words by Ending Letter", "href": "/5-letter-words/ending-with" },
           { "name": "Solver", "href": "/wordle-solver" },
           { "name": "Unlimited", "href": "/wordle-unlimited" },
           { "name": "5 Letter Wordle", "href": "/5-letters" },
@@ -48,6 +49,7 @@
             { "href": "/wordle-hint", "name": "Hint Archive" },
             { "href": "/best-wordle-starting-words", "name": "Best Starting Words" },
             { "href": "/5-letter-words", "name": "5-Letter Word Lists" },
+            { "href": "/5-letter-words/ending-with", "name": "Words by Ending Letter" },
             { "href": "/wordle-solver", "name": "Wordle Solver" },
             { "href": "/wordle-unlimited", "name": "Wordle Unlimited" }
           ]
