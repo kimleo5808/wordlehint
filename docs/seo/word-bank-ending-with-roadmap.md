@@ -27,12 +27,20 @@
 - 主 hub `/5-letter-words` 已加「Browse by Ending Letter」交叉卡片
 - sitemap 已注册 hub + `wordListEndingLetters`
 
-### 2026-06-24，ending-with-t（蓝图 `ending-with-t-blueprint.md` / `-ui-spec.md`）
+### 2026-06-24，ending-with-t（蓝图 `ending-with-t-blueprint.md` / `-ui-spec.md`，commit `559895c`）
 - **第二个 spoke：** `/5-letter-words/ending-with-t`（795 词 / 253 常用 / 25 个曾作答案，topOpener=**LEAST**）
 - 纯内容 + wrapper：`data/word-bank/ending-with-t.ts`、`app/[locale]/5-letter-words/ending-with-t/page.tsx`，**零新增组件 / 零新增 SVG**
-- 注册：`LIVE_ENDING = ["E", "T"]`、`wordListEndingLetters = ['e', 't']`
+- 注册：`LIVE_ENDING`、`wordListEndingLetters` 加 `t`
 - `pnpm build` 已通过（统计/词表/面包屑/hub 链接均验证）
 - ⚠️ 3 个常用词缺释义（CAPUT/DROIT/TIGHT）—— 本地沙箱无法访问 dictionaryapi.dev，待 CI/有网环境跑 `backfill-word-defs.mjs T` 补
+
+### 2026-06-24，ending-with-y（蓝图 `ending-with-y-blueprint.md` / `-ui-spec.md`）
+- **第三个 spoke：** `/5-letter-words/ending-with-y`（**1,527 词 / 364 常用 / 40 个曾作答案**，最大的结尾桶，topOpener=**EARLY**）
+- 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
+- 注册：`LIVE_ENDING = ["E", "T", "Y"]`、`wordListEndingLetters = ['e', 't', 'y']`
+- 独有策略角度：双字母陷阱（BELLY/PUPPY/FIZZY）+ 押韵家族（-LY/-TY/-DY/-RY/-KY/-NY）
+- `pnpm build` 已通过（1,527/364/40、EARLY、ENTRY、家族词、hub 链接均验证）
+- ⚠️ 7 个常用词缺释义（BONEY/EVERY/GAYLY/ICILY/MINTY/WARTY/ZESTY）—— 同上，待有网环境补
 
 ---
 
@@ -66,7 +74,7 @@ ending 专用助手（已加）：
 
 ## 4. 下次继续：新增一个结尾字母的步骤清单
 
-建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~（已完成）→ **Y → R → A → N → D → H → K → L → O …**
+建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~（已完成）→ **R → A → N → D → H → K → L → O …**
 
 每个字母按既定工作流走，**先研究+蓝图、批准后再写码**。写码阶段的机械步骤：
 
