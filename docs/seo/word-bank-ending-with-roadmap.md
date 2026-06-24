@@ -34,13 +34,22 @@
 - `pnpm build` 已通过（统计/词表/面包屑/hub 链接均验证）
 - ⚠️ 3 个常用词缺释义（CAPUT/DROIT/TIGHT）—— 本地沙箱无法访问 dictionaryapi.dev，待 CI/有网环境跑 `backfill-word-defs.mjs T` 补
 
-### 2026-06-24，ending-with-y（蓝图 `ending-with-y-blueprint.md` / `-ui-spec.md`）
+### 2026-06-24，ending-with-y（蓝图 `ending-with-y-blueprint.md` / `-ui-spec.md`，commit `e0b69d8`）
 - **第三个 spoke：** `/5-letter-words/ending-with-y`（**1,527 词 / 364 常用 / 40 个曾作答案**，最大的结尾桶，topOpener=**EARLY**）
 - 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
-- 注册：`LIVE_ENDING = ["E", "T", "Y"]`、`wordListEndingLetters = ['e', 't', 'y']`
+- 注册：`LIVE_ENDING`、`wordListEndingLetters` 加 `y`
 - 独有策略角度：双字母陷阱（BELLY/PUPPY/FIZZY）+ 押韵家族（-LY/-TY/-DY/-RY/-KY/-NY）
 - `pnpm build` 已通过（1,527/364/40、EARLY、ENTRY、家族词、hub 链接均验证）
 - ⚠️ 7 个常用词缺释义（BONEY/EVERY/GAYLY/ICILY/MINTY/WARTY/ZESTY）—— 同上，待有网环境补
+
+### 2026-06-24，ending-with-r（蓝图 `ending-with-r-blueprint.md` / `-ui-spec.md`）
+- **第四个 spoke：** `/5-letter-words/ending-with-r`（737 词 / 212 常用 / 18 个曾作答案，topOpener=**LATER**）
+- 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
+- 注册：`LIVE_ENDING = ["E", "T", "Y", "R"]`、`wordListEndingLetters = ['e', 't', 'y', 'r']`
+- 核心洞察：`-ER` 家族占常用词约 66%（141/212）—— 策略「先假设 -ER、聚焦第 3 字母」；柱状图 ER 柱远超其余
+- R 结尾开局词真正强（LATER=ALERT 异序词），诚实正面陈述
+- `pnpm build` 已通过（737/212/18、LATER、MAKER、ER 簇、hub 链接均验证）
+- ⚠️ 10 个常用词缺释义（含较常用的 THEIR/FEWER）—— 同上，待有网环境补
 
 ---
 
@@ -74,7 +83,7 @@ ending 专用助手（已加）：
 
 ## 4. 下次继续：新增一个结尾字母的步骤清单
 
-建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~（已完成）→ **R → A → N → D → H → K → L → O …**
+建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~（已完成）→ **A → N → D → H → K → L → O …**
 
 每个字母按既定工作流走，**先研究+蓝图、批准后再写码**。写码阶段的机械步骤：
 
