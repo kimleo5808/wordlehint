@@ -54,26 +54,37 @@ export function TileWord({
   word,
   size = "sm",
   highlightFirst = true,
+  highlightLast = false,
   plain = false,
   className,
 }: {
   word: string;
   size?: TileSize;
   highlightFirst?: boolean;
+  /** Green the last tile instead of the first (for ending-letter pages). */
+  highlightLast?: boolean;
   plain?: boolean;
   className?: string;
 }) {
   const gap = size === "xs" ? "gap-0.5" : "gap-1";
+  const letters = word.split("");
   return (
     <span className={cn("inline-flex", gap, className)}>
-      {word.split("").map((ch, i) => (
-        <Tile
-          key={i}
-          letter={ch}
-          size={size}
-          state={!plain && highlightFirst && i === 0 ? "correct" : "blank"}
-        />
-      ))}
+      {letters.map((ch, i) => {
+        const highlighted = plain
+          ? false
+          : highlightLast
+            ? i === letters.length - 1
+            : highlightFirst && i === 0;
+        return (
+          <Tile
+            key={i}
+            letter={ch}
+            size={size}
+            state={highlighted ? "correct" : "blank"}
+          />
+        );
+      })}
     </span>
   );
 }

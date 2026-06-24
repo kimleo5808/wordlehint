@@ -68,6 +68,14 @@ export const endingWith = cache((letter: string): string[] => {
   return loadBank().words.filter((w) => w[4] === L);
 });
 
+/** Decorated version of endingWith — words whose last letter is `letter`. */
+export const endingWithDecorated = cache((letter: string): BankWord[] => {
+  const L = letter.toUpperCase();
+  return loadBank()
+    .words.filter((w) => w[4] === L)
+    .map(decorate);
+});
+
 export const containing = cache((letter: string): string[] => {
   const L = letter.toUpperCase();
   return loadBank().words.filter((w) => w.includes(L));
@@ -168,3 +176,79 @@ export function getBankMeta() {
   const b = loadBank();
   return { count: b.count, commonCount: b.commonCount, lastBuilt: b.lastBuilt };
 }
+
+/* ------------------------------------------------------------------ */
+/*  Ending-letter variants (for /5-letter-words/ending-with-* pages)   */
+/* ------------------------------------------------------------------ */
+
+export interface SuffixGroup {
+  fourthLetter: string; // e.g. "L" (the group is "…LE")
+  suffix: string; // e.g. "LE" (penultimate + ending letter)
+  words: BankWord[];
+  total: number;
+  commonCount: number;
+}
+
+/** Group a letter's ending words by their 4th (penultimate) letter. */
+export const groupByFourthLetter = cache((letter: string): SuffixGroup[] => {
+  const L = letter.toUpperCase();
+  const groups = new Map<string, BankWord[]>();
+  for (const bw of endingWithDecorated(L)) {
+    const k = bw.word[3];
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k)!.push(bw);
+  }
+  return Array.from(groups.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([fourthLetter, words]) => {
+      const sorted = [...words].sort((a, b) => {
+        if (a.common !== b.common) return a.common ? -1 : 1;
+        return a.word.localeCompare(b.word);
+      });
+      return {
+        fourthLetter,
+        suffix: `${fourthLetter}${L}`,
+        words: sorted,
+        total: words.length,
+        commonCount: words.filter((w) => w.common).length,
+      };
+    });
+});
+
+export interface EndingLetterStats {
+  letter: string;
+  total: number; // all valid guesses ending with the letter
+  common: number; // answer-pool words ending with the letter
+  answered: number; // already used as daily answers
+  topPenultimateLetters: { letter: string; count: number }[];
+}
+
+export const endingLetterStats = cache((letter: string): EndingLetterStats => {
+  const L = letter.toUpperCase();
+  const words = endingWithDecorated(L);
+  const penultCounts = new Map<string, number>();
+  for (const bw of words) {
+    penultCounts.set(bw.word[3], (penultCounts.get(bw.word[3]) ?? 0) + 1);
+  }
+  const topPenultimateLetters = Array.from(penultCounts.entries())
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 8)
+    .map(([letter, count]) => ({ letter, count }));
+
+  return {
+    letter: L,
+    total: words.length,
+    common: words.filter((w) => w.common).length,
+    answered: words.filter((w) => w.wasAnswer).length,
+    topPenultimateLetters,
+  };
+});
+
+/** Common words ending in a given letter that have already been answers, newest first. */
+export const answeredWordsEndingWith = cache((letter: string): string[] => {
+  const L = letter.toUpperCase();
+  return getAllPuzzles()
+    .filter((p) => p.answer.toUpperCase()[4] === L)
+    .map((p) => p.answer.toUpperCase())
+    .reverse();
+});

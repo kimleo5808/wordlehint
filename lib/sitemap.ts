@@ -209,6 +209,8 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
 
   // Hand-crafted 5-letter word-list pages (hub + live starting-letter spokes).
   const wordListStartingLetters = 'abcdefghijklmnopqrstuvwxyz'.split('')
+  // Ending-letter spokes roll out one at a time; keep in sync with LIVE_ENDING.
+  const wordListEndingLetters = ['e']
   const wordListPages = [
     {
       url: `${siteUrl}/5-letter-words`,
@@ -218,6 +220,18 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     },
     ...wordListStartingLetters.map(letter => ({
       url: `${siteUrl}/5-letter-words/starting-with-${letter}`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.75,
+    })),
+    {
+      url: `${siteUrl}/5-letter-words/ending-with`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.8,
+    },
+    ...wordListEndingLetters.map(letter => ({
+      url: `${siteUrl}/5-letter-words/ending-with-${letter}`,
       lastModified: latestPuzzleModified,
       changeFrequency: 'weekly' as ChangeFrequency,
       priority: 0.75,

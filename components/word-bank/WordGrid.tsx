@@ -13,7 +13,14 @@ export interface GridWord {
   partOfSpeech: string | null;
 }
 
-export function WordGrid({ words }: { words: GridWord[] }) {
+export function WordGrid({
+  words,
+  highlightLast = false,
+}: {
+  words: GridWord[];
+  /** Green the last tile of each word (for ending-letter pages). */
+  highlightLast?: boolean;
+}) {
   const [open, setOpen] = useState<string | null>(null);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -45,7 +52,12 @@ export function WordGrid({ words }: { words: GridWord[] }) {
         const isOpen = open === w.word;
         const inner = (
           <span className="relative inline-flex items-center">
-            <TileWord word={w.word} size="xs" highlightFirst />
+            <TileWord
+              word={w.word}
+              size="xs"
+              highlightFirst={!highlightLast}
+              highlightLast={highlightLast}
+            />
             {w.wasAnswer && (
               <span
                 aria-hidden
