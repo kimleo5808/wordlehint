@@ -51,14 +51,23 @@
 - `pnpm build` 已通过（737/212/18、LATER、MAKER、ER 簇、hub 链接均验证）
 - ⚠️ 10 个常用词缺释义（含较常用的 THEIR/FEWER）—— 同上，待有网环境补
 
-### 2026-06-24，ending-with-a（蓝图 `ending-with-a-blueprint.md` / `-ui-spec.md`）
+### 2026-06-24，ending-with-a（蓝图 `ending-with-a-blueprint.md` / `-ui-spec.md`，commit `8b6367d`）
 - **第五个 spoke（首个「弱结尾」页）：** `/5-letter-words/ending-with-a`（885 词 / **仅 64 常用** / 7 个曾作答案，topOpener=**DELTA**）
 - 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
-- 注册：`LIVE_ENDING = ["E","T","Y","R","A"]`、`wordListEndingLetters` 加 `a`
+- 注册：`LIVE_ENDING`、`wordListEndingLetters` 加 `a`
 - **差异化＝诚实**：A 在答案池罕见，定位为「小而精候选集 + 明说 A 结尾是差开局词」（参照 starting 板块薄字母处理）；词量预算调低到 ~1400
 - 家族 `-MA/-RA/-TA`（外来词为主），无单一主导家族
 - `pnpm build` 已通过（885/64/Only 7、DELTA、DRAMA、MA 簇、hub 链接均验证）
 - ⚠️ 仅 1 个常用词缺释义（MECCA）—— 待有网环境补
+
+### 2026-06-24，ending-with-n（蓝图 `ending-with-n-blueprint.md` / `-ui-spec.md`）
+- **第六个 spoke：** `/5-letter-words/ending-with-n`（618 词 / 130 常用 / 19 个曾作答案，topOpener=**LEARN**）
+- 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
+- 注册：`LIVE_ENDING = ["E","T","Y","R","A","N"]`、`wordListEndingLetters` 加 `n`
+- 核心特征：六个均衡家族 `-EN/-ON/-IN/-AN/-WN/-RN`，第 4 字母为决定性线索；柱状图为平滑递减阶梯
+- N 是开局友好强结尾（LEARN 测五个最高频字母），诚实正面；独有角度：静音 -GN（ALIGN/REIGN）
+- `pnpm build` 已通过（618/130/19、LEARN、TOKEN、EN 簇、hub 链接均验证）
+- ✅ 释义零缺失（130 个常用词全有）
 
 ---
 
@@ -92,7 +101,7 @@ ending 专用助手（已加）：
 
 ## 4. 下次继续：新增一个结尾字母的步骤清单
 
-建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~ ~~A~~（已完成）→ **N → D → H → K → L → O …**
+建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~ ~~A~~ ~~N~~（已完成）→ **D → H → K → L → O …**
 
 每个字母按既定工作流走，**先研究+蓝图、批准后再写码**。写码阶段的机械步骤：
 
