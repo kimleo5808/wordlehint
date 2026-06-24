@@ -78,14 +78,24 @@
 - `pnpm build` 已通过（874/118/15、TREAD、BEARD、ID 簇、hub 链接均验证）
 - ✅ 释义零缺失（118 个常用词全有）
 
-### 2026-06-24，ending-with-h（蓝图 `ending-with-h-blueprint.md` / `-ui-spec.md`）
+### 2026-06-24，ending-with-h（蓝图 `ending-with-h-blueprint.md` / `-ui-spec.md`，commit `3be6287`）
 - **第八个 spoke：** `/5-letter-words/ending-with-h`（428 词 / **139 常用，占比 32% 最高** / 16 个曾作答案，topOpener=**EARTH**）
 - 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
-- 注册：`LIVE_ENDING = ["E","T","Y","R","A","N","D","H"]`、`wordListEndingLetters` 加 `h`
+- 注册：`LIVE_ENDING`、`wordListEndingLetters` 加 `h`
 - 核心结构：三 digraph 家族 `-CH(58)/-TH(36)/-SH(27)` 占约 90%，小尾 `-GH/-PH`；柱状图三高柱后陡降
 - EARTH/NORTH/SOUTH 真开局，诚实说明多数 H 结尾词差开局（digraph 占第 4 格）
 - `pnpm build` 已通过（428/139/16、EARTH、MOUTH、CH 簇、hub 链接均验证）
 - ⚠️ 1 个常用词缺释义（TOUCH）—— 待有网环境补
+
+### 2026-06-24，批量完成剩余 15 个字母（L/K/O/P/M/G/S/C/F + W/B/I/X/Z/U）
+- 用户要求当天补齐全部剩余结尾字母。沿用同一工作流（真实数据 → 预选 topOpener/开局词/家族 → 内容 + wrapper），开局词全部由真实词表预先指定，杜绝杜撰；5 个并行子代理起草，主线统一注册/构建/提交。
+- **强结尾标准页（9）：** L(156,STEAL) K(113,STEAK) O(58,RATIO) P(56,STRAP) M(42,CREAM) G(41,ALONG) S(36,ETHOS) C(31,STOIC) F(26,SCARF)
+- **薄结尾诚实页（6，仿 A 页定位）：** W(17,STRAW) B(11,CLIMB) I(11,SWAMI) X(8,RELAX) Z(4,WALTZ) U(1,ADIEU)
+- 各页独有角度：S＝NYT 排除复数故 S 结尾答案罕见（-SS/-US）；C＝几乎全是 -IC；G＝几乎全是 -NG（诚实说明开局平庸）；H 类 digraph 思路延续；薄页统一诚实「适合知道、不适合猜」。U 页以 ADIEU（四元音开局词）为核心、诚实说明答案几乎不以 U 结尾。
+- **零新增组件 / 零新增 SVG**；`LIVE_ENDING` 与 `wordListEndingLetters` 一次性补齐至 23 个字母。
+- **J/Q/V 不做**：各仅 3-5 个有效词、**0 个常用词**，做成页面属薄内容、可能损 SEO；hub 保持禁用（Coming soon）。
+- `pnpm build` 已通过（23 个结尾页全部生成；逐页验证 H1/topOpener/常用词数；hub 23 个 live 链接、J/Q/V 禁用）。
+- ⚠️ 释义缺口（页面对 null 优雅处理，待有网环境统一 `backfill-word-defs.mjs`）：累计含 T:3/Y:7/R:10/A:1/H:1 + 本批少量；非阻塞。
 
 ---
 
@@ -119,7 +129,9 @@ ending 专用助手（已加）：
 
 ## 4. 下次继续：新增一个结尾字母的步骤清单
 
-建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~ ~~A~~ ~~N~~ ~~D~~ ~~H~~（已完成）→ **K → L → O …**
+**✅ 全部完成（2026-06-24）：** E/T/Y/R/A/N/D/H 逐个做 + L/K/O/P/M/G/S/C/F/W/B/I/X/Z/U 批量做 = **23/26 字母上线**。**J/Q/V 不做**（词量不足、0 常用，做了损 SEO）。
+
+ending-with 板块至此收官。后续可转向 §5 的 `containing-*` 长尾，或回填释义。
 
 每个字母按既定工作流走，**先研究+蓝图、批准后再写码**。写码阶段的机械步骤：
 

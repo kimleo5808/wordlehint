@@ -40,7 +40,10 @@ export async function generateMetadata({
 }
 
 // Spokes that are live today. More ending-letter pages roll out one at a time.
-const LIVE_ENDING = ["E", "T", "Y", "R", "A", "N", "D", "H"];
+const LIVE_ENDING = [
+  "A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M",
+  "N", "O", "P", "R", "S", "T", "U", "W", "X", "Y", "Z",
+];
 
 export default async function EndingWithHub({ params }: { params: Params }) {
   await params;

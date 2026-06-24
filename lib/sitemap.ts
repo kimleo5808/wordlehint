@@ -210,7 +210,10 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   // Hand-crafted 5-letter word-list pages (hub + live starting-letter spokes).
   const wordListStartingLetters = 'abcdefghijklmnopqrstuvwxyz'.split('')
   // Ending-letter spokes roll out one at a time; keep in sync with LIVE_ENDING.
-  const wordListEndingLetters = ['e', 't', 'y', 'r', 'a', 'n', 'd', 'h']
+  const wordListEndingLetters = [
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k', 'l', 'm',
+    'n', 'o', 'p', 'r', 's', 't', 'u', 'w', 'x', 'y', 'z',
+  ]
   const wordListPages = [
     {
       url: `${siteUrl}/5-letter-words`,
