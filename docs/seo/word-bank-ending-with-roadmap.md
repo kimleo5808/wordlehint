@@ -42,14 +42,23 @@
 - `pnpm build` 已通过（1,527/364/40、EARLY、ENTRY、家族词、hub 链接均验证）
 - ⚠️ 7 个常用词缺释义（BONEY/EVERY/GAYLY/ICILY/MINTY/WARTY/ZESTY）—— 同上，待有网环境补
 
-### 2026-06-24，ending-with-r（蓝图 `ending-with-r-blueprint.md` / `-ui-spec.md`）
+### 2026-06-24，ending-with-r（蓝图 `ending-with-r-blueprint.md` / `-ui-spec.md`，commit `38019f0`）
 - **第四个 spoke：** `/5-letter-words/ending-with-r`（737 词 / 212 常用 / 18 个曾作答案，topOpener=**LATER**）
 - 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
-- 注册：`LIVE_ENDING = ["E", "T", "Y", "R"]`、`wordListEndingLetters = ['e', 't', 'y', 'r']`
+- 注册：`LIVE_ENDING`、`wordListEndingLetters` 加 `r`
 - 核心洞察：`-ER` 家族占常用词约 66%（141/212）—— 策略「先假设 -ER、聚焦第 3 字母」；柱状图 ER 柱远超其余
 - R 结尾开局词真正强（LATER=ALERT 异序词），诚实正面陈述
 - `pnpm build` 已通过（737/212/18、LATER、MAKER、ER 簇、hub 链接均验证）
 - ⚠️ 10 个常用词缺释义（含较常用的 THEIR/FEWER）—— 同上，待有网环境补
+
+### 2026-06-24，ending-with-a（蓝图 `ending-with-a-blueprint.md` / `-ui-spec.md`）
+- **第五个 spoke（首个「弱结尾」页）：** `/5-letter-words/ending-with-a`（885 词 / **仅 64 常用** / 7 个曾作答案，topOpener=**DELTA**）
+- 纯内容 + wrapper，**零新增组件 / 零新增 SVG**
+- 注册：`LIVE_ENDING = ["E","T","Y","R","A"]`、`wordListEndingLetters` 加 `a`
+- **差异化＝诚实**：A 在答案池罕见，定位为「小而精候选集 + 明说 A 结尾是差开局词」（参照 starting 板块薄字母处理）；词量预算调低到 ~1400
+- 家族 `-MA/-RA/-TA`（外来词为主），无单一主导家族
+- `pnpm build` 已通过（885/64/Only 7、DELTA、DRAMA、MA 簇、hub 链接均验证）
+- ⚠️ 仅 1 个常用词缺释义（MECCA）—— 待有网环境补
 
 ---
 
@@ -83,7 +92,7 @@ ending 专用助手（已加）：
 
 ## 4. 下次继续：新增一个结尾字母的步骤清单
 
-建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~（已完成）→ **A → N → D → H → K → L → O …**
+建议优先级顺序（按 Wordle 答案频率 + 搜索量）：~~T~~ ~~Y~~ ~~R~~ ~~A~~（已完成）→ **N → D → H → K → L → O …**
 
 每个字母按既定工作流走，**先研究+蓝图、批准后再写码**。写码阶段的机械步骤：
 
