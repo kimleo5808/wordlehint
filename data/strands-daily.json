@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T06:58:53.319Z",
+  "lastUpdated": "2026-06-26T07:06:13.956Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1602,6 +1602,31 @@
         "TEUAME",
         "URPMSN",
         "ACUAST"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "id": 845,
+      "editor": "Tracy Bennett",
+      "clue": "\"I'll gobble you up!\"",
+      "spangram": "BILLYGOATSGRUFF",
+      "themeWords": [
+        "BRIDGE",
+        "BROTHERS",
+        "HORNS",
+        "PASS",
+        "THREE",
+        "TROLL"
+      ],
+      "board": [
+        "BEERHT",
+        "ILSSED",
+        "SLYAGI",
+        "ERGOPR",
+        "HORATB",
+        "TBHOSG",
+        "SNRLFR",
+        "TROLFU"
       ]
     }
   ]

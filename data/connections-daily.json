@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T06:58:52.839Z",
+  "lastUpdated": "2026-06-26T07:06:13.470Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51932,6 +51932,53 @@
             "CROQUETTE",
             "DUCTILE",
             "HOCKEY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "id": 1111,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CRUNCHY SNACK ITEM",
+          "words": [
+            "CHIP",
+            "CRACKER",
+            "NUT",
+            "PRETZEL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "VARIOUS AMOUNTS OF WOOD",
+          "words": [
+            "BOARD",
+            "LOG",
+            "SPLINTER",
+            "TREE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "AREAS OF LOW GROUND",
+          "words": [
+            "DALE",
+            "DELL",
+            "GORGE",
+            "HOLLOW"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "COLORS PLUS A LETTER",
+          "words": [
+            "BRONZER",
+            "PINKY",
+            "REDO",
+            "TANG"
           ]
         }
       ]
