@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T07:06:13.956Z",
+  "lastUpdated": "2026-06-27T06:40:30.866Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1627,6 +1627,31 @@
         "TBHOSG",
         "SNRLFR",
         "TROLFU"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "id": 846,
+      "editor": "Tracy Bennett",
+      "clue": "Suite re-lease",
+      "spangram": "APARTMENTS",
+      "themeWords": [
+        "CONDO",
+        "EFFICIENCY",
+        "FLAT",
+        "LOFT",
+        "PENTHOUSE",
+        "STUDIO"
+      ],
+      "board": [
+        "OLSTUD",
+        "FRTMEI",
+        "TACYNO",
+        "APNETS",
+        "TFCIDO",
+        "ALIFNC",
+        "EPEFOE",
+        "NTHOUS"
       ]
     }
   ]

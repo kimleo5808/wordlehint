@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T07:06:13.470Z",
+  "lastUpdated": "2026-06-27T06:40:30.356Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -51979,6 +51979,53 @@
             "PINKY",
             "REDO",
             "TANG"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "id": 1112,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "MONOPOLY SQUARES",
+          "words": [
+            "BOARDWALK",
+            "INCOME TAX",
+            "SHORT LINE",
+            "WATER WORKS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "COMPONENTS OF A FASHION SHOW",
+          "words": [
+            "CATWALK",
+            "COLLECTION",
+            "DESIGNER",
+            "MODEL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "COMMONLY STRIPED THINGS",
+          "words": [
+            "BARBER POLE",
+            "BILLIARD BALL",
+            "CREDIT CARD",
+            "CROSSWALK"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN HORSE GAITS",
+          "words": [
+            "DECANTER",
+            "ENVELOPE",
+            "FIREWALK",
+            "FOXTROT"
           ]
         }
       ]
