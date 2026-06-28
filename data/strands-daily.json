@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T06:40:30.866Z",
+  "lastUpdated": "2026-06-28T07:12:27.377Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1652,6 +1652,31 @@
         "ALIFNC",
         "EPEFOE",
         "NTHOUS"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "id": 847,
+      "editor": "Tracy Bennett",
+      "clue": "March in June",
+      "spangram": "PRIDEMONTH",
+      "themeWords": [
+        "CELEBRATION",
+        "DRAG",
+        "FLAGS",
+        "PARADE",
+        "RAINBOW",
+        "RALLY"
+      ],
+      "board": [
+        "PRYLLA",
+        "WIGRRF",
+        "ODADSL",
+        "BEMOGA",
+        "NIANTH",
+        "DERCEL",
+        "AANTAE",
+        "PROIRB"
       ]
     }
   ]

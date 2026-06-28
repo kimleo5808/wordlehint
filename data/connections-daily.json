@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T06:40:30.356Z",
+  "lastUpdated": "2026-06-28T07:12:26.867Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52026,6 +52026,53 @@
             "ENVELOPE",
             "FIREWALK",
             "FOXTROT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "id": 1113,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "HIGH-QUALITY",
+          "words": [
+            "CHOICE",
+            "FINE",
+            "PRIME",
+            "SELECT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SIGNALS TO COMMENCE",
+          "words": [
+            "BEGIN",
+            "GO",
+            "NOW",
+            "START"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ACCESSORIES FOR A GUITARIST",
+          "words": [
+            "CAPO",
+            "PICK",
+            "SLIDE",
+            "STRAP"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THEY HAVE BOARDS",
+          "words": [
+            "CHESS",
+            "CORPORATION",
+            "DARTS",
+            "SURFER"
           ]
         }
       ]
