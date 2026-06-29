@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T07:12:26.867Z",
+  "lastUpdated": "2026-06-29T08:30:13.158Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52073,6 +52073,53 @@
             "CORPORATION",
             "DARTS",
             "SURFER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "id": 1114,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "OLD TIMEY TROUBLEMAKERS",
+          "words": [
+            "MISCREANT",
+            "ROGUE",
+            "RUFFIAN",
+            "SCOUNDREL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CONSUME WITH GUSTO",
+          "words": [
+            "CRUSH",
+            "GUZZLE",
+            "INHALE",
+            "SNARF"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PARTS OF A SPEAKER",
+          "words": [
+            "CABINET",
+            "CONE",
+            "MAGNET",
+            "WOOFER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN PARTS OF A TREE",
+          "words": [
+            "EMBARK",
+            "GROOT",
+            "NUDIBRANCH",
+            "STRUNK"
           ]
         }
       ]

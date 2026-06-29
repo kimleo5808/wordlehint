@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T07:12:27.377Z",
+  "lastUpdated": "2026-06-29T08:30:13.644Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1677,6 +1677,31 @@
         "DERCEL",
         "AANTAE",
         "PROIRB"
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "id": 848,
+      "editor": "Tracy Bennett",
+      "clue": "The mark of a good composer",
+      "spangram": "MUSICALSTAFF",
+      "themeWords": [
+        "ACCIDENTAL",
+        "BRACKET",
+        "CLEF",
+        "MEASURE",
+        "NOTE",
+        "REST"
+      ],
+      "board": [
+        "ETECCA",
+        "KNLDIU",
+        "CTAASR",
+        "ARBMEE",
+        "MUSICA",
+        "FFATSL",
+        "ESTCET",
+        "RFELON"
       ]
     }
   ]
