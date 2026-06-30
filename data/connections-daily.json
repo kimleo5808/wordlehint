@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T08:30:13.158Z",
+  "lastUpdated": "2026-06-30T07:05:57.406Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52120,6 +52120,53 @@
             "GROOT",
             "NUDIBRANCH",
             "STRUNK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "id": 1115,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DIVIDING STRUCTURES",
+          "words": [
+            "FENCE",
+            "GATE",
+            "HEDGE",
+            "WALL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTICIPATE IN SOME WINTER OLYMPICS",
+          "words": [
+            "CURL",
+            "LUGE",
+            "SKATE",
+            "SKI"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "COMMON RECYCLABLES",
+          "words": [
+            "BOTTLE",
+            "BOX",
+            "CAN",
+            "NEWSPAPER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT \"DRAFT\" MIGHT REFER TO",
+          "words": [
+            "BREEZE",
+            "ON TAP",
+            "RECRUIT",
+            "SKETCH"
           ]
         }
       ]

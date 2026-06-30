@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T08:30:13.644Z",
+  "lastUpdated": "2026-06-30T07:05:57.994Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1702,6 +1702,31 @@
         "FFATSL",
         "ESTCET",
         "RFELON"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "id": 849,
+      "editor": "Tracy Bennett",
+      "clue": "\"And ... action!\"",
+      "spangram": "THATSSHOWBIZ",
+      "themeWords": [
+        "CAST",
+        "CREW",
+        "DIRECTOR",
+        "EDITOR",
+        "PRODUCER",
+        "WRITER"
+      ],
+      "board": [
+        "RETZIB",
+        "ICOUCW",
+        "CDRDEO",
+        "ASRORH",
+        "WTPTSS",
+        "EROARW",
+        "RTDHEI",
+        "CIETRT"
       ]
     }
   ]
