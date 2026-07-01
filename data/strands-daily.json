@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T07:05:57.994Z",
+  "lastUpdated": "2026-07-01T07:53:20.791Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1727,6 +1727,30 @@
         "EROARW",
         "RTDHEI",
         "CIETRT"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "id": 850,
+      "editor": "Tracy Bennett",
+      "clue": "Not a red herring",
+      "spangram": "TELLTALESIGN",
+      "themeWords": [
+        "CLUE",
+        "EVIDENCE",
+        "HINT",
+        "INDICATION",
+        "INTIMATION"
+      ],
+      "board": [
+        "NLLETN",
+        "TITAIO",
+        "HILTNI",
+        "CNDEIT",
+        "AISEMA",
+        "ITEICN",
+        "OUGEED",
+        "NLCNVI"
       ]
     }
   ]

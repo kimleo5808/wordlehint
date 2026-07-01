@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T07:05:57.406Z",
+  "lastUpdated": "2026-07-01T07:53:20.262Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52167,6 +52167,53 @@
             "ON TAP",
             "RECRUIT",
             "SKETCH"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "id": 1116,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS NAMED AFTER PLACES",
+          "words": [
+            "CHAMPAGNE",
+            "CHINA",
+            "COLOGNE",
+            "LIMERICK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "BEST PICTURE WINNERS/NOMINEES",
+          "words": [
+            "CASABLANCA",
+            "CHICAGO",
+            "FARGO",
+            "MUNICH"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PLACES IN COCKTAIL NAMES",
+          "words": [
+            "CUBA",
+            "LONG ISLAND",
+            "MOSCOW",
+            "SINGAPORE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH COUNTRIES",
+          "words": [
+            "DOMINICAN REPUBLIC",
+            "GUINEA-BISSAU",
+            "INDIANAPOLIS",
+            "NIGERIA"
           ]
         }
       ]
