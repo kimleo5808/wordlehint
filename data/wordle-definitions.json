@@ -19032,6 +19032,19 @@
       }
     ]
   },
+  "MAVEN": {
+    "definition": "An expert in a given field.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An expert in a given field.",
+        "example": null
+      }
+    ]
+  },
   "MAXIM": {
     "definition": "A self-evident axiom or premise; a pithy expression of a general principle or rule.",
     "partOfSpeech": "noun",

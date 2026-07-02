@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T07:53:20.262Z",
+  "lastUpdated": "2026-07-02T06:53:11.674Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52214,6 +52214,53 @@
             "GUINEA-BISSAU",
             "INDIANAPOLIS",
             "NIGERIA"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "id": 1117,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THEY IMPERSONATE OTHER THINGS",
+          "words": [
+            "COPYCAT",
+            "MIME",
+            "MOCKINGBIRD",
+            "T-1000"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "OLD-TIMEY NAMES FOR THINGS WE STILL USE",
+          "words": [
+            "LOOKING GLASS",
+            "SPECTACLES",
+            "TALKIE",
+            "WATER CLOSET"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "STARTING WITH NICKNAMES",
+          "words": [
+            "BILLY GOAT",
+            "DAN DAN NOODLES",
+            "RICH TEXT",
+            "TOM-TOM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH SPORTS VENUES",
+          "words": [
+            "COURT JESTER",
+            "DIAMOND RING",
+            "FIELD MOUSE",
+            "TRACK RECORD"
           ]
         }
       ]

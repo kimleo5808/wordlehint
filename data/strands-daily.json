@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T07:53:20.791Z",
+  "lastUpdated": "2026-07-02T06:53:12.178Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1751,6 +1751,30 @@
         "ITEICN",
         "OUGEED",
         "NLCNVI"
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "id": 851,
+      "editor": "Tracy Bennett",
+      "clue": "Added flavor",
+      "spangram": "GETSAUCY",
+      "themeWords": [
+        "BECHAMEL",
+        "MARINARA",
+        "SRIRACHA",
+        "TERIYAKI",
+        "TZATZIKI"
+      ],
+      "board": [
+        "IRAMHA",
+        "NAECMY",
+        "ARBLEC",
+        "GETSAU",
+        "TZAKIT",
+        "AIYIRE",
+        "ZKSRIR",
+        "TIAHCA"
       ]
     }
   ]
