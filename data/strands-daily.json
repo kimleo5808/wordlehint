@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T06:53:12.178Z",
+  "lastUpdated": "2026-07-03T06:45:29.090Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1775,6 +1775,30 @@
         "AIYIRE",
         "ZKSRIR",
         "TIAHCA"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "id": 852,
+      "editor": "Tracy Bennett",
+      "clue": "It's like talking to a brick wall",
+      "spangram": "NOTBUDGING",
+      "themeWords": [
+        "FIRM",
+        "HEADSTRONG",
+        "OBSTINATE",
+        "STUBBORN",
+        "WILLFUL"
+      ],
+      "board": [
+        "OBSTIN",
+        "WILLEA",
+        "STROFT",
+        "DHGNUL",
+        "AEFIRM",
+        "NOTBUD",
+        "BBUTSG",
+        "ORNGNI"
       ]
     }
   ]

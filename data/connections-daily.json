@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T06:53:11.674Z",
+  "lastUpdated": "2026-07-03T06:45:28.552Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52261,6 +52261,53 @@
             "DIAMOND RING",
             "FIELD MOUSE",
             "TRACK RECORD"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "id": 1118,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "POSITIVE FEELINGS",
+          "words": [
+            "BLISS",
+            "FELICITY",
+            "HAPPINESS",
+            "WARM FUZZIES"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "RETRO EXPRESSIONS OF APPROVAL",
+          "words": [
+            "COOL BEANS",
+            "FAR OUT",
+            "GROOVY",
+            "RIGHT ON"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "BAD THINGS TO GIVE SOMEONE",
+          "words": [
+            "COLD SHOULDER",
+            "DIRTY LOOK",
+            "HARD TIME",
+            "RUNAROUND"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT THINGS PRONOUNCED \"T\" MIGHT REFER TO",
+          "words": [
+            "GOLF ACCESSORY",
+            "GOSSIP",
+            "HOT DRINK",
+            "SHIRT"
           ]
         }
       ]
