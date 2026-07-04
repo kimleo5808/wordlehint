@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:45:29.090Z",
+  "lastUpdated": "2026-07-04T06:32:17.188Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1799,6 +1799,30 @@
         "NOTBUD",
         "BBUTSG",
         "ORNGNI"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": 853,
+      "editor": "Tracy Bennett",
+      "clue": "Ooh!",
+      "spangram": "FIREWORKS",
+      "themeWords": [
+        "BRIGHT",
+        "COLORFUL",
+        "DAZZLING",
+        "EXCITING",
+        "SPARKLING"
+      ],
+      "board": [
+        "INGLKS",
+        "LZURNG",
+        "ZFOITI",
+        "DARWGC",
+        "TOENXE",
+        "GHLRIL",
+        "IOIARK",
+        "RBCFPS"
       ]
     }
   ]

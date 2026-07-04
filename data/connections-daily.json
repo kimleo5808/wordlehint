@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T06:45:28.552Z",
+  "lastUpdated": "2026-07-04T06:32:16.693Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52308,6 +52308,53 @@
             "GOSSIP",
             "HOT DRINK",
             "SHIRT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "id": 1119,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PERSIST",
+          "words": [
+            "CONTINUE",
+            "LAST",
+            "LINGER",
+            "STAY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF POEMS",
+          "words": [
+            "BALLAD",
+            "EPIC",
+            "ODE",
+            "VILLANELLE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "TROPICAL DRINKS",
+          "words": [
+            "HURRICANE",
+            "PAINKILLER",
+            "SCORPION",
+            "ZOMBIE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SWEET ___",
+          "words": [
+            "DREAMS",
+            "NOTHINGS",
+            "PEA",
+            "SPOT"
           ]
         }
       ]
