@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T06:32:17.188Z",
+  "lastUpdated": "2026-07-05T06:53:06.811Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1823,6 +1823,30 @@
         "GHLRIL",
         "IOIARK",
         "RBCFPS"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "id": 854,
+      "editor": "Tracy Bennett",
+      "clue": "Barking up the right tree",
+      "spangram": "HUNTINGBREEDS",
+      "themeWords": [
+        "HOUND",
+        "POINTER",
+        "RETRIEVER",
+        "SPANIEL",
+        "TERRIER"
+      ],
+      "board": [
+        "POINRS",
+        "ANLTED",
+        "PSIEHE",
+        "REVOUE",
+        "RIEDNR",
+        "TEINGB",
+        "RNTTER",
+        "HUREIR"
       ]
     }
   ]

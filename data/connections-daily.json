@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T06:32:16.693Z",
+  "lastUpdated": "2026-07-05T06:53:06.343Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52355,6 +52355,53 @@
             "NOTHINGS",
             "PEA",
             "SPOT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "id": 1120,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "GRANOLA INGREDIENTS",
+          "words": [
+            "HONEY",
+            "NUTS",
+            "OATS",
+            "SEEDS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PAYMENT METHODS",
+          "words": [
+            "CARD",
+            "CASH",
+            "CHECK",
+            "WIRE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "AMEX CARD TYPES",
+          "words": [
+            "CENTURION",
+            "GOLD",
+            "GREEN",
+            "PLATINUM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT \"W\" MIGHT STAND FOR",
+          "words": [
+            "TUNGSTEN",
+            "WEST",
+            "WIN",
+            "WITH"
           ]
         }
       ]
