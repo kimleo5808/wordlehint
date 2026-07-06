@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T06:53:06.343Z",
+  "lastUpdated": "2026-07-06T07:59:23.052Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52402,6 +52402,53 @@
             "WEST",
             "WIN",
             "WITH"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "id": 1121,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "STUNNING NEWS",
+          "words": [
+            "BOMBSHELL",
+            "REVELATION",
+            "SHOCKER",
+            "THUNDERBOLT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SCIENCE FAIR MODEL SUBJECTS",
+          "words": [
+            "ATOM",
+            "DNA",
+            "SOLAR SYSTEM",
+            "VOLCANO"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ACME PRODUCTS USED BY WILE E. COYOTE",
+          "words": [
+            "EARTHQUAKE PILLS",
+            "IRON BIRD SEED",
+            "ROCKET SKATES",
+            "TNT"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH DATING APPS",
+          "words": [
+            "BUMBLEBEE",
+            "GRIND RAIL",
+            "MATCHA",
+            "TINDERBOX"
           ]
         }
       ]

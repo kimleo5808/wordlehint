@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T06:53:06.811Z",
+  "lastUpdated": "2026-07-06T07:59:23.557Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1847,6 +1847,31 @@
         "TEINGB",
         "RNTTER",
         "HUREIR"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "id": 855,
+      "editor": "Tracy Bennett",
+      "clue": "The growing season",
+      "spangram": "SUMMERTIME",
+      "themeWords": [
+        "BLOOM",
+        "BURGEON",
+        "EXPAND",
+        "FLOURISH",
+        "SPREAD",
+        "THRIVE"
+      ],
+      "board": [
+        "EONEAN",
+        "GUMPDS",
+        "RTBIXP",
+        "HMTERD",
+        "RIOREA",
+        "VOEOUR",
+        "ELBMLI",
+        "SUMFHS"
       ]
     }
   ]
