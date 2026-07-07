@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T07:59:23.052Z",
+  "lastUpdated": "2026-07-07T06:59:04.364Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52449,6 +52449,53 @@
             "GRIND RAIL",
             "MATCHA",
             "TINDERBOX"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "id": 1122,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ROOMS IN CLUE",
+          "words": [
+            "CONSERVATORY",
+            "HALL",
+            "KITCHEN",
+            "STUDY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "STUDENT-ATHLETE DESIGNATIONS",
+          "words": [
+            "ALL-AMERICAN",
+            "JOCK",
+            "LETTERMAN",
+            "TEAM CAPTAIN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___ TWIST",
+          "words": [
+            "FRENCH",
+            "LEMON",
+            "OLIVER",
+            "PLOT"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN \"SESAME STREET\" CHARACTERS",
+          "words": [
+            "BERNIE",
+            "COLBERT",
+            "DISCOUNT",
+            "SAN ANSELMO"
           ]
         }
       ]
