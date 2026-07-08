@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T06:59:04.364Z",
+  "lastUpdated": "2026-07-08T06:10:40.050Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52496,6 +52496,53 @@
             "COLBERT",
             "DISCOUNT",
             "SAN ANSELMO"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "id": 1123,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CUT INTO THIN PIECES",
+          "words": [
+            "GRATE",
+            "PLANE",
+            "SHAVE",
+            "SLIVER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MOTIF",
+          "words": [
+            "DRIFT",
+            "PLOT",
+            "THEME",
+            "THREAD"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "GUITAR-PLAYING TECHNIQUES",
+          "words": [
+            "PICK",
+            "PLUCK",
+            "STRUM",
+            "TAP"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOUSE OF ___",
+          "words": [
+            "CARDS",
+            "LORDS",
+            "WAX",
+            "WORSHIP"
           ]
         }
       ]

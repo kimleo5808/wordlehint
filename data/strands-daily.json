@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T06:59:04.905Z",
+  "lastUpdated": "2026-07-08T06:10:40.548Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1897,6 +1897,29 @@
         "SICRDE",
         "TECIAG",
         "AGOACH"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "id": 857,
+      "editor": "Tracy Bennett",
+      "clue": "Here comes trouble",
+      "spangram": "LITTLEDEVIL",
+      "themeWords": [
+        "HELLION",
+        "RAPSCALLION",
+        "SCAMP",
+        "WHIPPERSNAPPER"
+      ],
+      "board": [
+        "IPPERS",
+        "HOIREN",
+        "WNLPPA",
+        "ILLEHL",
+        "PTTVIA",
+        "SALECM",
+        "CREDSP",
+        "ALLION"
       ]
     }
   ]
