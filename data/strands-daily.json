@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T06:10:40.548Z",
+  "lastUpdated": "2026-07-09T06:59:00.573Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1920,6 +1920,32 @@
         "SALECM",
         "CREDSP",
         "ALLION"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "id": 858,
+      "editor": "Tracy Bennett",
+      "clue": "On the lips",
+      "spangram": "KISSANDMAKEUP",
+      "themeWords": [
+        "BALM",
+        "GLOSS",
+        "LINER",
+        "PLUMPER",
+        "STAIN",
+        "STICK",
+        "TINT"
+      ],
+      "board": [
+        "STKTAI",
+        "NICSLN",
+        "IERGOS",
+        "LISNDS",
+        "KBSAAM",
+        "APUEKU",
+        "TLMRML",
+        "NITEPP"
       ]
     }
   ]

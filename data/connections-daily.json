@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T06:10:40.050Z",
+  "lastUpdated": "2026-07-09T06:59:00.088Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52543,6 +52543,53 @@
             "LORDS",
             "WAX",
             "WORSHIP"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "id": 1124,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "NON-ALCOHOLIC DESIGNATORS",
+          "words": [
+            "NA",
+            "SPIRIT-FREE",
+            "VIRGIN",
+            "ZERO-PROOF"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MUSIC PUBLICATIONS",
+          "words": [
+            "BILLBOARD",
+            "PITCHFORK",
+            "ROLLING STONE",
+            "SPIN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF RUGS",
+          "words": [
+            "PERSIAN",
+            "PRAYER",
+            "SHAG",
+            "THROW"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "PONTIAC MODELS",
+          "words": [
+            "FIREBIRD",
+            "G6",
+            "GRAND PRIX",
+            "TRANS AM"
           ]
         }
       ]
