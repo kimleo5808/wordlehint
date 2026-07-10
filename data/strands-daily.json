@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T06:59:00.573Z",
+  "lastUpdated": "2026-07-10T06:59:03.529Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1946,6 +1946,32 @@
         "APUEKU",
         "TLMRML",
         "NITEPP"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "id": 859,
+      "editor": "Tracy Bennett",
+      "clue": "\"I think ...\"",
+      "spangram": "WECANMAKEIT",
+      "themeWords": [
+        "BELIEVE",
+        "GOOD",
+        "HASTE",
+        "HISTORY",
+        "LOVE",
+        "MERRY",
+        "SENSE"
+      ],
+      "board": [
+        "WECVOE",
+        "EHAELS",
+        "TANSEN",
+        "SYMAKE",
+        "TRMRYI",
+        "SOGERT",
+        "IBOODE",
+        "HELIEV"
       ]
     }
   ]

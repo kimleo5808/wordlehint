@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T06:59:00.088Z",
+  "lastUpdated": "2026-07-10T06:59:03.031Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52590,6 +52590,53 @@
             "G6",
             "GRAND PRIX",
             "TRANS AM"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "id": 1125,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SMARTPHONE SETTINGS",
+          "words": [
+            "AIRPLANE MODE",
+            "DO NOT DISTURB",
+            "HOTSPOT",
+            "LOCATION SERVICES"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "DESSERT MENU DESCRIPTORS",
+          "words": [
+            "DECADENT",
+            "FRESH-BAKED",
+            "MOLTEN",
+            "À LA MODE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "'80S SYNTH-POP BANDS",
+          "words": [
+            "DEPECHE MODE",
+            "ERASURE",
+            "NEW ORDER",
+            "PET SHOP BOYS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH BASEBALL CALLS",
+          "words": [
+            "BALL GOWN",
+            "OUTKAST",
+            "SAFE MODE",
+            "STRIKE A POSE"
           ]
         }
       ]
