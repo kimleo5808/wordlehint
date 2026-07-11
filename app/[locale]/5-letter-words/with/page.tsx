@@ -4,11 +4,18 @@ import { breadcrumbSchema, JsonLd } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
 import { getBankMeta } from "@/lib/word-bank";
 import { SectionHeading } from "@/components/word-bank/primitives";
-import { Tile } from "@/components/word-bank/tiles";
+import { RoamingTiles } from "@/components/word-bank/tiles";
 import { ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 
-const PATH = "/5-letter-words/ending-with";
+const PATH = "/5-letter-words/with";
+
+// Spokes that are live today. Contains-letter pages roll out one at a time —
+// keep in sync with wordListContainsLetters in lib/sitemap.ts.
+const LIVE_WITH = [
+  "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+  "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
+];
 
 type Params = Promise<{ locale: string }>;
 
@@ -25,13 +32,13 @@ export async function generateMetadata({
   const { count } = getBankMeta();
   return constructMetadata({
     page: "WordList",
-    title: "5 Letter Words by Ending Letter — Wordle Lists",
-    description: `Browse ${count.toLocaleString()} five-letter words by their ending letter. Already know the last letter of today's Wordle? Jump to the full list with past answers flagged.`,
+    title: "5 Letter Words by Contained Letter — Wordle Lists",
+    description: `Browse ${count.toLocaleString()} five-letter words by a letter they contain. Got a yellow letter in Wordle but not its spot? Jump to the full list, mapped by position, with past answers flagged.`,
     keywords: [
-      "5 letter words by ending letter",
-      "5 letter words ending in",
-      "wordle words by last letter",
-      "5 letter words ending list",
+      "5 letter words by contained letter",
+      "5 letter words containing",
+      "5 letter words with a certain letter",
+      "wordle words with letter",
     ],
     locale: locale as Locale,
     path: PATH,
@@ -39,15 +46,7 @@ export async function generateMetadata({
   });
 }
 
-// Spokes that are live today. All 26 ending letters now have a page — the
-// J/Q/V pages are honest reference lists (those letters have no answer-pool
-// words). Keep in sync with wordListEndingLetters in lib/sitemap.ts.
-const LIVE_ENDING = [
-  "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
-  "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
-];
-
-export default async function EndingWithHub({ params }: { params: Params }) {
+export default async function WithHub({ params }: { params: Params }) {
   await params;
   const { count, commonCount } = getBankMeta();
 
@@ -57,7 +56,7 @@ export default async function EndingWithHub({ params }: { params: Params }) {
         data={breadcrumbSchema([
           { name: "Home", url: BASE_URL },
           { name: "5 Letter Words", url: `${BASE_URL}/5-letter-words` },
-          { name: "Ending With", url: `${BASE_URL}${PATH}` },
+          { name: "Contains", url: `${BASE_URL}${PATH}` },
         ])}
       />
 
@@ -74,39 +73,37 @@ export default async function EndingWithHub({ params }: { params: Params }) {
           5 Letter Words
         </I18nLink>
         <span aria-hidden>/</span>
-        <span className="text-foreground">Ending With</span>
+        <span className="text-foreground">Contains</span>
       </nav>
 
       <header className="rounded-3xl border border-border bg-card px-6 py-10 sm:px-10">
-        <div className="mb-4 inline-flex items-center gap-1">
-          {[0, 1, 2, 3].map((i) => (
-            <Tile key={i} state="blank" size="sm" />
-          ))}
-          <Tile letter="E" state="correct" size="sm" />
+        <div className="mb-4">
+          <RoamingTiles letter="A" size="sm" />
         </div>
         <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          5 Letter Words by Ending Letter
+          5 Letter Words by Contained Letter
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-          Already know the last letter of today&apos;s Wordle? Jump to the full
-          list for that ending — all{" "}
+          Know a letter is in today&apos;s Wordle but not sure where? Jump to the
+          full list for that letter — all{" "}
           <strong className="text-foreground">{count.toLocaleString()}</strong>{" "}
           valid five-letter words ({commonCount.toLocaleString()} common
-          answer-pool words), with the best openers and past answers flagged.
+          answer-pool words), mapped by the slot the letter lands in, with the
+          best openers and past answers flagged.
         </p>
       </header>
 
       <section className="mt-10">
-        <SectionHeading title="Browse by Ending Letter" />
+        <SectionHeading title="Browse by Contained Letter" />
         <div className="mt-5 grid grid-cols-4 gap-2 sm:grid-cols-6 md:grid-cols-7">
           {"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((letter) => {
-            const live = LIVE_ENDING.includes(letter);
+            const live = LIVE_WITH.includes(letter);
             if (live) {
               return (
                 <I18nLink
                   key={letter}
-                  href={`/5-letter-words/ending-with-${letter.toLowerCase()}`}
-                  className="flex aspect-square items-center justify-center rounded-xl border border-wordle-correct bg-wordle-correct/10 font-mono text-xl font-bold text-wordle-correct transition-transform hover:-translate-y-0.5"
+                  href={`/5-letter-words/with-${letter.toLowerCase()}`}
+                  className="flex aspect-square items-center justify-center rounded-xl border border-wordle-present bg-wordle-present/10 font-mono text-xl font-bold text-wordle-present transition-transform hover:-translate-y-0.5"
                 >
                   {letter}
                 </I18nLink>
@@ -125,24 +122,23 @@ export default async function EndingWithHub({ params }: { params: Params }) {
           })}
         </div>
         <p className="mt-3 text-sm text-muted-foreground">
-          Every ending letter A–Z has a full list, each hand-checked for Wordle
-          accuracy. The rarest endings — J, Q and V — have only a handful of
-          obscure words and never appear as daily answers.
+          Every letter A–Z has a full list, sorted for Wordle and mapped by where
+          the letter sits in the word — including the rare J, Q, X and Z.
         </p>
       </section>
 
       <section className="mt-10">
-        <SectionHeading title="Wordle Tools" />
+        <SectionHeading title="Browse Another Way" />
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
             { href: "/5-letter-words", title: "Browse by Starting Letter", desc: "The full A–Z hub of five-letter word lists." },
+            { href: "/5-letter-words/ending-with", title: "Browse by Ending Letter", desc: "Every five-letter word by its last letter." },
             { href: "/wordle-solver", title: "Wordle Solver", desc: "Filter by green/yellow/gray letters." },
-            { href: "/wordle-hint-today", title: "Today's Hint", desc: "Progressive clues for today's puzzle." },
           ].map((r) => (
             <I18nLink
               key={r.href}
               href={r.href}
-              className="group rounded-xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-wordle-correct"
+              className="group rounded-xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-wordle-present"
             >
               <h3 className="flex items-center gap-1 font-heading font-bold text-foreground">
                 {r.title}

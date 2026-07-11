@@ -131,6 +131,14 @@ const config = {
           '50%': { transform: 'rotateX(90deg)' },
           '100%': { transform: 'rotateX(0deg)' },
         },
+        // Roaming-yellow motif for /5-letter-words/with-* heroes: each tile's
+        // overlay flashes present-yellow in turn, so the letter "hops" across
+        // the five slots — a position is known, the slot is not.
+        'tile-chase': {
+          '0%, 100%': { opacity: '0' },
+          '8%, 16%': { opacity: '1' },
+          '24%': { opacity: '0' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
@@ -138,6 +146,7 @@ const config = {
         'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
         'pulse-soft': 'pulse-soft 2s ease-in-out infinite',
         'flip-digit': 'flip-digit 0.6s ease-in-out',
+        'tile-chase': 'tile-chase 3s ease-in-out infinite',
       }
     }
   },

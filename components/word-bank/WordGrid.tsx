@@ -16,10 +16,13 @@ export interface GridWord {
 export function WordGrid({
   words,
   highlightLast = false,
+  highlightLetter,
 }: {
   words: GridWord[];
   /** Green the last tile of each word (for ending-letter pages). */
   highlightLast?: boolean;
+  /** Yellow every tile matching this letter (for contains-letter pages). */
+  highlightLetter?: string;
 }) {
   const [open, setOpen] = useState<string | null>(null);
   const ref = useRef<HTMLDivElement>(null);
@@ -55,8 +58,9 @@ export function WordGrid({
             <TileWord
               word={w.word}
               size="xs"
-              highlightFirst={!highlightLast}
+              highlightFirst={!highlightLast && !highlightLetter}
               highlightLast={highlightLast}
+              highlightLetter={highlightLetter}
             />
             {w.wasAnswer && (
               <span

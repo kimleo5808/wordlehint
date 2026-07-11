@@ -211,8 +211,14 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   const wordListStartingLetters = 'abcdefghijklmnopqrstuvwxyz'.split('')
   // Ending-letter spokes roll out one at a time; keep in sync with LIVE_ENDING.
   const wordListEndingLetters = [
-    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'k', 'l', 'm',
-    'n', 'o', 'p', 'r', 's', 't', 'u', 'w', 'x', 'y', 'z',
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+  ]
+  // Contains-letter spokes roll out one at a time; keep in sync with the
+  // /5-letter-words/with hub grid and check-word-bank-sync.mjs.
+  const wordListContainsLetters = [
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
   ]
   const wordListPages = [
     {
@@ -235,6 +241,18 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     },
     ...wordListEndingLetters.map(letter => ({
       url: `${siteUrl}/5-letter-words/ending-with-${letter}`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.75,
+    })),
+    {
+      url: `${siteUrl}/5-letter-words/with`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.8,
+    },
+    ...wordListContainsLetters.map(letter => ({
+      url: `${siteUrl}/5-letter-words/with-${letter}`,
       lastModified: latestPuzzleModified,
       changeFrequency: 'weekly' as ChangeFrequency,
       priority: 0.75,

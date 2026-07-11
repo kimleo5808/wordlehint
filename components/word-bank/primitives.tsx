@@ -42,17 +42,24 @@ export function StatCard({
   value,
   label,
   accent = true,
+  tone = "correct",
 }: {
   value: string;
   label: string;
   accent?: boolean;
+  /** Accent colour of the value — green (default) or yellow for contains pages. */
+  tone?: "correct" | "present";
 }) {
   return (
     <div className="rounded-xl border border-border bg-background p-4 text-center">
       <div
         className={cn(
           "font-heading text-2xl font-bold sm:text-3xl",
-          accent ? "text-wordle-correct" : "text-foreground"
+          !accent
+            ? "text-foreground"
+            : tone === "present"
+              ? "text-wordle-present"
+              : "text-wordle-correct"
         )}
       >
         {value}

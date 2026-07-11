@@ -160,6 +160,105 @@ export const answeredWordsForLetter = cache((letter: string): string[] => {
     .reverse();
 });
 
+/* ------------------------------------------------------------------ */
+/*  Contains-letter variants (for /5-letter-words/with-* pages)        */
+/* ------------------------------------------------------------------ */
+
+/** Decorated words that contain `letter` anywhere. */
+export const containingDecorated = cache((letter: string): BankWord[] => {
+  const L = letter.toUpperCase();
+  return loadBank()
+    .words.filter((w) => w.includes(L))
+    .map(decorate);
+});
+
+export interface PositionGroup {
+  index: number; // 0-based slot of the letter's FIRST occurrence
+  label: string; // e.g. "2nd letter"
+  words: BankWord[];
+  total: number;
+  commonCount: number;
+}
+
+const ORDINALS = ["1st", "2nd", "3rd", "4th", "5th"];
+
+/** Group a letter's containing-words by the slot of its first occurrence. */
+export const groupByPosition = cache((letter: string): PositionGroup[] => {
+  const L = letter.toUpperCase();
+  const groups = new Map<number, BankWord[]>();
+  for (const bw of containingDecorated(L)) {
+    const idx = bw.word.indexOf(L);
+    if (!groups.has(idx)) groups.set(idx, []);
+    groups.get(idx)!.push(bw);
+  }
+  return Array.from(groups.entries())
+    .sort(([a], [b]) => a - b)
+    .map(([index, words]) => {
+      const sorted = [...words].sort((a, b) => {
+        if (a.common !== b.common) return a.common ? -1 : 1;
+        return a.word.localeCompare(b.word);
+      });
+      return {
+        index,
+        label: `${ORDINALS[index]} letter`,
+        words: sorted,
+        total: words.length,
+        commonCount: words.filter((w) => w.common).length,
+      };
+    });
+});
+
+export interface PositionStats {
+  letter: string;
+  total: number; // valid guesses containing the letter
+  common: number; // answer-pool words containing the letter
+  answered: number; // already used as daily answers
+  // How often the letter sits in each of the five slots (a word with the
+  // letter twice counts in each slot it occupies).
+  positions: { index: number; label: string; count: number }[];
+}
+
+export const positionStats = cache((letter: string): PositionStats => {
+  const L = letter.toUpperCase();
+  const words = containingDecorated(L);
+  const counts = [0, 0, 0, 0, 0];
+  for (const bw of words) {
+    for (let i = 0; i < 5; i++) if (bw.word[i] === L) counts[i]++;
+  }
+  return {
+    letter: L,
+    total: words.length,
+    common: words.filter((w) => w.common).length,
+    answered: words.filter((w) => w.wasAnswer).length,
+    positions: counts.map((count, index) => ({
+      index,
+      label: ORDINALS[index],
+      count,
+    })),
+  };
+});
+
+/** Common words containing a letter that have already been answers, newest first. */
+export const answeredWordsContaining = cache((letter: string): string[] => {
+  const L = letter.toUpperCase();
+  return getAllPuzzles()
+    .filter((p) => p.answer.toUpperCase().includes(L))
+    .map((p) => p.answer.toUpperCase())
+    .reverse();
+});
+
+/** Common words containing `letter` whose first letter is `startLetter`. */
+export const commonContainingByStart = cache(
+  (startLetter: string, containLetter: string, limit = 6): string[] => {
+    const S = startLetter.toUpperCase();
+    const C = containLetter.toUpperCase();
+    return containingDecorated(C)
+      .filter((w) => w.common && w.word[0] === S)
+      .map((w) => w.word)
+      .slice(0, limit);
+  }
+);
+
 /** Common words for a letter ending in a given letter (for the pattern tables). */
 export const commonEndingWith = cache(
   (startLetter: string, endLetter: string, limit = 8): string[] => {

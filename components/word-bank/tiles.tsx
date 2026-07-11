@@ -55,6 +55,7 @@ export function TileWord({
   size = "sm",
   highlightFirst = true,
   highlightLast = false,
+  highlightLetter,
   plain = false,
   className,
 }: {
@@ -63,19 +64,37 @@ export function TileWord({
   highlightFirst?: boolean;
   /** Green the last tile instead of the first (for ending-letter pages). */
   highlightLast?: boolean;
+  /**
+   * Yellow ("present") every tile matching this letter — the "contains" pages'
+   * roaming-yellow motif. Takes precedence over highlightFirst/highlightLast.
+   */
+  highlightLetter?: string;
   plain?: boolean;
   className?: string;
 }) {
   const gap = size === "xs" ? "gap-0.5" : "gap-1";
   const letters = word.split("");
+  const target = highlightLetter?.toUpperCase();
   return (
     <span className={cn("inline-flex", gap, className)}>
       {letters.map((ch, i) => {
-        const highlighted = plain
-          ? false
-          : highlightLast
-            ? i === letters.length - 1
-            : highlightFirst && i === 0;
+        if (plain) {
+          return <Tile key={i} letter={ch} size={size} state="blank" />;
+        }
+        if (target) {
+          const present = ch.toUpperCase() === target;
+          return (
+            <Tile
+              key={i}
+              letter={ch}
+              size={size}
+              state={present ? "present" : "blank"}
+            />
+          );
+        }
+        const highlighted = highlightLast
+          ? i === letters.length - 1
+          : highlightFirst && i === 0;
         return (
           <Tile
             key={i}
@@ -90,26 +109,66 @@ export function TileWord({
 }
 
 /**
+ * Hero motif for the /5-letter-words/with-* pages: five tiles of the same
+ * letter where a yellow ("present") highlight hops across the slots, echoing a
+ * Wordle yellow letter whose position is unknown. Pure CSS; under
+ * `prefers-reduced-motion` the chase stops and the middle tile stays yellow.
+ */
+export function RoamingTiles({
+  letter,
+  size = "md",
+}: {
+  letter: string;
+  size?: TileSize;
+}) {
+  const L = letter.toUpperCase();
+  return (
+    <span className="inline-flex gap-1" aria-hidden>
+      {[0, 1, 2, 3, 4].map((i) => (
+        <span key={i} className="relative inline-flex">
+          <Tile
+            letter={L}
+            size={size}
+            state="blank"
+            className={cn(
+              i === 2 &&
+                "motion-reduce:border-transparent motion-reduce:bg-wordle-present motion-reduce:text-white"
+            )}
+          />
+          {/* Overlay flashes yellow in turn; delay staggers the 3s loop / 5 slots. */}
+          <span
+            className="absolute inset-0 animate-tile-chase opacity-0 motion-reduce:hidden"
+            style={{ animationDelay: `${i * 0.6}s` }}
+          >
+            <Tile letter={L} size={size} state="present" className="h-full w-full" />
+          </span>
+        </span>
+      ))}
+    </span>
+  );
+}
+
+/**
  * A 5-cell pattern like S _ _ _ E where only some positions are filled.
  * `filled` maps position index -> letter; empty positions render blank tiles.
  */
 export function TilePattern({
   filled,
+  present,
   size = "sm",
 }: {
   filled: Record<number, string>;
+  /** Positions to render yellow ("present") instead of green ("correct"). */
+  present?: Record<number, string>;
   size?: TileSize;
 }) {
   return (
     <span className="inline-flex gap-1">
-      {[0, 1, 2, 3, 4].map((i) => (
-        <Tile
-          key={i}
-          letter={filled[i]}
-          size={size}
-          state={filled[i] ? "correct" : "blank"}
-        />
-      ))}
+      {[0, 1, 2, 3, 4].map((i) => {
+        const letter = present?.[i] ?? filled[i];
+        const state = present?.[i] ? "present" : filled[i] ? "correct" : "blank";
+        return <Tile key={i} letter={letter} size={size} state={state} />;
+      })}
     </span>
   );
 }

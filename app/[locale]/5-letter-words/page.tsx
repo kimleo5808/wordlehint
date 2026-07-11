@@ -138,6 +138,32 @@ export default async function FiveLetterWordsHub({
       </section>
 
       <section className="mt-10">
+        <SectionHeading title="Browse by Contained Letter" />
+        <I18nLink
+          href="/5-letter-words/with"
+          className="group mt-5 flex items-center justify-between gap-4 rounded-2xl border border-border bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-wordle-present"
+        >
+          <div>
+            <h3 className="flex items-center gap-1 font-heading text-lg font-bold text-foreground">
+              5 Letter Words by Contained Letter
+              <ArrowRight className="h-4 w-4 -translate-x-1 opacity-0 transition-all group-hover:translate-x-0 group-hover:opacity-100" />
+            </h3>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Got a yellow letter but not its spot? Jump to lists mapped by where
+              the letter sits in the word.
+            </p>
+          </div>
+          <div className="hidden shrink-0 items-center gap-1 sm:inline-flex">
+            <Tile state="blank" size="sm" />
+            <Tile letter="A" state="present" size="sm" />
+            {[0, 1, 2].map((i) => (
+              <Tile key={i} state="blank" size="sm" />
+            ))}
+          </div>
+        </I18nLink>
+      </section>
+
+      <section className="mt-10">
         <SectionHeading title="Wordle Tools" />
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[

@@ -42,6 +42,7 @@
 | Wordle daily hints | `/wordle-hint-today`, `/wordle-hint` (archive), `/wordle-hint/[date]`, `/todays-wordle-answer`, `/yesterdays-wordle-answer`, `/wordle-answers` |
 | Wordle tools | `/wordle-solver`, `/wordle-unlimited`, `/best-wordle-starting-words` |
 | Letter games | `/4-letters` … `/11-letters` (one route per word length, 4–11) |
+| 5-letter word lists | `/5-letter-words` (starting-letter hub), `/5-letter-words/starting-with-[a–z]` (26 spokes), `/5-letter-words/ending-with` + `/ending-with-[a–z]` (26), `/5-letter-words/with` (contained-letter hub) + `/with-[a–z]` (26) — see the word-bank section below |
 | Connections | `/connections-hint-today`, `/connections-answers` |
 | Strands | `/strands-hint-today`, `/strands-answers` |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
@@ -71,6 +72,20 @@ This is the core of the site — understand it before touching anything date-rel
 
 ---
 
+## `/5-letter-words` word-list subsite (SEO hub-and-spoke)
+
+A static SEO cluster of five-letter word lists — separate from the daily pipeline (no NYT fetch). **Hub-and-spoke** shape: three hub pages (`/5-letter-words` by starting letter, `/5-letter-words/ending-with` by ending letter, `/5-letter-words/with` by contained letter) linking out to per-letter spoke pages. The **contains** set (`/with-[a–z]`) targets the "yellow letter" intent — words containing a letter in *any* position — with a per-letter position-distribution map; all 26 are live (`components/word-bank/ContainsListPage.tsx` + `PositionMap.tsx`, yellow `wordle-present` theme).
+
+- **Data source:** `data/word-bank/5.json` — built by `scripts/build-word-bank.mjs` from the public Wordle valid-guess list (~14.8k words), each tagged `common` when it's in the official answer pool. **Not** auto-updated by the daily cron; rebuild manually if the word list changes.
+- **Read layer:** `lib/word-bank.ts` — all React `cache()`d. `startingWith` / `endingWithDecorated` (join definitions + flag past daily answers), `groupBySecondLetter` / `groupByFourthLetter`, `letterStats` / `endingLetterStats`. Answer-pool words are surfaced first.
+- **Per-letter copy:** `data/word-bank/{starting,ending}-with-<letter>.ts` — one hand-written `content: LetterContent` object each (hero, openers, strategy, FAQ). `{N}/{COMMON}/{ANSWERED}` placeholders are filled at render.
+- **UI:** `components/word-bank/` — `LetterListPage` (starting spokes), `EndingListPage` (ending spokes); the two hub `page.tsx` render inline. Spoke `page.tsx` files are thin: metadata + pass `content`. All SSG.
+- **Coverage:** all 26 starting + all 26 ending + all 26 contains letters have a page (79 spokes + 3 hubs). The three rarest *endings* — **J / Q / V** — have only 3–5 obscure words each and **0 answer-pool words**, so those pages are honest "this ending can't be the daily answer" reference lists; the *contains* pages all have common words (even J/Q/X/Z), so none are thin.
+
+> **Adding/removing an ending- or contains-letter spoke touches 4 places that must stay in sync:** (1) the route dir (`ending-with-<l>/page.tsx` or `with-<l>/page.tsx`), (2) the `data/word-bank/` content file (`ending-with-<l>.ts` or `with-<l>.ts`), (3) the sitemap array (`wordListEndingLetters` / `wordListContainsLetters` in `lib/sitemap.ts`), (4) the hub's live list (`LIVE_ENDING` / `LIVE_WITH`). Run **`node scripts/check-word-bank-sync.mjs`** to verify all three directions (starting/ending/contains) agree — it exits non-zero on any mismatch and warns about thin (0-common) pages. Starting spokes only need places 1–3 (sitemap generates a–z automatically).
+
+---
+
 ## Key files
 
 | Purpose | Path |
@@ -89,6 +104,10 @@ This is the core of the site — understand it before touching anything date-rel
 | Word definitions | `lib/wordle-definitions.ts` + `data/wordle-definitions.json` |
 | Difficulty logic | `lib/wordle-difficulty.ts` |
 | Letter-game data | `data/letter-games.ts`, `data/letter-games-content.ts`, `data/wordle-words.ts` |
+| Word-bank read layer (`/5-letter-words`) | `lib/word-bank.ts` + `data/word-bank/5.json` |
+| Word-bank page copy | `data/word-bank/{starting,ending}-with-*.ts` |
+| Word-bank UI | `components/word-bank/` (`LetterListPage`, `EndingListPage`) |
+| Word-bank build / sync check | `scripts/build-word-bank.mjs`, `scripts/check-word-bank-sync.mjs` |
 | Unlimited-mode data | `data/wordle-unlimited/*` (comparison, content, faq, length-table, modes, related-games) |
 | Connections / Strands page copy | `data/connections/content.ts`, `data/strands/content.ts` |
 | Other page copy | `data/wordle-answers/*`, `data/best-starting-words/content.ts`, `data/wordle-solver/content.ts` |
