@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T06:59:03.031Z",
+  "lastUpdated": "2026-07-11T05:56:31.051Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52637,6 +52637,53 @@
             "OUTKAST",
             "SAFE MODE",
             "STRIKE A POSE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "id": 1126,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CIRCUS EQUIPMENT",
+          "words": [
+            "CANNON",
+            "STILTS",
+            "TRAPEZE",
+            "UNICYCLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "UNDISTURBED, AS WATER",
+          "words": [
+            "CALM",
+            "FLAT",
+            "GLASSY",
+            "STILL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "\"TOY STORY\" CHARACTERS",
+          "words": [
+            "BO PEEP",
+            "JESSIE",
+            "SLINKY",
+            "WOODY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "DOUBLE LETTERS APPEARING IN THAT LETTER'S ALPHABETICAL POSITION",
+          "words": [
+            "AARDVARK",
+            "BOCCE",
+            "EBBING",
+            "TWIDDLE"
           ]
         }
       ]

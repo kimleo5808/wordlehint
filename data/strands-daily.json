@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T06:59:03.529Z",
+  "lastUpdated": "2026-07-11T05:56:31.447Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -1972,6 +1972,33 @@
         "SOGERT",
         "IBOODE",
         "HELIEV"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "id": 860,
+      "editor": "Tracy Bennett",
+      "clue": "Fishy fare",
+      "spangram": "CASSEROLE",
+      "themeWords": [
+        "CHEESE",
+        "MILK",
+        "NOODLES",
+        "PEAS",
+        "PEPPER",
+        "SALT",
+        "SOUP",
+        "TUNA"
+      ],
+      "board": [
+        "EPUNTR",
+        "SATALE",
+        "LDOAPE",
+        "SEOSPP",
+        "CNELOR",
+        "EASSES",
+        "SELIMO",
+        "ECHKUP"
       ]
     }
   ]
