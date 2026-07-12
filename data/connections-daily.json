@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T05:56:31.051Z",
+  "lastUpdated": "2026-07-12T06:16:13.076Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52684,6 +52684,53 @@
             "BOCCE",
             "EBBING",
             "TWIDDLE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "id": 1127,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "REPRODUCTIVE PART OF FRUIT",
+          "words": [
+            "PIP",
+            "PIT",
+            "SEED",
+            "STONE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "BIT OF FRUIT-FLAVORED CANDY",
+          "words": [
+            "DOT",
+            "NERD",
+            "RUNT",
+            "SPREE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "VERBS IN A COLLEGE LIFE SLOGAN",
+          "words": [
+            "PARTY",
+            "REPEAT",
+            "SLEEP",
+            "STUDY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTS OF U.S. CAPITALS",
+          "words": [
+            "DEN",
+            "MAD",
+            "PHO",
+            "SAC"
           ]
         }
       ]
