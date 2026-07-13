@@ -56,7 +56,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Home" });
 
-  return constructMetadata({
+  const metadata = await constructMetadata({
     page: "Home",
     title: t("title"),
     description: t("description"),
@@ -64,6 +64,14 @@ export async function generateMetadata({
     path: `/`,
     canonicalUrl: `/`,
   });
+
+  if (process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID) {
+    metadata.other = {
+      "google-adsense-account": `ca-pub-${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID}`,
+    };
+  }
+
+  return metadata;
 }
 
 export const viewport: Viewport = {
