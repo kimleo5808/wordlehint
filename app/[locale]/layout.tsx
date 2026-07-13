@@ -1,3 +1,4 @@
+import ConsentDefaults from "@/app/ConsentDefaults";
 import GoogleAdsense from "@/app/GoogleAdsense";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
 import PlausibleAnalytics from "@/app/PlausibleAnalytics";
@@ -120,6 +121,7 @@ export default async function LocaleLayout({
           <></>
         ) : (
           <>
+            <ConsentDefaults />
             <Analytics />
             <GoogleAnalytics />
             <GoogleAdsense />
