@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T06:35:48.361Z",
+  "lastUpdated": "2026-07-14T05:44:07.544Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52778,6 +52778,53 @@
             "KISSER",
             "PECKISH",
             "SMACKDOWN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "id": 1129,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CONTRACT",
+          "words": [
+            "AGREEMENT",
+            "BARGAIN",
+            "DEAL",
+            "UNDERSTANDING"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "EDIT MENU OPTIONS",
+          "words": [
+            "COPY",
+            "CUT",
+            "DELETE",
+            "PASTE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF BASKETS",
+          "words": [
+            "EASTER",
+            "GROCERY",
+            "LAUNDRY",
+            "PICNIC"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SYMBOLIZED WITH ARROWS",
+          "words": [
+            "RECYCLING",
+            "SHUFFLE",
+            "THIS SIDE UP",
+            "U-TURN"
           ]
         }
       ]

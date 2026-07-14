@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T06:35:48.865Z",
+  "lastUpdated": "2026-07-14T05:44:08.051Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2048,6 +2048,31 @@
         "BAYPOT",
         "LSISFY",
         "EATGNI"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "id": 863,
+      "editor": "Tracy Bennett",
+      "clue": "Make yourself comfortable",
+      "spangram": "HAVEASEAT",
+      "themeWords": [
+        "BEANBAG",
+        "CHAIR",
+        "OTTOMAN",
+        "RECLINER",
+        "ROCKER",
+        "THRONE"
+      ],
+      "board": [
+        "REEOHT",
+        "HLCNRN",
+        "AINTTA",
+        "VREOOM",
+        "EASEAT",
+        "CROCKE",
+        "HAAEBR",
+        "RINBAG"
       ]
     }
   ]
