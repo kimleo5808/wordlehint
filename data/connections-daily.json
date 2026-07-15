@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T05:44:07.544Z",
+  "lastUpdated": "2026-07-15T05:47:19.053Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52825,6 +52825,53 @@
             "SHUFFLE",
             "THIS SIDE UP",
             "U-TURN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "id": 1130,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TERMS FOR THE LEGAL SYSTEM",
+          "words": [
+            "BAR",
+            "BENCH",
+            "COURT",
+            "TRIBUNAL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS WITH LACES",
+          "words": [
+            "BASEBALL GLOVE",
+            "CORSET",
+            "FOOTBALL",
+            "SHOE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF SPORTS",
+          "words": [
+            "EXTREME",
+            "MOTOR",
+            "RACKET",
+            "WATER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS BEFORE \"ROOM\" TO INDICATE EXTRA SPACE",
+          "words": [
+            "BREATHING",
+            "ELBOW",
+            "HEAD",
+            "WIGGLE"
           ]
         }
       ]

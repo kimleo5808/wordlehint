@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T05:44:08.051Z",
+  "lastUpdated": "2026-07-15T05:47:19.517Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2073,6 +2073,29 @@
         "CROCKE",
         "HAAEBR",
         "RINBAG"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "id": 864,
+      "editor": "Tracy Bennett",
+      "clue": "Rose-colored glasses",
+      "spangram": "PIEINTHESKY",
+      "themeWords": [
+        "IDEALISTIC",
+        "IMPRACTICAL",
+        "QUIXOTIC",
+        "ROMANTIC"
+      ],
+      "board": [
+        "CMOYQU",
+        "IARKXI",
+        "TNESOT",
+        "MPHTCI",
+        "IRLNEI",
+        "AAEIAD",
+        "CCILCI",
+        "TIPIST"
       ]
     }
   ]

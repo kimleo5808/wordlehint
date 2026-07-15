@@ -23439,6 +23439,24 @@
       }
     ]
   },
+  "PSHAW": {
+    "definition": "To express disgust or contempt.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To express disgust or contempt.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "interjection",
+        "definition": "Indicating disapproval, scoffery, irritation, impatience or disbelief.",
+        "example": "Pshaw! I can't believe it!"
+      }
+    ]
+  },
   "PUBIC": {
     "definition": "Of, or relating to the area of the body adjacent to the pubis or the pubes.",
     "partOfSpeech": "adjective",
