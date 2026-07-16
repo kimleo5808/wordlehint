@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T05:47:19.517Z",
+  "lastUpdated": "2026-07-16T05:57:58.125Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2096,6 +2096,32 @@
         "AAEIAD",
         "CCILCI",
         "TIPIST"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "id": 865,
+      "editor": "Tracy Bennett",
+      "clue": "\"Rerouting ...\"",
+      "spangram": "CHANGECOURSE",
+      "themeWords": [
+        "DEVIATE",
+        "PIVOT",
+        "SWERVE",
+        "TACK",
+        "TURN",
+        "VEER",
+        "ZIGZAG"
+      ],
+      "board": [
+        "GAAIVE",
+        "ZIZTGD",
+        "GHENCE",
+        "CEAOVP",
+        "REUOIS",
+        "VRTEWE",
+        "SKTRVU",
+        "ECANRT"
       ]
     }
   ]
