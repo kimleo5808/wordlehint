@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T05:57:58.125Z",
+  "lastUpdated": "2026-07-17T05:58:37.657Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2122,6 +2122,29 @@
         "VRTEWE",
         "SKTRVU",
         "ECANRT"
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "id": 866,
+      "editor": "Tracy Bennett",
+      "clue": "Categorically speaking",
+      "spangram": "TRIVIALPURSUIT",
+      "themeWords": [
+        "ENTERTAINMENT",
+        "GEOGRAPHY",
+        "NATURE",
+        "SPORTS"
+      ],
+      "board": [
+        "NEIAET",
+        "TMNTRN",
+        "YHPARE",
+        "TRIVGT",
+        "OPSIOI",
+        "RERAEU",
+        "TAULGS",
+        "SNTPUR"
       ]
     }
   ]

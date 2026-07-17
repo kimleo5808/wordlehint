@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T05:57:57.604Z",
+  "lastUpdated": "2026-07-17T05:58:37.265Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52919,6 +52919,53 @@
             "PERIOD PIECE",
             "POINT BREAK",
             "SPOT REMOVER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "id": 1132,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "GRAND FINALE",
+          "words": [
+            "EPILOGUE",
+            "FAREWELL",
+            "LAST DANCE",
+            "SWAN SONG"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SEEN IN AN ARCADE",
+          "words": [
+            "CRANE GAME",
+            "PINBALL",
+            "TICKETS",
+            "TOKENS"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FOUR GROUPS OF FOUR",
+          "words": [
+            "CARDINAL DIRECTIONS",
+            "CLASSICAL ELEMENTS",
+            "SEASONS",
+            "SUITS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN PARTS OF A CAR",
+          "words": [
+            "PLOT SPOILER",
+            "ROBIN HOOD",
+            "SATIRES",
+            "TREE TRUNK"
           ]
         }
       ]
