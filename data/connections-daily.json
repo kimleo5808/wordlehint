@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T05:58:37.265Z",
+  "lastUpdated": "2026-07-18T05:40:42.065Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -52966,6 +52966,53 @@
             "ROBIN HOOD",
             "SATIRES",
             "TREE TRUNK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "id": 1133,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "COMMIT A BASKETBALL VIOLATION",
+          "words": [
+            "CARRY",
+            "DOUBLE DRIBBLE",
+            "GOALTEND",
+            "TRAVEL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "BELIEF",
+          "words": [
+            "ATTITUDE",
+            "MIND",
+            "OPINION",
+            "VIEW"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS TRACKED IN VIDEO GAMES",
+          "words": [
+            "HEALTH",
+            "LIVES",
+            "SCORE",
+            "TIME"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS AFTER \"POP\"",
+          "words": [
+            "CULTURE",
+            "FLY",
+            "QUIZ",
+            "TART"
           ]
         }
       ]

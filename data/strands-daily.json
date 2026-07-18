@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T05:58:37.657Z",
+  "lastUpdated": "2026-07-18T05:40:42.552Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2145,6 +2145,31 @@
         "RERAEU",
         "TAULGS",
         "SNTPUR"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "id": 867,
+      "editor": "Tracy Bennett",
+      "clue": "A healthy breakfast",
+      "spangram": "BOWLOFGRANOLA",
+      "themeWords": [
+        "CRUNCHY",
+        "NUTTY",
+        "OATY",
+        "SALTY",
+        "SWEET",
+        "WHOLESOME"
+      ],
+      "board": [
+        "TSTAUT",
+        "EWYONT",
+        "ENURCY",
+        "BCALAR",
+        "OHYONG",
+        "SWLOFE",
+        "LAWLEM",
+        "YTHOSO"
       ]
     }
   ]
