@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T05:40:42.552Z",
+  "lastUpdated": "2026-07-19T06:11:39.843Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2170,6 +2170,30 @@
         "SWLOFE",
         "LAWLEM",
         "YTHOSO"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "id": 868,
+      "editor": "Tracy Bennett",
+      "clue": "Big talk",
+      "spangram": "SUPERSIZEIT",
+      "themeWords": [
+        "BEHEMOTH",
+        "COLOSSUS",
+        "GIANT",
+        "LEVIATHAN",
+        "MAMMOTH"
+      ],
+      "board": [
+        "THEEVI",
+        "NEMOLA",
+        "ABTNAT",
+        "IHRSIH",
+        "GECOLZ",
+        "PHTSOE",
+        "UMOSUI",
+        "SMAMST"
       ]
     }
   ]
