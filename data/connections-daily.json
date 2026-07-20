@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T06:11:39.344Z",
+  "lastUpdated": "2026-07-20T06:30:12.163Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53060,6 +53060,53 @@
             "LONG",
             "POKER",
             "STRAIGHT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "id": 1135,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ANNOUNCE",
+          "words": [
+            "BLARE",
+            "HERALD",
+            "SOUND",
+            "TRUMPET"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS TO CLICK",
+          "words": [
+            "BUTTON",
+            "ICON",
+            "LINK",
+            "MENU"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ASSOCIATED WITH PEARLS",
+          "words": [
+            "BUBBLE TEA",
+            "OYSTER",
+            "SWINE",
+            "WISDOM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH ALCOHOLIC BEVERAGES",
+          "words": [
+            "ALEXA",
+            "MEADOW",
+            "PORTOBELLO",
+            "SAKES"
           ]
         }
       ]

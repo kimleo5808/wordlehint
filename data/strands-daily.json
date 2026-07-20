@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T06:11:39.843Z",
+  "lastUpdated": "2026-07-20T06:30:12.654Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2194,6 +2194,30 @@
         "PHTSOE",
         "UMOSUI",
         "SMAMST"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "id": 869,
+      "editor": "Tracy Bennett",
+      "clue": "Small talk",
+      "spangram": "ITSYBITSY",
+      "themeWords": [
+        "LITTLE",
+        "MICROSCOPIC",
+        "MINIATURE",
+        "MINUSCULE",
+        "TINY"
+      ],
+      "board": [
+        "IPOCST",
+        "CTTORI",
+        "IELCIN",
+        "ILSMBY",
+        "ETEYYI",
+        "LMRUST",
+        "UNITMI",
+        "CSUAIN"
       ]
     }
   ]
