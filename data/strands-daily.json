@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T06:30:12.654Z",
+  "lastUpdated": "2026-07-21T06:09:42.710Z",
   "puzzles": [
     {
       "date": "2026-04-23",
@@ -2218,6 +2218,31 @@
         "LMRUST",
         "UNITMI",
         "CSUAIN"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "id": 870,
+      "editor": "Tracy Bennett",
+      "clue": "Write there",
+      "spangram": "STATIONERY",
+      "themeWords": [
+        "CARD",
+        "ENVELOPE",
+        "FILE",
+        "LETTERHEAD",
+        "NOTEPAD",
+        "SHEET"
+      ],
+      "board": [
+        "NEDARE",
+        "VPEEHT",
+        "ELOLET",
+        "STATIO",
+        "NLYREN",
+        "OIEARD",
+        "TFCSHT",
+        "EPADEE"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T06:30:12.163Z",
+  "lastUpdated": "2026-07-21T06:09:42.149Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53107,6 +53107,53 @@
             "MEADOW",
             "PORTOBELLO",
             "SAKES"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "id": 1136,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "KINDS OF TOPS",
+          "words": [
+            "CROP",
+            "HALTER",
+            "TANK",
+            "TUBE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SOFTWARE DOWNLOADS",
+          "words": [
+            "APP",
+            "DRIVER",
+            "EXTENSION",
+            "PLUGIN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ELEMENTS OF A MUSICAL",
+          "words": [
+            "BOOK",
+            "LYRICS",
+            "MUSIC",
+            "ORCHESTRATION"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "TELE___",
+          "words": [
+            "GRAM",
+            "KINESIS",
+            "PROMPTER",
+            "VISION"
           ]
         }
       ]
