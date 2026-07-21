@@ -30,6 +30,7 @@ export type ContentBlock =
   | { type: "list"; ordered?: boolean; items: string[] }
   | { type: "pullquote"; text: string; cite?: string }
   | { type: "stathighlight"; number: string; label: string; cite?: string }
+  | { type: "image"; src: string; alt: string; width: number; height: number; caption?: string }
   | { type: "difficulty-legend" } // H2-3 四色难度图例
   | { type: "comparison-cards" } // H2-5 双栏对比
   | { type: "faq" } // H2-7 FAQ accordion
@@ -96,6 +97,14 @@ export const SECTIONS: ContentSection[] = [
         ],
       },
       {
+        type: "image",
+        src: "/images/connections-unlimited/how-to-play.png",
+        alt: "How to play Connections Unlimited in three steps: scan the 16-word grid, select four words, submit to collapse a correct group into a colored banner",
+        width: 1200,
+        height: 520,
+        caption: "The core loop: scan, select four, submit. Four mistakes allowed per board.",
+      },
+      {
         type: "paragraph",
         text: "Two quality-of-life details worth knowing. Shuffle rearranges the remaining tiles, which genuinely helps because word position creates false patterns. And resubmitting a combination you already tried costs nothing: the board recognizes the repeat and simply reminds you.",
       },
@@ -127,6 +136,14 @@ export const SECTIONS: ContentSection[] = [
         type: "paragraph",
         text: "Blue usually demands specific knowledge. Keyboard Keys grouped OPTION, RETURN, SHIFT, and TAB, all of which could plausibly belong to a finance or grammar category instead. Purple is the wordplay tier, and it is where most games are lost. Palindromes tied together KAYAK, LEVEL, MOM, and RACECAR: nothing about their meanings connects, only their spelling. Around 40% of purple groups rely on a trick like that rather than on what the words mean.",
       },
+      {
+        type: "image",
+        src: "/images/connections-unlimited/difficulty-colors.png",
+        alt: "The four Connections difficulty colors shown with the real June 12, 2023 puzzle: yellow Wet Weather, green NBA Teams, blue Keyboard Keys, purple Palindromes",
+        width: 1200,
+        height: 640,
+        caption: "All four groups from the first archived board, graded easiest to trickiest.",
+      },
     ],
   },
 
@@ -146,6 +163,14 @@ export const SECTIONS: ContentSection[] = [
       {
         type: "paragraph",
         text: "Editors build almost every board around overlap words that fit two categories. HEAT works as weather and as a basketball team; RETURN works as a keyboard key and a tennis shot. Before your first guess, find the words that could belong to multiple themes and set them aside mentally.",
+      },
+      {
+        type: "image",
+        src: "/images/connections-unlimited/trap-words.png",
+        alt: "A trap word in Connections: HEAT could fit the Wet Weather group but actually belongs to NBA Teams",
+        width: 1200,
+        height: 640,
+        caption: "HEAT reads as weather, but the board wants the basketball team.",
       },
       { type: "h3", text: "Start with your most certain group, not the easiest color" },
       {

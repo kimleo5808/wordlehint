@@ -135,13 +135,13 @@ export default async function ConnectionsUnlimitedPage({
         ])}
       />
 
-      {/* Visually-hidden H1 — the game IS the fold-1 hero. */}
-      <h1 className="sr-only">{PAGE_META.h1}</h1>
-
-      {/* ─── FOLD 1: Game-First ─── */}
-      <UnlimitedConnectionsShell pool={pool} totalPuzzles={totalPuzzles} />
-      <div className="pb-6">
-        <ScrollHint />
+      {/* ─── FOLD 1: Game only — visible H1 renders inside the shell.
+          min-height pins the SEO stream below the first viewport. ─── */}
+      <div className="flex min-h-[calc(100dvh-4rem)] flex-col">
+        <UnlimitedConnectionsShell pool={pool} totalPuzzles={totalPuzzles} />
+        <div className="mt-auto pb-6">
+          <ScrollHint />
+        </div>
       </div>
 
       {/* Visual hard-break between game shell and editorial body */}

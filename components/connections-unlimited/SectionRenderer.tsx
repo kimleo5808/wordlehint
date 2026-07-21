@@ -6,6 +6,7 @@ import type {
   ContentBlock,
   ContentSection,
 } from "@/data/connections-unlimited/content";
+import Image from "next/image";
 import ComparisonCards from "./ComparisonCards";
 import DifficultyLegend from "./DifficultyLegend";
 import FAQAccordion from "./FAQAccordion";
@@ -86,6 +87,25 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
           label={block.label}
           cite={block.cite}
         />
+      );
+
+    case "image":
+      return (
+        <figure className="my-6">
+          <Image
+            src={block.src}
+            alt={block.alt}
+            width={block.width}
+            height={block.height}
+            sizes="(max-width: 768px) 100vw, 672px"
+            className="w-full border border-brand-midInk/30 dark:border-brand-dark-ink/20"
+          />
+          {block.caption && (
+            <figcaption className="mt-2 text-center font-plex-mono text-[11px] uppercase tracking-[0.14em] text-brand-subtle">
+              {block.caption}
+            </figcaption>
+          )}
+        </figure>
       );
 
     case "difficulty-legend":

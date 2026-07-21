@@ -106,6 +106,16 @@ export default function UnlimitedConnectionsShell({
     <>
       <StatsBadgeBar totalPuzzles={totalPuzzles} />
 
+      {/* Visible page title above the board */}
+      <div className="px-4 pt-6 text-center sm:pt-8">
+        <h1 className="font-fraunces text-3xl font-bold text-brand-ink sm:text-4xl dark:text-brand-dark-ink">
+          Connections Unlimited
+        </h1>
+        <p className="mt-2 font-plex-mono text-[11px] uppercase tracking-[0.18em] text-brand-subtle">
+          Endless 16-word grouping puzzles · Free · No daily limit
+        </p>
+      </div>
+
       <section
         aria-label="Connections Unlimited game"
         className="mx-auto flex max-w-2xl flex-col items-center gap-5 px-4 pt-5 pb-6 sm:gap-6 sm:px-6"
