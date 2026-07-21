@@ -149,6 +149,12 @@ export default function SpellingBeeAnswersPage() {
                 Reveal Today&apos;s Answers
                 <ChevronRight className="h-4 w-4 rotate-90" />
               </a>
+              <Link
+                href="/spelling-bee-hints-today"
+                className="text-sm font-semibold text-wordle-present hover:text-wordle-present/80"
+              >
+                Just want hints, no spoilers? →
+              </Link>
               <a
                 href="https://www.nytimes.com/puzzles/spelling-bee"
                 target="_blank"
@@ -186,7 +192,14 @@ export default function SpellingBeeAnswersPage() {
             <time dateTime={puzzle.date}>{puzzle.date}</time>)
           </h2>
           <p className="mt-2 leading-relaxed text-muted-foreground">
-            {SECTIONS.pangram.intro}
+            {SECTIONS.pangram.intro} Prefer to earn it? Our{" "}
+            <Link
+              href="/spelling-bee-hints-today"
+              className="font-semibold text-cta hover:underline"
+            >
+              Spelling Bee hints page
+            </Link>{" "}
+            reveals the pangram in four gentle steps instead.
           </p>
           <SpoilerCurtain
             date={`${puzzle.date}-bee-pangram`}

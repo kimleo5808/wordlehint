@@ -168,6 +168,12 @@ export const FAQ_ITEMS: { question: string; answer: string }[] = [
 
 export const RELATED_GAMES: RelatedTool[] = [
   {
+    title: "Spelling Bee Hints Today",
+    description:
+      "The letter grid, two-letter list, and staged pangram clues — no spoilers until you ask.",
+    href: "/spelling-bee-hints-today",
+  },
+  {
     title: "Today's Wordle Hint",
     description:
       "Five progressive clues for today's Wordle — solve it without spoilers.",

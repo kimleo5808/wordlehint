@@ -46,7 +46,7 @@
 | 5-letter word lists | `/5-letter-words` (starting-letter hub), `/5-letter-words/starting-with-[a–z]` (26 spokes), `/5-letter-words/ending-with` + `/ending-with-[a–z]` (26), `/5-letter-words/with` (contained-letter hub) + `/with-[a–z]` (26) — see the word-bank section below |
 | Connections | `/connections-hint-today`, `/connections-answers`, `/connections-unlimited` (playable game, 120-puzzle build-time pool from the archive, newest 14 days excluded) |
 | Strands | `/strands-hint-today`, `/strands-answers`, `/strands-unlimited` (playable trace board; word paths derived at build by `lib/strands-solver.ts`, newest 14 days excluded) |
-| Spelling Bee | `/spelling-bee-answers` (today's words/pangram/Genius score, spoiler curtains), `/spelling-bee-answers/[date]` (archive, SSG from all past puzzles, `dynamicParams = false`) |
+| Spelling Bee | `/spelling-bee-answers` (today's words/pangram/Genius score, spoiler curtains), `/spelling-bee-answers/[date]` (archive, SSG from all past puzzles, `dynamicParams = false`), `/spelling-bee-hints-today` (progressive hints: grid → two-letter list → staged pangram → per-word clues from `lib/spelling-bee-hints.ts` + `data/spelling-bee-definitions.json`) |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
 | Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share`, `/unsubscribe` |
 | API | `/api/newsletter` |

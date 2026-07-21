@@ -64,12 +64,16 @@ jobs:
       - name: Fetch definitions for new answers
         run: node scripts/generate-definitions.mjs
 
+      - name: Fetch Spelling Bee word definitions
+        run: node scripts/generate-bee-definitions.mjs
+        continue-on-error: true
+
       - name: Commit updated data
         if: github.event_name == 'schedule'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/wordle-daily.json data/wordle-definitions.json data/connections-daily.json data/strands-daily.json data/spelling-bee-daily.json
+          git add data/wordle-daily.json data/wordle-definitions.json data/connections-daily.json data/strands-daily.json data/spelling-bee-daily.json data/spelling-bee-definitions.json
           git diff --staged --quiet || git commit -m "chore: update daily puzzle data"
           # Checkout step uses `git checkout FETCH_HEAD` (detached HEAD), so an
           # argless `git push` fails with "not currently on a branch". Push the
