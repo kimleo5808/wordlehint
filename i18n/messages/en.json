@@ -33,6 +33,12 @@
           { "name": "Past Answers", "href": "/strands-answers" },
           { "name": "Unlimited", "href": "/strands-unlimited" }
         ]
+      },
+      {
+        "name": "Spelling Bee",
+        "items": [
+          { "name": "Today's Answers", "href": "/spelling-bee-answers" }
+        ]
       }
     ]
   },
@@ -64,7 +70,8 @@
             { "href": "/connections-unlimited", "name": "Connections Unlimited" },
             { "href": "/strands-hint-today", "name": "Strands Hint" },
             { "href": "/strands-answers", "name": "Strands Answers" },
-            { "href": "/strands-unlimited", "name": "Strands Unlimited" }
+            { "href": "/strands-unlimited", "name": "Strands Unlimited" },
+            { "href": "/spelling-bee-answers", "name": "Spelling Bee Answers" }
           ]
         },
         {

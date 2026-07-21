@@ -22,6 +22,8 @@
     "update:connections": "node scripts/update-connections.mjs",
     "seed:strands": "node scripts/seed-strands.mjs",
     "update:strands": "node scripts/update-strands.mjs",
+    "seed:spelling-bee": "node scripts/seed-spelling-bee.mjs",
+    "update:spelling-bee": "node scripts/update-spelling-bee.mjs",
     "og:images": "node scripts/generate-og-images.mjs"
   },
   "dependencies": {

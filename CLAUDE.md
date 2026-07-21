@@ -30,6 +30,7 @@
 | `pnpm update:wordle` | Fetch today's NYT Wordle answer and append to the daily JSON |
 | `pnpm seed:connections` / `pnpm update:connections` | Seed / append today's NYT Connections puzzle (`data/connections-daily.json`) |
 | `pnpm seed:strands` / `pnpm update:strands` | Seed / append today's NYT Strands puzzle (`data/strands-daily.json`) |
+| `pnpm seed:spelling-bee` / `pnpm update:spelling-bee` | Seed/backfill (`--from`/`--to`) / append today's NYT Spelling Bee (`data/spelling-bee-daily.json`) |
 | `pnpm og:images` | Generate OG share images (`scripts/generate-og-images.mjs`) |
 
 ---
@@ -45,6 +46,7 @@
 | 5-letter word lists | `/5-letter-words` (starting-letter hub), `/5-letter-words/starting-with-[a–z]` (26 spokes), `/5-letter-words/ending-with` + `/ending-with-[a–z]` (26), `/5-letter-words/with` (contained-letter hub) + `/with-[a–z]` (26) — see the word-bank section below |
 | Connections | `/connections-hint-today`, `/connections-answers`, `/connections-unlimited` (playable game, 120-puzzle build-time pool from the archive, newest 14 days excluded) |
 | Strands | `/strands-hint-today`, `/strands-answers`, `/strands-unlimited` (playable trace board; word paths derived at build by `lib/strands-solver.ts`, newest 14 days excluded) |
+| Spelling Bee | `/spelling-bee-answers` (today's words/pangram/Genius score, spoiler curtains), `/spelling-bee-answers/[date]` (archive, SSG from all past puzzles, `dynamicParams = false`) |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
 | Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share`, `/unsubscribe` |
 | API | `/api/newsletter` |
@@ -54,18 +56,19 @@ Redirects (legacy short URLs, old Strands paths, dropped `/es` locale) live in `
 
 ---
 
-## Daily data pipelines (Wordle / Connections / Strands)
+## Daily data pipelines (Wordle / Connections / Strands / Spelling Bee)
 
-This is the core of the site — understand it before touching anything date-related. All three games share the same shape: **NYT JSON endpoint → idempotent updater script → `data/*-daily.json` → cached read layer**. All date logic uses **America/New_York** to match NYT's rollover (`getTodayDateString()` in `lib/wordle-daily.ts` is the shared source of truth — Connections/Strands import it).
+This is the core of the site — understand it before touching anything date-related. All four games share the same shape: **NYT JSON endpoint → idempotent updater script → `data/*-daily.json` → cached read layer**. All date logic uses **America/New_York** to match NYT's rollover (`getTodayDateString()` in `lib/wordle-daily.ts` is the shared source of truth — the other games import it).
 
 | Game | Data file | NYT endpoint (`<…>/<YYYY-MM-DD>.json`) | Updater | Read layer |
 |------|-----------|-----------------------------------------|---------|------------|
 | Wordle | `data/wordle-daily.json` — `{ lastUpdated, puzzles: [{ date, id, answer, editor }] }` | `…/svc/wordle/v2` | `scripts/update-wordle.mjs` | `lib/wordle-daily.ts` |
 | Connections | `data/connections-daily.json` — puzzles with 4 colour `groups` (`level` 0–3, `name`, `words`) | `…/svc/connections/v2` | `scripts/update-connections.mjs` | `lib/connections-daily.ts` |
 | Strands | `data/strands-daily.json` — puzzles with `clue`, `spangram`, `themeWords`, `board` | `…/svc/strands/v2` | `scripts/update-strands.mjs` | `lib/strands-daily.ts` |
+| Spelling Bee | `data/spelling-bee-daily.json` — puzzles with `centerLetter`, `outerLetters`, `pangrams`, `answers` (pangrams merged in — the v1 endpoint's `answers` excludes them) | `…/svc/spelling-bee/v1` (no v2) | `scripts/update-spelling-bee.mjs` (+ `seed-spelling-bee.mjs` backfill) | `lib/spelling-bee-daily.ts` — also computes scoring (`getSpellingBeeScoring()`: word points, total, Genius = 70% of max, rank ladder, bingo) |
 
 - **Read APIs:** Wordle — `getTodayPuzzle()`, `getYesterdayPuzzle()`, `getRecentPuzzles(n)`, `getPuzzleByDate()`, `getPuzzlesByMonth()`, `getAvailableMonths()`, `getPuzzleCount()`. Connections/Strands mirror this — `getToday*()`, `getRecent*(n)`, `get*ByDate()`, `getArchive*()` (today excluded for spoilers), `get*Stats()`, plus hint helpers (`firstLetterHint`, `spangramClue`, `themeWordClue`).
-- **Automation:** `.github/workflows/deploy-cloudflare.yml` runs on every push and on a **cron (`30 3 * * *` + `30 8 * * *` UTC)**. It runs `update:wordle`, then `update:connections` and `update:strands` (both `continue-on-error: true`, so a Connections/Strands fetch failure won't block deploy — Wordle is the hard dependency), then `scripts/generate-definitions.mjs`. On `schedule` runs it commits the updated JSON files back to `main`, then deploys. Daily freshness depends on this workflow succeeding.
+- **Automation:** `.github/workflows/deploy-cloudflare.yml` runs on every push and on a **cron (`30 3 * * *` + `30 8 * * *` UTC)**. It runs `update:wordle`, then `update:connections`, `update:strands`, and `update:spelling-bee` (all `continue-on-error: true`, so a non-Wordle fetch failure won't block deploy — Wordle is the hard dependency), then `scripts/generate-definitions.mjs`. On `schedule` runs it commits the updated JSON files back to `main`, then deploys. Daily freshness depends on this workflow succeeding.
 - **Wordle hint generation:** `lib/wordle-hints.ts` → `generateHints(puzzle)` returns 5 progressive `HintLevel`s (composition → vowels → first letter → last letter → pattern). **Note:** hardcoded for 5-letter words (uses `word[4]`), since the NYT daily is always 5 letters.
 
 > If "Today's Wordle Hint" shows the "hints are being prepared" fallback, `getTodayPuzzle()` returned undefined → the daily JSON is missing today's entry → check the GitHub Actions cron / `update:wordle` run. Same logic for Connections/Strands "today" pages.

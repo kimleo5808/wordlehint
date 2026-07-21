@@ -2,6 +2,7 @@ import { siteConfig } from '@/config/site'
 import { GUIDE_SLUGS } from '@/data/guides'
 import { getPosts } from '@/lib/getBlogs'
 import { getAllPuzzles } from '@/lib/wordle-daily'
+import { getArchiveSpellingBee } from '@/lib/spelling-bee-daily'
 import type { MetadataRoute } from 'next'
 import fs from 'fs/promises'
 import matter from 'gray-matter'
@@ -28,6 +29,7 @@ const staticPageRules: Record<string, { changeFrequency: ChangeFrequency; lastMo
   '/connections-answers': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
   '/strands-hint-today': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
   '/strands-answers': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
+  '/spelling-bee-answers': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
   '/how-to-play-wordle': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/wordle-hint-faq': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/wordle-solver': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
@@ -125,6 +127,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/connections-answers',
     '/strands-hint-today',
     '/strands-answers',
+    '/spelling-bee-answers',
     '/how-to-play-wordle',
     '/wordle-hint-faq',
     '/wordle-solver',
@@ -149,6 +152,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/connections-answers': 0.8,
     '/strands-hint-today': 0.9,
     '/strands-answers': 0.8,
+    '/spelling-bee-answers': 0.9,
     '/how-to-play-wordle': 0.9,
     '/wordle-solver': 0.9,
     '/best-wordle-starting-words': 0.85,
@@ -201,6 +205,17 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
 
   const puzzlePages = dailyPuzzles.map(p => ({
     url: `${siteUrl}/wordle-hint/${p.date}`,
+    lastModified: new Date(`${p.date}T12:00:00Z`),
+    changeFrequency: 'yearly' as ChangeFrequency,
+    priority: 0.6,
+  }))
+
+  const spellingBeePages = getRecentDailyPuzzles(
+    getArchiveSpellingBee(),
+    dailyPuzzleLookbackDays,
+    dailyPuzzleMaxUrls
+  ).map(p => ({
+    url: `${siteUrl}/spelling-bee-answers/${p.date}`,
     lastModified: new Date(`${p.date}T12:00:00Z`),
     changeFrequency: 'yearly' as ChangeFrequency,
     priority: 0.6,
@@ -305,6 +320,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   return [
     ...pages,
     ...puzzlePages,
+    ...spellingBeePages,
     ...letterGamePages,
     ...wordListPages,
     guidesIndex,

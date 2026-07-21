@@ -179,4 +179,10 @@ export const RELATED_TOOLS: RelatedTool[] = [
     description: "Progressive hints for every past puzzle, organized by month.",
     href: "/wordle-hint",
   },
+  {
+    title: "Spelling Bee Answers",
+    description:
+      "Today's NYT Spelling Bee word list, pangram, and Genius score cutoff.",
+    href: "/spelling-bee-answers",
+  },
 ];

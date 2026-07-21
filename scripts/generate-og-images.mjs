@@ -116,6 +116,27 @@ function motif(kind) {
     });
     return s;
   }
+  if (kind === "bee") {
+    // honeycomb: gold centre hex + six neutral neighbours
+    const cx = W - 64 - 180;
+    const cy = H - 64 - 150;
+    const r = 62;
+    const hex = (x, y, fill, letter, lc) => {
+      const pts = Array.from({ length: 6 }, (_, i) => {
+        const a = ((i * 60 - 90) * Math.PI) / 180;
+        return `${(x + Math.cos(a) * r).toFixed(1)},${(y + Math.sin(a) * r).toFixed(1)}`;
+      }).join(" ");
+      return `<polygon points="${pts}" fill="${fill}"/>
+        <text x="${x}" y="${y}" font-family="${FONT}" font-weight="800" font-size="40" fill="${lc}" text-anchor="middle" dominant-baseline="central">${letter}</text>`;
+    };
+    const letters = ["B", "E", "G", "N", "I", "U"];
+    let s = hex(cx, cy, YELLOW, "S", "#1a1505");
+    letters.forEach((l, i) => {
+      const a = ((i * 60 - 90) * Math.PI) / 180;
+      s += hex(cx + Math.cos(a) * (r * 1.78), cy + Math.sin(a) * (r * 1.78), "#334155", l, "#e2e8f0");
+    });
+    return s;
+  }
   if (kind === "strands") {
     // a yellow spangram chip + blue theme chips
     const y = H - 116;
@@ -177,6 +198,7 @@ const PAGES = [
   { file: "strands-hint-today", title: "Strands Hint Today", subtitle: "Spangram and theme-word hints", kind: "strands", accent: YELLOW },
   { file: "strands-answers", title: "NYT Strands Archive", subtitle: "Past answers and spangrams", kind: "strands", accent: YELLOW },
   { file: "strands-unlimited", title: "Strands Unlimited", subtitle: "Real theme boards · no daily limit", kind: "strands", accent: YELLOW },
+  { file: "spelling-bee-answers", title: "Spelling Bee Answers Today", subtitle: "Pangram, all words & Genius score", kind: "bee", accent: YELLOW },
   // Blog cover (all three games) — also emit an .svg source.
   { file: "blog-best-daily-word-game-hint-sites", title: "Best Daily Word Game Hint Sites", subtitle: "Wordle · Connections · Strands", kind: "trio", accent: GREEN, svg: true },
 ];
