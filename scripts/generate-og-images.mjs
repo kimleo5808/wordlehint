@@ -173,6 +173,7 @@ const PAGES = [
   { file: "wordle-solver", title: "Wordle Solver & Word Finder", subtitle: "Find every matching word · real answers flagged", kind: "solver", accent: GREEN },
   { file: "connections-hint-today", title: "Connections Hint Today", subtitle: "Spoiler-safe hints, revealed step by step", kind: "connections", accent: PURPLE },
   { file: "connections-answers", title: "NYT Connections Archive", subtitle: "Every past answer, searchable", kind: "connections", accent: PURPLE },
+  { file: "connections-unlimited", title: "Connections Unlimited", subtitle: "1,100+ real puzzles · no daily limit", kind: "connections", accent: PURPLE },
   { file: "strands-hint-today", title: "Strands Hint Today", subtitle: "Spangram and theme-word hints", kind: "strands", accent: YELLOW },
   { file: "strands-answers", title: "NYT Strands Archive", subtitle: "Past answers and spangrams", kind: "strands", accent: YELLOW },
   // Blog cover (all three games) — also emit an .svg source.

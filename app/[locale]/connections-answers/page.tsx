@@ -171,6 +171,16 @@ export default function ConnectionsAnswersPage() {
           <div className="mt-5 rounded-2xl border border-border bg-card p-4 sm:p-6">
             <ConnectionsArchive puzzles={puzzles} />
           </div>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Want to replay these boards instead of reading them?{" "}
+            <Link
+              href="/connections-unlimited"
+              className="font-semibold text-cta hover:underline"
+            >
+              Play Connections Unlimited
+            </Link>{" "}
+            deals random past puzzles with hints and mistake tracking.
+          </p>
         </section>
 
         {/* Colors */}

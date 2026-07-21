@@ -162,12 +162,20 @@ export default function ConnectionsHintTodayPage() {
           <p className="mt-4 font-mono text-xs text-slate-400">
             WordleHint Editorial · Updated {formattedDate}
           </p>
-          <Link
-            href="/connections-answers"
-            className="mt-4 inline-block text-sm font-semibold text-primary hover:text-primary/80"
-          >
-            Browse past Connections answers →
-          </Link>
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1">
+            <Link
+              href="/connections-answers"
+              className="inline-block text-sm font-semibold text-primary hover:text-primary/80"
+            >
+              Browse past Connections answers →
+            </Link>
+            <Link
+              href="/connections-unlimited"
+              className="inline-block text-sm font-semibold text-primary hover:text-primary/80"
+            >
+              Play Connections Unlimited →
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -141,3 +141,4 @@ package-lock.json
 # OpenNext
 .open-next
 .dev.vars
+.gstack/
