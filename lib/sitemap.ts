@@ -283,6 +283,29 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     })),
   ]
 
+  // 4/6/7-letter clusters (dynamic spoke routes; 5 keeps its own block above).
+  const nLetterPages = [4, 6, 7].flatMap(len => [
+    {
+      url: `${siteUrl}/${len}-letter-words`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.8,
+    },
+    ...wordListStartingLetters.map(letter => ({
+      url: `${siteUrl}/${len}-letter-words/starting-with-${letter}`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.7,
+    })),
+  ]).concat([
+    {
+      url: `${siteUrl}/4-letter-words/without-vowels`,
+      lastModified: latestPuzzleModified,
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.7,
+    },
+  ])
+
   const guidesIndex = {
     url: `${siteUrl}/guides`,
     lastModified: siteLastModified,
@@ -326,6 +349,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     ...spellingBeePages,
     ...letterGamePages,
     ...wordListPages,
+    ...nLetterPages,
     guidesIndex,
     ...guidePages,
     blogIndex,

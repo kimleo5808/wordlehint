@@ -86,7 +86,10 @@
             { "href": "/8-letters", "name": "8 Letter Wordle" },
             { "href": "/9-letters", "name": "9 Letter Wordle" },
             { "href": "/10-letters", "name": "10 Letter Wordle" },
-            { "href": "/11-letters", "name": "11 Letter Wordle" }
+            { "href": "/11-letters", "name": "11 Letter Wordle" },
+            { "href": "/4-letter-words", "name": "4 Letter Word Lists" },
+            { "href": "/6-letter-words", "name": "6 Letter Word Lists" },
+            { "href": "/7-letter-words", "name": "7 Letter Word Lists" }
           ]
         },
         {

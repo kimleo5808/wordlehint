@@ -16,13 +16,29 @@ export interface WordBankFile {
   common: string[]; // subset in the official answer pool
 }
 
-const loadBank = cache((): WordBankFile => {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  return require("@/data/word-bank/5.json") as WordBankFile;
+/** Word lengths with a built bank. 5 = Wordle lists; 4/6/7 = ENABLE + frequency tier. */
+export const BANK_LENGTHS = [4, 5, 6, 7] as const;
+export type BankLength = (typeof BANK_LENGTHS)[number];
+
+const loadBank = cache((len: BankLength = 5): WordBankFile => {
+  /* eslint-disable @typescript-eslint/no-require-imports */
+  switch (len) {
+    case 4:
+      return require("@/data/word-bank/4.json") as WordBankFile;
+    case 6:
+      return require("@/data/word-bank/6.json") as WordBankFile;
+    case 7:
+      return require("@/data/word-bank/7.json") as WordBankFile;
+    default:
+      return require("@/data/word-bank/5.json") as WordBankFile;
+  }
+  /* eslint-enable @typescript-eslint/no-require-imports */
 });
 
-/** Set of common (answer-pool) words for O(1) membership tests. */
-const commonSet = cache((): Set<string> => new Set(loadBank().common));
+/** Set of common (answer-pool / high-frequency) words for O(1) membership tests. */
+const commonSet = cache(
+  (len: BankLength = 5): Set<string> => new Set(loadBank(len).common)
+);
 
 /** Set of words that have actually been NYT Wordle daily answers. */
 const answeredSet = cache((): Set<string> => {
@@ -41,11 +57,13 @@ export interface BankWord {
   partOfSpeech: string | null;
 }
 
-function decorate(word: string): BankWord {
+function decorate(word: string, len: BankLength = 5): BankWord {
   const def = getDefinition(word);
   return {
     word,
-    common: commonSet().has(word),
+    common: commonSet(len).has(word),
+    // The daily-answer set only contains 5-letter words, so this is
+    // naturally false for the other bank lengths.
     wasAnswer: answeredSet().has(word),
     definition: def?.definition ?? null,
     partOfSpeech: def?.partOfSpeech ?? null,
@@ -56,12 +74,14 @@ function decorate(word: string): BankWord {
 /*  Query helpers (all accept a single A–Z letter, case-insensitive)   */
 /* ------------------------------------------------------------------ */
 
-export const startingWith = cache((letter: string): BankWord[] => {
-  const L = letter.toUpperCase();
-  return loadBank()
-    .words.filter((w) => w[0] === L)
-    .map(decorate);
-});
+export const startingWith = cache(
+  (letter: string, len: BankLength = 5): BankWord[] => {
+    const L = letter.toUpperCase();
+    return loadBank(len)
+      .words.filter((w) => w[0] === L)
+      .map((w) => decorate(w, len));
+  }
+);
 
 export const endingWith = cache((letter: string): string[] => {
   const L = letter.toUpperCase();
@@ -73,7 +93,7 @@ export const endingWithDecorated = cache((letter: string): BankWord[] => {
   const L = letter.toUpperCase();
   return loadBank()
     .words.filter((w) => w[4] === L)
-    .map(decorate);
+    .map((w) => decorate(w));
 });
 
 export const containing = cache((letter: string): string[] => {
@@ -95,10 +115,10 @@ export interface SecondLetterGroup {
 
 /** Group a letter's words by their second letter, common words first. */
 export const groupBySecondLetter = cache(
-  (letter: string): SecondLetterGroup[] => {
+  (letter: string, len: BankLength = 5): SecondLetterGroup[] => {
     const L = letter.toUpperCase();
     const groups = new Map<string, BankWord[]>();
-    for (const bw of startingWith(L)) {
+    for (const bw of startingWith(L, len)) {
       const k = bw.word[1];
       if (!groups.has(k)) groups.set(k, []);
       groups.get(k)!.push(bw);
@@ -130,9 +150,10 @@ export interface LetterStats {
   topSecondLetters: { letter: string; count: number }[];
 }
 
-export const letterStats = cache((letter: string): LetterStats => {
+export const letterStats = cache(
+  (letter: string, len: BankLength = 5): LetterStats => {
   const L = letter.toUpperCase();
-  const words = startingWith(L);
+  const words = startingWith(L, len);
   const secondCounts = new Map<string, number>();
   for (const bw of words) {
     secondCounts.set(bw.word[1], (secondCounts.get(bw.word[1]) ?? 0) + 1);
@@ -169,7 +190,7 @@ export const containingDecorated = cache((letter: string): BankWord[] => {
   const L = letter.toUpperCase();
   return loadBank()
     .words.filter((w) => w.includes(L))
-    .map(decorate);
+    .map((w) => decorate(w));
 });
 
 export interface PositionGroup {
@@ -271,10 +292,48 @@ export const commonEndingWith = cache(
   }
 );
 
-export function getBankMeta() {
-  const b = loadBank();
+export function getBankMeta(len: BankLength = 5) {
+  const b = loadBank(len);
   return { count: b.count, commonCount: b.commonCount, lastBuilt: b.lastBuilt };
 }
+
+/* ------------------------------------------------------------------ */
+/*  Scrabble scoring + N-letter extras (for the 4/6/7 clusters)        */
+/* ------------------------------------------------------------------ */
+
+const SCRABBLE_POINTS: Record<string, number> = {
+  A: 1, B: 3, C: 3, D: 2, E: 1, F: 4, G: 2, H: 4, I: 1, J: 8, K: 5,
+  L: 1, M: 3, N: 1, O: 1, P: 3, Q: 10, R: 1, S: 1, T: 1, U: 1, V: 4,
+  W: 4, X: 8, Y: 4, Z: 10,
+};
+
+export function scrabbleScore(word: string): number {
+  return [...word.toUpperCase()].reduce(
+    (sum, ch) => sum + (SCRABBLE_POINTS[ch] ?? 0),
+    0
+  );
+}
+
+/** Highest-Scrabble-scoring words in a bank (ties broken alphabetically). */
+export const topScoringWords = cache(
+  (len: BankLength, limit = 8): { word: string; score: number }[] => {
+    return loadBank(len)
+      .words.map((word) => ({ word, score: scrabbleScore(word) }))
+      .sort((a, b) => b.score - a.score || a.word.localeCompare(b.word))
+      .slice(0, limit);
+  }
+);
+
+/** Words with no A/E/I/O/U (Y allowed) — the classic vowel-dump lifesavers. */
+export const withoutVowels = cache((len: BankLength): BankWord[] => {
+  return loadBank(len)
+    .words.filter((w) => !/[AEIOU]/.test(w))
+    .map((w) => decorate(w, len))
+    .sort((a, b) => {
+      if (a.common !== b.common) return a.common ? -1 : 1;
+      return a.word.localeCompare(b.word);
+    });
+});
 
 /* ------------------------------------------------------------------ */
 /*  Ending-letter variants (for /5-letter-words/ending-with-* pages)   */

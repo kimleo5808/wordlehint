@@ -200,6 +200,9 @@ const PAGES = [
   { file: "strands-unlimited", title: "Strands Unlimited", subtitle: "Real theme boards · no daily limit", kind: "strands", accent: YELLOW },
   { file: "spelling-bee-answers", title: "Spelling Bee Answers Today", subtitle: "Pangram, all words & Genius score", kind: "bee", accent: YELLOW },
   { file: "spelling-bee-hints-today", title: "Spelling Bee Hints Today", subtitle: "Grid, two-letter list & pangram clues", kind: "bee", accent: YELLOW },
+  { file: "4-letter-words", title: "4 Letter Words", subtitle: "3,903 words · everyday tier first", kind: "wordle", accent: GREEN },
+  { file: "6-letter-words", title: "6 Letter Words", subtitle: "15,232 words · grouped & scannable", kind: "wordle", accent: GREEN },
+  { file: "7-letter-words", title: "7 Letter Words", subtitle: "23,109 words · the bingo length", kind: "wordle", accent: GREEN },
   // Blog cover (all three games) — also emit an .svg source.
   { file: "blog-best-daily-word-game-hint-sites", title: "Best Daily Word Game Hint Sites", subtitle: "Wordle · Connections · Strands", kind: "trio", accent: GREEN, svg: true },
 ];
