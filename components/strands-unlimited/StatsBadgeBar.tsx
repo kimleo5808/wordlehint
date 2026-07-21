@@ -1,12 +1,14 @@
 /**
  * StatsBadgeBar — top brand anchor under the nav (strands edition).
  * Mirrors the wordle/connections-unlimited signal-red masthead strip.
+ * Deliberately no puzzle count here — the young Strands archive reads
+ * better as "real boards" than as a small number.
  */
-export default function StatsBadgeBar({ totalPuzzles }: { totalPuzzles: number }) {
+export default function StatsBadgeBar() {
   return (
     <div
       role="status"
-      aria-label={`Strands Unlimited stats: unlimited rounds, 3 hints per board, ${totalPuzzles} real puzzles, no signup required`}
+      aria-label="Strands Unlimited stats: unlimited rounds, 3 hints per board, real NYT-style boards, no signup required"
       className="relative w-full bg-brand-signal text-brand-cream"
     >
       <span
@@ -24,7 +26,7 @@ export default function StatsBadgeBar({ totalPuzzles }: { totalPuzzles: number }
         <span className="opacity-50">│</span>
         <span>3 Hints</span>
         <span className="opacity-50">│</span>
-        <span>{totalPuzzles} Real Puzzles</span>
+        <span>Real NYT-Style Boards</span>
         <span className="opacity-50">│</span>
         <span>No Signup</span>
       </div>
@@ -35,7 +37,7 @@ export default function StatsBadgeBar({ totalPuzzles }: { totalPuzzles: number }
         <span className="opacity-50">·</span>
         <span>3 💡</span>
         <span className="opacity-50">·</span>
-        <span>{totalPuzzles}</span>
+        <span>Real Boards</span>
         <span className="opacity-50">·</span>
         <span>Free</span>
       </div>

@@ -1,14 +1,13 @@
 /**
  * StatsBadgeBar — top brand anchor under the nav (connections edition).
- * Mirrors the wordle-unlimited signal-red masthead strip.
+ * Mirrors the wordle-unlimited signal-red masthead strip. No puzzle count
+ * in the strip by design — the number lives in the content stream instead.
  */
-export default function StatsBadgeBar({ totalPuzzles }: { totalPuzzles: number }) {
-  const formatted = totalPuzzles.toLocaleString("en-US");
-
+export default function StatsBadgeBar() {
   return (
     <div
       role="status"
-      aria-label={`Connections Unlimited stats: unlimited rounds, four mistakes, ${formatted} real puzzles, no signup required`}
+      aria-label="Connections Unlimited stats: unlimited rounds, four mistakes, real NYT-style puzzles, no signup required"
       className="relative w-full bg-brand-signal text-brand-cream"
     >
       <span
@@ -26,7 +25,7 @@ export default function StatsBadgeBar({ totalPuzzles }: { totalPuzzles: number }
         <span className="opacity-50">│</span>
         <span>4 Mistakes</span>
         <span className="opacity-50">│</span>
-        <span>{formatted} Real Puzzles</span>
+        <span>Real NYT-Style Puzzles</span>
         <span className="opacity-50">│</span>
         <span>No Signup</span>
       </div>
@@ -37,7 +36,7 @@ export default function StatsBadgeBar({ totalPuzzles }: { totalPuzzles: number }
         <span className="opacity-50">·</span>
         <span>4 ✕</span>
         <span className="opacity-50">·</span>
-        <span>{formatted}</span>
+        <span>Real Puzzles</span>
         <span className="opacity-50">·</span>
         <span>Free</span>
       </div>

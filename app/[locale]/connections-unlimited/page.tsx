@@ -7,7 +7,7 @@ import {
 import { FAQ_ITEMS } from "@/data/connections-unlimited/faq";
 import type { Locale } from "@/i18n/routing";
 import { LOCALES } from "@/i18n/routing";
-import { getAllConnections, getConnectionsCount } from "@/lib/connections-daily";
+import { getAllConnections } from "@/lib/connections-daily";
 import {
   breadcrumbSchema,
   faqPageSchema,
@@ -82,7 +82,6 @@ export default async function ConnectionsUnlimitedPage({
   await params;
 
   const pool = buildPuzzlePool();
-  const totalPuzzles = getConnectionsCount();
   const pageUrl = `${BASE_URL}/connections-unlimited`;
 
   return (
@@ -138,7 +137,7 @@ export default async function ConnectionsUnlimitedPage({
       {/* ─── FOLD 1: Game only — visible H1 renders inside the shell.
           min-height pins the SEO stream below the first viewport. ─── */}
       <div className="flex min-h-[calc(100dvh-4rem)] flex-col">
-        <UnlimitedConnectionsShell pool={pool} totalPuzzles={totalPuzzles} />
+        <UnlimitedConnectionsShell pool={pool} />
         <div className="mt-auto pb-6">
           <ScrollHint />
         </div>

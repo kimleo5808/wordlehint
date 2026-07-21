@@ -11,7 +11,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../data/strands-daily.json");
@@ -76,7 +76,10 @@ async function main() {
   console.log(`✅ Updated data/strands-daily.json (${data.puzzles.length} total)`);
 }
 
-main().catch((err) => {
-  console.error("❌ Update failed:", err.message);
-  process.exit(1);
-});
+// Run only when executed directly — backfill-strands.mjs imports fetchStrands.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error("❌ Update failed:", err.message);
+    process.exit(1);
+  });
+}

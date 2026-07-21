@@ -11,7 +11,7 @@ import {
   videoGameSchema,
 } from "@/lib/jsonld";
 import { constructMetadata } from "@/lib/metadata";
-import { getAllStrands, getStrandsCount } from "@/lib/strands-daily";
+import { getAllStrands } from "@/lib/strands-daily";
 import { solveStrands } from "@/lib/strands-solver";
 import type { Metadata } from "next";
 
@@ -24,6 +24,8 @@ type Params = Promise<{ locale: string }>;
 
 /** Days of the freshest archive excluded from the pool (spoiler guard). */
 const SPOILER_WINDOW = 14;
+/** Boards served per build; the daily rebuild rotates the sample. */
+const POOL_SIZE = 120;
 
 export async function generateMetadata({
   params,
@@ -52,16 +54,25 @@ export async function generateMetadata({
 }
 
 /**
- * Build-time pool: drop the newest SPOILER_WINDOW days, then run the tiling
- * solver over every remaining board so the client gets canonical word paths.
- * Boards the solver cannot tile (malformed data) are dropped with a build
- * log warning rather than shipping a broken game.
+ * Build-time pool: drop the newest SPOILER_WINDOW days, sample POOL_SIZE
+ * boards evenly across the remaining archive (deterministic per build; the
+ * daily cron rebuild rotates the sample), then run the tiling solver so the
+ * client gets canonical word paths. Boards the solver cannot tile
+ * (malformed data) are dropped with a build log warning.
  */
 function buildPuzzlePool(): PlayableStrandsPuzzle[] {
   const all = getAllStrands();
   const eligible = all.slice(0, Math.max(0, all.length - SPOILER_WINDOW));
+  let sampled = eligible;
+  if (eligible.length > POOL_SIZE) {
+    const step = eligible.length / POOL_SIZE;
+    sampled = Array.from(
+      { length: POOL_SIZE },
+      (_, i) => eligible[Math.floor(i * step)]
+    );
+  }
   const pool: PlayableStrandsPuzzle[] = [];
-  for (const puzzle of eligible) {
+  for (const puzzle of sampled) {
     const paths = solveStrands(puzzle);
     if (paths) {
       pool.push({ ...puzzle, paths });
@@ -80,7 +91,6 @@ export default async function StrandsUnlimitedPage({
   await params;
 
   const pool = buildPuzzlePool();
-  const totalPuzzles = getStrandsCount();
   const pageUrl = `${BASE_URL}/strands-unlimited`;
 
   return (
@@ -135,7 +145,7 @@ export default async function StrandsUnlimitedPage({
 
       {/* ─── FOLD 1: Game only — visible H1 renders inside the shell. ─── */}
       <div className="flex min-h-[calc(100dvh-4rem)] flex-col">
-        <UnlimitedStrandsShell pool={pool} totalPuzzles={totalPuzzles} />
+        <UnlimitedStrandsShell pool={pool} />
         <div className="mt-auto pb-6">
           <ScrollHint />
         </div>

@@ -22,10 +22,8 @@ type LocalStats = { played: number; won: number };
  */
 export default function UnlimitedConnectionsShell({
   pool,
-  totalPuzzles,
 }: {
   pool: ConnectionsPuzzle[];
-  totalPuzzles: number;
 }) {
   const [puzzle, setPuzzle] = useState<ConnectionsPuzzle | null>(null);
   const [savedState, setSavedState] = useState<GameState | undefined>(undefined);
@@ -104,7 +102,7 @@ export default function UnlimitedConnectionsShell({
 
   return (
     <>
-      <StatsBadgeBar totalPuzzles={totalPuzzles} />
+      <StatsBadgeBar />
 
       {/* Visible page title above the board */}
       <div className="px-4 pt-6 text-center sm:pt-8">
