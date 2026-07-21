@@ -176,6 +176,7 @@ const PAGES = [
   { file: "connections-unlimited", title: "Connections Unlimited", subtitle: "1,100+ real puzzles · no daily limit", kind: "connections", accent: PURPLE },
   { file: "strands-hint-today", title: "Strands Hint Today", subtitle: "Spangram and theme-word hints", kind: "strands", accent: YELLOW },
   { file: "strands-answers", title: "NYT Strands Archive", subtitle: "Past answers and spangrams", kind: "strands", accent: YELLOW },
+  { file: "strands-unlimited", title: "Strands Unlimited", subtitle: "Real theme boards · no daily limit", kind: "strands", accent: YELLOW },
   // Blog cover (all three games) — also emit an .svg source.
   { file: "blog-best-daily-word-game-hint-sites", title: "Best Daily Word Game Hint Sites", subtitle: "Wordle · Connections · Strands", kind: "trio", accent: GREEN, svg: true },
 ];

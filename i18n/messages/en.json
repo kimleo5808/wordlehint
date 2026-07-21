@@ -30,7 +30,8 @@
         "name": "Strands",
         "items": [
           { "name": "Today's Hint", "href": "/strands-hint-today" },
-          { "name": "Past Answers", "href": "/strands-answers" }
+          { "name": "Past Answers", "href": "/strands-answers" },
+          { "name": "Unlimited", "href": "/strands-unlimited" }
         ]
       }
     ]
@@ -62,7 +63,8 @@
             { "href": "/connections-answers", "name": "Connections Answers" },
             { "href": "/connections-unlimited", "name": "Connections Unlimited" },
             { "href": "/strands-hint-today", "name": "Strands Hint" },
-            { "href": "/strands-answers", "name": "Strands Answers" }
+            { "href": "/strands-answers", "name": "Strands Answers" },
+            { "href": "/strands-unlimited", "name": "Strands Unlimited" }
           ]
         },
         {

@@ -34,6 +34,7 @@ const staticPageRules: Record<string, { changeFrequency: ChangeFrequency; lastMo
   '/best-wordle-starting-words': { changeFrequency: 'weekly', lastModifiedKind: 'puzzle' },
   '/wordle-unlimited': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/connections-unlimited': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
+  '/strands-unlimited': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/about': { changeFrequency: 'yearly', lastModifiedKind: 'about' },
   '/contact': { changeFrequency: 'yearly', lastModifiedKind: 'contact' },
   '/privacy-policy': { changeFrequency: 'yearly', lastModifiedKind: 'legal' },
@@ -130,6 +131,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/best-wordle-starting-words',
     '/wordle-unlimited',
     '/connections-unlimited',
+    '/strands-unlimited',
     '/about',
     '/contact',
     '/privacy-policy',
@@ -152,6 +154,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/best-wordle-starting-words': 0.85,
     '/wordle-unlimited': 0.85,
     '/connections-unlimited': 0.85,
+    '/strands-unlimited': 0.85,
   }
 
   const allPuzzles = getAllPuzzles()

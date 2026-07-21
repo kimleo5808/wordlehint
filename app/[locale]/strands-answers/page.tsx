@@ -180,6 +180,16 @@ export default function StrandsAnswersPage() {
           <div className="mt-5 rounded-2xl border border-border bg-card p-4 sm:p-6">
             <StrandsArchive puzzles={puzzles} />
           </div>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Want to replay these boards instead of reading them?{" "}
+            <Link
+              href="/strands-unlimited"
+              className="font-semibold text-cta hover:underline"
+            >
+              Play Strands Unlimited
+            </Link>{" "}
+            deals random past boards with the original clues and spangrams.
+          </p>
         </section>
 
         {/* FAQ */}

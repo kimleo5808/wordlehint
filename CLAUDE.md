@@ -44,7 +44,7 @@
 | Letter games | `/4-letters` … `/11-letters` (one route per word length, 4–11) |
 | 5-letter word lists | `/5-letter-words` (starting-letter hub), `/5-letter-words/starting-with-[a–z]` (26 spokes), `/5-letter-words/ending-with` + `/ending-with-[a–z]` (26), `/5-letter-words/with` (contained-letter hub) + `/with-[a–z]` (26) — see the word-bank section below |
 | Connections | `/connections-hint-today`, `/connections-answers`, `/connections-unlimited` (playable game, 120-puzzle build-time pool from the archive, newest 14 days excluded) |
-| Strands | `/strands-hint-today`, `/strands-answers` |
+| Strands | `/strands-hint-today`, `/strands-answers`, `/strands-unlimited` (playable trace board; word paths derived at build by `lib/strands-solver.ts`, newest 14 days excluded) |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
 | Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share`, `/unsubscribe` |
 | API | `/api/newsletter` |
@@ -95,7 +95,7 @@ A static SEO cluster of five-letter word lists — separate from the daily pipel
 | Layout | `app/[locale]/layout.tsx` |
 | Header / Footer | `components/header/`, `components/footer/` |
 | Wordle game UI | `components/wordle/` |
-| Unlimited mode UI | `components/wordle-unlimited/`, `components/connections-unlimited/` (playable board: `ConnectionsGame` + `gameReducer`) |
+| Unlimited mode UI | `components/wordle-unlimited/`, `components/connections-unlimited/` (playable board: `ConnectionsGame` + `gameReducer`), `components/strands-unlimited/` (trace board: `StrandsGame` + `gameReducer` + `lib/strands-solver.ts`) |
 | Connections / Strands UI | `components/connections/`, `components/strands/` |
 | Other page UI | `components/wordle-answers/`, `components/best-starting-words/` |
 | Wordle daily read API | `lib/wordle-daily.ts` |
@@ -108,7 +108,7 @@ A static SEO cluster of five-letter word lists — separate from the daily pipel
 | Word-bank page copy | `data/word-bank/{starting,ending}-with-*.ts` |
 | Word-bank UI | `components/word-bank/` (`LetterListPage`, `EndingListPage`) |
 | Word-bank build / sync check | `scripts/build-word-bank.mjs`, `scripts/check-word-bank-sync.mjs` |
-| Unlimited-mode data | `data/wordle-unlimited/*` (comparison, content, faq, length-table, modes, related-games), `data/connections-unlimited/*` (content, faq, comparison, related-games) |
+| Unlimited-mode data | `data/wordle-unlimited/*` (comparison, content, faq, length-table, modes, related-games), `data/connections-unlimited/*` + `data/strands-unlimited/*` (content, faq, comparison, related-games) |
 | Connections / Strands page copy | `data/connections/content.ts`, `data/strands/content.ts` |
 | Other page copy | `data/wordle-answers/*`, `data/best-starting-words/content.ts`, `data/wordle-solver/content.ts` |
 | Game type defs | `types/wordle-daily.ts`, `types/connections.ts`, `types/strands.ts` |
