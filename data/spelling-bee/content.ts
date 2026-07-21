@@ -192,6 +192,12 @@ export const RELATED_GAMES: RelatedTool[] = [
     href: "/strands-hint-today",
   },
   {
+    title: "Spelling Bee Unlimited",
+    description:
+      "Play endless archive Spelling Bee puzzles with free hints and no daily cap.",
+    href: "/spelling-bee-unlimited",
+  },
+  {
     title: "Wordle Unlimited",
     description: "Play endless Wordle games from 4 to 11 letters, no daily limit.",
     href: "/wordle-unlimited",

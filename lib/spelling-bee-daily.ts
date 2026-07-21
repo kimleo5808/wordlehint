@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { getTodayDateString } from "@/lib/wordle-daily";
+import { RANK_LADDER, scoreWord } from "@/lib/spelling-bee-scoring";
 import type {
   ScoredWord,
   SpellingBeeDataFile,
@@ -58,28 +59,11 @@ export const getArchiveSpellingBee = cache((): SpellingBeePuzzle[] => {
 });
 
 /* ------------------------------------------------------------------ */
-/*  Scoring                                                            */
+/*  Scoring (pure helpers live in lib/spelling-bee-scoring.ts so the   */
+/*  client game bundle can use them without pulling in the data JSON)  */
 /* ------------------------------------------------------------------ */
 
-/** NYT rank ladder as a percentage of the puzzle's max score. */
-export const RANK_LADDER: ReadonlyArray<{ name: string; percent: number }> = [
-  { name: "Beginner", percent: 0 },
-  { name: "Good Start", percent: 2 },
-  { name: "Moving Up", percent: 5 },
-  { name: "Good", percent: 8 },
-  { name: "Solid", percent: 15 },
-  { name: "Nice", percent: 25 },
-  { name: "Great", percent: 40 },
-  { name: "Amazing", percent: 50 },
-  { name: "Genius", percent: 70 },
-  { name: "Queen Bee", percent: 100 },
-];
-
-/** 4-letter words score 1; longer words score their length; pangrams get +7. */
-export function scoreWord(word: string, isPangram: boolean): number {
-  const base = word.length === 4 ? 1 : word.length;
-  return base + (isPangram ? 7 : 0);
-}
+export { RANK_LADDER, scoreWord };
 
 export function getSpellingBeeScoring(
   puzzle: SpellingBeePuzzle
