@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T06:09:42.149Z",
+  "lastUpdated": "2026-07-22T06:08:24.217Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53154,6 +53154,53 @@
             "KINESIS",
             "PROMPTER",
             "VISION"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "id": 1137,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SYMPTOMS OF AN ALLERGIC REACTION",
+          "words": [
+            "HIVES",
+            "ITCHING",
+            "RASH",
+            "REDNESS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ON A GOLF SCORECARD",
+          "words": [
+            "HOLE",
+            "PAR",
+            "SCORE",
+            "STROKES"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PLATFORM-SPECIFIC POSTS",
+          "words": [
+            "PINS",
+            "SNAPS",
+            "TWEETS",
+            "VINES"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "FEATURES OF A ZEBRA",
+          "words": [
+            "HOOVES",
+            "MANE",
+            "TAIL",
+            "WHITE STRIPES"
           ]
         }
       ]

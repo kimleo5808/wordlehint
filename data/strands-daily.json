@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T08:15:22.949Z",
+  "lastUpdated": "2026-07-22T06:08:24.720Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -21813,6 +21813,31 @@
         "OIEARD",
         "TFCSHT",
         "EPADEE"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "id": 871,
+      "editor": "Tracy Bennett",
+      "clue": "\"What is ...\"",
+      "spangram": "INJEOPARDY",
+      "themeWords": [
+        "ANSWER",
+        "BOARD",
+        "BUZZER",
+        "CATEGORY",
+        "QUESTION",
+        "WAGER"
+      ],
+      "board": [
+        "BDIQUE",
+        "ORNERS",
+        "AYJZIT",
+        "ROEZON",
+        "GTOURE",
+        "EAPABW",
+        "CAWRAS",
+        "REGDYN"
       ]
     }
   ]

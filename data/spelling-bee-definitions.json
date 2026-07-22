@@ -8,6 +8,26 @@
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
   },
+  "arhat": {
+    "definition": "One who has attained enlightenment; a Buddhist saint.",
+    "partOfSpeech": "noun"
+  },
+  "attach": {
+    "definition": "To fasten, to join to (literally and figuratively).",
+    "partOfSpeech": "verb"
+  },
+  "attack": {
+    "definition": "An attempt to cause damage, injury to, or death of opponent or enemy.",
+    "partOfSpeech": "noun"
+  },
+  "attar": {
+    "definition": "An essential oil extracted from flowers.",
+    "partOfSpeech": "noun"
+  },
+  "attract": {
+    "definition": "To pull toward without touching.",
+    "partOfSpeech": "verb"
+  },
   "avail": {
     "definition": "Effect in achieving a goal or aim; purpose, use (now usually in negative constructions).",
     "partOfSpeech": "noun"
@@ -31,6 +51,46 @@
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
+  },
+  "carat": {
+    "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
+    "partOfSpeech": "noun"
+  },
+  "cart": {
+    "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
+    "partOfSpeech": "noun"
+  },
+  "cataract": {
+    "definition": "A waterspout",
+    "partOfSpeech": "noun"
+  },
+  "catarrh": {
+    "definition": "Inflammation of the mucous membranes of the nose and throat.",
+    "partOfSpeech": "noun"
+  },
+  "catch": {
+    "definition": "The act of seizing or capturing.",
+    "partOfSpeech": "noun"
+  },
+  "chart": {
+    "definition": "A map.",
+    "partOfSpeech": "noun"
+  },
+  "chat": {
+    "definition": "Informal conversation.",
+    "partOfSpeech": "noun"
+  },
+  "dart": {
+    "definition": "A pointed missile weapon, intended to be thrown by the hand, for example a short lance or javelin",
+    "partOfSpeech": "noun"
+  },
+  "data": {
+    "definition": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc.",
+    "partOfSpeech": "noun"
+  },
+  "drat": {
+    "definition": "To damn or curse.",
+    "partOfSpeech": "verb"
   },
   "fail": {
     "definition": "Poor quality; substandard workmanship.",
@@ -106,6 +166,31 @@
     "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
     "partOfSpeech": "verb"
   },
+  "hardhat": {
+    "definition": "A helmet, usually made from rigid plastic, used on construction sites to protect the head from falling objects.",
+    "partOfSpeech": "noun"
+  },
+  "hardtack": {
+    "definition": "A large, hard biscuit made from unleavened flour and water; formerly used as a long-term staple food aboard ships.",
+    "partOfSpeech": "noun"
+  },
+  "hart": {
+    "definition": "A male deer, especially the male of the red deer after his fifth year.",
+    "partOfSpeech": "noun"
+  },
+  "hatch": {
+    "definition": "A horizontal door in a floor or ceiling.",
+    "partOfSpeech": "noun"
+  },
+  "hath": {
+    "definition": "To possess, own.",
+    "partOfSpeech": "verb"
+  },
+  "hatha": null,
+  "hatrack": {
+    "definition": "A piece of furniture used to store hats and clothing, consisting of a pole with pegs on a moderately broad base; a hatstand.",
+    "partOfSpeech": "noun"
+  },
   "hill": {
     "definition": "An elevated location smaller than a mountain.",
     "partOfSpeech": "noun"
@@ -134,6 +219,14 @@
   "inviting": {
     "definition": "To ask for the presence or participation of someone or something.",
     "partOfSpeech": "verb"
+  },
+  "karat": {
+    "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
+    "partOfSpeech": "noun"
+  },
+  "kart": {
+    "definition": "A go-cart.",
+    "partOfSpeech": "noun"
   },
   "lava": {
     "definition": "The molten rock ejected by a volcano from its crater or fissured sides.",
@@ -264,6 +357,38 @@
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
     "partOfSpeech": "noun"
   },
+  "ratatat": {
+    "definition": "A swiftly repeated knocking sound.",
+    "partOfSpeech": "noun"
+  },
+  "tach": {
+    "definition": "Tachometer",
+    "partOfSpeech": "noun"
+  },
+  "tack": {
+    "definition": "A small nail with a flat head.",
+    "partOfSpeech": "noun"
+  },
+  "tact": {
+    "definition": "The sense of touch; feeling.",
+    "partOfSpeech": "noun"
+  },
+  "tart": {
+    "definition": "Sharp to the taste; acid; sour.",
+    "partOfSpeech": "adjective"
+  },
+  "tartar": {
+    "definition": "A red compound deposited during wine making; mostly potassium hydrogen tartrate - a source of cream of tartar.",
+    "partOfSpeech": "noun"
+  },
+  "that": {
+    "definition": "Something being indicated that is there; one of those.",
+    "partOfSpeech": "noun"
+  },
+  "thatch": {
+    "definition": "Straw, rushes, or similar, used for making or covering the roofs of buildings, or of stacks of hay or grain.",
+    "partOfSpeech": "noun"
+  },
   "thin": {
     "definition": "A loss or tearing of paper from the back of a stamp, although not sufficient to create a complete hole.",
     "partOfSpeech": "noun"
@@ -294,6 +419,14 @@
   },
   "tomtit": {
     "definition": "Petroica macrocephala, the miromiro or New Zealand tit, a bird of the Petroicidae (Australasian robin) family.",
+    "partOfSpeech": "noun"
+  },
+  "track": {
+    "definition": "A mark left by something that has passed along.",
+    "partOfSpeech": "noun"
+  },
+  "tract": {
+    "definition": "An area or expanse.",
     "partOfSpeech": "noun"
   },
   "vagal": {

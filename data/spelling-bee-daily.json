@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T07:53:23.508Z",
+  "lastUpdated": "2026-07-22T06:08:25.474Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59493,6 +59493,59 @@
         "infallibly",
         "infill",
         "naif"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-22",
+      "id": 8714,
+      "centerLetter": "t",
+      "outerLetters": [
+        "a",
+        "c",
+        "d",
+        "h",
+        "k",
+        "r"
+      ],
+      "pangrams": [
+        "hardtack"
+      ],
+      "answers": [
+        "arhat",
+        "attach",
+        "attack",
+        "attar",
+        "attract",
+        "carat",
+        "cart",
+        "cataract",
+        "catarrh",
+        "catch",
+        "chart",
+        "chat",
+        "dart",
+        "data",
+        "drat",
+        "hardhat",
+        "hardtack",
+        "hart",
+        "hatch",
+        "hath",
+        "hatha",
+        "hatrack",
+        "karat",
+        "kart",
+        "ratatat",
+        "tach",
+        "tack",
+        "tact",
+        "tart",
+        "tartar",
+        "that",
+        "thatch",
+        "track",
+        "tract"
       ],
       "editor": "Sam Ezersky"
     }
