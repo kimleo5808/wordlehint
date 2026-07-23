@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T06:08:25.474Z",
+  "lastUpdated": "2026-07-23T06:14:03.832Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59546,6 +59546,66 @@
         "thatch",
         "track",
         "tract"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-23",
+      "id": 23735,
+      "centerLetter": "f",
+      "outerLetters": [
+        "c",
+        "d",
+        "e",
+        "n",
+        "o",
+        "u"
+      ],
+      "pangrams": [
+        "cofounded",
+        "confounded"
+      ],
+      "answers": [
+        "coffee",
+        "cofound",
+        "cofounded",
+        "confound",
+        "confounded",
+        "cuff",
+        "cuffed",
+        "defend",
+        "defended",
+        "defund",
+        "defunded",
+        "doff",
+        "doffed",
+        "duff",
+        "fecund",
+        "feed",
+        "fence",
+        "fenced",
+        "fend",
+        "fended",
+        "feud",
+        "feuded",
+        "fond",
+        "fondue",
+        "food",
+        "found",
+        "founded",
+        "fund",
+        "funded",
+        "offed",
+        "offend",
+        "offended",
+        "uncuff",
+        "uncuffed",
+        "undefended",
+        "unfed",
+        "unfenced",
+        "unfounded",
+        "unfunded",
+        "unoffended"
       ],
       "editor": "Sam Ezersky"
     }

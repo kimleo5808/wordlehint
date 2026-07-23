@@ -80,6 +80,34 @@
     "definition": "Informal conversation.",
     "partOfSpeech": "noun"
   },
+  "coffee": {
+    "definition": "A beverage made by infusing the beans of the coffee plant in hot water.",
+    "partOfSpeech": "noun"
+  },
+  "cofound": {
+    "definition": "To found at the same time as another.",
+    "partOfSpeech": "verb"
+  },
+  "cofounded": {
+    "definition": "To found at the same time as another.",
+    "partOfSpeech": "verb"
+  },
+  "confound": {
+    "definition": "A confounding variable.",
+    "partOfSpeech": "noun"
+  },
+  "confounded": {
+    "definition": "To perplex or puzzle.",
+    "partOfSpeech": "verb"
+  },
+  "cuff": {
+    "definition": "Glove; mitten",
+    "partOfSpeech": "noun"
+  },
+  "cuffed": {
+    "definition": "To furnish with cuffs.",
+    "partOfSpeech": "verb"
+  },
   "dart": {
     "definition": "A pointed missile weapon, intended to be thrown by the hand, for example a short lance or javelin",
     "partOfSpeech": "noun"
@@ -88,9 +116,37 @@
     "definition": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc.",
     "partOfSpeech": "noun"
   },
+  "defend": {
+    "definition": "To ward off attacks against; to fight to protect; to guard.",
+    "partOfSpeech": "verb"
+  },
+  "defended": {
+    "definition": "To ward off attacks against; to fight to protect; to guard.",
+    "partOfSpeech": "verb"
+  },
+  "defund": {
+    "definition": "To cancel funding for.",
+    "partOfSpeech": "verb"
+  },
+  "defunded": {
+    "definition": "To cancel funding for.",
+    "partOfSpeech": "verb"
+  },
+  "doff": {
+    "definition": "(clothing) To remove or take off, especially of clothing.",
+    "partOfSpeech": "verb"
+  },
+  "doffed": {
+    "definition": "(clothing) To remove or take off, especially of clothing.",
+    "partOfSpeech": "verb"
+  },
   "drat": {
     "definition": "To damn or curse.",
     "partOfSpeech": "verb"
+  },
+  "duff": {
+    "definition": "Dough.",
+    "partOfSpeech": "noun"
   },
   "fail": {
     "definition": "Poor quality; substandard workmanship.",
@@ -104,6 +160,38 @@
   "fanny": {
     "definition": "The female genitalia.",
     "partOfSpeech": "noun"
+  },
+  "fecund": {
+    "definition": "Highly fertile; able to produce offspring.",
+    "partOfSpeech": "adjective"
+  },
+  "feed": {
+    "definition": "Food given to (especially herbivorous) animals.",
+    "partOfSpeech": "noun"
+  },
+  "fence": {
+    "definition": "A thin artificial barrier that separates two pieces of land or a house perimeter.",
+    "partOfSpeech": "noun"
+  },
+  "fenced": {
+    "definition": "To enclose, contain or separate by building fence.",
+    "partOfSpeech": "verb"
+  },
+  "fend": {
+    "definition": "Self-support; taking care of one's own well-being.",
+    "partOfSpeech": "noun"
+  },
+  "fended": {
+    "definition": "To take care of oneself; to take responsibility for one's own well-being.",
+    "partOfSpeech": "verb"
+  },
+  "feud": {
+    "definition": "A state of long-standing mutual hostility.",
+    "partOfSpeech": "noun"
+  },
+  "feuded": {
+    "definition": "To carry on a feud.",
+    "partOfSpeech": "verb"
   },
   "filial": {
     "definition": "Pertaining to or befitting a son or daughter.",
@@ -153,6 +241,34 @@
   "flyby": {
     "definition": "A flight past a celestial object in order to make observations.",
     "partOfSpeech": "noun"
+  },
+  "fond": {
+    "definition": "To have a foolish affection for, to be fond of.",
+    "partOfSpeech": "verb"
+  },
+  "fondue": {
+    "definition": "A dish made of melted cheese, chocolate etc., or of a boiling liquid into which food can be dipped.",
+    "partOfSpeech": "noun"
+  },
+  "food": {
+    "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life.",
+    "partOfSpeech": "noun"
+  },
+  "found": {
+    "definition": "To encounter or discover by accident; to happen upon.",
+    "partOfSpeech": "verb"
+  },
+  "founded": {
+    "definition": "To start (an institution or organization).",
+    "partOfSpeech": "verb"
+  },
+  "fund": {
+    "definition": "A sum or source of money.",
+    "partOfSpeech": "noun"
+  },
+  "funded": {
+    "definition": "To pay for.",
+    "partOfSpeech": "verb"
   },
   "gallivant": {
     "definition": "To roam about for pleasure without any definite plan.",
@@ -345,6 +461,18 @@
     "definition": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
     "partOfSpeech": "noun"
   },
+  "offed": {
+    "definition": "To kill.",
+    "partOfSpeech": "verb"
+  },
+  "offend": {
+    "definition": "To hurt the feelings of; to displease; to make angry; to insult.",
+    "partOfSpeech": "verb"
+  },
+  "offended": {
+    "definition": "To hurt the feelings of; to displease; to make angry; to insult.",
+    "partOfSpeech": "verb"
+  },
   "olio": {
     "definition": "A rich, thick, Spanish stew consisting of meat and vegetables.",
     "partOfSpeech": "noun"
@@ -428,6 +556,32 @@
   "tract": {
     "definition": "An area or expanse.",
     "partOfSpeech": "noun"
+  },
+  "uncuff": null,
+  "uncuffed": null,
+  "undefended": {
+    "definition": "Not defended.",
+    "partOfSpeech": "adjective"
+  },
+  "unfed": {
+    "definition": "A mosquito that has not had a blood meal.",
+    "partOfSpeech": "noun"
+  },
+  "unfenced": {
+    "definition": "Not enclosed by a fence or other boundary; free to roam over a wider area.",
+    "partOfSpeech": "adjective"
+  },
+  "unfounded": {
+    "definition": "Having no strong foundation; not based on solid reasons or facts.",
+    "partOfSpeech": "adjective"
+  },
+  "unfunded": {
+    "definition": "Not funded; having received no funding.",
+    "partOfSpeech": "adjective"
+  },
+  "unoffended": {
+    "definition": "Not offended.",
+    "partOfSpeech": "adjective"
   },
   "vagal": {
     "definition": "Of or relating to the vagus nerve.",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T06:08:24.217Z",
+  "lastUpdated": "2026-07-23T06:14:02.557Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53201,6 +53201,53 @@
             "MANE",
             "TAIL",
             "WHITE STRIPES"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "id": 1138,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SPHERICAL THINGS",
+          "words": [
+            "BASEBALL",
+            "GLOBE",
+            "MARBLE",
+            "ORANGE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "IN AN ANXIOUS STATE",
+          "words": [
+            "EXCITED",
+            "FEBRILE",
+            "FRENETIC",
+            "INTENSE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PARTS OF AN AIRPORT",
+          "words": [
+            "APRON",
+            "HANGAR",
+            "RUNWAY",
+            "TERMINAL"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN GEOMETRY TERMS",
+          "words": [
+            "APPOINT",
+            "DEPLANE",
+            "FELINE",
+            "JANGLE"
           ]
         }
       ]

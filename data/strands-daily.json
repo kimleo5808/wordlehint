@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T06:08:24.720Z",
+  "lastUpdated": "2026-07-23T06:14:03.047Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -21838,6 +21838,30 @@
         "EAPABW",
         "CAWRAS",
         "REGDYN"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "id": 872,
+      "editor": "Tracy Bennett",
+      "clue": "Hail to the chief petty officer",
+      "spangram": "NAVYRANKS",
+      "themeWords": [
+        "ADMIRAL",
+        "COMMANDER",
+        "ENSIGN",
+        "LIEUTENANT",
+        "RECRUIT"
+      ],
+      "board": [
+        "TINLAN",
+        "URAINE",
+        "CEVETT",
+        "RAYRUD",
+        "LRIANE",
+        "NDMNAR",
+        "GAEKMM",
+        "ISNSCO"
       ]
     }
   ]
