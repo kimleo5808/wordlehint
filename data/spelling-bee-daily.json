@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T06:14:03.832Z",
+  "lastUpdated": "2026-07-24T06:07:27.727Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59606,6 +59606,49 @@
         "unfounded",
         "unfunded",
         "unoffended"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-24",
+      "id": 17503,
+      "centerLetter": "k",
+      "outerLetters": [
+        "e",
+        "g",
+        "i",
+        "n",
+        "o",
+        "v"
+      ],
+      "pangrams": [
+        "evoking"
+      ],
+      "answers": [
+        "eking",
+        "enoki",
+        "evoke",
+        "evoking",
+        "geek",
+        "geeking",
+        "ginkgo",
+        "inking",
+        "invoke",
+        "invoking",
+        "keen",
+        "keening",
+        "keno",
+        "king",
+        "kinging",
+        "kink",
+        "kinking",
+        "knee",
+        "kneeing",
+        "kook",
+        "nook",
+        "oink",
+        "oinking",
+        "viking"
       ],
       "editor": "Sam Ezersky"
     }

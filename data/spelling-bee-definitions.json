@@ -148,6 +148,22 @@
     "definition": "Dough.",
     "partOfSpeech": "noun"
   },
+  "eking": {
+    "definition": "The act or process of adding.",
+    "partOfSpeech": "noun"
+  },
+  "enoki": {
+    "definition": "An enoki mushroom, Flammulina velutipes.",
+    "partOfSpeech": "noun"
+  },
+  "evoke": {
+    "definition": "To call out; to draw out or bring forth.",
+    "partOfSpeech": "verb"
+  },
+  "evoking": {
+    "definition": "To call out; to draw out or bring forth.",
+    "partOfSpeech": "verb"
+  },
   "fail": {
     "definition": "Poor quality; substandard workmanship.",
     "partOfSpeech": "noun"
@@ -278,6 +294,18 @@
     "definition": "To roam about for pleasure without any definite plan.",
     "partOfSpeech": "verb"
   },
+  "geek": {
+    "definition": "A carnival performer specializing in bizarre and unappetizing behavior.",
+    "partOfSpeech": "noun"
+  },
+  "geeking": {
+    "definition": "To behave geekishly or in a socially awkward manner, especially when under the influence of drugs or other psycho-active substances, and exhibiting such marked characteristics as hyperactivity, repetitiveness, talkativeness, nervousness, irritability, or paranoia.",
+    "partOfSpeech": "verb"
+  },
+  "ginkgo": {
+    "definition": "Ginkgo biloba, a tree native to China with small, fan-shaped leaves and edible seeds.",
+    "partOfSpeech": "noun"
+  },
   "giving": {
     "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
     "partOfSpeech": "verb"
@@ -328,6 +356,10 @@
     "definition": "That which fills in a space, hole or gap.",
     "partOfSpeech": "noun"
   },
+  "inking": {
+    "definition": "To apply ink to; to cover or smear with ink.",
+    "partOfSpeech": "verb"
+  },
   "into": {
     "definition": "To or towards the inside of.",
     "partOfSpeech": "preposition"
@@ -336,12 +368,60 @@
     "definition": "To ask for the presence or participation of someone or something.",
     "partOfSpeech": "verb"
   },
+  "invoke": {
+    "definition": "To call upon (a person, a god) for help, assistance or guidance.",
+    "partOfSpeech": "verb"
+  },
+  "invoking": {
+    "definition": "To call upon (a person, a god) for help, assistance or guidance.",
+    "partOfSpeech": "verb"
+  },
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
     "partOfSpeech": "noun"
   },
   "kart": {
     "definition": "A go-cart.",
+    "partOfSpeech": "noun"
+  },
+  "keen": {
+    "definition": "To make cold, to sharpen.",
+    "partOfSpeech": "verb"
+  },
+  "keening": {
+    "definition": "To make cold, to sharpen.",
+    "partOfSpeech": "verb"
+  },
+  "keno": {
+    "definition": "A gambling game, a variety of the game of lotto, played with balls or knobs, numbered, and cards also numbered.",
+    "partOfSpeech": "noun"
+  },
+  "king": {
+    "definition": "A male monarch; a man who heads a monarchy. If it's an absolute monarchy, then he is the supreme ruler of his nation.",
+    "partOfSpeech": "noun"
+  },
+  "kinging": {
+    "definition": "To crown king, to make (a person) king.",
+    "partOfSpeech": "verb"
+  },
+  "kink": {
+    "definition": "A convulsive fit of coughing or laughter; a sonorous indraft of breath; a whoop; a gasp of breath caused by laughing, coughing, or crying.",
+    "partOfSpeech": "noun"
+  },
+  "kinking": {
+    "definition": "To laugh loudly.",
+    "partOfSpeech": "verb"
+  },
+  "knee": {
+    "definition": "In humans, the joint or the region of the joint in the middle part of the leg between the thigh and the shank.",
+    "partOfSpeech": "noun"
+  },
+  "kneeing": {
+    "definition": "To kneel to.",
+    "partOfSpeech": "verb"
+  },
+  "kook": {
+    "definition": "An eccentric, strange or crazy person.",
     "partOfSpeech": "noun"
   },
   "lava": {
@@ -457,6 +537,10 @@
     "partOfSpeech": "noun"
   },
   "nonillion": null,
+  "nook": {
+    "definition": "A small corner formed by two walls; an alcove.",
+    "partOfSpeech": "noun"
+  },
   "notion": {
     "definition": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
     "partOfSpeech": "noun"
@@ -471,6 +555,14 @@
   },
   "offended": {
     "definition": "To hurt the feelings of; to displease; to make angry; to insult.",
+    "partOfSpeech": "verb"
+  },
+  "oink": {
+    "definition": "The sound made by a pig, or an imitation thereof.",
+    "partOfSpeech": "noun"
+  },
+  "oinking": {
+    "definition": "Of a pig or in imitation thereof, to make its characteristic sound.",
     "partOfSpeech": "verb"
   },
   "olio": {
@@ -622,6 +714,10 @@
   "vigilant": {
     "definition": "Watchful, especially for danger or disorder; alert; wary",
     "partOfSpeech": "adjective"
+  },
+  "viking": {
+    "definition": "One of the Scandinavian or other Northern European seafaring warriors that raided (and then settled) the British Isles and other parts of Europe in the 8th to the 11th centuries and, according to many historians, were the first Europeans to reach North America.",
+    "partOfSpeech": "noun"
   },
   "villa": {
     "definition": "(plural \"villas\") A house, often larger and more expensive than average, in the countryside or on the coast, often used as a retreat.",

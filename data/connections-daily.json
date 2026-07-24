@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T06:14:02.557Z",
+  "lastUpdated": "2026-07-24T06:07:26.527Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53248,6 +53248,53 @@
             "DEPLANE",
             "FELINE",
             "JANGLE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "id": 1139,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TALK AT LENGTH",
+          "words": [
+            "BABBLE",
+            "DRONE",
+            "RAMBLE",
+            "YAK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "OUTCOMES FOR A BATTER",
+          "words": [
+            "HOME RUN",
+            "SINGLE",
+            "STRIKEOUT",
+            "WALK"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "BRING TO MIND, AS A MEMORY",
+          "words": [
+            "JOG",
+            "PROMPT",
+            "REFRESH",
+            "SPARK"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOMOPHONES OF RELIGIOUS ROLES",
+          "words": [
+            "CANTER",
+            "FRYER",
+            "LLAMA",
+            "NONE"
           ]
         }
       ]

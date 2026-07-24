@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T06:14:03.047Z",
+  "lastUpdated": "2026-07-24T06:07:27.079Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -21862,6 +21862,31 @@
         "NDMNAR",
         "GAEKMM",
         "ISNSCO"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "id": 873,
+      "editor": "Tracy Bennett",
+      "clue": "There's more where that came from",
+      "spangram": "ANDTHENSOME",
+      "themeWords": [
+        "EXCESS",
+        "EXTRA",
+        "LEFTOVER",
+        "SPARE",
+        "SURPLUS",
+        "UNUSED"
+      ],
+      "board": [
+        "ATFELR",
+        "ENOSUP",
+        "SMDVSL",
+        "PTOTEU",
+        "AXRSHR",
+        "RUEANE",
+        "ENUESS",
+        "DESXCE"
       ]
     }
   ]
