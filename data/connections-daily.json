@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T06:07:26.527Z",
+  "lastUpdated": "2026-07-25T05:59:38.427Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53295,6 +53295,53 @@
             "FRYER",
             "LLAMA",
             "NONE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "id": 1140,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SPANISH RELATIVES",
+          "words": [
+            "ABUELA",
+            "HIJO",
+            "MADRE",
+            "PRIMO"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "START TO CRY, WITH \"UP\"",
+          "words": [
+            "CHOKE",
+            "MIST",
+            "TEAR",
+            "WELL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "AFRICAN CURRENCIES",
+          "words": [
+            "KWANZA",
+            "LEONE",
+            "NAIRA",
+            "RAND"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STRIP ___",
+          "words": [
+            "CLUB",
+            "MALL",
+            "POKER",
+            "STEAK"
           ]
         }
       ]

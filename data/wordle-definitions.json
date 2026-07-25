@@ -904,6 +904,24 @@
       }
     ]
   },
+  "ALOHA": {
+    "definition": "Good wishes, love.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Good wishes, love.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "interjection",
+        "definition": "Expressing good wishes when greeting or parting from someone; hello; goodbye.",
+        "example": null
+      }
+    ]
+  },
   "ALONE": {
     "definition": "By oneself, solitary.",
     "partOfSpeech": "adjective",

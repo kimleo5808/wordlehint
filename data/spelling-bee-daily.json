@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T06:07:27.727Z",
+  "lastUpdated": "2026-07-25T05:59:39.650Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59649,6 +59649,73 @@
         "oink",
         "oinking",
         "viking"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-25",
+      "id": 20310,
+      "centerLetter": "i",
+      "outerLetters": [
+        "a",
+        "m",
+        "n",
+        "o",
+        "t",
+        "z"
+      ],
+      "pangrams": [
+        "atomization",
+        "minimization"
+      ],
+      "answers": [
+        "amino",
+        "ammonia",
+        "amnio",
+        "anima",
+        "animation",
+        "anion",
+        "annotation",
+        "anoint",
+        "anti",
+        "atomization",
+        "attain",
+        "imam",
+        "imitation",
+        "initiation",
+        "intimation",
+        "into",
+        "intonation",
+        "ionization",
+        "iota",
+        "maim",
+        "main",
+        "maintain",
+        "mania",
+        "manzanita",
+        "mini",
+        "minim",
+        "minima",
+        "minimization",
+        "minion",
+        "mint",
+        "mitt",
+        "monomania",
+        "motion",
+        "nation",
+        "nomination",
+        "notation",
+        "notion",
+        "omit",
+        "onion",
+        "taint",
+        "tannin",
+        "tatami",
+        "tint",
+        "titan",
+        "tomtit",
+        "zinnia",
+        "ziti"
       ],
       "editor": "Sam Ezersky"
     }

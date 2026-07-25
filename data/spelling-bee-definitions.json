@@ -4,6 +4,42 @@
     "definition": "A plant, principally of Medicago sativa, grown as a pasture crop.",
     "partOfSpeech": "noun"
   },
+  "amino": {
+    "definition": "The amine functional group.",
+    "partOfSpeech": "noun"
+  },
+  "ammonia": {
+    "definition": "A gaseous compound of hydrogen and nitrogen, NH3, with a pungent smell and taste.",
+    "partOfSpeech": "noun"
+  },
+  "amnio": {
+    "definition": "Amniocentesis",
+    "partOfSpeech": "noun"
+  },
+  "anima": {
+    "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
+    "partOfSpeech": "noun"
+  },
+  "animation": {
+    "definition": "The act of animating, or giving life or spirit.",
+    "partOfSpeech": "noun"
+  },
+  "anion": {
+    "definition": "A negatively charged ion.",
+    "partOfSpeech": "noun"
+  },
+  "annotation": {
+    "definition": "A critical or explanatory commentary or analysis",
+    "partOfSpeech": "noun"
+  },
+  "anoint": {
+    "definition": "To smear or rub over with oil or an unctuous substance; also, to spread over, as oil.",
+    "partOfSpeech": "verb"
+  },
+  "anti": {
+    "definition": "A person opposed to a concept or principle.",
+    "partOfSpeech": "noun"
+  },
   "anvil": {
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
@@ -12,6 +48,7 @@
     "definition": "One who has attained enlightenment; a Buddhist saint.",
     "partOfSpeech": "noun"
   },
+  "atomization": null,
   "attach": {
     "definition": "To fasten, to join to (literally and figuratively).",
     "partOfSpeech": "verb"
@@ -19,6 +56,10 @@
   "attack": {
     "definition": "An attempt to cause damage, injury to, or death of opponent or enemy.",
     "partOfSpeech": "noun"
+  },
+  "attain": {
+    "definition": "To gain (an object or desired result).",
+    "partOfSpeech": "verb"
   },
   "attar": {
     "definition": "An essential oil extracted from flowers.",
@@ -351,18 +392,38 @@
     "definition": "Of dubious authenticity, legitimacy or legality.",
     "partOfSpeech": "adjective"
   },
+  "imam": {
+    "definition": "(usually capitalized) A Shi'ite Muslim leader.",
+    "partOfSpeech": "noun"
+  },
+  "imitation": {
+    "definition": "The act of imitating.",
+    "partOfSpeech": "noun"
+  },
   "infallibly": null,
   "infill": {
     "definition": "That which fills in a space, hole or gap.",
+    "partOfSpeech": "noun"
+  },
+  "initiation": {
+    "definition": "The act of initiating, or the process of being initiated or introduced",
     "partOfSpeech": "noun"
   },
   "inking": {
     "definition": "To apply ink to; to cover or smear with ink.",
     "partOfSpeech": "verb"
   },
+  "intimation": {
+    "definition": "The act of intimating.",
+    "partOfSpeech": "noun"
+  },
   "into": {
     "definition": "To or towards the inside of.",
     "partOfSpeech": "preposition"
+  },
+  "intonation": {
+    "definition": "The rise and fall of the voice in speaking.",
+    "partOfSpeech": "noun"
   },
   "inviting": {
     "definition": "To ask for the presence or participation of someone or something.",
@@ -375,6 +436,11 @@
   "invoking": {
     "definition": "To call upon (a person, a god) for help, assistance or guidance.",
     "partOfSpeech": "verb"
+  },
+  "ionization": null,
+  "iota": {
+    "definition": "The ninth letter of the Greek alphabet.",
+    "partOfSpeech": "noun"
   },
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
@@ -472,6 +538,26 @@
     "definition": "A low- to medium-viscosity topical preparation intended for application to unbroken skin.",
     "partOfSpeech": "noun"
   },
+  "maim": {
+    "definition": "A serious wound",
+    "partOfSpeech": "noun"
+  },
+  "main": {
+    "definition": "Short for mainline.",
+    "partOfSpeech": "verb"
+  },
+  "maintain": {
+    "definition": "To support (someone), to back up or assist (someone) in an action.",
+    "partOfSpeech": "verb"
+  },
+  "mania": {
+    "definition": "Violent derangement of mind; madness; insanity.",
+    "partOfSpeech": "noun"
+  },
+  "manzanita": {
+    "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
+    "partOfSpeech": "noun"
+  },
   "mill": {
     "definition": "A grinding apparatus for substances such as grains, seeds, etc.",
     "partOfSpeech": "noun"
@@ -490,6 +576,14 @@
   },
   "minim": {
     "definition": "A half note, drawn as a semibreve with a stem.",
+    "partOfSpeech": "noun"
+  },
+  "minima": {
+    "definition": "The lowest limit.",
+    "partOfSpeech": "noun"
+  },
+  "minimization": {
+    "definition": "The act of lowering something to its smallest value or extent.",
     "partOfSpeech": "noun"
   },
   "minion": {
@@ -512,6 +606,10 @@
     "definition": "A large, single block of stone which is a natural feature; or a block of stone or other similar material used in architecture and sculpture, especially one carved into a monument in ancient times.",
     "partOfSpeech": "noun"
   },
+  "monomania": {
+    "definition": "Excessive interest or concentration on a singular object or subject.",
+    "partOfSpeech": "noun"
+  },
   "moonlit": {
     "definition": "Lit by moonlight.",
     "partOfSpeech": "adjective"
@@ -522,6 +620,10 @@
   },
   "naif": {
     "definition": "One who is naive.",
+    "partOfSpeech": "noun"
+  },
+  "nation": {
+    "definition": "A historically constituted, stable community of people, formed on the basis of a common language, territory, economic life, ethnicity and/or psychological make-up manifested in a common culture.",
     "partOfSpeech": "noun"
   },
   "naval": {
@@ -536,9 +638,17 @@
     "definition": "The person or thing in the ninth position.",
     "partOfSpeech": "noun"
   },
+  "nomination": {
+    "definition": "An act or instance of nominating.",
+    "partOfSpeech": "noun"
+  },
   "nonillion": null,
   "nook": {
     "definition": "A small corner formed by two walls; an alcove.",
+    "partOfSpeech": "noun"
+  },
+  "notation": {
+    "definition": "The act, process, method, or an instance of representing by a system or set of marks, signs, figures, or characters.",
     "partOfSpeech": "noun"
   },
   "notion": {
@@ -593,12 +703,24 @@
     "definition": "The sense of touch; feeling.",
     "partOfSpeech": "noun"
   },
+  "taint": {
+    "definition": "A contamination, decay or putrefaction, especially in food",
+    "partOfSpeech": "noun"
+  },
+  "tannin": {
+    "definition": "Tannic acid or any of its derivatives.",
+    "partOfSpeech": "noun"
+  },
   "tart": {
     "definition": "Sharp to the taste; acid; sour.",
     "partOfSpeech": "adjective"
   },
   "tartar": {
     "definition": "A red compound deposited during wine making; mostly potassium hydrogen tartrate - a source of cream of tartar.",
+    "partOfSpeech": "noun"
+  },
+  "tatami": {
+    "definition": "Straw matting, in a standard size, used as a floor covering in Japanese houses",
     "partOfSpeech": "noun"
   },
   "that": {
@@ -627,6 +749,10 @@
   },
   "tint": {
     "definition": "A slight coloring.",
+    "partOfSpeech": "noun"
+  },
+  "titan": {
+    "definition": "Something or someone of very large stature, greatness, or godliness.",
     "partOfSpeech": "noun"
   },
   "titivating": {
@@ -734,5 +860,13 @@
   "vitiating": {
     "definition": "To spoil, make faulty; to reduce the value, quality, or effectiveness of something",
     "partOfSpeech": "verb"
+  },
+  "zinnia": {
+    "definition": "Any of several brightly coloured flowering plants, of the genus Zinnia, native to tropical America; old maid",
+    "partOfSpeech": "noun"
+  },
+  "ziti": {
+    "definition": "A type of penne pasta in the form of long smooth hollow tubes.",
+    "partOfSpeech": "noun"
   }
 }
