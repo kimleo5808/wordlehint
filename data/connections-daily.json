@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T05:59:38.427Z",
+  "lastUpdated": "2026-07-26T06:19:00.318Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53342,6 +53342,53 @@
             "MALL",
             "POKER",
             "STEAK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "id": 1141,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "BABY MILESTONES",
+          "words": [
+            "CRAWLING",
+            "FIRST WORDS",
+            "ROLLING OVER",
+            "SOLID FOOD"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "OUTMODED CONSUMER TECH",
+          "words": [
+            "BLACKBERRY",
+            "DISCMAN",
+            "DVD PLAYER",
+            "PLASMA TV"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "EXPRESSIONS FOR RAIN",
+          "words": [
+            "APRIL SHOWERS",
+            "LIQUID SUNSHINE",
+            "SCOTCH MIST",
+            "WET WEATHER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT \"SHELL\" MIGHT REFER TO",
+          "words": [
+            "CARAPACE",
+            "GAS STATION",
+            "PASTRY CRUST",
+            "ROWING BOAT"
           ]
         }
       ]

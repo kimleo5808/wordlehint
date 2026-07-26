@@ -1,7 +1,32 @@
 {
+  "achoo": null,
   "affably": null,
+  "aioli": {
+    "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
+    "partOfSpeech": "noun"
+  },
+  "alcohol": {
+    "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
+    "partOfSpeech": "noun"
+  },
+  "alcoholic": {
+    "definition": "A person addicted to alcohol.",
+    "partOfSpeech": "noun"
+  },
   "alfalfa": {
     "definition": "A plant, principally of Medicago sativa, grown as a pasture crop.",
+    "partOfSpeech": "noun"
+  },
+  "allot": {
+    "definition": "To distribute or apportion by (or as if by) lot.",
+    "partOfSpeech": "verb"
+  },
+  "aloha": {
+    "definition": "Good wishes, love.",
+    "partOfSpeech": "noun"
+  },
+  "alto": {
+    "definition": "A musical part or section higher than tenor and lower than soprano, formerly the part that performed a countermelody above the tenor or main melody.",
     "partOfSpeech": "noun"
   },
   "amino": {
@@ -46,6 +71,10 @@
   },
   "arhat": {
     "definition": "One who has attained enlightenment; a Buddhist saint.",
+    "partOfSpeech": "noun"
+  },
+  "atoll": {
+    "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
     "partOfSpeech": "noun"
   },
   "atomization": null,
@@ -93,6 +122,18 @@
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
   },
+  "cacao": {
+    "definition": "A tree, Theobroma cacao, whose seed is used to make chocolate.",
+    "partOfSpeech": "noun"
+  },
+  "calico": {
+    "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
+    "partOfSpeech": "noun"
+  },
+  "callaloo": {
+    "definition": "Any of various tropical plants grown in the Americas, especially of the genus Xanthosoma, cultivated for their edible leaves.",
+    "partOfSpeech": "noun"
+  },
   "carat": {
     "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
     "partOfSpeech": "noun"
@@ -113,12 +154,72 @@
     "definition": "The act of seizing or capturing.",
     "partOfSpeech": "noun"
   },
+  "catholic": {
+    "definition": "Of the Western Christian church, as differentiated from e.g. the Orthodox church.",
+    "partOfSpeech": "adjective"
+  },
+  "chaotic": {
+    "definition": "A character having a chaotic alignment.",
+    "partOfSpeech": "noun"
+  },
   "chart": {
     "definition": "A map.",
     "partOfSpeech": "noun"
   },
   "chat": {
     "definition": "Informal conversation.",
+    "partOfSpeech": "noun"
+  },
+  "chocoholic": {
+    "definition": "Someone who has such a liking for chocolate that they appear to be addicted to it.",
+    "partOfSpeech": "noun"
+  },
+  "ciao": {
+    "definition": "A greeting or farewell using the word \"ciao\".",
+    "partOfSpeech": "noun"
+  },
+  "cloaca": {
+    "definition": "(sometimes figurative) A sewer.",
+    "partOfSpeech": "noun"
+  },
+  "clot": {
+    "definition": "A thrombus, solidified mass of blood.",
+    "partOfSpeech": "noun"
+  },
+  "cloth": {
+    "definition": "A woven fabric such as used in dressing, decorating, cleaning or other practical use.",
+    "partOfSpeech": "noun"
+  },
+  "coach": {
+    "definition": "A wheeled vehicle, generally drawn by horse power.",
+    "partOfSpeech": "noun"
+  },
+  "coal": {
+    "definition": "A black rock formed from prehistoric plant remains, composed largely of carbon and burned as a fuel.",
+    "partOfSpeech": "noun"
+  },
+  "coat": {
+    "definition": "An outer garment covering the upper torso and arms.Wp",
+    "partOfSpeech": "noun"
+  },
+  "coati": {
+    "definition": "Any of several omnivorous mammals, of the genus Nasua or Nasuella, in order Carnivora, that live in the range from southern United States to northern Argentina.",
+    "partOfSpeech": "noun"
+  },
+  "coattail": {
+    "definition": "The flap at the back of a coat that hangs down, sometimes below the waist.",
+    "partOfSpeech": "noun"
+  },
+  "coca": {
+    "definition": "Any of the four cultivated plants which belong to the family Erythroxylaceae, native to western South America.",
+    "partOfSpeech": "noun"
+  },
+  "cocci": {
+    "definition": "Any approximately spherical bacterium.",
+    "partOfSpeech": "noun"
+  },
+  "cocoa": {
+    "definition": "The dried and partially fermented fatty seeds of the cacao tree from which chocolate is made.",
     "partOfSpeech": "noun"
   },
   "coffee": {
@@ -133,6 +234,27 @@
     "definition": "To found at the same time as another.",
     "partOfSpeech": "verb"
   },
+  "coho": {
+    "definition": "An anadromus and semelparous salmon, Oncorhynchus kisutch, found in the coastal regions of the northern Pacific Ocean, used as a symbol by several Native American tribes.",
+    "partOfSpeech": "noun"
+  },
+  "coil": {
+    "definition": "Something wound in the form of a helix or spiral.",
+    "partOfSpeech": "noun"
+  },
+  "coital": null,
+  "cola": {
+    "definition": "The kola plant, genus Cola, famous for its nut, or one of these nuts.",
+    "partOfSpeech": "noun"
+  },
+  "colic": {
+    "definition": "Severe pains that grip the abdomen or the disease that causes such pains (due to intestinal or bowel-related problems).",
+    "partOfSpeech": "noun"
+  },
+  "colt": {
+    "definition": "A young male horse.",
+    "partOfSpeech": "noun"
+  },
   "confound": {
     "definition": "A confounding variable.",
     "partOfSpeech": "noun"
@@ -140,6 +262,14 @@
   "confounded": {
     "definition": "To perplex or puzzle.",
     "partOfSpeech": "verb"
+  },
+  "cool": {
+    "definition": "A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; coolness.",
+    "partOfSpeech": "noun"
+  },
+  "coot": {
+    "definition": "Any of various aquatic birds of the genus Fulica that are mainly black with a prominent frontal shield on the forehead.",
+    "partOfSpeech": "noun"
   },
   "cuff": {
     "definition": "Glove; mitten",
@@ -351,6 +481,10 @@
     "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
     "partOfSpeech": "verb"
   },
+  "halo": {
+    "definition": "A circular band of coloured light, visible around the sun or moon etc., caused by reflection and refraction of light by ice crystals in the atmosphere.",
+    "partOfSpeech": "noun"
+  },
   "hardhat": {
     "definition": "A helmet, usually made from rigid plastic, used on construction sites to protect the head from falling objects.",
     "partOfSpeech": "noun"
@@ -386,6 +520,18 @@
   },
   "hint": {
     "definition": "A clue.",
+    "partOfSpeech": "noun"
+  },
+  "holt": {
+    "definition": "A small piece of woodland or a woody hill; a copse.",
+    "partOfSpeech": "noun"
+  },
+  "hooch": {
+    "definition": "Alcoholic liquor, especially inferior or illicit whisky.",
+    "partOfSpeech": "noun"
+  },
+  "hoot": {
+    "definition": "A derisive cry or shout.",
     "partOfSpeech": "noun"
   },
   "iffy": {
@@ -530,12 +676,48 @@
     "definition": "To be alive; to have life.",
     "partOfSpeech": "verb"
   },
+  "loach": {
+    "definition": "A bottom-feeding freshwater fish in the superfamily or suborder Cobitoidea.",
+    "partOfSpeech": "noun"
+  },
+  "loath": {
+    "definition": "Averse, disinclined; reluctant, unwilling.",
+    "partOfSpeech": "adjective"
+  },
+  "local": {
+    "definition": "A person who lives near a given place.",
+    "partOfSpeech": "noun"
+  },
+  "loch": {
+    "definition": "A lake.",
+    "partOfSpeech": "noun"
+  },
+  "loci": {
+    "definition": "A place or locality, especially a centre of activity or the scene of a crime.",
+    "partOfSpeech": "noun"
+  },
+  "loco": {
+    "definition": "A direction in written or printed music to be returning to the proper pitch after having played an octave higher or lower.",
+    "partOfSpeech": "adverb"
+  },
   "loin": {
     "definition": "The part of the body (of humans and quadrupeds) at each side of the backbone, between the ribs and hips",
     "partOfSpeech": "noun"
   },
+  "loll": {
+    "definition": "To act lazily or indolently while reclining; to lean; to lie at ease.",
+    "partOfSpeech": "verb"
+  },
+  "loot": {
+    "definition": "A kind of scoop or ladle, chiefly used to remove the scum from brine-pans in saltworks.",
+    "partOfSpeech": "noun"
+  },
   "lotion": {
     "definition": "A low- to medium-viscosity topical preparation intended for application to unbroken skin.",
+    "partOfSpeech": "noun"
+  },
+  "lotto": {
+    "definition": "A game of chance similar to bingo",
     "partOfSpeech": "noun"
   },
   "maim": {
@@ -655,6 +837,14 @@
     "definition": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
     "partOfSpeech": "noun"
   },
+  "oath": {
+    "definition": "A solemn pledge or promise, appealing to a deity, a ruler, or another entity (not necessarily present) to attest to the truth of a statement or sincerity of one's desire to fulfill a contract or promise.",
+    "partOfSpeech": "noun"
+  },
+  "octal": {
+    "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",
+    "partOfSpeech": "noun"
+  },
   "offed": {
     "definition": "To kill.",
     "partOfSpeech": "verb"
@@ -666,6 +856,10 @@
   "offended": {
     "definition": "To hurt the feelings of; to displease; to make angry; to insult.",
     "partOfSpeech": "verb"
+  },
+  "oilcloth": {
+    "definition": "A fabric or cloth treated on one side with a waterproof covering, especially one made from linseed oil etc.; used for flooring, tablecloths, kitchen shelves and sometimes furniture covering.",
+    "partOfSpeech": "noun"
   },
   "oink": {
     "definition": "The sound made by a pig, or an imitation thereof.",
@@ -699,8 +893,16 @@
     "definition": "A small nail with a flat head.",
     "partOfSpeech": "noun"
   },
+  "taco": {
+    "definition": "A Mexican snack food; a small tortilla (soft or hard shelled), with typically some type of meat, rice, beans, cheese, diced vegetables (usually tomatoes and lettuce, as served in the United States, and cilantro, onion, and avocado, as served in México) and salsa.",
+    "partOfSpeech": "noun"
+  },
   "tact": {
     "definition": "The sense of touch; feeling.",
+    "partOfSpeech": "noun"
+  },
+  "tailcoat": {
+    "definition": "A formal evening jacket with an extended back panel; a dress coat.",
     "partOfSpeech": "noun"
   },
   "taint": {
@@ -721,6 +923,10 @@
   },
   "tatami": {
     "definition": "Straw matting, in a standard size, used as a floor covering in Japanese houses",
+    "partOfSpeech": "noun"
+  },
+  "tattoo": {
+    "definition": "An image made in the skin with ink and a needle.",
     "partOfSpeech": "noun"
   },
   "that": {
@@ -759,12 +965,36 @@
     "definition": "To make small improvements or alterations to (one's appearance etc.); to add some finishing touches to.",
     "partOfSpeech": "verb"
   },
+  "toccata": {
+    "definition": "A piece of music (usually for a keyboard instrument) designed to emphasise the dexterity of the performer.",
+    "partOfSpeech": "noun"
+  },
   "toil": {
     "definition": "Labour, work, especially of a grueling nature.",
     "partOfSpeech": "noun"
   },
+  "toll": {
+    "definition": "Loss or damage incurred through a disaster.",
+    "partOfSpeech": "noun"
+  },
   "tomtit": {
     "definition": "Petroica macrocephala, the miromiro or New Zealand tit, a bird of the Petroicidae (Australasian robin) family.",
+    "partOfSpeech": "noun"
+  },
+  "tool": {
+    "definition": "A mechanical device intended to make a task easier.",
+    "partOfSpeech": "noun"
+  },
+  "toot": {
+    "definition": "The noise of a horn or whistle.",
+    "partOfSpeech": "noun"
+  },
+  "tooth": {
+    "definition": "A hard, calcareous structure present in the mouth of many vertebrate animals, generally used for eating.",
+    "partOfSpeech": "noun"
+  },
+  "total": {
+    "definition": "An amount obtained by the addition of smaller amounts.",
     "partOfSpeech": "noun"
   },
   "track": {
