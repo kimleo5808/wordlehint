@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T06:19:00.971Z",
+  "lastUpdated": "2026-07-27T06:47:06.873Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -21937,6 +21937,31 @@
         "AUCIAE",
         "TITHNR",
         "YROGUU"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "id": 876,
+      "editor": "Tracy Bennett",
+      "clue": "Let the journey begin",
+      "spangram": "TRAINSTATION",
+      "themeWords": [
+        "BENCH",
+        "COUNTER",
+        "KIOSK",
+        "PLATFORM",
+        "TICKET",
+        "TRACK"
+      ],
+      "board": [
+        "LATFOR",
+        "PKITIM",
+        "KSOEEC",
+        "NEBNTK",
+        "UTRCHT",
+        "OINCAR",
+        "CASKIO",
+        "TRTATN"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T06:19:01.619Z",
+  "lastUpdated": "2026-07-27T06:47:07.728Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59798,6 +59798,64 @@
         "toot",
         "tooth",
         "total"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-27",
+      "id": 20255,
+      "centerLetter": "i",
+      "outerLetters": [
+        "a",
+        "c",
+        "n",
+        "t",
+        "v",
+        "y"
+      ],
+      "pangrams": [
+        "inactivity"
+      ],
+      "answers": [
+        "acacia",
+        "acai",
+        "activity",
+        "anti",
+        "antic",
+        "attain",
+        "attic",
+        "avian",
+        "cacti",
+        "cantina",
+        "cavity",
+        "city",
+        "civic",
+        "cynic",
+        "inactivity",
+        "inanity",
+        "incant",
+        "intact",
+        "itty",
+        "nativity",
+        "niacin",
+        "ninny",
+        "tacit",
+        "tactic",
+        "tactician",
+        "taint",
+        "tannic",
+        "tannin",
+        "tinct",
+        "tinny",
+        "tint",
+        "tiny",
+        "titan",
+        "titanic",
+        "vain",
+        "vanity",
+        "vicinity",
+        "viny",
+        "vivacity"
       ],
       "editor": "Sam Ezersky"
     }

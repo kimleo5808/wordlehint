@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T06:19:00.318Z",
+  "lastUpdated": "2026-07-27T06:47:06.351Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53389,6 +53389,53 @@
             "GAS STATION",
             "PASTRY CRUST",
             "ROWING BOAT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "id": 1142,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "GYMNASTICS APPARATUS",
+          "words": [
+            "BEAM",
+            "HORSE",
+            "RINGS",
+            "VAULT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "LONG TAPERED THINGS",
+          "words": [
+            "CARROT",
+            "ICICLE",
+            "KNITTING NEEDLE",
+            "STALACTITE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF SHIFTS",
+          "words": [
+            "DOPPLER",
+            "GRAVEYARD",
+            "PARADIGM",
+            "STICK"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ICONS ON A SHOPPING SITE",
+          "words": [
+            "BELL",
+            "CART",
+            "HEART",
+            "MAGNIFYING GLASS"
           ]
         }
       ]

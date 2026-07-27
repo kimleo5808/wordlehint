@@ -1,5 +1,17 @@
 {
+  "acacia": {
+    "definition": "A shrub or tree of the tribe Acacieae.",
+    "partOfSpeech": "noun"
+  },
+  "acai": {
+    "definition": "Any of several South American palms, of the genus Euterpe, having a dark purple drupe.",
+    "partOfSpeech": "noun"
+  },
   "achoo": null,
+  "activity": {
+    "definition": "The state or quality of being active; activeness.",
+    "partOfSpeech": "noun"
+  },
   "affably": null,
   "aioli": {
     "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
@@ -65,6 +77,10 @@
     "definition": "A person opposed to a concept or principle.",
     "partOfSpeech": "noun"
   },
+  "antic": {
+    "definition": "A grotesque representation of a figure; a gargoyle.",
+    "partOfSpeech": "noun"
+  },
   "anvil": {
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
@@ -92,6 +108,10 @@
   },
   "attar": {
     "definition": "An essential oil extracted from flowers.",
+    "partOfSpeech": "noun"
+  },
+  "attic": {
+    "definition": "The space, often unfinished and with sloped walls, directly below the roof in the uppermost part of a house or other building, generally used for storage or habitation.",
     "partOfSpeech": "noun"
   },
   "attract": {
@@ -126,12 +146,20 @@
     "definition": "A tree, Theobroma cacao, whose seed is used to make chocolate.",
     "partOfSpeech": "noun"
   },
+  "cacti": {
+    "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
+    "partOfSpeech": "noun"
+  },
   "calico": {
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
     "partOfSpeech": "noun"
   },
   "callaloo": {
     "definition": "Any of various tropical plants grown in the Americas, especially of the genus Xanthosoma, cultivated for their edible leaves.",
+    "partOfSpeech": "noun"
+  },
+  "cantina": {
+    "definition": "A drinking establishment, often specifically of the type found in Latin America.",
     "partOfSpeech": "noun"
   },
   "carat": {
@@ -158,6 +186,10 @@
     "definition": "Of the Western Christian church, as differentiated from e.g. the Orthodox church.",
     "partOfSpeech": "adjective"
   },
+  "cavity": {
+    "definition": "A hole or hollow depression.",
+    "partOfSpeech": "noun"
+  },
   "chaotic": {
     "definition": "A character having a chaotic alignment.",
     "partOfSpeech": "noun"
@@ -177,6 +209,14 @@
   "ciao": {
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
+  },
+  "city": {
+    "definition": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place.",
+    "partOfSpeech": "noun"
+  },
+  "civic": {
+    "definition": "Of, relating to, or belonging to a city, a citizen, or citizenship; municipal or civil.",
+    "partOfSpeech": "adjective"
   },
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
@@ -278,6 +318,10 @@
   "cuffed": {
     "definition": "To furnish with cuffs.",
     "partOfSpeech": "verb"
+  },
+  "cynic": {
+    "definition": "A person who believes that all people are motivated by selfishness.",
+    "partOfSpeech": "noun"
   },
   "dart": {
     "definition": "A pointed missile weapon, intended to be thrown by the hand, for example a short lance or javelin",
@@ -546,6 +590,18 @@
     "definition": "The act of imitating.",
     "partOfSpeech": "noun"
   },
+  "inactivity": {
+    "definition": "The quality of being inactive; idleness; passiveness.",
+    "partOfSpeech": "noun"
+  },
+  "inanity": {
+    "definition": "The property of being inane, of lacking material of interest or satisfaction, emptiness.",
+    "partOfSpeech": "noun"
+  },
+  "incant": {
+    "definition": "To state solemnly, to chant.",
+    "partOfSpeech": "verb"
+  },
   "infallibly": null,
   "infill": {
     "definition": "That which fills in a space, hole or gap.",
@@ -558,6 +614,10 @@
   "inking": {
     "definition": "To apply ink to; to cover or smear with ink.",
     "partOfSpeech": "verb"
+  },
+  "intact": {
+    "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
+    "partOfSpeech": "adjective"
   },
   "intimation": {
     "definition": "The act of intimating.",
@@ -588,6 +648,7 @@
     "definition": "The ninth letter of the Greek alphabet.",
     "partOfSpeech": "noun"
   },
+  "itty": null,
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
     "partOfSpeech": "noun"
@@ -808,6 +869,10 @@
     "definition": "A historically constituted, stable community of people, formed on the basis of a common language, territory, economic life, ethnicity and/or psychological make-up manifested in a common culture.",
     "partOfSpeech": "noun"
   },
+  "nativity": {
+    "definition": "Someone's birth; the place, time and circumstances of a birth.",
+    "partOfSpeech": "noun"
+  },
   "naval": {
     "definition": "Of or relating to a navy.",
     "partOfSpeech": "adjective"
@@ -815,6 +880,14 @@
   "navigating": {
     "definition": "To plan, control and record the position and course of a vehicle, ship, aircraft, etc., on a journey; to follow a planned course.",
     "partOfSpeech": "verb"
+  },
+  "niacin": {
+    "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
+    "partOfSpeech": "noun"
+  },
+  "ninny": {
+    "definition": "A silly or foolish person.",
+    "partOfSpeech": "noun"
   },
   "ninth": {
     "definition": "The person or thing in the ninth position.",
@@ -889,6 +962,10 @@
     "definition": "Tachometer",
     "partOfSpeech": "noun"
   },
+  "tacit": {
+    "definition": "Expressed in silence; implied, but not made explicit; silent.",
+    "partOfSpeech": "adjective"
+  },
   "tack": {
     "definition": "A small nail with a flat head.",
     "partOfSpeech": "noun"
@@ -901,6 +978,14 @@
     "definition": "The sense of touch; feeling.",
     "partOfSpeech": "noun"
   },
+  "tactic": {
+    "definition": "A maneuver, or action calculated to achieve some end.",
+    "partOfSpeech": "noun"
+  },
+  "tactician": {
+    "definition": "A person skilled in the planning and execution of tactics.",
+    "partOfSpeech": "noun"
+  },
   "tailcoat": {
     "definition": "A formal evening jacket with an extended back panel; a dress coat.",
     "partOfSpeech": "noun"
@@ -908,6 +993,10 @@
   "taint": {
     "definition": "A contamination, decay or putrefaction, especially in food",
     "partOfSpeech": "noun"
+  },
+  "tannic": {
+    "definition": "Pertaining to, containing, or obtained from tannin.",
+    "partOfSpeech": "adjective"
   },
   "tannin": {
     "definition": "Tannic acid or any of its derivatives.",
@@ -953,13 +1042,26 @@
     "definition": "Agricultural labour; husbandry.",
     "partOfSpeech": "noun"
   },
+  "tinct": null,
+  "tinny": {
+    "definition": "Of or pertaining to or resembling tin.",
+    "partOfSpeech": "adjective"
+  },
   "tint": {
     "definition": "A slight coloring.",
+    "partOfSpeech": "noun"
+  },
+  "tiny": {
+    "definition": "A small child; an infant.",
     "partOfSpeech": "noun"
   },
   "titan": {
     "definition": "Something or someone of very large stature, greatness, or godliness.",
     "partOfSpeech": "noun"
+  },
+  "titanic": {
+    "definition": "Having great size, or great strength, force or power.",
+    "partOfSpeech": "adjective"
   },
   "titivating": {
     "definition": "To make small improvements or alterations to (one's appearance etc.); to add some finishing touches to.",
@@ -1059,8 +1161,16 @@
     "definition": "A chemical compound, 4-hydroxy-3-methoxybenzaldehyde, that is the primary constituent of vanilla.",
     "partOfSpeech": "noun"
   },
+  "vanity": {
+    "definition": "That which is vain, futile, or worthless; that which is of no value, use or profit.",
+    "partOfSpeech": "noun"
+  },
   "vial": {
     "definition": "A glass vessel or bottle, especially a small tube-shaped bottle used to store medicine, perfume or other chemical.",
+    "partOfSpeech": "noun"
+  },
+  "vicinity": {
+    "definition": "Proximity; the state of being near.",
     "partOfSpeech": "noun"
   },
   "vigil": {
@@ -1083,6 +1193,7 @@
     "definition": "A vile, wicked person.",
     "partOfSpeech": "noun"
   },
+  "viny": null,
   "vital": {
     "definition": "Relating to, or characteristic of life.",
     "partOfSpeech": "adjective"
@@ -1090,6 +1201,10 @@
   "vitiating": {
     "definition": "To spoil, make faulty; to reduce the value, quality, or effectiveness of something",
     "partOfSpeech": "verb"
+  },
+  "vivacity": {
+    "definition": "The quality or state of being vivacious.",
+    "partOfSpeech": "noun"
   },
   "zinnia": {
     "definition": "Any of several brightly coloured flowering plants, of the genus Zinnia, native to tropical America; old maid",
