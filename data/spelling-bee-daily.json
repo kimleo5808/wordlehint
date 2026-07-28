@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T06:47:07.728Z",
+  "lastUpdated": "2026-07-28T06:06:36.090Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59856,6 +59856,71 @@
         "vicinity",
         "viny",
         "vivacity"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-28",
+      "id": 20983,
+      "centerLetter": "m",
+      "outerLetters": [
+        "d",
+        "e",
+        "g",
+        "i",
+        "n",
+        "p"
+      ],
+      "pangrams": [
+        "impeding",
+        "impending",
+        "impinged"
+      ],
+      "answers": [
+        "deem",
+        "deemed",
+        "deeming",
+        "denim",
+        "dime",
+        "dimmed",
+        "dimming",
+        "emend",
+        "emended",
+        "emending",
+        "gimme",
+        "impede",
+        "impeded",
+        "impeding",
+        "impend",
+        "impended",
+        "impending",
+        "impinge",
+        "impinged",
+        "impinging",
+        "meme",
+        "memed",
+        "meming",
+        "mend",
+        "mended",
+        "mending",
+        "midge",
+        "midi",
+        "mien",
+        "mime",
+        "mimed",
+        "miming",
+        "mind",
+        "minded",
+        "minding",
+        "mine",
+        "mined",
+        "mini",
+        "minim",
+        "mining",
+        "penmen",
+        "pimp",
+        "pimped",
+        "pimping"
       ],
       "editor": "Sam Ezersky"
     }

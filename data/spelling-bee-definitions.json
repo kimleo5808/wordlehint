@@ -331,6 +331,18 @@
     "definition": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc.",
     "partOfSpeech": "noun"
   },
+  "deem": {
+    "definition": "An opinion, a judgment, a surmise.",
+    "partOfSpeech": "noun"
+  },
+  "deemed": {
+    "definition": "To judge, to pass judgment on; to doom, to sentence.",
+    "partOfSpeech": "verb"
+  },
+  "deeming": {
+    "definition": "To judge, to pass judgment on; to doom, to sentence.",
+    "partOfSpeech": "verb"
+  },
   "defend": {
     "definition": "To ward off attacks against; to fight to protect; to guard.",
     "partOfSpeech": "verb"
@@ -345,6 +357,22 @@
   },
   "defunded": {
     "definition": "To cancel funding for.",
+    "partOfSpeech": "verb"
+  },
+  "denim": {
+    "definition": "A textile often made of cotton with a distinct diagonal pattern.",
+    "partOfSpeech": "noun"
+  },
+  "dime": {
+    "definition": "A coin worth one-tenth of a U.S. dollar.",
+    "partOfSpeech": "noun"
+  },
+  "dimmed": {
+    "definition": "To make something less bright.",
+    "partOfSpeech": "verb"
+  },
+  "dimming": {
+    "definition": "To make something less bright.",
     "partOfSpeech": "verb"
   },
   "doff": {
@@ -366,6 +394,18 @@
   "eking": {
     "definition": "The act or process of adding.",
     "partOfSpeech": "noun"
+  },
+  "emend": {
+    "definition": "To correct and revise (text or a document).",
+    "partOfSpeech": "verb"
+  },
+  "emended": {
+    "definition": "To correct and revise (text or a document).",
+    "partOfSpeech": "verb"
+  },
+  "emending": {
+    "definition": "To correct and revise (text or a document).",
+    "partOfSpeech": "verb"
   },
   "enoki": {
     "definition": "An enoki mushroom, Flammulina velutipes.",
@@ -517,6 +557,10 @@
     "definition": "To behave geekishly or in a socially awkward manner, especially when under the influence of drugs or other psycho-active substances, and exhibiting such marked characteristics as hyperactivity, repetitiveness, talkativeness, nervousness, irritability, or paranoia.",
     "partOfSpeech": "verb"
   },
+  "gimme": {
+    "definition": "That which is easily obtained, or certain to occur.",
+    "partOfSpeech": "noun"
+  },
   "ginkgo": {
     "definition": "Ginkgo biloba, a tree native to China with small, fan-shaped leaves and edible seeds.",
     "partOfSpeech": "noun"
@@ -589,6 +633,42 @@
   "imitation": {
     "definition": "The act of imitating.",
     "partOfSpeech": "noun"
+  },
+  "impede": {
+    "definition": "To get in the way of; to hinder.",
+    "partOfSpeech": "verb"
+  },
+  "impeded": {
+    "definition": "To get in the way of; to hinder.",
+    "partOfSpeech": "verb"
+  },
+  "impeding": {
+    "definition": "To get in the way of; to hinder.",
+    "partOfSpeech": "verb"
+  },
+  "impend": {
+    "definition": "To hang or be suspended over (something); to overhang.",
+    "partOfSpeech": "verb"
+  },
+  "impended": {
+    "definition": "To hang or be suspended over (something); to overhang.",
+    "partOfSpeech": "verb"
+  },
+  "impending": {
+    "definition": "To hang or be suspended over (something); to overhang.",
+    "partOfSpeech": "verb"
+  },
+  "impinge": {
+    "definition": "To make a physical impact on.",
+    "partOfSpeech": "verb"
+  },
+  "impinged": {
+    "definition": "To make a physical impact on.",
+    "partOfSpeech": "verb"
+  },
+  "impinging": {
+    "definition": "To make a physical impact on.",
+    "partOfSpeech": "verb"
   },
   "inactivity": {
     "definition": "The quality of being inactive; idleness; passiveness.",
@@ -801,6 +881,36 @@
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "meme": {
+    "definition": "Any unit of cultural information, such as a practice or idea, that is transmitted verbally or by repeated action from one mind to another in a comparable way to the transmission of genes.",
+    "partOfSpeech": "noun"
+  },
+  "memed": null,
+  "meming": null,
+  "mend": {
+    "definition": "A place, as in clothing, which has been repaired by mending.",
+    "partOfSpeech": "noun"
+  },
+  "mended": {
+    "definition": "To repair, as anything that is torn, broken, defaced, decayed, or the like; to restore from partial decay, injury, or defacement.",
+    "partOfSpeech": "verb"
+  },
+  "mending": {
+    "definition": "To repair, as anything that is torn, broken, defaced, decayed, or the like; to restore from partial decay, injury, or defacement.",
+    "partOfSpeech": "verb"
+  },
+  "midge": {
+    "definition": "Any of various small two-winged flies, for example, from the family Chironomidae or non-biting midges, the family Chaoboridae or phantom midges, and the family Ceratopogonidae or biting midges, all belonging to the order Diptera",
+    "partOfSpeech": "noun"
+  },
+  "midi": {
+    "definition": "A native or inhabitant of Berlin.",
+    "partOfSpeech": "noun"
+  },
+  "mien": {
+    "definition": "Demeanor; facial expression or attitude, especially one which is intended by its bearer.",
+    "partOfSpeech": "noun"
+  },
   "mill": {
     "definition": "A grinding apparatus for substances such as grains, seeds, etc.",
     "partOfSpeech": "noun"
@@ -812,6 +922,38 @@
   "millionth": {
     "definition": "The person or thing in the millionth position.",
     "partOfSpeech": "noun"
+  },
+  "mime": {
+    "definition": "A form of acting without words; pantomime.",
+    "partOfSpeech": "noun"
+  },
+  "mimed": {
+    "definition": "To mimic.",
+    "partOfSpeech": "verb"
+  },
+  "miming": {
+    "definition": "To mimic.",
+    "partOfSpeech": "verb"
+  },
+  "mind": {
+    "definition": "The ability for rational thought.",
+    "partOfSpeech": "noun"
+  },
+  "minded": {
+    "definition": "(originally and chiefly in negative or interrogative constructions) To dislike, to object to; to be bothered by.",
+    "partOfSpeech": "verb"
+  },
+  "minding": {
+    "definition": "The act of taking heed of something.",
+    "partOfSpeech": "noun"
+  },
+  "mine": {
+    "definition": "My; belonging to me; that which belongs to me.",
+    "partOfSpeech": "pronoun"
+  },
+  "mined": {
+    "definition": "To remove (ore) from the ground.",
+    "partOfSpeech": "verb"
   },
   "mini": {
     "definition": "Miniature, tiny, small.",
@@ -828,6 +970,10 @@
   "minimization": {
     "definition": "The act of lowering something to its smallest value or extent.",
     "partOfSpeech": "noun"
+  },
+  "mining": {
+    "definition": "To remove (ore) from the ground.",
+    "partOfSpeech": "verb"
   },
   "minion": {
     "definition": "The lowest limit.",
@@ -953,6 +1099,22 @@
   "onion": {
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
     "partOfSpeech": "noun"
+  },
+  "penmen": {
+    "definition": "A scribe, or person who copies texts",
+    "partOfSpeech": "noun"
+  },
+  "pimp": {
+    "definition": "Someone who solicits customers for prostitution and acts as manager for a group of prostitutes; a pander.",
+    "partOfSpeech": "noun"
+  },
+  "pimped": {
+    "definition": "To act as a procurer of prostitutes; to pander.",
+    "partOfSpeech": "verb"
+  },
+  "pimping": {
+    "definition": "To act as a procurer of prostitutes; to pander.",
+    "partOfSpeech": "verb"
   },
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",

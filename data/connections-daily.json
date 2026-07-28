@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T06:47:06.351Z",
+  "lastUpdated": "2026-07-28T06:06:34.883Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53436,6 +53436,53 @@
             "CART",
             "HEART",
             "MAGNIFYING GLASS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "id": 1143,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "COMMAND",
+          "words": [
+            "CAPTAIN",
+            "DIRECT",
+            "HEAD",
+            "LEAD"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "HOW DO YOU LIKE THEM APPLES",
+          "words": [
+            "EMPIRE",
+            "FUJI",
+            "GALA",
+            "HONEYCRISP"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SHOE BRANDS STARTING WITH \"C\"",
+          "words": [
+            "CAMPER",
+            "CLARKS",
+            "CONVERSE",
+            "CROCS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH PALINDROMIC NAMES",
+          "words": [
+            "ANNAPOLIS",
+            "BOBSLED",
+            "EVEREST",
+            "OTTOMAN"
           ]
         }
       ]
