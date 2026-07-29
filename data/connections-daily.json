@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T06:06:34.883Z",
+  "lastUpdated": "2026-07-29T06:11:59.833Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53483,6 +53483,53 @@
             "BOBSLED",
             "EVEREST",
             "OTTOMAN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "id": 1144,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FASTENERS",
+          "words": [
+            "NAIL",
+            "RIVET",
+            "SCREW",
+            "STAPLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "NONDESCRIPT",
+          "words": [
+            "BASIC",
+            "MID",
+            "PLAIN",
+            "VANILLA"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "UNITS OF WISDOM",
+          "words": [
+            "GEM",
+            "NUGGET",
+            "PEARL",
+            "WORD"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___BOARDS IN A CLASSROOM",
+          "words": [
+            "BLACK",
+            "CHALK",
+            "CORK",
+            "WHITE"
           ]
         }
       ]

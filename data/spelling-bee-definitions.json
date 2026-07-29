@@ -1,4 +1,28 @@
 {
+  "abbot": {
+    "definition": "The superior or head of an abbey or monastery.",
+    "partOfSpeech": "noun"
+  },
+  "aboard": {
+    "definition": "On board; into or within a ship or boat; hence, into or within a railway car.",
+    "partOfSpeech": "adverb"
+  },
+  "abort": {
+    "definition": "A miscarriage; an untimely birth; an abortion.",
+    "partOfSpeech": "noun"
+  },
+  "about": {
+    "definition": "Moving around; astir.",
+    "partOfSpeech": "adjective"
+  },
+  "abroad": {
+    "definition": "Countries or lands abroad.",
+    "partOfSpeech": "noun"
+  },
+  "abut": {
+    "definition": "To touch by means of a mutual border, edge or end; to border on; to lie adjacent (to); to be contiguous (said of an area of land)",
+    "partOfSpeech": "verb"
+  },
   "acacia": {
     "definition": "A shrub or tree of the tribe Acacieae.",
     "partOfSpeech": "noun"
@@ -10,6 +34,10 @@
   "achoo": null,
   "activity": {
     "definition": "The state or quality of being active; activeness.",
+    "partOfSpeech": "noun"
+  },
+  "adobo": {
+    "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
     "partOfSpeech": "noun"
   },
   "affably": null,
@@ -85,6 +113,10 @@
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
   },
+  "arbor": {
+    "definition": "A shady sitting place or pergola usually in a park or garden, surrounded by climbing shrubs, vines or other vegetation.",
+    "partOfSpeech": "noun"
+  },
   "arhat": {
     "definition": "One who has attained enlightenment; a Buddhist saint.",
     "partOfSpeech": "noun"
@@ -134,12 +166,116 @@
     "definition": "To operate an aircraft.",
     "partOfSpeech": "verb"
   },
+  "baba": {
+    "definition": "A kind of sponge cake soaked in rum-flavoured syrup.",
+    "partOfSpeech": "noun"
+  },
   "bailiff": {
     "definition": "(law enforcement) An officer of the court, particularly:",
     "partOfSpeech": "noun"
   },
+  "baobab": {
+    "definition": "A tree, Adansonia digitata (and similar species), native to tropical Africa, having a broad swollen trunk and edible gourd-like hanging fruits.",
+    "partOfSpeech": "noun"
+  },
+  "barb": {
+    "definition": "The point that stands backward in an arrow, fishhook, etc., to prevent it from being easily extracted. Hence: Anything which stands out with a sharp point obliquely or crosswise to something else.",
+    "partOfSpeech": "noun"
+  },
+  "bard": {
+    "definition": "A professional poet and singer, like among the ancient Celts, whose occupation was to compose and sing verses in honor of the heroic achievements of princes and brave men.",
+    "partOfSpeech": "noun"
+  },
+  "baud": {
+    "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
+    "partOfSpeech": "noun"
+  },
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
+    "partOfSpeech": "noun"
+  },
+  "boar": {
+    "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
+    "partOfSpeech": "noun"
+  },
+  "board": {
+    "definition": "A relatively long, wide and thin piece of any material, usually wood or similar, often for use in construction or furniture-making.",
+    "partOfSpeech": "noun"
+  },
+  "boat": {
+    "definition": "A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.",
+    "partOfSpeech": "noun"
+  },
+  "boba": {
+    "definition": "Short for boba tea.",
+    "partOfSpeech": "noun"
+  },
+  "boob": {
+    "definition": "Idiot, fool.",
+    "partOfSpeech": "noun"
+  },
+  "booboo": {
+    "definition": "A mistake or error.",
+    "partOfSpeech": "noun"
+  },
+  "boor": {
+    "definition": "A peasant.",
+    "partOfSpeech": "noun"
+  },
+  "boot": {
+    "definition": "A heavy shoe that covers part of the leg.",
+    "partOfSpeech": "noun"
+  },
+  "bout": {
+    "definition": "A period of something, usually painful or unpleasant.",
+    "partOfSpeech": "noun"
+  },
+  "brad": {
+    "definition": "A thin, small nail, with a slight projection at the top on one side instead of a head, or occasionally with a small domed head, similar to that of an escutcheon pin.",
+    "partOfSpeech": "noun"
+  },
+  "brat": {
+    "definition": "A child who is regarded as mischievous, unruly, spoiled, or selfish.",
+    "partOfSpeech": "noun"
+  },
+  "broad": {
+    "definition": "A shallow lake, one of a number of bodies of water in eastern Norfolk and Suffolk.",
+    "partOfSpeech": "noun"
+  },
+  "brood": {
+    "definition": "The young of certain animals, especially a group of young birds or fowl hatched at one time by the same mother.",
+    "partOfSpeech": "noun"
+  },
+  "brut": {
+    "definition": "(of champagne) very dry, and not sweet",
+    "partOfSpeech": "adjective"
+  },
+  "bubba": {
+    "definition": "Brother; used as term of familiar address.",
+    "partOfSpeech": "noun"
+  },
+  "burb": {
+    "definition": "(chiefly in the plural) A suburb.",
+    "partOfSpeech": "noun"
+  },
+  "burbot": {
+    "definition": "A freshwater fish, taxonomic name Lota lota, which is similar to the ling and the cusk and spawns in the winter.",
+    "partOfSpeech": "noun"
+  },
+  "burr": {
+    "definition": "A sharp, pointy object, such as a sliver or splinter.",
+    "partOfSpeech": "noun"
+  },
+  "burrata": {
+    "definition": "A fresh southern Italian cheese similar to creamy mozzarella.",
+    "partOfSpeech": "noun"
+  },
+  "burro": {
+    "definition": "A small donkey",
+    "partOfSpeech": "noun"
+  },
+  "butt": {
+    "definition": "The larger or thicker end of something; the blunt end, in distinction from the sharp or narrow end",
     "partOfSpeech": "noun"
   },
   "cacao": {
@@ -327,8 +463,16 @@
     "definition": "A pointed missile weapon, intended to be thrown by the hand, for example a short lance or javelin",
     "partOfSpeech": "noun"
   },
+  "dartboard": {
+    "definition": "A board used as a target for throwing darts.",
+    "partOfSpeech": "noun"
+  },
   "data": {
     "definition": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc.",
+    "partOfSpeech": "noun"
+  },
+  "daub": {
+    "definition": "Excrement or clay used as a bonding material in construction.",
     "partOfSpeech": "noun"
   },
   "deem": {
@@ -383,9 +527,18 @@
     "definition": "(clothing) To remove or take off, especially of clothing.",
     "partOfSpeech": "verb"
   },
+  "doubt": {
+    "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
+    "partOfSpeech": "noun"
+  },
+  "drab": null,
   "drat": {
     "definition": "To damn or curse.",
     "partOfSpeech": "verb"
+  },
+  "drub": {
+    "definition": "Carbonaceous shale; small coal; slate, dross, or rubbish in coal.",
+    "partOfSpeech": "noun"
   },
   "duff": {
     "definition": "Dough.",
@@ -1100,6 +1253,10 @@
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
     "partOfSpeech": "noun"
   },
+  "outboard": {
+    "definition": "An outboard motor.",
+    "partOfSpeech": "noun"
+  },
   "penmen": {
     "definition": "A scribe, or person who copies texts",
     "partOfSpeech": "noun"
@@ -1118,6 +1275,22 @@
   },
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
+    "partOfSpeech": "noun"
+  },
+  "robot": {
+    "definition": "A machine built to carry out some complex task or group of tasks by physically moving, especially one which can be programmed.",
+    "partOfSpeech": "noun"
+  },
+  "tabard": {
+    "definition": "A silk banner attached to a bugle or trumpet.",
+    "partOfSpeech": "noun"
+  },
+  "taboo": {
+    "definition": "An inhibition or ban that results from social custom or emotional aversion.",
+    "partOfSpeech": "noun"
+  },
+  "tabor": {
+    "definition": "A small drum.",
     "partOfSpeech": "noun"
   },
   "tach": {
@@ -1267,6 +1440,22 @@
   },
   "tract": {
     "definition": "An area or expanse.",
+    "partOfSpeech": "noun"
+  },
+  "troubadour": {
+    "definition": "An itinerant composer and performer of songs in medieval Europe; a jongleur or travelling minstrel.",
+    "partOfSpeech": "noun"
+  },
+  "tuba": {
+    "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
+    "partOfSpeech": "noun"
+  },
+  "turbo": {
+    "definition": "Turbocharger.",
+    "partOfSpeech": "noun"
+  },
+  "turbot": {
+    "definition": "A species of flatfish native to Europe (Scophthalmus maximus, earlier Psetta maxima).",
     "partOfSpeech": "noun"
   },
   "uncuff": null,

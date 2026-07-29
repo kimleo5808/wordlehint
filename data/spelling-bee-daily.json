@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T06:06:36.090Z",
+  "lastUpdated": "2026-07-29T06:12:01.109Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59921,6 +59921,74 @@
         "pimp",
         "pimped",
         "pimping"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-29",
+      "id": 27512,
+      "centerLetter": "b",
+      "outerLetters": [
+        "a",
+        "d",
+        "o",
+        "r",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "outboard",
+        "troubadour"
+      ],
+      "answers": [
+        "abbot",
+        "aboard",
+        "abort",
+        "about",
+        "abroad",
+        "abut",
+        "adobo",
+        "arbor",
+        "baba",
+        "baobab",
+        "barb",
+        "bard",
+        "baud",
+        "boar",
+        "board",
+        "boat",
+        "boba",
+        "boob",
+        "booboo",
+        "boor",
+        "boot",
+        "bout",
+        "brad",
+        "brat",
+        "broad",
+        "brood",
+        "brut",
+        "bubba",
+        "burb",
+        "burbot",
+        "burr",
+        "burrata",
+        "burro",
+        "butt",
+        "dartboard",
+        "daub",
+        "doubt",
+        "drab",
+        "drub",
+        "outboard",
+        "robot",
+        "tabard",
+        "taboo",
+        "tabor",
+        "troubadour",
+        "tuba",
+        "turbo",
+        "turbot"
       ],
       "editor": "Sam Ezersky"
     }
