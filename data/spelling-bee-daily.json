@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T06:12:01.109Z",
+  "lastUpdated": "2026-07-30T06:03:44.411Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -59989,6 +59989,53 @@
         "tuba",
         "turbo",
         "turbot"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-30",
+      "id": 26743,
+      "centerLetter": "h",
+      "outerLetters": [
+        "e",
+        "g",
+        "n",
+        "o",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "toughen"
+      ],
+      "answers": [
+        "enough",
+        "ghee",
+        "ghetto",
+        "goth",
+        "henge",
+        "hone",
+        "hoot",
+        "huge",
+        "hung",
+        "hunt",
+        "nought",
+        "ought",
+        "outthought",
+        "teeth",
+        "teethe",
+        "tenth",
+        "thee",
+        "then",
+        "thong",
+        "thou",
+        "though",
+        "thought",
+        "thug",
+        "tooth",
+        "tough",
+        "toughen",
+        "unhung",
+        "unthought"
       ],
       "editor": "Sam Ezersky"
     }

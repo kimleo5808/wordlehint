@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T06:11:59.833Z",
+  "lastUpdated": "2026-07-30T06:03:43.123Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53530,6 +53530,53 @@
             "CHALK",
             "CORK",
             "WHITE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "id": 1145,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "VIRTUOUS",
+          "words": [
+            "FAIR",
+            "GOOD",
+            "JUST",
+            "RIGHT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ACTIVITIES WITH MULTIPLE BALLS",
+          "words": [
+            "BEER PONG",
+            "BINGO",
+            "JUGGLING",
+            "POOL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "CRUISE LINES",
+          "words": [
+            "CARNIVAL",
+            "CELEBRITY",
+            "PRINCESS",
+            "VIKING"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ON THE ___, TO MEAN \"PRECISE\"",
+          "words": [
+            "DOT",
+            "MARK",
+            "MONEY",
+            "NOSE"
           ]
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T06:12:00.359Z",
+  "lastUpdated": "2026-07-30T06:03:43.723Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22012,6 +22012,32 @@
         "ETLFIG",
         "PPLDEU",
         "PUONIR"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "id": 879,
+      "editor": "Tracy Bennett",
+      "clue": "Trade names",
+      "spangram": "ARTISANS",
+      "themeWords": [
+        "COOPER",
+        "JOINER",
+        "MASON",
+        "POTTER",
+        "SMITH",
+        "TANNER",
+        "WEAVER"
+      ],
+      "board": [
+        "AOOPRS",
+        "WRCENR",
+        "RETAPE",
+        "EAISOT",
+        "VSOJMT",
+        "MIINAS",
+        "RTHERO",
+        "ENNATN"
       ]
     }
   ]
