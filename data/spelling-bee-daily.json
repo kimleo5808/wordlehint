@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T06:03:44.411Z",
+  "lastUpdated": "2026-07-31T06:27:56.073Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60036,6 +60036,73 @@
         "toughen",
         "unhung",
         "unthought"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-07-31",
+      "id": 19242,
+      "centerLetter": "m",
+      "outerLetters": [
+        "a",
+        "i",
+        "l",
+        "o",
+        "p",
+        "t"
+      ],
+      "pangrams": [
+        "optimal"
+      ],
+      "answers": [
+        "ammo",
+        "atom",
+        "imam",
+        "impala",
+        "lama",
+        "lamp",
+        "lima",
+        "limit",
+        "limo",
+        "limp",
+        "lipoma",
+        "llama",
+        "loam",
+        "loom",
+        "mail",
+        "maillot",
+        "maim",
+        "mall",
+        "malt",
+        "mama",
+        "mamma",
+        "mammal",
+        "militia",
+        "mill",
+        "mitt",
+        "moat",
+        "moil",
+        "moll",
+        "molt",
+        "momma",
+        "moola",
+        "moot",
+        "motto",
+        "omit",
+        "optima",
+        "optimal",
+        "palm",
+        "pampa",
+        "papilloma",
+        "pimp",
+        "pomp",
+        "pompom",
+        "taillamp",
+        "tamp",
+        "tatami",
+        "tomatillo",
+        "tomato",
+        "tomtit"
       ],
       "editor": "Sam Ezersky"
     }

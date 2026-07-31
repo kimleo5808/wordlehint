@@ -73,6 +73,7 @@
     "definition": "The amine functional group.",
     "partOfSpeech": "noun"
   },
+  "ammo": null,
   "ammonia": {
     "definition": "A gaseous compound of hydrogen and nitrogen, NH3, with a pungent smell and taste.",
     "partOfSpeech": "noun"
@@ -125,6 +126,7 @@
     "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
     "partOfSpeech": "noun"
   },
+  "atom": null,
   "atomization": null,
   "attach": {
     "definition": "To fasten, to join to (literally and figuratively).",
@@ -823,6 +825,10 @@
     "definition": "The act of imitating.",
     "partOfSpeech": "noun"
   },
+  "impala": {
+    "definition": "An African antelope, Aepyceros melampus, noted for its leaping ability; the male has ridged, curved horns.",
+    "partOfSpeech": "noun"
+  },
   "impede": {
     "definition": "To get in the way of; to hinder.",
     "partOfSpeech": "verb"
@@ -966,6 +972,14 @@
     "definition": "An eccentric, strange or crazy person.",
     "partOfSpeech": "noun"
   },
+  "lama": {
+    "definition": "A master of Tibetan Buddhism.",
+    "partOfSpeech": "noun"
+  },
+  "lamp": {
+    "definition": "A device that generates heat, light or other radiation. Especially an electric light bulb.",
+    "partOfSpeech": "noun"
+  },
   "lava": {
     "definition": "The molten rock ejected by a volcano from its crater or fissured sides.",
     "partOfSpeech": "noun"
@@ -978,6 +992,7 @@
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
     "partOfSpeech": "noun"
   },
+  "lima": null,
   "limit": {
     "definition": "A restriction; a bound beyond which one may not go.",
     "partOfSpeech": "noun"
@@ -990,12 +1005,20 @@
     "definition": "An automobile body with seats and permanent top like a coupe, and with the top projecting over the driver and a projecting front.",
     "partOfSpeech": "noun"
   },
+  "limp": {
+    "definition": "An irregular, jerky or awkward gait.",
+    "partOfSpeech": "noun"
+  },
   "lint": {
     "definition": "A fine material made by scraping cotton or linen cloth; used for dressing wounds.",
     "partOfSpeech": "noun"
   },
   "lion": {
     "definition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
+    "partOfSpeech": "noun"
+  },
+  "lipoma": {
+    "definition": "A nonmalignant tumor comprising fat cells.",
     "partOfSpeech": "noun"
   },
   "litho": {
@@ -1006,8 +1029,16 @@
     "definition": "To be alive; to have life.",
     "partOfSpeech": "verb"
   },
+  "llama": {
+    "definition": "A South American mammal of the camel family, Lama glama, used as a domestic beast of burden and a source of wool and meat.",
+    "partOfSpeech": "noun"
+  },
   "loach": {
     "definition": "A bottom-feeding freshwater fish in the superfamily or suborder Cobitoidea.",
+    "partOfSpeech": "noun"
+  },
+  "loam": {
+    "definition": "A type of soil; an earthy mixture of sand, silt and clay, with organic matter to which its fertility is chiefly due.",
     "partOfSpeech": "noun"
   },
   "loath": {
@@ -1038,6 +1069,7 @@
     "definition": "To act lazily or indolently while reclining; to lean; to lie at ease.",
     "partOfSpeech": "verb"
   },
+  "loom": null,
   "loot": {
     "definition": "A kind of scoop or ladle, chiefly used to remove the scum from brine-pans in saltworks.",
     "partOfSpeech": "noun"
@@ -1050,6 +1082,8 @@
     "definition": "A game of chance similar to bingo",
     "partOfSpeech": "noun"
   },
+  "mail": null,
+  "maillot": null,
   "maim": {
     "definition": "A serious wound",
     "partOfSpeech": "noun"
@@ -1061,6 +1095,23 @@
   "maintain": {
     "definition": "To support (someone), to back up or assist (someone) in an action.",
     "partOfSpeech": "verb"
+  },
+  "mall": null,
+  "malt": {
+    "definition": "Malted grain (sprouted grain) (usually barley), used in brewing and otherwise.",
+    "partOfSpeech": "noun"
+  },
+  "mama": {
+    "definition": "(hypocoristic, usually childish) Mother, female parent.",
+    "partOfSpeech": "noun"
+  },
+  "mamma": {
+    "definition": "The milk-secreting organ of female humans and other mammals which includes the mammary gland and the nipple or teat; a breast; an udder. (plural: mammae)",
+    "partOfSpeech": "noun"
+  },
+  "mammal": {
+    "definition": "An animal of the class Mammalia, characterized by being warm-blooded, having hair and feeding milk to its young.",
+    "partOfSpeech": "noun"
   },
   "mania": {
     "definition": "Violent derangement of mind; madness; insanity.",
@@ -1100,6 +1151,7 @@
     "definition": "Demeanor; facial expression or attitude, especially one which is intended by its bearer.",
     "partOfSpeech": "noun"
   },
+  "militia": null,
   "mill": {
     "definition": "A grinding apparatus for substances such as grains, seeds, etc.",
     "partOfSpeech": "noun"
@@ -1176,8 +1228,18 @@
     "definition": "A mitten",
     "partOfSpeech": "noun"
   },
+  "moat": null,
   "moil": {
     "definition": "Hard work.",
+    "partOfSpeech": "noun"
+  },
+  "moll": {
+    "definition": "A female companion of a gangster, especially a former or current prostitute.",
+    "partOfSpeech": "noun"
+  },
+  "molt": null,
+  "momma": {
+    "definition": "Mother",
     "partOfSpeech": "noun"
   },
   "monolith": {
@@ -1188,14 +1250,23 @@
     "definition": "Excessive interest or concentration on a singular object or subject.",
     "partOfSpeech": "noun"
   },
+  "moola": {
+    "definition": "Money, cash.",
+    "partOfSpeech": "noun"
+  },
   "moonlit": {
     "definition": "Lit by moonlight.",
     "partOfSpeech": "adjective"
+  },
+  "moot": {
+    "definition": "A moot court.",
+    "partOfSpeech": "noun"
   },
   "motion": {
     "definition": "A state of progression from one place to another.",
     "partOfSpeech": "noun"
   },
+  "motto": null,
   "naif": {
     "definition": "One who is naive.",
     "partOfSpeech": "noun"
@@ -1293,6 +1364,14 @@
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
     "partOfSpeech": "noun"
   },
+  "optima": {
+    "definition": "The best or most favorable condition, or the greatest amount or degree possible under specific sets of comparable circumstances.",
+    "partOfSpeech": "noun"
+  },
+  "optimal": {
+    "definition": "The best of its kind",
+    "partOfSpeech": "noun"
+  },
   "ought": {
     "definition": "Property; possession",
     "partOfSpeech": "noun"
@@ -1305,6 +1384,12 @@
     "definition": "To best an opponent by thinking.",
     "partOfSpeech": "verb"
   },
+  "palm": {
+    "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics.",
+    "partOfSpeech": "noun"
+  },
+  "pampa": null,
+  "papilloma": null,
   "penmen": {
     "definition": "A scribe, or person who copies texts",
     "partOfSpeech": "noun"
@@ -1321,6 +1406,8 @@
     "definition": "To act as a procurer of prostitutes; to pander.",
     "partOfSpeech": "verb"
   },
+  "pomp": null,
+  "pompom": null,
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
@@ -1373,9 +1460,14 @@
     "definition": "A formal evening jacket with an extended back panel; a dress coat.",
     "partOfSpeech": "noun"
   },
+  "taillamp": null,
   "taint": {
     "definition": "A contamination, decay or putrefaction, especially in food",
     "partOfSpeech": "noun"
+  },
+  "tamp": {
+    "definition": "(blasting) To plug up with clay, earth, dry sand, sod, or other material, as a hole bored in a rock.",
+    "partOfSpeech": "verb"
   },
   "tannic": {
     "definition": "Pertaining to, containing, or obtained from tannin.",
@@ -1499,6 +1591,11 @@
     "definition": "Loss or damage incurred through a disaster.",
     "partOfSpeech": "noun"
   },
+  "tomatillo": {
+    "definition": "A plant of the nightshade family originating in Mexico, Physalis philadelphica, cultivated for its tomato-like green to green-purple fruit surrounded by a thin papery skin.",
+    "partOfSpeech": "noun"
+  },
+  "tomato": null,
   "tomtit": {
     "definition": "Petroica macrocephala, the miromiro or New Zealand tit, a bird of the Petroicidae (Australasian robin) family.",
     "partOfSpeech": "noun"

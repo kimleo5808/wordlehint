@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T06:03:43.123Z",
+  "lastUpdated": "2026-07-31T06:27:55.074Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53577,6 +53577,53 @@
             "MARK",
             "MONEY",
             "NOSE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "id": 1146,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CONSTRUCT",
+          "words": [
+            "FASHION",
+            "MODEL",
+            "MOLD",
+            "SHAPE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SUPER MARIO FIGURES",
+          "words": [
+            "DINOSAUR",
+            "MUSHROOM",
+            "PLUMBER",
+            "PRINCESS"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FRUITS PLUS STARTING LETTER",
+          "words": [
+            "DAPPLE",
+            "JDATE",
+            "SLIME",
+            "SPEAR"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH MERRIMENTS",
+          "words": [
+            "CHEERIOS",
+            "FUNGUS",
+            "GLEEK",
+            "JOYSTICK"
           ]
         }
       ]
