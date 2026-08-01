@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T06:27:56.073Z",
+  "lastUpdated": "2026-08-01T06:13:07.983Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60103,6 +60103,73 @@
         "tomatillo",
         "tomato",
         "tomtit"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-01",
+      "id": 21877,
+      "centerLetter": "r",
+      "outerLetters": [
+        "a",
+        "b",
+        "c",
+        "i",
+        "k",
+        "t"
+      ],
+      "pangrams": [
+        "brickbat"
+      ],
+      "answers": [
+        "arabica",
+        "arctic",
+        "aria",
+        "atria",
+        "attar",
+        "attract",
+        "baccarat",
+        "backtrack",
+        "barb",
+        "barback",
+        "barbaric",
+        "bariatric",
+        "bark",
+        "barrack",
+        "bicarb",
+        "birria",
+        "brat",
+        "briar",
+        "brick",
+        "brickbat",
+        "carat",
+        "carb",
+        "cart",
+        "cataract",
+        "circa",
+        "cirri",
+        "citric",
+        "crab",
+        "crack",
+        "crib",
+        "crick",
+        "critic",
+        "karat",
+        "kart",
+        "rabbi",
+        "rabbit",
+        "rack",
+        "raita",
+        "ratatat",
+        "ribbit",
+        "rick",
+        "tart",
+        "tartar",
+        "tiara",
+        "track",
+        "tract",
+        "trait",
+        "trick"
       ],
       "editor": "Sam Ezersky"
     }

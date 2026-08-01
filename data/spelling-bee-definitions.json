@@ -114,12 +114,21 @@
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
   },
+  "arabica": null,
   "arbor": {
     "definition": "A shady sitting place or pergola usually in a park or garden, surrounded by climbing shrubs, vines or other vegetation.",
     "partOfSpeech": "noun"
   },
+  "arctic": {
+    "definition": "A warm waterproof overshoe.",
+    "partOfSpeech": "noun"
+  },
   "arhat": {
     "definition": "One who has attained enlightenment; a Buddhist saint.",
+    "partOfSpeech": "noun"
+  },
+  "aria": {
+    "definition": "A musical piece written typically for a solo voice with orchestral accompaniment in an opera or cantata.",
     "partOfSpeech": "noun"
   },
   "atoll": {
@@ -128,6 +137,7 @@
   },
   "atom": null,
   "atomization": null,
+  "atria": null,
   "attach": {
     "definition": "To fasten, to join to (literally and figuratively).",
     "partOfSpeech": "verb"
@@ -172,6 +182,14 @@
     "definition": "A kind of sponge cake soaked in rum-flavoured syrup.",
     "partOfSpeech": "noun"
   },
+  "baccarat": {
+    "definition": "A card game resembling chemin de fer with many forms - usually entailing the player(s) betting against two or three hands dealt - also bearing some similarities to blackjack.",
+    "partOfSpeech": "noun"
+  },
+  "backtrack": {
+    "definition": "The act of backtracking",
+    "partOfSpeech": "noun"
+  },
   "bailiff": {
     "definition": "(law enforcement) An officer of the court, particularly:",
     "partOfSpeech": "noun"
@@ -184,18 +202,34 @@
     "definition": "The point that stands backward in an arrow, fishhook, etc., to prevent it from being easily extracted. Hence: Anything which stands out with a sharp point obliquely or crosswise to something else.",
     "partOfSpeech": "noun"
   },
+  "barback": null,
+  "barbaric": {
+    "definition": "Of or relating to a barbarian; uncivilized, uncultured or uncouth",
+    "partOfSpeech": "adjective"
+  },
   "bard": {
     "definition": "A professional poet and singer, like among the ancient Celts, whose occupation was to compose and sing verses in honor of the heroic achievements of princes and brave men.",
+    "partOfSpeech": "noun"
+  },
+  "bariatric": null,
+  "bark": {
+    "definition": "The short, loud, explosive sound uttered by a dog, a fox, and some other animals.",
+    "partOfSpeech": "noun"
+  },
+  "barrack": {
+    "definition": "(chiefly in the plural) A building for soldiers, especially within a garrison; originally referred to temporary huts, now usually to a permanent structure or set of buildings.",
     "partOfSpeech": "noun"
   },
   "baud": {
     "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
     "partOfSpeech": "noun"
   },
+  "bicarb": null,
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
   },
+  "birria": null,
   "boar": {
     "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
     "partOfSpeech": "noun"
@@ -238,6 +272,18 @@
   },
   "brat": {
     "definition": "A child who is regarded as mischievous, unruly, spoiled, or selfish.",
+    "partOfSpeech": "noun"
+  },
+  "briar": {
+    "definition": "Any of many plants with thorny stems growing in dense clusters, such as many in the Rosa, Rubus, and Smilax genera.",
+    "partOfSpeech": "noun"
+  },
+  "brick": {
+    "definition": "A hardened rectangular block of mud, clay etc., used for building.",
+    "partOfSpeech": "noun"
+  },
+  "brickbat": {
+    "definition": "A piece of brick used as a weapon, especially if thrown, or placed in something like a sock and used as a club.",
     "partOfSpeech": "noun"
   },
   "broad": {
@@ -304,6 +350,7 @@
     "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
     "partOfSpeech": "noun"
   },
+  "carb": null,
   "cart": {
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
@@ -348,6 +395,9 @@
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
   },
+  "circa": null,
+  "cirri": null,
+  "citric": null,
   "city": {
     "definition": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place.",
     "partOfSpeech": "noun"
@@ -447,6 +497,23 @@
   },
   "coot": {
     "definition": "Any of various aquatic birds of the genus Fulica that are mainly black with a prominent frontal shield on the forehead.",
+    "partOfSpeech": "noun"
+  },
+  "crab": {
+    "definition": "A crustacean of the infraorder Brachyura, having five pairs of legs, the foremost of which are in the form of claws, and a carapace.",
+    "partOfSpeech": "noun"
+  },
+  "crack": {
+    "definition": "A thin and usually jagged space opened in a previously solid material.",
+    "partOfSpeech": "noun"
+  },
+  "crib": {
+    "definition": "A baby’s bed with high, often slatted, often moveable sides, suitable for a child who has outgrown a cradle or bassinet.",
+    "partOfSpeech": "noun"
+  },
+  "crick": null,
+  "critic": {
+    "definition": "A person who appraises the works of others.",
     "partOfSpeech": "noun"
   },
   "cuff": {
@@ -1408,10 +1475,31 @@
   },
   "pomp": null,
   "pompom": null,
+  "rabbi": {
+    "definition": "A Jewish scholar or teacher of halacha (Jewish law), capable of making halachic decisions.",
+    "partOfSpeech": "noun"
+  },
+  "rabbit": {
+    "definition": "A mammal of the family Leporidae, with long ears, long hind legs and a short, fluffy tail.",
+    "partOfSpeech": "noun"
+  },
+  "rack": {
+    "definition": "A series of one or more shelves, stacked one above the other",
+    "partOfSpeech": "noun"
+  },
+  "raita": {
+    "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
+    "partOfSpeech": "noun"
+  },
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
   },
+  "ribbit": {
+    "definition": "The vocal sound made by a frog or toad.",
+    "partOfSpeech": "noun"
+  },
+  "rick": null,
   "robot": {
     "definition": "A machine built to carry out some complex task or group of tasks by physically moving, especially one which can be programmed.",
     "partOfSpeech": "noun"
@@ -1542,6 +1630,10 @@
     "definition": "Someone with an intimidating and unseemly appearance and mannerisms, who treats others violently and roughly, often for hire.",
     "partOfSpeech": "noun"
   },
+  "tiara": {
+    "definition": "The papal crown.",
+    "partOfSpeech": "noun"
+  },
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",
     "partOfSpeech": "preposition"
@@ -1630,6 +1722,14 @@
   },
   "tract": {
     "definition": "An area or expanse.",
+    "partOfSpeech": "noun"
+  },
+  "trait": {
+    "definition": "An identifying characteristic, habit or trend.",
+    "partOfSpeech": "noun"
+  },
+  "trick": {
+    "definition": "Something designed to fool or swindle.",
     "partOfSpeech": "noun"
   },
   "troubadour": {

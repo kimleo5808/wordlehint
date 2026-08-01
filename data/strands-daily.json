@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T06:27:55.493Z",
+  "lastUpdated": "2026-08-01T06:13:07.240Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22063,6 +22063,30 @@
         "ALUCHR",
         "EROSAM",
         "NEGGNI"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "id": 881,
+      "editor": "Tracy Bennett",
+      "clue": "\"As if!\"",
+      "spangram": "GETREAL",
+      "themeWords": [
+        "ABSURD",
+        "LAUGHABLE",
+        "LUDICROUS",
+        "PREPOSTEROUS",
+        "SILLY"
+      ],
+      "board": [
+        "GASRLE",
+        "PEBUDB",
+        "ERTLAA",
+        "PODRUH",
+        "TSUIEG",
+        "ERLCRA",
+        "UOLLOL",
+        "SYSIUS"
       ]
     }
   ]

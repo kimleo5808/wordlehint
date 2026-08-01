@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T06:27:55.074Z",
+  "lastUpdated": "2026-08-01T06:13:06.779Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53624,6 +53624,53 @@
             "FUNGUS",
             "GLEEK",
             "JOYSTICK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "id": 1147,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "BEDDING",
+          "words": [
+            "COMFORTER",
+            "SHAM",
+            "SHEET",
+            "THROW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "OSCAR-WINNING ACTORS SINCE 2010",
+          "words": [
+            "BALE",
+            "JORDAN",
+            "PHOENIX",
+            "WALTZ"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PERFORM SOME HOLE MACHINING OPERATIONS",
+          "words": [
+            "BORE",
+            "COUNTERSINK",
+            "DRILL",
+            "REAM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH BREAD SHAPES",
+          "words": [
+            "BOULEVARD",
+            "BUNDLE",
+            "LOAFER",
+            "ROLLS-ROYCE"
           ]
         }
       ]
