@@ -32,10 +32,16 @@
     "partOfSpeech": "noun"
   },
   "achoo": null,
+  "acne": {
+    "definition": "A skin condition, usually of the face, that is common in adolescents. It is characterised by red pimples, and is caused by the inflammation of sebaceous glands through bacterial infection.",
+    "partOfSpeech": "noun"
+  },
   "activity": {
     "definition": "The state or quality of being active; activeness.",
     "partOfSpeech": "noun"
   },
+  "addend": null,
+  "addenda": null,
   "adobo": {
     "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
     "partOfSpeech": "noun"
@@ -82,6 +88,10 @@
     "definition": "Amniocentesis",
     "partOfSpeech": "noun"
   },
+  "anal": {
+    "definition": "Any of the anal scales of a reptile.",
+    "partOfSpeech": "noun"
+  },
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
@@ -93,6 +103,15 @@
   "anion": {
     "definition": "A negatively charged ion.",
     "partOfSpeech": "noun"
+  },
+  "annal": null,
+  "anneal": {
+    "definition": "An act of annealing.",
+    "partOfSpeech": "noun"
+  },
+  "annealed": {
+    "definition": "To subject to great heat and then (often slow) cooling, and sometimes reheating and further cooling, for the purpose of rendering less brittle; to temper; to toughen.",
+    "partOfSpeech": "verb"
   },
   "annotation": {
     "definition": "A critical or explanatory commentary or analysis",
@@ -334,6 +353,10 @@
     "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
     "partOfSpeech": "noun"
   },
+  "cadence": {
+    "definition": "The act or state of declining or sinking.",
+    "partOfSpeech": "noun"
+  },
   "calico": {
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
     "partOfSpeech": "noun"
@@ -341,6 +364,47 @@
   "callaloo": {
     "definition": "Any of various tropical plants grown in the Americas, especially of the genus Xanthosoma, cultivated for their edible leaves.",
     "partOfSpeech": "noun"
+  },
+  "canal": {
+    "definition": "An artificial waterway or artificially improved river used for travel, shipping, or irrigation.",
+    "partOfSpeech": "noun"
+  },
+  "cancan": {
+    "definition": "A high-kicking chorus line dance originating in France.",
+    "partOfSpeech": "noun"
+  },
+  "cancel": {
+    "definition": "A cancellation (US); (nonstandard in some kinds of English).",
+    "partOfSpeech": "noun"
+  },
+  "canceled": null,
+  "cancelled": {
+    "definition": "To cross out something with lines etc.",
+    "partOfSpeech": "verb"
+  },
+  "candela": {
+    "definition": "In the International System of Units, the base unit of luminous intensity; the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 × 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian. Symbol: cd",
+    "partOfSpeech": "noun"
+  },
+  "candle": {
+    "definition": "A light source consisting of a wick embedded in a solid, flammable substance such as wax, tallow, or paraffin.",
+    "partOfSpeech": "noun"
+  },
+  "cane": {
+    "definition": "A plant with simple stems, like bamboo or sugar cane, or the stem thereof",
+    "partOfSpeech": "noun"
+  },
+  "caned": {
+    "definition": "To strike or beat with a cane or similar implement",
+    "partOfSpeech": "verb"
+  },
+  "canna": {
+    "definition": "Any member of the genus Canna of tropical plants with large leaves and often showy flowers.",
+    "partOfSpeech": "noun"
+  },
+  "canned": {
+    "definition": "To seal in a can.",
+    "partOfSpeech": "verb"
   },
   "cantina": {
     "definition": "A drinking establishment, often specifically of the type found in Latin America.",
@@ -375,6 +439,20 @@
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
   },
+  "chance": {
+    "definition": "An opportunity or possibility.",
+    "partOfSpeech": "noun"
+  },
+  "chanced": {
+    "definition": "To happen by chance, to occur.",
+    "partOfSpeech": "verb"
+  },
+  "chancel": {
+    "definition": "The space around the altar in a church, often enclosed, for use by the clergy and the choir. In medieval cathedrals the chancel was usually enclosed or blocked off from the nave by an altar screen.",
+    "partOfSpeech": "noun"
+  },
+  "channel": null,
+  "channeled": null,
   "chaotic": {
     "definition": "A character having a chaotic alignment.",
     "partOfSpeech": "noun"
@@ -405,6 +483,26 @@
   "civic": {
     "definition": "Of, relating to, or belonging to a city, a citizen, or citizenship; municipal or civil.",
     "partOfSpeech": "adjective"
+  },
+  "clan": {
+    "definition": "A group of people all descended from a common ancestor, in fact or belief.",
+    "partOfSpeech": "noun"
+  },
+  "clean": {
+    "definition": "Removal of dirt.",
+    "partOfSpeech": "noun"
+  },
+  "cleaned": {
+    "definition": "To remove dirt from a place or object.",
+    "partOfSpeech": "verb"
+  },
+  "clench": {
+    "definition": "Tight grip.",
+    "partOfSpeech": "noun"
+  },
+  "clenched": {
+    "definition": "To grip or hold fast.",
+    "partOfSpeech": "verb"
   },
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
@@ -528,6 +626,17 @@
     "definition": "A person who believes that all people are motivated by selfishness.",
     "partOfSpeech": "noun"
   },
+  "dance": {
+    "definition": "A sequence of rhythmic steps or movements usually performed to music, for pleasure or as a form of social interaction.",
+    "partOfSpeech": "noun"
+  },
+  "danced": null,
+  "dancehall": null,
+  "dandle": {
+    "definition": "To move up and down on one's knee or in one's arms, in affectionate play, as an infant.",
+    "partOfSpeech": "verb"
+  },
+  "dandled": null,
   "dart": {
     "definition": "A pointed missile weapon, intended to be thrown by the hand, for example a short lance or javelin",
     "partOfSpeech": "noun"
@@ -542,6 +651,19 @@
   },
   "daub": {
     "definition": "Excrement or clay used as a bonding material in construction.",
+    "partOfSpeech": "noun"
+  },
+  "deaden": null,
+  "deadened": {
+    "definition": "To render less lively; to diminish; to muffle.",
+    "partOfSpeech": "verb"
+  },
+  "dean": {
+    "definition": "A senior official in a college or university, who may be in charge of a division or faculty (for example, the dean of science) or have some other advisory or disciplinary function (for example, the dean of students).",
+    "partOfSpeech": "noun"
+  },
+  "decadence": {
+    "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
   },
   "deem": {
@@ -617,6 +739,11 @@
     "definition": "The act or process of adding.",
     "partOfSpeech": "noun"
   },
+  "elan": {
+    "definition": "Ardor or zeal inspired by passion or enthusiasm.",
+    "partOfSpeech": "noun"
+  },
+  "eland": null,
   "emend": {
     "definition": "To correct and revise (text or a document).",
     "partOfSpeech": "verb"
@@ -629,6 +756,24 @@
     "definition": "To correct and revise (text or a document).",
     "partOfSpeech": "verb"
   },
+  "ended": {
+    "definition": "To come to an end",
+    "partOfSpeech": "verb"
+  },
+  "enhance": {
+    "definition": "To lift, raise up.",
+    "partOfSpeech": "verb"
+  },
+  "enhanced": {
+    "definition": "To lift, raise up.",
+    "partOfSpeech": "verb"
+  },
+  "enlace": {
+    "definition": "To bind or encircle with lace, or as with lace",
+    "partOfSpeech": "verb"
+  },
+  "enlaced": null,
+  "ennead": null,
   "enoki": {
     "definition": "An enoki mushroom, Flammulina velutipes.",
     "partOfSpeech": "noun"
@@ -811,6 +956,26 @@
     "definition": "A circular band of coloured light, visible around the sun or moon etc., caused by reflection and refraction of light by ice crystals in the atmosphere.",
     "partOfSpeech": "noun"
   },
+  "hand": {
+    "definition": "The part of the forelimb below the forearm or wrist in a human, and the corresponding part in many other animals.",
+    "partOfSpeech": "noun"
+  },
+  "handed": {
+    "definition": "To give, pass, or transmit with the hand, literally or figuratively.",
+    "partOfSpeech": "verb"
+  },
+  "handheld": {
+    "definition": "A personal digital assistant or video game console that is small enough to be held in the hands.",
+    "partOfSpeech": "noun"
+  },
+  "handle": {
+    "definition": "The part of an object which is (designed to be) held in the hand when used or moved.",
+    "partOfSpeech": "noun"
+  },
+  "handled": {
+    "definition": "To touch; to feel or hold with the hand(s).",
+    "partOfSpeech": "verb"
+  },
   "hardhat": {
     "definition": "A helmet, usually made from rigid plastic, used on construction sites to protect the head from falling objects.",
     "partOfSpeech": "noun"
@@ -836,10 +1001,20 @@
     "definition": "A piece of furniture used to store hats and clothing, consisting of a pole with pegs on a moderately broad base; a hatstand.",
     "partOfSpeech": "noun"
   },
+  "headland": null,
+  "hence": {
+    "definition": "From here, from this place, away",
+    "partOfSpeech": "adverb"
+  },
   "henge": {
     "definition": "A prehistoric enclosure in the form of a circle or circular arc defined by a raised circular bank and a circular ditch usually running inside the bank, with one or more entrances leading into the enclosed open space.",
     "partOfSpeech": "noun"
   },
+  "henna": {
+    "definition": "A shrub, Lawsonia inermis, having fragrant reddish flowers",
+    "partOfSpeech": "noun"
+  },
+  "hennaed": null,
   "hill": {
     "definition": "An elevated location smaller than a mountain.",
     "partOfSpeech": "noun"
@@ -1039,12 +1214,30 @@
     "definition": "An eccentric, strange or crazy person.",
     "partOfSpeech": "noun"
   },
+  "laden": null,
   "lama": {
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
   },
   "lamp": {
     "definition": "A device that generates heat, light or other radiation. Especially an electric light bulb.",
+    "partOfSpeech": "noun"
+  },
+  "lance": {
+    "definition": "A weapon of war, consisting of a long shaft or handle and a steel blade or head; a spear carried by horsemen.",
+    "partOfSpeech": "noun"
+  },
+  "lanced": null,
+  "land": {
+    "definition": "The part of Earth which is not covered by oceans or other bodies of water.",
+    "partOfSpeech": "noun"
+  },
+  "landed": {
+    "definition": "To descend to a surface, especially from the air.",
+    "partOfSpeech": "verb"
+  },
+  "lane": {
+    "definition": "(used in street names) A road, street, or similar thoroughfare.",
     "partOfSpeech": "noun"
   },
   "lava": {
@@ -1054,6 +1247,22 @@
   "laving": {
     "definition": "To pour or throw out, as water; lade out; bail; bail out.",
     "partOfSpeech": "verb"
+  },
+  "leaden": {
+    "definition": "To make or become dull or overcast.",
+    "partOfSpeech": "verb"
+  },
+  "lean": {
+    "definition": "(of an object taller than its width and depth) An inclination away from the vertical.",
+    "partOfSpeech": "noun"
+  },
+  "leaned": {
+    "definition": "To incline, deviate, or bend, from a vertical position; to be in a position thus inclining or deviating.",
+    "partOfSpeech": "verb"
+  },
+  "lend": {
+    "definition": "The lumbar region; loin.",
+    "partOfSpeech": "noun"
   },
   "lilt": {
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
@@ -1334,8 +1543,24 @@
     "partOfSpeech": "noun"
   },
   "motto": null,
+  "naan": {
+    "definition": "A type of round, flat bread baked in a tandoor popular in South and Central Asian cuisine.",
+    "partOfSpeech": "noun"
+  },
+  "nacelle": {
+    "definition": "A separate streamlined enclosure mounted on an aircraft to house an engine, cargo, or crew.",
+    "partOfSpeech": "noun"
+  },
+  "nada": {
+    "definition": "Nothing.",
+    "partOfSpeech": "pronoun"
+  },
   "naif": {
     "definition": "One who is naive.",
+    "partOfSpeech": "noun"
+  },
+  "nana": {
+    "definition": "A banana",
     "partOfSpeech": "noun"
   },
   "nation": {
@@ -1353,6 +1578,23 @@
   "navigating": {
     "definition": "To plan, control and record the position and course of a vehicle, ship, aircraft, etc., on a journey; to follow a planned course.",
     "partOfSpeech": "verb"
+  },
+  "need": {
+    "definition": "A requirement for something; something needed.",
+    "partOfSpeech": "noun"
+  },
+  "needed": {
+    "definition": "To have an absolute requirement for.",
+    "partOfSpeech": "verb"
+  },
+  "needle": {
+    "definition": "A fine, sharp implement usually for piercing such as sewing, or knitting, acupuncture, tattooing, body piercing, medical injections, etc.",
+    "partOfSpeech": "noun"
+  },
+  "needled": null,
+  "nene": {
+    "definition": "The Hawaiian goose, Branta sandvicensis, which was designated the state bird of Hawaii in 1957.",
+    "partOfSpeech": "noun"
   },
   "niacin": {
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
