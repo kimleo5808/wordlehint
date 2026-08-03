@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T06:16:26.281Z",
+  "lastUpdated": "2026-08-03T06:42:26.632Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60264,6 +60264,61 @@
         "needle",
         "needled",
         "nene"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-03",
+      "id": 26714,
+      "centerLetter": "d",
+      "outerLetters": [
+        "f",
+        "i",
+        "l",
+        "o",
+        "r",
+        "y"
+      ],
+      "pangrams": [
+        "floridly"
+      ],
+      "answers": [
+        "diddly",
+        "dildo",
+        "dill",
+        "dilly",
+        "dodo",
+        "doff",
+        "doily",
+        "doll",
+        "dolly",
+        "dolor",
+        "door",
+        "dory",
+        "drill",
+        "droid",
+        "droll",
+        "drolly",
+        "drool",
+        "drooly",
+        "dryly",
+        "fiddly",
+        "flood",
+        "florid",
+        "floridly",
+        "fold",
+        "food",
+        "ford",
+        "idly",
+        "idol",
+        "idyl",
+        "idyll",
+        "lord",
+        "lordly",
+        "lordy",
+        "oddly",
+        "odor",
+        "rood"
       ],
       "editor": "Sam Ezersky"
     }

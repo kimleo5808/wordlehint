@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T06:16:25.575Z",
+  "lastUpdated": "2026-08-03T06:42:25.990Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22112,6 +22112,31 @@
         "INJMUP",
         "ONTBIR",
         "ITNEOA"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "id": 883,
+      "editor": "Tracy Bennett",
+      "clue": "There's nothing like it",
+      "spangram": "ONEOFAKIND",
+      "themeWords": [
+        "EXCLUSIVE",
+        "ONLY",
+        "SINGULAR",
+        "SOLE",
+        "SPECIAL",
+        "UNIQUE"
+      ],
+      "board": [
+        "OLENEU",
+        "SROEUQ",
+        "GLAONI",
+        "NUSFEV",
+        "YIOASI",
+        "LNLKUL",
+        "PSAIEC",
+        "ECIDNX"
       ]
     }
   ]

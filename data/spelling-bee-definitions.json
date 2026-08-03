@@ -698,6 +698,16 @@
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
   },
+  "diddly": null,
+  "dildo": null,
+  "dill": {
+    "definition": "Anethum graveolens (the type species of the genus Anethum), a herb, the seeds of which are moderately warming, pungent, and aromatic, formerly used as a soothing medicine for children; also known as dillseed.",
+    "partOfSpeech": "noun"
+  },
+  "dilly": {
+    "definition": "Redolent of dill (the herb).",
+    "partOfSpeech": "adjective"
+  },
   "dime": {
     "definition": "A coin worth one-tenth of a U.S. dollar.",
     "partOfSpeech": "noun"
@@ -710,6 +720,7 @@
     "definition": "To make something less bright.",
     "partOfSpeech": "verb"
   },
+  "dodo": null,
   "doff": {
     "definition": "(clothing) To remove or take off, especially of clothing.",
     "partOfSpeech": "verb"
@@ -718,6 +729,18 @@
     "definition": "(clothing) To remove or take off, especially of clothing.",
     "partOfSpeech": "verb"
   },
+  "doily": null,
+  "doll": {
+    "definition": "A toy in the form of a human.",
+    "partOfSpeech": "noun"
+  },
+  "dolly": null,
+  "dolor": null,
+  "door": {
+    "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
+    "partOfSpeech": "noun"
+  },
+  "dory": null,
   "doubt": {
     "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
     "partOfSpeech": "noun"
@@ -727,9 +750,25 @@
     "definition": "To damn or curse.",
     "partOfSpeech": "verb"
   },
+  "drill": {
+    "definition": "A tool used to remove material so as to create a hole, typically by plunging a rotating cutting bit into a stationary workpiece.",
+    "partOfSpeech": "noun"
+  },
+  "droid": null,
+  "droll": null,
+  "drolly": null,
+  "drool": {
+    "definition": "Saliva trickling from the mouth.",
+    "partOfSpeech": "noun"
+  },
+  "drooly": null,
   "drub": {
     "definition": "Carbonaceous shale; small coal; slate, dross, or rubbish in coal.",
     "partOfSpeech": "noun"
+  },
+  "dryly": {
+    "definition": "In a dry manner.",
+    "partOfSpeech": "adverb"
   },
   "duff": {
     "definition": "Dough.",
@@ -835,6 +874,10 @@
     "definition": "To carry on a feud.",
     "partOfSpeech": "verb"
   },
+  "fiddly": {
+    "definition": "Requiring dexterity to operate.",
+    "partOfSpeech": "adjective"
+  },
   "filial": {
     "definition": "Pertaining to or befitting a son or daughter.",
     "partOfSpeech": "adjective"
@@ -880,8 +923,21 @@
     "definition": "A fright; a scare.",
     "partOfSpeech": "noun"
   },
+  "flood": {
+    "definition": "A (usually disastrous) overflow of water from a lake or other body of water due to excessive rainfall or other input of water.",
+    "partOfSpeech": "noun"
+  },
+  "florid": {
+    "definition": "Having a rosy or pale red colour; ruddy.",
+    "partOfSpeech": "adjective"
+  },
+  "floridly": null,
   "flyby": {
     "definition": "A flight past a celestial object in order to make observations.",
+    "partOfSpeech": "noun"
+  },
+  "fold": {
+    "definition": "An act of folding.",
     "partOfSpeech": "noun"
   },
   "fond": {
@@ -896,6 +952,7 @@
     "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life.",
     "partOfSpeech": "noun"
   },
+  "ford": null,
   "found": {
     "definition": "To encounter or discover by accident; to happen upon.",
     "partOfSpeech": "verb"
@@ -1055,6 +1112,10 @@
     "definition": "The act of hunting.",
     "partOfSpeech": "noun"
   },
+  "idly": null,
+  "idol": null,
+  "idyl": null,
+  "idyll": null,
   "iffy": {
     "definition": "Of dubious authenticity, legitimacy or legality.",
     "partOfSpeech": "adjective"
@@ -1350,6 +1411,18 @@
     "definition": "A kind of scoop or ladle, chiefly used to remove the scum from brine-pans in saltworks.",
     "partOfSpeech": "noun"
   },
+  "lord": {
+    "definition": "The master of the servants of a household; the master of a feudal manor",
+    "partOfSpeech": "noun"
+  },
+  "lordly": {
+    "definition": "Of or relating to a lord.",
+    "partOfSpeech": "adjective"
+  },
+  "lordy": {
+    "definition": "Expressing mild emotion, such as exasperation or frustration.",
+    "partOfSpeech": "interjection"
+  },
   "lotion": {
     "definition": "A low- to medium-viscosity topical preparation intended for application to unbroken skin.",
     "partOfSpeech": "noun"
@@ -1637,6 +1710,11 @@
     "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",
     "partOfSpeech": "noun"
   },
+  "oddly": {
+    "definition": "In a peculiar manner; strangely; unusually.",
+    "partOfSpeech": "adverb"
+  },
+  "odor": null,
   "offed": {
     "definition": "To kill.",
     "partOfSpeech": "verb"
@@ -1746,6 +1824,7 @@
     "definition": "A machine built to carry out some complex task or group of tasks by physically moving, especially one which can be programmed.",
     "partOfSpeech": "noun"
   },
+  "rood": null,
   "tabard": {
     "definition": "A silk banner attached to a bugle or trumpet.",
     "partOfSpeech": "noun"
