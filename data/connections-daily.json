@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T06:42:25.472Z",
+  "lastUpdated": "2026-08-04T06:08:21.132Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53765,6 +53765,53 @@
             "NAG CHAMPA",
             "NEEDLESS",
             "TEA SET"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "id": 1150,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "LONG CYLINDRICAL THINGS",
+          "words": [
+            "CIGARETTE",
+            "FOAM ROLLER",
+            "POOL NOODLE",
+            "PRETZEL ROD"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ICONIC NYC SIGHTS",
+          "words": [
+            "BODEGA",
+            "PIGEON",
+            "SUBWAY STATION",
+            "TAXI CAB"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS WITH PEDALS",
+          "words": [
+            "PIANO",
+            "SEWING MACHINE",
+            "SWAN BOAT",
+            "UNICYCLE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "V-SHAPED THINGS",
+          "words": [
+            "ANGLE BRACKET",
+            "CHEVRON",
+            "GOOSE FORMATION",
+            "PEACE SIGN"
           ]
         }
       ]

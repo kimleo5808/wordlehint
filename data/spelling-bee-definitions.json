@@ -736,6 +736,15 @@
   },
   "dolly": null,
   "dolor": null,
+  "done": {
+    "definition": "(auxiliary) A syntactic marker.",
+    "partOfSpeech": "verb"
+  },
+  "donee": null,
+  "donned": {
+    "definition": "(clothing) To put on, to dress in.",
+    "partOfSpeech": "verb"
+  },
   "door": {
     "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
     "partOfSpeech": "noun"
@@ -743,6 +752,27 @@
   "dory": null,
   "doubt": {
     "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
+    "partOfSpeech": "noun"
+  },
+  "dowdy": {
+    "definition": "A plain or shabby person",
+    "partOfSpeech": "noun"
+  },
+  "down": {
+    "definition": "A negative aspect; a downer.",
+    "partOfSpeech": "noun"
+  },
+  "downed": {
+    "definition": "To knock (someone or something) down; to cause to come down, to fell.",
+    "partOfSpeech": "verb"
+  },
+  "downy": {
+    "definition": "Having down, covered with a soft fuzzy coating as of small feathers or hair.",
+    "partOfSpeech": "adjective"
+  },
+  "doyen": null,
+  "doyenne": {
+    "definition": "A female doyen.",
     "partOfSpeech": "noun"
   },
   "drab": null,
@@ -799,6 +829,11 @@
     "definition": "To come to an end",
     "partOfSpeech": "verb"
   },
+  "endow": {
+    "definition": "To provide with a dower or a dowry.",
+    "partOfSpeech": "verb"
+  },
+  "endowed": null,
   "enhance": {
     "definition": "To lift, raise up.",
     "partOfSpeech": "verb"
@@ -1084,6 +1119,14 @@
     "definition": "A clue.",
     "partOfSpeech": "noun"
   },
+  "hoed": {
+    "definition": "To care, be anxious, long.",
+    "partOfSpeech": "verb"
+  },
+  "hoedown": {
+    "definition": "A type of American folk or square dance.",
+    "partOfSpeech": "noun"
+  },
   "holt": {
     "definition": "A small piece of woodland or a woody hill; a copse.",
     "partOfSpeech": "noun"
@@ -1092,12 +1135,33 @@
     "definition": "A sharpening stone composed of extra-fine grit used for removing the burr or curl from the blade of a razor or some other edge tool.",
     "partOfSpeech": "noun"
   },
+  "honed": {
+    "definition": "To sharpen with a hone; to whet.",
+    "partOfSpeech": "verb"
+  },
+  "honey": {
+    "definition": "A viscous, sweet fluid produced from plant nectar by bees. Often used to sweeten tea or to spread on baked goods.",
+    "partOfSpeech": "noun"
+  },
+  "honeydew": null,
+  "honeyed": null,
   "hooch": {
     "definition": "Alcoholic liquor, especially inferior or illicit whisky.",
     "partOfSpeech": "noun"
   },
+  "hood": {
+    "definition": "A covering for the head attached to a larger garment such as a jacket or cloak.",
+    "partOfSpeech": "noun"
+  },
+  "hooded": null,
+  "hoodoo": null,
+  "hooey": null,
   "hoot": {
     "definition": "A derisive cry or shout.",
+    "partOfSpeech": "noun"
+  },
+  "howdy": {
+    "definition": "A wife, a midwife.",
     "partOfSpeech": "noun"
   },
   "huge": {
@@ -1669,6 +1733,7 @@
     "definition": "The Hawaiian goose, Branta sandvicensis, which was designated the state bird of Hawaii in 1957.",
     "partOfSpeech": "noun"
   },
+  "neon": null,
   "niacin": {
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
     "partOfSpeech": "noun"
@@ -1681,13 +1746,24 @@
     "definition": "The person or thing in the ninth position.",
     "partOfSpeech": "noun"
   },
+  "nodded": {
+    "definition": "To incline the head up and down, as to indicate agreement.",
+    "partOfSpeech": "verb"
+  },
+  "node": null,
+  "nohow": null,
   "nomination": {
     "definition": "An act or instance of nominating.",
     "partOfSpeech": "noun"
   },
+  "none": null,
   "nonillion": null,
   "nook": {
     "definition": "A small corner formed by two walls; an alcove.",
+    "partOfSpeech": "noun"
+  },
+  "noon": {
+    "definition": "The ninth hour of the day counted from sunrise; around three o'clock in the afternoon.",
     "partOfSpeech": "noun"
   },
   "notation": {
@@ -1714,6 +1790,7 @@
     "definition": "In a peculiar manner; strangely; unusually.",
     "partOfSpeech": "adverb"
   },
+  "odeon": null,
   "odor": null,
   "offed": {
     "definition": "To kill.",
@@ -1769,6 +1846,14 @@
   },
   "outthought": {
     "definition": "To best an opponent by thinking.",
+    "partOfSpeech": "verb"
+  },
+  "owed": {
+    "definition": "To be under an obligation to give something back to someone or to perform some action for someone.",
+    "partOfSpeech": "verb"
+  },
+  "owned": {
+    "definition": "To have rightful possession of (property, goods or capital); to have legal title to.",
     "partOfSpeech": "verb"
   },
   "palm": {
@@ -2176,6 +2261,33 @@
     "definition": "The quality or state of being vivacious.",
     "partOfSpeech": "noun"
   },
+  "wood": {
+    "definition": "The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel.",
+    "partOfSpeech": "noun"
+  },
+  "wooded": {
+    "definition": "Covered with trees.",
+    "partOfSpeech": "adjective"
+  },
+  "wooden": {
+    "definition": "Made of wood.",
+    "partOfSpeech": "adjective"
+  },
+  "woody": {
+    "definition": "An early station wagon or estate car in which the rear portion of the car's bodywork is made of wood, often associated with Southern California surfing culture.",
+    "partOfSpeech": "noun"
+  },
+  "wooed": null,
+  "woohoo": null,
+  "wowed": {
+    "definition": "To amaze or awe.",
+    "partOfSpeech": "verb"
+  },
+  "yond": {
+    "definition": "Further; more distant",
+    "partOfSpeech": "adjective"
+  },
+  "yoohoo": null,
   "zinnia": {
     "definition": "Any of several brightly coloured flowering plants, of the genus Zinnia, native to tropical America; old maid",
     "partOfSpeech": "noun"

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T06:42:26.632Z",
+  "lastUpdated": "2026-08-04T06:08:22.261Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60319,6 +60319,67 @@
         "oddly",
         "odor",
         "rood"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-04",
+      "id": 16628,
+      "centerLetter": "o",
+      "outerLetters": [
+        "d",
+        "e",
+        "h",
+        "n",
+        "w",
+        "y"
+      ],
+      "pangrams": [
+        "honeydew"
+      ],
+      "answers": [
+        "dodo",
+        "done",
+        "donee",
+        "donned",
+        "dowdy",
+        "down",
+        "downed",
+        "downy",
+        "doyen",
+        "doyenne",
+        "endow",
+        "endowed",
+        "hoed",
+        "hoedown",
+        "hone",
+        "honed",
+        "honey",
+        "honeydew",
+        "honeyed",
+        "hood",
+        "hooded",
+        "hoodoo",
+        "hooey",
+        "howdy",
+        "neon",
+        "nodded",
+        "node",
+        "nohow",
+        "none",
+        "noon",
+        "odeon",
+        "owed",
+        "owned",
+        "wood",
+        "wooded",
+        "wooden",
+        "woody",
+        "wooed",
+        "woohoo",
+        "wowed",
+        "yond",
+        "yoohoo"
       ],
       "editor": "Sam Ezersky"
     }
