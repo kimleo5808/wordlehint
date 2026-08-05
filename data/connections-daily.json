@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T06:08:21.132Z",
+  "lastUpdated": "2026-08-05T06:04:47.024Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53812,6 +53812,53 @@
             "CHEVRON",
             "GOOSE FORMATION",
             "PEACE SIGN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "id": 1151,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "NAVIGATE",
+          "words": [
+            "DRIVE",
+            "MANEUVER",
+            "PILOT",
+            "STEER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "JEANS BRANDS",
+          "words": [
+            "DIESEL",
+            "GAP",
+            "LUCKY",
+            "WRANGLER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "HOUSE STYLES",
+          "words": [
+            "CAPE COD",
+            "MISSION",
+            "RANCH",
+            "TUDOR"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WHAT \"STOCK\" MIGHT REFER TO",
+          "words": [
+            "BROTH",
+            "CATTLE",
+            "INVESTMENT",
+            "MERCHANDISE"
           ]
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T06:08:22.261Z",
+  "lastUpdated": "2026-08-05T06:04:48.345Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60379,6 +60379,42 @@
         "woohoo",
         "wowed",
         "yond",
+        "yoohoo"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-05",
+      "id": 13940,
+      "centerLetter": "y",
+      "outerLetters": [
+        "a",
+        "f",
+        "h",
+        "k",
+        "o",
+        "r"
+      ],
+      "pangrams": [
+        "hayfork"
+      ],
+      "answers": [
+        "affray",
+        "ahoy",
+        "array",
+        "arroyo",
+        "foray",
+        "fray",
+        "harry",
+        "hayfork",
+        "hoary",
+        "hooky",
+        "hooray",
+        "kayak",
+        "kooky",
+        "oaky",
+        "okay",
+        "yahoo",
         "yoohoo"
       ],
       "editor": "Sam Ezersky"

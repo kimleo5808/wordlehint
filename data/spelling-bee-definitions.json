@@ -47,6 +47,14 @@
     "partOfSpeech": "noun"
   },
   "affably": null,
+  "affray": {
+    "definition": "The act of suddenly disturbing anyone; an assault or attack.",
+    "partOfSpeech": "noun"
+  },
+  "ahoy": {
+    "definition": "An utterance of this interjection.",
+    "partOfSpeech": "noun"
+  },
   "aioli": {
     "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
     "partOfSpeech": "noun"
@@ -148,6 +156,14 @@
   },
   "aria": {
     "definition": "A musical piece written typically for a solo voice with orchestral accompaniment in an opera or cantata.",
+    "partOfSpeech": "noun"
+  },
+  "array": {
+    "definition": "Clothing and ornamentation.",
+    "partOfSpeech": "noun"
+  },
+  "arroyo": {
+    "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
     "partOfSpeech": "noun"
   },
   "atoll": {
@@ -987,6 +1003,10 @@
     "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life.",
     "partOfSpeech": "noun"
   },
+  "foray": {
+    "definition": "A sudden or irregular incursion in border warfare; hence, any irregular incursion for war or spoils; a raid.",
+    "partOfSpeech": "noun"
+  },
   "ford": null,
   "found": {
     "definition": "To encounter or discover by accident; to happen upon.",
@@ -994,6 +1014,10 @@
   },
   "founded": {
     "definition": "To start (an institution or organization).",
+    "partOfSpeech": "verb"
+  },
+  "fray": {
+    "definition": "To (cause to) unravel; used particularly for the edge of something made of cloth, or the end of a rope.",
     "partOfSpeech": "verb"
   },
   "fund": {
@@ -1076,6 +1100,10 @@
     "definition": "A large, hard biscuit made from unleavened flour and water; formerly used as a long-term staple food aboard ships.",
     "partOfSpeech": "noun"
   },
+  "harry": {
+    "definition": "To plunder, pillage, assault.",
+    "partOfSpeech": "verb"
+  },
   "hart": {
     "definition": "A male deer, especially the male of the red deer after his fifth year.",
     "partOfSpeech": "noun"
@@ -1091,6 +1119,10 @@
   "hatha": null,
   "hatrack": {
     "definition": "A piece of furniture used to store hats and clothing, consisting of a pole with pegs on a moderately broad base; a hatstand.",
+    "partOfSpeech": "noun"
+  },
+  "hayfork": {
+    "definition": "A tool used for moving hay; a pitchfork.",
     "partOfSpeech": "noun"
   },
   "headland": null,
@@ -1118,6 +1150,10 @@
   "hint": {
     "definition": "A clue.",
     "partOfSpeech": "noun"
+  },
+  "hoary": {
+    "definition": "White, whitish, or greyish-white.",
+    "partOfSpeech": "adjective"
   },
   "hoed": {
     "definition": "To care, be anxious, long.",
@@ -1156,6 +1192,8 @@
   "hooded": null,
   "hoodoo": null,
   "hooey": null,
+  "hooky": null,
+  "hooray": null,
   "hoot": {
     "definition": "A derisive cry or shout.",
     "partOfSpeech": "noun"
@@ -1299,6 +1337,7 @@
     "definition": "A go-cart.",
     "partOfSpeech": "noun"
   },
+  "kayak": null,
   "keen": {
     "definition": "To make cold, to sharpen.",
     "partOfSpeech": "verb"
@@ -1338,6 +1377,10 @@
   "kook": {
     "definition": "An eccentric, strange or crazy person.",
     "partOfSpeech": "noun"
+  },
+  "kooky": {
+    "definition": "Eccentric, strange, or foolish; crazy or insane; kookish.",
+    "partOfSpeech": "adjective"
   },
   "laden": null,
   "lama": {
@@ -1778,6 +1821,7 @@
     "definition": "Nothing; something which does not exist.",
     "partOfSpeech": "noun"
   },
+  "oaky": null,
   "oath": {
     "definition": "A solemn pledge or promise, appealing to a deity, a ruler, or another entity (not necessarily present) to attest to the truth of a statement or sincerity of one's desire to fulfill a contract or promise.",
     "partOfSpeech": "noun"
@@ -1815,6 +1859,10 @@
   "oinking": {
     "definition": "Of a pig or in imitation thereof, to make its characteristic sound.",
     "partOfSpeech": "verb"
+  },
+  "okay": {
+    "definition": "Endorsement; approval.",
+    "partOfSpeech": "noun"
   },
   "olio": {
     "definition": "A rich, thick, Spanish stew consisting of meat and vegetables.",
@@ -2282,6 +2330,10 @@
   "wowed": {
     "definition": "To amaze or awe.",
     "partOfSpeech": "verb"
+  },
+  "yahoo": {
+    "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
+    "partOfSpeech": "noun"
   },
   "yond": {
     "definition": "Further; more distant",
