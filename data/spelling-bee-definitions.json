@@ -15,6 +15,7 @@
     "definition": "Moving around; astir.",
     "partOfSpeech": "adjective"
   },
+  "abracadabra": null,
   "abroad": {
     "definition": "Countries or lands abroad.",
     "partOfSpeech": "noun"
@@ -32,9 +33,18 @@
     "partOfSpeech": "noun"
   },
   "achoo": null,
+  "acid": {
+    "definition": "A sour substance.",
+    "partOfSpeech": "noun"
+  },
+  "acidic": null,
   "acne": {
     "definition": "A skin condition, usually of the face, that is common in adolescents. It is characterised by red pimples, and is caused by the inflammation of sebaceous glands through bacterial infection.",
     "partOfSpeech": "noun"
+  },
+  "acrid": {
+    "definition": "Sharp and harsh, or bitter and not to the taste.",
+    "partOfSpeech": "adjective"
   },
   "activity": {
     "definition": "The state or quality of being active; activeness.",
@@ -42,6 +52,10 @@
   },
   "addend": null,
   "addenda": null,
+  "addict": {
+    "definition": "A person who is addicted, especially to a harmful drug",
+    "partOfSpeech": "noun"
+  },
   "adobo": {
     "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
     "partOfSpeech": "noun"
@@ -146,6 +160,7 @@
     "definition": "A shady sitting place or pergola usually in a park or garden, surrounded by climbing shrubs, vines or other vegetation.",
     "partOfSpeech": "noun"
   },
+  "arcadia": null,
   "arctic": {
     "definition": "A warm waterproof overshoe.",
     "partOfSpeech": "noun"
@@ -157,6 +172,10 @@
   "aria": {
     "definition": "A musical piece written typically for a solo voice with orchestral accompaniment in an opera or cantata.",
     "partOfSpeech": "noun"
+  },
+  "arid": {
+    "definition": "Very dry.",
+    "partOfSpeech": "adjective"
   },
   "array": {
     "definition": "Clothing and ornamentation.",
@@ -264,6 +283,10 @@
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
   },
+  "bird": {
+    "definition": "A member of the class of animals Aves in the phylum Chordata, characterized by being warm-blooded, having feathers and wings usually capable of flight, and laying eggs.",
+    "partOfSpeech": "noun"
+  },
   "birria": null,
   "boar": {
     "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
@@ -305,6 +328,7 @@
     "definition": "A thin, small nail, with a slight projection at the top on one side instead of a head, or occasionally with a small domed head, similar to that of an escutcheon pin.",
     "partOfSpeech": "noun"
   },
+  "braid": null,
   "brat": {
     "definition": "A child who is regarded as mischievous, unruly, spoiled, or selfish.",
     "partOfSpeech": "noun"
@@ -431,6 +455,11 @@
     "partOfSpeech": "noun"
   },
   "carb": null,
+  "card": {
+    "definition": "A playing card.",
+    "partOfSpeech": "noun"
+  },
+  "cardiac": null,
   "cart": {
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
@@ -443,6 +472,7 @@
     "definition": "Inflammation of the mucous membranes of the nose and throat.",
     "partOfSpeech": "noun"
   },
+  "catbird": null,
   "catch": {
     "definition": "The act of seizing or capturing.",
     "partOfSpeech": "noun"
@@ -489,6 +519,7 @@
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
   },
+  "cicada": null,
   "circa": null,
   "cirri": null,
   "citric": null,
@@ -714,6 +745,13 @@
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
   },
+  "diacritic": null,
+  "dicta": null,
+  "didact": null,
+  "didactic": {
+    "definition": "A treatise on teaching or education.",
+    "partOfSpeech": "noun"
+  },
   "diddly": null,
   "dildo": null,
   "dill": {
@@ -735,6 +773,10 @@
   "dimming": {
     "definition": "To make something less bright.",
     "partOfSpeech": "verb"
+  },
+  "dirt": {
+    "definition": "Soil or earth.",
+    "partOfSpeech": "noun"
   },
   "dodo": null,
   "doff": {
@@ -796,6 +838,7 @@
     "definition": "To damn or curse.",
     "partOfSpeech": "verb"
   },
+  "drib": null,
   "drill": {
     "definition": "A tool used to remove material so as to create a hole, typically by plunging a rotating cutting bit into a stationary workpiece.",
     "partOfSpeech": "noun"
@@ -1936,8 +1979,21 @@
     "definition": "A mammal of the family Leporidae, with long ears, long hind legs and a short, fluffy tail.",
     "partOfSpeech": "noun"
   },
+  "rabid": {
+    "definition": "A human or animal infected with rabies.",
+    "partOfSpeech": "noun"
+  },
   "rack": {
     "definition": "A series of one or more shelves, stacked one above the other",
+    "partOfSpeech": "noun"
+  },
+  "radar": {
+    "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces",
+    "partOfSpeech": "noun"
+  },
+  "radii": null,
+  "raid": {
+    "definition": "A quick hostile or predatory incursion or invasion in a battle.",
     "partOfSpeech": "noun"
   },
   "raita": {
@@ -2088,6 +2144,7 @@
     "definition": "The papal crown.",
     "partOfSpeech": "noun"
   },
+  "tidbit": null,
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",
     "partOfSpeech": "preposition"
@@ -2182,6 +2239,7 @@
     "definition": "An identifying characteristic, habit or trend.",
     "partOfSpeech": "noun"
   },
+  "triad": null,
   "trick": {
     "definition": "Something designed to fool or swindle.",
     "partOfSpeech": "noun"

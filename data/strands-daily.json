@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T06:04:47.565Z",
+  "lastUpdated": "2026-08-06T06:08:47.320Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22186,6 +22186,30 @@
         "UTANPG",
         "GTIINN",
         "HDEAIO"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "id": 886,
+      "editor": "Tracy Bennett",
+      "clue": "Blossoming forth",
+      "spangram": "FLOWERINGTREE",
+      "themeWords": [
+        "CHERRY",
+        "DOGWOOD",
+        "HAWTHORN",
+        "MAGNOLIA",
+        "REDBUD"
+      ],
+      "board": [
+        "HAWEER",
+        "NTRUDE",
+        "RHATBD",
+        "OIGYRR",
+        "GLONEH",
+        "ANIOGC",
+        "MREDDW",
+        "FLOWOO"
       ]
     }
   ]

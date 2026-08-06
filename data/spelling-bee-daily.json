@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T06:04:48.345Z",
+  "lastUpdated": "2026-08-06T06:08:47.992Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60416,6 +60416,57 @@
         "okay",
         "yahoo",
         "yoohoo"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-06",
+      "id": 27489,
+      "centerLetter": "d",
+      "outerLetters": [
+        "a",
+        "b",
+        "c",
+        "i",
+        "r",
+        "t"
+      ],
+      "pangrams": [
+        "catbird"
+      ],
+      "answers": [
+        "abracadabra",
+        "acid",
+        "acidic",
+        "acrid",
+        "addict",
+        "arcadia",
+        "arid",
+        "bard",
+        "bird",
+        "brad",
+        "braid",
+        "card",
+        "cardiac",
+        "catbird",
+        "cicada",
+        "dart",
+        "data",
+        "diacritic",
+        "dicta",
+        "didact",
+        "didactic",
+        "dirt",
+        "drab",
+        "drat",
+        "drib",
+        "rabid",
+        "radar",
+        "radii",
+        "raid",
+        "tabard",
+        "tidbit",
+        "triad"
       ],
       "editor": "Sam Ezersky"
     }

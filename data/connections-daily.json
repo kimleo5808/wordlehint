@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T06:04:47.024Z",
+  "lastUpdated": "2026-08-06T06:08:46.579Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53859,6 +53859,53 @@
             "CATTLE",
             "INVESTMENT",
             "MERCHANDISE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "id": 1152,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CLASSIC WOODEN TOYS",
+          "words": [
+            "ALPHABET BLOCKS",
+            "CUP-AND-BALL",
+            "JACOB'S LADDER",
+            "LINCOLN LOGS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PLACES WITH LANES",
+          "words": [
+            "BOWLING ALLEY",
+            "FREEWAY",
+            "SUPERMARKET",
+            "SWIMMING POOL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ICONIC ROMAN LANDMARKS",
+          "words": [
+            "COLOSSEUM",
+            "PANTHEON",
+            "SPANISH STEPS",
+            "TREVI FOUNTAIN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "PLACES WITH NETS",
+          "words": [
+            "BARCLAYS CENTER",
+            "FISHING BOAT",
+            "HOCKEY RINK",
+            "TENNIS COURT"
           ]
         }
       ]
