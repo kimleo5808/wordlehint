@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T06:08:47.320Z",
+  "lastUpdated": "2026-08-07T05:10:28.627Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22210,6 +22210,29 @@
         "ANIOGC",
         "MREDDW",
         "FLOWOO"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "id": 887,
+      "editor": "Tracy Bennett",
+      "clue": "Struggling to find the words",
+      "spangram": "WHATCHAMACALLIT",
+      "themeWords": [
+        "DINGUS",
+        "DOOHICKEY",
+        "GIZMO",
+        "THINGAMAJIGGY"
+      ],
+      "board": [
+        "WGNIDK",
+        "THUSEC",
+        "HIAYIH",
+        "IZGTOO",
+        "NYMOCD",
+        "TGGGIH",
+        "IAMAJA",
+        "LLACAM"
       ]
     }
   ]

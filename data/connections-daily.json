@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T06:08:46.579Z",
+  "lastUpdated": "2026-08-07T05:10:28.111Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53906,6 +53906,53 @@
             "FISHING BOAT",
             "HOCKEY RINK",
             "TENNIS COURT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "id": 1153,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "COMPONENTS OF A CANDLE",
+          "words": [
+            "FRAGRANCE",
+            "JAR",
+            "WAX",
+            "WICK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "COLD THINGS",
+          "words": [
+            "LIQUID NITROGEN",
+            "REFRIGERATOR",
+            "SNOW",
+            "SUNDAE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PARTS OF AN ELEVATOR",
+          "words": [
+            "BUTTONS",
+            "CABLES",
+            "MOTOR",
+            "SHAFT"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH MALE ANIMALS",
+          "words": [
+            "BUCKYBALL",
+            "JACKPOT",
+            "RAMBO",
+            "TOMATILLO"
           ]
         }
       ]

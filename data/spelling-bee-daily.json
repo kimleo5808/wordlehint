@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T06:08:47.992Z",
+  "lastUpdated": "2026-08-07T05:10:29.258Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60467,6 +60467,75 @@
         "tabard",
         "tidbit",
         "triad"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-07",
+      "id": 13897,
+      "centerLetter": "g",
+      "outerLetters": [
+        "d",
+        "e",
+        "i",
+        "n",
+        "p",
+        "x"
+      ],
+      "pangrams": [
+        "expending"
+      ],
+      "answers": [
+        "deeding",
+        "deepening",
+        "deign",
+        "deigned",
+        "deigning",
+        "depending",
+        "digging",
+        "ding",
+        "dinged",
+        "dinging",
+        "dining",
+        "dipping",
+        "edge",
+        "edged",
+        "edging",
+        "egged",
+        "egging",
+        "ending",
+        "engine",
+        "expending",
+        "gene",
+        "genie",
+        "genii",
+        "gigged",
+        "gigging",
+        "ginned",
+        "ginning",
+        "indexing",
+        "indigene",
+        "inning",
+        "needing",
+        "nipping",
+        "nixing",
+        "peeing",
+        "peeping",
+        "pegged",
+        "pegging",
+        "pending",
+        "penning",
+        "pepping",
+        "pidgin",
+        "pigged",
+        "pigging",
+        "pigpen",
+        "ping",
+        "pinged",
+        "pinging",
+        "pining",
+        "pinning",
+        "piping"
       ],
       "editor": "Sam Ezersky"
     }

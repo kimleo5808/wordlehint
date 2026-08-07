@@ -713,6 +713,10 @@
     "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
   },
+  "deeding": {
+    "definition": "To transfer real property by deed.",
+    "partOfSpeech": "verb"
+  },
   "deem": {
     "definition": "An opinion, a judgment, a surmise.",
     "partOfSpeech": "noun"
@@ -723,6 +727,10 @@
   },
   "deeming": {
     "definition": "To judge, to pass judgment on; to doom, to sentence.",
+    "partOfSpeech": "verb"
+  },
+  "deepening": {
+    "definition": "To make deep or deeper",
     "partOfSpeech": "verb"
   },
   "defend": {
@@ -741,9 +749,25 @@
     "definition": "To cancel funding for.",
     "partOfSpeech": "verb"
   },
+  "deign": {
+    "definition": "To condescend; to do despite a perceived affront to one's dignity.",
+    "partOfSpeech": "verb"
+  },
+  "deigned": {
+    "definition": "To condescend; to do despite a perceived affront to one's dignity.",
+    "partOfSpeech": "verb"
+  },
+  "deigning": {
+    "definition": "To condescend; to do despite a perceived affront to one's dignity.",
+    "partOfSpeech": "verb"
+  },
   "denim": {
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
+  },
+  "depending": {
+    "definition": "(followed by on or upon, formerly also by of) To be contingent or conditioned; to have something as a necessary condition; to hinge on.",
+    "partOfSpeech": "verb"
   },
   "diacritic": null,
   "dicta": null,
@@ -753,6 +777,10 @@
     "partOfSpeech": "noun"
   },
   "diddly": null,
+  "digging": {
+    "definition": "To move hard-packed earth out of the way, especially downward to make a hole with a shovel. Or to drill, or the like, through rocks, roads, or the like. More generally, to make any similar hole by moving material out of the way.",
+    "partOfSpeech": "verb"
+  },
   "dildo": null,
   "dill": {
     "definition": "Anethum graveolens (the type species of the genus Anethum), a herb, the seeds of which are moderately warming, pungent, and aromatic, formerly used as a soothing medicine for children; also known as dillseed.",
@@ -772,6 +800,26 @@
   },
   "dimming": {
     "definition": "To make something less bright.",
+    "partOfSpeech": "verb"
+  },
+  "ding": {
+    "definition": "Very minor damage, a small dent or chip.",
+    "partOfSpeech": "noun"
+  },
+  "dinged": {
+    "definition": "To hit or strike.",
+    "partOfSpeech": "verb"
+  },
+  "dinging": {
+    "definition": "To hit or strike.",
+    "partOfSpeech": "verb"
+  },
+  "dining": {
+    "definition": "To eat; to eat dinner or supper.",
+    "partOfSpeech": "verb"
+  },
+  "dipping": {
+    "definition": "To lower into a liquid.",
     "partOfSpeech": "verb"
   },
   "dirt": {
@@ -863,6 +911,26 @@
     "definition": "Dough.",
     "partOfSpeech": "noun"
   },
+  "edge": {
+    "definition": "The boundary line of a surface.",
+    "partOfSpeech": "noun"
+  },
+  "edged": {
+    "definition": "To move an object slowly and carefully in a particular direction.",
+    "partOfSpeech": "verb"
+  },
+  "edging": {
+    "definition": "To move an object slowly and carefully in a particular direction.",
+    "partOfSpeech": "verb"
+  },
+  "egged": {
+    "definition": "To throw eggs at.",
+    "partOfSpeech": "verb"
+  },
+  "egging": {
+    "definition": "To throw eggs at.",
+    "partOfSpeech": "verb"
+  },
   "eking": {
     "definition": "The act or process of adding.",
     "partOfSpeech": "noun"
@@ -888,11 +956,19 @@
     "definition": "To come to an end",
     "partOfSpeech": "verb"
   },
+  "ending": {
+    "definition": "A termination or conclusion.",
+    "partOfSpeech": "noun"
+  },
   "endow": {
     "definition": "To provide with a dower or a dowry.",
     "partOfSpeech": "verb"
   },
   "endowed": null,
+  "engine": {
+    "definition": "A large construction used in warfare, such as a battering ram, catapult etc.",
+    "partOfSpeech": "noun"
+  },
   "enhance": {
     "definition": "To lift, raise up.",
     "partOfSpeech": "verb"
@@ -921,6 +997,10 @@
   },
   "evoking": {
     "definition": "To call out; to draw out or bring forth.",
+    "partOfSpeech": "verb"
+  },
+  "expending": {
+    "definition": "To consume, exhaust (some resource)",
     "partOfSpeech": "verb"
   },
   "fail": {
@@ -1087,6 +1167,18 @@
     "definition": "To behave geekishly or in a socially awkward manner, especially when under the influence of drugs or other psycho-active substances, and exhibiting such marked characteristics as hyperactivity, repetitiveness, talkativeness, nervousness, irritability, or paranoia.",
     "partOfSpeech": "verb"
   },
+  "gene": {
+    "definition": "A theoretical unit of heredity of living organisms; a gene may take several values and in principle predetermines a precise trait of an organism's form (phenotype), such as hair color.",
+    "partOfSpeech": "noun"
+  },
+  "genie": {
+    "definition": "A jinn, a being descended from the jann, normally invisible to the human eye, but who may also appear in animal or human form.",
+    "partOfSpeech": "noun"
+  },
+  "genii": {
+    "definition": "Someone possessing extraordinary intelligence or skill; especially somebody who has demonstrated this by a creative or original work in science, music, art etc.",
+    "partOfSpeech": "noun"
+  },
   "ghee": {
     "definition": "A type of clarified butter used in South Asian cooking; usli ghee.",
     "partOfSpeech": "noun"
@@ -1095,6 +1187,14 @@
     "definition": "An (often walled) area of a city in which Jews are concentrated by force and law. (Used particularly of areas in medieval Italy and in Nazi-controlled Europe.)",
     "partOfSpeech": "noun"
   },
+  "gigged": {
+    "definition": "To fish or catch with a gig, or fish spear.",
+    "partOfSpeech": "verb"
+  },
+  "gigging": {
+    "definition": "To fish or catch with a gig, or fish spear.",
+    "partOfSpeech": "verb"
+  },
   "gimme": {
     "definition": "That which is easily obtained, or certain to occur.",
     "partOfSpeech": "noun"
@@ -1102,6 +1202,14 @@
   "ginkgo": {
     "definition": "Ginkgo biloba, a tree native to China with small, fan-shaped leaves and edible seeds.",
     "partOfSpeech": "noun"
+  },
+  "ginned": {
+    "definition": "To remove the seeds from cotton with a cotton gin.",
+    "partOfSpeech": "verb"
+  },
+  "ginning": {
+    "definition": "To remove the seeds from cotton with a cotton gin.",
+    "partOfSpeech": "verb"
   },
   "giving": {
     "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
@@ -1325,6 +1433,14 @@
     "definition": "To state solemnly, to chant.",
     "partOfSpeech": "verb"
   },
+  "indexing": {
+    "definition": "To arrange an index for something, especially a long text.",
+    "partOfSpeech": "verb"
+  },
+  "indigene": {
+    "definition": "An indigenous person; a native.",
+    "partOfSpeech": "noun"
+  },
   "infallibly": null,
   "infill": {
     "definition": "That which fills in a space, hole or gap.",
@@ -1337,6 +1453,10 @@
   "inking": {
     "definition": "To apply ink to; to cover or smear with ink.",
     "partOfSpeech": "verb"
+  },
+  "inning": {
+    "definition": "A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game.",
+    "partOfSpeech": "noun"
   },
   "intact": {
     "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
@@ -1810,6 +1930,10 @@
     "definition": "To have an absolute requirement for.",
     "partOfSpeech": "verb"
   },
+  "needing": {
+    "definition": "To have an absolute requirement for.",
+    "partOfSpeech": "verb"
+  },
   "needle": {
     "definition": "A fine, sharp implement usually for piercing such as sewing, or knitting, acupuncture, tattooing, body piercing, medical injections, etc.",
     "partOfSpeech": "noun"
@@ -1831,6 +1955,14 @@
   "ninth": {
     "definition": "The person or thing in the ninth position.",
     "partOfSpeech": "noun"
+  },
+  "nipping": {
+    "definition": "To catch and enclose or compress tightly between two surfaces, or points which are brought together or closed; to pinch; to close in upon.",
+    "partOfSpeech": "verb"
+  },
+  "nixing": {
+    "definition": "To make something become nothing; to reject or cancel.",
+    "partOfSpeech": "verb"
   },
   "nodded": {
     "definition": "To incline the head up and down, as to indicate agreement.",
@@ -1953,8 +2085,40 @@
   },
   "pampa": null,
   "papilloma": null,
+  "peeing": {
+    "definition": "To urinate.",
+    "partOfSpeech": "verb"
+  },
+  "peeping": {
+    "definition": "To make a soft, shrill noise like a baby bird.",
+    "partOfSpeech": "verb"
+  },
+  "pegged": {
+    "definition": "To fasten using a peg.",
+    "partOfSpeech": "verb"
+  },
+  "pegging": null,
+  "pending": null,
   "penmen": {
     "definition": "A scribe, or person who copies texts",
+    "partOfSpeech": "noun"
+  },
+  "penning": null,
+  "pepping": null,
+  "pidgin": {
+    "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
+    "partOfSpeech": "noun"
+  },
+  "pigged": {
+    "definition": "(of swine) to give birth.",
+    "partOfSpeech": "verb"
+  },
+  "pigging": {
+    "definition": "(of swine) to give birth.",
+    "partOfSpeech": "verb"
+  },
+  "pigpen": {
+    "definition": "A pigsty; an enclosure where pigs are kept.",
     "partOfSpeech": "noun"
   },
   "pimp": {
@@ -1967,6 +2131,30 @@
   },
   "pimping": {
     "definition": "To act as a procurer of prostitutes; to pander.",
+    "partOfSpeech": "verb"
+  },
+  "ping": {
+    "definition": "A high-pitched, short and somewhat sharp sound.",
+    "partOfSpeech": "noun"
+  },
+  "pinged": {
+    "definition": "To make a high-pitched, short and somewhat sharp sound.",
+    "partOfSpeech": "verb"
+  },
+  "pinging": {
+    "definition": "To make a high-pitched, short and somewhat sharp sound.",
+    "partOfSpeech": "verb"
+  },
+  "pining": {
+    "definition": "To languish; to lose flesh or wear away through distress.",
+    "partOfSpeech": "verb"
+  },
+  "pinning": {
+    "definition": "To shape metal by striking it, especially with a peen.",
+    "partOfSpeech": "verb"
+  },
+  "piping": {
+    "definition": "To play (music) on a pipe instrument, such as a bagpipe or a flute.",
     "partOfSpeech": "verb"
   },
   "pomp": null,
