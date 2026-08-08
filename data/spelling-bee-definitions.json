@@ -952,6 +952,10 @@
     "definition": "To correct and revise (text or a document).",
     "partOfSpeech": "verb"
   },
+  "emit": {
+    "definition": "To send out or give off",
+    "partOfSpeech": "verb"
+  },
   "ended": {
     "definition": "To come to an end",
     "partOfSpeech": "verb"
@@ -1373,6 +1377,14 @@
     "definition": "Of dubious authenticity, legitimacy or legality.",
     "partOfSpeech": "adjective"
   },
+  "ileum": {
+    "definition": "The last, and usually the longest, division of the small intestine; the part between the jejunum and large intestine.",
+    "partOfSpeech": "noun"
+  },
+  "ilium": {
+    "definition": "The upper and widest of the three bones that make up each side of the hipbone and pelvis.",
+    "partOfSpeech": "noun"
+  },
   "imam": {
     "definition": "(usually capitalized) A Shi'ite Muslim leader.",
     "partOfSpeech": "noun"
@@ -1491,6 +1503,10 @@
     "definition": "The ninth letter of the Greek alphabet.",
     "partOfSpeech": "noun"
   },
+  "item": {
+    "definition": "A distinct physical object.",
+    "partOfSpeech": "noun"
+  },
   "itty": null,
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
@@ -1600,6 +1616,10 @@
     "partOfSpeech": "noun"
   },
   "lima": null,
+  "lime": {
+    "definition": "Any inorganic material containing calcium, usually calcium oxide (quicklime) or calcium hydroxide (slaked lime).",
+    "partOfSpeech": "noun"
+  },
   "limit": {
     "definition": "A restriction; a bound beyond which one may not go.",
     "partOfSpeech": "noun"
@@ -1740,6 +1760,18 @@
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "meet": {
+    "definition": "A sports competition, especially for track and field (a track meet) or swimming (a swim meet).",
+    "partOfSpeech": "noun"
+  },
+  "melee": {
+    "definition": "A battle fought at close range; hand-to-hand combat; brawling.",
+    "partOfSpeech": "noun"
+  },
+  "melt": {
+    "definition": "Molten material, the product of melting.",
+    "partOfSpeech": "noun"
+  },
   "meme": {
     "definition": "Any unit of cultural information, such as a practice or idea, that is transmitted verbally or by repeated action from one mind to another in a comparable way to the transmission of genes.",
     "partOfSpeech": "noun"
@@ -1758,6 +1790,14 @@
     "definition": "To repair, as anything that is torn, broken, defaced, decayed, or the like; to restore from partial decay, injury, or defacement.",
     "partOfSpeech": "verb"
   },
+  "mete": {
+    "definition": "To measure.",
+    "partOfSpeech": "verb"
+  },
+  "mettle": {
+    "definition": "A quality of endurance and courage.",
+    "partOfSpeech": "noun"
+  },
   "midge": {
     "definition": "Any of various small two-winged flies, for example, from the family Chironomidae or non-biting midges, the family Chaoboridae or phantom midges, and the family Ceratopogonidae or biting midges, all belonging to the order Diptera",
     "partOfSpeech": "noun"
@@ -1770,9 +1810,21 @@
     "definition": "Demeanor; facial expression or attitude, especially one which is intended by its bearer.",
     "partOfSpeech": "noun"
   },
+  "mile": {
+    "definition": "The international mile: a unit of length precisely equal to 1.609344 kilometers established by treaty among Anglophone nations in 1959, divided into 5,280 feet or 1,760 yards.",
+    "partOfSpeech": "noun"
+  },
+  "milieu": {
+    "definition": "Medium.",
+    "partOfSpeech": "noun"
+  },
   "militia": null,
   "mill": {
     "definition": "A grinding apparatus for substances such as grains, seeds, etc.",
+    "partOfSpeech": "noun"
+  },
+  "millet": {
+    "definition": "Any of a group of various types of grass or its grains used as food, widely cultivated in the developing world.",
     "partOfSpeech": "noun"
   },
   "million": {
@@ -1843,6 +1895,10 @@
     "definition": "A building or institution where money (originally, only coins) is produced under government licence.",
     "partOfSpeech": "noun"
   },
+  "mite": {
+    "definition": "Any of many minute arachnids which, along with the ticks, comprise subclass Acarina (aka Acari).",
+    "partOfSpeech": "noun"
+  },
   "mitt": {
     "definition": "A mitten",
     "partOfSpeech": "noun"
@@ -1886,6 +1942,34 @@
     "partOfSpeech": "noun"
   },
   "motto": null,
+  "mule": {
+    "definition": "The generally sterile male or female hybrid offspring of a male donkey and a female horse.",
+    "partOfSpeech": "noun"
+  },
+  "mull": {
+    "definition": "A thin, soft muslin.",
+    "partOfSpeech": "noun"
+  },
+  "mullet": {
+    "definition": "A fish of the family Mullidae (order Syngnathiformes), especially the genus Mullus (the red mullets or goatfish).",
+    "partOfSpeech": "noun"
+  },
+  "multilevel": {
+    "definition": "Having several levels or floors.",
+    "partOfSpeech": "adjective"
+  },
+  "mute": {
+    "definition": "A stopped consonant; a stop.",
+    "partOfSpeech": "noun"
+  },
+  "mutt": {
+    "definition": "A mongrel dog (or sometimes cat); an animal of mixed breed or uncertain origin.",
+    "partOfSpeech": "noun"
+  },
+  "muumuu": {
+    "definition": "A long loose-fitting dress made of lightweight fabric printed with bright, stylized Hawaiian themes (such as flowers and palm branches).",
+    "partOfSpeech": "noun"
+  },
   "naan": {
     "definition": "A type of round, flat bread baked in a tandoor popular in South and Central Asian cuisine.",
     "partOfSpeech": "noun"
@@ -2279,6 +2363,10 @@
     "definition": "An image made in the skin with ink and a needle.",
     "partOfSpeech": "noun"
   },
+  "teem": {
+    "definition": "To be stocked to overflowing.",
+    "partOfSpeech": "verb"
+  },
   "teeth": {
     "definition": "The ability to be enforced, or to be enforced to any useful effect.",
     "partOfSpeech": "noun"
@@ -2343,6 +2431,10 @@
   },
   "tilth": {
     "definition": "Agricultural labour; husbandry.",
+    "partOfSpeech": "noun"
+  },
+  "time": {
+    "definition": "The inevitable progression into the future with the passing of present and past events.",
     "partOfSpeech": "noun"
   },
   "tinct": null,
@@ -2440,6 +2532,10 @@
     "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
     "partOfSpeech": "noun"
   },
+  "tumult": {
+    "definition": "Confused, agitated noise as made by a crowd.",
+    "partOfSpeech": "noun"
+  },
   "turbo": {
     "definition": "Turbocharger.",
     "partOfSpeech": "noun"
@@ -2512,6 +2608,14 @@
   },
   "vanity": {
     "definition": "That which is vain, futile, or worthless; that which is of no value, use or profit.",
+    "partOfSpeech": "noun"
+  },
+  "vellum": {
+    "definition": "A type of parchment paper made from the skin of a lamb, baby goat, or calf.",
+    "partOfSpeech": "noun"
+  },
+  "velum": {
+    "definition": "A thin membrane, resembling a veil, such as:",
     "partOfSpeech": "noun"
   },
   "vial": {

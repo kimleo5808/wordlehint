@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T05:10:28.627Z",
+  "lastUpdated": "2026-08-08T04:33:19.066Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22233,6 +22233,31 @@
         "TGGGIH",
         "IAMAJA",
         "LLACAM"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": 888,
+      "editor": "Tracy Bennett",
+      "clue": "It has its ups and downs",
+      "spangram": "ROLLERCOASTER",
+      "themeWords": [
+        "CORKSCREW",
+        "CUTBACK",
+        "DROP",
+        "LOOP",
+        "TRACK",
+        "TUNNEL"
+      ],
+      "board": [
+        "WETULC",
+        "RCNEOR",
+        "SKNARE",
+        "ROSTAL",
+        "CTDKCL",
+        "ERRORO",
+        "PLUPAK",
+        "OOCTBC"
       ]
     }
   ]

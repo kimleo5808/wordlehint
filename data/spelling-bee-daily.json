@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T05:10:29.258Z",
+  "lastUpdated": "2026-08-08T04:33:19.674Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60536,6 +60536,56 @@
         "pining",
         "pinning",
         "piping"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-08",
+      "id": 14198,
+      "centerLetter": "m",
+      "outerLetters": [
+        "e",
+        "i",
+        "l",
+        "t",
+        "u",
+        "v"
+      ],
+      "pangrams": [
+        "multilevel"
+      ],
+      "answers": [
+        "emit",
+        "ileum",
+        "ilium",
+        "item",
+        "lime",
+        "limit",
+        "meet",
+        "melee",
+        "melt",
+        "meme",
+        "mete",
+        "mettle",
+        "mile",
+        "milieu",
+        "mill",
+        "millet",
+        "mime",
+        "mite",
+        "mitt",
+        "mule",
+        "mull",
+        "mullet",
+        "multilevel",
+        "mute",
+        "mutt",
+        "muumuu",
+        "teem",
+        "time",
+        "tumult",
+        "vellum",
+        "velum"
       ],
       "editor": "Sam Ezersky"
     }

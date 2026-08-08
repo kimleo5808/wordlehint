@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T05:10:28.111Z",
+  "lastUpdated": "2026-08-08T04:33:18.575Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -53953,6 +53953,53 @@
             "JACKPOT",
             "RAMBO",
             "TOMATILLO"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "id": 1154,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "QUAINT EXPRESSIONS OF EXCITEMENT",
+          "words": [
+            "HOT DOG",
+            "HURRAH",
+            "WHOOPEE",
+            "YAHOO"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CONVEY",
+          "words": [
+            "COUCH",
+            "EXPRESS",
+            "FRAME",
+            "PHRASE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "WORDS ABBREVIATED WITH LETTERS AS HOMOPHONES",
+          "words": [
+            "CUTIE",
+            "EASY",
+            "EFFECTS",
+            "I OWE YOU"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SAFETY ___",
+          "words": [
+            "BELT",
+            "GOGGLES",
+            "PIN",
+            "RAZOR"
           ]
         }
       ]
