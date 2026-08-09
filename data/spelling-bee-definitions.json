@@ -32,6 +32,10 @@
     "definition": "Any of several South American palms, of the genus Euterpe, having a dark purple drupe.",
     "partOfSpeech": "noun"
   },
+  "ache": {
+    "definition": "Continued dull pain, as distinguished from sudden twinges, or spasmodic pain.",
+    "partOfSpeech": "noun"
+  },
   "achoo": null,
   "acid": {
     "definition": "A sour substance.",
@@ -185,6 +189,10 @@
     "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
     "partOfSpeech": "noun"
   },
+  "athlete": {
+    "definition": "A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.",
+    "partOfSpeech": "noun"
+  },
   "atoll": {
     "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
     "partOfSpeech": "noun"
@@ -195,6 +203,10 @@
   "attach": {
     "definition": "To fasten, to join to (literally and figuratively).",
     "partOfSpeech": "verb"
+  },
+  "attache": {
+    "definition": "A diplomatic officer, usually one who plays a specific role.",
+    "partOfSpeech": "noun"
   },
   "attack": {
     "definition": "An attempt to cause damage, injury to, or death of opponent or enemy.",
@@ -389,6 +401,14 @@
     "definition": "A tree, Theobroma cacao, whose seed is used to make chocolate.",
     "partOfSpeech": "noun"
   },
+  "cache": {
+    "definition": "A store of things that may be required in the future, which can be retrieved rapidly, protected or hidden in some way.",
+    "partOfSpeech": "noun"
+  },
+  "cachet": {
+    "definition": "A seal, as of a letter.",
+    "partOfSpeech": "noun"
+  },
   "cacti": {
     "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
     "partOfSpeech": "noun"
@@ -477,12 +497,24 @@
     "definition": "The act of seizing or capturing.",
     "partOfSpeech": "noun"
   },
+  "catchall": {
+    "definition": "Any place or repository where things are placed indiscriminately or without careful thought.",
+    "partOfSpeech": "noun"
+  },
   "catholic": {
     "definition": "Of the Western Christian church, as differentiated from e.g. the Orthodox church.",
     "partOfSpeech": "adjective"
   },
   "cavity": {
     "definition": "A hole or hollow depression.",
+    "partOfSpeech": "noun"
+  },
+  "chalet": {
+    "definition": "An alpine style of wooden building with a sloping roof and overhanging eaves.",
+    "partOfSpeech": "noun"
+  },
+  "challah": {
+    "definition": "A traditional bread eaten by Ashkenazi Jews, usually braided for the Sabbath and round for Yom Tov.",
     "partOfSpeech": "noun"
   },
   "chance": {
@@ -511,8 +543,24 @@
     "definition": "Informal conversation.",
     "partOfSpeech": "noun"
   },
+  "chattel": {
+    "definition": "Tangible, movable property.",
+    "partOfSpeech": "noun"
+  },
+  "cheat": {
+    "definition": "To violate rules in order to gain advantage from a situation.",
+    "partOfSpeech": "verb"
+  },
+  "cheetah": {
+    "definition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head. It is native to Africa and also credited with being the fastest terrestrial animal.",
+    "partOfSpeech": "noun"
+  },
   "chocoholic": {
     "definition": "Someone who has such a liking for chocolate that they appear to be addicted to it.",
+    "partOfSpeech": "noun"
+  },
+  "chocolate": {
+    "definition": "A food made from ground roasted cocoa beans.",
     "partOfSpeech": "noun"
   },
   "ciao": {
@@ -555,6 +603,10 @@
     "definition": "(sometimes figurative) A sewer.",
     "partOfSpeech": "noun"
   },
+  "cloche": {
+    "definition": "A glass covering, originally bell-shaped, for garden plants to prevent frost damage and promote early growth.",
+    "partOfSpeech": "noun"
+  },
   "clot": {
     "definition": "A thrombus, solidified mass of blood.",
     "partOfSpeech": "noun"
@@ -562,6 +614,10 @@
   "cloth": {
     "definition": "A woven fabric such as used in dressing, decorating, cleaning or other practical use.",
     "partOfSpeech": "noun"
+  },
+  "clothe": {
+    "definition": "To adorn or cover with clothing; to dress; to supply clothes or clothing.",
+    "partOfSpeech": "verb"
   },
   "coach": {
     "definition": "A wheeled vehicle, generally drawn by horse power.",
@@ -589,6 +645,14 @@
   },
   "cocci": {
     "definition": "Any approximately spherical bacterium.",
+    "partOfSpeech": "noun"
+  },
+  "cochlea": {
+    "definition": "The complex, spirally coiled, tapered cavity of the inner ear in which sound vibrations are converted into nerve impulses.",
+    "partOfSpeech": "noun"
+  },
+  "cochleae": {
+    "definition": "The complex, spirally coiled, tapered cavity of the inner ear in which sound vibrations are converted into nerve impulses.",
     "partOfSpeech": "noun"
   },
   "cocoa": {
@@ -911,6 +975,15 @@
     "definition": "Dough.",
     "partOfSpeech": "noun"
   },
+  "each": {
+    "definition": "(operations) An individual item: the least quantitative unit in a grouping.",
+    "partOfSpeech": "noun"
+  },
+  "echo": {
+    "definition": "A reflected sound that is heard again by its initial observer.",
+    "partOfSpeech": "noun"
+  },
+  "echolocate": null,
   "edge": {
     "definition": "The boundary line of a surface.",
     "partOfSpeech": "noun"
@@ -994,6 +1067,10 @@
   "enough": {
     "definition": "Sufficiently.",
     "partOfSpeech": "adverb"
+  },
+  "etch": {
+    "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
+    "partOfSpeech": "verb"
   },
   "evoke": {
     "definition": "To call out; to draw out or bring forth.",
@@ -1223,9 +1300,25 @@
     "definition": "A punk-derived subculture of people who predominantly dress in black, associated with mournful music and attitudes.",
     "partOfSpeech": "noun"
   },
+  "halal": {
+    "definition": "To make halal.",
+    "partOfSpeech": "verb"
+  },
+  "hale": {
+    "definition": "Health, welfare.",
+    "partOfSpeech": "noun"
+  },
+  "hall": {
+    "definition": "A corridor; a hallway.",
+    "partOfSpeech": "noun"
+  },
   "halo": {
     "definition": "A circular band of coloured light, visible around the sun or moon etc., caused by reflection and refraction of light by ice crystals in the atmosphere.",
     "partOfSpeech": "noun"
+  },
+  "halt": {
+    "definition": "To limp; move with a limping gait.",
+    "partOfSpeech": "verb"
   },
   "hand": {
     "definition": "The part of the forelimb below the forearm or wrist in a human, and the corresponding part in many other animals.",
@@ -1267,6 +1360,14 @@
     "definition": "A horizontal door in a floor or ceiling.",
     "partOfSpeech": "noun"
   },
+  "hatchet": {
+    "definition": "A small light axe with a short handle; a tomahawk.",
+    "partOfSpeech": "noun"
+  },
+  "hate": {
+    "definition": "An object of hatred.",
+    "partOfSpeech": "noun"
+  },
   "hath": {
     "definition": "To possess, own.",
     "partOfSpeech": "verb"
@@ -1281,6 +1382,39 @@
     "partOfSpeech": "noun"
   },
   "headland": null,
+  "heal": {
+    "definition": "A spell or ability that restores hit points or removes a status ailment.",
+    "partOfSpeech": "noun"
+  },
+  "health": {
+    "definition": "The state of being free from physical or psychological disease, illness, or malfunction; wellness.",
+    "partOfSpeech": "noun"
+  },
+  "heat": {
+    "definition": "Thermal energy.",
+    "partOfSpeech": "noun"
+  },
+  "heath": {
+    "definition": "A tract of level uncultivated land with sandy soil and scrubby vegetation; heathland.",
+    "partOfSpeech": "noun"
+  },
+  "heel": {
+    "definition": "The rear part of the foot, where it joins the leg.",
+    "partOfSpeech": "noun"
+  },
+  "hell": null,
+  "hellcat": {
+    "definition": "A witch.",
+    "partOfSpeech": "noun"
+  },
+  "hellhole": {
+    "definition": "A place of intense hatred, misery, or turmoil.",
+    "partOfSpeech": "noun"
+  },
+  "hello": {
+    "definition": "\"Hello!\" or an equivalent greeting.",
+    "partOfSpeech": "noun"
+  },
   "hence": {
     "definition": "From here, from this place, away",
     "partOfSpeech": "adverb"
@@ -1318,6 +1452,10 @@
     "definition": "A type of American folk or square dance.",
     "partOfSpeech": "noun"
   },
+  "hole": {
+    "definition": "A hollow place or cavity; an excavation; a pit; an opening in or through a solid body, a fabric, etc.; a perforation; a rent; a fissure.",
+    "partOfSpeech": "noun"
+  },
   "holt": {
     "definition": "A small piece of woodland or a woody hill; a copse.",
     "partOfSpeech": "noun"
@@ -1351,6 +1489,10 @@
   "hooray": null,
   "hoot": {
     "definition": "A derisive cry or shout.",
+    "partOfSpeech": "noun"
+  },
+  "hotel": {
+    "definition": "A large town house or mansion; a grand private residence, especially in France.",
     "partOfSpeech": "noun"
   },
   "howdy": {
@@ -1587,6 +1729,18 @@
     "definition": "(used in street names) A road, street, or similar thoroughfare.",
     "partOfSpeech": "noun"
   },
+  "latch": {
+    "definition": "To close or lock as if with a latch.",
+    "partOfSpeech": "verb"
+  },
+  "lath": {
+    "definition": "A thin, narrow strip, fastened to the rafters, studs, or floor beams of a building, for the purpose of supporting a covering of tiles, plastering, etc.",
+    "partOfSpeech": "noun"
+  },
+  "lathe": {
+    "definition": "To invite; bid; ask.",
+    "partOfSpeech": "verb"
+  },
   "lava": {
     "definition": "The molten rock ejected by a volcano from its crater or fissured sides.",
     "partOfSpeech": "noun"
@@ -1594,6 +1748,10 @@
   "laving": {
     "definition": "To pour or throw out, as water; lade out; bail; bail out.",
     "partOfSpeech": "verb"
+  },
+  "leach": {
+    "definition": "A quantity of wood ashes, through which water passes, and thus imbibes the alkali.",
+    "partOfSpeech": "noun"
   },
   "leaden": {
     "definition": "To make or become dull or overcast.",
@@ -1607,8 +1765,20 @@
     "definition": "To incline, deviate, or bend, from a vertical position; to be in a position thus inclining or deviating.",
     "partOfSpeech": "verb"
   },
+  "lech": {
+    "definition": "A strong, lecherous desire or craving.",
+    "partOfSpeech": "noun"
+  },
+  "leech": {
+    "definition": "An aquatic blood-sucking annelid of class Hirudinea, especially Hirudo medicinalis.",
+    "partOfSpeech": "noun"
+  },
   "lend": {
     "definition": "The lumbar region; loin.",
+    "partOfSpeech": "noun"
+  },
+  "lethal": {
+    "definition": "Any weapon that causes death.",
     "partOfSpeech": "noun"
   },
   "lilt": {
@@ -1671,6 +1841,10 @@
   "loath": {
     "definition": "Averse, disinclined; reluctant, unwilling.",
     "partOfSpeech": "adjective"
+  },
+  "loathe": {
+    "definition": "To detest, hate, revile.",
+    "partOfSpeech": "verb"
   },
   "local": {
     "definition": "A person who lives near a given place.",
@@ -2363,6 +2537,14 @@
     "definition": "An image made in the skin with ink and a needle.",
     "partOfSpeech": "noun"
   },
+  "teach": {
+    "definition": "To show (someone) the way; to guide, conduct; to point, indicate.",
+    "partOfSpeech": "verb"
+  },
+  "tech": {
+    "definition": "Technology",
+    "partOfSpeech": "noun"
+  },
   "teem": {
     "definition": "To be stocked to overflowing.",
     "partOfSpeech": "verb"
@@ -2374,6 +2556,10 @@
   "teethe": {
     "definition": "To grow teeth.",
     "partOfSpeech": "verb"
+  },
+  "telehealth": {
+    "definition": "Healthcare facilitated by telecommunication technology.",
+    "partOfSpeech": "noun"
   },
   "tenth": {
     "definition": "The person or thing coming next after the ninth in a series; that which is in the tenth position.",
@@ -2394,6 +2580,10 @@
   "then": {
     "definition": "Used in comparisons, to introduce the basis of comparison.",
     "partOfSpeech": "conjunction"
+  },
+  "theta": {
+    "definition": "The eighth letter of the Modern Greek alphabet, ninth in Old Greek: Θ, θ.",
+    "partOfSpeech": "noun"
   },
   "thin": {
     "definition": "A loss or tearing of paper from the back of a stamp, although not sufficient to create a complete hole.",
@@ -2493,6 +2683,10 @@
   },
   "tooth": {
     "definition": "A hard, calcareous structure present in the mouth of many vertebrate animals, generally used for eating.",
+    "partOfSpeech": "noun"
+  },
+  "toothache": {
+    "definition": "A pain or ache in a tooth.",
     "partOfSpeech": "noun"
   },
   "total": {

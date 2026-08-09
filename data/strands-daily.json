@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T04:33:19.066Z",
+  "lastUpdated": "2026-08-09T04:43:03.068Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22258,6 +22258,30 @@
         "ERRORO",
         "PLUPAK",
         "OOCTBC"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": 889,
+      "editor": "Tracy Bennett",
+      "clue": "Isn't that a bit much?",
+      "spangram": "IMWORTHIT",
+      "themeWords": [
+        "EXTRAVAGANCE",
+        "FRILLS",
+        "INDULGENCE",
+        "LUXURY",
+        "TREAT"
+      ],
+      "board": [
+        "IMWOSL",
+        "AVARFL",
+        "GNRTRI",
+        "ACTHIT",
+        "UXEXED",
+        "LURYNU",
+        "TEAILG",
+        "RTECNE"
       ]
     }
   ]

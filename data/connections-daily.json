@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T04:33:18.575Z",
+  "lastUpdated": "2026-08-09T04:43:02.700Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54000,6 +54000,53 @@
             "GOGGLES",
             "PIN",
             "RAZOR"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "id": 1155,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TAKE A DIFFERENT APPROACH",
+          "words": [
+            "CHANGE TACK",
+            "COURSE-CORRECT",
+            "RECALIBRATE",
+            "SHIFT GEARS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CLASSIC CHILDREN'S BOOKS",
+          "words": [
+            "CAPS FOR SALE",
+            "CORDUROY",
+            "GOODNIGHT MOON",
+            "MADELINE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "MOVIE SUBGENRES",
+          "words": [
+            "BUDDY COP",
+            "NEO-NOIR",
+            "SPACE OPERA",
+            "SPAGHETTI WESTERN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS PEOPLE TRY TO GET OUT OF",
+          "words": [
+            "BAD DREAM",
+            "ESCAPE ROOM",
+            "JURY DUTY",
+            "LABYRINTH"
           ]
         }
       ]
