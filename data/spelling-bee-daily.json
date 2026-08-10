@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T04:43:03.691Z",
+  "lastUpdated": "2026-08-10T05:03:15.809Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60683,6 +60683,64 @@
         "theta",
         "tooth",
         "toothache"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-10",
+      "id": 17923,
+      "centerLetter": "g",
+      "outerLetters": [
+        "a",
+        "l",
+        "m",
+        "o",
+        "r",
+        "u"
+      ],
+      "pangrams": [
+        "glamour"
+      ],
+      "answers": [
+        "agar",
+        "agog",
+        "agora",
+        "alga",
+        "algal",
+        "amalgam",
+        "arugula",
+        "augur",
+        "gaga",
+        "gala",
+        "gall",
+        "gamma",
+        "glam",
+        "glamor",
+        "glamour",
+        "glom",
+        "gloom",
+        "glug",
+        "glum",
+        "goal",
+        "googol",
+        "gram",
+        "gramma",
+        "grammar",
+        "grog",
+        "groom",
+        "guar",
+        "gulag",
+        "gull",
+        "guru",
+        "largo",
+        "logo",
+        "logogram",
+        "logroll",
+        "magma",
+        "mammogram",
+        "mogul",
+        "raga",
+        "ragu"
       ],
       "editor": "Sam Ezersky"
     }

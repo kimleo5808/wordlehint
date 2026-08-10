@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T04:43:03.068Z",
+  "lastUpdated": "2026-08-10T05:03:15.189Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22282,6 +22282,30 @@
         "LURYNU",
         "TEAILG",
         "RTECNE"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": 890,
+      "editor": "Tracy Bennett",
+      "clue": "Back it up",
+      "spangram": "PROOFPOSITIVE",
+      "themeWords": [
+        "DATA",
+        "FACTS",
+        "FIGURES",
+        "SPECIFICS",
+        "STATISTICS"
+      ],
+      "board": [
+        "ITPSFS",
+        "CSRTAE",
+        "SIOCUR",
+        "ATOGIF",
+        "TSFPOS",
+        "IFITAI",
+        "SCCADT",
+        "PESEVI"
       ]
     }
   ]

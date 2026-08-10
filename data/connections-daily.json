@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T04:43:02.700Z",
+  "lastUpdated": "2026-08-10T05:03:14.690Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54047,6 +54047,53 @@
             "ESCAPE ROOM",
             "JURY DUTY",
             "LABYRINTH"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "id": 1156,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "HAPHAZARDLY",
+          "words": [
+            "ANY OLD HOW",
+            "AT RANDOM",
+            "HELTER-SKELTER",
+            "WILLY-NILLY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WAYS TO RECEIVE EVENT TICKETS",
+          "words": [
+            "MAIL DELIVERY",
+            "MOBILE TICKET",
+            "PRINT-AT-HOME",
+            "WILL CALL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SECTIONS ON AN INVOICE",
+          "words": [
+            "BALANCE DUE",
+            "BILL TO",
+            "ORDER NUMBER",
+            "UNIT PRICE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "FAMOUS GOATEES",
+          "words": [
+            "BILLY GOAT",
+            "COLONEL SANDERS",
+            "DOCTOR STRANGE",
+            "THE DEVIL"
           ]
         }
       ]

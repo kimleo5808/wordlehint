@@ -69,6 +69,18 @@
     "definition": "The act of suddenly disturbing anyone; an assault or attack.",
     "partOfSpeech": "noun"
   },
+  "agar": {
+    "definition": "A gelatinous material obtained from red algae, especially Gracilaria species, used as a bacterial culture medium, in electrophoresis and as a food additive.",
+    "partOfSpeech": "noun"
+  },
+  "agog": {
+    "definition": "In eager desire, eager, astir.",
+    "partOfSpeech": "adjective"
+  },
+  "agora": {
+    "definition": "A place for gathering.",
+    "partOfSpeech": "noun"
+  },
   "ahoy": {
     "definition": "An utterance of this interjection.",
     "partOfSpeech": "noun"
@@ -89,6 +101,14 @@
     "definition": "A plant, principally of Medicago sativa, grown as a pasture crop.",
     "partOfSpeech": "noun"
   },
+  "alga": {
+    "definition": "Any of many aquatic photosynthetic organisms, including the seaweeds, whose size ranges from a single cell to giant kelps and whose biochemistry and forms are very diverse, some being eukaryotic.",
+    "partOfSpeech": "noun"
+  },
+  "algal": {
+    "definition": "An alga.",
+    "partOfSpeech": "noun"
+  },
   "allot": {
     "definition": "To distribute or apportion by (or as if by) lot.",
     "partOfSpeech": "verb"
@@ -99,6 +119,10 @@
   },
   "alto": {
     "definition": "A musical part or section higher than tenor and lower than soprano, formerly the part that performed a countermelody above the tenor or main melody.",
+    "partOfSpeech": "noun"
+  },
+  "amalgam": {
+    "definition": "An alloy containing mercury.",
     "partOfSpeech": "noun"
   },
   "amino": {
@@ -189,6 +213,10 @@
     "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
     "partOfSpeech": "noun"
   },
+  "arugula": {
+    "definition": "One of three yellowish-flowered Mediterranean herbs of the mustard family with flavoured leaves, often eaten in salads. Has a distinct, peppery flavor:",
+    "partOfSpeech": "noun"
+  },
   "athlete": {
     "definition": "A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.",
     "partOfSpeech": "noun"
@@ -227,6 +255,10 @@
   "attract": {
     "definition": "To pull toward without touching.",
     "partOfSpeech": "verb"
+  },
+  "augur": {
+    "definition": "A diviner who foretells events by the behaviour of birds or other animals, or by signs derived from celestial phenomena, or unusual occurrences.",
+    "partOfSpeech": "noun"
   },
   "avail": {
     "definition": "Effect in achieving a goal or aim; purpose, use (now usually in negative constructions).",
@@ -1232,6 +1264,18 @@
     "definition": "To pay for.",
     "partOfSpeech": "verb"
   },
+  "gaga": {
+    "definition": "Mentally senile.",
+    "partOfSpeech": "adjective"
+  },
+  "gala": {
+    "definition": "Pomp, show, or festivity.",
+    "partOfSpeech": "noun"
+  },
+  "gall": {
+    "definition": "Bile, especially that of an animal; the greenish, profoundly bitter-tasting fluid found in bile ducts and gall bladders, structures associated with the liver.",
+    "partOfSpeech": "noun"
+  },
   "gallivant": {
     "definition": "To roam about for pleasure without any definite plan.",
     "partOfSpeech": "verb"
@@ -1239,6 +1283,10 @@
   "gallivanting": {
     "definition": "To roam about for pleasure without any definite plan.",
     "partOfSpeech": "verb"
+  },
+  "gamma": {
+    "definition": "The third letter of the Greek alphabet (Γ, γ), preceded by beta (Β, β) and followed by delta, (Δ, δ).",
+    "partOfSpeech": "noun"
   },
   "geek": {
     "definition": "A carnival performer specializing in bizarre and unappetizing behavior.",
@@ -1296,8 +1344,74 @@
     "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
     "partOfSpeech": "verb"
   },
+  "glam": {
+    "definition": "Glamour.",
+    "partOfSpeech": "noun"
+  },
+  "glamor": null,
+  "glamour": {
+    "definition": "Originally, enchantment; magic charm; especially, the effect of a spell that causes one to see objects in a form that differs from reality, typically to make filthy, ugly, or repulsive things seems beauteous.",
+    "partOfSpeech": "noun"
+  },
+  "glom": {
+    "definition": "To steal, to grab.",
+    "partOfSpeech": "verb"
+  },
+  "gloom": {
+    "definition": "Darkness, dimness or obscurity.",
+    "partOfSpeech": "noun"
+  },
+  "glug": {
+    "definition": "The sound made when a significant amount of liquid is poured suddenly out of something, such as a jug or bottle.",
+    "partOfSpeech": "noun"
+  },
+  "glum": {
+    "definition": "Despondent; moody; sullen",
+    "partOfSpeech": "adjective"
+  },
+  "goal": {
+    "definition": "A result that one is attempting to achieve.",
+    "partOfSpeech": "noun"
+  },
+  "googol": {
+    "definition": "The number 10^{100}, or ten to the power of a hundred.",
+    "partOfSpeech": "numeral"
+  },
   "goth": {
     "definition": "A punk-derived subculture of people who predominantly dress in black, associated with mournful music and attitudes.",
+    "partOfSpeech": "noun"
+  },
+  "gram": {
+    "definition": "A unit of mass equal to one-thousandth of a kilogram. Symbol: g",
+    "partOfSpeech": "noun"
+  },
+  "gramma": null,
+  "grammar": {
+    "definition": "A system of rules and principles for speaking and writing a language.",
+    "partOfSpeech": "noun"
+  },
+  "grog": {
+    "definition": "(original meaning) An alcoholic beverage made with rum and water, especially that once issued to sailors of the Royal Navy.",
+    "partOfSpeech": "noun"
+  },
+  "groom": {
+    "definition": "A man who is about to marry.",
+    "partOfSpeech": "noun"
+  },
+  "guar": {
+    "definition": "An annual legume (Cyamopsis tetragonoloba), used as a food for cattle and humans.",
+    "partOfSpeech": "noun"
+  },
+  "gulag": {
+    "definition": "A prison camp.",
+    "partOfSpeech": "noun"
+  },
+  "gull": {
+    "definition": "A seabird of the genus Larus or of the family Laridae.",
+    "partOfSpeech": "noun"
+  },
+  "guru": {
+    "definition": "A Hindu or Sikh spiritual teacher.",
     "partOfSpeech": "noun"
   },
   "halal": {
@@ -1729,6 +1843,10 @@
     "definition": "(used in street names) A road, street, or similar thoroughfare.",
     "partOfSpeech": "noun"
   },
+  "largo": {
+    "definition": "A very slow tempo",
+    "partOfSpeech": "noun"
+  },
   "latch": {
     "definition": "To close or lock as if with a latch.",
     "partOfSpeech": "verb"
@@ -1862,6 +1980,12 @@
     "definition": "A direction in written or printed music to be returning to the proper pitch after having played an octave higher or lower.",
     "partOfSpeech": "adverb"
   },
+  "logo": {
+    "definition": "A visual symbol or emblem that acts as a trademark or a means of identification of a company or organization.",
+    "partOfSpeech": "noun"
+  },
+  "logogram": null,
+  "logroll": null,
   "loin": {
     "definition": "The part of the body (of humans and quadrupeds) at each side of the backbone, between the ribs and hips",
     "partOfSpeech": "noun"
@@ -1895,6 +2019,10 @@
     "definition": "A game of chance similar to bingo",
     "partOfSpeech": "noun"
   },
+  "magma": {
+    "definition": "The molten matter within the earth, the source of the material of lava flows, dikes of eruptive rocks, etc.",
+    "partOfSpeech": "noun"
+  },
   "mail": null,
   "maillot": null,
   "maim": {
@@ -1926,6 +2054,7 @@
     "definition": "An animal of the class Mammalia, characterized by being warm-blooded, having hair and feeding milk to its young.",
     "partOfSpeech": "noun"
   },
+  "mammogram": null,
   "mania": {
     "definition": "Violent derangement of mind; madness; insanity.",
     "partOfSpeech": "noun"
@@ -2078,6 +2207,10 @@
     "partOfSpeech": "noun"
   },
   "moat": null,
+  "mogul": {
+    "definition": "A rich or powerful person; a magnate.",
+    "partOfSpeech": "noun"
+  },
   "moil": {
     "definition": "Hard work.",
     "partOfSpeech": "noun"
@@ -2438,6 +2571,11 @@
     "partOfSpeech": "noun"
   },
   "radii": null,
+  "raga": {
+    "definition": "Any of various melodic forms used in Indian classical music, or a piece of music composed in such a form.",
+    "partOfSpeech": "noun"
+  },
+  "ragu": null,
   "raid": {
     "definition": "A quick hostile or predatory incursion or invasion in a battle.",
     "partOfSpeech": "noun"
