@@ -125,6 +125,10 @@
     "definition": "An alloy containing mercury.",
     "partOfSpeech": "noun"
   },
+  "amen": {
+    "definition": "An instance of saying ‘amen’.",
+    "partOfSpeech": "noun"
+  },
   "amino": {
     "definition": "The amine functional group.",
     "partOfSpeech": "noun"
@@ -142,6 +146,7 @@
     "definition": "Any of the anal scales of a reptile.",
     "partOfSpeech": "noun"
   },
+  "anally": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
@@ -171,6 +176,19 @@
     "definition": "To smear or rub over with oil or an unctuous substance; also, to spread over, as oil.",
     "partOfSpeech": "verb"
   },
+  "ante": {
+    "definition": "A price or cost, as in up the ante.",
+    "partOfSpeech": "noun"
+  },
+  "antenatal": {
+    "definition": "Occurring or existing before birth",
+    "partOfSpeech": "adjective"
+  },
+  "antenna": {
+    "definition": "A feeler organ on the head of an insect, crab, or other animal.",
+    "partOfSpeech": "noun"
+  },
+  "antennae": null,
   "anti": {
     "definition": "A person opposed to a concept or principle.",
     "partOfSpeech": "noun"
@@ -1011,6 +1029,10 @@
     "definition": "(operations) An individual item: the least quantitative unit in a grouping.",
     "partOfSpeech": "noun"
   },
+  "eaten": {
+    "definition": "To ingest; to be ingested.",
+    "partOfSpeech": "verb"
+  },
   "echo": {
     "definition": "A reflected sound that is heard again by its initial observer.",
     "partOfSpeech": "noun"
@@ -1045,6 +1067,19 @@
     "partOfSpeech": "noun"
   },
   "eland": null,
+  "element": {
+    "definition": "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based.",
+    "partOfSpeech": "noun"
+  },
+  "elemental": {
+    "definition": "(theosophy) A creature (usually a spirit) that is attuned with, or composed of, one of the classical elements: air, earth, fire and water or variations of them like ice, lightning, etc. They sometimes have unique proper names and sometimes are referred to as Air, Earth, Fire, or Water.",
+    "partOfSpeech": "noun"
+  },
+  "elementally": null,
+  "emanate": {
+    "definition": "To come from a source; issue from.",
+    "partOfSpeech": "verb"
+  },
   "emend": {
     "definition": "To correct and revise (text or a document).",
     "partOfSpeech": "verb"
@@ -1061,6 +1096,10 @@
     "definition": "To send out or give off",
     "partOfSpeech": "verb"
   },
+  "enamel": {
+    "definition": "An opaque, glassy coating baked onto metal or ceramic objects.",
+    "partOfSpeech": "noun"
+  },
   "ended": {
     "definition": "To come to an end",
     "partOfSpeech": "verb"
@@ -1074,6 +1113,11 @@
     "partOfSpeech": "verb"
   },
   "endowed": null,
+  "enema": null,
+  "enemy": {
+    "definition": "Someone who is hostile to, feels hatred towards, opposes the interests of, or intends injury to someone else.",
+    "partOfSpeech": "noun"
+  },
   "engine": {
     "definition": "A large construction used in warfare, such as a battering ram, catapult etc.",
     "partOfSpeech": "noun"
@@ -1100,6 +1144,7 @@
     "definition": "Sufficiently.",
     "partOfSpeech": "adverb"
   },
+  "entente": null,
   "etch": {
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
@@ -1822,6 +1867,10 @@
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
   },
+  "lament": {
+    "definition": "An expression of grief, suffering, sadness or regret.",
+    "partOfSpeech": "noun"
+  },
   "lamp": {
     "definition": "A device that generates heat, light or other radiation. Especially an electric light bulb.",
     "partOfSpeech": "noun"
@@ -1843,6 +1892,7 @@
     "definition": "(used in street names) A road, street, or similar thoroughfare.",
     "partOfSpeech": "noun"
   },
+  "lantana": null,
   "largo": {
     "definition": "A very slow tempo",
     "partOfSpeech": "noun"
@@ -1851,6 +1901,12 @@
     "definition": "To close or lock as if with a latch.",
     "partOfSpeech": "verb"
   },
+  "laten": null,
+  "latent": {
+    "definition": "(forensics) The residue left by a person's finger that can be made visible by a process such as powder dusting; a latent fingerprint.",
+    "partOfSpeech": "noun"
+  },
+  "latently": null,
   "lath": {
     "definition": "A thin, narrow strip, fastened to the rafters, studs, or floor beams of a building, for the purpose of supporting a covering of tiles, plastering, etc.",
     "partOfSpeech": "noun"
@@ -1866,6 +1922,11 @@
   "laving": {
     "definition": "To pour or throw out, as water; lade out; bail; bail out.",
     "partOfSpeech": "verb"
+  },
+  "layman": null,
+  "laymen": {
+    "definition": "Layperson, someone who is not an ordained cleric or member of the clergy.",
+    "partOfSpeech": "noun"
   },
   "leach": {
     "definition": "A quantity of wood ashes, through which water passes, and thus imbibes the alkali.",
@@ -1883,6 +1944,11 @@
     "definition": "To incline, deviate, or bend, from a vertical position; to be in a position thus inclining or deviating.",
     "partOfSpeech": "verb"
   },
+  "leanly": null,
+  "leant": {
+    "definition": "To incline, deviate, or bend, from a vertical position; to be in a position thus inclining or deviating.",
+    "partOfSpeech": "verb"
+  },
   "lech": {
     "definition": "A strong, lecherous desire or craving.",
     "partOfSpeech": "noun"
@@ -1893,6 +1959,10 @@
   },
   "lend": {
     "definition": "The lumbar region; loin.",
+    "partOfSpeech": "noun"
+  },
+  "lent": {
+    "definition": "A period of the ecclesiastical year preceding Easter, traditionally involving temporary abstention from certain foods and pleasures.",
     "partOfSpeech": "noun"
   },
   "lethal": {
@@ -2055,12 +2125,51 @@
     "partOfSpeech": "noun"
   },
   "mammogram": null,
+  "manatee": {
+    "definition": "Any of several plant-eating marine mammals, of family Trichechidae, found in tropical regions.",
+    "partOfSpeech": "noun"
+  },
+  "mane": {
+    "definition": "Longer hair growth on back of neck of an animal, especially a horse or lion",
+    "partOfSpeech": "noun"
+  },
   "mania": {
     "definition": "Violent derangement of mind; madness; insanity.",
     "partOfSpeech": "noun"
   },
+  "manly": {
+    "definition": "Having the characteristics of a man.",
+    "partOfSpeech": "adjective"
+  },
+  "manna": {
+    "definition": "Food miraculously produced for the Israelites in the desert in the book of Exodus.",
+    "partOfSpeech": "noun"
+  },
+  "manta": {
+    "definition": "A kind of fabric or blanket used in Latin America and southwestern United States.",
+    "partOfSpeech": "noun"
+  },
+  "mantel": null,
+  "mantle": {
+    "definition": "The shelf above a fireplace which may be also a structural support for the masonry of the chimney.",
+    "partOfSpeech": "noun"
+  },
+  "many": null,
   "manzanita": {
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
+    "partOfSpeech": "noun"
+  },
+  "mean": {
+    "definition": "To lament.",
+    "partOfSpeech": "verb"
+  },
+  "meanly": null,
+  "meant": {
+    "definition": "To intend.",
+    "partOfSpeech": "verb"
+  },
+  "meany": {
+    "definition": "A mean (unkind or miserly) person; a killjoy.",
     "partOfSpeech": "noun"
   },
   "meet": {
@@ -2093,6 +2202,12 @@
     "definition": "To repair, as anything that is torn, broken, defaced, decayed, or the like; to restore from partial decay, injury, or defacement.",
     "partOfSpeech": "verb"
   },
+  "mental": {
+    "definition": "Of or relating to the mind or an intellectual process.",
+    "partOfSpeech": "adjective"
+  },
+  "mentally": null,
+  "mentee": null,
   "mete": {
     "definition": "To measure.",
     "partOfSpeech": "verb"
@@ -2277,6 +2392,7 @@
     "definition": "A long loose-fitting dress made of lightweight fabric printed with bright, stylized Hawaiian themes (such as flowers and palm branches).",
     "partOfSpeech": "noun"
   },
+  "myna": null,
   "naan": {
     "definition": "A type of round, flat bread baked in a tandoor popular in South and Central Asian cuisine.",
     "partOfSpeech": "noun"
@@ -2293,9 +2409,29 @@
     "definition": "One who is naive.",
     "partOfSpeech": "noun"
   },
+  "name": {
+    "definition": "Any nounal word or phrase which indicates a particular person, place, class, or thing.",
+    "partOfSpeech": "noun"
+  },
+  "namely": {
+    "definition": "Specifically; that is to say.",
+    "partOfSpeech": "adverb"
+  },
   "nana": {
     "definition": "A banana",
     "partOfSpeech": "noun"
+  },
+  "nanny": {
+    "definition": "A child's nurse.",
+    "partOfSpeech": "noun"
+  },
+  "natal": {
+    "definition": "Of or relating to birth.",
+    "partOfSpeech": "adjective"
+  },
+  "natant": {
+    "definition": "Floating or swimming (in water)",
+    "partOfSpeech": "adjective"
   },
   "nation": {
     "definition": "A historically constituted, stable community of people, formed on the basis of a common language, territory, economic life, ethnicity and/or psychological make-up manifested in a common culture.",
@@ -2305,6 +2441,10 @@
     "definition": "Someone's birth; the place, time and circumstances of a birth.",
     "partOfSpeech": "noun"
   },
+  "natty": {
+    "definition": "Smart and fashionable.",
+    "partOfSpeech": "adjective"
+  },
   "naval": {
     "definition": "Of or relating to a navy.",
     "partOfSpeech": "adjective"
@@ -2312,6 +2452,18 @@
   "navigating": {
     "definition": "To plan, control and record the position and course of a vehicle, ship, aircraft, etc., on a journey; to follow a planned course.",
     "partOfSpeech": "verb"
+  },
+  "neat": {
+    "definition": "An artificial intelligence researcher who believes that solutions should be elegant, clear and provably correct. Compare scruffy.",
+    "partOfSpeech": "noun"
+  },
+  "neaten": {
+    "definition": "To make neat; arrange in an orderly, tidy way; to tidy.",
+    "partOfSpeech": "verb"
+  },
+  "neatly": {
+    "definition": "In a neat manner.",
+    "partOfSpeech": "adverb"
   },
   "need": {
     "definition": "A requirement for something; something needed.",
@@ -2335,6 +2487,14 @@
     "partOfSpeech": "noun"
   },
   "neon": null,
+  "nettle": {
+    "definition": "Any plant whose foliage is covered with stinging, mildly poisonous hairs, causing an instant rash.",
+    "partOfSpeech": "noun"
+  },
+  "netty": {
+    "definition": "Neat, well-groomed, natty.",
+    "partOfSpeech": "adjective"
+  },
   "niacin": {
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
     "partOfSpeech": "noun"
@@ -2647,6 +2807,10 @@
     "definition": "A contamination, decay or putrefaction, especially in food",
     "partOfSpeech": "noun"
   },
+  "talent": {
+    "definition": "A marked natural ability or skill.",
+    "partOfSpeech": "noun"
+  },
   "tamp": {
     "definition": "(blasting) To plug up with clay, earth, dry sand, sod, or other material, as a hole bored in a rock.",
     "partOfSpeech": "verb"
@@ -2687,6 +2851,14 @@
     "definition": "To be stocked to overflowing.",
     "partOfSpeech": "verb"
   },
+  "teen": {
+    "definition": "A teenager.",
+    "partOfSpeech": "noun"
+  },
+  "teeny": {
+    "definition": "Very small; tiny.",
+    "partOfSpeech": "adjective"
+  },
   "teeth": {
     "definition": "The ability to be enforced, or to be enforced to any useful effect.",
     "partOfSpeech": "noun"
@@ -2697,6 +2869,22 @@
   },
   "telehealth": {
     "definition": "Healthcare facilitated by telecommunication technology.",
+    "partOfSpeech": "noun"
+  },
+  "tenant": {
+    "definition": "One who pays a fee (rent) in return for the use of land, buildings, or other property owned by others.",
+    "partOfSpeech": "noun"
+  },
+  "tenement": {
+    "definition": "A building that is rented to multiple tenants, especially a low-rent, run-down one.",
+    "partOfSpeech": "noun"
+  },
+  "tenet": {
+    "definition": "An opinion, belief, or principle that is held as absolute truth by someone or especially an organization.",
+    "partOfSpeech": "noun"
+  },
+  "tent": {
+    "definition": "A pavilion or portable lodge consisting of skins, canvas, or some strong cloth, stretched and sustained by poles, used for sheltering people from the weather.",
     "partOfSpeech": "noun"
   },
   "tenth": {
@@ -3017,6 +3205,11 @@
     "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
     "partOfSpeech": "noun"
   },
+  "yenta": {
+    "definition": "A woman who meddles in the business of others; a busybody; a female gossipmonger.",
+    "partOfSpeech": "noun"
+  },
+  "yente": null,
   "yond": {
     "definition": "Further; more distant",
     "partOfSpeech": "adjective"

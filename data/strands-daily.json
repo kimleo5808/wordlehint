@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T05:03:15.189Z",
+  "lastUpdated": "2026-08-11T04:46:44.394Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22306,6 +22306,31 @@
         "IFITAI",
         "SCCADT",
         "PESEVI"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "id": 891,
+      "editor": "Tracy Bennett",
+      "clue": "Fresh from the market",
+      "spangram": "SUMMERHARVEST",
+      "themeWords": [
+        "CARROT",
+        "CORN",
+        "MELON",
+        "PEPPER",
+        "TOMATO",
+        "ZUCCHINI"
+      ],
+      "board": [
+        "ATRCTO",
+        "MONORR",
+        "OMEAML",
+        "TMRCEO",
+        "SUHARN",
+        "RECCVE",
+        "EPUHIS",
+        "PPZINT"
       ]
     }
   ]
