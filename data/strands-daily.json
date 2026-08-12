@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T04:46:44.394Z",
+  "lastUpdated": "2026-08-12T05:11:50.979Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22331,6 +22331,31 @@
         "RECCVE",
         "EPUHIS",
         "PPZINT"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "id": 892,
+      "editor": "Tracy Bennett",
+      "clue": "Making a difference",
+      "spangram": "PHILANTHROPY",
+      "themeWords": [
+        "BESTOW",
+        "CONTRIBUTE",
+        "DONATE",
+        "ENDOW",
+        "GIVE",
+        "GRANT"
+      ],
+      "board": [
+        "BIPNDO",
+        "URTHEW",
+        "TENOIW",
+        "RGTCLO",
+        "ANEAST",
+        "GVNEON",
+        "ITBDAT",
+        "HROPYE"
       ]
     }
   ]

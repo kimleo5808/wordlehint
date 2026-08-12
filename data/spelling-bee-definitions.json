@@ -1058,6 +1058,19 @@
     "definition": "To throw eggs at.",
     "partOfSpeech": "verb"
   },
+  "eight": {
+    "definition": "The digit/figure 8.",
+    "partOfSpeech": "noun"
+  },
+  "eighth": {
+    "definition": "The person or thing in the eighth position.",
+    "partOfSpeech": "noun"
+  },
+  "eightieth": null,
+  "eighty": {
+    "definition": "The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.",
+    "partOfSpeech": "numeral"
+  },
   "eking": {
     "definition": "The act or process of adding.",
     "partOfSpeech": "noun"
@@ -1160,6 +1173,10 @@
   "expending": {
     "definition": "To consume, exhaust (some resource)",
     "partOfSpeech": "verb"
+  },
+  "eyeteeth": {
+    "definition": "A canine tooth of the upper jaw in humans.",
+    "partOfSpeech": "noun"
   },
   "fail": {
     "definition": "Poor quality; substandard workmanship.",
@@ -1559,6 +1576,10 @@
   },
   "heel": {
     "definition": "The rear part of the foot, where it joins the leg.",
+    "partOfSpeech": "noun"
+  },
+  "height": {
+    "definition": "The distance from the base of something to the top.",
     "partOfSpeech": "noun"
   },
   "hell": null,
@@ -2911,6 +2932,14 @@
     "definition": "The eighth letter of the Modern Greek alphabet, ninth in Old Greek: Θ, θ.",
     "partOfSpeech": "noun"
   },
+  "they": {
+    "definition": "(the third-person plural) A group of people, animals, plants or objects previously mentioned.",
+    "partOfSpeech": "pronoun"
+  },
+  "thigh": {
+    "definition": "The upper leg of a human, between the hip and the knee.",
+    "partOfSpeech": "noun"
+  },
   "thin": {
     "definition": "A loss or tearing of paper from the back of a stamp, although not sufficient to create a complete hole.",
     "partOfSpeech": "noun"
@@ -2937,6 +2966,7 @@
     "partOfSpeech": "noun"
   },
   "tidbit": null,
+  "tight": null,
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",
     "partOfSpeech": "preposition"
@@ -2973,6 +3003,10 @@
   "titanic": {
     "definition": "Having great size, or great strength, force or power.",
     "partOfSpeech": "adjective"
+  },
+  "tithe": {
+    "definition": "A tenth.",
+    "partOfSpeech": "noun"
   },
   "titivating": {
     "definition": "To make small improvements or alterations to (one's appearance etc.); to add some finishing touches to.",
@@ -3062,6 +3096,19 @@
   },
   "turbot": {
     "definition": "A species of flatfish native to Europe (Scophthalmus maximus, earlier Psetta maxima).",
+    "partOfSpeech": "noun"
+  },
+  "twee": null,
+  "tweet": {
+    "definition": "The sound of a bird; any short high-pitched sound or whistle.",
+    "partOfSpeech": "noun"
+  },
+  "twig": {
+    "definition": "A small thin branch of a tree or bush.",
+    "partOfSpeech": "noun"
+  },
+  "twit": {
+    "definition": "A reproach, gibe or taunt.",
     "partOfSpeech": "noun"
   },
   "uncuff": null,
@@ -3179,6 +3226,35 @@
     "definition": "The quality or state of being vivacious.",
     "partOfSpeech": "noun"
   },
+  "weight": {
+    "definition": "(physical) Matter, material.",
+    "partOfSpeech": "noun"
+  },
+  "weighty": {
+    "definition": "Heavy.",
+    "partOfSpeech": "adjective"
+  },
+  "whet": {
+    "definition": "The act of whetting something.",
+    "partOfSpeech": "noun"
+  },
+  "whit": {
+    "definition": "The smallest part or particle imaginable; an iota.",
+    "partOfSpeech": "noun"
+  },
+  "white": null,
+  "wight": {
+    "definition": "A living creature, especially a human being.",
+    "partOfSpeech": "noun"
+  },
+  "with": {
+    "definition": "Along, together with others, in a group, etc.",
+    "partOfSpeech": "adverb"
+  },
+  "witty": {
+    "definition": "Wise, having good judgement.",
+    "partOfSpeech": "adjective"
+  },
   "wood": {
     "definition": "The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel.",
     "partOfSpeech": "noun"
@@ -3210,6 +3286,10 @@
     "partOfSpeech": "noun"
   },
   "yente": null,
+  "yeti": {
+    "definition": "An unidentified humanoid animal said to live in the Himalayas",
+    "partOfSpeech": "noun"
+  },
   "yond": {
     "definition": "Further; more distant",
     "partOfSpeech": "adjective"

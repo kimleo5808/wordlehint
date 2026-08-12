@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T04:46:44.998Z",
+  "lastUpdated": "2026-08-12T05:11:51.728Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60831,6 +60831,52 @@
         "tent",
         "yenta",
         "yente"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-12",
+      "id": 14101,
+      "centerLetter": "t",
+      "outerLetters": [
+        "e",
+        "g",
+        "h",
+        "i",
+        "w",
+        "y"
+      ],
+      "pangrams": [
+        "weighty"
+      ],
+      "answers": [
+        "eight",
+        "eighth",
+        "eightieth",
+        "eighty",
+        "eyeteeth",
+        "height",
+        "itty",
+        "teeth",
+        "teethe",
+        "thee",
+        "they",
+        "thigh",
+        "tight",
+        "tithe",
+        "twee",
+        "tweet",
+        "twig",
+        "twit",
+        "weight",
+        "weighty",
+        "whet",
+        "whit",
+        "white",
+        "wight",
+        "with",
+        "witty",
+        "yeti"
       ],
       "editor": "Sam Ezersky"
     }
