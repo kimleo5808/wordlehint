@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T05:11:50.979Z",
+  "lastUpdated": "2026-08-13T05:15:41.004Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22356,6 +22356,31 @@
         "GVNEON",
         "ITBDAT",
         "HROPYE"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": 893,
+      "editor": "Tracy Bennett",
+      "clue": "Coming in hot",
+      "spangram": "FIREBRAND",
+      "themeWords": [
+        "FERVENT",
+        "FIERCE",
+        "HEATED",
+        "INTENSE",
+        "TORRID",
+        "ZEALOUS"
+      ],
+      "board": [
+        "FHEATE",
+        "IRDEIR",
+        "ZEBFEC",
+        "ESRAND",
+        "AUIERT",
+        "LONFVN",
+        "NETTOE",
+        "SEDIRR"
       ]
     }
   ]

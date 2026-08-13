@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T05:11:51.728Z",
+  "lastUpdated": "2026-08-13T05:15:41.737Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -60877,6 +60877,64 @@
         "with",
         "witty",
         "yeti"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-13",
+      "id": 27681,
+      "centerLetter": "n",
+      "outerLetters": [
+        "o",
+        "y",
+        "a",
+        "c",
+        "h",
+        "l"
+      ],
+      "pangrams": [
+        "halcyon"
+      ],
+      "answers": [
+        "anal",
+        "anally",
+        "ancho",
+        "annal",
+        "annoy",
+        "anon",
+        "anyhoo",
+        "canal",
+        "cancan",
+        "canna",
+        "cannon",
+        "canny",
+        "canola",
+        "canon",
+        "canyon",
+        "chancy",
+        "clan",
+        "clonal",
+        "cocoon",
+        "colcannon",
+        "colon",
+        "colony",
+        "conch",
+        "cyan",
+        "halcyon",
+        "honcho",
+        "llano",
+        "loan",
+        "loon",
+        "loony",
+        "naan",
+        "nacho",
+        "nana",
+        "nanny",
+        "nonlocal",
+        "noon",
+        "nylon",
+        "onlay",
+        "only"
       ],
       "editor": "Sam Ezersky"
     }

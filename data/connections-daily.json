@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T05:11:50.432Z",
+  "lastUpdated": "2026-08-13T05:15:40.492Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54188,6 +54188,53 @@
             "GOODBYE",
             "GREAT WHITE",
             "OKAYAMA"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "id": 1159,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PERSEVERE",
+          "words": [
+            "CARRY ON",
+            "CONTINUE",
+            "MAKE IT",
+            "PERSIST"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MOVE SLOWLY (UP TO)",
+          "words": [
+            "CREEP",
+            "EASE",
+            "EDGE",
+            "INCH"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "AIRLINE STATUS PERKS",
+          "words": [
+            "CHECKED BAGS",
+            "LOUNGE",
+            "MILES",
+            "UPGRADE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "\"COLD\" THINGS, IN IDIOMS",
+          "words": [
+            "COMFORT",
+            "FEET",
+            "SHOULDER",
+            "TURKEY"
           ]
         }
       ]

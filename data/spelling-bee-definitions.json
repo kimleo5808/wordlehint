@@ -147,6 +147,7 @@
     "partOfSpeech": "noun"
   },
   "anally": null,
+  "ancho": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
@@ -172,9 +173,17 @@
     "definition": "A critical or explanatory commentary or analysis",
     "partOfSpeech": "noun"
   },
+  "annoy": {
+    "definition": "A feeling of discomfort or vexation caused by what one dislikes.",
+    "partOfSpeech": "noun"
+  },
   "anoint": {
     "definition": "To smear or rub over with oil or an unctuous substance; also, to spread over, as oil.",
     "partOfSpeech": "verb"
+  },
+  "anon": {
+    "definition": "Straight away; at once.",
+    "partOfSpeech": "adverb"
   },
   "ante": {
     "definition": "A price or cost, as in up the ante.",
@@ -200,6 +209,10 @@
   "anvil": {
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
+  },
+  "anyhoo": {
+    "definition": "Anyhow",
+    "partOfSpeech": "adverb"
   },
   "arabica": null,
   "arbor": {
@@ -516,8 +529,28 @@
     "definition": "To seal in a can.",
     "partOfSpeech": "verb"
   },
+  "cannon": {
+    "definition": "A complete assembly, consisting of an artillery tube and a breech mechanism, firing mechanism or base cap, which is a component of a gun, howitzer or mortar. It may include muzzle appendages.",
+    "partOfSpeech": "noun"
+  },
+  "canny": {
+    "definition": "Careful, prudent, cautious.",
+    "partOfSpeech": "adjective"
+  },
+  "canola": {
+    "definition": "Any of a number of cultivars of rapeseed (Brassica napus) and closely related field mustard (Brassica rapa), which have a lower erucic acid and glucosinolate content than traditional rapeseed.",
+    "partOfSpeech": "noun"
+  },
+  "canon": {
+    "definition": "A generally accepted principle; a rule.",
+    "partOfSpeech": "noun"
+  },
   "cantina": {
     "definition": "A drinking establishment, often specifically of the type found in Latin America.",
+    "partOfSpeech": "noun"
+  },
+  "canyon": {
+    "definition": "A valley, especially a long, narrow, steep valley, cut in rock by a river.",
     "partOfSpeech": "noun"
   },
   "carat": {
@@ -578,6 +611,10 @@
   "chancel": {
     "definition": "The space around the altar in a church, often enclosed, for use by the clergy and the choir. In medieval cathedrals the chancel was usually enclosed or blocked off from the nave by an altar screen.",
     "partOfSpeech": "noun"
+  },
+  "chancy": {
+    "definition": "Uncertain, risky, hazardous",
+    "partOfSpeech": "adjective"
   },
   "channel": null,
   "channeled": null,
@@ -657,6 +694,10 @@
     "definition": "A glass covering, originally bell-shaped, for garden plants to prevent frost damage and promote early growth.",
     "partOfSpeech": "noun"
   },
+  "clonal": {
+    "definition": "Relating to, or created by asexual reproduction (cloning)",
+    "partOfSpeech": "adjective"
+  },
   "clot": {
     "definition": "A thrombus, solidified mass of blood.",
     "partOfSpeech": "noun"
@@ -709,6 +750,10 @@
     "definition": "The dried and partially fermented fatty seeds of the cacao tree from which chocolate is made.",
     "partOfSpeech": "noun"
   },
+  "cocoon": {
+    "definition": "The silky protective case spun by the larvae of some insects in which they metamorphose, the pupa.",
+    "partOfSpeech": "noun"
+  },
   "coffee": {
     "definition": "A beverage made by infusing the beans of the coffee plant in hot water.",
     "partOfSpeech": "noun"
@@ -734,14 +779,21 @@
     "definition": "The kola plant, genus Cola, famous for its nut, or one of these nuts.",
     "partOfSpeech": "noun"
   },
+  "colcannon": null,
   "colic": {
     "definition": "Severe pains that grip the abdomen or the disease that causes such pains (due to intestinal or bowel-related problems).",
+    "partOfSpeech": "noun"
+  },
+  "colon": null,
+  "colony": {
+    "definition": "A governmental unit created on land of another country owned by colonists from a country.",
     "partOfSpeech": "noun"
   },
   "colt": {
     "definition": "A young male horse.",
     "partOfSpeech": "noun"
   },
+  "conch": null,
   "confound": {
     "definition": "A confounding variable.",
     "partOfSpeech": "noun"
@@ -783,6 +835,7 @@
     "definition": "To furnish with cuffs.",
     "partOfSpeech": "verb"
   },
+  "cyan": null,
   "cynic": {
     "definition": "A person who believes that all people are motivated by selfishness.",
     "partOfSpeech": "noun"
@@ -1480,6 +1533,10 @@
     "definition": "To make halal.",
     "partOfSpeech": "verb"
   },
+  "halcyon": {
+    "definition": "A kingfisher said in classical mythology to nest on the sea, thereby calming the waters.",
+    "partOfSpeech": "noun"
+  },
   "hale": {
     "definition": "Health, welfare.",
     "partOfSpeech": "noun"
@@ -1640,6 +1697,7 @@
     "definition": "A small piece of woodland or a woody hill; a copse.",
     "partOfSpeech": "noun"
   },
+  "honcho": null,
   "hone": {
     "definition": "A sharpening stone composed of extra-fine grit used for removing the burr or curl from the blade of a razor or some other edge tool.",
     "partOfSpeech": "noun"
@@ -2039,12 +2097,17 @@
     "definition": "A South American mammal of the camel family, Lama glama, used as a domestic beast of burden and a source of wool and meat.",
     "partOfSpeech": "noun"
   },
+  "llano": null,
   "loach": {
     "definition": "A bottom-feeding freshwater fish in the superfamily or suborder Cobitoidea.",
     "partOfSpeech": "noun"
   },
   "loam": {
     "definition": "A type of soil; an earthy mixture of sand, silt and clay, with organic matter to which its fertility is chiefly due.",
+    "partOfSpeech": "noun"
+  },
+  "loan": {
+    "definition": "An act or instance of lending, an act or instance of granting something for temporary use.",
     "partOfSpeech": "noun"
   },
   "loath": {
@@ -2086,6 +2149,8 @@
     "partOfSpeech": "verb"
   },
   "loom": null,
+  "loon": null,
+  "loony": null,
   "loot": {
     "definition": "A kind of scoop or ladle, chiefly used to remove the scum from brine-pans in saltworks.",
     "partOfSpeech": "noun"
@@ -2422,6 +2487,7 @@
     "definition": "A separate streamlined enclosure mounted on an aircraft to house an engine, cargo, or crew.",
     "partOfSpeech": "noun"
   },
+  "nacho": null,
   "nada": {
     "definition": "Nothing.",
     "partOfSpeech": "pronoun"
@@ -2548,6 +2614,7 @@
   },
   "none": null,
   "nonillion": null,
+  "nonlocal": null,
   "nook": {
     "definition": "A small corner formed by two walls; an alcove.",
     "partOfSpeech": "noun"
@@ -2566,6 +2633,10 @@
   },
   "nought": {
     "definition": "Nothing; something which does not exist.",
+    "partOfSpeech": "noun"
+  },
+  "nylon": {
+    "definition": "Originally, the DuPont company trade name for polyamide, a copolymer whose molecules consist of alternating diamine and dicarboxylic acid monomers bonded together; now generically used for this type of polymer.",
     "partOfSpeech": "noun"
   },
   "oaky": null,
@@ -2621,6 +2692,11 @@
   },
   "onion": {
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
+    "partOfSpeech": "noun"
+  },
+  "onlay": null,
+  "only": {
+    "definition": "An only child.",
     "partOfSpeech": "noun"
   },
   "optima": {
