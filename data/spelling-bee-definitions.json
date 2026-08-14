@@ -54,11 +54,31 @@
     "definition": "The state or quality of being active; activeness.",
     "partOfSpeech": "noun"
   },
+  "adamant": {
+    "definition": "An imaginary rock or mineral of impenetrable hardness; a name given to the diamond and other substances of extreme hardness.",
+    "partOfSpeech": "noun"
+  },
   "addend": null,
   "addenda": null,
   "addict": {
     "definition": "A person who is addicted, especially to a harmful drug",
     "partOfSpeech": "noun"
+  },
+  "adman": {
+    "definition": "A person in the business of devising, writing, illustrating or selling advertisements.",
+    "partOfSpeech": "noun"
+  },
+  "admin": {
+    "definition": "Administration, or administrative work.",
+    "partOfSpeech": "noun"
+  },
+  "admit": {
+    "definition": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration",
+    "partOfSpeech": "verb"
+  },
+  "admitting": {
+    "definition": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration",
+    "partOfSpeech": "verb"
   },
   "adobo": {
     "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
@@ -84,6 +104,10 @@
   "ahoy": {
     "definition": "An utterance of this interjection.",
     "partOfSpeech": "noun"
+  },
+  "aiming": {
+    "definition": "To point or direct a missile, or a weapon which propels as missile, towards an object or spot with the intent of hitting it",
+    "partOfSpeech": "verb"
   },
   "aioli": {
     "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
@@ -129,6 +153,10 @@
     "definition": "An instance of saying ‘amen’.",
     "partOfSpeech": "noun"
   },
+  "amid": {
+    "definition": "In the middle of; in the center of; surrounded by.",
+    "partOfSpeech": "preposition"
+  },
   "amino": {
     "definition": "The amine functional group.",
     "partOfSpeech": "noun"
@@ -151,6 +179,10 @@
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
+  },
+  "animating": {
+    "definition": "To impart motion or the appearance of motion to.",
+    "partOfSpeech": "verb"
   },
   "animation": {
     "definition": "The act of animating, or giving life or spirit.",
@@ -840,6 +872,17 @@
     "definition": "A person who believes that all people are motivated by selfishness.",
     "partOfSpeech": "noun"
   },
+  "damaging": null,
+  "damming": null,
+  "dammit": {
+    "definition": "The saying of the interjection, used as a general measure of anything.",
+    "partOfSpeech": "noun"
+  },
+  "damn": {
+    "definition": "The use of \"damn\" as a curse.",
+    "partOfSpeech": "noun"
+  },
+  "damning": null,
   "dance": {
     "definition": "A sequence of rhythmic steps or movements usually performed to music, for pleasure or as a form of social interaction.",
     "partOfSpeech": "noun"
@@ -1399,6 +1442,8 @@
     "definition": "To roam about for pleasure without any definite plan.",
     "partOfSpeech": "verb"
   },
+  "gamin": null,
+  "gaming": null,
   "gamma": {
     "definition": "The third letter of the Greek alphabet (Γ, γ), preceded by beta (Β, β) and followed by delta, (Δ, δ).",
     "partOfSpeech": "noun"
@@ -1765,10 +1810,16 @@
     "definition": "The upper and widest of the three bones that make up each side of the hipbone and pelvis.",
     "partOfSpeech": "noun"
   },
+  "imaging": {
+    "definition": "To represent by an image or symbol; to portray.",
+    "partOfSpeech": "verb"
+  },
+  "imagining": null,
   "imam": {
     "definition": "(usually capitalized) A Shi'ite Muslim leader.",
     "partOfSpeech": "noun"
   },
+  "imitating": null,
   "imitation": {
     "definition": "The act of imitating.",
     "partOfSpeech": "noun"
@@ -1854,9 +1905,17 @@
     "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
     "partOfSpeech": "adjective"
   },
+  "intimating": {
+    "definition": "To suggest or disclose (something) discreetly.",
+    "partOfSpeech": "verb"
+  },
   "intimation": {
     "definition": "The act of intimating.",
     "partOfSpeech": "noun"
+  },
+  "intimidating": {
+    "definition": "To make timid or afraid; to cause to feel fear or nervousness; to deter, especially by threats of violence",
+    "partOfSpeech": "verb"
   },
   "into": {
     "definition": "To or towards the inside of.",
@@ -2175,8 +2234,21 @@
     "definition": "A game of chance similar to bingo",
     "partOfSpeech": "noun"
   },
+  "madam": {
+    "definition": "A polite form of address for a woman or lady.",
+    "partOfSpeech": "noun"
+  },
+  "madman": {
+    "definition": "A male who is insane or mentally disturbed.",
+    "partOfSpeech": "noun"
+  },
+  "magi": null,
   "magma": {
     "definition": "The molten matter within the earth, the source of the material of lava flows, dikes of eruptive rocks, etc.",
+    "partOfSpeech": "noun"
+  },
+  "maid": {
+    "definition": "A girl or an unmarried young woman; maiden.",
     "partOfSpeech": "noun"
   },
   "mail": null,
@@ -2185,11 +2257,16 @@
     "definition": "A serious wound",
     "partOfSpeech": "noun"
   },
+  "maiming": null,
   "main": {
     "definition": "Short for mainline.",
     "partOfSpeech": "verb"
   },
   "maintain": {
+    "definition": "To support (someone), to back up or assist (someone) in an action.",
+    "partOfSpeech": "verb"
+  },
+  "maintaining": {
     "definition": "To support (someone), to back up or assist (someone) in an action.",
     "partOfSpeech": "verb"
   },
@@ -2211,12 +2288,18 @@
     "partOfSpeech": "noun"
   },
   "mammogram": null,
+  "managing": null,
   "manatee": {
     "definition": "Any of several plant-eating marine mammals, of family Trichechidae, found in tropical regions.",
     "partOfSpeech": "noun"
   },
+  "mandating": null,
   "mane": {
     "definition": "Longer hair growth on back of neck of an animal, especially a horse or lion",
+    "partOfSpeech": "noun"
+  },
+  "manga": {
+    "definition": "A comic originating in Japan.",
     "partOfSpeech": "noun"
   },
   "mania": {
@@ -2231,6 +2314,7 @@
     "definition": "Food miraculously produced for the Israelites in the desert in the book of Exodus.",
     "partOfSpeech": "noun"
   },
+  "manning": null,
   "manta": {
     "definition": "A kind of fabric or blanket used in Latin America and southwestern United States.",
     "partOfSpeech": "noun"
@@ -2245,6 +2329,8 @@
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "mating": null,
+  "matting": null,
   "mean": {
     "definition": "To lament.",
     "partOfSpeech": "verb"
@@ -2399,9 +2485,17 @@
     "definition": "A building or institution where money (originally, only coins) is produced under government licence.",
     "partOfSpeech": "noun"
   },
+  "minting": {
+    "definition": "To reproduce (coins), usually en masse, under licence.",
+    "partOfSpeech": "verb"
+  },
   "mite": {
     "definition": "Any of many minute arachnids which, along with the ticks, comprise subclass Acarina (aka Acari).",
     "partOfSpeech": "noun"
+  },
+  "mitigating": {
+    "definition": "To reduce, lessen, or decrease; to make less severe or easier to bear.",
+    "partOfSpeech": "verb"
   },
   "mitt": {
     "definition": "A mitten",
@@ -2504,6 +2598,7 @@
     "definition": "Specifically; that is to say.",
     "partOfSpeech": "adverb"
   },
+  "naming": null,
   "nana": {
     "definition": "A banana",
     "partOfSpeech": "noun"
@@ -2908,6 +3003,10 @@
     "definition": "A marked natural ability or skill.",
     "partOfSpeech": "noun"
   },
+  "taming": {
+    "definition": "To make (an animal) tame; to domesticate.",
+    "partOfSpeech": "verb"
+  },
   "tamp": {
     "definition": "(blasting) To plug up with clay, earth, dry sand, sod, or other material, as a hole bored in a rock.",
     "partOfSpeech": "verb"
@@ -3058,6 +3157,14 @@
   "time": {
     "definition": "The inevitable progression into the future with the passing of present and past events.",
     "partOfSpeech": "noun"
+  },
+  "timid": {
+    "definition": "Lacking in courage or confidence.",
+    "partOfSpeech": "adjective"
+  },
+  "timing": {
+    "definition": "To measure or record the time, duration, or rate of.",
+    "partOfSpeech": "verb"
   },
   "tinct": null,
   "tinny": {

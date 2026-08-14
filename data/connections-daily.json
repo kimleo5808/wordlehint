@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T05:15:40.492Z",
+  "lastUpdated": "2026-08-14T05:12:26.752Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54235,6 +54235,53 @@
             "FEET",
             "SHOULDER",
             "TURKEY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": 1160,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "BLACK-AND-YELLOW",
+          "words": [
+            "BUMBLEBEE",
+            "CAUTION TAPE",
+            "CHARLIE BROWN",
+            "WOLVERINE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PLACES WHERE EVERYONE THINKS THE SAME WAYS",
+          "words": [
+            "BUBBLE",
+            "ECHO CHAMBER",
+            "HIVEMIND",
+            "SILO"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "COMIC BOOK ARTIST'S TOOLS",
+          "words": [
+            "BRISTOL BOARD",
+            "DIP PEN",
+            "INDIA INK",
+            "STRAIGHTEDGE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "TRIANGLE LOGOS",
+          "words": [
+            "BASS ALE",
+            "CITGO",
+            "DELTA AIRLINES",
+            "GOOGLE DRIVE"
           ]
         }
       ]

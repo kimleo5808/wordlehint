@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T05:15:41.004Z",
+  "lastUpdated": "2026-08-14T05:12:27.218Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22381,6 +22381,30 @@
         "LONFVN",
         "NETTOE",
         "SEDIRR"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "id": 894,
+      "editor": "Tracy Bennett",
+      "clue": "Discovered by accident",
+      "spangram": "INVENTIONS",
+      "themeWords": [
+        "MICROWAVE",
+        "PENICILLIN",
+        "PLASTIC",
+        "SLINKY",
+        "VELCRO"
+      ],
+      "board": [
+        "ICIKIS",
+        "TSNYNL",
+        "ALVENP",
+        "PCIMTE",
+        "RAVICN",
+        "OWEOII",
+        "OCVNLN",
+        "RLESLI"
       ]
     }
   ]
