@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T05:12:26.752Z",
+  "lastUpdated": "2026-08-15T04:01:22.962Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54282,6 +54282,53 @@
             "CITGO",
             "DELTA AIRLINES",
             "GOOGLE DRIVE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": 1161,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "EXHAUSTED",
+          "words": [
+            "BEAT",
+            "FRIED",
+            "SPENT",
+            "WORN OUT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SEGMENT",
+          "words": [
+            "LEG",
+            "PHASE",
+            "STAGE",
+            "STRETCH"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ENDING IN UNITS OF LENGTH",
+          "words": [
+            "CHAMOMILE",
+            "GRINCH",
+            "HOTFOOT",
+            "LANYARD"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN SYNONYMS FOR FOLLOW SECRETLY",
+          "words": [
+            "BEANSTALK",
+            "EYESHADOW",
+            "HIGHTAIL",
+            "SOUNDTRACK"
           ]
         }
       ]

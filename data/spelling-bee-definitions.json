@@ -32,6 +32,10 @@
     "definition": "Any of several South American palms, of the genus Euterpe, having a dark purple drupe.",
     "partOfSpeech": "noun"
   },
+  "accord": {
+    "definition": "Agreement or concurrence of opinion, will, or action.",
+    "partOfSpeech": "noun"
+  },
   "ache": {
     "definition": "Continued dull pain, as distinguished from sudden twinges, or spasmodic pain.",
     "partOfSpeech": "noun"
@@ -252,10 +256,15 @@
     "partOfSpeech": "noun"
   },
   "arcadia": null,
+  "arco": {
+    "definition": "A note in string instrument musical notation indicating that the bow is to be used in the usual way, usually following a passage that is played pizzicato.",
+    "partOfSpeech": "adverb"
+  },
   "arctic": {
     "definition": "A warm waterproof overshoe.",
     "partOfSpeech": "noun"
   },
+  "ardor": null,
   "arhat": {
     "definition": "One who has attained enlightenment; a Buddhist saint.",
     "partOfSpeech": "noun"
@@ -595,6 +604,8 @@
     "partOfSpeech": "noun"
   },
   "cardiac": null,
+  "cardio": null,
+  "cardioid": null,
   "cart": {
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
@@ -622,6 +633,10 @@
   },
   "cavity": {
     "definition": "A hole or hollow depression.",
+    "partOfSpeech": "noun"
+  },
+  "chador": {
+    "definition": "A loose robe, made from a single cloth, worn as a combination head covering, veil and shawl by Muslim women, especially in Iran.",
     "partOfSpeech": "noun"
   },
   "chalet": {
@@ -682,6 +697,11 @@
     "definition": "A food made from ground roasted cocoa beans.",
     "partOfSpeech": "noun"
   },
+  "choir": {
+    "definition": "Singing group; group of people who sing together; company of people who are trained to sing together.",
+    "partOfSpeech": "noun"
+  },
+  "chord": null,
   "ciao": {
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
@@ -770,6 +790,7 @@
     "definition": "Any approximately spherical bacterium.",
     "partOfSpeech": "noun"
   },
+  "cochair": null,
   "cochlea": {
     "definition": "The complex, spirally coiled, tapered cavity of the inner ear in which sound vibrations are converted into nerve impulses.",
     "partOfSpeech": "noun"
@@ -786,6 +807,7 @@
     "definition": "The silky protective case spun by the larvae of some insects in which they metamorphose, the pupa.",
     "partOfSpeech": "noun"
   },
+  "coda": null,
   "coffee": {
     "definition": "A beverage made by infusing the beans of the coffee plant in hot water.",
     "partOfSpeech": "noun"
@@ -806,6 +828,7 @@
     "definition": "Something wound in the form of a helix or spiral.",
     "partOfSpeech": "noun"
   },
+  "coir": null,
   "coital": null,
   "cola": {
     "definition": "The kola plant, genus Cola, famous for its nut, or one of these nuts.",
@@ -842,6 +865,15 @@
     "definition": "Any of various aquatic birds of the genus Fulica that are mainly black with a prominent frontal shield on the forehead.",
     "partOfSpeech": "noun"
   },
+  "cord": {
+    "definition": "A harmonic set of three or more notes that is heard as if sounding simultaneously.",
+    "partOfSpeech": "noun"
+  },
+  "corrida": null,
+  "corridor": {
+    "definition": "A narrow hall or passage with rooms leading off it, as in a building or in a railway carriage.",
+    "partOfSpeech": "noun"
+  },
   "crab": {
     "definition": "A crustacean of the infraorder Brachyura, having five pairs of legs, the foremost of which are in the form of claws, and a carapace.",
     "partOfSpeech": "noun"
@@ -857,6 +889,14 @@
   "crick": null,
   "critic": {
     "definition": "A person who appraises the works of others.",
+    "partOfSpeech": "noun"
+  },
+  "croc": {
+    "definition": "A crocodile.",
+    "partOfSpeech": "noun"
+  },
+  "croci": {
+    "definition": "A perennial flowering plant (of the genus Crocus in the Iridaceae family). Saffron is obtained from the stamens of Crocus sativus.",
     "partOfSpeech": "noun"
   },
   "cuff": {
@@ -1061,10 +1101,12 @@
     "definition": "(clothing) To put on, to dress in.",
     "partOfSpeech": "verb"
   },
+  "doodad": null,
   "door": {
     "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
     "partOfSpeech": "noun"
   },
+  "dorado": null,
   "dory": null,
   "doubt": {
     "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
@@ -1574,6 +1616,7 @@
     "definition": "A Hindu or Sikh spiritual teacher.",
     "partOfSpeech": "noun"
   },
+  "hairdo": null,
   "halal": {
     "definition": "To make halal.",
     "partOfSpeech": "verb"
@@ -1722,6 +1765,8 @@
     "definition": "A clue.",
     "partOfSpeech": "noun"
   },
+  "hoar": null,
+  "hoard": null,
   "hoary": {
     "definition": "White, whitish, or greyish-white.",
     "partOfSpeech": "adjective"
@@ -1769,9 +1814,22 @@
   "hoodoo": null,
   "hooey": null,
   "hooky": null,
+  "hoorah": null,
   "hooray": null,
   "hoot": {
     "definition": "A derisive cry or shout.",
+    "partOfSpeech": "noun"
+  },
+  "hora": {
+    "definition": "A circle dance popular in the Balkans, Israel and Yiddish culture worldwide.",
+    "partOfSpeech": "noun"
+  },
+  "horrid": {
+    "definition": "Bristling, rough, rugged.",
+    "partOfSpeech": "adjective"
+  },
+  "horror": {
+    "definition": "An intense distressing emotion of fear or repugnance.",
     "partOfSpeech": "noun"
   },
   "hotel": {
@@ -1794,6 +1852,7 @@
     "definition": "The act of hunting.",
     "partOfSpeech": "noun"
   },
+  "ichor": null,
   "idly": null,
   "idol": null,
   "idyl": null,
@@ -2802,6 +2861,12 @@
     "definition": "The best of its kind",
     "partOfSpeech": "noun"
   },
+  "orca": null,
+  "orchard": {
+    "definition": "A garden or an area of land for the cultivation of fruit or nut trees.",
+    "partOfSpeech": "noun"
+  },
+  "orchid": null,
   "ought": {
     "definition": "Property; possession",
     "partOfSpeech": "noun"
@@ -2922,7 +2987,12 @@
     "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces",
     "partOfSpeech": "noun"
   },
+  "radicchio": null,
   "radii": null,
+  "radio": {
+    "definition": "The technology that allows for the transmission of sound or other signals by modulation of electromagnetic waves.",
+    "partOfSpeech": "noun"
+  },
   "raga": {
     "definition": "Any of various melodic forms used in Indian classical music, or a piece of music composed in such a form.",
     "partOfSpeech": "noun"
@@ -2945,8 +3015,24 @@
     "partOfSpeech": "noun"
   },
   "rick": null,
+  "roach": {
+    "definition": "Certain members of the fish family Cyprinidae, including:",
+    "partOfSpeech": "noun"
+  },
+  "road": {
+    "definition": "A way used for travelling between places, originally one wide enough to allow foot passengers and horses to travel, now (US) usually one surfaced with asphalt or concrete and designed to accommodate many vehicles travelling in both directions. In the UK both senses are heard: a country road is the same as a country lane.",
+    "partOfSpeech": "noun"
+  },
+  "roar": {
+    "definition": "A long, loud, deep shout, as of rage or laughter, made with the mouth wide open.",
+    "partOfSpeech": "noun"
+  },
   "robot": {
     "definition": "A machine built to carry out some complex task or group of tasks by physically moving, especially one which can be programmed.",
+    "partOfSpeech": "noun"
+  },
+  "rococo": {
+    "definition": "A style of baroque architecture and decorative art, from 18th-century France, having elaborate ornamentation.",
     "partOfSpeech": "noun"
   },
   "rood": null,

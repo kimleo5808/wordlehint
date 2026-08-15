@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T05:12:27.218Z",
+  "lastUpdated": "2026-08-15T04:01:23.446Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22405,6 +22405,32 @@
         "OWEOII",
         "OCVNLN",
         "RLESLI"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "id": 895,
+      "editor": "Tracy Bennett",
+      "clue": "Sacred space",
+      "spangram": "INCHURCH",
+      "themeWords": [
+        "ALTAR",
+        "BIBLE",
+        "CANDLES",
+        "HYMNAL",
+        "LECTERN",
+        "PEWS",
+        "PULPIT"
+      ],
+      "board": [
+        "LBIBPU",
+        "EALTAL",
+        "SPHURP",
+        "WECRTI",
+        "INSECH",
+        "NELLDN",
+        "RCMYHA",
+        "ETNALC"
       ]
     }
   ]

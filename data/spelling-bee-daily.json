@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T05:12:27.771Z",
+  "lastUpdated": "2026-08-15T04:01:24.240Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61018,6 +61018,76 @@
         "tatami",
         "timid",
         "timing"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-15",
+      "id": 10241,
+      "centerLetter": "o",
+      "outerLetters": [
+        "a",
+        "c",
+        "d",
+        "h",
+        "i",
+        "r"
+      ],
+      "pangrams": [
+        "radicchio"
+      ],
+      "answers": [
+        "accord",
+        "achoo",
+        "arco",
+        "ardor",
+        "cacao",
+        "cardio",
+        "cardioid",
+        "chador",
+        "choir",
+        "chord",
+        "ciao",
+        "coach",
+        "coca",
+        "cocci",
+        "cochair",
+        "cocoa",
+        "coda",
+        "coho",
+        "coir",
+        "cord",
+        "corrida",
+        "corridor",
+        "croc",
+        "croci",
+        "dodo",
+        "doodad",
+        "door",
+        "dorado",
+        "droid",
+        "hairdo",
+        "hoar",
+        "hoard",
+        "hooch",
+        "hood",
+        "hoodoo",
+        "hoorah",
+        "hora",
+        "horrid",
+        "horror",
+        "ichor",
+        "odor",
+        "orca",
+        "orchard",
+        "orchid",
+        "radicchio",
+        "radio",
+        "roach",
+        "road",
+        "roar",
+        "rococo",
+        "rood"
       ],
       "editor": "Sam Ezersky"
     }

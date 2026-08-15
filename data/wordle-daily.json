@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T05:12:26.368Z",
+  "lastUpdated": "2026-08-15T04:01:22.474Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -1973,6 +1973,12 @@
       "date": "2026-08-14",
       "id": 1882,
       "answer": "GEODE",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-08-15",
+      "id": 1883,
+      "answer": "LOOSE",
       "editor": "Tracy Bennett"
     }
   ]
