@@ -394,6 +394,11 @@
     "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
     "partOfSpeech": "noun"
   },
+  "becloud": {
+    "definition": "To cause to become obscure or muddled.",
+    "partOfSpeech": "verb"
+  },
+  "beclouded": null,
   "bicarb": null,
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
@@ -404,6 +409,10 @@
     "partOfSpeech": "noun"
   },
   "birria": null,
+  "bloc": {
+    "definition": "A group of voters or politicians who share common goals.",
+    "partOfSpeech": "noun"
+  },
   "boar": {
     "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
     "partOfSpeech": "noun"
@@ -418,6 +427,10 @@
   },
   "boba": {
     "definition": "Short for boba tea.",
+    "partOfSpeech": "noun"
+  },
+  "bocce": {
+    "definition": "A game, similar to bowls or pétanque, played on a long, narrow, dirt-covered court",
     "partOfSpeech": "noun"
   },
   "boob": {
@@ -436,6 +449,7 @@
     "definition": "A heavy shoe that covers part of the leg.",
     "partOfSpeech": "noun"
   },
+  "boucle": null,
   "bout": {
     "definition": "A period of something, usually painful or unpleasant.",
     "partOfSpeech": "noun"
@@ -635,6 +649,25 @@
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
   },
+  "cede": {
+    "definition": "To give up; yield to another.",
+    "partOfSpeech": "verb"
+  },
+  "ceded": {
+    "definition": "To give up; yield to another.",
+    "partOfSpeech": "verb"
+  },
+  "celeb": {
+    "definition": "A celebrity; a famous person.",
+    "partOfSpeech": "noun"
+  },
+  "cell": null,
+  "celled": null,
+  "cello": {
+    "definition": "A large stringed instrument of the violin family with four strings, tuned from lowest to highest C-G-D-A, and played with a bow, also possessing an endpin to support the instrument's weight.",
+    "partOfSpeech": "noun"
+  },
+  "cellule": null,
   "chador": {
     "definition": "A loose robe, made from a single cloth, worn as a combination head covering, veil and shawl by Muslim women, especially in Iran.",
     "partOfSpeech": "noun"
@@ -746,6 +779,10 @@
     "definition": "A glass covering, originally bell-shaped, for garden plants to prevent frost damage and promote early growth.",
     "partOfSpeech": "noun"
   },
+  "clod": {
+    "definition": "A lump of something, especially of earth or clay.",
+    "partOfSpeech": "noun"
+  },
   "clonal": {
     "definition": "Relating to, or created by asexual reproduction (cloning)",
     "partOfSpeech": "adjective"
@@ -762,6 +799,24 @@
     "definition": "To adorn or cover with clothing; to dress; to supply clothes or clothing.",
     "partOfSpeech": "verb"
   },
+  "cloud": {
+    "definition": "A rock; boulder; a hill.",
+    "partOfSpeech": "noun"
+  },
+  "clouded": {
+    "definition": "To become foggy or gloomy, or obscured from sight.",
+    "partOfSpeech": "verb"
+  },
+  "club": {
+    "definition": "An association of members joining together for some common purpose, especially sports or recreation.",
+    "partOfSpeech": "noun"
+  },
+  "clubbed": null,
+  "clue": {
+    "definition": "A strand of yarn etc. as used to guide one through a labyrinth; something which points the way, a guide.",
+    "partOfSpeech": "noun"
+  },
+  "clued": null,
   "coach": {
     "definition": "A wheeled vehicle, generally drawn by horse power.",
     "partOfSpeech": "noun"
@@ -782,6 +837,11 @@
     "definition": "The flap at the back of a coat that hangs down, sometimes below the waist.",
     "partOfSpeech": "noun"
   },
+  "cobble": {
+    "definition": "A cobblestone.",
+    "partOfSpeech": "noun"
+  },
+  "cobbled": null,
   "coca": {
     "definition": "Any of the four cultivated plants which belong to the family Erythroxylaceae, native to western South America.",
     "partOfSpeech": "noun"
@@ -808,6 +868,26 @@
     "partOfSpeech": "noun"
   },
   "coda": null,
+  "coddle": {
+    "definition": "An Irish dish comprising layers of roughly sliced pork sausages and bacon rashers with sliced potatoes and onions.",
+    "partOfSpeech": "noun"
+  },
+  "coddled": {
+    "definition": "To treat gently or with great care.",
+    "partOfSpeech": "verb"
+  },
+  "code": {
+    "definition": "A short symbol, often with little relation to the item it represents.",
+    "partOfSpeech": "noun"
+  },
+  "coded": {
+    "definition": "To write software programs.",
+    "partOfSpeech": "verb"
+  },
+  "coed": {
+    "definition": "A young woman who attends college.",
+    "partOfSpeech": "noun"
+  },
   "coffee": {
     "definition": "A beverage made by infusing the beans of the coffee plant in hot water.",
     "partOfSpeech": "noun"
@@ -835,10 +915,19 @@
     "partOfSpeech": "noun"
   },
   "colcannon": null,
+  "cold": {
+    "definition": "(of a thing) Having a low temperature.",
+    "partOfSpeech": "adjective"
+  },
   "colic": {
     "definition": "Severe pains that grip the abdomen or the disease that causes such pains (due to intestinal or bowel-related problems).",
     "partOfSpeech": "noun"
   },
+  "collude": {
+    "definition": "To act in concert with; to conspire",
+    "partOfSpeech": "verb"
+  },
+  "colluded": null,
   "colon": null,
   "colony": {
     "definition": "A governmental unit created on land of another country owned by colonists from a country.",
@@ -857,9 +946,14 @@
     "definition": "To perplex or puzzle.",
     "partOfSpeech": "verb"
   },
+  "cooed": null,
   "cool": {
     "definition": "A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; coolness.",
     "partOfSpeech": "noun"
+  },
+  "cooled": {
+    "definition": "To lose heat, to get colder.",
+    "partOfSpeech": "verb"
   },
   "coot": {
     "definition": "Any of various aquatic birds of the genus Fulica that are mainly black with a prominent frontal shield on the forehead.",
@@ -872,6 +966,14 @@
   "corrida": null,
   "corridor": {
     "definition": "A narrow hall or passage with rooms leading off it, as in a building or in a railway carriage.",
+    "partOfSpeech": "noun"
+  },
+  "could": {
+    "definition": "(auxiliary verb, defective) To know how to; to be able to.",
+    "partOfSpeech": "verb"
+  },
+  "coulee": {
+    "definition": "A stream.",
     "partOfSpeech": "noun"
   },
   "crab": {
@@ -899,12 +1001,37 @@
     "definition": "A perennial flowering plant (of the genus Crocus in the Iridaceae family). Saffron is obtained from the stamens of Crocus sativus.",
     "partOfSpeech": "noun"
   },
+  "cube": {
+    "definition": "A regular polyhedron having six identical square faces.",
+    "partOfSpeech": "noun"
+  },
+  "cubed": {
+    "definition": "To raise to the third power; to determine the result of multiplying by itself twice.",
+    "partOfSpeech": "verb"
+  },
+  "cuddle": {
+    "definition": "A snuggle; an affectionate embrace, often given to family members and close friends.",
+    "partOfSpeech": "noun"
+  },
+  "cuddled": {
+    "definition": "To embrace affectionately, lie together snugly.",
+    "partOfSpeech": "verb"
+  },
+  "cued": null,
   "cuff": {
     "definition": "Glove; mitten",
     "partOfSpeech": "noun"
   },
   "cuffed": {
     "definition": "To furnish with cuffs.",
+    "partOfSpeech": "verb"
+  },
+  "cull": {
+    "definition": "A selection.",
+    "partOfSpeech": "noun"
+  },
+  "culled": {
+    "definition": "To pick or take someone or something (from a larger group).",
     "partOfSpeech": "verb"
   },
   "cyan": null,
@@ -963,6 +1090,23 @@
     "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
   },
+  "deco": {
+    "definition": "(underwater diving) Decompression.",
+    "partOfSpeech": "noun"
+  },
+  "decode": null,
+  "decoded": {
+    "definition": "To convert from an encrypted form to plain text.",
+    "partOfSpeech": "verb"
+  },
+  "deduce": {
+    "definition": "To reach a conclusion by applying rules of logic to given premises.",
+    "partOfSpeech": "verb"
+  },
+  "deduced": {
+    "definition": "To reach a conclusion by applying rules of logic to given premises.",
+    "partOfSpeech": "verb"
+  },
   "deeding": {
     "definition": "To transfer real property by deed.",
     "partOfSpeech": "verb"
@@ -1018,6 +1162,10 @@
   "depending": {
     "definition": "(followed by on or upon, formerly also by of) To be contingent or conditioned; to have something as a necessary condition; to hinge on.",
     "partOfSpeech": "verb"
+  },
+  "deuce": {
+    "definition": "A card with two pips, one of four in a standard deck of playing cards.",
+    "partOfSpeech": "noun"
   },
   "diacritic": null,
   "dicta": null,
@@ -1186,6 +1334,14 @@
   },
   "edging": {
     "definition": "To move an object slowly and carefully in a particular direction.",
+    "partOfSpeech": "verb"
+  },
+  "educe": {
+    "definition": "An inference.",
+    "partOfSpeech": "noun"
+  },
+  "educed": {
+    "definition": "To direct the course of (a flow, journey etc.); to lead in a particular direction.",
     "partOfSpeech": "verb"
   },
   "egged": {
@@ -2797,6 +2953,14 @@
   "oath": {
     "definition": "A solemn pledge or promise, appealing to a deity, a ruler, or another entity (not necessarily present) to attest to the truth of a statement or sincerity of one's desire to fulfill a contract or promise.",
     "partOfSpeech": "noun"
+  },
+  "occlude": {
+    "definition": "To obstruct, cover, or otherwise block (an opening, a portion of an image, etc.).",
+    "partOfSpeech": "verb"
+  },
+  "occluded": {
+    "definition": "To obstruct, cover, or otherwise block (an opening, a portion of an image, etc.).",
+    "partOfSpeech": "verb"
   },
   "octal": {
     "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",

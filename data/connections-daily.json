@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T04:01:22.962Z",
+  "lastUpdated": "2026-08-16T04:06:02.984Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54329,6 +54329,53 @@
             "EYESHADOW",
             "HIGHTAIL",
             "SOUNDTRACK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "id": 1162,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "MUSICAL PERFORMANCE",
+          "words": [
+            "CONCERT",
+            "GIG",
+            "SET",
+            "SHOW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTICIPANT",
+          "words": [
+            "ACTOR",
+            "AGENT",
+            "PARTY",
+            "PLAYER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FAMILY RELATIONSHIP MODIFIERS",
+          "words": [
+            "GRAND",
+            "GREAT",
+            "HALF",
+            "STEP"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "DESCRIPTORS FOR OUR HUMAN ANCESTORS",
+          "words": [
+            "FROM NEANDER",
+            "HANDY",
+            "UPRIGHT",
+            "WISE"
           ]
         }
       ]
