@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T04:06:02.984Z",
+  "lastUpdated": "2026-08-17T04:09:27.666Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54376,6 +54376,53 @@
             "HANDY",
             "UPRIGHT",
             "WISE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": 1163,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "VIDEO CALL PLATFORMS",
+          "words": [
+            "HUDDLE",
+            "MEET",
+            "TEAMS",
+            "ZOOM"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SPREADSHEET FEATURES",
+          "words": [
+            "FORMULA",
+            "FUNCTION",
+            "MACRO",
+            "SCRIPT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FIRST NAMES OF COUNTRY MUSIC LEGENDS",
+          "words": [
+            "DOLLY",
+            "JOHNNY",
+            "PATSY",
+            "WILLIE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH PETS",
+          "words": [
+            "BIRDIE",
+            "CATTLE",
+            "DOGIE",
+            "FISHEYE"
           ]
         }
       ]

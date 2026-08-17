@@ -1224,6 +1224,10 @@
     "definition": "Soil or earth.",
     "partOfSpeech": "noun"
   },
+  "dodgy": {
+    "definition": "Evasive and shifty",
+    "partOfSpeech": "adjective"
+  },
   "dodo": null,
   "doff": {
     "definition": "(clothing) To remove or take off, especially of clothing.",
@@ -1233,6 +1237,11 @@
     "definition": "(clothing) To remove or take off, especially of clothing.",
     "partOfSpeech": "verb"
   },
+  "doggo": {
+    "definition": "A dog.",
+    "partOfSpeech": "noun"
+  },
+  "doggy": null,
   "doily": null,
   "doll": {
     "definition": "A toy in the form of a human.",
@@ -1254,6 +1263,7 @@
     "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
     "partOfSpeech": "noun"
   },
+  "dopy": null,
   "dorado": null,
   "dory": null,
   "doubt": {
@@ -1299,6 +1309,12 @@
     "partOfSpeech": "noun"
   },
   "drooly": null,
+  "droop": null,
+  "droopy": null,
+  "drop": {
+    "definition": "A small quantity of liquid, just large enough to hold its own round shape via surface tension, especially one that falls from a source of liquid.",
+    "partOfSpeech": "noun"
+  },
   "drub": {
     "definition": "Carbonaceous shale; small coal; slate, dross, or rubbish in coal.",
     "partOfSpeech": "noun"
@@ -1731,9 +1747,27 @@
     "definition": "A result that one is attempting to achieve.",
     "partOfSpeech": "noun"
   },
+  "good": {
+    "definition": "(of people)",
+    "partOfSpeech": "adjective"
+  },
+  "goody": {
+    "definition": "A good character in a story, often a hero.",
+    "partOfSpeech": "noun"
+  },
   "googol": {
     "definition": "The number 10^{100}, or ten to the power of a hundred.",
     "partOfSpeech": "numeral"
+  },
+  "goop": null,
+  "goopy": null,
+  "gorp": {
+    "definition": "A loose mixture of dried fruit, nuts, frequently salt, and sometimes other ingredients; designed as an energy supplement for use while hiking, climbing, canoeing, etc.",
+    "partOfSpeech": "noun"
+  },
+  "gory": {
+    "definition": "Covered with blood, very bloody",
+    "partOfSpeech": "adjective"
   },
   "goth": {
     "definition": "A punk-derived subculture of people who predominantly dress in black, associated with mournful music and attitudes.",
@@ -1748,10 +1782,15 @@
     "definition": "A system of rules and principles for speaking and writing a language.",
     "partOfSpeech": "noun"
   },
+  "grody": {
+    "definition": "Nasty, dirty, disgusting, foul, revolting, yucky, grotesque.",
+    "partOfSpeech": "adjective"
+  },
   "grog": {
     "definition": "(original meaning) An alcoholic beverage made with rum and water, especially that once issued to sailors of the Royal Navy.",
     "partOfSpeech": "noun"
   },
+  "groggy": null,
   "groom": {
     "definition": "A man who is about to marry.",
     "partOfSpeech": "noun"
@@ -1772,6 +1811,7 @@
     "definition": "A Hindu or Sikh spiritual teacher.",
     "partOfSpeech": "noun"
   },
+  "gyro": null,
   "hairdo": null,
   "halal": {
     "definition": "To make halal.",
@@ -3017,6 +3057,10 @@
     "definition": "An only child.",
     "partOfSpeech": "noun"
   },
+  "opioid": {
+    "definition": "A substance that has effects similar to opium.",
+    "partOfSpeech": "noun"
+  },
   "optima": {
     "definition": "The best or most favorable condition, or the greatest amount or degree possible under specific sets of comparable circumstances.",
     "partOfSpeech": "noun"
@@ -3031,6 +3075,7 @@
     "partOfSpeech": "noun"
   },
   "orchid": null,
+  "orgy": null,
   "ought": {
     "definition": "Property; possession",
     "partOfSpeech": "noun"
@@ -3129,8 +3174,48 @@
     "definition": "To play (music) on a pipe instrument, such as a bagpipe or a flute.",
     "partOfSpeech": "verb"
   },
+  "pogo": {
+    "definition": "A dance associated with the 1970s punk rock movement in which participants jump up and down on the spot in the manner of someone riding a pogo stick.",
+    "partOfSpeech": "noun"
+  },
   "pomp": null,
   "pompom": null,
+  "poop": {
+    "definition": "Fecal matter, feces.",
+    "partOfSpeech": "noun"
+  },
+  "poor": {
+    "definition": "(with \"the\") Those who have little or no possessions or money, taken as a group.",
+    "partOfSpeech": "noun"
+  },
+  "poppy": {
+    "definition": "Any plant of the genus Papaver or the family Papaveraceae, with crumpled, often red, petals and a milky juice having narcotic properties; especially the common poppy or corn poppy (Papaver rhoeas) which has orange-red flowers; the flower of such a plant.",
+    "partOfSpeech": "noun"
+  },
+  "prior": {
+    "definition": "A high-ranking member of a monastery, usually lower in rank than an abbot.",
+    "partOfSpeech": "noun"
+  },
+  "priory": {
+    "definition": "A monastery or convent governed by a prior or prioress.",
+    "partOfSpeech": "noun"
+  },
+  "prod": {
+    "definition": "A device (now often electrical) used to goad livestock into moving.",
+    "partOfSpeech": "noun"
+  },
+  "prodigy": {
+    "definition": "An extraordinary thing seen as an omen; a portent.",
+    "partOfSpeech": "noun"
+  },
+  "prop": {
+    "definition": "An object placed against or under another, to support it; anything that supports.",
+    "partOfSpeech": "noun"
+  },
+  "pyro": {
+    "definition": "A pyromaniac",
+    "partOfSpeech": "noun"
+  },
   "rabbi": {
     "definition": "A Jewish scholar or teacher of halacha (Jewish law), capable of making halachic decisions.",
     "partOfSpeech": "noun"
@@ -3179,6 +3264,10 @@
     "partOfSpeech": "noun"
   },
   "rick": null,
+  "rigor": {
+    "definition": "Short for rigor mortis.",
+    "partOfSpeech": "noun"
+  },
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",
     "partOfSpeech": "noun"
@@ -3200,6 +3289,7 @@
     "partOfSpeech": "noun"
   },
   "rood": null,
+  "ropy": null,
   "tabard": {
     "definition": "A silk banner attached to a bugle or trumpet.",
     "partOfSpeech": "noun"
@@ -3723,6 +3813,7 @@
     "definition": "An unidentified humanoid animal said to live in the Himalayas",
     "partOfSpeech": "noun"
   },
+  "yogi": null,
   "yond": {
     "definition": "Further; more distant",
     "partOfSpeech": "adjective"

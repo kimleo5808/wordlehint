@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T04:06:03.468Z",
+  "lastUpdated": "2026-08-17T04:09:28.311Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22455,6 +22455,32 @@
         "ESRAIN",
         "DITMTE",
         "JOBENE"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "id": 897,
+      "editor": "Tracy Bennett",
+      "clue": "On a bender",
+      "spangram": "BODYJOINTS",
+      "themeWords": [
+        "ANKLE",
+        "ELBOW",
+        "KNEE",
+        "KNUCKLE",
+        "NECK",
+        "SHOULDER",
+        "WRIST"
+      ],
+      "board": [
+        "BODBOW",
+        "NEYLNK",
+        "TCJEAL",
+        "SKOINE",
+        "IRWRTS",
+        "ENKEKN",
+        "LULDSE",
+        "KCUOHE"
       ]
     }
   ]
