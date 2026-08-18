@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T04:09:27.666Z",
+  "lastUpdated": "2026-08-18T04:04:15.541Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54423,6 +54423,53 @@
             "CATTLE",
             "DOGIE",
             "FISHEYE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "id": 1164,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SEEN AT A MOVIE PREMIERE",
+          "words": [
+            "LIMOUSINE",
+            "PAPARAZZI",
+            "RED CARPET",
+            "VELVET ROPE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PJS",
+          "words": [
+            "PETROLEUM JELLY",
+            "POETIC JUSTICE",
+            "PRACTICAL JOKE",
+            "PRIVATE JET"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS THAT ARE ORANGE",
+          "words": [
+            "BASKETBALL",
+            "ORANGUTAN",
+            "SWEET POTATO",
+            "TRAFFIC CONE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT ARE GRITTY",
+          "words": [
+            "COWBOY COFFEE",
+            "FILM NOIR",
+            "FLYERS MASCOT",
+            "SANDPAPER"
           ]
         }
       ]

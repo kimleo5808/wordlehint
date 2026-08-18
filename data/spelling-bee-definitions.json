@@ -3,6 +3,10 @@
     "definition": "The superior or head of an abbey or monastery.",
     "partOfSpeech": "noun"
   },
+  "abed": {
+    "definition": "In bed, or on the bed; confined to bed.",
+    "partOfSpeech": "adverb"
+  },
   "aboard": {
     "definition": "On board; into or within a ship or boat; hence, into or within a railway car.",
     "partOfSpeech": "adverb"
@@ -348,8 +352,16 @@
     "definition": "To operate an aircraft.",
     "partOfSpeech": "verb"
   },
+  "baaed": {
+    "definition": "To make the characteristic cry of a sheep.",
+    "partOfSpeech": "verb"
+  },
   "baba": {
     "definition": "A kind of sponge cake soaked in rum-flavoured syrup.",
+    "partOfSpeech": "noun"
+  },
+  "babe": {
+    "definition": "A baby or infant; a very young human or animal.",
     "partOfSpeech": "noun"
   },
   "baccarat": {
@@ -360,9 +372,70 @@
     "definition": "The act of backtracking",
     "partOfSpeech": "noun"
   },
+  "bade": null,
+  "badge": {
+    "definition": "A distinctive mark, token, sign, emblem or cognizance, worn on one's clothing, as an insignia of some rank, or of the membership of an organization.",
+    "partOfSpeech": "noun"
+  },
+  "badged": {
+    "definition": "To mark or distinguish with a badge.",
+    "partOfSpeech": "verb"
+  },
+  "baggage": {
+    "definition": "(usually uncountable) Luggage; traveling equipment",
+    "partOfSpeech": "noun"
+  },
+  "bagged": {
+    "definition": "To put into a bag.",
+    "partOfSpeech": "verb"
+  },
   "bailiff": {
     "definition": "(law enforcement) An officer of the court, particularly:",
     "partOfSpeech": "noun"
+  },
+  "banana": {
+    "definition": "An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.",
+    "partOfSpeech": "noun"
+  },
+  "band": {
+    "definition": "A strip of material used for strengthening or coupling.",
+    "partOfSpeech": "noun"
+  },
+  "bandage": {
+    "definition": "A strip of gauze or similar material used to protect or support a wound or injury.",
+    "partOfSpeech": "noun"
+  },
+  "bandaged": {
+    "definition": "To apply a bandage to something.",
+    "partOfSpeech": "verb"
+  },
+  "bandana": {
+    "definition": "A large kerchief, usually colourful and used either as headgear or as a handkerchief, neckerchief, bikini, or sweatband.",
+    "partOfSpeech": "noun"
+  },
+  "bandanna": {
+    "definition": "A large kerchief, usually colourful and used either as headgear or as a handkerchief, neckerchief, bikini, or sweatband.",
+    "partOfSpeech": "noun"
+  },
+  "banded": {
+    "definition": "To fasten with a band.",
+    "partOfSpeech": "verb"
+  },
+  "bane": {
+    "definition": "A cause of misery or death.",
+    "partOfSpeech": "noun"
+  },
+  "bang": {
+    "definition": "A sudden percussive noise.",
+    "partOfSpeech": "noun"
+  },
+  "banged": {
+    "definition": "To make sudden loud noises, and often repeatedly, especially by exploding or hitting something.",
+    "partOfSpeech": "verb"
+  },
+  "banned": {
+    "definition": "To summon; to call out.",
+    "partOfSpeech": "verb"
   },
   "baobab": {
     "definition": "A tree, Adansonia digitata (and similar species), native to tropical Africa, having a broad swollen trunk and edible gourd-like hanging fruits.",
@@ -394,11 +467,54 @@
     "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
     "partOfSpeech": "noun"
   },
+  "bead": {
+    "definition": "Prayer, later especially with a rosary.",
+    "partOfSpeech": "noun"
+  },
+  "beaded": {
+    "definition": "To form into a bead.",
+    "partOfSpeech": "verb"
+  },
+  "bean": {
+    "definition": "A reusable software component written in Java.",
+    "partOfSpeech": "noun"
+  },
+  "beanbag": {
+    "definition": "A piece of soft furniture consisting of a leather or vinyl covering stuffed with dry beans or other similar pellets.",
+    "partOfSpeech": "noun"
+  },
+  "beaned": null,
   "becloud": {
     "definition": "To cause to become obscure or muddled.",
     "partOfSpeech": "verb"
   },
   "beclouded": null,
+  "bedded": null,
+  "bedhead": null,
+  "been": {
+    "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
+    "partOfSpeech": "noun"
+  },
+  "began": {
+    "definition": "To start, to initiate or take the first step into something.",
+    "partOfSpeech": "verb"
+  },
+  "begged": {
+    "definition": "To request the help of someone, often in the form of money.",
+    "partOfSpeech": "verb"
+  },
+  "behead": {
+    "definition": "To remove the head of; to cut someone's head off.",
+    "partOfSpeech": "verb"
+  },
+  "beheaded": {
+    "definition": "To remove the head of; to cut someone's head off.",
+    "partOfSpeech": "verb"
+  },
+  "bend": {
+    "definition": "A curve.",
+    "partOfSpeech": "noun"
+  },
   "bicarb": null,
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
@@ -1039,6 +1155,10 @@
     "definition": "A person who believes that all people are motivated by selfishness.",
     "partOfSpeech": "noun"
   },
+  "dabbed": {
+    "definition": "To press lightly in a repetitive motion with a soft object without rubbing.",
+    "partOfSpeech": "verb"
+  },
   "damaging": null,
   "damming": null,
   "dammit": {
@@ -1333,6 +1453,10 @@
   },
   "eaten": {
     "definition": "To ingest; to be ingested.",
+    "partOfSpeech": "verb"
+  },
+  "ebbed": {
+    "definition": "To flow back or recede",
     "partOfSpeech": "verb"
   },
   "echo": {
@@ -1636,6 +1760,7 @@
     "definition": "To pay for.",
     "partOfSpeech": "verb"
   },
+  "gabbed": null,
   "gaga": {
     "definition": "Mentally senile.",
     "partOfSpeech": "adjective"
@@ -1841,6 +1966,10 @@
     "definition": "The part of the forelimb below the forearm or wrist in a human, and the corresponding part in many other animals.",
     "partOfSpeech": "noun"
   },
+  "handbag": {
+    "definition": "(mainly Commonwealth) A small bag used by women (or sometimes by men) for carrying various small personal items.",
+    "partOfSpeech": "noun"
+  },
   "handed": {
     "definition": "To give, pass, or transmit with the hand, literally or figuratively.",
     "partOfSpeech": "verb"
@@ -1898,6 +2027,12 @@
     "definition": "A tool used for moving hay; a pitchfork.",
     "partOfSpeech": "noun"
   },
+  "headband": {
+    "definition": "A strip of fabric worn around the head.",
+    "partOfSpeech": "noun"
+  },
+  "headbang": null,
+  "headbanged": null,
   "headland": null,
   "heal": {
     "definition": "A spell or ability that restores hit points or removes a status ailment.",
@@ -1934,6 +2069,10 @@
   },
   "hello": {
     "definition": "\"Hello!\" or an equivalent greeting.",
+    "partOfSpeech": "noun"
+  },
+  "henbane": {
+    "definition": "A poisonous plant, Hyoscyamus niger, used sometimes as a drug that causes at least hallucinations, dilated pupils, restlessness, and flushed skin.",
     "partOfSpeech": "noun"
   },
   "hence": {
@@ -2832,6 +2971,7 @@
     "definition": "A type of round, flat bread baked in a tandoor popular in South and Central Asian cuisine.",
     "partOfSpeech": "noun"
   },
+  "nabbed": null,
   "nacelle": {
     "definition": "A separate streamlined enclosure mounted on an aircraft to house an engine, cargo, or crew.",
     "partOfSpeech": "noun"

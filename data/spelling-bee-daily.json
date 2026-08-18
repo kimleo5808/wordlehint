@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T04:09:29.173Z",
+  "lastUpdated": "2026-08-18T04:04:16.415Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61217,6 +61217,68 @@
         "rood",
         "ropy",
         "yogi"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-18",
+      "id": 19513,
+      "centerLetter": "b",
+      "outerLetters": [
+        "a",
+        "d",
+        "e",
+        "g",
+        "h",
+        "n"
+      ],
+      "pangrams": [
+        "headbang",
+        "headbanged"
+      ],
+      "answers": [
+        "abed",
+        "baaed",
+        "baba",
+        "babe",
+        "bade",
+        "badge",
+        "badged",
+        "baggage",
+        "bagged",
+        "banana",
+        "band",
+        "bandage",
+        "bandaged",
+        "bandana",
+        "bandanna",
+        "banded",
+        "bane",
+        "bang",
+        "banged",
+        "banned",
+        "bead",
+        "beaded",
+        "bean",
+        "beanbag",
+        "beaned",
+        "bedded",
+        "bedhead",
+        "been",
+        "began",
+        "begged",
+        "behead",
+        "beheaded",
+        "bend",
+        "dabbed",
+        "ebbed",
+        "gabbed",
+        "handbag",
+        "headband",
+        "headbang",
+        "headbanged",
+        "henbane",
+        "nabbed"
       ],
       "editor": "Sam Ezersky"
     }
