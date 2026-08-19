@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T04:04:16.415Z",
+  "lastUpdated": "2026-08-19T04:05:10.228Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61279,6 +61279,66 @@
         "headbanged",
         "henbane",
         "nabbed"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-19",
+      "id": 27767,
+      "centerLetter": "v",
+      "outerLetters": [
+        "e",
+        "l",
+        "n",
+        "o",
+        "p",
+        "r"
+      ],
+      "pangrams": [
+        "provolone"
+      ],
+      "answers": [
+        "eleven",
+        "elver",
+        "envelop",
+        "envelope",
+        "even",
+        "evener",
+        "ever",
+        "evolve",
+        "levee",
+        "level",
+        "leveler",
+        "lever",
+        "love",
+        "lovelorn",
+        "lover",
+        "nerve",
+        "never",
+        "novel",
+        "oven",
+        "over",
+        "peeve",
+        "plover",
+        "popover",
+        "prove",
+        "proven",
+        "provolone",
+        "reeve",
+        "reprove",
+        "revel",
+        "reveler",
+        "revere",
+        "revolve",
+        "revolver",
+        "rollover",
+        "rove",
+        "rover",
+        "veep",
+        "veer",
+        "veneer",
+        "verve",
+        "vole"
       ],
       "editor": "Sam Ezersky"
     }

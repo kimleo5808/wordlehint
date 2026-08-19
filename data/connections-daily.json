@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T04:04:15.541Z",
+  "lastUpdated": "2026-08-19T04:05:09.045Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54470,6 +54470,53 @@
             "FILM NOIR",
             "FLYERS MASCOT",
             "SANDPAPER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": 1165,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PIECE OF CAKE",
+          "words": [
+            "BREEZE",
+            "CINCH",
+            "PICNIC",
+            "SNAP"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CONCEAL",
+          "words": [
+            "BLANKET",
+            "HIDE",
+            "MASK",
+            "OBSCURE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "WORDS BEFORE \"BALL\" IN SPORT NAMES",
+          "words": [
+            "BASE",
+            "BASKET",
+            "FOOT",
+            "PICKLE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOMOPHONES OF CGI-ANIMATED FILMS",
+          "words": [
+            "ANTS",
+            "COCOA",
+            "RHEO",
+            "SEOUL"
           ]
         }
       ]

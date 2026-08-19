@@ -1523,6 +1523,14 @@
     "partOfSpeech": "noun"
   },
   "elementally": null,
+  "eleven": {
+    "definition": "A cricket team of eleven players. Hence first eleven - the team of best cricket players (at a school), second eleven - the \"B\" team, etc.",
+    "partOfSpeech": "noun"
+  },
+  "elver": {
+    "definition": "A young eel.",
+    "partOfSpeech": "noun"
+  },
   "emanate": {
     "definition": "To come from a source; issue from.",
     "partOfSpeech": "verb"
@@ -1592,9 +1600,26 @@
     "partOfSpeech": "adverb"
   },
   "entente": null,
+  "envelop": {
+    "definition": "To surround or enclose.",
+    "partOfSpeech": "verb"
+  },
+  "envelope": {
+    "definition": "A paper or cardboard wrapper used to enclose small, flat items, especially letters, for mailing.",
+    "partOfSpeech": "noun"
+  },
   "etch": {
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
+  },
+  "even": {
+    "definition": "(diminutive) An even number.",
+    "partOfSpeech": "noun"
+  },
+  "evener": null,
+  "ever": {
+    "definition": "Occurring at any time, occurring even but once during a timespan.",
+    "partOfSpeech": "adjective"
   },
   "evoke": {
     "definition": "To call out; to draw out or bring forth.",
@@ -1602,6 +1627,10 @@
   },
   "evoking": {
     "definition": "To call out; to draw out or bring forth.",
+    "partOfSpeech": "verb"
+  },
+  "evolve": {
+    "definition": "To move in regular procession through a system.",
     "partOfSpeech": "verb"
   },
   "expending": {
@@ -2501,6 +2530,22 @@
     "definition": "Any weapon that causes death.",
     "partOfSpeech": "noun"
   },
+  "levee": {
+    "definition": "An embankment to prevent inundation; as, the levees along the Mississippi.",
+    "partOfSpeech": "noun"
+  },
+  "level": {
+    "definition": "A tool for finding whether a surface is level, or for creating a horizontal or vertical line of reference.",
+    "partOfSpeech": "noun"
+  },
+  "leveler": {
+    "definition": "The same height at all places; parallel to a flat ground.",
+    "partOfSpeech": "adjective"
+  },
+  "lever": {
+    "definition": "(except in generalized senses below) A crowbar.",
+    "partOfSpeech": "noun"
+  },
   "lilt": {
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
     "partOfSpeech": "noun"
@@ -2626,6 +2671,18 @@
   },
   "lotto": {
     "definition": "A game of chance similar to bingo",
+    "partOfSpeech": "noun"
+  },
+  "love": {
+    "definition": "Strong affection.",
+    "partOfSpeech": "noun"
+  },
+  "lovelorn": {
+    "definition": "A person who is lovelorn.",
+    "partOfSpeech": "noun"
+  },
+  "lover": {
+    "definition": "One who loves and cares for another person in a romantic way; a sweetheart, love, soulmate, boyfriend, girlfriend or spouse.",
     "partOfSpeech": "noun"
   },
   "madam": {
@@ -3064,6 +3121,10 @@
     "partOfSpeech": "noun"
   },
   "neon": null,
+  "nerve": {
+    "definition": "A bundle of neurons with their connective tissue sheaths, blood vessels and lymphatics.",
+    "partOfSpeech": "noun"
+  },
   "nettle": {
     "definition": "Any plant whose foliage is covered with stinging, mildly poisonous hairs, causing an instant rash.",
     "partOfSpeech": "noun"
@@ -3071,6 +3132,10 @@
   "netty": {
     "definition": "Neat, well-groomed, natty.",
     "partOfSpeech": "adjective"
+  },
+  "never": {
+    "definition": "At no time; on no occasion; in no circumstance.",
+    "partOfSpeech": "adverb"
   },
   "niacin": {
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
@@ -3124,6 +3189,10 @@
   "nought": {
     "definition": "Nothing; something which does not exist.",
     "partOfSpeech": "noun"
+  },
+  "novel": {
+    "definition": "Newly made, formed or evolved; having no precedent; of recent origin; new.",
+    "partOfSpeech": "adjective"
   },
   "nylon": {
     "definition": "Originally, the DuPont company trade name for polyamide, a copolymer whose molecules consist of alternating diamine and dicarboxylic acid monomers bonded together; now generically used for this type of polymer.",
@@ -3228,6 +3297,14 @@
     "definition": "To best an opponent by thinking.",
     "partOfSpeech": "verb"
   },
+  "oven": {
+    "definition": "A chamber used for baking or heating.",
+    "partOfSpeech": "noun"
+  },
+  "over": {
+    "definition": "A set of six legal balls bowled.",
+    "partOfSpeech": "noun"
+  },
   "owed": {
     "definition": "To be under an obligation to give something back to someone or to perform some action for someone.",
     "partOfSpeech": "verb"
@@ -3249,6 +3326,10 @@
   "peeping": {
     "definition": "To make a soft, shrill noise like a baby bird.",
     "partOfSpeech": "verb"
+  },
+  "peeve": {
+    "definition": "An annoyance or grievance.",
+    "partOfSpeech": "noun"
   },
   "pegged": {
     "definition": "To fasten using a peg.",
@@ -3314,6 +3395,10 @@
     "definition": "To play (music) on a pipe instrument, such as a bagpipe or a flute.",
     "partOfSpeech": "verb"
   },
+  "plover": {
+    "definition": "Any of various wading birds of the family Charadriidae.",
+    "partOfSpeech": "noun"
+  },
   "pogo": {
     "definition": "A dance associated with the 1970s punk rock movement in which participants jump up and down on the spot in the manner of someone riding a pogo stick.",
     "partOfSpeech": "noun"
@@ -3328,6 +3413,7 @@
     "definition": "(with \"the\") Those who have little or no possessions or money, taken as a group.",
     "partOfSpeech": "noun"
   },
+  "popover": null,
   "poppy": {
     "definition": "Any plant of the genus Papaver or the family Papaveraceae, with crumpled, often red, petals and a milky juice having narcotic properties; especially the common poppy or corn poppy (Papaver rhoeas) which has orange-red flowers; the flower of such a plant.",
     "partOfSpeech": "noun"
@@ -3350,6 +3436,18 @@
   },
   "prop": {
     "definition": "An object placed against or under another, to support it; anything that supports.",
+    "partOfSpeech": "noun"
+  },
+  "prove": {
+    "definition": "To proofread.",
+    "partOfSpeech": "verb"
+  },
+  "proven": {
+    "definition": "To proofread.",
+    "partOfSpeech": "verb"
+  },
+  "provolone": {
+    "definition": "A semi-hard cheese made of whole milk from cows. It comes primarily from Southern Italy.",
     "partOfSpeech": "noun"
   },
   "pyro": {
@@ -3399,6 +3497,28 @@
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
   },
+  "reeve": null,
+  "reprove": {
+    "definition": "To express disapproval.",
+    "partOfSpeech": "verb"
+  },
+  "revel": {
+    "definition": "An instance of merrymaking; a celebration.",
+    "partOfSpeech": "noun"
+  },
+  "reveler": null,
+  "revere": {
+    "definition": "A revers",
+    "partOfSpeech": "noun"
+  },
+  "revolve": {
+    "definition": "The rotation of part of the scenery within a theatrical production.",
+    "partOfSpeech": "noun"
+  },
+  "revolver": {
+    "definition": "A handgun with a revolving chamber enabling several shots to be fired without reloading.",
+    "partOfSpeech": "noun"
+  },
   "ribbit": {
     "definition": "The vocal sound made by a frog or toad.",
     "partOfSpeech": "noun"
@@ -3428,8 +3548,14 @@
     "definition": "A style of baroque architecture and decorative art, from 18th-century France, having elaborate ornamentation.",
     "partOfSpeech": "noun"
   },
+  "rollover": null,
   "rood": null,
   "ropy": null,
+  "rove": null,
+  "rover": {
+    "definition": "(usually in the plural) A randomly selected target.",
+    "partOfSpeech": "noun"
+  },
   "tabard": {
     "definition": "A silk banner attached to a bugle or trumpet.",
     "partOfSpeech": "noun"
@@ -3840,12 +3966,28 @@
     "definition": "That which is vain, futile, or worthless; that which is of no value, use or profit.",
     "partOfSpeech": "noun"
   },
+  "veep": {
+    "definition": "(US politics) The Vice President of the United States; the office of Vice President of the United States, especially during an election cycle where several are in the running for the nomination.",
+    "partOfSpeech": "noun"
+  },
+  "veer": {
+    "definition": "To let out (a sail-line), to allow (a sheet) to run out.",
+    "partOfSpeech": "verb"
+  },
   "vellum": {
     "definition": "A type of parchment paper made from the skin of a lamb, baby goat, or calf.",
     "partOfSpeech": "noun"
   },
   "velum": {
     "definition": "A thin membrane, resembling a veil, such as:",
+    "partOfSpeech": "noun"
+  },
+  "veneer": {
+    "definition": "A thin decorative covering of fine material (usually wood) applied to coarser wood or other material.",
+    "partOfSpeech": "noun"
+  },
+  "verve": {
+    "definition": "Excitement of imagination such as that which animates a poet, artist, or musician, in composing or performing",
     "partOfSpeech": "noun"
   },
   "vial": {
@@ -3887,6 +4029,10 @@
   },
   "vivacity": {
     "definition": "The quality or state of being vivacious.",
+    "partOfSpeech": "noun"
+  },
+  "vole": {
+    "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",
     "partOfSpeech": "noun"
   },
   "weight": {

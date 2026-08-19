@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T04:04:15.913Z",
+  "lastUpdated": "2026-08-19T04:05:09.529Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22506,6 +22506,31 @@
         "EATOVI",
         "KBAOEC",
         "LINHED"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "id": 899,
+      "editor": "Tracy Bennett",
+      "clue": "For better or wurst",
+      "spangram": "TOPDOGS",
+      "themeWords": [
+        "CHEESE",
+        "KETCHUP",
+        "MUSTARD",
+        "ONION",
+        "RELISH",
+        "SAUERKRAUT"
+      ],
+      "board": [
+        "RDOIHS",
+        "SANNLI",
+        "UTPOER",
+        "MKUHCT",
+        "SGETPO",
+        "KRODSE",
+        "RAEUEE",
+        "UTSAHC"
       ]
     }
   ]
