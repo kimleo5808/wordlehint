@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T04:05:10.228Z",
+  "lastUpdated": "2026-08-20T04:05:23.036Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61339,6 +61339,72 @@
         "veneer",
         "verve",
         "vole"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-20",
+      "id": 9545,
+      "centerLetter": "t",
+      "outerLetters": [
+        "g",
+        "i",
+        "n",
+        "o",
+        "q",
+        "u"
+      ],
+      "pangrams": [
+        "quoting"
+      ],
+      "answers": [
+        "gout",
+        "gutting",
+        "igniting",
+        "ignition",
+        "ingot",
+        "into",
+        "intoning",
+        "intuit",
+        "intuiting",
+        "intuition",
+        "noting",
+        "notion",
+        "onto",
+        "outgo",
+        "outgoing",
+        "outgun",
+        "outgunning",
+        "outing",
+        "quint",
+        "quit",
+        "quitting",
+        "quoting",
+        "tinging",
+        "tinning",
+        "tint",
+        "tinting",
+        "togging",
+        "tong",
+        "tonging",
+        "tonguing",
+        "toning",
+        "toon",
+        "toot",
+        "tooting",
+        "toting",
+        "tout",
+        "touting",
+        "tugging",
+        "tuition",
+        "tuning",
+        "tutti",
+        "tutting",
+        "tutu",
+        "unit",
+        "uniting",
+        "unto",
+        "untuning"
       ],
       "editor": "Sam Ezersky"
     }

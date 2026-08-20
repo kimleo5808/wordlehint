@@ -1927,6 +1927,10 @@
     "definition": "A punk-derived subculture of people who predominantly dress in black, associated with mournful music and attitudes.",
     "partOfSpeech": "noun"
   },
+  "gout": {
+    "definition": "An extremely painful inflammation of joints, especially of the big toe, caused by a metabolic defect resulting in the accumulation of uric acid in the blood and the deposition of urates around the joints.",
+    "partOfSpeech": "noun"
+  },
   "gram": {
     "definition": "A unit of mass equal to one-thousandth of a kilogram. Symbol: g",
     "partOfSpeech": "noun"
@@ -1965,6 +1969,7 @@
     "definition": "A Hindu or Sikh spiritual teacher.",
     "partOfSpeech": "noun"
   },
+  "gutting": null,
   "gyro": null,
   "hairdo": null,
   "halal": {
@@ -2225,6 +2230,11 @@
     "definition": "Of dubious authenticity, legitimacy or legality.",
     "partOfSpeech": "adjective"
   },
+  "igniting": null,
+  "ignition": {
+    "definition": "The act of igniting.",
+    "partOfSpeech": "noun"
+  },
   "ileum": {
     "definition": "The last, and usually the longest, division of the small intestine; the part between the jejunum and large intestine.",
     "partOfSpeech": "noun"
@@ -2312,6 +2322,7 @@
     "definition": "That which fills in a space, hole or gap.",
     "partOfSpeech": "noun"
   },
+  "ingot": null,
   "initiation": {
     "definition": "The act of initiating, or the process of being initiated or introduced",
     "partOfSpeech": "noun"
@@ -2346,6 +2357,13 @@
   },
   "intonation": {
     "definition": "The rise and fall of the voice in speaking.",
+    "partOfSpeech": "noun"
+  },
+  "intoning": null,
+  "intuit": null,
+  "intuiting": null,
+  "intuition": {
+    "definition": "Immediate cognition without the use of conscious rational processes.",
     "partOfSpeech": "noun"
   },
   "inviting": {
@@ -3182,6 +3200,10 @@
     "definition": "The act, process, method, or an instance of representing by a system or set of marks, signs, figures, or characters.",
     "partOfSpeech": "noun"
   },
+  "noting": {
+    "definition": "To notice with care; to observe; to remark; to heed.",
+    "partOfSpeech": "verb"
+  },
   "notion": {
     "definition": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
     "partOfSpeech": "noun"
@@ -3266,6 +3288,10 @@
     "definition": "An only child.",
     "partOfSpeech": "noun"
   },
+  "onto": {
+    "definition": "(of a function) Assuming each of the values in its codomain; having its range equal to its codomain.",
+    "partOfSpeech": "adjective"
+  },
   "opioid": {
     "definition": "A substance that has effects similar to opium.",
     "partOfSpeech": "noun"
@@ -3293,6 +3319,17 @@
     "definition": "An outboard motor.",
     "partOfSpeech": "noun"
   },
+  "outgo": null,
+  "outgoing": {
+    "definition": "To go out, to set forth.",
+    "partOfSpeech": "verb"
+  },
+  "outgun": {
+    "definition": "To defeat in terms of firepower.",
+    "partOfSpeech": "verb"
+  },
+  "outgunning": null,
+  "outing": null,
   "outthought": {
     "definition": "To best an opponent by thinking.",
     "partOfSpeech": "verb"
@@ -3453,6 +3490,19 @@
   "pyro": {
     "definition": "A pyromaniac",
     "partOfSpeech": "noun"
+  },
+  "quint": null,
+  "quit": {
+    "definition": "To pay (a debt, fine etc.).",
+    "partOfSpeech": "verb"
+  },
+  "quitting": {
+    "definition": "To pay (a debt, fine etc.).",
+    "partOfSpeech": "verb"
+  },
+  "quoting": {
+    "definition": "To repeat the exact words of (a person).",
+    "partOfSpeech": "verb"
   },
   "rabbi": {
     "definition": "A Jewish scholar or teacher of halacha (Jewish law), capable of making halachic decisions.",
@@ -3773,6 +3823,11 @@
     "partOfSpeech": "verb"
   },
   "tinct": null,
+  "tinging": null,
+  "tinning": {
+    "definition": "To place into a tin in order to preserve.",
+    "partOfSpeech": "verb"
+  },
   "tinny": {
     "definition": "Of or pertaining to or resembling tin.",
     "partOfSpeech": "adjective"
@@ -3781,6 +3836,7 @@
     "definition": "A slight coloring.",
     "partOfSpeech": "noun"
   },
+  "tinting": null,
   "tiny": {
     "definition": "A small child; an infant.",
     "partOfSpeech": "noun"
@@ -3805,6 +3861,7 @@
     "definition": "A piece of music (usually for a keyboard instrument) designed to emphasise the dexterity of the performer.",
     "partOfSpeech": "noun"
   },
+  "togging": null,
   "toil": {
     "definition": "Labour, work, especially of a grueling nature.",
     "partOfSpeech": "noun"
@@ -3822,8 +3879,25 @@
     "definition": "Petroica macrocephala, the miromiro or New Zealand tit, a bird of the Petroicidae (Australasian robin) family.",
     "partOfSpeech": "noun"
   },
+  "tong": {
+    "definition": "An instrument or tool used for manipulating things in a fire without touching them with the hands.",
+    "partOfSpeech": "noun"
+  },
+  "tonging": null,
+  "tonguing": {
+    "definition": "On a wind instrument, to articulate a note by starting the air with a tap of the tongue, as though by speaking a 'd' or 't' sound (alveolar plosive).",
+    "partOfSpeech": "verb"
+  },
+  "toning": {
+    "definition": "To give a particular tone to",
+    "partOfSpeech": "verb"
+  },
   "tool": {
     "definition": "A mechanical device intended to make a task easier.",
+    "partOfSpeech": "noun"
+  },
+  "toon": {
+    "definition": "A cartoon, especially an animated television show.",
     "partOfSpeech": "noun"
   },
   "toot": {
@@ -3838,10 +3912,12 @@
     "definition": "A pain or ache in a tooth.",
     "partOfSpeech": "noun"
   },
+  "tooting": null,
   "total": {
     "definition": "An amount obtained by the addition of smaller amounts.",
     "partOfSpeech": "noun"
   },
+  "toting": null,
   "tough": {
     "definition": "A person who obtains things by force; a thug or bully.",
     "partOfSpeech": "noun"
@@ -3850,6 +3926,11 @@
     "definition": "To make tough.",
     "partOfSpeech": "verb"
   },
+  "tout": {
+    "definition": "Someone advertising for customers in an aggressive way.",
+    "partOfSpeech": "noun"
+  },
+  "touting": null,
   "track": {
     "definition": "A mark left by something that has passed along.",
     "partOfSpeech": "noun"
@@ -3875,10 +3956,16 @@
     "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
     "partOfSpeech": "noun"
   },
+  "tugging": null,
+  "tuition": {
+    "definition": "A sum of money paid for instruction (such as in a high school, boarding school, university, or college).",
+    "partOfSpeech": "noun"
+  },
   "tumult": {
     "definition": "Confused, agitated noise as made by a crowd.",
     "partOfSpeech": "noun"
   },
+  "tuning": null,
   "turbo": {
     "definition": "Turbocharger.",
     "partOfSpeech": "noun"
@@ -3887,6 +3974,12 @@
     "definition": "A species of flatfish native to Europe (Scophthalmus maximus, earlier Psetta maxima).",
     "partOfSpeech": "noun"
   },
+  "tutti": null,
+  "tutting": {
+    "definition": "To make a tut tut sound of disapproval.",
+    "partOfSpeech": "verb"
+  },
+  "tutu": null,
   "twee": null,
   "tweet": {
     "definition": "The sound of a bird; any short high-pitched sound or whistle.",
@@ -3926,6 +4019,11 @@
     "definition": "(of a person) Not (yet) executed by hanging; unhanged.",
     "partOfSpeech": "adjective"
   },
+  "unit": {
+    "definition": "A particular, minute unit of mass, defined differently for different substances, but so that varying substances of the same general type have the property that one international unit of the one has the same effect on the human body as one international unit of the other.",
+    "partOfSpeech": "noun"
+  },
+  "uniting": null,
   "unoffended": {
     "definition": "Not offended.",
     "partOfSpeech": "adjective"
@@ -3934,6 +4032,8 @@
     "definition": "To undo the process of thinking.",
     "partOfSpeech": "verb"
   },
+  "unto": null,
+  "untuning": null,
   "vagal": {
     "definition": "Of or relating to the vagus nerve.",
     "partOfSpeech": "adjective"
