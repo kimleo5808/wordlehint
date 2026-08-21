@@ -1390,6 +1390,11 @@
     "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
     "partOfSpeech": "noun"
   },
+  "dough": {
+    "definition": "A thick, malleable substance made by mixing flour with other ingredients such as water, eggs, and/or butter, that is made into a particular form and then baked.",
+    "partOfSpeech": "noun"
+  },
+  "dour": null,
   "dowdy": {
     "definition": "A plain or shabby person",
     "partOfSpeech": "noun"
@@ -1439,6 +1444,10 @@
     "definition": "Carbonaceous shale; small coal; slate, dross, or rubbish in coal.",
     "partOfSpeech": "noun"
   },
+  "drug": {
+    "definition": "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose.",
+    "partOfSpeech": "noun"
+  },
   "dryly": {
     "definition": "In a dry manner.",
     "partOfSpeech": "adverb"
@@ -1447,6 +1456,12 @@
     "definition": "Dough.",
     "partOfSpeech": "noun"
   },
+  "dugong": null,
+  "dung": {
+    "definition": "Manure; animal excrement.",
+    "partOfSpeech": "noun"
+  },
+  "dunno": null,
   "each": {
     "definition": "(operations) An individual item: the least quantitative unit in a grouping.",
     "partOfSpeech": "noun"
@@ -1927,6 +1942,7 @@
     "definition": "A punk-derived subculture of people who predominantly dress in black, associated with mournful music and attitudes.",
     "partOfSpeech": "noun"
   },
+  "gourd": null,
   "gout": {
     "definition": "An extremely painful inflammation of joints, especially of the big toe, caused by a metabolic defect resulting in the accumulation of uric acid in the blood and the deposition of urates around the joints.",
     "partOfSpeech": "noun"
@@ -1951,6 +1967,14 @@
   "groggy": null,
   "groom": {
     "definition": "A man who is about to marry.",
+    "partOfSpeech": "noun"
+  },
+  "ground": {
+    "definition": "The surface of the Earth, as opposed to the sky or water or underground.",
+    "partOfSpeech": "noun"
+  },
+  "groundhog": {
+    "definition": "A red-brown marmot, Marmota monax, native to North America.",
     "partOfSpeech": "noun"
   },
   "guar": {
@@ -2203,6 +2227,14 @@
   },
   "hotel": {
     "definition": "A large town house or mansion; a grand private residence, especially in France.",
+    "partOfSpeech": "noun"
+  },
+  "hound": {
+    "definition": "A dog, particularly a breed with a good sense of smell developed for hunting other animals.",
+    "partOfSpeech": "noun"
+  },
+  "hour": {
+    "definition": "A time period of sixty minutes; one twenty-fourth of a day.",
     "partOfSpeech": "noun"
   },
   "howdy": {
@@ -3212,10 +3244,15 @@
     "definition": "Nothing; something which does not exist.",
     "partOfSpeech": "noun"
   },
+  "noun": {
+    "definition": "(grammar, narrow sense) A word that can be used to refer to a person, animal, place, thing, phenomenon, substance, quality, or idea; one of the basic parts of speech in many languages, including English.",
+    "partOfSpeech": "noun"
+  },
   "novel": {
     "definition": "Newly made, formed or evolved; having no precedent; of recent origin; new.",
     "partOfSpeech": "adjective"
   },
+  "nunhood": null,
   "nylon": {
     "definition": "Originally, the DuPont company trade name for polyamide, a copolymer whose molecules consist of alternating diamine and dicarboxylic acid monomers bonded together; now generically used for this type of polymer.",
     "partOfSpeech": "noun"
@@ -3601,9 +3638,21 @@
   "rollover": null,
   "rood": null,
   "ropy": null,
+  "rough": {
+    "definition": "The unmowed part of a golf course.",
+    "partOfSpeech": "noun"
+  },
+  "round": {
+    "definition": "So as to form a circle or trace a circular path, or approximation thereof.",
+    "partOfSpeech": "adverb"
+  },
   "rove": null,
   "rover": {
     "definition": "(usually in the plural) A randomly selected target.",
+    "partOfSpeech": "noun"
+  },
+  "rung": {
+    "definition": "A crosspiece forming a step of a ladder; a round.",
     "partOfSpeech": "noun"
   },
   "tabard": {
@@ -3993,11 +4042,16 @@
     "definition": "A reproach, gibe or taunt.",
     "partOfSpeech": "noun"
   },
+  "udon": null,
   "uncuff": null,
   "uncuffed": null,
   "undefended": {
     "definition": "Not defended.",
     "partOfSpeech": "adjective"
+  },
+  "undo": {
+    "definition": "An operation that reverses a previous action.",
+    "partOfSpeech": "noun"
   },
   "unfed": {
     "definition": "A mosquito that has not had a blood meal.",
@@ -4014,6 +4068,14 @@
   "unfunded": {
     "definition": "Not funded; having received no funding.",
     "partOfSpeech": "adjective"
+  },
+  "unground": {
+    "definition": "To remove a connection to ground potential.",
+    "partOfSpeech": "verb"
+  },
+  "unhood": {
+    "definition": "To remove the hood from.",
+    "partOfSpeech": "verb"
   },
   "unhung": {
     "definition": "(of a person) Not (yet) executed by hanging; unhanged.",

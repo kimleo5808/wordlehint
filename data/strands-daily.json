@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T04:05:22.339Z",
+  "lastUpdated": "2026-08-21T04:07:22.350Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22558,6 +22558,31 @@
         "EAAPDT",
         "ENDARS",
         "SATSBE"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": 901,
+      "editor": "Tracy Bennett",
+      "clue": "Celebrate!",
+      "spangram": "LIFESAPARTY",
+      "themeWords": [
+        "BANGER",
+        "BASH",
+        "FESTIVITY",
+        "RAGER",
+        "SHINDIG",
+        "SOIREE"
+      ],
+      "board": [
+        "FILART",
+        "ESAPSY",
+        "IRSHBA",
+        "OETETY",
+        "SEIFIA",
+        "ERSVRG",
+        "GNHINE",
+        "ABGIDR"
       ]
     }
   ]

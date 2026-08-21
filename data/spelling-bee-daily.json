@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T04:05:23.036Z",
+  "lastUpdated": "2026-08-21T04:07:22.867Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61405,6 +61405,48 @@
         "uniting",
         "unto",
         "untuning"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-21",
+      "id": 27728,
+      "centerLetter": "u",
+      "outerLetters": [
+        "d",
+        "g",
+        "h",
+        "n",
+        "o",
+        "r"
+      ],
+      "pangrams": [
+        "groundhog"
+      ],
+      "answers": [
+        "dough",
+        "dour",
+        "drug",
+        "dugong",
+        "dung",
+        "dunno",
+        "gourd",
+        "ground",
+        "groundhog",
+        "guru",
+        "hound",
+        "hour",
+        "hung",
+        "noun",
+        "nunhood",
+        "rough",
+        "round",
+        "rung",
+        "udon",
+        "undo",
+        "unground",
+        "unhood",
+        "unhung"
       ],
       "editor": "Sam Ezersky"
     }

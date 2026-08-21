@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T04:05:21.833Z",
+  "lastUpdated": "2026-08-21T04:07:21.950Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54564,6 +54564,53 @@
             "OXFORD",
             "PIGMENT",
             "RATCHET"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "id": 1167,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS MOST ANIMALS NEED",
+          "words": [
+            "NUTRITION",
+            "OXYGEN",
+            "SLEEP",
+            "WATER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CALLS TO BEGIN A PERFORMANCE",
+          "words": [
+            "ACTION",
+            "CURTAIN UP",
+            "PLACES",
+            "SHOWTIME"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___ KIDS",
+          "words": [
+            "COMEBACK",
+            "KARATE",
+            "SUNDANCE",
+            "WIMPY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ONCE IN A ___",
+          "words": [
+            "BLUE MOON",
+            "GENERATION",
+            "LIFETIME",
+            "WHILE"
           ]
         }
       ]
