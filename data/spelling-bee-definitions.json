@@ -225,6 +225,10 @@
     "definition": "Straight away; at once.",
     "partOfSpeech": "adverb"
   },
+  "antarctic": {
+    "definition": "Of, from, or pertaining to Antarctica and the south polar regions.",
+    "partOfSpeech": "adjective"
+  },
   "ante": {
     "definition": "A price or cost, as in up the ante.",
     "partOfSpeech": "noun"
@@ -255,6 +259,10 @@
     "partOfSpeech": "adverb"
   },
   "arabica": null,
+  "arancini": {
+    "definition": "A baked rice ball, filled with cheese or other sauce, originally from Sicily.",
+    "partOfSpeech": "noun"
+  },
   "arbor": {
     "definition": "A shady sitting place or pergola usually in a park or garden, surrounded by climbing shrubs, vines or other vegetation.",
     "partOfSpeech": "noun"
@@ -280,6 +288,10 @@
   "arid": {
     "definition": "Very dry.",
     "partOfSpeech": "adjective"
+  },
+  "arnica": {
+    "definition": "Any of several plants, of the genus Arnica, considered to have medicinal properties, especially Arnica montana.",
+    "partOfSpeech": "noun"
   },
   "array": {
     "definition": "Clothing and ornamentation.",
@@ -651,6 +663,10 @@
     "definition": "The act or state of declining or sinking.",
     "partOfSpeech": "noun"
   },
+  "cairn": {
+    "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument.",
+    "partOfSpeech": "noun"
+  },
   "calico": {
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
     "partOfSpeech": "noun"
@@ -857,6 +873,10 @@
   },
   "cicada": null,
   "circa": null,
+  "circuit": {
+    "definition": "The act of moving or revolving around, or as in a circle or orbit; a revolution",
+    "partOfSpeech": "noun"
+  },
   "cirri": null,
   "citric": null,
   "city": {
@@ -1100,6 +1120,10 @@
     "definition": "A thin and usually jagged space opened in a previously solid material.",
     "partOfSpeech": "noun"
   },
+  "crania": {
+    "definition": "The braincase or neurocranium; that part of the skull consisting of the bones enclosing the brain, but not including the bones of the face or jaw.",
+    "partOfSpeech": "noun"
+  },
   "crib": {
     "definition": "A baby’s bed with high, often slatted, often moveable sides, suitable for a child who has outgrown a cradle or bassinet.",
     "partOfSpeech": "noun"
@@ -1149,6 +1173,10 @@
   "culled": {
     "definition": "To pick or take someone or something (from a larger group).",
     "partOfSpeech": "verb"
+  },
+  "curtain": {
+    "definition": "A piece of cloth covering a window, bed, etc. to offer privacy and keep out light.",
+    "partOfSpeech": "noun"
   },
   "cyan": null,
   "cynic": {
@@ -2341,6 +2369,10 @@
     "definition": "To state solemnly, to chant.",
     "partOfSpeech": "verb"
   },
+  "incur": {
+    "definition": "To bring upon oneself or expose oneself to, especially something inconvenient, harmful, or onerous; to become liable or subject to",
+    "partOfSpeech": "verb"
+  },
   "indexing": {
     "definition": "To arrange an index for something, especially a long text.",
     "partOfSpeech": "verb"
@@ -2398,6 +2430,10 @@
     "definition": "Immediate cognition without the use of conscious rational processes.",
     "partOfSpeech": "noun"
   },
+  "inurn": {
+    "definition": "To place (the remains of a person who has died) in an urn or other container.",
+    "partOfSpeech": "verb"
+  },
   "inviting": {
     "definition": "To ask for the presence or participation of someone or something.",
     "partOfSpeech": "verb"
@@ -2413,6 +2449,10 @@
   "ionization": null,
   "iota": {
     "definition": "The ninth letter of the Greek alphabet.",
+    "partOfSpeech": "noun"
+  },
+  "irritant": {
+    "definition": "Any medication designed to cause irritation",
     "partOfSpeech": "noun"
   },
   "item": {
@@ -3203,6 +3243,7 @@
     "definition": "To catch and enclose or compress tightly between two surfaces, or points which are brought together or closed; to pinch; to close in upon.",
     "partOfSpeech": "verb"
   },
+  "nitric": null,
   "nixing": {
     "definition": "To make something become nothing; to reject or cancel.",
     "partOfSpeech": "verb"
@@ -3576,8 +3617,16 @@
     "definition": "A quick hostile or predatory incursion or invasion in a battle.",
     "partOfSpeech": "noun"
   },
+  "rain": {
+    "definition": "Condensed water falling from a cloud.",
+    "partOfSpeech": "noun"
+  },
   "raita": {
     "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
+    "partOfSpeech": "noun"
+  },
+  "rani": {
+    "definition": "The wife of a rajah.",
     "partOfSpeech": "noun"
   },
   "ratatat": {
@@ -3608,6 +3657,10 @@
   },
   "ribbit": {
     "definition": "The vocal sound made by a frog or toad.",
+    "partOfSpeech": "noun"
+  },
+  "ricin": {
+    "definition": "An extremely toxic protein extracted from the castor bean.",
     "partOfSpeech": "noun"
   },
   "rick": null,
@@ -3651,10 +3704,15 @@
     "definition": "(usually in the plural) A randomly selected target.",
     "partOfSpeech": "noun"
   },
+  "ruin": {
+    "definition": "(sometimes in the plural) The remains of a destroyed or dilapidated construction, such as a house or castle.",
+    "partOfSpeech": "noun"
+  },
   "rung": {
     "definition": "A crosspiece forming a step of a ladder; a round.",
     "partOfSpeech": "noun"
   },
+  "runic": null,
   "tabard": {
     "definition": "A silk banner attached to a bugle or trumpet.",
     "partOfSpeech": "noun"
@@ -3673,6 +3731,10 @@
   },
   "tacit": {
     "definition": "Expressed in silence; implied, but not made explicit; silent.",
+    "partOfSpeech": "adjective"
+  },
+  "taciturn": {
+    "definition": "Silent; temperamentally untalkative; disinclined to speak.",
     "partOfSpeech": "adjective"
   },
   "tack": {
@@ -3723,6 +3785,10 @@
   "tannin": {
     "definition": "Tannic acid or any of its derivatives.",
     "partOfSpeech": "noun"
+  },
+  "tantric": {
+    "definition": "Describing Vajrayana Buddhism.",
+    "partOfSpeech": "adjective"
   },
   "tart": {
     "definition": "Sharp to the taste; acid; sour.",
@@ -3988,6 +4054,10 @@
     "definition": "An area or expanse.",
     "partOfSpeech": "noun"
   },
+  "train": {
+    "definition": "Elongated portion.",
+    "partOfSpeech": "noun"
+  },
   "trait": {
     "definition": "An identifying characteristic, habit or trend.",
     "partOfSpeech": "noun"
@@ -4012,6 +4082,10 @@
   },
   "tumult": {
     "definition": "Confused, agitated noise as made by a crowd.",
+    "partOfSpeech": "noun"
+  },
+  "tunic": {
+    "definition": "A garment worn over the torso, with or without sleeves, and of various lengths reaching from the hips to the ankles.",
     "partOfSpeech": "noun"
   },
   "tuning": null,
@@ -4085,6 +4159,10 @@
     "definition": "A particular, minute unit of mass, defined differently for different substances, but so that varying substances of the same general type have the property that one international unit of the one has the same effect on the human body as one international unit of the other.",
     "partOfSpeech": "noun"
   },
+  "unitarian": {
+    "definition": "One who denies the doctrine of the Trinity, believing that God exists only in one person; a unipersonalist.",
+    "partOfSpeech": "noun"
+  },
   "uniting": null,
   "unoffended": {
     "definition": "Not offended.",
@@ -4096,6 +4174,10 @@
   },
   "unto": null,
   "untuning": null,
+  "uric": {
+    "definition": "Pertaining to, contained in, or obtained from urine.",
+    "partOfSpeech": "adjective"
+  },
   "vagal": {
     "definition": "Of or relating to the vagus nerve.",
     "partOfSpeech": "adjective"

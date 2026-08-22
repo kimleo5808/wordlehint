@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T04:07:21.950Z",
+  "lastUpdated": "2026-08-22T04:02:47.861Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54611,6 +54611,53 @@
             "GENERATION",
             "LIFETIME",
             "WHILE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "id": 1168,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CARPENTRY TOOLS",
+          "words": [
+            "CHISEL",
+            "HAMMER",
+            "PLANE",
+            "SAW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF MELON",
+          "words": [
+            "BITTER",
+            "MUSK",
+            "WATER",
+            "WINTER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "GARDEN HOSE SETTINGS",
+          "words": [
+            "CONE",
+            "JET",
+            "MIST",
+            "SHOWER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ GIRLS OF POP CULTURE",
+          "words": [
+            "GILMORE",
+            "GOLDEN",
+            "MEAN",
+            "SPICE"
           ]
         }
       ]
