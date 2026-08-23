@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T04:02:48.983Z",
+  "lastUpdated": "2026-08-23T04:07:09.500Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61523,6 +61523,63 @@
         "unit",
         "unitarian",
         "uric"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-23",
+      "id": 15943,
+      "centerLetter": "m",
+      "outerLetters": [
+        "b",
+        "e",
+        "i",
+        "n",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "bitumen"
+      ],
+      "answers": [
+        "benumb",
+        "biennium",
+        "bitumen",
+        "eminent",
+        "emit",
+        "imbibe",
+        "imbue",
+        "imminent",
+        "immune",
+        "item",
+        "meet",
+        "meme",
+        "mentee",
+        "menu",
+        "mete",
+        "mien",
+        "mime",
+        "mine",
+        "mini",
+        "minim",
+        "minimum",
+        "mint",
+        "minuet",
+        "minute",
+        "minutemen",
+        "mite",
+        "mitt",
+        "mitten",
+        "mute",
+        "mutt",
+        "muumuu",
+        "nimbi",
+        "numb",
+        "teem",
+        "tenement",
+        "time",
+        "unmet",
+        "unmute"
       ],
       "editor": "Sam Ezersky"
     }

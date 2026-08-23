@@ -527,7 +527,12 @@
     "definition": "A curve.",
     "partOfSpeech": "noun"
   },
+  "benumb": {
+    "definition": "To make numb, as by cold or anesthetic.",
+    "partOfSpeech": "verb"
+  },
   "bicarb": null,
+  "biennium": null,
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
@@ -537,6 +542,7 @@
     "partOfSpeech": "noun"
   },
   "birria": null,
+  "bitumen": null,
   "bloc": {
     "definition": "A group of voters or politicians who share common goals.",
     "partOfSpeech": "noun"
@@ -1590,6 +1596,10 @@
     "definition": "To correct and revise (text or a document).",
     "partOfSpeech": "verb"
   },
+  "eminent": {
+    "definition": "High, lofty.",
+    "partOfSpeech": "adjective"
+  },
   "emit": {
     "definition": "To send out or give off",
     "partOfSpeech": "verb"
@@ -2312,9 +2322,25 @@
     "definition": "(usually capitalized) A Shi'ite Muslim leader.",
     "partOfSpeech": "noun"
   },
+  "imbibe": {
+    "definition": "To drink (used frequently of alcoholic beverages).",
+    "partOfSpeech": "verb"
+  },
+  "imbue": {
+    "definition": "To wet or stain an object completely with some physical quality.",
+    "partOfSpeech": "verb"
+  },
   "imitating": null,
   "imitation": {
     "definition": "The act of imitating.",
+    "partOfSpeech": "noun"
+  },
+  "imminent": {
+    "definition": "About to happen, occur, or take place very soon, especially of something which won't last long.",
+    "partOfSpeech": "adjective"
+  },
+  "immune": {
+    "definition": "A person who is not susceptible to infection by a particular disease",
     "partOfSpeech": "noun"
   },
   "impala": {
@@ -2921,6 +2947,10 @@
   },
   "mentally": null,
   "mentee": null,
+  "menu": {
+    "definition": "The details of the food to be served at a banquet; a bill of fare.",
+    "partOfSpeech": "noun"
+  },
   "mete": {
     "definition": "To measure.",
     "partOfSpeech": "verb"
@@ -3014,6 +3044,10 @@
     "definition": "The act of lowering something to its smallest value or extent.",
     "partOfSpeech": "noun"
   },
+  "minimum": {
+    "definition": "The lowest limit.",
+    "partOfSpeech": "noun"
+  },
   "mining": {
     "definition": "To remove (ore) from the ground.",
     "partOfSpeech": "verb"
@@ -3030,6 +3064,18 @@
     "definition": "To reproduce (coins), usually en masse, under licence.",
     "partOfSpeech": "verb"
   },
+  "minuet": {
+    "definition": "A slow graceful dance consisting of a coupé, a high step, and a balance.",
+    "partOfSpeech": "noun"
+  },
+  "minute": {
+    "definition": "A unit of time equal to sixty seconds (one-sixtieth of an hour).",
+    "partOfSpeech": "noun"
+  },
+  "minutemen": {
+    "definition": "During the American War for Independence, a citizen-soldier who would fight for the Patriots at a minute's notice.",
+    "partOfSpeech": "noun"
+  },
   "mite": {
     "definition": "Any of many minute arachnids which, along with the ticks, comprise subclass Acarina (aka Acari).",
     "partOfSpeech": "noun"
@@ -3040,6 +3086,10 @@
   },
   "mitt": {
     "definition": "A mitten",
+    "partOfSpeech": "noun"
+  },
+  "mitten": {
+    "definition": "A type of glove or garment that covers a hand with a separate sheath for the thumb, but not for other fingers, which are either enclosed in a single section or left uncovered.",
     "partOfSpeech": "noun"
   },
   "moat": null,
@@ -3231,6 +3281,10 @@
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
     "partOfSpeech": "noun"
   },
+  "nimbi": {
+    "definition": "A circle of light; a halo.",
+    "partOfSpeech": "noun"
+  },
   "ninny": {
     "definition": "A silly or foolish person.",
     "partOfSpeech": "noun"
@@ -3292,6 +3346,10 @@
   "novel": {
     "definition": "Newly made, formed or evolved; having no precedent; of recent origin; new.",
     "partOfSpeech": "adjective"
+  },
+  "numb": {
+    "definition": "To cause to become numb (physically or emotionally).",
+    "partOfSpeech": "verb"
   },
   "nunhood": null,
   "nylon": {
@@ -4164,6 +4222,11 @@
     "partOfSpeech": "noun"
   },
   "uniting": null,
+  "unmet": {
+    "definition": "Not met; unfulfilled; not achieved",
+    "partOfSpeech": "adjective"
+  },
+  "unmute": null,
   "unoffended": {
     "definition": "Not offended.",
     "partOfSpeech": "adjective"

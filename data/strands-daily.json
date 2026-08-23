@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T04:02:48.362Z",
+  "lastUpdated": "2026-08-23T04:07:08.900Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22608,6 +22608,31 @@
         "UKOREI",
         "OYACWH",
         "MEDSAC"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "id": 903,
+      "editor": "Tracy Bennett",
+      "clue": "An epic journey",
+      "spangram": "THEODYSSEY",
+      "themeWords": [
+        "CYCLOPS",
+        "KING",
+        "SHIP",
+        "SIRENS",
+        "SUITORS",
+        "UNDERWORLD"
+      ],
+      "board": [
+        "SINCSH",
+        "RESYPI",
+        "SSLCSK",
+        "EYYOPI",
+        "OTSDGN",
+        "RSIUOE",
+        "WORLDH",
+        "REDNUT"
       ]
     }
   ]
