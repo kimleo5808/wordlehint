@@ -25764,6 +25764,19 @@
       }
     ]
   },
+  "RUNNY": {
+    "definition": "Fluid; capable of flowing.",
+    "partOfSpeech": "adjective",
+    "example": "runny honey",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Fluid; capable of flowing.",
+        "example": "runny honey"
+      }
+    ]
+  },
   "RUPEE": {
     "definition": "The common name for the monetary currencies used in modern India, Mauritius, Nepal, Pakistan, the Seychelles, or Sri Lanka, often abbreviated ₨.",
     "partOfSpeech": "noun",
