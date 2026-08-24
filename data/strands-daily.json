@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T04:07:08.900Z",
+  "lastUpdated": "2026-08-24T04:11:48.201Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22633,6 +22633,30 @@
         "RSIUOE",
         "WORLDH",
         "REDNUT"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": 904,
+      "editor": "Tracy Bennett",
+      "clue": "You can't eat just one",
+      "spangram": "COOKIEJAR",
+      "themeWords": [
+        "MACAROON",
+        "SNAP",
+        "SNICKERDOODLE",
+        "SNOWBALL",
+        "SPRITZ"
+      ],
+      "board": [
+        "PACOLA",
+        "CNSOLB",
+        "AAMKWE",
+        "ROIOLD",
+        "SOENDO",
+        "PNJSRO",
+        "RZAECN",
+        "ITRKIS"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T04:07:08.410Z",
+  "lastUpdated": "2026-08-24T04:11:47.677Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54705,6 +54705,53 @@
             "CLUB SODA",
             "HYDROGEN PEROXIDE",
             "VINEGAR"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "id": 1170,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FISH",
+          "words": [
+            "MULLET",
+            "PIKE",
+            "SOLE",
+            "TANG"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PRINCIPAL",
+          "words": [
+            "ARCH",
+            "CHIEF",
+            "MAIN",
+            "PRIME"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PRO-WRESTLING LINGO",
+          "words": [
+            "FACE",
+            "HEEL",
+            "JOBBER",
+            "KAYFABE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "LETTER HOMOPHONE PLUS TENNIS TERM",
+          "words": [
+            "BESET",
+            "DESERVE",
+            "EX-LOVE",
+            "EYELET"
           ]
         }
       ]

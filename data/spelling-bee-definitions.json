@@ -92,6 +92,10 @@
     "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
     "partOfSpeech": "noun"
   },
+  "adorn": {
+    "definition": "Adornment",
+    "partOfSpeech": "noun"
+  },
   "affably": null,
   "affray": {
     "definition": "The act of suddenly disturbing anyone; an assault or attack.",
@@ -201,6 +205,7 @@
     "partOfSpeech": "noun"
   },
   "annal": null,
+  "annatto": null,
   "anneal": {
     "definition": "An act of annealing.",
     "partOfSpeech": "noun"
@@ -213,6 +218,7 @@
     "definition": "A critical or explanatory commentary or analysis",
     "partOfSpeech": "noun"
   },
+  "annotator": null,
   "annoy": {
     "definition": "A feeling of discomfort or vexation caused by what one dislikes.",
     "partOfSpeech": "noun"
@@ -292,6 +298,10 @@
   "arnica": {
     "definition": "Any of several plants, of the genus Arnica, considered to have medicinal properties, especially Arnica montana.",
     "partOfSpeech": "noun"
+  },
+  "arrant": {
+    "definition": "Utter; complete (with a negative sense).",
+    "partOfSpeech": "adjective"
   },
   "array": {
     "definition": "Clothing and ornamentation.",
@@ -1215,6 +1225,10 @@
     "partOfSpeech": "verb"
   },
   "dandled": null,
+  "darn": {
+    "definition": "Euphemism of damn.",
+    "partOfSpeech": "verb"
+  },
   "dart": {
     "definition": "A pointed missile weapon, intended to be thrown by the hand, for example a short lance or javelin",
     "partOfSpeech": "noun"
@@ -1412,13 +1426,25 @@
     "definition": "(clothing) To put on, to dress in.",
     "partOfSpeech": "verb"
   },
+  "donor": {
+    "definition": "One who makes a donation.",
+    "partOfSpeech": "noun"
+  },
   "doodad": null,
   "door": {
     "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
     "partOfSpeech": "noun"
   },
+  "doorman": {
+    "definition": "A person who holds open the door at the entrance to a building, summons taxicabs, and provides an element of security; in apartment buildings, he also accepts deliveries and may perform certain concierge type services.",
+    "partOfSpeech": "noun"
+  },
   "dopy": null,
   "dorado": null,
+  "dormant": {
+    "definition": "A crossbeam or joist.",
+    "partOfSpeech": "noun"
+  },
   "dory": null,
   "doubt": {
     "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
@@ -2855,6 +2881,10 @@
     "partOfSpeech": "noun"
   },
   "mammogram": null,
+  "mammon": {
+    "definition": "The desire for wealth personified as an evil spirit or a malign influence.",
+    "partOfSpeech": "noun"
+  },
   "managing": null,
   "manatee": {
     "definition": "Any of several plant-eating marine mammals, of family Trichechidae, found in tropical regions.",
@@ -2882,6 +2912,10 @@
     "partOfSpeech": "noun"
   },
   "manning": null,
+  "manor": {
+    "definition": "A landed estate.",
+    "partOfSpeech": "noun"
+  },
   "manta": {
     "definition": "A kind of fabric or blanket used in Latin America and southwestern United States.",
     "partOfSpeech": "noun"
@@ -2891,12 +2925,21 @@
     "definition": "The shelf above a fireplace which may be also a structural support for the masonry of the chimney.",
     "partOfSpeech": "noun"
   },
+  "mantra": {
+    "definition": "The hymn portions of the Vedas; any passage of these used as a prayer.",
+    "partOfSpeech": "noun"
+  },
   "many": null,
   "manzanita": {
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "maroon": {
+    "definition": "An escaped negro slave of the Caribbean and the Americas or a descendant of escaped slaves.",
+    "partOfSpeech": "noun"
+  },
   "mating": null,
+  "matron": null,
   "matting": null,
   "mean": {
     "definition": "To lament.",
@@ -3092,6 +3135,10 @@
     "definition": "A type of glove or garment that covers a hand with a separate sheath for the thumb, but not for other fingers, which are either enclosed in a single section or left uncovered.",
     "partOfSpeech": "noun"
   },
+  "moan": {
+    "definition": "A low, mournful cry of pain, sorrow or pleasure",
+    "partOfSpeech": "noun"
+  },
   "moat": null,
   "mogul": {
     "definition": "A rich or powerful person; a magnate.",
@@ -3110,6 +3157,16 @@
     "definition": "Mother",
     "partOfSpeech": "noun"
   },
+  "monad": null,
+  "mondo": {
+    "definition": "A dialogue between master and student designed to obtain an intuitive truth.",
+    "partOfSpeech": "noun"
+  },
+  "mono": {
+    "definition": "A viral infection marked by extreme fatigue, high fever, and swollen lymph nodes.",
+    "partOfSpeech": "noun"
+  },
+  "monodrama": null,
   "monolith": {
     "definition": "A large, single block of stone which is a natural feature; or a block of stone or other similar material used in architecture and sculpture, especially one carved into a monument in ancient times.",
     "partOfSpeech": "noun"
@@ -3122,12 +3179,22 @@
     "definition": "Money, cash.",
     "partOfSpeech": "noun"
   },
+  "moon": {
+    "definition": "The Earth's moon Luna; the sole natural satellite of the Earth, represented in astronomy and astrology by ☾.",
+    "partOfSpeech": "proper noun"
+  },
   "moonlit": {
     "definition": "Lit by moonlight.",
     "partOfSpeech": "adjective"
   },
   "moot": {
     "definition": "A moot court.",
+    "partOfSpeech": "noun"
+  },
+  "mordant": null,
+  "morn": null,
+  "moron": {
+    "definition": "A stupid person; an idiot; a fool.",
     "partOfSpeech": "noun"
   },
   "motion": {
@@ -3197,6 +3264,10 @@
   },
   "nanny": {
     "definition": "A child's nurse.",
+    "partOfSpeech": "noun"
+  },
+  "narrator": {
+    "definition": "One who narrates or tells stories.",
     "partOfSpeech": "noun"
   },
   "natal": {
@@ -3308,13 +3379,22 @@
   },
   "node": null,
   "nohow": null,
+  "nomad": null,
   "nomination": {
     "definition": "An act or instance of nominating.",
+    "partOfSpeech": "noun"
+  },
+  "nonart": {
+    "definition": "That which is not art",
     "partOfSpeech": "noun"
   },
   "none": null,
   "nonillion": null,
   "nonlocal": null,
+  "nonrandom": {
+    "definition": "Not at random, caused or manipulated, arranged.",
+    "partOfSpeech": "adjective"
+  },
   "nook": {
     "definition": "A small corner formed by two walls; an alcove.",
     "partOfSpeech": "noun"
@@ -3323,10 +3403,15 @@
     "definition": "The ninth hour of the day counted from sunrise; around three o'clock in the afternoon.",
     "partOfSpeech": "noun"
   },
+  "norm": {
+    "definition": "That which is normal or typical.",
+    "partOfSpeech": "noun"
+  },
   "notation": {
     "definition": "The act, process, method, or an instance of representing by a system or set of marks, signs, figures, or characters.",
     "partOfSpeech": "noun"
   },
+  "notator": null,
   "noting": {
     "definition": "To notice with care; to observe; to remark; to heed.",
     "partOfSpeech": "verb"
@@ -3447,6 +3532,10 @@
   },
   "orchid": null,
   "orgy": null,
+  "ottoman": {
+    "definition": "An upholstered sofa, without arms or a back, sometimes with a compartment for storing linen, etc.",
+    "partOfSpeech": "noun"
+  },
   "ought": {
     "definition": "Property; possession",
     "partOfSpeech": "noun"
@@ -3666,6 +3755,10 @@
     "definition": "The technology that allows for the transmission of sound or other signals by modulation of electromagnetic waves.",
     "partOfSpeech": "noun"
   },
+  "radon": {
+    "definition": "The chemical element (symbol Rn, formerly Ro) with atomic number 86. It is an odorless, colorless, chemically inert but radioactive noble gas.",
+    "partOfSpeech": "noun"
+  },
   "raga": {
     "definition": "Any of various melodic forms used in Indian classical music, or a piece of music composed in such a form.",
     "partOfSpeech": "noun"
@@ -3683,14 +3776,25 @@
     "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
     "partOfSpeech": "noun"
   },
+  "rand": null,
+  "rando": null,
+  "random": {
+    "definition": "A roving motion; course without definite direction; lack of rule or method; chance.",
+    "partOfSpeech": "noun"
+  },
   "rani": {
     "definition": "The wife of a rajah.",
+    "partOfSpeech": "noun"
+  },
+  "rant": {
+    "definition": "A criticism done by ranting.",
     "partOfSpeech": "noun"
   },
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
   },
+  "rattan": null,
   "reeve": null,
   "reprove": {
     "definition": "To express disapproval.",
@@ -3734,6 +3838,7 @@
     "definition": "A way used for travelling between places, originally one wide enough to allow foot passengers and horses to travel, now (US) usually one surfaced with asphalt or concrete and designed to accommodate many vehicles travelling in both directions. In the UK both senses are heard: a country road is the same as a country lane.",
     "partOfSpeech": "noun"
   },
+  "roan": null,
   "roar": {
     "definition": "A long, loud, deep shout, as of rage or laughter, made with the mouth wide open.",
     "partOfSpeech": "noun"
@@ -3747,6 +3852,7 @@
     "partOfSpeech": "noun"
   },
   "rollover": null,
+  "rondo": null,
   "rood": null,
   "ropy": null,
   "rough": {
@@ -3836,6 +3942,7 @@
     "definition": "(blasting) To plug up with clay, earth, dry sand, sod, or other material, as a hole bored in a rock.",
     "partOfSpeech": "verb"
   },
+  "tandoor": null,
   "tannic": {
     "definition": "Pertaining to, containing, or obtained from tannin.",
     "partOfSpeech": "adjective"
@@ -3844,6 +3951,8 @@
     "definition": "Tannic acid or any of its derivatives.",
     "partOfSpeech": "noun"
   },
+  "tantara": null,
+  "tantra": null,
   "tantric": {
     "definition": "Describing Vajrayana Buddhism.",
     "partOfSpeech": "adjective"
@@ -3852,6 +3961,7 @@
     "definition": "Sharp to the taste; acid; sour.",
     "partOfSpeech": "adjective"
   },
+  "tartan": null,
   "tartar": {
     "definition": "A red compound deposited during wine making; mostly potassium hydrogen tartrate - a source of cream of tartar.",
     "partOfSpeech": "noun"
@@ -4086,6 +4196,14 @@
     "partOfSpeech": "noun"
   },
   "tooting": null,
+  "torn": {
+    "definition": "To rend (a solid material) by holding or restraining in two places and pulling apart, whether intentionally or not; to destroy or separate.",
+    "partOfSpeech": "verb"
+  },
+  "tornado": {
+    "definition": "A violent windstorm characterized by a mobile, twisting, funnel-shaped cloud.",
+    "partOfSpeech": "noun"
+  },
   "total": {
     "definition": "An amount obtained by the addition of smaller amounts.",
     "partOfSpeech": "noun"
