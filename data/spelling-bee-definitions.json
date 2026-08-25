@@ -547,11 +547,26 @@
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
   },
+  "bigot": {
+    "definition": "One who is narrow-mindedly devoted to one's own ideas and groups, and intolerant of (people of) differing ideas, races, genders, religions, politics, etc.",
+    "partOfSpeech": "noun"
+  },
+  "binging": {
+    "definition": "To engage in a short period of excessive consumption, especially of excessive alcohol consumption.",
+    "partOfSpeech": "verb"
+  },
+  "bingo": {
+    "definition": "A game of chance for two or more players, who mark off numbers on a grid as they are announced by the caller; the game is won by the first person to call out \"bingo!\" or \"house!\" after crossing off all numbers on the grid or in one line of the grid.",
+    "partOfSpeech": "noun"
+  },
+  "binning": null,
+  "biotin": null,
   "bird": {
     "definition": "A member of the class of animals Aves in the phylum Chordata, characterized by being warm-blooded, having feathers and wings usually capable of flight, and laying eggs.",
     "partOfSpeech": "noun"
   },
   "birria": null,
+  "biting": null,
   "bitumen": null,
   "bloc": {
     "definition": "A group of voters or politicians who share common goals.",
@@ -573,8 +588,48 @@
     "definition": "Short for boba tea.",
     "partOfSpeech": "noun"
   },
+  "bobbin": {
+    "definition": "A spool or cylinder around which wire is coiled.",
+    "partOfSpeech": "noun"
+  },
+  "bobbing": {
+    "definition": "To move gently and vertically, in either a single motion or repeatedly up and down, at or near the surface of a body of water, or similar medium.",
+    "partOfSpeech": "verb"
+  },
   "bocce": {
     "definition": "A game, similar to bowls or pétanque, played on a long, narrow, dirt-covered court",
+    "partOfSpeech": "noun"
+  },
+  "bogging": {
+    "definition": "(now often with \"down\") To sink or submerge someone or something into bogland.",
+    "partOfSpeech": "verb"
+  },
+  "boing": {
+    "definition": "The sound made by an elastic object (such as a spring) when bouncing; the sound of a bounce.",
+    "partOfSpeech": "noun"
+  },
+  "bonbon": {
+    "definition": "A sweet, especially a small chocolate-covered candy.",
+    "partOfSpeech": "noun"
+  },
+  "bong": {
+    "definition": "The clang of a large bell.",
+    "partOfSpeech": "noun"
+  },
+  "bongo": {
+    "definition": "A striped bovine mammal found in Africa, Tragelaphus eurycerus.",
+    "partOfSpeech": "noun"
+  },
+  "boning": {
+    "definition": "To prepare (meat, etc) by removing the bone or bones from.",
+    "partOfSpeech": "verb"
+  },
+  "bonito": {
+    "definition": "Any of various marine fish of the genus Sarda, that are related to and resemble the tuna.",
+    "partOfSpeech": "noun"
+  },
+  "bonobo": {
+    "definition": "The pygmy chimpanzee, Pan paniscus, from Africa south of the Congo river.",
     "partOfSpeech": "noun"
   },
   "boob": {
@@ -585,6 +640,8 @@
     "definition": "A mistake or error.",
     "partOfSpeech": "noun"
   },
+  "booing": null,
+  "boon": null,
   "boor": {
     "definition": "A peasant.",
     "partOfSpeech": "noun"
@@ -592,6 +649,10 @@
   "boot": {
     "definition": "A heavy shoe that covers part of the leg.",
     "partOfSpeech": "noun"
+  },
+  "booting": {
+    "definition": "To kick.",
+    "partOfSpeech": "verb"
   },
   "boucle": null,
   "bout": {
@@ -635,6 +696,20 @@
     "definition": "Brother; used as term of familiar address.",
     "partOfSpeech": "noun"
   },
+  "bugging": {
+    "definition": "To annoy.",
+    "partOfSpeech": "verb"
+  },
+  "bung": null,
+  "bunion": null,
+  "bunt": {
+    "definition": "The middle part, cavity, or belly of a sail; the part of a furled sail which is at the center of the yard.",
+    "partOfSpeech": "noun"
+  },
+  "bunting": {
+    "definition": "Strips of material used as festive decoration, especially in the colours of the national flag.",
+    "partOfSpeech": "noun"
+  },
   "burb": {
     "definition": "(chiefly in the plural) A suburb.",
     "partOfSpeech": "noun"
@@ -659,6 +734,15 @@
     "definition": "The larger or thicker end of something; the blunt end, in distinction from the sharp or narrow end",
     "partOfSpeech": "noun"
   },
+  "butting": {
+    "definition": "To join at the butt, end, or outward extremity; to terminate; to be bounded; to abut.",
+    "partOfSpeech": "verb"
+  },
+  "button": {
+    "definition": "One who adjusts, especially for the insurance industry's employment title \"loss adjuster\" (or \"claims adjuster\" in the United States).",
+    "partOfSpeech": "noun"
+  },
+  "buttoning": null,
   "cacao": {
     "definition": "A tree, Theobroma cacao, whose seed is used to make chocolate.",
     "partOfSpeech": "noun"
@@ -1923,6 +2007,8 @@
     "definition": "An (often walled) area of a city in which Jews are concentrated by force and law. (Used particularly of areas in medieval Italy and in Nazi-controlled Europe.)",
     "partOfSpeech": "noun"
   },
+  "gibbon": null,
+  "gibing": null,
   "gigged": {
     "definition": "To fish or catch with a gig, or fish spear.",
     "partOfSpeech": "verb"
@@ -3395,6 +3481,10 @@
     "definition": "Not at random, caused or manipulated, arranged.",
     "partOfSpeech": "adjective"
   },
+  "noob": {
+    "definition": "(often pejorative) A newb or newbie; refers to the idea that someone is new to a game, concept, or idea; implying a lack of experience. Also, in some areas the word noob can mean someone is obsessed with things.",
+    "partOfSpeech": "noun"
+  },
   "nook": {
     "definition": "A small corner formed by two walls; an alcove.",
     "partOfSpeech": "noun"
@@ -3432,6 +3522,10 @@
     "definition": "Newly made, formed or evolved; having no precedent; of recent origin; new.",
     "partOfSpeech": "adjective"
   },
+  "nubbin": {
+    "definition": "A stub, especially a stub of undeveloped corn or fruit or nipple.",
+    "partOfSpeech": "noun"
+  },
   "numb": {
     "definition": "To cause to become numb (physically or emotionally).",
     "partOfSpeech": "verb"
@@ -3444,6 +3538,10 @@
   "oaky": null,
   "oath": {
     "definition": "A solemn pledge or promise, appealing to a deity, a ruler, or another entity (not necessarily present) to attest to the truth of a statement or sincerity of one's desire to fulfill a contract or promise.",
+    "partOfSpeech": "noun"
+  },
+  "obit": {
+    "definition": "Death of a person.",
     "partOfSpeech": "noun"
   },
   "occlude": {
@@ -4251,6 +4349,10 @@
     "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
     "partOfSpeech": "noun"
   },
+  "tubing": {
+    "definition": "To supply with, or enclose in, a tube.",
+    "partOfSpeech": "verb"
+  },
   "tugging": null,
   "tuition": {
     "definition": "A sum of money paid for instruction (such as in a high school, boarding school, university, or college).",
@@ -4293,6 +4395,14 @@
     "partOfSpeech": "noun"
   },
   "udon": null,
+  "unbutton": {
+    "definition": "To open (something) by undoing its buttons.",
+    "partOfSpeech": "verb"
+  },
+  "unbuttoning": {
+    "definition": "To open (something) by undoing its buttons.",
+    "partOfSpeech": "verb"
+  },
   "uncuff": null,
   "uncuffed": null,
   "undefended": {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:11:48.955Z",
+  "lastUpdated": "2026-08-25T04:06:22.948Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61657,6 +61657,66 @@
         "toon",
         "torn",
         "tornado"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-25",
+      "id": 21453,
+      "centerLetter": "b",
+      "outerLetters": [
+        "g",
+        "i",
+        "n",
+        "o",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "buttoning",
+        "unbuttoning"
+      ],
+      "answers": [
+        "bigot",
+        "binging",
+        "bingo",
+        "binning",
+        "biotin",
+        "biting",
+        "bobbin",
+        "bobbing",
+        "bogging",
+        "boing",
+        "bonbon",
+        "bong",
+        "bongo",
+        "boning",
+        "bonito",
+        "bonobo",
+        "boob",
+        "booboo",
+        "booing",
+        "boon",
+        "boot",
+        "booting",
+        "bout",
+        "bugging",
+        "bung",
+        "bunion",
+        "bunt",
+        "bunting",
+        "butt",
+        "butting",
+        "button",
+        "buttoning",
+        "gibbon",
+        "gibing",
+        "noob",
+        "nubbin",
+        "obit",
+        "tubing",
+        "unbutton",
+        "unbuttoning"
       ],
       "editor": "Sam Ezersky"
     }

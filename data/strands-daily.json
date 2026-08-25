@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:11:48.201Z",
+  "lastUpdated": "2026-08-25T04:06:22.235Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22657,6 +22657,31 @@
         "PNJSRO",
         "RZAECN",
         "ITRKIS"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "id": 905,
+      "editor": "Tracy Bennett",
+      "clue": "Enjoying nature",
+      "spangram": "TAKEAHIKE",
+      "themeWords": [
+        "CANTEEN",
+        "MARKER",
+        "PATH",
+        "TRAILHEAD",
+        "WILDLIFE",
+        "WOODS"
+      ],
+      "board": [
+        "APTENE",
+        "TNAEIK",
+        "HCEAHS",
+        "TAKOOD",
+        "ILHWKR",
+        "AAELEA",
+        "RDIDRM",
+        "TWLIFE"
       ]
     }
   ]
