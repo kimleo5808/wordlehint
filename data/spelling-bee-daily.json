@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T04:06:22.948Z",
+  "lastUpdated": "2026-08-26T04:08:18.588Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61717,6 +61717,60 @@
         "tubing",
         "unbutton",
         "unbuttoning"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-26",
+      "id": 19573,
+      "centerLetter": "k",
+      "outerLetters": [
+        "c",
+        "d",
+        "e",
+        "h",
+        "n",
+        "u"
+      ],
+      "pangrams": [
+        "chunked",
+        "unchecked"
+      ],
+      "answers": [
+        "check",
+        "checked",
+        "cheek",
+        "chuck",
+        "chucked",
+        "chunk",
+        "chunked",
+        "cuke",
+        "deck",
+        "decked",
+        "deke",
+        "deked",
+        "duck",
+        "ducked",
+        "duke",
+        "duked",
+        "dunk",
+        "dunked",
+        "eked",
+        "heck",
+        "hunk",
+        "keen",
+        "keened",
+        "knee",
+        "kneed",
+        "kudu",
+        "neck",
+        "necked",
+        "nuke",
+        "nuked",
+        "nunchuck",
+        "nunchuk",
+        "uncheck",
+        "unchecked"
       ],
       "editor": "Sam Ezersky"
     }

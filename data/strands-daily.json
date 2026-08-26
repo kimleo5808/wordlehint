@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T04:06:22.235Z",
+  "lastUpdated": "2026-08-26T04:08:17.890Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22682,6 +22682,31 @@
         "AAELEA",
         "RDIDRM",
         "TWLIFE"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": 906,
+      "editor": "Tracy Bennett",
+      "clue": "All in a day's work",
+      "spangram": "PARTOFTHEJOB",
+      "themeWords": [
+        "ASSIGNMENT",
+        "CHORE",
+        "DUTY",
+        "ERRAND",
+        "PROJECT",
+        "TASK"
+      ],
+      "board": [
+        "PARTTY",
+        "ANDOUD",
+        "RREFKT",
+        "SAHTSA",
+        "SIEORE",
+        "TGJHCT",
+        "NNOPJC",
+        "EMBROE"
       ]
     }
   ]

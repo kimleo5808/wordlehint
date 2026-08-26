@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T04:06:21.750Z",
+  "lastUpdated": "2026-08-26T04:08:17.387Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54799,6 +54799,53 @@
             "INSIDE SCOOP",
             "LICKETY-SPLIT",
             "TRAFFIC CONE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "id": 1172,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "\"THERE YOU HAVE IT!\"",
+          "words": [
+            "BEHOLD",
+            "PRESTO",
+            "SHAZAM",
+            "VOILÀ"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KNACK",
+          "words": [
+            "FORTE",
+            "GIFT",
+            "STRENGTH",
+            "TALENT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "WHAT \"P\" MIGHT STAND FOR",
+          "words": [
+            "PAGE",
+            "PARK",
+            "PHOSPHORUS",
+            "PIANO"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "KEY ___",
+          "words": [
+            "CHAIN",
+            "LARGO",
+            "LIME",
+            "SIGNATURE"
           ]
         }
       ]

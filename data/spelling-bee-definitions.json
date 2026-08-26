@@ -950,6 +950,18 @@
     "definition": "To violate rules in order to gain advantage from a situation.",
     "partOfSpeech": "verb"
   },
+  "check": {
+    "definition": "A situation in which the king is directly threatened by an opposing piece.",
+    "partOfSpeech": "noun"
+  },
+  "checked": {
+    "definition": "To inspect; to examine.",
+    "partOfSpeech": "verb"
+  },
+  "cheek": {
+    "definition": "The soft skin on each side of the face, below the eyes; the outer surface of the sides of the oral cavity.",
+    "partOfSpeech": "noun"
+  },
   "cheetah": {
     "definition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head. It is native to Africa and also credited with being the fastest terrestrial animal.",
     "partOfSpeech": "noun"
@@ -967,6 +979,13 @@
     "partOfSpeech": "noun"
   },
   "chord": null,
+  "chuck": null,
+  "chucked": null,
+  "chunk": {
+    "definition": "A part of something that has been separated.",
+    "partOfSpeech": "noun"
+  },
+  "chunked": null,
   "ciao": {
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
@@ -1266,6 +1285,7 @@
     "definition": "To furnish with cuffs.",
     "partOfSpeech": "verb"
   },
+  "cuke": null,
   "cull": {
     "definition": "A selection.",
     "partOfSpeech": "noun"
@@ -1342,6 +1362,11 @@
     "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
   },
+  "deck": {
+    "definition": "Any raised flat surface that can be walked on: a balcony; a porch; a raised patio; a flat rooftop.",
+    "partOfSpeech": "noun"
+  },
+  "decked": null,
   "deco": {
     "definition": "(underwater diving) Decompression.",
     "partOfSpeech": "noun"
@@ -1407,6 +1432,8 @@
     "definition": "To condescend; to do despite a perceived affront to one's dignity.",
     "partOfSpeech": "verb"
   },
+  "deke": null,
+  "deked": null,
   "denim": {
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
@@ -1596,15 +1623,24 @@
     "definition": "In a dry manner.",
     "partOfSpeech": "adverb"
   },
+  "duck": {
+    "definition": "To quickly lower the head or body in order to prevent it from being struck by something.",
+    "partOfSpeech": "verb"
+  },
+  "ducked": null,
   "duff": {
     "definition": "Dough.",
     "partOfSpeech": "noun"
   },
   "dugong": null,
+  "duke": null,
+  "duked": null,
   "dung": {
     "definition": "Manure; animal excrement.",
     "partOfSpeech": "noun"
   },
+  "dunk": null,
+  "dunked": null,
   "dunno": null,
   "each": {
     "definition": "(operations) An individual item: the least quantitative unit in a grouping.",
@@ -1664,6 +1700,7 @@
     "definition": "The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.",
     "partOfSpeech": "numeral"
   },
+  "eked": null,
   "eking": {
     "definition": "The act or process of adding.",
     "partOfSpeech": "noun"
@@ -2258,6 +2295,7 @@
     "definition": "A tract of level uncultivated land with sandy soil and scrubby vegetation; heathland.",
     "partOfSpeech": "noun"
   },
+  "heck": null,
   "heel": {
     "definition": "The rear part of the foot, where it joins the leg.",
     "partOfSpeech": "noun"
@@ -2398,6 +2436,10 @@
   "hung": {
     "definition": "To be or remain suspended.",
     "partOfSpeech": "verb"
+  },
+  "hunk": {
+    "definition": "A large or dense piece of something.",
+    "partOfSpeech": "noun"
   },
   "hunt": {
     "definition": "The act of hunting.",
@@ -2611,6 +2653,7 @@
     "definition": "To make cold, to sharpen.",
     "partOfSpeech": "verb"
   },
+  "keened": null,
   "keening": {
     "definition": "To make cold, to sharpen.",
     "partOfSpeech": "verb"
@@ -2639,6 +2682,7 @@
     "definition": "In humans, the joint or the region of the joint in the middle part of the leg between the thigh and the shank.",
     "partOfSpeech": "noun"
   },
+  "kneed": null,
   "kneeing": {
     "definition": "To kneel to.",
     "partOfSpeech": "verb"
@@ -2651,6 +2695,7 @@
     "definition": "Eccentric, strange, or foolish; crazy or insane; kookish.",
     "partOfSpeech": "adjective"
   },
+  "kudu": null,
   "laden": null,
   "lama": {
     "definition": "A master of Tibetan Buddhism.",
@@ -3396,6 +3441,11 @@
     "definition": "In a neat manner.",
     "partOfSpeech": "adverb"
   },
+  "neck": {
+    "definition": "The part of the body connecting the head and the trunk found in humans and some animals.",
+    "partOfSpeech": "noun"
+  },
+  "necked": null,
   "need": {
     "definition": "A requirement for something; something needed.",
     "partOfSpeech": "noun"
@@ -3526,10 +3576,14 @@
     "definition": "A stub, especially a stub of undeveloped corn or fruit or nipple.",
     "partOfSpeech": "noun"
   },
+  "nuke": null,
+  "nuked": null,
   "numb": {
     "definition": "To cause to become numb (physically or emotionally).",
     "partOfSpeech": "verb"
   },
+  "nunchuck": null,
+  "nunchuk": null,
   "nunhood": null,
   "nylon": {
     "definition": "Originally, the DuPont company trade name for polyamide, a copolymer whose molecules consist of alternating diamine and dicarboxylic acid monomers bonded together; now generically used for this type of polymer.",
@@ -4403,6 +4457,8 @@
     "definition": "To open (something) by undoing its buttons.",
     "partOfSpeech": "verb"
   },
+  "uncheck": null,
+  "unchecked": null,
   "uncuff": null,
   "uncuffed": null,
   "undefended": {
