@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T04:08:17.387Z",
+  "lastUpdated": "2026-08-27T14:23:51.203Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54846,6 +54846,53 @@
             "LARGO",
             "LIME",
             "SIGNATURE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "id": 1173,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ELECTRIC THINGS",
+          "words": [
+            "ELECTRIC EEL",
+            "LIGHTNING",
+            "LIVE WIRE",
+            "PIKACHU"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MOVED TO TEARS",
+          "words": [
+            "CHOKED UP",
+            "EMOTIONAL",
+            "MISTY",
+            "OVERCOME"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SHADES OF GRAY",
+          "words": [
+            "ASH",
+            "DOVE",
+            "PEWTER",
+            "SLATE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "MUSIC GENRE PLUS STARTING LETTER",
+          "words": [
+            "BROCK",
+            "NEMO",
+            "SPUNK",
+            "WRAP"
           ]
         }
       ]

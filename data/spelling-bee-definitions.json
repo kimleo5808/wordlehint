@@ -161,6 +161,7 @@
     "definition": "An alloy containing mercury.",
     "partOfSpeech": "noun"
   },
+  "amatory": null,
   "amen": {
     "definition": "An instance of saying ‘amen’.",
     "partOfSpeech": "noun"
@@ -264,6 +265,10 @@
     "definition": "Anyhow",
     "partOfSpeech": "adverb"
   },
+  "aorta": {
+    "definition": "The great artery which carries the blood from the heart to all parts of the body except the lungs; the main trunk of the arterial system.",
+    "partOfSpeech": "noun"
+  },
   "arabica": null,
   "arancini": {
     "definition": "A baked rice ball, filled with cheese or other sauce, originally from Sicily.",
@@ -307,10 +312,12 @@
     "definition": "Clothing and ornamentation.",
     "partOfSpeech": "noun"
   },
+  "arrowroot": null,
   "arroyo": {
     "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
     "partOfSpeech": "noun"
   },
+  "arty": null,
   "arugula": {
     "definition": "One of three yellowish-flowered Mediterranean herbs of the mustard family with flavoured leaves, often eaten in salads. Has a distinct, peppery flavor:",
     "partOfSpeech": "noun"
@@ -3065,8 +3072,17 @@
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "marmot": null,
   "maroon": {
     "definition": "An escaped negro slave of the Caribbean and the Americas or a descendant of escaped slaves.",
+    "partOfSpeech": "noun"
+  },
+  "mart": {
+    "definition": "A market.",
+    "partOfSpeech": "noun"
+  },
+  "martyr": {
+    "definition": "One who willingly accepts being put to death for adhering openly to one's religious beliefs; notably, saints canonized after martyrdom.",
     "partOfSpeech": "noun"
   },
   "mating": null,
@@ -3328,10 +3344,19 @@
     "definition": "A stupid person; an idiot; a fool.",
     "partOfSpeech": "noun"
   },
+  "mortar": {
+    "definition": "A mixture of lime or cement, sand and water used for bonding building blocks.",
+    "partOfSpeech": "noun"
+  },
   "motion": {
     "definition": "A state of progression from one place to another.",
     "partOfSpeech": "noun"
   },
+  "motor": {
+    "definition": "A machine or device that converts other energy forms into mechanical energy, or imparts motion.",
+    "partOfSpeech": "noun"
+  },
+  "motorway": null,
   "motto": null,
   "mule": {
     "definition": "The generally sterile male or female hybrid offspring of a male donkey and a female horse.",
@@ -3594,6 +3619,7 @@
     "definition": "A solemn pledge or promise, appealing to a deity, a ruler, or another entity (not necessarily present) to attest to the truth of a statement or sincerity of one's desire to fulfill a contract or promise.",
     "partOfSpeech": "noun"
   },
+  "oaty": null,
   "obit": {
     "definition": "Death of a person.",
     "partOfSpeech": "noun"
@@ -3677,6 +3703,8 @@
     "definition": "The best of its kind",
     "partOfSpeech": "noun"
   },
+  "orator": null,
+  "oratory": null,
   "orca": null,
   "orchard": {
     "definition": "A garden or an area of land for the cultivation of fruit or nut trees.",
@@ -3947,6 +3975,10 @@
     "partOfSpeech": "noun"
   },
   "rattan": null,
+  "ratty": {
+    "definition": "Similar to a rat; ratlike.",
+    "partOfSpeech": "adjective"
+  },
   "reeve": null,
   "reprove": {
     "definition": "To express disapproval.",
@@ -4006,7 +4038,21 @@
   "rollover": null,
   "rondo": null,
   "rood": null,
+  "root": {
+    "definition": "The part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction.",
+    "partOfSpeech": "noun"
+  },
   "ropy": null,
+  "rotary": {
+    "definition": "A traffic circle.",
+    "partOfSpeech": "noun"
+  },
+  "rotator": null,
+  "rotatory": null,
+  "rotor": {
+    "definition": "A rotating part of a mechanical device, for example in an electric motor, generator, alternator or pump.",
+    "partOfSpeech": "noun"
+  },
   "rough": {
     "definition": "The unmowed part of a golf course.",
     "partOfSpeech": "noun"
@@ -4109,6 +4155,18 @@
     "definition": "Describing Vajrayana Buddhism.",
     "partOfSpeech": "adjective"
   },
+  "taro": {
+    "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
+    "partOfSpeech": "noun"
+  },
+  "tarot": {
+    "definition": "(singular or plural) A card game played in various different variations.",
+    "partOfSpeech": "noun"
+  },
+  "tarry": {
+    "definition": "A sojourn.",
+    "partOfSpeech": "noun"
+  },
   "tart": {
     "definition": "Sharp to the taste; acid; sour.",
     "partOfSpeech": "adjective"
@@ -4124,6 +4182,10 @@
   },
   "tattoo": {
     "definition": "An image made in the skin with ink and a needle.",
+    "partOfSpeech": "noun"
+  },
+  "tatty": {
+    "definition": "Potato",
     "partOfSpeech": "noun"
   },
   "teach": {
@@ -4310,6 +4372,14 @@
     "partOfSpeech": "noun"
   },
   "tomato": null,
+  "tommyrot": {
+    "definition": "Nonsense, rot.",
+    "partOfSpeech": "noun"
+  },
+  "tomorrow": {
+    "definition": "The day after the present day.",
+    "partOfSpeech": "noun"
+  },
   "tomtit": {
     "definition": "Petroica macrocephala, the miromiro or New Zealand tit, a bird of the Petroicidae (Australasian robin) family.",
     "partOfSpeech": "noun"
@@ -4356,6 +4426,15 @@
     "definition": "A violent windstorm characterized by a mobile, twisting, funnel-shaped cloud.",
     "partOfSpeech": "noun"
   },
+  "toro": {
+    "definition": "A traditional Japanese lantern.",
+    "partOfSpeech": "noun"
+  },
+  "tort": {
+    "definition": "An injury or wrong.",
+    "partOfSpeech": "noun"
+  },
+  "torta": null,
   "total": {
     "definition": "An amount obtained by the addition of smaller amounts.",
     "partOfSpeech": "noun"
@@ -4390,15 +4469,29 @@
     "definition": "An identifying characteristic, habit or trend.",
     "partOfSpeech": "noun"
   },
+  "tram": {
+    "definition": "A passenger vehicle for public use that runs on tracks in the road (called a streetcar or trolley in North America).",
+    "partOfSpeech": "noun"
+  },
+  "tramway": null,
+  "tray": {
+    "definition": "A small, typically rectangular or round, flat, and rigid object upon which things are carried.",
+    "partOfSpeech": "noun"
+  },
   "triad": null,
   "trick": {
     "definition": "Something designed to fool or swindle.",
+    "partOfSpeech": "noun"
+  },
+  "trot": {
+    "definition": "Any of several animals related to Equus ferus caballus.",
     "partOfSpeech": "noun"
   },
   "troubadour": {
     "definition": "An itinerant composer and performer of songs in medieval Europe; a jongleur or travelling minstrel.",
     "partOfSpeech": "noun"
   },
+  "troy": null,
   "tuba": {
     "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
     "partOfSpeech": "noun"
@@ -4446,6 +4539,10 @@
   },
   "twit": {
     "definition": "A reproach, gibe or taunt.",
+    "partOfSpeech": "noun"
+  },
+  "tyro": {
+    "definition": "A beginner; a novice.",
     "partOfSpeech": "noun"
   },
   "udon": null,
@@ -4626,6 +4723,15 @@
     "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",
     "partOfSpeech": "noun"
   },
+  "wart": {
+    "definition": "A type of deformed growth occurring on the skin caused by the human papillomavirus (HPV).",
+    "partOfSpeech": "noun"
+  },
+  "warty": null,
+  "watt": {
+    "definition": "In the International System of Units, the derived unit of power; the power of a system in which one joule of energy is transferred per second. Symbol: W",
+    "partOfSpeech": "noun"
+  },
   "weight": {
     "definition": "(physical) Matter, material.",
     "partOfSpeech": "noun"
@@ -4673,6 +4779,12 @@
   },
   "wooed": null,
   "woohoo": null,
+  "woot": null,
+  "worrywart": {
+    "definition": "A person who worries excessively, especially about unimportant matters.",
+    "partOfSpeech": "noun"
+  },
+  "wort": null,
   "wowed": {
     "definition": "To amaze or awe.",
     "partOfSpeech": "verb"
