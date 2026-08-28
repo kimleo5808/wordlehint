@@ -381,6 +381,12 @@
     "definition": "To operate an aircraft.",
     "partOfSpeech": "verb"
   },
+  "avid": {
+    "definition": "Enthusiastic; keen; eager; showing great interest in something or desire to do something",
+    "partOfSpeech": "adjective"
+  },
+  "avidity": null,
+  "avidly": null,
   "baaed": {
     "definition": "To make the characteristic cry of a sheep.",
     "partOfSpeech": "verb"
@@ -1508,6 +1514,14 @@
   },
   "dirt": {
     "definition": "Soil or earth.",
+    "partOfSpeech": "noun"
+  },
+  "diva": {
+    "definition": "Any female celebrity, usually a well known singer or actress.",
+    "partOfSpeech": "noun"
+  },
+  "divvy": {
+    "definition": "A dividend; a share or portion.",
     "partOfSpeech": "noun"
   },
   "dodgy": {
@@ -2867,6 +2881,12 @@
     "definition": "To lithograph.",
     "partOfSpeech": "verb"
   },
+  "livid": {
+    "definition": "Having a dark, bluish appearance.",
+    "partOfSpeech": "adjective"
+  },
+  "lividity": null,
+  "lividly": null,
   "living": {
     "definition": "To be alive; to have life.",
     "partOfSpeech": "verb"
@@ -4642,6 +4662,15 @@
     "definition": "A person who acts with valor, showing hero-like characteristics in the midst of danger.",
     "partOfSpeech": "noun"
   },
+  "valid": {
+    "definition": "Well grounded or justifiable, pertinent.",
+    "partOfSpeech": "adjective"
+  },
+  "validity": {
+    "definition": "The state of being valid, authentic or genuine.",
+    "partOfSpeech": "noun"
+  },
+  "validly": null,
   "vanilla": {
     "definition": "Any tropical, climbing orchid of the genus Vanilla (especially Vanilla planifolia), bearing podlike fruit yielding an extract used in flavoring food or in perfumes.",
     "partOfSpeech": "noun"
@@ -4711,6 +4740,11 @@
     "definition": "Relating to, or characteristic of life.",
     "partOfSpeech": "adjective"
   },
+  "vitality": {
+    "definition": "The capacity to live and develop.",
+    "partOfSpeech": "noun"
+  },
+  "vitally": null,
   "vitiating": {
     "definition": "To spoil, make faulty; to reduce the value, quality, or effectiveness of something",
     "partOfSpeech": "verb"
@@ -4718,6 +4752,15 @@
   "vivacity": {
     "definition": "The quality or state of being vivacious.",
     "partOfSpeech": "noun"
+  },
+  "vivid": {
+    "definition": "A felt-tipped permanent marker.",
+    "partOfSpeech": "noun"
+  },
+  "vividity": null,
+  "vividly": {
+    "definition": "In a vivid manner.",
+    "partOfSpeech": "adverb"
   },
   "vole": {
     "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",

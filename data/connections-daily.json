@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T14:23:51.203Z",
+  "lastUpdated": "2026-08-28T15:32:24.045Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54893,6 +54893,53 @@
             "NEMO",
             "SPUNK",
             "WRAP"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "id": 1174,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "BEDTIME PARTING WORDS",
+          "words": [
+            "NIGHT",
+            "REST EASY",
+            "SLEEP TIGHT",
+            "SWEET DREAMS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PALINDROMES",
+          "words": [
+            "MOM",
+            "NOON",
+            "SIS",
+            "TOP SPOT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "MODERN ADD-ONS/COMBINING FORMS",
+          "words": [
+            "BRO",
+            "CODED",
+            "ERA",
+            "MAXXING"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "TOP OF THE ___",
+          "words": [
+            "HOUR",
+            "LINE",
+            "MORNING",
+            "POPS"
           ]
         }
       ]

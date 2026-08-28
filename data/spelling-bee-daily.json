@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T14:23:52.482Z",
+  "lastUpdated": "2026-08-28T15:32:25.140Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61841,6 +61841,46 @@
         "woot",
         "worrywart",
         "wort"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-28",
+      "id": 21042,
+      "centerLetter": "v",
+      "outerLetters": [
+        "a",
+        "d",
+        "i",
+        "l",
+        "t",
+        "y"
+      ],
+      "pangrams": [
+        "validity"
+      ],
+      "answers": [
+        "avail",
+        "avid",
+        "avidity",
+        "avidly",
+        "diva",
+        "divvy",
+        "lava",
+        "livid",
+        "lividity",
+        "lividly",
+        "valid",
+        "validity",
+        "validly",
+        "vial",
+        "villa",
+        "vital",
+        "vitality",
+        "vitally",
+        "vivid",
+        "vividity",
+        "vividly"
       ],
       "editor": "Sam Ezersky"
     }
