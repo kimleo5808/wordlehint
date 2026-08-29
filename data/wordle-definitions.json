@@ -5250,6 +5250,24 @@
       }
     ]
   },
+  "CAPON": {
+    "definition": "A cockerel which has been gelded and fattened for the table.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A cockerel which has been gelded and fattened for the table.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To castrate; to make a capon of.",
+        "example": null
+      }
+    ]
+  },
   "CARAT": {
     "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
     "partOfSpeech": "noun",
