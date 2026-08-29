@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T15:32:24.547Z",
+  "lastUpdated": "2026-08-29T10:16:52.649Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22755,6 +22755,31 @@
         "ORMAEH",
         "OETEOE",
         "DHGOTP"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": 909,
+      "editor": "Tracy Bennett",
+      "clue": "Now we're cooking!",
+      "spangram": "SOUNDSTASTY",
+      "themeWords": [
+        "BUBBLE",
+        "CRACKLE",
+        "GURGLE",
+        "HISS",
+        "SIZZLE",
+        "SPLATTER"
+      ],
+      "board": [
+        "SUSSIH",
+        "ONRUGL",
+        "SDGEEB",
+        "KTLIUB",
+        "LCAZSB",
+        "ESASZE",
+        "PLARTL",
+        "RETTCY"
       ]
     }
   ]

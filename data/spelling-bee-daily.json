@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T15:32:25.140Z",
+  "lastUpdated": "2026-08-29T10:16:53.384Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -61881,6 +61881,67 @@
         "vivid",
         "vividity",
         "vividly"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-08-29",
+      "id": 13395,
+      "centerLetter": "t",
+      "outerLetters": [
+        "a",
+        "d",
+        "h",
+        "i",
+        "n",
+        "o"
+      ],
+      "pangrams": [
+        "nationhood"
+      ],
+      "answers": [
+        "addition",
+        "annatto",
+        "annotation",
+        "anoint",
+        "anti",
+        "attain",
+        "data",
+        "dhoti",
+        "dint",
+        "ditto",
+        "donation",
+        "doth",
+        "hath",
+        "hatha",
+        "hint",
+        "hoot",
+        "idiot",
+        "initiation",
+        "into",
+        "intonation",
+        "iota",
+        "natant",
+        "nation",
+        "nationhood",
+        "ninth",
+        "notation",
+        "notion",
+        "oath",
+        "onto",
+        "tahini",
+        "taint",
+        "tannin",
+        "tattoo",
+        "than",
+        "that",
+        "thin",
+        "tint",
+        "titan",
+        "toad",
+        "toon",
+        "toot",
+        "tooth"
       ],
       "editor": "Sam Ezersky"
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T15:32:24.045Z",
+  "lastUpdated": "2026-08-29T10:16:52.148Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54940,6 +54940,53 @@
             "LINE",
             "MORNING",
             "POPS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "id": 1175,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "UNDER THE HOOD OF A CAR",
+          "words": [
+            "ALTERNATOR",
+            "BATTERY",
+            "ENGINE",
+            "RADIATOR"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF SALAD",
+          "words": [
+            "CHOPPED",
+            "GREEK",
+            "HOUSE",
+            "WEDGE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KEYBOARD KEYS",
+          "words": [
+            "CONTROL",
+            "ESCAPE",
+            "SHIFT",
+            "SPACE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH FIGURES FROM GREEK MYTH",
+          "words": [
+            "AT LAST",
+            "HERALD",
+            "HYDRANT",
+            "TRITONE"
           ]
         }
       ]
