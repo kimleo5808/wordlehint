@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T10:16:51.645Z",
+  "lastUpdated": "2026-08-30T09:22:21.842Z",
   "puzzles": [
     {
       "date": "2025-09-17",
@@ -2063,6 +2063,12 @@
       "date": "2026-08-29",
       "id": 1897,
       "answer": "BLOOD",
+      "editor": "Tracy Bennett"
+    },
+    {
+      "date": "2026-08-30",
+      "id": 1898,
+      "answer": "INTEL",
       "editor": "Tracy Bennett"
     }
   ]

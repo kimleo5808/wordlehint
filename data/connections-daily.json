@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T10:16:52.148Z",
+  "lastUpdated": "2026-08-30T09:22:22.282Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -54987,6 +54987,53 @@
             "HERALD",
             "HYDRANT",
             "TRITONE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": 1176,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "EXERCISE FACILITIES",
+          "words": [
+            "GYMNASIUM",
+            "HEALTH CLUB",
+            "REC CENTER",
+            "YMCA"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WINE ACCESSORIES",
+          "words": [
+            "AERATOR",
+            "CORKSCREW",
+            "DECANTER",
+            "STOPPER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "BRANDS WITH BUNNY RABBIT MASCOTS",
+          "words": [
+            "CADBURY",
+            "ENERGIZER",
+            "PLAYBOY",
+            "TRIX"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS ON AN OLD WEST WANTED POSTER",
+          "words": [
+            "ALIAS",
+            "OUTLAW",
+            "REWARD",
+            "WANTED"
           ]
         }
       ]

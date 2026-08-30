@@ -914,6 +914,7 @@
     "partOfSpeech": "noun"
   },
   "cellule": null,
+  "cent": null,
   "chador": {
     "definition": "A loose robe, made from a single cloth, worn as a combination head covering, veil and shawl by Muslim women, especially in Iran.",
     "partOfSpeech": "noun"
@@ -1011,6 +1012,7 @@
     "partOfSpeech": "noun"
   },
   "cirri": null,
+  "cite": null,
   "citric": null,
   "city": {
     "definition": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place.",
@@ -1827,6 +1829,8 @@
     "partOfSpeech": "adverb"
   },
   "entente": null,
+  "entice": null,
+  "enticing": null,
   "envelop": {
     "definition": "To surround or enclose.",
     "partOfSpeech": "verb"
@@ -1860,10 +1864,18 @@
     "definition": "To move in regular procession through a system.",
     "partOfSpeech": "verb"
   },
+  "excite": null,
+  "exciting": null,
+  "exec": null,
+  "exigent": null,
+  "exit": null,
+  "exiting": null,
   "expending": {
     "definition": "To consume, exhaust (some resource)",
     "partOfSpeech": "verb"
   },
+  "extent": null,
+  "extinct": null,
   "eyeteeth": {
     "definition": "A canine tooth of the upper jaw in humans.",
     "partOfSpeech": "noun"
@@ -2055,6 +2067,7 @@
     "definition": "A theoretical unit of heredity of living organisms; a gene may take several values and in principle predetermines a precise trait of an organism's form (phenotype), such as hair color.",
     "partOfSpeech": "noun"
   },
+  "genetic": null,
   "genie": {
     "definition": "A jinn, a being descended from the jann, normally invisible to the human eye, but who may also appear in animal or human form.",
     "partOfSpeech": "noun"
@@ -2063,6 +2076,8 @@
     "definition": "Someone possessing extraordinary intelligence or skill; especially somebody who has demonstrated this by a creative or original work in science, music, art etc.",
     "partOfSpeech": "noun"
   },
+  "gent": null,
+  "getting": null,
   "ghee": {
     "definition": "A type of clarified butter used in South Asian cooking; usli ghee.",
     "partOfSpeech": "noun"
@@ -2482,6 +2497,7 @@
     "definition": "Of dubious authenticity, legitimacy or legality.",
     "partOfSpeech": "adjective"
   },
+  "ignite": null,
   "igniting": null,
   "ignition": {
     "definition": "The act of igniting.",
@@ -2577,6 +2593,7 @@
     "definition": "To state solemnly, to chant.",
     "partOfSpeech": "verb"
   },
+  "incite": null,
   "incur": {
     "definition": "To bring upon oneself or expose oneself to, especially something inconvenient, harmful, or onerous; to become liable or subject to",
     "partOfSpeech": "verb"
@@ -2603,6 +2620,7 @@
     "definition": "To apply ink to; to cover or smear with ink.",
     "partOfSpeech": "verb"
   },
+  "innie": null,
   "inning": {
     "definition": "A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game.",
     "partOfSpeech": "noun"
@@ -2611,6 +2629,7 @@
     "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
     "partOfSpeech": "adjective"
   },
+  "intent": null,
   "intimating": {
     "definition": "To suggest or disclose (something) discreetly.",
     "partOfSpeech": "verb"
@@ -3525,6 +3544,7 @@
     "definition": "A bundle of neurons with their connective tissue sheaths, blood vessels and lymphatics.",
     "partOfSpeech": "noun"
   },
+  "netting": null,
   "nettle": {
     "definition": "Any plant whose foliage is covered with stinging, mildly poisonous hairs, causing an instant rash.",
     "partOfSpeech": "noun"
@@ -3537,14 +3557,19 @@
     "definition": "At no time; on no occasion; in no circumstance.",
     "partOfSpeech": "adverb"
   },
+  "next": null,
   "niacin": {
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
     "partOfSpeech": "noun"
   },
+  "nice": null,
+  "niece": null,
   "nimbi": {
     "definition": "A circle of light; a halo.",
     "partOfSpeech": "noun"
   },
+  "nine": null,
+  "nineteen": null,
   "ninny": {
     "definition": "A silly or foolish person.",
     "partOfSpeech": "noun"
@@ -3557,6 +3582,7 @@
     "definition": "To catch and enclose or compress tightly between two surfaces, or points which are brought together or closed; to pinch; to close in upon.",
     "partOfSpeech": "verb"
   },
+  "nite": null,
   "nitric": null,
   "nixing": {
     "definition": "To make something become nothing; to reject or cancel.",
@@ -4225,6 +4251,7 @@
     "definition": "Technology",
     "partOfSpeech": "noun"
   },
+  "teeing": null,
   "teem": {
     "definition": "To be stocked to overflowing.",
     "partOfSpeech": "verb"
@@ -4269,6 +4296,9 @@
     "definition": "The person or thing coming next after the ninth in a series; that which is in the tenth position.",
     "partOfSpeech": "noun"
   },
+  "tenting": null,
+  "text": null,
+  "texting": null,
   "than": null,
   "that": {
     "definition": "Something being indicated that is there; one of those.",
@@ -4350,6 +4380,9 @@
     "partOfSpeech": "verb"
   },
   "tinct": null,
+  "tine": null,
+  "tinge": null,
+  "tingeing": null,
   "tinging": null,
   "tinning": {
     "definition": "To place into a tin in order to preserve.",

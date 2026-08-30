@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T10:16:52.649Z",
+  "lastUpdated": "2026-08-30T09:22:22.800Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22780,6 +22780,30 @@
         "ESASZE",
         "PLARTL",
         "RETTCY"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "id": 910,
+      "editor": "Tracy Bennett",
+      "clue": "Hardly eager",
+      "spangram": "IDRATHERNOT",
+      "themeWords": [
+        "AVERSE",
+        "HESITANT",
+        "LOATH",
+        "RELUCTANT",
+        "UNWILLING"
+      ],
+      "board": [
+        "IDRUES",
+        "THANER",
+        "ALTWVG",
+        "ORHIAN",
+        "EUELLI",
+        "LCRHTN",
+        "ATNEAT",
+        "NTTOSI"
       ]
     }
   ]
