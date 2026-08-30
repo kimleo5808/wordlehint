@@ -16556,6 +16556,19 @@
       }
     ]
   },
+  "INTEL": {
+    "definition": "Intelligence (secret information)",
+    "partOfSpeech": "noun",
+    "example": "Intel is important in espionage.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Intelligence (secret information)",
+        "example": "Intel is important in espionage."
+      }
+    ]
+  },
   "INTER": {
     "definition": "To bury in a grave.",
     "partOfSpeech": "verb",
