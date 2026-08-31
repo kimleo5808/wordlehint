@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T09:22:22.800Z",
+  "lastUpdated": "2026-08-31T09:57:43.912Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22804,6 +22804,31 @@
         "LCRHTN",
         "ATNEAT",
         "NTTOSI"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "id": 911,
+      "editor": "Tracy Bennett",
+      "clue": "With a little elbow grease",
+      "spangram": "POWERWASH",
+      "themeWords": [
+        "BLEACH",
+        "CLEANSER",
+        "DETERGENT",
+        "SCRUB",
+        "SOAP",
+        "SOLVENT"
+      ],
+      "board": [
+        "LVPETE",
+        "OEOWDR",
+        "STNENG",
+        "LENRTE",
+        "CASWCU",
+        "REASRB",
+        "SASBAC",
+        "OPHLEH"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T09:22:22.282Z",
+  "lastUpdated": "2026-08-31T09:57:43.445Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55034,6 +55034,53 @@
             "OUTLAW",
             "REWARD",
             "WANTED"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "id": 1177,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS THAT COME IN TUBES",
+          "words": [
+            "LIPSTICK",
+            "POSTER",
+            "TENNIS BALLS",
+            "TOOTHPASTE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WARNINGS ON A SHIPPING BOX",
+          "words": [
+            "FRAGILE",
+            "HEAVY",
+            "PERISHABLE",
+            "THIS SIDE UP"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "HISTORICAL SOVEREIGN TITLES",
+          "words": [
+            "CALIPH",
+            "KHAN",
+            "PHARAOH",
+            "SHOGUN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ BOWL",
+          "words": [
+            "DUST",
+            "POKE",
+            "SALAD",
+            "SUPER"
           ]
         }
       ]

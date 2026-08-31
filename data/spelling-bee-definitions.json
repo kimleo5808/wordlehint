@@ -7,6 +7,7 @@
     "definition": "In bed, or on the bed; confined to bed.",
     "partOfSpeech": "adverb"
   },
+  "ably": null,
   "aboard": {
     "definition": "On board; into or within a ship or boat; hence, into or within a railway car.",
     "partOfSpeech": "adverb"
@@ -93,6 +94,7 @@
     "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
     "partOfSpeech": "noun"
   },
+  "adorably": null,
   "adorn": {
     "definition": "Adornment",
     "partOfSpeech": "noun"
@@ -146,10 +148,13 @@
     "definition": "An alga.",
     "partOfSpeech": "noun"
   },
+  "allay": null,
   "allot": {
     "definition": "To distribute or apportion by (or as if by) lot.",
     "partOfSpeech": "verb"
   },
+  "alloy": null,
+  "ally": null,
   "aloha": {
     "definition": "Good wishes, love.",
     "partOfSpeech": "noun"
@@ -417,6 +422,7 @@
     "definition": "To mark or distinguish with a badge.",
     "partOfSpeech": "verb"
   },
+  "badly": null,
   "baggage": {
     "definition": "(usually uncountable) Luggage; traveling equipment",
     "partOfSpeech": "noun"
@@ -429,6 +435,13 @@
     "definition": "(law enforcement) An officer of the court, particularly:",
     "partOfSpeech": "noun"
   },
+  "bald": null,
+  "baldly": null,
+  "ball": null,
+  "ballad": null,
+  "balladry": null,
+  "ballboy": null,
+  "ballyard": null,
   "banana": {
     "definition": "An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.",
     "partOfSpeech": "noun"
@@ -582,10 +595,16 @@
   "birria": null,
   "biting": null,
   "bitumen": null,
+  "blab": null,
+  "blabby": null,
+  "blob": null,
+  "blobby": null,
   "bloc": {
     "definition": "A group of voters or politicians who share common goals.",
     "partOfSpeech": "noun"
   },
+  "blood": null,
+  "bloody": null,
   "boar": {
     "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
     "partOfSpeech": "noun"
@@ -622,6 +641,12 @@
     "definition": "The sound made by an elastic object (such as a spring) when bouncing; the sound of a bounce.",
     "partOfSpeech": "noun"
   },
+  "bola": null,
+  "bold": null,
+  "boldly": null,
+  "boll": null,
+  "bollard": null,
+  "bolo": null,
   "bonbon": {
     "definition": "A sweet, especially a small chocolate-covered candy.",
     "partOfSpeech": "noun"
@@ -698,6 +723,7 @@
     "definition": "A shallow lake, one of a number of bodies of water in eastern Norfolk and Suffolk.",
     "partOfSpeech": "noun"
   },
+  "broadly": null,
   "brood": {
     "definition": "The young of certain animals, especially a group of young birds or fowl hatched at one time by the same mother.",
     "partOfSpeech": "noun"
@@ -1323,6 +1349,7 @@
     "definition": "To press lightly in a repetitive motion with a soft object without rubbing.",
     "partOfSpeech": "verb"
   },
+  "dally": null,
   "damaging": null,
   "damming": null,
   "dammit": {
@@ -1553,6 +1580,7 @@
     "definition": "A toy in the form of a human.",
     "partOfSpeech": "noun"
   },
+  "dollar": null,
   "dolly": null,
   "dolor": null,
   "donation": null,
@@ -1617,6 +1645,7 @@
     "partOfSpeech": "noun"
   },
   "drab": null,
+  "drably": null,
   "drat": {
     "definition": "To damn or curse.",
     "partOfSpeech": "verb"
@@ -2743,7 +2772,9 @@
     "partOfSpeech": "adjective"
   },
   "kudu": null,
+  "labor": null,
   "laden": null,
+  "lady": null,
   "lama": {
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
@@ -2774,6 +2805,7 @@
     "partOfSpeech": "noun"
   },
   "lantana": null,
+  "lard": null,
   "largo": {
     "definition": "A very slow tempo",
     "partOfSpeech": "noun"
@@ -2926,6 +2958,7 @@
     "definition": "A bottom-feeding freshwater fish in the superfamily or suborder Cobitoidea.",
     "partOfSpeech": "noun"
   },
+  "load": null,
   "loam": {
     "definition": "A type of soil; an earthy mixture of sand, silt and clay, with organic matter to which its fertility is chiefly due.",
     "partOfSpeech": "noun"
@@ -2942,6 +2975,9 @@
     "definition": "To detest, hate, revile.",
     "partOfSpeech": "verb"
   },
+  "lobby": null,
+  "loblolly": null,
+  "lobo": null,
   "local": {
     "definition": "A person who lives near a given place.",
     "partOfSpeech": "noun"
@@ -2991,6 +3027,7 @@
     "definition": "Expressing mild emotion, such as exasperation or frustration.",
     "partOfSpeech": "interjection"
   },
+  "lorry": null,
   "lotion": {
     "definition": "A low- to medium-viscosity topical preparation intended for application to unbroken skin.",
     "partOfSpeech": "noun"
@@ -3011,6 +3048,8 @@
     "definition": "One who loves and cares for another person in a romantic way; a sweetheart, love, soulmate, boyfriend, girlfriend or spouse.",
     "partOfSpeech": "noun"
   },
+  "loyal": null,
+  "loyally": null,
   "madam": {
     "definition": "A polite form of address for a woman or lady.",
     "partOfSpeech": "noun"
@@ -3690,6 +3729,7 @@
     "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",
     "partOfSpeech": "noun"
   },
+  "oddball": null,
   "oddly": {
     "definition": "In a peculiar manner; strangely; unusually.",
     "partOfSpeech": "adverb"
@@ -3757,6 +3797,8 @@
     "definition": "The best of its kind",
     "partOfSpeech": "noun"
   },
+  "oral": null,
+  "orally": null,
   "orator": null,
   "oratory": null,
   "orca": null,
@@ -4010,6 +4052,7 @@
     "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
     "partOfSpeech": "noun"
   },
+  "rally": null,
   "rand": null,
   "rando": null,
   "random": {
@@ -4089,6 +4132,8 @@
     "definition": "A style of baroque architecture and decorative art, from 18th-century France, having elaborate ornamentation.",
     "partOfSpeech": "noun"
   },
+  "roll": null,
+  "rollbar": null,
   "rollover": null,
   "rondo": null,
   "rood": null,
@@ -4120,6 +4165,8 @@
     "definition": "(usually in the plural) A randomly selected target.",
     "partOfSpeech": "noun"
   },
+  "royal": null,
+  "royally": null,
   "ruin": {
     "definition": "(sometimes in the plural) The remains of a destroyed or dilapidated construction, such as a house or castle.",
     "partOfSpeech": "noun"
