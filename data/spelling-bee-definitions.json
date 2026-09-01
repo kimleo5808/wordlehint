@@ -148,6 +148,7 @@
     "definition": "An alga.",
     "partOfSpeech": "noun"
   },
+  "alit": null,
   "allay": null,
   "allot": {
     "definition": "To distribute or apportion by (or as if by) lot.",
@@ -332,6 +333,7 @@
     "definition": "A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.",
     "partOfSpeech": "noun"
   },
+  "atilt": null,
   "atoll": {
     "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
     "partOfSpeech": "noun"
@@ -393,6 +395,7 @@
   },
   "avidity": null,
   "avidly": null,
+  "await": null,
   "baaed": {
     "definition": "To make the characteristic cry of a sheep.",
     "partOfSpeech": "verb"
@@ -1392,6 +1395,7 @@
     "definition": "Excrement or clay used as a bonding material in construction.",
     "partOfSpeech": "noun"
   },
+  "dawn": null,
   "deaden": null,
   "deadened": {
     "definition": "To render less lively; to diminish; to muffle.",
@@ -1491,6 +1495,7 @@
   },
   "dhoti": null,
   "diacritic": null,
+  "dial": null,
   "dicta": null,
   "didact": null,
   "didactic": {
@@ -2641,6 +2646,7 @@
     "partOfSpeech": "noun"
   },
   "ingot": null,
+  "initial": null,
   "initiation": {
     "definition": "The act of initiating, or the process of being initiated or introduced",
     "partOfSpeech": "noun"
@@ -2649,6 +2655,8 @@
     "definition": "To apply ink to; to cover or smear with ink.",
     "partOfSpeech": "verb"
   },
+  "inlaid": null,
+  "inland": null,
   "innie": null,
   "inning": {
     "definition": "A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game.",
@@ -2775,6 +2783,8 @@
   "labor": null,
   "laden": null,
   "lady": null,
+  "laid": null,
+  "lain": null,
   "lama": {
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
@@ -2787,6 +2797,7 @@
     "definition": "A device that generates heat, light or other radiation. Especially an electric light bulb.",
     "partOfSpeech": "noun"
   },
+  "lanai": null,
   "lance": {
     "definition": "A weapon of war, consisting of a long shaft or handle and a steel blade or head; a spear carried by horsemen.",
     "partOfSpeech": "noun"
@@ -2836,6 +2847,7 @@
     "definition": "To pour or throw out, as water; lade out; bail; bail out.",
     "partOfSpeech": "verb"
   },
+  "lawn": null,
   "layman": null,
   "laymen": {
     "definition": "Layperson, someone who is not an ordained cleric or member of the clergy.",
@@ -3486,10 +3498,12 @@
     "definition": "Nothing.",
     "partOfSpeech": "pronoun"
   },
+  "naiad": null,
   "naif": {
     "definition": "One who is naive.",
     "partOfSpeech": "noun"
   },
+  "nail": null,
   "name": {
     "definition": "Any nounal word or phrase which indicates a particular person, place, class, or thing.",
     "partOfSpeech": "noun"
@@ -4221,11 +4235,13 @@
     "partOfSpeech": "noun"
   },
   "tahini": null,
+  "tail": null,
   "tailcoat": {
     "definition": "A formal evening jacket with an extended back panel; a dress coat.",
     "partOfSpeech": "noun"
   },
   "taillamp": null,
+  "tailwind": null,
   "taint": {
     "definition": "A contamination, decay or putrefaction, especially in food",
     "partOfSpeech": "noun"
@@ -4234,6 +4250,9 @@
     "definition": "A marked natural ability or skill.",
     "partOfSpeech": "noun"
   },
+  "tali": null,
+  "tall": null,
+  "tallit": null,
   "taming": {
     "definition": "To make (an animal) tame; to domesticate.",
     "partOfSpeech": "verb"
@@ -4400,6 +4419,7 @@
     "definition": "The papal crown.",
     "partOfSpeech": "noun"
   },
+  "tidal": null,
   "tidbit": null,
   "tight": null,
   "till": {
@@ -4639,6 +4659,7 @@
     "partOfSpeech": "verb"
   },
   "tutu": null,
+  "twain": null,
   "twee": null,
   "tweet": {
     "definition": "The sound of a bird; any short high-pitched sound or whistle.",
@@ -4857,6 +4878,12 @@
     "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",
     "partOfSpeech": "noun"
   },
+  "wail": null,
+  "wait": null,
+  "wall": null,
+  "wand": null,
+  "wanna": null,
+  "want": null,
   "wart": {
     "definition": "A type of deformed growth occurring on the skin caused by the human papillomavirus (HPV).",
     "partOfSpeech": "noun"
@@ -4887,6 +4914,7 @@
     "definition": "A living creature, especially a human being.",
     "partOfSpeech": "noun"
   },
+  "wildland": null,
   "with": {
     "definition": "Along, together with others, in a group, etc.",
     "partOfSpeech": "adverb"

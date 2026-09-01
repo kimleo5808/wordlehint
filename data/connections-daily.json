@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T09:57:43.445Z",
+  "lastUpdated": "2026-09-01T08:48:37.664Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55081,6 +55081,53 @@
             "POKE",
             "SALAD",
             "SUPER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "id": 1178,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "\"I PROMISE!\"",
+          "words": [
+            "CROSS MY HEART",
+            "FOR REAL",
+            "ON GOD",
+            "PINKY SWEAR"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "LONG, SKINNY THINGS OFTEN SEEN TOGETHER",
+          "words": [
+            "ARROW",
+            "GOLF CLUB",
+            "PICK-UP STICK",
+            "SPAGHETTO"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PRIVATE INVESTIGATORS OF FICTION",
+          "words": [
+            "HERCULE POIROT",
+            "MIKE HAMMER",
+            "SAM SPADE",
+            "SHERLOCK HOLMES"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH WORDS OF INTENTION",
+          "words": [
+            "AIMEE MANN",
+            "HOPE DIAMOND",
+            "PLANETARIUM",
+            "WISHY-WASHY"
           ]
         }
       ]
