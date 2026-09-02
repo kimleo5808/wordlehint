@@ -100,6 +100,7 @@
     "partOfSpeech": "noun"
   },
   "affably": null,
+  "affiant": null,
   "affray": {
     "definition": "The act of suddenly disturbing anyone; an assault or attack.",
     "partOfSpeech": "noun"
@@ -264,6 +265,7 @@
     "definition": "A grotesque representation of a figure; a gargoyle.",
     "partOfSpeech": "noun"
   },
+  "antifa": null,
   "anvil": {
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
@@ -1918,6 +1920,7 @@
     "definition": "Poor quality; substandard workmanship.",
     "partOfSpeech": "noun"
   },
+  "faint": null,
   "fall": {
     "definition": "The act of moving to a lower position under the effect of gravity.",
     "partOfSpeech": "noun"
@@ -1927,6 +1930,8 @@
     "definition": "The female genitalia.",
     "partOfSpeech": "noun"
   },
+  "fantail": null,
+  "fatal": null,
   "fecund": {
     "definition": "Highly fertile; able to produce offspring.",
     "partOfSpeech": "adjective"
@@ -1959,6 +1964,7 @@
     "definition": "To carry on a feud.",
     "partOfSpeech": "verb"
   },
+  "fiat": null,
   "fiddly": {
     "definition": "Requiring dexterity to operate.",
     "partOfSpeech": "adjective"
@@ -1972,6 +1978,7 @@
     "definition": "To occupy fully, to take up all of.",
     "partOfSpeech": "verb"
   },
+  "fillip": null,
   "filly": {
     "definition": "A young female horse.",
     "partOfSpeech": "noun"
@@ -2004,10 +2011,16 @@
     "definition": "Baked tart with sweet or savoury filling in an open-topped pastry case. (Compare quiche.)",
     "partOfSpeech": "noun"
   },
+  "flap": null,
+  "flat": null,
   "flay": {
     "definition": "A fright; a scare.",
     "partOfSpeech": "noun"
   },
+  "flint": null,
+  "flip": null,
+  "flippant": null,
+  "flit": null,
   "flood": {
     "definition": "A (usually disastrous) overflow of water from a lake or other body of water due to excessive rainfall or other input of water.",
     "partOfSpeech": "noun"
@@ -2641,6 +2654,7 @@
     "partOfSpeech": "noun"
   },
   "infallibly": null,
+  "infant": null,
   "infill": {
     "definition": "That which fills in a space, hole or gap.",
     "partOfSpeech": "noun"
@@ -2910,6 +2924,7 @@
     "definition": "(except in generalized senses below) A crowbar.",
     "partOfSpeech": "noun"
   },
+  "lift": null,
   "lilt": {
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
     "partOfSpeech": "noun"
@@ -3895,6 +3910,7 @@
   },
   "penning": null,
   "pepping": null,
+  "pfft": null,
   "pidgin": {
     "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
     "partOfSpeech": "noun"
@@ -3911,6 +3927,7 @@
     "definition": "A pigsty; an enclosure where pigs are kept.",
     "partOfSpeech": "noun"
   },
+  "pilaf": null,
   "pimp": {
     "definition": "Someone who solicits customers for prostitution and acts as manager for a group of prostitutes; a pander.",
     "partOfSpeech": "noun"
@@ -3947,6 +3964,8 @@
     "definition": "To play (music) on a pipe instrument, such as a bagpipe or a flute.",
     "partOfSpeech": "verb"
   },
+  "pitfall": null,
+  "plaintiff": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
     "partOfSpeech": "noun"
@@ -4421,6 +4440,7 @@
   },
   "tidal": null,
   "tidbit": null,
+  "tiff": null,
   "tight": null,
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",

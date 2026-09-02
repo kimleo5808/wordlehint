@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T08:48:37.664Z",
+  "lastUpdated": "2026-09-02T08:01:30.370Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55128,6 +55128,53 @@
             "HOPE DIAMOND",
             "PLANETARIUM",
             "WISHY-WASHY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": 1179,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FLABBERGAST",
+          "words": [
+            "DAZZLE",
+            "FLOOR",
+            "STUN",
+            "WOW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS IN A VIOLIN CASE",
+          "words": [
+            "BOW",
+            "MUTE",
+            "ROSIN",
+            "SHOULDER REST"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___ DOGS (THAT ARE DOGS)",
+          "words": [
+            "HUNTING",
+            "RESCUE",
+            "SAUSAGE",
+            "SHEEP"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ DOGS (THAT AREN'T DOGS)",
+          "words": [
+            "CORN",
+            "PRAIRIE",
+            "SALTY",
+            "TOP"
           ]
         }
       ]

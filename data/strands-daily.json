@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T08:48:38.077Z",
+  "lastUpdated": "2026-09-02T08:01:30.905Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22853,6 +22853,30 @@
         "EETGTI",
         "ROFPRT",
         "SSEOEL"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "id": 913,
+      "editor": "Tracy Bennett",
+      "clue": "All will be revealed",
+      "spangram": "COMETOLIGHT",
+      "themeWords": [
+        "ARISE",
+        "EMERGE",
+        "MANIFEST",
+        "MATERIALIZE",
+        "SURFACE"
+      ],
+      "board": [
+        "EGHTTE",
+        "EMIMAR",
+        "GELZAI",
+        "RIOEIL",
+        "SRTESE",
+        "EAUMTF",
+        "FRSONI",
+        "ACECAM"
       ]
     }
   ]
