@@ -1073,6 +1073,11 @@
     "definition": "To grip or hold fast.",
     "partOfSpeech": "verb"
   },
+  "client": {
+    "definition": "A customer, a buyer or receiver of goods or services.",
+    "partOfSpeech": "noun"
+  },
+  "clientele": null,
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
     "partOfSpeech": "noun"
@@ -1724,6 +1729,10 @@
     "partOfSpeech": "noun"
   },
   "echolocate": null,
+  "eclectic": {
+    "definition": "Someone who selects according to the eclectic method.",
+    "partOfSpeech": "noun"
+  },
   "edge": {
     "definition": "The boundary line of a surface.",
     "partOfSpeech": "noun"
@@ -1775,6 +1784,11 @@
     "partOfSpeech": "noun"
   },
   "eland": null,
+  "elect": {
+    "definition": "One chosen or set apart.",
+    "partOfSpeech": "noun"
+  },
+  "electee": null,
   "element": {
     "definition": "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based.",
     "partOfSpeech": "noun"
@@ -1786,6 +1800,14 @@
   "elementally": null,
   "eleven": {
     "definition": "A cricket team of eleven players. Hence first eleven - the team of best cricket players (at a school), second eleven - the \"B\" team, etc.",
+    "partOfSpeech": "noun"
+  },
+  "elicit": {
+    "definition": "To evoke, educe (emotions, feelings, responses, etc.); to generate, obtain, or provoke as a response or answer.",
+    "partOfSpeech": "verb"
+  },
+  "elite": {
+    "definition": "A special group or social class of people which have a superior intellectual, social or economic status as, the elite of society.",
     "partOfSpeech": "noun"
   },
   "elver": {
@@ -1867,6 +1889,7 @@
   "entente": null,
   "entice": null,
   "enticing": null,
+  "entitle": null,
   "envelop": {
     "definition": "To surround or enclose.",
     "partOfSpeech": "verb"
@@ -2558,6 +2581,10 @@
     "definition": "The upper and widest of the three bones that make up each side of the hipbone and pelvis.",
     "partOfSpeech": "noun"
   },
+  "illicit": {
+    "definition": "A banned or unlawful item.",
+    "partOfSpeech": "noun"
+  },
   "imaging": {
     "definition": "To represent by an image or symbol; to portray.",
     "partOfSpeech": "verb"
@@ -2671,6 +2698,10 @@
   },
   "inlaid": null,
   "inland": null,
+  "inlet": {
+    "definition": "To let in; admit.",
+    "partOfSpeech": "verb"
+  },
   "innie": null,
   "inning": {
     "definition": "A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game.",
@@ -2679,6 +2710,11 @@
   "intact": {
     "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
     "partOfSpeech": "adjective"
+  },
+  "intel": null,
+  "intellect": {
+    "definition": "The faculty of thinking, judging, abstract reasoning, and conceptual understanding; the cognitive faculty (uncountable)",
+    "partOfSpeech": "noun"
   },
   "intent": null,
   "intimating": {
@@ -2760,6 +2796,13 @@
     "definition": "A gambling game, a variety of the game of lotto, played with balls or knobs, numbered, and cards also numbered.",
     "partOfSpeech": "noun"
   },
+  "kente": null,
+  "kettle": null,
+  "kilt": null,
+  "kinetic": {
+    "definition": "Relating to motion",
+    "partOfSpeech": "adjective"
+  },
   "king": {
     "definition": "A male monarch; a man who heads a monarchy. If it's an absolute monarchy, then he is the supreme ruler of his nation.",
     "partOfSpeech": "noun"
@@ -2776,6 +2819,11 @@
     "definition": "To laugh loudly.",
     "partOfSpeech": "verb"
   },
+  "kite": null,
+  "kitten": {
+    "definition": "A young cat, especially before sexual maturity (reached at about seven months).",
+    "partOfSpeech": "noun"
+  },
   "knee": {
     "definition": "In humans, the joint or the region of the joint in the middle part of the leg between the thigh and the shank.",
     "partOfSpeech": "noun"
@@ -2785,6 +2833,8 @@
     "definition": "To kneel to.",
     "partOfSpeech": "verb"
   },
+  "knelt": null,
+  "knit": null,
   "kook": {
     "definition": "An eccentric, strange or crazy person.",
     "partOfSpeech": "noun"
@@ -2900,10 +2950,12 @@
     "definition": "The lumbar region; loin.",
     "partOfSpeech": "noun"
   },
+  "lenient": null,
   "lent": {
     "definition": "A period of the ecclesiastical year preceding Easter, traditionally involving temporary abstention from certain foods and pleasures.",
     "partOfSpeech": "noun"
   },
+  "lentil": null,
   "lethal": {
     "definition": "Any weapon that causes death.",
     "partOfSpeech": "noun"
@@ -2924,6 +2976,7 @@
     "definition": "(except in generalized senses below) A crowbar.",
     "partOfSpeech": "noun"
   },
+  "licit": null,
   "lift": null,
   "lilt": {
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
@@ -2950,10 +3003,12 @@
     "definition": "An irregular, jerky or awkward gait.",
     "partOfSpeech": "noun"
   },
+  "linnet": null,
   "lint": {
     "definition": "A fine material made by scraping cotton or linen cloth; used for dressing wounds.",
     "partOfSpeech": "noun"
   },
+  "lintel": null,
   "lion": {
     "definition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
     "partOfSpeech": "noun"
@@ -2962,10 +3017,19 @@
     "definition": "A nonmalignant tumor comprising fat cells.",
     "partOfSpeech": "noun"
   },
+  "lite": {
+    "definition": "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light.",
+    "partOfSpeech": "noun"
+  },
   "litho": {
     "definition": "To lithograph.",
     "partOfSpeech": "verb"
   },
+  "little": {
+    "definition": "A small amount.",
+    "partOfSpeech": "noun"
+  },
+  "littleneck": null,
   "livid": {
     "definition": "Having a dark, bluish appearance.",
     "partOfSpeech": "adjective"
@@ -3586,6 +3650,10 @@
     "partOfSpeech": "noun"
   },
   "necked": null,
+  "necktie": {
+    "definition": "A strip of cloth worn around the neck and tied in the front. See also bowtie.",
+    "partOfSpeech": "noun"
+  },
   "need": {
     "definition": "A requirement for something; something needed.",
     "partOfSpeech": "noun"
@@ -3612,6 +3680,7 @@
     "definition": "A bundle of neurons with their connective tissue sheaths, blood vessels and lymphatics.",
     "partOfSpeech": "noun"
   },
+  "netlike": null,
   "netting": null,
   "nettle": {
     "definition": "Any plant whose foliage is covered with stinging, mildly poisonous hairs, causing an instant rash.",
@@ -4361,6 +4430,11 @@
     "definition": "Healthcare facilitated by telecommunication technology.",
     "partOfSpeech": "noun"
   },
+  "telekinetic": null,
+  "tell": {
+    "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "partOfSpeech": "noun"
+  },
   "tenant": {
     "definition": "One who pays a fee (rent) in return for the use of land, buildings, or other property owned by others.",
     "partOfSpeech": "noun"
@@ -4438,10 +4512,21 @@
     "definition": "The papal crown.",
     "partOfSpeech": "noun"
   },
+  "tick": {
+    "definition": "A tiny woodland arachnid of the suborder Ixodida.",
+    "partOfSpeech": "noun"
+  },
+  "ticket": {
+    "definition": "A pass entitling the holder to admission to a show, concert, etc.",
+    "partOfSpeech": "noun"
+  },
+  "tickle": null,
   "tidal": null,
   "tidbit": null,
   "tiff": null,
   "tight": null,
+  "tiki": null,
+  "tile": null,
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",
     "partOfSpeech": "preposition"
@@ -4471,6 +4556,7 @@
   "tinge": null,
   "tingeing": null,
   "tinging": null,
+  "tinkle": null,
   "tinning": {
     "definition": "To place into a tin in order to preserve.",
     "partOfSpeech": "verb"
@@ -4503,6 +4589,14 @@
   "titivating": {
     "definition": "To make small improvements or alterations to (one's appearance etc.); to add some finishing touches to.",
     "partOfSpeech": "verb"
+  },
+  "title": {
+    "definition": "A prefix (honorific) or suffix (post-nominal) added to a person's name to signify either veneration, official position or a professional or academic qualification. See also",
+    "partOfSpeech": "noun"
+  },
+  "tittle": {
+    "definition": "A small, insignificant amount (of something); a modicum or speck.",
+    "partOfSpeech": "noun"
   },
   "toad": null,
   "toccata": {

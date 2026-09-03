@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T08:01:30.370Z",
+  "lastUpdated": "2026-09-03T08:11:13.398Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55175,6 +55175,53 @@
             "PRAIRIE",
             "SALTY",
             "TOP"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": 1180,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TWO SHAKES OF A LAMB'S TAIL",
+          "words": [
+            "BLINK",
+            "FLASH",
+            "HEARTBEAT",
+            "TRICE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SHADES OF RED",
+          "words": [
+            "CARMINE",
+            "CINNABAR",
+            "MAROON",
+            "VERMILLION"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "TOY CAR BRANDS",
+          "words": [
+            "HOT WHEELS",
+            "MATCHBOX",
+            "MICRO MACHINES",
+            "TONKA"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SPREADSHEET FUNCTIONS",
+          "words": [
+            "AVERAGE",
+            "COUNT",
+            "MAX",
+            "SUM"
           ]
         }
       ]

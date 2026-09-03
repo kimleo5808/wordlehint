@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T08:01:30.905Z",
+  "lastUpdated": "2026-09-03T08:11:13.984Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22877,6 +22877,33 @@
         "EAUMTF",
         "FRSONI",
         "ACECAM"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "id": 914,
+      "editor": "Tracy Bennett",
+      "clue": "Hike!",
+      "spangram": "FOOTBALL",
+      "themeWords": [
+        "DOWN",
+        "KICK",
+        "PASS",
+        "PLAY",
+        "RUSH",
+        "STADIUM",
+        "TACKLE",
+        "UPRIGHT"
+      ],
+      "board": [
+        "KLESUT",
+        "CDATPH",
+        "AIUMRG",
+        "TOOTBI",
+        "FPASSA",
+        "KIKLLD",
+        "CURAOW",
+        "HSYLPN"
       ]
     }
   ]
