@@ -67,6 +67,7 @@
     "definition": "An imaginary rock or mineral of impenetrable hardness; a name given to the diamond and other substances of extreme hardness.",
     "partOfSpeech": "noun"
   },
+  "added": null,
   "addend": null,
   "addenda": null,
   "addict": {
@@ -74,6 +75,8 @@
     "partOfSpeech": "noun"
   },
   "addition": null,
+  "addle": null,
+  "addled": null,
   "adman": {
     "definition": "A person in the business of devising, writing, illustrating or selling advertisements.",
     "partOfSpeech": "noun"
@@ -99,6 +102,7 @@
     "definition": "Adornment",
     "partOfSpeech": "noun"
   },
+  "adze": null,
   "affably": null,
   "affiant": null,
   "affray": {
@@ -151,6 +155,7 @@
   },
   "alit": null,
   "allay": null,
+  "allayed": null,
   "allot": {
     "definition": "To distribute or apportion by (or as if by) lot.",
     "partOfSpeech": "verb"
@@ -196,6 +201,7 @@
     "partOfSpeech": "noun"
   },
   "anally": null,
+  "analyzed": null,
   "ancho": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
@@ -1359,6 +1365,8 @@
     "definition": "To press lightly in a repetitive motion with a soft object without rubbing.",
     "partOfSpeech": "verb"
   },
+  "daddy": null,
+  "dale": null,
   "dally": null,
   "damaging": null,
   "damming": null,
@@ -1382,6 +1390,10 @@
     "partOfSpeech": "verb"
   },
   "dandled": null,
+  "dandy": {
+    "definition": "A man very concerned about his clothes and his appearance.",
+    "partOfSpeech": "noun"
+  },
   "darn": {
     "definition": "Euphemism of damn.",
     "partOfSpeech": "verb"
@@ -1403,10 +1415,28 @@
     "partOfSpeech": "noun"
   },
   "dawn": null,
+  "daze": null,
+  "dazed": {
+    "definition": "To stun or stupefy, for example with bright light, with a blow, with cold, or with fear",
+    "partOfSpeech": "verb"
+  },
+  "dazedly": null,
+  "dazzle": null,
+  "dazzled": null,
+  "dead": {
+    "definition": "(with \"the\", a demonstrative, or a possessive) Those who have died.",
+    "partOfSpeech": "noun"
+  },
   "deaden": null,
   "deadened": {
     "definition": "To render less lively; to diminish; to muffle.",
     "partOfSpeech": "verb"
+  },
+  "deadeye": null,
+  "deadly": null,
+  "deal": {
+    "definition": "A division, a portion, a share.",
+    "partOfSpeech": "noun"
   },
   "dean": {
     "definition": "A senior official in a college or university, who may be in charge of a division or faculty (for example, the dean of science) or have some other advisory or disciplinary function (for example, the dean of students).",
@@ -1438,6 +1468,11 @@
     "definition": "To reach a conclusion by applying rules of logic to given premises.",
     "partOfSpeech": "verb"
   },
+  "deed": {
+    "definition": "An action or act; something that is done.",
+    "partOfSpeech": "noun"
+  },
+  "deeded": null,
   "deeding": {
     "definition": "To transfer real property by deed.",
     "partOfSpeech": "verb"
@@ -1488,9 +1523,19 @@
   },
   "deke": null,
   "deked": null,
+  "delay": {
+    "definition": "A period of time before an event occurs; the act of delaying; procrastination; lingering inactivity.",
+    "partOfSpeech": "noun"
+  },
+  "delayed": null,
+  "dell": null,
   "denim": {
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
+  },
+  "deny": {
+    "definition": "To disallow or reject.",
+    "partOfSpeech": "verb"
   },
   "depending": {
     "definition": "(followed by on or upon, formerly also by of) To be contingent or conditioned; to have something as a necessary condition; to hinge on.",
@@ -1712,6 +1757,9 @@
   "dunk": null,
   "dunked": null,
   "dunno": null,
+  "dyad": null,
+  "dyed": null,
+  "dyne": null,
   "each": {
     "definition": "(operations) An individual item: the least quantitative unit in a grouping.",
     "partOfSpeech": "noun"
@@ -1733,6 +1781,7 @@
     "definition": "Someone who selects according to the eclectic method.",
     "partOfSpeech": "noun"
   },
+  "eddy": null,
   "edge": {
     "definition": "The boundary line of a surface.",
     "partOfSpeech": "noun"
@@ -1935,6 +1984,7 @@
   },
   "extent": null,
   "extinct": null,
+  "eyed": null,
   "eyeteeth": {
     "definition": "A canine tooth of the upper jaw in humans.",
     "partOfSpeech": "noun"
@@ -2845,7 +2895,11 @@
   },
   "kudu": null,
   "labor": null,
+  "lade": null,
+  "laded": null,
   "laden": null,
+  "ladle": null,
+  "ladled": null,
   "lady": null,
   "laid": null,
   "lain": null,
@@ -2875,6 +2929,7 @@
     "definition": "To descend to a surface, especially from the air.",
     "partOfSpeech": "verb"
   },
+  "landlady": null,
   "lane": {
     "definition": "(used in street names) A road, street, or similar thoroughfare.",
     "partOfSpeech": "noun"
@@ -2917,14 +2972,21 @@
     "definition": "Layperson, someone who is not an ordained cleric or member of the clergy.",
     "partOfSpeech": "noun"
   },
+  "lazed": null,
   "leach": {
     "definition": "A quantity of wood ashes, through which water passes, and thus imbibes the alkali.",
     "partOfSpeech": "noun"
   },
+  "lead": {
+    "definition": "A heavy, pliable, inelastic metal element, having a bright, bluish color, but easily tarnished; both malleable and ductile, though with little tenacity. It is easily fusible, forms alloys with other metals, and is an ingredient of solder and type metal. Atomic number 82, symbol Pb (from Latin plumbum).",
+    "partOfSpeech": "noun"
+  },
+  "leaded": null,
   "leaden": {
     "definition": "To make or become dull or overcast.",
     "partOfSpeech": "verb"
   },
+  "leadenly": null,
   "lean": {
     "definition": "(of an object taller than its width and depth) An inclination away from the vertical.",
     "partOfSpeech": "noun"
@@ -2942,6 +3004,7 @@
     "definition": "A strong, lecherous desire or craving.",
     "partOfSpeech": "noun"
   },
+  "lede": null,
   "leech": {
     "definition": "An aquatic blood-sucking annelid of class Hirudinea, especially Hirudo medicinalis.",
     "partOfSpeech": "noun"
@@ -3671,6 +3734,10 @@
     "partOfSpeech": "noun"
   },
   "needled": null,
+  "needy": {
+    "definition": "In need; poor.",
+    "partOfSpeech": "adjective"
+  },
   "nene": {
     "definition": "The Hawaiian goose, Branta sandvicensis, which was designated the state bird of Hawaii in 1957.",
     "partOfSpeech": "noun"
@@ -5069,6 +5136,8 @@
     "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
     "partOfSpeech": "noun"
   },
+  "yelled": null,
+  "yenned": null,
   "yenta": {
     "definition": "A woman who meddles in the business of others; a busybody; a female gossipmonger.",
     "partOfSpeech": "noun"

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T08:11:13.398Z",
+  "lastUpdated": "2026-09-04T08:06:16.663Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55222,6 +55222,53 @@
             "COUNT",
             "MAX",
             "SUM"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "id": 1181,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SPHERICAL THINGS",
+          "words": [
+            "BOWLING BALL",
+            "EYE",
+            "MOON",
+            "ORANGE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FOOD WHOSE NAME IS TWO FOODS",
+          "words": [
+            "CAKE DONUT",
+            "CANDY CORN",
+            "CHERRY TOMATO",
+            "PIZZA PIE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF EELS",
+          "words": [
+            "CONGER",
+            "GULPER",
+            "MORAY",
+            "RIBBON"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ACCESSORIES INSIDE STARTING AND ENDING LETTERS",
+          "words": [
+            "CRINGY",
+            "OPINE",
+            "STIED",
+            "THAT'S"
           ]
         }
       ]
