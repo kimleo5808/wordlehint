@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T08:06:16.663Z",
+  "lastUpdated": "2026-09-05T07:46:24.147Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55269,6 +55269,53 @@
             "OPINE",
             "STIED",
             "THAT'S"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": 1182,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "MOVE UNSTEADILY",
+          "words": [
+            "SWAY",
+            "TODDLE",
+            "TOTTER",
+            "WOBBLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "BIRD ONOMATOPOEIA",
+          "words": [
+            "COO",
+            "GOBBLE",
+            "HONK",
+            "WARBLE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___HEAD",
+          "words": [
+            "BOBBLE",
+            "HAMMER",
+            "JUG",
+            "SLEEPY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "DESSERTS MINUS LAST LETTER",
+          "words": [
+            "COBBLE",
+            "PI",
+            "TAR",
+            "TORT"
           ]
         }
       ]

@@ -814,6 +814,7 @@
     "definition": "The act or state of declining or sinking.",
     "partOfSpeech": "noun"
   },
+  "caiman": null,
   "cairn": {
     "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument.",
     "partOfSpeech": "noun"
@@ -826,6 +827,7 @@
     "definition": "Any of various tropical plants grown in the Americas, especially of the genus Xanthosoma, cultivated for their edible leaves.",
     "partOfSpeech": "noun"
   },
+  "cami": null,
   "canal": {
     "definition": "An artificial waterway or artificially improved river used for travel, shipping, or irrigation.",
     "partOfSpeech": "noun"
@@ -2220,6 +2222,8 @@
     "definition": "That which is easily obtained, or certain to occur.",
     "partOfSpeech": "noun"
   },
+  "gimmick": null,
+  "gimmicking": null,
   "ginkgo": {
     "definition": "Ginkgo biloba, a tree native to China with small, fan-shaped leaves and edible seeds.",
     "partOfSpeech": "noun"
@@ -3204,6 +3208,7 @@
   },
   "loyal": null,
   "loyally": null,
+  "macing": null,
   "madam": {
     "definition": "A polite form of address for a woman or lady.",
     "partOfSpeech": "noun"
@@ -3213,6 +3218,11 @@
     "partOfSpeech": "noun"
   },
   "magi": null,
+  "magic": {
+    "definition": "The application of rituals or actions, especially those based on occult knowledge, to subdue or manipulate natural or supernatural beings and forces in order to have some benefit from them",
+    "partOfSpeech": "noun"
+  },
+  "magician": null,
   "magma": {
     "definition": "The molten matter within the earth, the source of the material of lava flows, dikes of eruptive rocks, etc.",
     "partOfSpeech": "noun"
@@ -3240,6 +3250,11 @@
     "definition": "To support (someone), to back up or assist (someone) in an action.",
     "partOfSpeech": "verb"
   },
+  "maki": null,
+  "making": {
+    "definition": "The act of forming, causing, or constituting; workmanship; construction.",
+    "partOfSpeech": "noun"
+  },
   "mall": null,
   "malt": {
     "definition": "Malted grain (sprouted grain) (usually barley), used in brewing and otherwise.",
@@ -3263,6 +3278,7 @@
     "partOfSpeech": "noun"
   },
   "managing": null,
+  "manakin": null,
   "manatee": {
     "definition": "Any of several plant-eating marine mammals, of family Trichechidae, found in tropical regions.",
     "partOfSpeech": "noun"
@@ -3280,6 +3296,9 @@
     "definition": "Violent derangement of mind; madness; insanity.",
     "partOfSpeech": "noun"
   },
+  "maniac": null,
+  "manic": null,
+  "manikin": null,
   "manly": {
     "definition": "Having the characteristics of a man.",
     "partOfSpeech": "adjective"
@@ -3388,6 +3407,7 @@
     "definition": "A quality of endurance and courage.",
     "partOfSpeech": "noun"
   },
+  "mica": null,
   "midge": {
     "definition": "Any of various small two-winged flies, for example, from the family Chironomidae or non-biting midges, the family Chaoboridae or phantom midges, and the family Ceratopogonidae or biting midges, all belonging to the order Diptera",
     "partOfSpeech": "noun"
@@ -3400,6 +3420,7 @@
     "definition": "Demeanor; facial expression or attitude, especially one which is intended by its bearer.",
     "partOfSpeech": "noun"
   },
+  "miking": null,
   "mile": {
     "definition": "The international mile: a unit of length precisely equal to 1.609344 kilometers established by treaty among Anglophone nations in 1959, divided into 5,280 feet or 1,760 yards.",
     "partOfSpeech": "noun"
@@ -3433,10 +3454,13 @@
     "definition": "To mimic.",
     "partOfSpeech": "verb"
   },
+  "mimic": null,
+  "mimicking": null,
   "miming": {
     "definition": "To mimic.",
     "partOfSpeech": "verb"
   },
+  "mincing": null,
   "mind": {
     "definition": "The ability for rational thought.",
     "partOfSpeech": "noun"
@@ -3461,6 +3485,7 @@
     "definition": "Miniature, tiny, small.",
     "partOfSpeech": "adjective"
   },
+  "minicam": null,
   "minim": {
     "definition": "A half note, drawn as a semibreve with a stem.",
     "partOfSpeech": "noun"
@@ -3485,6 +3510,7 @@
     "definition": "The lowest limit.",
     "partOfSpeech": "noun"
   },
+  "mink": null,
   "mint": {
     "definition": "A building or institution where money (originally, only coins) is produced under government licence.",
     "partOfSpeech": "noun"
@@ -3767,6 +3793,7 @@
     "partOfSpeech": "noun"
   },
   "nice": null,
+  "nicknaming": null,
   "niece": null,
   "nimbi": {
     "definition": "A circle of light; a halo.",

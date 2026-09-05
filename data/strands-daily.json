@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T08:06:17.485Z",
+  "lastUpdated": "2026-09-05T07:46:24.627Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22928,6 +22928,33 @@
         "ITEIIP",
         "ORARVD",
         "NHEBAE"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "id": 916,
+      "editor": "Tracy Bennett",
+      "clue": "Informally known as",
+      "spangram": "CRITTER",
+      "themeWords": [
+        "BUDGIE",
+        "CHIMP",
+        "CROC",
+        "GATOR",
+        "HIPPO",
+        "PEKE",
+        "RATTLER",
+        "RHINO"
+      ],
+      "board": [
+        "EGACHI",
+        "KPTOMR",
+        "ERRTPE",
+        "CGIHTO",
+        "IBDIPP",
+        "ERUREL",
+        "HIROTT",
+        "ONCCAR"
       ]
     }
   ]
