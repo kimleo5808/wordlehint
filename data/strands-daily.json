@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T07:46:24.627Z",
+  "lastUpdated": "2026-09-06T08:01:04.640Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -22955,6 +22955,30 @@
         "ERUREL",
         "HIROTT",
         "ONCCAR"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": 917,
+      "editor": "Tracy Bennett",
+      "clue": "I've seen better",
+      "spangram": "NOTHINGSPECIAL",
+      "themeWords": [
+        "ADEQUATE",
+        "ALRIGHT",
+        "AVERAGE",
+        "MEDIOCRE",
+        "OKAY"
+      ],
+      "board": [
+        "NOTOCR",
+        "EAHIEE",
+        "QDIDME",
+        "AUNRAG",
+        "RTGSEA",
+        "LIEPEV",
+        "AGOYCI",
+        "THKALA"
       ]
     }
   ]

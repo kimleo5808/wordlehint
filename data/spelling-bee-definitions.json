@@ -1,4 +1,12 @@
 {
+  "abandon": {
+    "definition": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
+    "partOfSpeech": "verb"
+  },
+  "abandoned": {
+    "definition": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
+    "partOfSpeech": "verb"
+  },
   "abbot": {
     "definition": "The superior or head of an abbey or monastery.",
     "partOfSpeech": "noun"
@@ -12,6 +20,7 @@
     "definition": "On board; into or within a ship or boat; hence, into or within a railway car.",
     "partOfSpeech": "adverb"
   },
+  "abode": null,
   "abort": {
     "definition": "A miscarriage; an untimely birth; an abortion.",
     "partOfSpeech": "noun"
@@ -93,6 +102,7 @@
     "definition": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration",
     "partOfSpeech": "verb"
   },
+  "adobe": null,
   "adobo": {
     "definition": "A Philippine dish in which pork or chicken is slowly cooked in a sauce including soy sauce, vinegar, and crushed garlic.",
     "partOfSpeech": "noun"
@@ -416,6 +426,7 @@
     "definition": "A baby or infant; a very young human or animal.",
     "partOfSpeech": "noun"
   },
+  "baboon": null,
   "baccarat": {
     "definition": "A card game resembling chemin de fer with many forms - usually entailing the player(s) betting against two or three hands dealt - also bearing some similarities to blackjack.",
     "partOfSpeech": "noun"
@@ -563,6 +574,7 @@
     "definition": "To request the help of someone, often in the form of money.",
     "partOfSpeech": "verb"
   },
+  "begone": null,
   "behead": {
     "definition": "To remove the head of; to cut someone's head off.",
     "partOfSpeech": "verb"
@@ -632,6 +644,7 @@
     "definition": "Short for boba tea.",
     "partOfSpeech": "noun"
   },
+  "bobbed": null,
   "bobbin": {
     "definition": "A spool or cylinder around which wire is coiled.",
     "partOfSpeech": "noun"
@@ -644,6 +657,10 @@
     "definition": "A game, similar to bowls or pétanque, played on a long, narrow, dirt-covered court",
     "partOfSpeech": "noun"
   },
+  "bode": null,
+  "boded": null,
+  "bodega": null,
+  "bogged": null,
   "bogging": {
     "definition": "(now often with \"down\") To sink or submerge someone or something into bogland.",
     "partOfSpeech": "verb"
@@ -662,6 +679,17 @@
     "definition": "A sweet, especially a small chocolate-covered candy.",
     "partOfSpeech": "noun"
   },
+  "bond": {
+    "definition": "Evidence of a long-term debt, by which the bond issuer (the borrower) is obliged to pay interest when due, and repay the principal at maturity, as specified on the face of the bond certificate. The rights of the holder are specified in the bond indenture, which contains the legal terms and conditions under which the bond was issued. Bonds are available in two forms: registered bonds, and bearer bonds.",
+    "partOfSpeech": "noun"
+  },
+  "bondage": null,
+  "bonded": null,
+  "bone": {
+    "definition": "A composite material consisting largely of calcium phosphate and collagen and making up the skeleton of most vertebrates.",
+    "partOfSpeech": "noun"
+  },
+  "boned": null,
   "bong": {
     "definition": "The clang of a large bell.",
     "partOfSpeech": "noun"
@@ -690,6 +718,7 @@
     "definition": "A mistake or error.",
     "partOfSpeech": "noun"
   },
+  "booed": null,
   "booing": null,
   "boon": null,
   "boor": {
@@ -1444,6 +1473,8 @@
     "definition": "A senior official in a college or university, who may be in charge of a division or faculty (for example, the dean of science) or have some other advisory or disciplinary function (for example, the dean of students).",
     "partOfSpeech": "noun"
   },
+  "debone": null,
+  "deboned": null,
   "decadence": {
     "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
@@ -1629,6 +1660,7 @@
     "definition": "(clothing) To remove or take off, especially of clothing.",
     "partOfSpeech": "verb"
   },
+  "dogbane": null,
   "doggo": {
     "definition": "A dog.",
     "partOfSpeech": "noun"
@@ -1774,6 +1806,7 @@
     "definition": "To flow back or recede",
     "partOfSpeech": "verb"
   },
+  "ebon": null,
   "echo": {
     "definition": "A reflected sound that is heard again by its initial observer.",
     "partOfSpeech": "noun"
@@ -3657,6 +3690,7 @@
     "partOfSpeech": "noun"
   },
   "nabbed": null,
+  "nabob": null,
   "nacelle": {
     "definition": "A separate streamlined enclosure mounted on an aircraft to house an engine, cargo, or crew.",
     "partOfSpeech": "noun"
@@ -3909,6 +3943,7 @@
     "definition": "Death of a person.",
     "partOfSpeech": "noun"
   },
+  "oboe": null,
   "occlude": {
     "definition": "To obstruct, cover, or otherwise block (an opening, a portion of an image, etc.).",
     "partOfSpeech": "verb"

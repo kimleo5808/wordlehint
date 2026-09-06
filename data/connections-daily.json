@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T07:46:24.147Z",
+  "lastUpdated": "2026-09-06T08:01:04.029Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55316,6 +55316,53 @@
             "PI",
             "TAR",
             "TORT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "id": 1183,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "UNRESTRICTED PERMISSION",
+          "words": [
+            "BLANK CHECK",
+            "CARTE BLANCHE",
+            "FREE REIGN",
+            "FULL AUTHORITY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PLACES TO INSERT SOMETHING INTO ON A COMPUTER",
+          "words": [
+            "CARD SLOT",
+            "HEADPHONE JACK",
+            "OPTICAL DRIVE",
+            "USB PORT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ABBREVIATIONS FOLLOWED BY REDUNDANT WORD",
+          "words": [
+            "ATM MACHINE",
+            "LCD DISPLAY",
+            "PIN NUMBER",
+            "UPC CODE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING WITH WAYS TO CARVE A SURFACE",
+          "words": [
+            "COURT SCRIBE",
+            "DIRECTOR'S CUT",
+            "PIZZA SLICE",
+            "SAT SCORE"
           ]
         }
       ]
