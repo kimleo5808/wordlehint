@@ -1045,10 +1045,17 @@
     "definition": "The soft skin on each side of the face, below the eyes; the outer surface of the sides of the oral cavity.",
     "partOfSpeech": "noun"
   },
+  "cheep": null,
+  "cheeped": null,
   "cheetah": {
     "definition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head. It is native to Africa and also credited with being the fastest terrestrial animal.",
     "partOfSpeech": "noun"
   },
+  "chip": {
+    "definition": "A small piece broken from a larger piece of solid material.",
+    "partOfSpeech": "noun"
+  },
+  "chipped": null,
   "chocoholic": {
     "definition": "Someone who has such a liking for chocolate that they appear to be addicted to it.",
     "partOfSpeech": "noun"
@@ -1522,6 +1529,10 @@
     "definition": "To judge, to pass judgment on; to doom, to sentence.",
     "partOfSpeech": "verb"
   },
+  "deep": {
+    "definition": "(with \"the\") The deep part of a lake, sea, etc.",
+    "partOfSpeech": "noun"
+  },
   "deepening": {
     "definition": "To make deep or deeper",
     "partOfSpeech": "verb"
@@ -1573,6 +1584,12 @@
   "depending": {
     "definition": "(followed by on or upon, formerly also by of) To be contingent or conditioned; to have something as a necessary condition; to hinge on.",
     "partOfSpeech": "verb"
+  },
+  "depict": null,
+  "depicted": null,
+  "depth": {
+    "definition": "The vertical distance below a surface; the degree to which something is deep",
+    "partOfSpeech": "noun"
   },
   "deuce": {
     "definition": "A card with two pips, one of four in a standard deck of playing cards.",
@@ -1630,6 +1647,7 @@
     "partOfSpeech": "verb"
   },
   "dint": null,
+  "dipped": null,
   "dipping": {
     "definition": "To lower into a liquid.",
     "partOfSpeech": "verb"
@@ -1982,6 +2000,9 @@
     "definition": "A paper or cardboard wrapper used to enclose small, flat items, especially letters, for mailing.",
     "partOfSpeech": "noun"
   },
+  "epee": null,
+  "epic": null,
+  "epithet": null,
   "etch": {
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
@@ -2545,6 +2566,7 @@
     "definition": "A clue.",
     "partOfSpeech": "noun"
   },
+  "hippie": null,
   "hoar": null,
   "hoard": null,
   "hoary": {
@@ -4084,10 +4106,13 @@
   },
   "pampa": null,
   "papilloma": null,
+  "peed": null,
   "peeing": {
     "definition": "To urinate.",
     "partOfSpeech": "verb"
   },
+  "peep": null,
+  "peeped": null,
   "peeping": {
     "definition": "To make a soft, shrill noise like a baby bird.",
     "partOfSpeech": "verb"
@@ -4107,12 +4132,24 @@
     "partOfSpeech": "noun"
   },
   "penning": null,
+  "pepped": null,
   "pepping": null,
+  "peptic": null,
+  "peptide": null,
+  "petit": null,
+  "petite": null,
+  "petted": null,
   "pfft": null,
   "pidgin": {
     "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
     "partOfSpeech": "noun"
   },
+  "piece": {
+    "definition": "A part of a larger whole, usually in such a form that it is able to be separated from other parts.",
+    "partOfSpeech": "noun"
+  },
+  "pieced": null,
+  "pied": null,
   "pigged": {
     "definition": "(of swine) to give birth.",
     "partOfSpeech": "verb"
@@ -4158,11 +4195,24 @@
     "definition": "To shape metal by striking it, especially with a peen.",
     "partOfSpeech": "verb"
   },
+  "pipe": null,
+  "piped": null,
+  "pipet": null,
+  "pipette": null,
   "piping": {
     "definition": "To play (music) on a pipe instrument, such as a bagpipe or a flute.",
     "partOfSpeech": "verb"
   },
+  "pipit": null,
+  "pitch": {
+    "definition": "A sticky, gummy substance secreted by trees; sap.",
+    "partOfSpeech": "noun"
+  },
+  "pitched": null,
   "pitfall": null,
+  "pith": null,
+  "pitied": null,
+  "pitted": null,
   "plaintiff": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
@@ -4547,6 +4597,7 @@
     "definition": "Very small; tiny.",
     "partOfSpeech": "adjective"
   },
+  "teepee": null,
   "teeth": {
     "definition": "The ability to be enforced, or to be enforced to any useful effect.",
     "partOfSpeech": "noun"
@@ -4585,6 +4636,8 @@
     "partOfSpeech": "noun"
   },
   "tenting": null,
+  "tepee": null,
+  "tepid": null,
   "text": null,
   "texting": null,
   "than": null,
@@ -4703,6 +4756,9 @@
     "definition": "A small child; an infant.",
     "partOfSpeech": "noun"
   },
+  "tipi": null,
+  "tipped": null,
+  "tippet": null,
   "titan": {
     "definition": "Something or someone of very large stature, greatness, or godliness.",
     "partOfSpeech": "noun"

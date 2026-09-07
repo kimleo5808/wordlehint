@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T08:01:04.029Z",
+  "lastUpdated": "2026-09-07T08:31:24.849Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55363,6 +55363,53 @@
             "DIRECTOR'S CUT",
             "PIZZA SLICE",
             "SAT SCORE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "id": 1184,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "QUITE THE SAGA",
+          "words": [
+            "FABRICATION",
+            "FISH STORY",
+            "TALL TALE",
+            "YARN"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTS OF A BRA",
+          "words": [
+            "CUP",
+            "HOOK",
+            "STRAP",
+            "UNDERWIRE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ASSOCIATED WITH PINE TREES",
+          "words": [
+            "CAR AIR FRESHENER",
+            "CHRISTMAS",
+            "NEEDLES",
+            "TURPENTINE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH DISNEY CHARACTERS",
+          "words": [
+            "PLUTONIUM",
+            "SCAR TISSUE",
+            "STITCH MARKER",
+            "TRAMPOLINE"
           ]
         }
       ]

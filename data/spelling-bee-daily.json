@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T08:01:05.223Z",
+  "lastUpdated": "2026-09-07T08:31:25.971Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -62517,6 +62517,66 @@
         "nabob",
         "noob",
         "oboe"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-07",
+      "id": 10303,
+      "centerLetter": "p",
+      "outerLetters": [
+        "c",
+        "d",
+        "e",
+        "h",
+        "i",
+        "t"
+      ],
+      "pangrams": [
+        "pitched"
+      ],
+      "answers": [
+        "cheep",
+        "cheeped",
+        "chip",
+        "chipped",
+        "deep",
+        "depict",
+        "depicted",
+        "depth",
+        "dipped",
+        "epee",
+        "epic",
+        "epithet",
+        "hippie",
+        "peed",
+        "peep",
+        "peeped",
+        "pepped",
+        "peptic",
+        "peptide",
+        "petit",
+        "petite",
+        "petted",
+        "piece",
+        "pieced",
+        "pied",
+        "pipe",
+        "piped",
+        "pipet",
+        "pipette",
+        "pipit",
+        "pitch",
+        "pitched",
+        "pith",
+        "pitied",
+        "pitted",
+        "teepee",
+        "tepee",
+        "tepid",
+        "tipi",
+        "tipped",
+        "tippet"
       ],
       "editor": "Sam Ezersky"
     }
