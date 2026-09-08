@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T08:31:24.849Z",
+  "lastUpdated": "2026-09-08T08:13:52.164Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55410,6 +55410,53 @@
             "SCAR TISSUE",
             "STITCH MARKER",
             "TRAMPOLINE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "id": 1185,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CLASSIC AMERICAN PERFORMANCE CARS",
+          "words": [
+            "CORVETTE",
+            "FIREBIRD",
+            "MUSTANG",
+            "VIPER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FEATURES OF A MIME COSTUME",
+          "words": [
+            "BERET",
+            "GLOVES",
+            "STRIPES",
+            "SUSPENDERS"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___ HEART",
+          "words": [
+            "ARTICHOKE",
+            "PURPLE",
+            "SACRED",
+            "TAKE TO"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "CANDY BARS PLUS A LETTER",
+          "words": [
+            "DOVES",
+            "MARSH",
+            "SKORT",
+            "TWIXT"
           ]
         }
       ]

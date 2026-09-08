@@ -50,6 +50,7 @@
     "definition": "Agreement or concurrence of opinion, will, or action.",
     "partOfSpeech": "noun"
   },
+  "acetic": null,
   "ache": {
     "definition": "Continued dull pain, as distinguished from sudden twinges, or spasmodic pain.",
     "partOfSpeech": "noun"
@@ -115,6 +116,8 @@
   "adze": null,
   "affably": null,
   "affiant": null,
+  "affiliate": null,
+  "afflict": null,
   "affray": {
     "definition": "The act of suddenly disturbing anyone; an assault or attack.",
     "partOfSpeech": "noun"
@@ -848,6 +851,7 @@
     "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument.",
     "partOfSpeech": "noun"
   },
+  "calcite": null,
   "calico": {
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
     "partOfSpeech": "noun"
@@ -959,6 +963,7 @@
     "definition": "Of the Western Christian church, as differentiated from e.g. the Orthodox church.",
     "partOfSpeech": "adjective"
   },
+  "cattail": null,
   "cavity": {
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
@@ -975,8 +980,10 @@
     "definition": "A celebrity; a famous person.",
     "partOfSpeech": "noun"
   },
+  "celiac": null,
   "cell": null,
   "celled": null,
+  "celli": null,
   "cello": {
     "definition": "A large stringed instrument of the violin family with four strings, tuned from lowest to highest C-G-D-A, and played with a bow, also possessing an endpin to support the instrument's weight.",
     "partOfSpeech": "noun"
@@ -1081,6 +1088,7 @@
     "partOfSpeech": "noun"
   },
   "cicada": null,
+  "cilia": null,
   "circa": null,
   "circuit": {
     "definition": "The act of moving or revolving around, or as in a circle or orbit; a revolution",
@@ -1122,6 +1130,10 @@
     "partOfSpeech": "noun"
   },
   "clientele": null,
+  "cliff": {
+    "definition": "A vertical (or nearly vertical) rock face.",
+    "partOfSpeech": "noun"
+  },
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
     "partOfSpeech": "noun"
@@ -2045,6 +2057,13 @@
     "definition": "A canine tooth of the upper jaw in humans.",
     "partOfSpeech": "noun"
   },
+  "facelift": null,
+  "facial": null,
+  "facile": null,
+  "facilitate": {
+    "definition": "To make easy or easier.",
+    "partOfSpeech": "verb"
+  },
   "fail": {
     "definition": "Poor quality; substandard workmanship.",
     "partOfSpeech": "noun"
@@ -2098,6 +2117,13 @@
     "definition": "Requiring dexterity to operate.",
     "partOfSpeech": "adjective"
   },
+  "fief": null,
+  "fife": null,
+  "file": {
+    "definition": "A collection of papers collated and archived together.",
+    "partOfSpeech": "noun"
+  },
+  "filet": null,
   "filial": {
     "definition": "Pertaining to or befitting a son or daughter.",
     "partOfSpeech": "adjective"
@@ -2107,6 +2133,7 @@
     "definition": "To occupy fully, to take up all of.",
     "partOfSpeech": "verb"
   },
+  "fillet": null,
   "fillip": null,
   "filly": {
     "definition": "A young female horse.",
@@ -2666,7 +2693,9 @@
     "definition": "The act of hunting.",
     "partOfSpeech": "noun"
   },
+  "icefall": null,
   "ichor": null,
+  "icicle": null,
   "idiot": null,
   "idly": null,
   "idol": null,
@@ -2686,6 +2715,7 @@
     "definition": "The last, and usually the longest, division of the small intestine; the part between the jejunum and large intestine.",
     "partOfSpeech": "noun"
   },
+  "iliac": null,
   "ilium": {
     "definition": "The upper and widest of the three bones that make up each side of the hipbone and pelvis.",
     "partOfSpeech": "noun"
@@ -2878,6 +2908,7 @@
     "definition": "Any medication designed to cause irritation",
     "partOfSpeech": "noun"
   },
+  "italic": null,
   "item": {
     "definition": "A distinct physical object.",
     "partOfSpeech": "noun"
@@ -2954,12 +2985,15 @@
   },
   "kudu": null,
   "labor": null,
+  "lactic": null,
   "lade": null,
   "laded": null,
   "laden": null,
   "ladle": null,
   "ladled": null,
   "lady": null,
+  "laic": null,
+  "laical": null,
   "laid": null,
   "lain": null,
   "lama": {
@@ -3017,6 +3051,7 @@
     "definition": "To invite; bid; ask.",
     "partOfSpeech": "verb"
   },
+  "lattice": null,
   "lava": {
     "definition": "The molten rock ejected by a volcano from its crater or fissured sides.",
     "partOfSpeech": "noun"
@@ -3068,6 +3103,7 @@
     "definition": "An aquatic blood-sucking annelid of class Hirudinea, especially Hirudo medicinalis.",
     "partOfSpeech": "noun"
   },
+  "leftie": null,
   "lend": {
     "definition": "The lumbar region; loin.",
     "partOfSpeech": "noun"
@@ -3098,8 +3134,14 @@
     "definition": "(except in generalized senses below) A crowbar.",
     "partOfSpeech": "noun"
   },
+  "lice": null,
   "licit": null,
+  "life": {
+    "definition": "The state of organisms preceding their death, characterized by biological processes such as metabolism and reproduction and distinguishing them from inanimate objects; the state of being alive and living.",
+    "partOfSpeech": "noun"
+  },
   "lift": null,
+  "lilac": null,
   "lilt": {
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
     "partOfSpeech": "noun"
@@ -4497,10 +4539,12 @@
     "definition": "A maneuver, or action calculated to achieve some end.",
     "partOfSpeech": "noun"
   },
+  "tactical": null,
   "tactician": {
     "definition": "A person skilled in the planning and execution of tactics.",
     "partOfSpeech": "noun"
   },
+  "tactile": null,
   "tahini": null,
   "tail": null,
   "tailcoat": {
@@ -4771,6 +4815,7 @@
     "definition": "A tenth.",
     "partOfSpeech": "noun"
   },
+  "titillate": null,
   "titivating": {
     "definition": "To make small improvements or alterations to (one's appearance etc.); to add some finishing touches to.",
     "partOfSpeech": "verb"

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T08:31:25.356Z",
+  "lastUpdated": "2026-09-08T08:13:52.653Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23003,6 +23003,31 @@
         "OMPESW",
         "EORTTA",
         "SIMELY"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "id": 919,
+      "editor": "Tracy Bennett",
+      "clue": "It's elementary!",
+      "spangram": "BACKTOSCHOOL",
+      "themeWords": [
+        "CUBBY",
+        "DESK",
+        "EASEL",
+        "GLOBE",
+        "MARKERS",
+        "WHITEBOARD"
+      ],
+      "board": [
+        "OTKCAB",
+        "SLEGLE",
+        "ACESOB",
+        "ORHACU",
+        "EBDOYB",
+        "TIHWOB",
+        "REAMDL",
+        "SKRESK"
       ]
     }
   ]
