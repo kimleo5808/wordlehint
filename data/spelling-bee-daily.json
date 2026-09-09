@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T08:13:53.352Z",
+  "lastUpdated": "2026-09-09T08:17:12.964Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -62663,6 +62663,45 @@
         "titillate",
         "title",
         "tittle"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-09",
+      "id": 22702,
+      "centerLetter": "r",
+      "outerLetters": [
+        "i",
+        "l",
+        "n",
+        "o",
+        "p",
+        "u"
+      ],
+      "pangrams": [
+        "purloin"
+      ],
+      "answers": [
+        "inurn",
+        "iron",
+        "noir",
+        "nori",
+        "poor",
+        "porn",
+        "porno",
+        "pour",
+        "prion",
+        "prior",
+        "pronoun",
+        "prop",
+        "purl",
+        "purloin",
+        "purr",
+        "rill",
+        "roil",
+        "roll",
+        "ruin",
+        "unroll"
       ],
       "editor": "Sam Ezersky"
     }

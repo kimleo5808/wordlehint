@@ -2904,6 +2904,10 @@
     "definition": "The ninth letter of the Greek alphabet.",
     "partOfSpeech": "noun"
   },
+  "iron": {
+    "definition": "A common, inexpensive metal, silvery grey when untarnished, that rusts, is attracted by magnets, and is used in making steel.",
+    "partOfSpeech": "noun"
+  },
   "irritant": {
     "definition": "Any medication designed to cause irritation",
     "partOfSpeech": "noun"
@@ -3923,6 +3927,7 @@
   },
   "node": null,
   "nohow": null,
+  "noir": null,
   "nomad": null,
   "nomination": {
     "definition": "An act or instance of nominating.",
@@ -3951,6 +3956,7 @@
     "definition": "The ninth hour of the day counted from sunrise; around three o'clock in the afternoon.",
     "partOfSpeech": "noun"
   },
+  "nori": null,
   "norm": {
     "definition": "That which is normal or typical.",
     "partOfSpeech": "noun"
@@ -4279,6 +4285,13 @@
     "definition": "Any plant of the genus Papaver or the family Papaveraceae, with crumpled, often red, petals and a milky juice having narcotic properties; especially the common poppy or corn poppy (Papaver rhoeas) which has orange-red flowers; the flower of such a plant.",
     "partOfSpeech": "noun"
   },
+  "porn": null,
+  "porno": null,
+  "pour": {
+    "definition": "The act of pouring.",
+    "partOfSpeech": "noun"
+  },
+  "prion": null,
   "prior": {
     "definition": "A high-ranking member of a monastery, usually lower in rank than an abbot.",
     "partOfSpeech": "noun"
@@ -4295,6 +4308,7 @@
     "definition": "An extraordinary thing seen as an omen; a portent.",
     "partOfSpeech": "noun"
   },
+  "pronoun": null,
   "prop": {
     "definition": "An object placed against or under another, to support it; anything that supports.",
     "partOfSpeech": "noun"
@@ -4311,6 +4325,9 @@
     "definition": "A semi-hard cheese made of whole milk from cows. It comes primarily from Southern Italy.",
     "partOfSpeech": "noun"
   },
+  "purl": null,
+  "purloin": null,
+  "purr": null,
   "pyro": {
     "definition": "A pyromaniac",
     "partOfSpeech": "noun"
@@ -4434,6 +4451,7 @@
     "definition": "Short for rigor mortis.",
     "partOfSpeech": "noun"
   },
+  "rill": null,
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",
     "partOfSpeech": "noun"
@@ -4455,6 +4473,7 @@
     "definition": "A style of baroque architecture and decorative art, from 18th-century France, having elaborate ornamentation.",
     "partOfSpeech": "noun"
   },
+  "roil": null,
   "roll": null,
   "rollbar": null,
   "rollover": null,
@@ -5088,6 +5107,7 @@
     "definition": "Not offended.",
     "partOfSpeech": "adjective"
   },
+  "unroll": null,
   "unthought": {
     "definition": "To undo the process of thinking.",
     "partOfSpeech": "verb"

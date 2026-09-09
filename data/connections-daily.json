@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T08:13:52.164Z",
+  "lastUpdated": "2026-09-09T08:17:11.830Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55457,6 +55457,53 @@
             "MARSH",
             "SKORT",
             "TWIXT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "id": 1186,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "HARD TO UNDERSTAND",
+          "words": [
+            "BEWILDERING",
+            "ESOTERIC",
+            "INCOMPREHENSIBLE",
+            "OPAQUE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WORDS WITH \"SMALL\" PREFIXES",
+          "words": [
+            "MICROBREWERY",
+            "MINIVAN",
+            "NANOTECHNOLOGY",
+            "PICOSECOND"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "HORROR MOVIES",
+          "words": [
+            "ARACHNOPHOBIA",
+            "HALLOWEEN",
+            "IT",
+            "SAW"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS BEFORE \"FORCE\"",
+          "words": [
+            "BRUTE",
+            "ELECTROMAGNETIC",
+            "G",
+            "TASK"
           ]
         }
       ]

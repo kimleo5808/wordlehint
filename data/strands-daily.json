@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T08:13:52.653Z",
+  "lastUpdated": "2026-09-09T08:17:12.359Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23028,6 +23028,31 @@
         "TIHWOB",
         "REAMDL",
         "SKRESK"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "id": 920,
+      "editor": "Tracy Bennett",
+      "clue": "Over and out(side)",
+      "spangram": "SUNANDSHADE",
+      "themeWords": [
+        "ARBOR",
+        "BOWER",
+        "CANOPY",
+        "GAZEBO",
+        "PAVILION",
+        "PERGOLA"
+      ],
+      "board": [
+        "EZAGPR",
+        "BONOEG",
+        "VILIAO",
+        "AREWOL",
+        "PANDSB",
+        "NRANPH",
+        "UOCOYA",
+        "SBRAED"
       ]
     }
   ]
