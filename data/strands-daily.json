@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T08:17:12.359Z",
+  "lastUpdated": "2026-09-10T08:17:03.190Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23053,6 +23053,31 @@
         "NRANPH",
         "UOCOYA",
         "SBRAED"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": 921,
+      "editor": "Tracy Bennett",
+      "clue": "Victory lap",
+      "spangram": "WEHAVEAWINNER",
+      "themeWords": [
+        "CROWN",
+        "LAURELS",
+        "MEDAL",
+        "PENNANT",
+        "PRIZE",
+        "TROPHY"
+      ],
+      "board": [
+        "NANTEZ",
+        "NPAVPI",
+        "EHOPER",
+        "ETRHYA",
+        "RWMEDW",
+        "NELAIU",
+        "WONNRA",
+        "RCSLEL"
       ]
     }
   ]

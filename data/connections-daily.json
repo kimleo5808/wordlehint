@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T08:17:11.830Z",
+  "lastUpdated": "2026-09-10T08:17:02.825Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55504,6 +55504,53 @@
             "ELECTROMAGNETIC",
             "G",
             "TASK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "id": 1187,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CHEMICAL ELEMENTS",
+          "words": [
+            "ACTINIUM",
+            "KRYPTON",
+            "LEAD",
+            "SULFUR"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WHAT YOU MIGHT SEE STICKING OUT OF A WINDOW",
+          "words": [
+            "AIR CONDITIONER",
+            "CATIO",
+            "CLOTHESLINE",
+            "FLOWER BOX"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "BRUCE SPRINGSTEEN CLASSICS",
+          "words": [
+            "ATLANTIC CITY",
+            "BADLANDS",
+            "BORN TO RUN",
+            "THUNDER ROAD"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN SYNONYMS FOR \"HAPPENING NOW\"",
+          "words": [
+            "ADULT CONTEMPORARY",
+            "ALTERNATING CURRENT",
+            "REPRESENT",
+            "SEXTANT"
           ]
         }
       ]

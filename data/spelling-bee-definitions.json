@@ -174,6 +174,8 @@
     "partOfSpeech": "verb"
   },
   "alloy": null,
+  "allude": null,
+  "alluded": null,
   "ally": null,
   "aloha": {
     "definition": "Good wishes, love.",
@@ -251,6 +253,9 @@
     "definition": "A feeling of discomfort or vexation caused by what one dislikes.",
     "partOfSpeech": "noun"
   },
+  "annual": null,
+  "annul": null,
+  "annulled": null,
   "anoint": {
     "definition": "To smear or rub over with oil or an unctuous substance; also, to spread over, as oil.",
     "partOfSpeech": "verb"
@@ -1585,10 +1590,14 @@
   },
   "delayed": null,
   "dell": null,
+  "delude": null,
+  "deluded": null,
   "denim": {
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
   },
+  "denude": null,
+  "denuded": null,
   "deny": {
     "definition": "To disallow or reject.",
     "partOfSpeech": "verb"
@@ -1802,11 +1811,15 @@
     "definition": "In a dry manner.",
     "partOfSpeech": "adverb"
   },
+  "dual": null,
   "duck": {
     "definition": "To quickly lower the head or body in order to prevent it from being struck by something.",
     "partOfSpeech": "verb"
   },
   "ducked": null,
+  "dude": null,
+  "duel": null,
+  "dueled": null,
   "duff": {
     "definition": "Dough.",
     "partOfSpeech": "noun"
@@ -1814,12 +1827,16 @@
   "dugong": null,
   "duke": null,
   "duked": null,
+  "dull": null,
+  "dulled": null,
+  "dune": null,
   "dung": {
     "definition": "Manure; animal excrement.",
     "partOfSpeech": "noun"
   },
   "dunk": null,
   "dunked": null,
+  "dunned": null,
   "dunno": null,
   "dyad": null,
   "dyed": null,
@@ -1924,6 +1941,8 @@
     "definition": "A special group or social class of people which have a superior intellectual, social or economic status as, the elite of society.",
     "partOfSpeech": "noun"
   },
+  "elude": null,
+  "eluded": null,
   "elver": {
     "definition": "A young eel.",
     "partOfSpeech": "noun"
@@ -1969,6 +1988,8 @@
     "partOfSpeech": "verb"
   },
   "endowed": null,
+  "endue": null,
+  "endued": null,
   "enema": null,
   "enemy": {
     "definition": "Someone who is hostile to, feels hatred towards, opposes the interests of, or intends injury to someone else.",
@@ -2515,6 +2536,8 @@
     "definition": "A piece of furniture used to store hats and clothing, consisting of a pole with pegs on a moderately broad base; a hatstand.",
     "partOfSpeech": "noun"
   },
+  "haul": null,
+  "hauled": null,
   "hayfork": {
     "definition": "A tool used for moving hay; a pitchfork.",
     "partOfSpeech": "noun"
@@ -2677,10 +2700,16 @@
     "definition": "A wife, a midwife.",
     "partOfSpeech": "noun"
   },
+  "huddle": null,
+  "huddled": null,
+  "hued": null,
   "huge": {
     "definition": "Very large.",
     "partOfSpeech": "adjective"
   },
+  "hula": null,
+  "hull": null,
+  "hulled": null,
   "hung": {
     "definition": "To be or remain suspended.",
     "partOfSpeech": "verb"
@@ -3056,6 +3085,8 @@
     "partOfSpeech": "verb"
   },
   "lattice": null,
+  "laud": null,
+  "lauded": null,
   "lava": {
     "definition": "The molten rock ejected by a volcano from its crater or fissured sides.",
     "partOfSpeech": "noun"
@@ -3309,6 +3340,14 @@
   },
   "loyal": null,
   "loyally": null,
+  "luau": null,
+  "lull": null,
+  "lulled": null,
+  "lulu": null,
+  "luna": null,
+  "lune": null,
+  "lunula": null,
+  "lunulae": null,
   "macing": null,
   "madam": {
     "definition": "A polite form of address for a woman or lady.",
@@ -3990,8 +4029,10 @@
     "definition": "A stub, especially a stub of undeveloped corn or fruit or nipple.",
     "partOfSpeech": "noun"
   },
+  "nude": null,
   "nuke": null,
   "nuked": null,
+  "null": null,
   "numb": {
     "definition": "To cause to become numb (physically or emotionally).",
     "partOfSpeech": "verb"
@@ -5041,6 +5082,8 @@
     "partOfSpeech": "noun"
   },
   "udon": null,
+  "ulna": null,
+  "ulnae": null,
   "unbutton": {
     "definition": "To open (something) by undoing its buttons.",
     "partOfSpeech": "verb"
@@ -5053,6 +5096,7 @@
   "unchecked": null,
   "uncuff": null,
   "uncuffed": null,
+  "undead": null,
   "undefended": {
     "definition": "Not defended.",
     "partOfSpeech": "adjective"
@@ -5061,6 +5105,7 @@
     "definition": "An operation that reverses a previous action.",
     "partOfSpeech": "noun"
   },
+  "undue": null,
   "unfed": {
     "definition": "A mosquito that has not had a blood meal.",
     "partOfSpeech": "noun"
@@ -5081,6 +5126,11 @@
     "definition": "To remove a connection to ground potential.",
     "partOfSpeech": "verb"
   },
+  "unhand": null,
+  "unhanded": null,
+  "unhandled": null,
+  "unhealed": null,
+  "unheeded": null,
   "unhood": {
     "definition": "To remove the hood from.",
     "partOfSpeech": "verb"
@@ -5098,11 +5148,14 @@
     "partOfSpeech": "noun"
   },
   "uniting": null,
+  "unladen": null,
+  "unleaded": null,
   "unmet": {
     "definition": "Not met; unfulfilled; not achieved",
     "partOfSpeech": "adjective"
   },
   "unmute": null,
+  "unneeded": null,
   "unoffended": {
     "definition": "Not offended.",
     "partOfSpeech": "adjective"
