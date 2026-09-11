@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T08:17:02.825Z",
+  "lastUpdated": "2026-09-11T08:11:47.412Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55551,6 +55551,53 @@
             "ALTERNATING CURRENT",
             "REPRESENT",
             "SEXTANT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "id": 1188,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PEOPLE HIRED FOR AN EVENT",
+          "words": [
+            "BAND",
+            "FLORIST",
+            "PHOTOGRAPHER",
+            "PLANNER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "INTERNALIZE",
+          "words": [
+            "ABSORB",
+            "DIGEST",
+            "PROCESS",
+            "TAKE IN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "WAYS TO PRACTICE SELF-CARE",
+          "words": [
+            "EXERCISE",
+            "JOURNAL",
+            "MEDITATE",
+            "UNPLUG"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT ARE PUSHED METAPHORICALLY",
+          "words": [
+            "AGENDA",
+            "ENVELOPE",
+            "LIMITS",
+            "LUCK"
           ]
         }
       ]

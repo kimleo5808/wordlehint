@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T08:17:03.725Z",
+  "lastUpdated": "2026-09-11T08:11:48.680Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -62775,6 +62775,51 @@
         "unladen",
         "unleaded",
         "unneeded"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-11",
+      "id": 17299,
+      "centerLetter": "k",
+      "outerLetters": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "h",
+        "i"
+      ],
+      "pangrams": [
+        "chickadee"
+      ],
+      "answers": [
+        "cake",
+        "caked",
+        "check",
+        "checked",
+        "cheek",
+        "chick",
+        "chickadee",
+        "deck",
+        "decked",
+        "deke",
+        "deked",
+        "dike",
+        "eked",
+        "hack",
+        "hacked",
+        "haka",
+        "hake",
+        "heck",
+        "hick",
+        "hike",
+        "hiked",
+        "khaki",
+        "kick",
+        "kicked",
+        "kidded",
+        "kiddie"
       ],
       "editor": "Sam Ezersky"
     }

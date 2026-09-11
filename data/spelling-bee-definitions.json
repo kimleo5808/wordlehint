@@ -856,6 +856,8 @@
     "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument.",
     "partOfSpeech": "noun"
   },
+  "cake": null,
+  "caked": null,
   "calcite": null,
   "calico": {
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
@@ -1063,6 +1065,8 @@
     "definition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head. It is native to Africa and also credited with being the fastest terrestrial animal.",
     "partOfSpeech": "noun"
   },
+  "chick": null,
+  "chickadee": null,
   "chip": {
     "definition": "A small piece broken from a larger piece of solid material.",
     "partOfSpeech": "noun"
@@ -1630,6 +1634,7 @@
     "definition": "To move hard-packed earth out of the way, especially downward to make a hole with a shovel. Or to drill, or the like, through rocks, roads, or the like. More generally, to make any similar hole by moving material out of the way.",
     "partOfSpeech": "verb"
   },
+  "dike": null,
   "dildo": null,
   "dill": {
     "definition": "Anethum graveolens (the type species of the genus Anethum), a herb, the seeds of which are moderately warming, pungent, and aromatic, formerly used as a soothing medicine for children; also known as dillseed.",
@@ -2450,7 +2455,11 @@
   },
   "gutting": null,
   "gyro": null,
+  "hack": null,
+  "hacked": null,
   "hairdo": null,
+  "haka": null,
+  "hake": null,
   "halal": {
     "definition": "To make halal.",
     "partOfSpeech": "verb"
@@ -2604,6 +2613,9 @@
     "partOfSpeech": "noun"
   },
   "hennaed": null,
+  "hick": null,
+  "hike": null,
+  "hiked": null,
   "hill": {
     "definition": "An elevated location smaller than a mountain.",
     "partOfSpeech": "noun"
@@ -2971,6 +2983,11 @@
   },
   "kente": null,
   "kettle": null,
+  "khaki": null,
+  "kick": null,
+  "kicked": null,
+  "kidded": null,
+  "kiddie": null,
   "kilt": null,
   "kinetic": {
     "definition": "Relating to motion",
