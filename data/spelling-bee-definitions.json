@@ -146,6 +146,7 @@
     "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
     "partOfSpeech": "noun"
   },
+  "airmail": null,
   "alcohol": {
     "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
     "partOfSpeech": "noun"
@@ -333,6 +334,8 @@
     "definition": "Very dry.",
     "partOfSpeech": "adjective"
   },
+  "aril": null,
+  "armpit": null,
   "arnica": {
     "definition": "Any of several plants, of the genus Arnica, considered to have medicinal properties, especially Arnica montana.",
     "partOfSpeech": "noun"
@@ -367,6 +370,7 @@
   "atom": null,
   "atomization": null,
   "atria": null,
+  "atrial": null,
   "attach": {
     "definition": "To fasten, to join to (literally and figuratively).",
     "partOfSpeech": "verb"
@@ -2795,10 +2799,13 @@
     "definition": "A person who is not susceptible to infection by a particular disease",
     "partOfSpeech": "noun"
   },
+  "impair": null,
   "impala": {
     "definition": "An African antelope, Aepyceros melampus, noted for its leaping ability; the male has ridged, curved horns.",
     "partOfSpeech": "noun"
   },
+  "impart": null,
+  "impartial": null,
   "impede": {
     "definition": "To get in the way of; to hinder.",
     "partOfSpeech": "verb"
@@ -3046,6 +3053,7 @@
   "laical": null,
   "laid": null,
   "lain": null,
+  "lair": null,
   "lama": {
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
@@ -3083,6 +3091,7 @@
     "definition": "A very slow tempo",
     "partOfSpeech": "noun"
   },
+  "lariat": null,
   "latch": {
     "definition": "To close or lock as if with a latch.",
     "partOfSpeech": "verb"
@@ -3186,6 +3195,7 @@
     "definition": "(except in generalized senses below) A crowbar.",
     "partOfSpeech": "noun"
   },
+  "liar": null,
   "lice": null,
   "licit": null,
   "life": {
@@ -3233,6 +3243,7 @@
     "definition": "A nonmalignant tumor comprising fat cells.",
     "partOfSpeech": "noun"
   },
+  "lira": null,
   "lite": {
     "definition": "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light.",
     "partOfSpeech": "noun"
@@ -3412,6 +3423,8 @@
     "definition": "The act of forming, causing, or constituting; workmanship; construction.",
     "partOfSpeech": "noun"
   },
+  "malaria": null,
+  "malarial": null,
   "mall": null,
   "malt": {
     "definition": "Malted grain (sprouted grain) (usually barley), used in brewing and otherwise.",
@@ -3487,6 +3500,7 @@
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "marital": null,
   "marmot": null,
   "maroon": {
     "definition": "An escaped negro slave of the Caribbean and the Americas or a descendant of escaped slaves.",
@@ -3496,6 +3510,7 @@
     "definition": "A market.",
     "partOfSpeech": "noun"
   },
+  "martial": null,
   "martyr": {
     "definition": "One who willingly accepts being put to death for adhering openly to one's religious beliefs; notably, saints canonized after martyrdom.",
     "partOfSpeech": "noun"
@@ -3696,6 +3711,7 @@
     "definition": "To reduce, lessen, or decrease; to make less severe or easier to bear.",
     "partOfSpeech": "verb"
   },
+  "mitral": null,
   "mitt": {
     "definition": "A mitten",
     "partOfSpeech": "noun"
@@ -4206,12 +4222,18 @@
     "definition": "To have rightful possession of (property, goods or capital); to have legal title to.",
     "partOfSpeech": "verb"
   },
+  "pail": null,
+  "pair": null,
+  "palatial": null,
   "palm": {
     "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics.",
     "partOfSpeech": "noun"
   },
   "pampa": null,
+  "papilla": null,
   "papilloma": null,
+  "partial": null,
+  "partita": null,
   "peed": null,
   "peeing": {
     "definition": "To urinate.",
@@ -4269,6 +4291,8 @@
     "partOfSpeech": "noun"
   },
   "pilaf": null,
+  "pill": null,
+  "pillar": null,
   "pimp": {
     "definition": "Someone who solicits customers for prostitution and acts as manager for a group of prostitutes; a pander.",
     "partOfSpeech": "noun"
@@ -4310,6 +4334,8 @@
     "partOfSpeech": "verb"
   },
   "pipit": null,
+  "pita": null,
+  "pitapat": null,
   "pitch": {
     "definition": "A sticky, gummy substance secreted by trees; sap.",
     "partOfSpeech": "noun"
@@ -4320,6 +4346,7 @@
   "pitied": null,
   "pitted": null,
   "plaintiff": null,
+  "plait": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
     "partOfSpeech": "noun"
@@ -4349,6 +4376,9 @@
     "definition": "The act of pouring.",
     "partOfSpeech": "noun"
   },
+  "prim": null,
+  "primal": null,
+  "primp": null,
   "prion": null,
   "prior": {
     "definition": "A high-ranking member of a monastery, usually lower in rank than an abbot.",
@@ -4442,6 +4472,7 @@
     "definition": "A quick hostile or predatory incursion or invasion in a battle.",
     "partOfSpeech": "noun"
   },
+  "rail": null,
   "rain": {
     "definition": "Condensed water falling from a cloud.",
     "partOfSpeech": "noun"
@@ -4469,6 +4500,7 @@
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
   },
+  "rattail": null,
   "rattan": null,
   "ratty": {
     "definition": "Similar to a rat; ratlike.",
@@ -4496,6 +4528,7 @@
     "definition": "A handgun with a revolving chamber enabling several shots to be fired without reloading.",
     "partOfSpeech": "noun"
   },
+  "rial": null,
   "ribbit": {
     "definition": "The vocal sound made by a frog or toad.",
     "partOfSpeech": "noun"
@@ -4641,6 +4674,7 @@
   "tali": null,
   "tall": null,
   "tallit": null,
+  "tamari": null,
   "taming": {
     "definition": "To make (an animal) tame; to domesticate.",
     "partOfSpeech": "verb"
@@ -4664,6 +4698,7 @@
     "definition": "Describing Vajrayana Buddhism.",
     "partOfSpeech": "adjective"
   },
+  "tapir": null,
   "taro": {
     "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
     "partOfSpeech": "noun"
@@ -4829,6 +4864,7 @@
   "tiff": null,
   "tight": null,
   "tiki": null,
+  "tilapia": null,
   "tile": null,
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",
@@ -5013,6 +5049,7 @@
     "definition": "An area or expanse.",
     "partOfSpeech": "noun"
   },
+  "trail": null,
   "train": {
     "definition": "Elongated portion.",
     "partOfSpeech": "noun"
@@ -5031,10 +5068,14 @@
     "partOfSpeech": "noun"
   },
   "triad": null,
+  "trial": null,
   "trick": {
     "definition": "Something designed to fool or swindle.",
     "partOfSpeech": "noun"
   },
+  "trill": null,
+  "trim": null,
+  "trip": null,
   "trot": {
     "definition": "Any of several animals related to Equus ferus caballus.",
     "partOfSpeech": "noun"

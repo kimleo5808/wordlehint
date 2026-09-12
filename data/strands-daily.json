@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T08:11:47.950Z",
+  "lastUpdated": "2026-09-12T08:02:03.690Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23103,6 +23103,31 @@
         "TCRGET",
         "NKEISH",
         "OPILUO"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": 923,
+      "editor": "Tracy Bennett",
+      "clue": "Don't obsess",
+      "spangram": "LETITGO",
+      "themeWords": [
+        "DETACH",
+        "DISENGAGE",
+        "FREE",
+        "LIBERATE",
+        "RELEASE",
+        "UNLOOSE"
+      ],
+      "board": [
+        "EACHLB",
+        "LSEAIE",
+        "ERTEAR",
+        "LETDET",
+        "EFITGO",
+        "IERLES",
+        "SDUNOO",
+        "ENGAGE"
       ]
     }
   ]

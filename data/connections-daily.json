@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T08:11:47.412Z",
+  "lastUpdated": "2026-09-12T08:02:03.115Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55598,6 +55598,53 @@
             "ENVELOPE",
             "LIMITS",
             "LUCK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "id": 1189,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "WAYS TO PERSONALIZE A CAR",
+          "words": [
+            "BUMPER STICKER",
+            "FUZZY DICE",
+            "HOOD ORNAMENT",
+            "VANITY PLATE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PEOPLE IN AN ONLINE FORUM",
+          "words": [
+            "LURKER",
+            "POSTER",
+            "SPAMMER",
+            "TROLL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS THAT BLINK",
+          "words": [
+            "CURSOR",
+            "EYELIDS",
+            "SMOKE DETECTOR",
+            "TURN SIGNAL"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ ALERT",
+          "words": [
+            "NERD",
+            "RED",
+            "SPOILER",
+            "WEATHER"
           ]
         }
       ]
