@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T08:02:03.115Z",
+  "lastUpdated": "2026-09-13T08:26:52.357Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55645,6 +55645,53 @@
             "RED",
             "SPOILER",
             "WEATHER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "id": 1190,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "LACKING IN FIRMNESS",
+          "words": [
+            "DROOPY",
+            "FLACCID",
+            "SAGGING",
+            "SLACK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "U.S. PRESIDENTS",
+          "words": [
+            "CLEVELAND",
+            "GARFIELD",
+            "GRANT",
+            "MADISON"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "WORDS THAT SOUND LIKE TWO LETTERS",
+          "words": [
+            "EMPTY",
+            "EXCESS",
+            "KEWPIE",
+            "ODIE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN ELEVATED LANDFORMS",
+          "words": [
+            "DOUBLESPEAK",
+            "HEATHCLIFF",
+            "PARAMOUNT",
+            "PORRIDGE"
           ]
         }
       ]

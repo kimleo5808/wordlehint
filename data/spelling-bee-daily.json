@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T08:02:04.398Z",
+  "lastUpdated": "2026-09-13T08:26:53.474Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -62909,6 +62909,67 @@
         "trill",
         "trim",
         "trip"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-13",
+      "id": 24629,
+      "centerLetter": "n",
+      "outerLetters": [
+        "a",
+        "d",
+        "i",
+        "o",
+        "t",
+        "x"
+      ],
+      "pangrams": [
+        "antioxidant",
+        "oxidant",
+        "oxidation"
+      ],
+      "answers": [
+        "addition",
+        "anion",
+        "annatto",
+        "annotation",
+        "anoint",
+        "anon",
+        "anoxia",
+        "anti",
+        "antioxidant",
+        "antitoxin",
+        "attain",
+        "axon",
+        "dino",
+        "dint",
+        "dioxin",
+        "donation",
+        "initiation",
+        "into",
+        "intonation",
+        "naan",
+        "nada",
+        "naiad",
+        "nana",
+        "natant",
+        "nation",
+        "noon",
+        "notation",
+        "notion",
+        "onion",
+        "onto",
+        "oxidant",
+        "oxidation",
+        "taint",
+        "tannin",
+        "taxation",
+        "taxon",
+        "tint",
+        "titan",
+        "toon",
+        "toxin"
       ],
       "editor": "Sam Ezersky"
     }

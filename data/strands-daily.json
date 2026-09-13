@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T08:02:03.690Z",
+  "lastUpdated": "2026-09-13T08:26:52.885Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23128,6 +23128,31 @@
         "IERLES",
         "SDUNOO",
         "ENGAGE"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "id": 924,
+      "editor": "Tracy Bennett",
+      "clue": "Top secret",
+      "spangram": "UNDERCOVER",
+      "themeWords": [
+        "AGENT",
+        "ASSET",
+        "COUNTERSPY",
+        "MOLE",
+        "OPERATIVE",
+        "PLANT"
+      ],
+      "board": [
+        "PYETNP",
+        "SRCOUL",
+        "EGATNA",
+        "UNOVER",
+        "NTCATE",
+        "DERSSO",
+        "EITOML",
+        "VAREPE"
       ]
     }
   ]

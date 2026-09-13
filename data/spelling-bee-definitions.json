@@ -265,6 +265,7 @@
     "definition": "Straight away; at once.",
     "partOfSpeech": "adverb"
   },
+  "anoxia": null,
   "antarctic": {
     "definition": "Of, from, or pertaining to Antarctica and the south polar regions.",
     "partOfSpeech": "adjective"
@@ -291,6 +292,8 @@
     "partOfSpeech": "noun"
   },
   "antifa": null,
+  "antioxidant": null,
+  "antitoxin": null,
   "anvil": {
     "definition": "A heavy iron block used in the blacksmithing trade as a surface upon which metal can be struck and shaped.",
     "partOfSpeech": "noun"
@@ -426,6 +429,7 @@
   "avidity": null,
   "avidly": null,
   "await": null,
+  "axon": null,
   "baaed": {
     "definition": "To make the characteristic cry of a sheep.",
     "partOfSpeech": "verb"
@@ -1676,7 +1680,9 @@
     "definition": "To eat; to eat dinner or supper.",
     "partOfSpeech": "verb"
   },
+  "dino": null,
   "dint": null,
+  "dioxin": null,
   "dipped": null,
   "dipping": {
     "definition": "To lower into a liquid.",
@@ -4222,6 +4228,8 @@
     "definition": "To have rightful possession of (property, goods or capital); to have legal title to.",
     "partOfSpeech": "verb"
   },
+  "oxidant": null,
+  "oxidation": null,
   "pail": null,
   "pair": null,
   "palatial": null,
@@ -4732,6 +4740,8 @@
     "definition": "Potato",
     "partOfSpeech": "noun"
   },
+  "taxation": null,
+  "taxon": null,
   "teach": {
     "definition": "To show (someone) the way; to guide, conduct; to point, indicate.",
     "partOfSpeech": "verb"
@@ -5041,6 +5051,7 @@
     "partOfSpeech": "noun"
   },
   "touting": null,
+  "toxin": null,
   "track": {
     "definition": "A mark left by something that has passed along.",
     "partOfSpeech": "noun"
