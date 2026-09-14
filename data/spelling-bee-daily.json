@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T08:26:53.474Z",
+  "lastUpdated": "2026-09-14T09:08:21.163Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -62970,6 +62970,46 @@
         "titan",
         "toon",
         "toxin"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-14",
+      "id": 21725,
+      "centerLetter": "g",
+      "outerLetters": [
+        "a",
+        "b",
+        "e",
+        "o",
+        "p",
+        "y"
+      ],
+      "pangrams": [
+        "pageboy"
+      ],
+      "answers": [
+        "agape",
+        "agog",
+        "apogee",
+        "baggage",
+        "baggy",
+        "bogey",
+        "boggy",
+        "eggy",
+        "gabby",
+        "gaga",
+        "gage",
+        "gape",
+        "goby",
+        "gooey",
+        "goop",
+        "goopy",
+        "ogee",
+        "page",
+        "pageboy",
+        "pogo",
+        "yoga"
       ],
       "editor": "Sam Ezersky"
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T08:26:52.357Z",
+  "lastUpdated": "2026-09-14T09:08:20.079Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55692,6 +55692,53 @@
             "HEATHCLIFF",
             "PARAMOUNT",
             "PORRIDGE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "id": 1191,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "WATERBIRDS",
+          "words": [
+            "COOT",
+            "GOOSE",
+            "LOON",
+            "TEAL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "INFORMANT",
+          "words": [
+            "CANARY",
+            "RAT",
+            "SNITCH",
+            "STOOLIE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "COMMON SINGLE-USE PLASTIC ITEMS",
+          "words": [
+            "BAG",
+            "CUTLERY",
+            "STIRRER",
+            "STRAW"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___GRASS",
+          "words": [
+            "BLUE",
+            "CRAB",
+            "LEMON",
+            "WHEAT"
           ]
         }
       ]

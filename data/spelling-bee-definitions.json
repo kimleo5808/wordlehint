@@ -122,6 +122,7 @@
     "definition": "The act of suddenly disturbing anyone; an assault or attack.",
     "partOfSpeech": "noun"
   },
+  "agape": null,
   "agar": {
     "definition": "A gelatinous material obtained from red algae, especially Gracilaria species, used as a bacterial culture medium, in electrophoresis and as a food additive.",
     "partOfSpeech": "noun"
@@ -306,6 +307,7 @@
     "definition": "The great artery which carries the blood from the heart to all parts of the body except the lungs; the main trunk of the arterial system.",
     "partOfSpeech": "noun"
   },
+  "apogee": null,
   "arabica": null,
   "arancini": {
     "definition": "A baked rice ball, filled with cheese or other sauce, originally from Sicily.",
@@ -469,6 +471,7 @@
     "definition": "To put into a bag.",
     "partOfSpeech": "verb"
   },
+  "baggy": null,
   "bailiff": {
     "definition": "(law enforcement) An officer of the court, particularly:",
     "partOfSpeech": "noun"
@@ -676,11 +679,13 @@
   "bode": null,
   "boded": null,
   "bodega": null,
+  "bogey": null,
   "bogged": null,
   "bogging": {
     "definition": "(now often with \"down\") To sink or submerge someone or something into bogland.",
     "partOfSpeech": "verb"
   },
+  "boggy": null,
   "boing": {
     "definition": "The sound made by an elastic object (such as a spring) when bouncing; the sound of a bounce.",
     "partOfSpeech": "noun"
@@ -1907,6 +1912,7 @@
     "definition": "To throw eggs at.",
     "partOfSpeech": "verb"
   },
+  "eggy": null,
   "eight": {
     "definition": "The digit/figure 8.",
     "partOfSpeech": "noun"
@@ -2268,10 +2274,12 @@
     "partOfSpeech": "verb"
   },
   "gabbed": null,
+  "gabby": null,
   "gaga": {
     "definition": "Mentally senile.",
     "partOfSpeech": "adjective"
   },
+  "gage": null,
   "gala": {
     "definition": "Pomp, show, or festivity.",
     "partOfSpeech": "noun"
@@ -2294,6 +2302,7 @@
     "definition": "The third letter of the Greek alphabet (Γ, γ), preceded by beta (Β, β) and followed by delta, (Δ, δ).",
     "partOfSpeech": "noun"
   },
+  "gape": null,
   "geek": {
     "definition": "A carnival performer specializing in bizarre and unappetizing behavior.",
     "partOfSpeech": "noun"
@@ -2386,6 +2395,7 @@
     "definition": "A result that one is attempting to achieve.",
     "partOfSpeech": "noun"
   },
+  "goby": null,
   "good": {
     "definition": "(of people)",
     "partOfSpeech": "adjective"
@@ -2394,6 +2404,7 @@
     "definition": "A good character in a story, often a hero.",
     "partOfSpeech": "noun"
   },
+  "gooey": null,
   "googol": {
     "definition": "The number 10^{100}, or ten to the power of a hundred.",
     "partOfSpeech": "numeral"
@@ -4125,6 +4136,7 @@
     "definition": "To hurt the feelings of; to displease; to make angry; to insult.",
     "partOfSpeech": "verb"
   },
+  "ogee": null,
   "oilcloth": {
     "definition": "A fabric or cloth treated on one side with a waterproof covering, especially one made from linseed oil etc.; used for flooring, tablecloths, kitchen shelves and sometimes furniture covering.",
     "partOfSpeech": "noun"
@@ -4230,6 +4242,11 @@
   },
   "oxidant": null,
   "oxidation": null,
+  "page": {
+    "definition": "One of the many pieces of paper bound together within a book or similar document.",
+    "partOfSpeech": "noun"
+  },
+  "pageboy": null,
   "pail": null,
   "pair": null,
   "palatial": null,
@@ -5452,6 +5469,7 @@
     "definition": "An unidentified humanoid animal said to live in the Himalayas",
     "partOfSpeech": "noun"
   },
+  "yoga": null,
   "yogi": null,
   "yond": {
     "definition": "Further; more distant",
