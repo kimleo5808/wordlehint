@@ -1378,6 +1378,8 @@
     "partOfSpeech": "noun"
   },
   "crick": null,
+  "crimp": null,
+  "crimping": null,
   "critic": {
     "definition": "A person who appraises the works of others.",
     "partOfSpeech": "noun"
@@ -2437,6 +2439,7 @@
     "definition": "A system of rules and principles for speaking and writing a language.",
     "partOfSpeech": "noun"
   },
+  "grim": null,
   "grody": {
     "definition": "Nasty, dirty, disgusting, foul, revolting, yucky, grotesque.",
     "partOfSpeech": "adjective"
@@ -3720,6 +3723,8 @@
     "definition": "During the American War for Independence, a citizen-soldier who would fight for the Patriots at a minute's notice.",
     "partOfSpeech": "noun"
   },
+  "mirin": null,
+  "miring": null,
   "mite": {
     "definition": "Any of many minute arachnids which, along with the ticks, comprise subclass Acarina (aka Acari).",
     "partOfSpeech": "noun"
@@ -4403,7 +4408,9 @@
   },
   "prim": null,
   "primal": null,
+  "priming": null,
   "primp": null,
+  "primping": null,
   "prion": null,
   "prior": {
     "definition": "A high-ranking member of a monastery, usually lower in rank than an abbot.",
@@ -4568,6 +4575,7 @@
     "partOfSpeech": "noun"
   },
   "rill": null,
+  "rimming": null,
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",
     "partOfSpeech": "noun"

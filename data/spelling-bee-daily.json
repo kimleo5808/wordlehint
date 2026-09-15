@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T09:08:21.163Z",
+  "lastUpdated": "2026-09-15T08:50:18.982Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63010,6 +63010,44 @@
         "pageboy",
         "pogo",
         "yoga"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-15",
+      "id": 25062,
+      "centerLetter": "m",
+      "outerLetters": [
+        "c",
+        "g",
+        "i",
+        "n",
+        "p",
+        "r"
+      ],
+      "pangrams": [
+        "crimping"
+      ],
+      "answers": [
+        "crimp",
+        "crimping",
+        "grim",
+        "impinging",
+        "mimic",
+        "miming",
+        "mincing",
+        "mini",
+        "minim",
+        "mining",
+        "mirin",
+        "miring",
+        "pimp",
+        "pimping",
+        "prim",
+        "priming",
+        "primp",
+        "primping",
+        "rimming"
       ],
       "editor": "Sam Ezersky"
     }

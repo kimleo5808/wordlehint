@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T09:08:20.079Z",
+  "lastUpdated": "2026-09-15T08:50:18.173Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55739,6 +55739,53 @@
             "CRAB",
             "LEMON",
             "WHEAT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "id": 1192,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "INSTRUCT",
+          "words": [
+            "COACH",
+            "DIRECT",
+            "GUIDE",
+            "TRAIN"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTS OF A WHISTLING KETTLE",
+          "words": [
+            "HANDLE",
+            "LID",
+            "SPOUT",
+            "WHISTLE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "UNDERCOVER OPERATIVE",
+          "words": [
+            "ASSET",
+            "MOLE",
+            "PLANT",
+            "SLEEPER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT APPEAR AT THE END",
+          "words": [
+            "CABOOSE",
+            "DECEMBER",
+            "DESSERT",
+            "EPILOGUE"
           ]
         }
       ]
