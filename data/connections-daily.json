@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T08:50:18.173Z",
+  "lastUpdated": "2026-09-16T08:44:13.626Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55786,6 +55786,53 @@
             "DECEMBER",
             "DESSERT",
             "EPILOGUE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "id": 1193,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ENDING IN METAL ELEMENTS",
+          "words": [
+            "LATIN",
+            "LONG JOHN SILVER",
+            "MARIGOLD",
+            "STEAM IRON"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "STARTING WITH U.S. COINS",
+          "words": [
+            "DIMENSION",
+            "NICKELODEON",
+            "PENNYWISE",
+            "QUARTERBACK"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "POETS' MIDDLE NAMES",
+          "words": [
+            "BARRETT",
+            "CARLOS",
+            "ST. VINCENT",
+            "WADSWORTH"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SAUSAGES PLUS A LETTER",
+          "words": [
+            "BORAT",
+            "CLINK",
+            "FRANK-N-FURTER",
+            "WIDENER"
           ]
         }
       ]

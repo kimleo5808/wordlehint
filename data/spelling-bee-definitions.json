@@ -1569,6 +1569,8 @@
     "definition": "(with \"the\") The deep part of a lake, sea, etc.",
     "partOfSpeech": "noun"
   },
+  "deepen": null,
+  "deepened": null,
   "deepening": {
     "definition": "To make deep or deeper",
     "partOfSpeech": "verb"
@@ -1621,6 +1623,8 @@
     "definition": "To disallow or reject.",
     "partOfSpeech": "verb"
   },
+  "depend": null,
+  "depended": null,
   "depending": {
     "definition": "(followed by on or upon, formerly also by of) To be contingent or conditioned; to have something as a necessary condition; to hinge on.",
     "partOfSpeech": "verb"
@@ -1758,6 +1762,8 @@
     "definition": "A person who holds open the door at the entrance to a building, summons taxicabs, and provides an element of security; in apartment buildings, he also accepts deliveries and may perform certain concierge type services.",
     "partOfSpeech": "noun"
   },
+  "dope": null,
+  "doped": null,
   "dopy": null,
   "dorado": null,
   "dormant": {
@@ -2059,6 +2065,7 @@
   "epee": null,
   "epic": null,
   "epithet": null,
+  "epode": null,
   "etch": {
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
@@ -3996,6 +4003,7 @@
     "partOfSpeech": "noun"
   },
   "nine": null,
+  "ninepin": null,
   "nineteen": null,
   "ninny": {
     "definition": "A silly or foolish person.",
@@ -4005,6 +4013,7 @@
     "definition": "The person or thing in the ninth position.",
     "partOfSpeech": "noun"
   },
+  "nipped": null,
   "nipping": {
     "definition": "To catch and enclose or compress tightly between two surfaces, or points which are brought together or closed; to pinch; to close in upon.",
     "partOfSpeech": "verb"
@@ -4050,6 +4059,7 @@
     "definition": "The ninth hour of the day counted from sunrise; around three o'clock in the afternoon.",
     "partOfSpeech": "noun"
   },
+  "nope": null,
   "nori": null,
   "norm": {
     "definition": "That which is normal or typical.",
@@ -4179,6 +4189,11 @@
     "definition": "(of a function) Assuming each of the values in its codomain; having its range equal to its codomain.",
     "partOfSpeech": "adjective"
   },
+  "open": null,
+  "opened": null,
+  "opine": null,
+  "opined": null,
+  "opinion": null,
   "opioid": {
     "definition": "A substance that has effects similar to opium.",
     "partOfSpeech": "noun"
@@ -4269,6 +4284,7 @@
     "definition": "To urinate.",
     "partOfSpeech": "verb"
   },
+  "peen": null,
   "peep": null,
   "peeped": null,
   "peeping": {
@@ -4279,17 +4295,23 @@
     "definition": "An annoyance or grievance.",
     "partOfSpeech": "noun"
   },
+  "peewee": null,
   "pegged": {
     "definition": "To fasten using a peg.",
     "partOfSpeech": "verb"
   },
   "pegging": null,
+  "pend": null,
+  "pended": null,
   "pending": null,
   "penmen": {
     "definition": "A scribe, or person who copies texts",
     "partOfSpeech": "noun"
   },
+  "penne": null,
+  "penned": null,
   "penning": null,
+  "peon": null,
   "pepped": null,
   "pepping": null,
   "peptic": null,
@@ -4297,6 +4319,7 @@
   "petit": null,
   "petite": null,
   "petted": null,
+  "pewee": null,
   "pfft": null,
   "pidgin": {
     "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
@@ -4335,6 +4358,9 @@
     "definition": "To act as a procurer of prostitutes; to pander.",
     "partOfSpeech": "verb"
   },
+  "pine": null,
+  "pined": null,
+  "pinewood": null,
   "ping": {
     "definition": "A high-pitched, short and somewhat sharp sound.",
     "partOfSpeech": "noun"
@@ -4351,10 +4377,14 @@
     "definition": "To languish; to lose flesh or wear away through distress.",
     "partOfSpeech": "verb"
   },
+  "pinion": null,
+  "pinioned": null,
+  "pinned": null,
   "pinning": {
     "definition": "To shape metal by striking it, especially with a peen.",
     "partOfSpeech": "verb"
   },
+  "pinniped": null,
   "pipe": null,
   "piped": null,
   "pipet": null,
@@ -4364,6 +4394,7 @@
     "partOfSpeech": "verb"
   },
   "pipit": null,
+  "pippin": null,
   "pita": null,
   "pitapat": null,
   "pitch": {
@@ -4387,15 +4418,21 @@
   },
   "pomp": null,
   "pompom": null,
+  "pond": null,
+  "pone": null,
+  "ponied": null,
   "poop": {
     "definition": "Fecal matter, feces.",
     "partOfSpeech": "noun"
   },
+  "pooped": null,
   "poor": {
     "definition": "(with \"the\") Those who have little or no possessions or money, taken as a group.",
     "partOfSpeech": "noun"
   },
+  "pope": null,
   "popover": null,
+  "popped": null,
   "poppy": {
     "definition": "Any plant of the genus Papaver or the family Papaveraceae, with crumpled, often red, petals and a milky juice having narcotic properties; especially the common poppy or corn poppy (Papaver rhoeas) which has orange-red flowers; the flower of such a plant.",
     "partOfSpeech": "noun"
@@ -4406,6 +4443,7 @@
     "definition": "The act of pouring.",
     "partOfSpeech": "noun"
   },
+  "powwow": null,
   "prim": null,
   "primal": null,
   "priming": null,
@@ -5404,6 +5442,8 @@
     "definition": "In the International System of Units, the derived unit of power; the power of a system in which one joule of energy is transferred per second. Symbol: W",
     "partOfSpeech": "noun"
   },
+  "weep": null,
+  "weepie": null,
   "weight": {
     "definition": "(physical) Matter, material.",
     "partOfSpeech": "noun"
@@ -5426,6 +5466,9 @@
     "partOfSpeech": "noun"
   },
   "wildland": null,
+  "windpipe": null,
+  "wipe": null,
+  "wiped": null,
   "with": {
     "definition": "Along, together with others, in a group, etc.",
     "partOfSpeech": "adverb"
