@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T08:44:15.013Z",
+  "lastUpdated": "2026-09-17T08:47:54.759Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63122,6 +63122,61 @@
         "windpipe",
         "wipe",
         "wiped"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-17",
+      "id": 26068,
+      "centerLetter": "m",
+      "outerLetters": [
+        "a",
+        "f",
+        "i",
+        "l",
+        "o",
+        "y"
+      ],
+      "pangrams": [
+        "foamily"
+      ],
+      "answers": [
+        "ammo",
+        "amyl",
+        "familial",
+        "family",
+        "film",
+        "filmy",
+        "flimflam",
+        "foam",
+        "foamily",
+        "foamy",
+        "imam",
+        "lama",
+        "lima",
+        "limo",
+        "llama",
+        "loam",
+        "loamy",
+        "loom",
+        "mafia",
+        "mail",
+        "maim",
+        "mall",
+        "mama",
+        "mamma",
+        "mammal",
+        "mayfly",
+        "mayo",
+        "miff",
+        "mill",
+        "moil",
+        "moll",
+        "mollify",
+        "molly",
+        "momma",
+        "mommy",
+        "moola"
       ],
       "editor": "Sam Ezersky"
     }

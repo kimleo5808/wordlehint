@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T08:44:13.626Z",
+  "lastUpdated": "2026-09-17T08:47:53.538Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55833,6 +55833,53 @@
             "CLINK",
             "FRANK-N-FURTER",
             "WIDENER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "id": 1194,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ELASTICITY",
+          "words": [
+            "BOUNCE",
+            "FLEXIBILITY",
+            "GIVE",
+            "SPRING"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS THAT ARE UNDERGROUND",
+          "words": [
+            "MINE SHAFT",
+            "SEWER LINE",
+            "SUBWAY STATION",
+            "WELL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "HUGH JACKMAN MOVIES, WITH \"THE\"",
+          "words": [
+            "FOUNTAIN",
+            "PRESTIGE",
+            "SHEEP DETECTIVES",
+            "WOLVERINE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "LOVE ___",
+          "words": [
+            "HANDLES",
+            "LANGUAGE",
+            "TAP",
+            "TRIANGLE"
           ]
         }
       ]

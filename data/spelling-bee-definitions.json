@@ -213,6 +213,7 @@
     "definition": "Amniocentesis",
     "partOfSpeech": "noun"
   },
+  "amyl": null,
   "anal": {
     "definition": "Any of the anal scales of a reptile.",
     "partOfSpeech": "noun"
@@ -2125,6 +2126,8 @@
     "partOfSpeech": "noun"
   },
   "fallibly": null,
+  "familial": null,
+  "family": null,
   "fanny": {
     "definition": "The female genitalia.",
     "partOfSpeech": "noun"
@@ -2190,6 +2193,8 @@
     "definition": "A young female horse.",
     "partOfSpeech": "noun"
   },
+  "film": null,
+  "filmy": null,
   "final": {
     "definition": "A final examination; a test or examination given at the end of a term or class; the test that concludes a class.",
     "partOfSpeech": "noun"
@@ -2224,6 +2229,7 @@
     "definition": "A fright; a scare.",
     "partOfSpeech": "noun"
   },
+  "flimflam": null,
   "flint": null,
   "flip": null,
   "flippant": null,
@@ -2241,6 +2247,9 @@
     "definition": "A flight past a celestial object in order to make observations.",
     "partOfSpeech": "noun"
   },
+  "foam": null,
+  "foamily": null,
+  "foamy": null,
   "fold": {
     "definition": "An act of folding.",
     "partOfSpeech": "noun"
@@ -3308,6 +3317,7 @@
     "definition": "A type of soil; an earthy mixture of sand, silt and clay, with organic matter to which its fertility is chiefly due.",
     "partOfSpeech": "noun"
   },
+  "loamy": null,
   "loan": {
     "definition": "An act or instance of lending, an act or instance of granting something for temporary use.",
     "partOfSpeech": "noun"
@@ -3412,6 +3422,7 @@
     "definition": "A male who is insane or mentally disturbed.",
     "partOfSpeech": "noun"
   },
+  "mafia": null,
   "magi": null,
   "magic": {
     "definition": "The application of rituals or actions, especially those based on occult knowledge, to subdue or manipulate natural or supernatural beings and forces in order to have some benefit from them",
@@ -3545,6 +3556,8 @@
   "mating": null,
   "matron": null,
   "matting": null,
+  "mayfly": null,
+  "mayo": null,
   "mean": {
     "definition": "To lament.",
     "partOfSpeech": "verb"
@@ -3619,6 +3632,7 @@
     "definition": "Demeanor; facial expression or attitude, especially one which is intended by its bearer.",
     "partOfSpeech": "noun"
   },
+  "miff": null,
   "miking": null,
   "mile": {
     "definition": "The international mile: a unit of length precisely equal to 1.609344 kilometers established by treaty among Anglophone nations in 1959, divided into 5,280 feet or 1,760 yards.",
@@ -3766,11 +3780,14 @@
     "definition": "A female companion of a gangster, especially a former or current prostitute.",
     "partOfSpeech": "noun"
   },
+  "mollify": null,
+  "molly": null,
   "molt": null,
   "momma": {
     "definition": "Mother",
     "partOfSpeech": "noun"
   },
+  "mommy": null,
   "monad": null,
   "mondo": {
     "definition": "A dialogue between master and student designed to obtain an intuitive truth.",
