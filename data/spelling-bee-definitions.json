@@ -65,6 +65,8 @@
     "definition": "A skin condition, usually of the face, that is common in adolescents. It is characterised by red pimples, and is caused by the inflammation of sebaceous glands through bacterial infection.",
     "partOfSpeech": "noun"
   },
+  "acquaint": null,
+  "acquit": null,
   "acrid": {
     "definition": "Sharp and harsh, or bitter and not to the taste.",
     "partOfSpeech": "adjective"
@@ -309,6 +311,10 @@
     "partOfSpeech": "noun"
   },
   "apogee": null,
+  "aqua": null,
+  "aquanaut": null,
+  "aquatic": null,
+  "aquatint": null,
   "arabica": null,
   "arancini": {
     "definition": "A baked rice ball, filled with cheese or other sauce, originally from Sicily.",
@@ -409,6 +415,7 @@
     "definition": "A diviner who foretells events by the behaviour of birds or other animals, or by signs derived from celestial phenomena, or unusual occurrences.",
     "partOfSpeech": "noun"
   },
+  "aunt": null,
   "avail": {
     "definition": "Effect in achieving a goal or aim; purpose, use (now usually in negative constructions).",
     "partOfSpeech": "noun"
@@ -939,6 +946,8 @@
     "definition": "A generally accepted principle; a rule.",
     "partOfSpeech": "noun"
   },
+  "cant": null,
+  "cantata": null,
   "cantina": {
     "definition": "A drinking establishment, often specifically of the type found in Latin America.",
     "partOfSpeech": "noun"
@@ -1112,6 +1121,7 @@
   },
   "cicada": null,
   "cilia": null,
+  "cinquain": null,
   "circa": null,
   "circuit": {
     "definition": "The act of moving or revolving around, or as in a circle or orbit; a revolution",
@@ -4507,6 +4517,9 @@
     "definition": "A pyromaniac",
     "partOfSpeech": "noun"
   },
+  "quaint": null,
+  "quant": null,
+  "quanta": null,
   "quint": null,
   "quit": {
     "definition": "To pay (a debt, fine etc.).",
@@ -4820,6 +4833,8 @@
     "definition": "Potato",
     "partOfSpeech": "noun"
   },
+  "taunt": null,
+  "taut": null,
   "taxation": null,
   "taxon": null,
   "teach": {
@@ -5193,6 +5208,7 @@
     "definition": "Confused, agitated noise as made by a crowd.",
     "partOfSpeech": "noun"
   },
+  "tuna": null,
   "tunic": {
     "definition": "A garment worn over the torso, with or without sleeves, and of various lengths reaching from the hips to the ankles.",
     "partOfSpeech": "noun"

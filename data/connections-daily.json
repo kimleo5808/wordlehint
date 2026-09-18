@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T08:47:53.538Z",
+  "lastUpdated": "2026-09-18T08:23:35.616Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55880,6 +55880,53 @@
             "LANGUAGE",
             "TAP",
             "TRIANGLE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "id": 1195,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SEGMENT OF A PROCESS",
+          "words": [
+            "PHASE",
+            "ROUND",
+            "STAGE",
+            "STEP"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ASSORTMENTS OF FOOD/DRINK",
+          "words": [
+            "FLIGHT",
+            "MEDLEY",
+            "PLATTER",
+            "SAMPLER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PARTS OF A FLIGHT",
+          "words": [
+            "BOARDING",
+            "CRUISE",
+            "LANDING",
+            "TAKEOFF"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___CASE",
+          "words": [
+            "BRIEF",
+            "PILLOW",
+            "STAIR",
+            "UPPER"
           ]
         }
       ]

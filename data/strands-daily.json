@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T08:47:54.018Z",
+  "lastUpdated": "2026-09-18T08:23:36.036Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23255,6 +23255,30 @@
         "PEBOKG",
         "ANLNDE",
         "STUIES"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "id": 929,
+      "editor": "Tracy Bennett",
+      "clue": "Shake on it",
+      "spangram": "LETSMAKEADEAL",
+      "themeWords": [
+        "AGREEMENT",
+        "CONTRACT",
+        "COVENANT",
+        "PACT",
+        "TREATY"
+      ],
+      "board": [
+        "TLETSR",
+        "CAAMTE",
+        "CPKEAT",
+        "OVTAYE",
+        "ENNDNM",
+        "TCAETE",
+        "CTOAEG",
+        "ARNLRA"
       ]
     }
   ]
