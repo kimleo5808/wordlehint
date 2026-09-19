@@ -628,6 +628,10 @@
     "definition": "One who is narrow-mindedly devoted to one's own ideas and groups, and intolerant of (people of) differing ideas, races, genders, religions, politics, etc.",
     "partOfSpeech": "noun"
   },
+  "bill": null,
+  "billing": null,
+  "billion": null,
+  "biltong": null,
   "binging": {
     "definition": "To engage in a short period of excessive consumption, especially of excessive alcohol consumption.",
     "partOfSpeech": "verb"
@@ -647,14 +651,23 @@
   "bitumen": null,
   "blab": null,
   "blabby": null,
+  "blin": null,
+  "bling": null,
+  "blini": null,
   "blob": null,
+  "blobbing": null,
   "blobby": null,
   "bloc": {
     "definition": "A group of voters or politicians who share common goals.",
     "partOfSpeech": "noun"
   },
+  "blog": null,
+  "blogging": null,
   "blood": null,
   "bloody": null,
+  "blot": null,
+  "blotting": null,
+  "blotto": null,
   "boar": {
     "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
     "partOfSpeech": "noun"
@@ -680,6 +693,7 @@
     "definition": "To move gently and vertically, in either a single motion or repeatedly up and down, at or near the surface of a body of water, or similar medium.",
     "partOfSpeech": "verb"
   },
+  "bobbling": null,
   "bocce": {
     "definition": "A game, similar to bowls or pétanque, played on a long, narrow, dirt-covered court",
     "partOfSpeech": "noun"
@@ -693,7 +707,10 @@
     "definition": "(now often with \"down\") To sink or submerge someone or something into bogland.",
     "partOfSpeech": "verb"
   },
+  "boggling": null,
   "boggy": null,
+  "boil": null,
+  "boiling": null,
   "boing": {
     "definition": "The sound made by an elastic object (such as a spring) when bouncing; the sound of a bounce.",
     "partOfSpeech": "noun"
@@ -704,6 +721,8 @@
   "boll": null,
   "bollard": null,
   "bolo": null,
+  "bolt": null,
+  "bolting": null,
   "bonbon": {
     "definition": "A sweet, especially a small chocolate-covered candy.",
     "partOfSpeech": "noun"
@@ -762,6 +781,7 @@
     "definition": "To kick.",
     "partOfSpeech": "verb"
   },
+  "bottling": null,
   "boucle": null,
   "bout": {
     "definition": "A period of something, usually painful or unpleasant.",
@@ -2403,6 +2423,8 @@
     "definition": "Originally, enchantment; magic charm; especially, the effect of a spell that causes one to see objects in a form that differs from reality, typically to make filthy, ugly, or repulsive things seems beauteous.",
     "partOfSpeech": "noun"
   },
+  "glib": null,
+  "glob": null,
   "glom": {
     "definition": "To steal, to grab.",
     "partOfSpeech": "verb"
@@ -2423,6 +2445,8 @@
     "definition": "A result that one is attempting to achieve.",
     "partOfSpeech": "noun"
   },
+  "gobbling": null,
+  "goblin": null,
   "goby": null,
   "good": {
     "definition": "(of people)",
@@ -3340,6 +3364,7 @@
     "definition": "To detest, hate, revile.",
     "partOfSpeech": "verb"
   },
+  "lobbing": null,
   "lobby": null,
   "loblolly": null,
   "lobo": null,
@@ -4022,6 +4047,7 @@
     "definition": "A water-soluble vitamin, a component of vitamin B complex, found in meat, yeast, and dairy products; it is essential to metabolism.",
     "partOfSpeech": "noun"
   },
+  "nibbling": null,
   "nice": null,
   "nicknaming": null,
   "niece": null,
@@ -4146,6 +4172,8 @@
     "definition": "Death of a person.",
     "partOfSpeech": "noun"
   },
+  "obliging": null,
+  "oblong": null,
   "oboe": null,
   "occlude": {
     "definition": "To obstruct, cover, or otherwise block (an opening, a portion of an image, etc.).",

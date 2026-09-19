@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T08:23:36.036Z",
+  "lastUpdated": "2026-09-19T08:11:22.963Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23279,6 +23279,31 @@
         "TCAETE",
         "CTOAEG",
         "ARNLRA"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": 930,
+      "editor": "Tracy Bennett",
+      "clue": "Shiver me timbers!",
+      "spangram": "TALKLIKEAPIRATE",
+      "themeWords": [
+        "ARRR",
+        "AVAST",
+        "HEARTIES",
+        "MATEY",
+        "SAVVY",
+        "YOHOHO"
+      ],
+      "board": [
+        "TYOVVY",
+        "SOHHAS",
+        "AAOATA",
+        "TVTMER",
+        "IRYEPI",
+        "EAEHAE",
+        "SLKLIK",
+        "TAARRR"
       ]
     }
   ]

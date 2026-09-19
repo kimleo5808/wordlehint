@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T08:23:35.616Z",
+  "lastUpdated": "2026-09-19T08:11:22.520Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -55927,6 +55927,53 @@
             "PILLOW",
             "STAIR",
             "UPPER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "id": 1196,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "WIDEN ONE'S SCOPE",
+          "words": [
+            "BRANCH OUT",
+            "DIVERSIFY",
+            "EXPAND",
+            "GROW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FEATURES OF A KID'S DRAWING",
+          "words": [
+            "HOUSE",
+            "STICK FIGURE",
+            "SUN",
+            "TREE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ASSOCIATED WITH SWINGING LONDON IN THE 1960S",
+          "words": [
+            "CARNABY STREET",
+            "MINISKIRT",
+            "MOD",
+            "TWIGGY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH ABBREVIATED MATH FUNCTIONS",
+          "words": [
+            "COS LETTUCE",
+            "LOG CABIN",
+            "SIN CITY",
+            "TAN LINE"
           ]
         }
       ]
