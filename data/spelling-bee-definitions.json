@@ -374,6 +374,7 @@
     "definition": "A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.",
     "partOfSpeech": "noun"
   },
+  "athletic": null,
   "atilt": null,
   "atoll": {
     "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
@@ -1044,10 +1045,12 @@
     "definition": "A loose robe, made from a single cloth, worn as a combination head covering, veil and shawl by Muslim women, especially in Iran.",
     "partOfSpeech": "noun"
   },
+  "chai": null,
   "chalet": {
     "definition": "An alpine style of wooden building with a sloping roof and overhanging eaves.",
     "partOfSpeech": "noun"
   },
+  "chalice": null,
   "challah": {
     "definition": "A traditional bread eaten by Ashkenazi Jews, usually braided for the Sabbath and round for Yom Tov.",
     "partOfSpeech": "noun"
@@ -1108,13 +1111,22 @@
     "definition": "A distinctive member (Acinonyx jubatus) of the cat family, slightly smaller than the leopard, but with proportionately longer limbs and a smaller head. It is native to Africa and also credited with being the fastest terrestrial animal.",
     "partOfSpeech": "noun"
   },
+  "chia": null,
+  "chic": null,
+  "chica": null,
+  "chichi": null,
   "chick": null,
   "chickadee": null,
+  "chicle": null,
+  "chili": null,
+  "chill": null,
   "chip": {
     "definition": "A small piece broken from a larger piece of solid material.",
     "partOfSpeech": "noun"
   },
   "chipped": null,
+  "chit": null,
+  "chitchat": null,
   "chocoholic": {
     "definition": "Someone who has such a liking for chocolate that they appear to be addicted to it.",
     "partOfSpeech": "noun"
@@ -1178,6 +1190,7 @@
     "definition": "To grip or hold fast.",
     "partOfSpeech": "verb"
   },
+  "cliche": null,
   "client": {
     "definition": "A customer, a buyer or receiver of goods or services.",
     "partOfSpeech": "noun"
@@ -2101,6 +2114,8 @@
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
   },
+  "ethic": null,
+  "ethical": null,
   "even": {
     "definition": "(diminutive) An even number.",
     "partOfSpeech": "noun"
@@ -2531,6 +2546,7 @@
   "gyro": null,
   "hack": null,
   "hacked": null,
+  "hail": null,
   "hairdo": null,
   "haka": null,
   "hake": null,
@@ -2546,6 +2562,7 @@
     "definition": "Health, welfare.",
     "partOfSpeech": "noun"
   },
+  "halite": null,
   "hall": {
     "definition": "A corridor; a hallway.",
     "partOfSpeech": "noun"
@@ -2649,6 +2666,7 @@
     "partOfSpeech": "noun"
   },
   "heck": null,
+  "hectic": null,
   "heel": {
     "definition": "The rear part of the foot, where it joins the leg.",
     "partOfSpeech": "noun"
@@ -2657,6 +2675,8 @@
     "definition": "The distance from the base of something to the top.",
     "partOfSpeech": "noun"
   },
+  "heliacal": null,
+  "helical": null,
   "hell": null,
   "hellcat": {
     "definition": "A witch.",
@@ -2687,6 +2707,7 @@
     "partOfSpeech": "noun"
   },
   "hennaed": null,
+  "hiatal": null,
   "hick": null,
   "hike": null,
   "hiked": null,
@@ -2703,6 +2724,7 @@
     "partOfSpeech": "noun"
   },
   "hippie": null,
+  "hitch": null,
   "hoar": null,
   "hoard": null,
   "hoary": {
@@ -3031,6 +3053,7 @@
     "partOfSpeech": "noun"
   },
   "italic": null,
+  "itch": null,
   "item": {
     "definition": "A distinct physical object.",
     "partOfSpeech": "noun"
@@ -3314,10 +3337,12 @@
     "partOfSpeech": "noun"
   },
   "lira": null,
+  "litchi": null,
   "lite": {
     "definition": "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light.",
     "partOfSpeech": "noun"
   },
+  "lithe": null,
   "litho": {
     "definition": "To lithograph.",
     "partOfSpeech": "verb"
@@ -4873,6 +4898,7 @@
     "definition": "Technology",
     "partOfSpeech": "noun"
   },
+  "techie": null,
   "teeing": null,
   "teem": {
     "definition": "To be stocked to overflowing.",
