@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T08:43:44.581Z",
+  "lastUpdated": "2026-09-21T09:10:21.243Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63416,6 +63416,51 @@
         "theta",
         "tilth",
         "tithe"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-21",
+      "id": 18771,
+      "centerLetter": "n",
+      "outerLetters": [
+        "a",
+        "b",
+        "e",
+        "j",
+        "l",
+        "y"
+      ],
+      "pangrams": [
+        "jellybean"
+      ],
+      "answers": [
+        "anal",
+        "anally",
+        "annal",
+        "anneal",
+        "baleen",
+        "banal",
+        "banally",
+        "banana",
+        "bane",
+        "banyan",
+        "bean",
+        "beanball",
+        "been",
+        "elan",
+        "enable",
+        "enby",
+        "jean",
+        "jellybean",
+        "jenny",
+        "lane",
+        "lean",
+        "leanly",
+        "naan",
+        "nana",
+        "nanny",
+        "nene"
       ],
       "editor": "Sam Ezersky"
     }

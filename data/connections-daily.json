@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T08:43:43.420Z",
+  "lastUpdated": "2026-09-21T09:10:20.090Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56021,6 +56021,53 @@
             "SKATE",
             "SNOW",
             "SURF"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "id": 1198,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "EMAIL BUTTONS",
+          "words": [
+            "COMPOSE",
+            "DRAFTS",
+            "SENT",
+            "SPAM"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WAYS TO ATTRACT FISH",
+          "words": [
+            "CHUM",
+            "FLY",
+            "SPINNER",
+            "WORM"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "CHESS VERBS",
+          "words": [
+            "CAPTURE",
+            "CASTLE",
+            "CHECK",
+            "MATE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTS OF COMPOSERS' NAMES",
+          "words": [
+            "BEET",
+            "BRAH",
+            "CHOP",
+            "VIVA"
           ]
         }
       ]

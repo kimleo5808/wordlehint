@@ -487,11 +487,14 @@
   },
   "bald": null,
   "baldly": null,
+  "baleen": null,
   "ball": null,
   "ballad": null,
   "balladry": null,
   "ballboy": null,
   "ballyard": null,
+  "banal": null,
+  "banally": null,
   "banana": {
     "definition": "An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.",
     "partOfSpeech": "noun"
@@ -536,6 +539,7 @@
     "definition": "To summon; to call out.",
     "partOfSpeech": "verb"
   },
+  "banyan": null,
   "baobab": {
     "definition": "A tree, Adansonia digitata (and similar species), native to tropical Africa, having a broad swollen trunk and edible gourd-like hanging fruits.",
     "partOfSpeech": "noun"
@@ -582,6 +586,7 @@
     "definition": "A piece of soft furniture consisting of a leather or vinyl covering stuffed with dry beans or other similar pellets.",
     "partOfSpeech": "noun"
   },
+  "beanball": null,
   "beaned": null,
   "becloud": {
     "definition": "To cause to become obscure or muddled.",
@@ -2044,10 +2049,12 @@
     "definition": "To send out or give off",
     "partOfSpeech": "verb"
   },
+  "enable": null,
   "enamel": {
     "definition": "An opaque, glassy coating baked onto metal or ceramic objects.",
     "partOfSpeech": "noun"
   },
+  "enby": null,
   "ended": {
     "definition": "To come to an end",
     "partOfSpeech": "verb"
@@ -3059,6 +3066,9 @@
     "partOfSpeech": "noun"
   },
   "itty": null,
+  "jean": null,
+  "jellybean": null,
+  "jenny": null,
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
     "partOfSpeech": "noun"
