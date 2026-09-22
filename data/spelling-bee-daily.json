@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T09:10:21.243Z",
+  "lastUpdated": "2026-09-22T08:41:48.893Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63461,6 +63461,43 @@
         "nana",
         "nanny",
         "nene"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-22",
+      "id": 27770,
+      "centerLetter": "n",
+      "outerLetters": [
+        "o",
+        "q",
+        "u",
+        "x",
+        "e",
+        "i"
+      ],
+      "pangrams": [
+        "equinox"
+      ],
+      "answers": [
+        "ennui",
+        "equine",
+        "equinox",
+        "innie",
+        "nene",
+        "neon",
+        "nine",
+        "none",
+        "nonunion",
+        "noon",
+        "noun",
+        "onion",
+        "oxen",
+        "queen",
+        "quinine",
+        "union",
+        "unique",
+        "xenon"
       ],
       "editor": "Sam Ezersky"
     }

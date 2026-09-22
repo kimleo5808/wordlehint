@@ -2093,6 +2093,7 @@
   },
   "enlaced": null,
   "ennead": null,
+  "ennui": null,
   "enoki": {
     "definition": "An enoki mushroom, Flammulina velutipes.",
     "partOfSpeech": "noun"
@@ -2117,6 +2118,8 @@
   "epic": null,
   "epithet": null,
   "epode": null,
+  "equine": null,
+  "equinox": null,
   "etch": {
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
@@ -4135,6 +4138,7 @@
     "definition": "Not at random, caused or manipulated, arranged.",
     "partOfSpeech": "adjective"
   },
+  "nonunion": null,
   "noob": {
     "definition": "(often pejorative) A newb or newbie; refers to the idea that someone is new to a game, concept, or idea; implying a lack of experience. Also, in some areas the word noob can mean someone is obsessed with things.",
     "partOfSpeech": "noun"
@@ -4350,6 +4354,7 @@
     "definition": "To have rightful possession of (property, goods or capital); to have legal title to.",
     "partOfSpeech": "verb"
   },
+  "oxen": null,
   "oxidant": null,
   "oxidation": null,
   "page": {
@@ -4583,6 +4588,8 @@
   "quaint": null,
   "quant": null,
   "quanta": null,
+  "queen": null,
+  "quinine": null,
   "quint": null,
   "quit": {
     "definition": "To pay (a debt, fine etc.).",
@@ -5368,6 +5375,8 @@
     "definition": "(of a person) Not (yet) executed by hanging; unhanged.",
     "partOfSpeech": "adjective"
   },
+  "union": null,
+  "unique": null,
   "unit": {
     "definition": "A particular, minute unit of mass, defined differently for different substances, but so that varying substances of the same general type have the property that one international unit of the one has the same effect on the human body as one international unit of the other.",
     "partOfSpeech": "noun"
@@ -5602,6 +5611,7 @@
     "definition": "To amaze or awe.",
     "partOfSpeech": "verb"
   },
+  "xenon": null,
   "yahoo": {
     "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
     "partOfSpeech": "noun"

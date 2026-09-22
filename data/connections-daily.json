@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T09:10:20.090Z",
+  "lastUpdated": "2026-09-22T08:41:47.752Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56068,6 +56068,53 @@
             "BRAH",
             "CHOP",
             "VIVA"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "id": 1199,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DEMONSTRATIVES",
+          "words": [
+            "THAT",
+            "THESE",
+            "THIS",
+            "THOSE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "EMBELLISHMENT",
+          "words": [
+            "ACCENT",
+            "DETAIL",
+            "FLOURISH",
+            "TOUCH"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "OPTIONS ON A MULTIPLE CHOICE SURVEY",
+          "words": [
+            "AGREE",
+            "DISAGREE",
+            "NEUTRAL",
+            "OTHER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "BEVERAGES WITH ACUTE ACCENTS REMOVED",
+          "words": [
+            "CAFE",
+            "PATRON",
+            "ROSE",
+            "THE"
           ]
         }
       ]
