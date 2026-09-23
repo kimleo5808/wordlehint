@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T08:41:47.752Z",
+  "lastUpdated": "2026-09-23T08:44:01.543Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56115,6 +56115,53 @@
             "PATRON",
             "ROSE",
             "THE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": 1200,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS YOU GRAB BEFORE LEAVING THE HOUSE",
+          "words": [
+            "KEYS",
+            "PHONE",
+            "SUNGLASSES",
+            "WALLET"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WEBSITE HURDLES",
+          "words": [
+            "AGE VERIFICATION",
+            "CAPTCHA",
+            "COOKIE CONSENT",
+            "PAYWALL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS THAT COME IN CANS",
+          "words": [
+            "CONDENSED MILK",
+            "PAINT",
+            "SHAVING CREAM",
+            "SPAM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN SYNONYMS FOR \"TERM\"",
+          "words": [
+            "BITCOIN",
+            "RECORD LABEL",
+            "RUB-A-DUB",
+            "SURINAME"
           ]
         }
       ]

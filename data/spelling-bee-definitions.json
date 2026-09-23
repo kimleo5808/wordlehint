@@ -1697,6 +1697,7 @@
     "definition": "A treatise on teaching or education.",
     "partOfSpeech": "noun"
   },
+  "diddling": null,
   "diddly": null,
   "digging": {
     "definition": "To move hard-packed earth out of the way, especially downward to make a hole with a shovel. Or to drill, or the like, through rocks, roads, or the like. More generally, to make any similar hole by moving material out of the way.",
@@ -1736,6 +1737,7 @@
     "definition": "To hit or strike.",
     "partOfSpeech": "verb"
   },
+  "dingy": null,
   "dining": {
     "definition": "To eat; to eat dinner or supper.",
     "partOfSpeech": "verb"
@@ -1761,6 +1763,13 @@
     "definition": "A dividend; a share or portion.",
     "partOfSpeech": "noun"
   },
+  "dizzily": null,
+  "dizzy": {
+    "definition": "To make dizzy, to bewilder.",
+    "partOfSpeech": "verb"
+  },
+  "dizzying": null,
+  "dizzyingly": null,
   "dodgy": {
     "definition": "Evasive and shifty",
     "partOfSpeech": "adjective"
@@ -1917,6 +1926,7 @@
   "dunno": null,
   "dyad": null,
   "dyed": null,
+  "dying": null,
   "dyne": null,
   "each": {
     "definition": "(operations) An individual item: the least quantitative unit in a grouping.",
@@ -2409,6 +2419,9 @@
   },
   "gibbon": null,
   "gibing": null,
+  "giddily": null,
+  "giddy": null,
+  "giddying": null,
   "gigged": {
     "definition": "To fish or catch with a gig, or fish spear.",
     "partOfSpeech": "verb"
@@ -2417,6 +2430,12 @@
     "definition": "To fish or catch with a gig, or fish spear.",
     "partOfSpeech": "verb"
   },
+  "giggling": null,
+  "giggly": null,
+  "gild": null,
+  "gilding": null,
+  "gill": null,
+  "gilling": null,
   "gimme": {
     "definition": "That which is easily obtained, or certain to occur.",
     "partOfSpeech": "noun"
@@ -2449,6 +2468,7 @@
     "partOfSpeech": "noun"
   },
   "glib": null,
+  "gliding": null,
   "glob": null,
   "glom": {
     "definition": "To steal, to grab.",
@@ -2844,6 +2864,7 @@
   "ichor": null,
   "icicle": null,
   "idiot": null,
+  "idling": null,
   "idly": null,
   "idol": null,
   "idyl": null,
@@ -2871,6 +2892,7 @@
     "definition": "A banned or unlawful item.",
     "partOfSpeech": "noun"
   },
+  "illy": null,
   "imaging": {
     "definition": "To represent by an image or symbol; to portray.",
     "partOfSpeech": "verb"
@@ -3314,6 +3336,7 @@
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
     "partOfSpeech": "noun"
   },
+  "lily": null,
   "lima": null,
   "lime": {
     "definition": "Any inorganic material containing calcium, usually calcium oxide (quicklime) or calcium hydroxide (slaked lime).",
@@ -3335,6 +3358,7 @@
     "definition": "An irregular, jerky or awkward gait.",
     "partOfSpeech": "noun"
   },
+  "lining": null,
   "linnet": null,
   "lint": {
     "definition": "A fine material made by scraping cotton or linen cloth; used for dressing wounds.",
@@ -3486,6 +3510,7 @@
   "lune": null,
   "lunula": null,
   "lunulae": null,
+  "lying": null,
   "macing": null,
   "madam": {
     "definition": "A polite form of address for a woman or lady.",
@@ -4089,6 +4114,7 @@
   "nice": null,
   "nicknaming": null,
   "niece": null,
+  "niggling": null,
   "nimbi": {
     "definition": "A circle of light; a halo.",
     "partOfSpeech": "noun"
@@ -5634,6 +5660,10 @@
     "partOfSpeech": "adjective"
   },
   "yoohoo": null,
+  "zigging": null,
+  "zing": null,
+  "zinging": null,
+  "zingy": null,
   "zinnia": {
     "definition": "Any of several brightly coloured flowering plants, of the genus Zinnia, native to tropical America; old maid",
     "partOfSpeech": "noun"

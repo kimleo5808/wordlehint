@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T08:41:48.242Z",
+  "lastUpdated": "2026-09-23T08:44:02.038Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23377,6 +23377,30 @@
         "IUIARE",
         "TWNOGO",
         "HCSXPR"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "id": 934,
+      "editor": "Tracy Bennett",
+      "clue": "Practically paleolithic",
+      "spangram": "THATSOLDNEWS",
+      "themeWords": [
+        "ANCIENT",
+        "ARCHAIC",
+        "BYGONE",
+        "PRIMEVAL",
+        "TIMEWORN"
+      ],
+      "board": [
+        "TNINTA",
+        "HACECR",
+        "AOGYHA",
+        "TNEBCI",
+        "SOLDWS",
+        "IRPNEO",
+        "MALTWR",
+        "EVIMEN"
       ]
     }
   ]
