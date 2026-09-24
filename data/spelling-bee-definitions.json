@@ -311,6 +311,14 @@
     "partOfSpeech": "noun"
   },
   "apogee": null,
+  "appall": null,
+  "appeal": null,
+  "appealable": null,
+  "appellee": null,
+  "apple": {
+    "definition": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+    "partOfSpeech": "noun"
+  },
   "aqua": null,
   "aquanaut": null,
   "aquatic": null,
@@ -588,6 +596,7 @@
   },
   "beanball": null,
   "beaned": null,
+  "bebop": null,
   "becloud": {
     "definition": "To cause to become obscure or muddled.",
     "partOfSpeech": "verb"
@@ -599,6 +608,7 @@
     "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
     "partOfSpeech": "noun"
   },
+  "beep": null,
   "began": {
     "definition": "To start, to initiate or take the first step into something.",
     "partOfSpeech": "verb"
@@ -657,6 +667,7 @@
   "bitumen": null,
   "blab": null,
   "blabby": null,
+  "bleep": null,
   "blin": null,
   "bling": null,
   "blini": null,
@@ -671,6 +682,7 @@
   "blogging": null,
   "blood": null,
   "bloody": null,
+  "bloop": null,
   "blot": null,
   "blotting": null,
   "blotto": null,
@@ -775,6 +787,7 @@
   "booed": null,
   "booing": null,
   "boon": null,
+  "boop": null,
   "boor": {
     "definition": "A peasant.",
     "partOfSpeech": "noun"
@@ -2029,6 +2042,7 @@
     "definition": "A special group or social class of people which have a superior intellectual, social or economic status as, the elite of society.",
     "partOfSpeech": "noun"
   },
+  "elope": null,
   "elude": null,
   "eluded": null,
   "elver": {
@@ -3214,6 +3228,7 @@
     "partOfSpeech": "noun"
   },
   "lantana": null,
+  "lapel": null,
   "lard": null,
   "largo": {
     "definition": "A very slow tempo",
@@ -3283,6 +3298,7 @@
     "definition": "To incline, deviate, or bend, from a vertical position; to be in a position thus inclining or deviating.",
     "partOfSpeech": "verb"
   },
+  "leap": null,
   "lech": {
     "definition": "A strong, lecherous desire or craving.",
     "partOfSpeech": "noun"
@@ -3460,13 +3476,16 @@
     "definition": "To act lazily or indolently while reclining; to lean; to lie at ease.",
     "partOfSpeech": "verb"
   },
+  "lollop": null,
   "loom": null,
   "loon": null,
   "loony": null,
+  "loop": null,
   "loot": {
     "definition": "A kind of scoop or ladle, chiefly used to remove the scum from brine-pans in saltworks.",
     "partOfSpeech": "noun"
   },
+  "lope": null,
   "lord": {
     "definition": "The master of the servants of a household; the master of a feudal manor",
     "partOfSpeech": "noun"
@@ -4309,6 +4328,7 @@
     "definition": "(of a function) Assuming each of the values in its codomain; having its range equal to its codomain.",
     "partOfSpeech": "adjective"
   },
+  "opal": null,
   "open": null,
   "opened": null,
   "opine": null,
@@ -4383,6 +4403,7 @@
   "oxen": null,
   "oxidant": null,
   "oxidation": null,
+  "paella": null,
   "page": {
     "definition": "One of the many pieces of paper bound together within a book or similar document.",
     "partOfSpeech": "noun"
@@ -4390,21 +4411,36 @@
   "pageboy": null,
   "pail": null,
   "pair": null,
+  "palapa": null,
   "palatial": null,
+  "pale": null,
+  "paleo": null,
+  "pall": null,
   "palm": {
     "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics.",
     "partOfSpeech": "noun"
   },
+  "palp": null,
+  "palpable": null,
   "pampa": null,
+  "papa": null,
+  "papal": null,
+  "papaw": null,
   "papilla": null,
   "papilloma": null,
   "partial": null,
   "partita": null,
+  "pawl": null,
+  "pawpaw": null,
+  "peal": null,
+  "pebble": null,
   "peed": null,
   "peeing": {
     "definition": "To urinate.",
     "partOfSpeech": "verb"
   },
+  "peel": null,
+  "peelable": null,
   "peen": null,
   "peep": null,
   "peeped": null,
@@ -4433,6 +4469,10 @@
   "penned": null,
   "penning": null,
   "peon": null,
+  "people": {
+    "definition": "Used as plural of person; a body of human beings considered generally or collectively; a group of two or more persons.",
+    "partOfSpeech": "noun"
+  },
   "pepped": null,
   "pepping": null,
   "peptic": null,
@@ -4529,19 +4569,29 @@
   "pitted": null,
   "plaintiff": null,
   "plait": null,
+  "plea": null,
+  "pleb": null,
+  "plebe": null,
+  "plop": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
     "partOfSpeech": "noun"
   },
+  "plow": null,
+  "plowable": null,
   "pogo": {
     "definition": "A dance associated with the 1970s punk rock movement in which participants jump up and down on the spot in the manner of someone riding a pogo stick.",
     "partOfSpeech": "noun"
   },
+  "pole": null,
+  "poll": null,
+  "polo": null,
   "pomp": null,
   "pompom": null,
   "pond": null,
   "pone": null,
   "ponied": null,
+  "pool": null,
   "poop": {
     "definition": "Fecal matter, feces.",
     "partOfSpeech": "noun"
@@ -4553,6 +4603,7 @@
   },
   "pope": null,
   "popover": null,
+  "poppa": null,
   "popped": null,
   "poppy": {
     "definition": "Any plant of the genus Papaver or the family Papaveraceae, with crumpled, often red, petals and a milky juice having narcotic properties; especially the common poppy or corn poppy (Papaver rhoeas) which has orange-red flowers; the flower of such a plant.",
@@ -5562,6 +5613,7 @@
   "wail": null,
   "wait": null,
   "wall": null,
+  "wallop": null,
   "wand": null,
   "wanna": null,
   "want": null,

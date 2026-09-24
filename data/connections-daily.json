@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T08:44:01.543Z",
+  "lastUpdated": "2026-09-24T08:37:18.417Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56162,6 +56162,53 @@
             "RECORD LABEL",
             "RUB-A-DUB",
             "SURINAME"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": 1201,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PARTS OF A VAMPIRE COSTUME",
+          "words": [
+            "CAPE",
+            "FACE PAINT",
+            "FAKE BLOOD",
+            "FANGS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS WITH SPRING/S",
+          "words": [
+            "BOBBLEHEAD",
+            "POGO STICK",
+            "SNAKES IN A CAN",
+            "TRAMPOLINE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FEATURING POINTING",
+          "words": [
+            "CREATION OF ADAM",
+            "FOAM FINGER",
+            "I'M WITH STUPID SHIRT",
+            "UNCLE SAM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ANAGRAMS",
+          "words": [
+            "BEER HAT",
+            "BREATHE",
+            "HERB TEA",
+            "THE BEAR"
           ]
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T08:44:02.038Z",
+  "lastUpdated": "2026-09-24T08:37:18.907Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23401,6 +23401,31 @@
         "IRPNEO",
         "MALTWR",
         "EVIMEN"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "id": 935,
+      "editor": "Tracy Bennett",
+      "clue": "Just outside your door",
+      "spangram": "BACKYARD",
+      "themeWords": [
+        "FORT",
+        "POOL",
+        "SANDBOX",
+        "SWINGS",
+        "TRAMPOLINE",
+        "TREEHOUSE"
+      ],
+      "board": [
+        "TRESEN",
+        "SIEUDA",
+        "WNHOBS",
+        "SGKYOX",
+        "BACARD",
+        "TROENI",
+        "PLFAML",
+        "OOTRPO"
       ]
     }
   ]
