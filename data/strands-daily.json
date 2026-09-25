@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T08:37:18.907Z",
+  "lastUpdated": "2026-09-25T08:58:37.145Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23426,6 +23426,30 @@
         "TROENI",
         "PLFAML",
         "OOTRPO"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": 936,
+      "editor": "Tracy Bennett",
+      "clue": "1✖️1, etc ... ",
+      "spangram": "SQUARENUMBER",
+      "themeWords": [
+        "EIGHTYONE",
+        "FOUR",
+        "NINE",
+        "THIRTYSIX",
+        "TWENTYFIVE"
+      ],
+      "board": [
+        "RFENTW",
+        "UONITE",
+        "EVIFYN",
+        "SQUARE",
+        "REBMUN",
+        "SYTGHE",
+        "ITHITN",
+        "XRIEYO"
       ]
     }
   ]

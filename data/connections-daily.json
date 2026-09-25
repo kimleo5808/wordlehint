@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T08:37:18.417Z",
+  "lastUpdated": "2026-09-25T08:58:36.629Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56209,6 +56209,53 @@
             "BREATHE",
             "HERB TEA",
             "THE BEAR"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "id": 1202,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "LUXE",
+          "words": [
+            "BOUGIE",
+            "FANCY",
+            "POSH",
+            "SWANK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTS OF A MECHANICAL CLOCK",
+          "words": [
+            "ESCAPEMENT",
+            "PENDULUM",
+            "RATCHET",
+            "SPRING"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FAMOUS DANS",
+          "words": [
+            "AYKROYD",
+            "LEVY",
+            "RATHER",
+            "SAVAGE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "TAXONOMIC RANKS PLUS A LETTER",
+          "words": [
+            "BORDER",
+            "CLASSY",
+            "FOAMILY",
+            "GENIUS"
           ]
         }
       ]

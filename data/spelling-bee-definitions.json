@@ -46,10 +46,13 @@
     "definition": "Any of several South American palms, of the genus Euterpe, having a dark purple drupe.",
     "partOfSpeech": "noun"
   },
+  "accede": null,
+  "acceded": null,
   "accord": {
     "definition": "Agreement or concurrence of opinion, will, or action.",
     "partOfSpeech": "noun"
   },
+  "aced": null,
   "acetic": null,
   "ache": {
     "definition": "Continued dull pain, as distinguished from sudden twinges, or spasmodic pain.",
@@ -115,6 +118,9 @@
     "definition": "Adornment",
     "partOfSpeech": "noun"
   },
+  "advance": null,
+  "advanced": null,
+  "advice": null,
   "adze": null,
   "affably": null,
   "affiant": null,
@@ -907,6 +913,8 @@
     "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
     "partOfSpeech": "noun"
   },
+  "caddie": null,
+  "caddied": null,
   "cadence": {
     "definition": "The act or state of declining or sinking.",
     "partOfSpeech": "noun"
@@ -949,6 +957,8 @@
     "definition": "In the International System of Units, the base unit of luminous intensity; the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 × 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian. Symbol: cd",
     "partOfSpeech": "noun"
   },
+  "candid": null,
+  "candied": null,
   "candle": {
     "definition": "A light source consisting of a wick embedded in a solid, flammable substance such as wax, tallow, or paraffin.",
     "partOfSpeech": "noun"
@@ -961,6 +971,8 @@
     "definition": "To strike or beat with a cane or similar implement",
     "partOfSpeech": "verb"
   },
+  "canid": null,
+  "canine": null,
   "canna": {
     "definition": "Any member of the genus Canna of tropical plants with large leaves and often showy flowers.",
     "partOfSpeech": "noun"
@@ -1033,6 +1045,9 @@
     "partOfSpeech": "adjective"
   },
   "cattail": null,
+  "cava": null,
+  "cave": null,
+  "caved": null,
   "cavity": {
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
@@ -1580,10 +1595,15 @@
   },
   "debone": null,
   "deboned": null,
+  "decade": null,
   "decadence": {
     "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
   },
+  "deceive": null,
+  "deceived": null,
+  "decide": null,
+  "decided": null,
   "deck": {
     "definition": "Any raised flat surface that can be walked on: a balcony; a porch; a raised patio; a flat rooftop.",
     "partOfSpeech": "noun"
@@ -1653,6 +1673,9 @@
     "definition": "To cancel funding for.",
     "partOfSpeech": "verb"
   },
+  "deice": null,
+  "deiced": null,
+  "deicide": null,
   "deign": {
     "definition": "To condescend; to do despite a perceived affront to one's dignity.",
     "partOfSpeech": "verb"
@@ -1701,9 +1724,13 @@
     "definition": "A card with two pips, one of four in a standard deck of playing cards.",
     "partOfSpeech": "noun"
   },
+  "deviance": null,
+  "device": null,
   "dhoti": null,
   "diacritic": null,
   "dial": null,
+  "dice": null,
+  "diced": null,
   "dicta": null,
   "didact": null,
   "didactic": {
@@ -2159,6 +2186,10 @@
     "definition": "Occurring at any time, occurring even but once during a timespan.",
     "partOfSpeech": "adjective"
   },
+  "evidence": null,
+  "evidenced": null,
+  "evince": null,
+  "evinced": null,
   "evoke": {
     "definition": "To call out; to draw out or bring forth.",
     "partOfSpeech": "verb"
@@ -2874,6 +2905,7 @@
     "definition": "The act of hunting.",
     "partOfSpeech": "noun"
   },
+  "iced": null,
   "icefall": null,
   "ichor": null,
   "icicle": null,
@@ -2992,6 +3024,7 @@
     "definition": "To state solemnly, to chant.",
     "partOfSpeech": "verb"
   },
+  "incidence": null,
   "incite": null,
   "incur": {
     "definition": "To bring upon oneself or expose oneself to, especially something inconvenient, harmful, or onerous; to become liable or subject to",
@@ -3001,6 +3034,8 @@
     "definition": "To arrange an index for something, especially a long text.",
     "partOfSpeech": "verb"
   },
+  "indica": null,
+  "indicia": null,
   "indigene": {
     "definition": "An indigenous person; a native.",
     "partOfSpeech": "noun"
@@ -5486,6 +5521,7 @@
     "definition": "Pertaining to, contained in, or obtained from urine.",
     "partOfSpeech": "adjective"
   },
+  "vaccine": null,
   "vagal": {
     "definition": "Of or relating to the vagus nerve.",
     "partOfSpeech": "adjective"
@@ -5555,6 +5591,7 @@
     "definition": "A glass vessel or bottle, especially a small tube-shaped bottle used to store medicine, perfume or other chemical.",
     "partOfSpeech": "noun"
   },
+  "vice": null,
   "vicinity": {
     "definition": "Proximity; the state of being near.",
     "partOfSpeech": "noun"
@@ -5593,6 +5630,7 @@
     "definition": "To spoil, make faulty; to reduce the value, quality, or effectiveness of something",
     "partOfSpeech": "verb"
   },
+  "vivace": null,
   "vivacity": {
     "definition": "The quality or state of being vivacious.",
     "partOfSpeech": "noun"
