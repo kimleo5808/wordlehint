@@ -1173,6 +1173,7 @@
     "partOfSpeech": "noun"
   },
   "chord": null,
+  "chromium": null,
   "chuck": null,
   "chucked": null,
   "chunk": {
@@ -1180,6 +1181,7 @@
     "partOfSpeech": "noun"
   },
   "chunked": null,
+  "churro": null,
   "ciao": {
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
@@ -1399,6 +1401,7 @@
     "definition": "A young male horse.",
     "partOfSpeech": "noun"
   },
+  "comic": null,
   "conch": null,
   "confound": {
     "definition": "A confounding variable.",
@@ -1430,6 +1433,7 @@
     "definition": "A narrow hall or passage with rooms leading off it, as in a building or in a railway carriage.",
     "partOfSpeech": "noun"
   },
+  "couch": null,
   "could": {
     "definition": "(auxiliary verb, defective) To know how to; to be able to.",
     "partOfSpeech": "verb"
@@ -1469,6 +1473,7 @@
     "definition": "A perennial flowering plant (of the genus Crocus in the Iridaceae family). Saffron is obtained from the stamens of Crocus sativus.",
     "partOfSpeech": "noun"
   },
+  "crouch": null,
   "cube": {
     "definition": "A regular polyhedron having six identical square faces.",
     "partOfSpeech": "noun"
@@ -1503,6 +1508,7 @@
     "definition": "To pick or take someone or something (from a larger group).",
     "partOfSpeech": "verb"
   },
+  "curio": null,
   "curtain": {
     "definition": "A piece of cloth covering a window, bed, etc. to offer privacy and keep out light.",
     "partOfSpeech": "noun"
@@ -2893,6 +2899,7 @@
   "hula": null,
   "hull": null,
   "hulled": null,
+  "humor": null,
   "hung": {
     "definition": "To be or remain suspended.",
     "partOfSpeech": "verb"
@@ -3772,6 +3779,7 @@
     "partOfSpeech": "noun"
   },
   "mica": null,
+  "micro": null,
   "midge": {
     "definition": "Any of various small two-winged flies, for example, from the family Chironomidae or non-biting midges, the family Chaoboridae or phantom midges, and the family Ceratopogonidae or biting midges, all belonging to the order Diptera",
     "partOfSpeech": "noun"
@@ -3898,6 +3906,7 @@
   },
   "mirin": null,
   "miring": null,
+  "mirror": null,
   "mite": {
     "definition": "Any of many minute arachnids which, along with the ticks, comprise subclass Acarina (aka Acari).",
     "partOfSpeech": "noun"
@@ -3920,6 +3929,7 @@
     "partOfSpeech": "noun"
   },
   "moat": null,
+  "mochi": null,
   "mogul": {
     "definition": "A rich or powerful person; a magnate.",
     "partOfSpeech": "noun"
@@ -3958,6 +3968,7 @@
     "definition": "Excessive interest or concentration on a singular object or subject.",
     "partOfSpeech": "noun"
   },
+  "mooch": null,
   "moola": {
     "definition": "Money, cash.",
     "partOfSpeech": "noun"
@@ -3970,12 +3981,14 @@
     "definition": "Lit by moonlight.",
     "partOfSpeech": "adjective"
   },
+  "moor": null,
   "moot": {
     "definition": "A moot court.",
     "partOfSpeech": "noun"
   },
   "mordant": null,
   "morn": null,
+  "morocco": null,
   "moron": {
     "definition": "A stupid person; an idiot; a fool.",
     "partOfSpeech": "noun"
@@ -3994,6 +4007,7 @@
   },
   "motorway": null,
   "motto": null,
+  "mucho": null,
   "mule": {
     "definition": "The generally sterile male or female hybrid offspring of a male donkey and a female horse.",
     "partOfSpeech": "noun"
@@ -4302,6 +4316,7 @@
     "definition": "To obstruct, cover, or otherwise block (an opening, a portion of an image, etc.).",
     "partOfSpeech": "verb"
   },
+  "occur": null,
   "octal": {
     "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",
     "partOfSpeech": "noun"
@@ -4396,6 +4411,7 @@
     "definition": "An upholstered sofa, without arms or a back, sometimes with a compartment for storing linen, etc.",
     "partOfSpeech": "noun"
   },
+  "ouch": null,
   "ought": {
     "definition": "Property; possession",
     "partOfSpeech": "noun"
@@ -4851,8 +4867,10 @@
   "roll": null,
   "rollbar": null,
   "rollover": null,
+  "romcom": null,
   "rondo": null,
   "rood": null,
+  "room": null,
   "root": {
     "definition": "The part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction.",
     "partOfSpeech": "noun"
@@ -4887,6 +4905,7 @@
     "definition": "(sometimes in the plural) The remains of a destroyed or dilapidated construction, such as a house or castle.",
     "partOfSpeech": "noun"
   },
+  "rumor": null,
   "rung": {
     "definition": "A crosspiece forming a step of a ladder; a round.",
     "partOfSpeech": "noun"

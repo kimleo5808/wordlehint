@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T08:58:37.145Z",
+  "lastUpdated": "2026-09-26T08:44:35.532Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23450,6 +23450,32 @@
         "SYTGHE",
         "ITHITN",
         "XRIEYO"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "id": 937,
+      "editor": "Tracy Bennett",
+      "clue": "A breath of fresh air",
+      "spangram": "GENTLEWIND",
+      "themeWords": [
+        "BREEZE",
+        "CURRENT",
+        "FLURRY",
+        "GUST",
+        "PUFF",
+        "WHIFF",
+        "ZEPHYR"
+      ],
+      "board": [
+        "DZEFFT",
+        "NIEIHS",
+        "ZCWEWU",
+        "EUEFRG",
+        "PRRLFB",
+        "HEYTNU",
+        "YNRLEP",
+        "RTRUFG"
       ]
     }
   ]

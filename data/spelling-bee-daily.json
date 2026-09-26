@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T08:58:37.861Z",
+  "lastUpdated": "2026-09-26T08:44:36.306Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63709,6 +63709,55 @@
         "vaccine",
         "vice",
         "vivace"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-26",
+      "id": 26779,
+      "centerLetter": "o",
+      "outerLetters": [
+        "c",
+        "h",
+        "i",
+        "m",
+        "r",
+        "u"
+      ],
+      "pangrams": [
+        "chromium"
+      ],
+      "answers": [
+        "choir",
+        "chromium",
+        "churro",
+        "cocci",
+        "coho",
+        "coir",
+        "comic",
+        "couch",
+        "croc",
+        "croci",
+        "crouch",
+        "curio",
+        "hooch",
+        "horror",
+        "hour",
+        "humor",
+        "ichor",
+        "micro",
+        "mirror",
+        "mochi",
+        "mooch",
+        "moor",
+        "morocco",
+        "mucho",
+        "occur",
+        "ouch",
+        "rococo",
+        "romcom",
+        "room",
+        "rumor"
       ],
       "editor": "Sam Ezersky"
     }
