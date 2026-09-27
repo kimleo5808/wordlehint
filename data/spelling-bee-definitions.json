@@ -1671,6 +1671,11 @@
     "definition": "To ward off attacks against; to fight to protect; to guard.",
     "partOfSpeech": "verb"
   },
+  "defied": null,
+  "defile": null,
+  "defiled": null,
+  "define": null,
+  "defined": null,
   "defund": {
     "definition": "To cancel funding for.",
     "partOfSpeech": "verb"
@@ -1682,6 +1687,7 @@
   "deice": null,
   "deiced": null,
   "deicide": null,
+  "deified": null,
   "deign": {
     "definition": "To condescend; to do despite a perceived affront to one's dignity.",
     "partOfSpeech": "verb"
@@ -1956,6 +1962,8 @@
     "definition": "Dough.",
     "partOfSpeech": "noun"
   },
+  "duffel": null,
+  "duffle": null,
   "dugong": null,
   "duke": null,
   "duked": null,
@@ -2009,6 +2017,7 @@
     "definition": "To move an object slowly and carefully in a particular direction.",
     "partOfSpeech": "verb"
   },
+  "edified": null,
   "educe": {
     "definition": "An inference.",
     "partOfSpeech": "noun"
@@ -2067,6 +2076,7 @@
     "definition": "A cricket team of eleven players. Hence first eleven - the team of best cricket players (at a school), second eleven - the \"B\" team, etc.",
     "partOfSpeech": "noun"
   },
+  "elfin": null,
   "elicit": {
     "definition": "To evoke, educe (emotions, feelings, responses, etc.); to generate, obtain, or provoke as a response or answer.",
     "partOfSpeech": "verb"
@@ -2258,6 +2268,14 @@
     "definition": "Food given to (especially herbivorous) animals.",
     "partOfSpeech": "noun"
   },
+  "feel": {
+    "definition": "A quality of an object experienced by touch.",
+    "partOfSpeech": "noun"
+  },
+  "felid": null,
+  "feline": null,
+  "fell": null,
+  "felled": null,
   "fence": {
     "definition": "A thin artificial barrier that separates two pieces of land or a house perimeter.",
     "partOfSpeech": "noun"
@@ -2274,6 +2292,7 @@
     "definition": "To take care of oneself; to take responsibility for one's own well-being.",
     "partOfSpeech": "verb"
   },
+  "fennel": null,
   "feud": {
     "definition": "A state of long-standing mutual hostility.",
     "partOfSpeech": "noun"
@@ -2283,16 +2302,26 @@
     "partOfSpeech": "verb"
   },
   "fiat": null,
+  "fiddle": null,
+  "fiddled": null,
   "fiddly": {
     "definition": "Requiring dexterity to operate.",
     "partOfSpeech": "adjective"
   },
   "fief": null,
+  "field": {
+    "definition": "A land area free of woodland, cities, and towns; open country.",
+    "partOfSpeech": "noun"
+  },
+  "fielded": null,
+  "fiend": null,
   "fife": null,
+  "fifed": null,
   "file": {
     "definition": "A collection of papers collated and archived together.",
     "partOfSpeech": "noun"
   },
+  "filed": null,
   "filet": null,
   "filial": {
     "definition": "Pertaining to or befitting a son or daughter.",
@@ -2303,6 +2332,7 @@
     "definition": "To occupy fully, to take up all of.",
     "partOfSpeech": "verb"
   },
+  "filled": null,
   "fillet": null,
   "fillip": null,
   "filly": {
@@ -2319,10 +2349,20 @@
     "definition": "At the end or conclusion; ultimately.",
     "partOfSpeech": "adverb"
   },
+  "find": {
+    "definition": "Anything that is found (usually valuable), as objects on an archeological site or a person with talent.",
+    "partOfSpeech": "noun"
+  },
+  "fine": {
+    "definition": "Fine champagne; French brandy.",
+    "partOfSpeech": "noun"
+  },
+  "fined": null,
   "finial": {
     "definition": "The knot or bunch of foliage, or foliated ornament, that forms the upper extremity of a pinnacle in Gothic architecture.",
     "partOfSpeech": "noun"
   },
+  "finned": null,
   "flab": {
     "definition": "Soft, loose flesh on a person's body; fat.",
     "partOfSpeech": "noun"
@@ -2345,6 +2385,9 @@
     "definition": "A fright; a scare.",
     "partOfSpeech": "noun"
   },
+  "fled": null,
+  "flee": null,
+  "flied": null,
   "flimflam": null,
   "flint": null,
   "flip": null,
@@ -2359,6 +2402,10 @@
     "partOfSpeech": "adjective"
   },
   "floridly": null,
+  "flue": null,
+  "fluff": null,
+  "fluffed": null,
+  "fluid": null,
   "flyby": {
     "definition": "A flight past a celestial object in order to make observations.",
     "partOfSpeech": "noun"
@@ -2399,6 +2446,13 @@
     "definition": "To (cause to) unravel; used particularly for the edge of something made of cloth, or the end of a rope.",
     "partOfSpeech": "verb"
   },
+  "fuddle": null,
+  "fuddled": null,
+  "fuel": null,
+  "fueled": null,
+  "fulfill": null,
+  "fulfilled": null,
+  "full": null,
   "fund": {
     "definition": "A sum or source of money.",
     "partOfSpeech": "noun"
@@ -2407,6 +2461,8 @@
     "definition": "To pay for.",
     "partOfSpeech": "verb"
   },
+  "funnel": null,
+  "funneled": null,
   "gabbed": null,
   "gabby": null,
   "gaga": {
@@ -3049,10 +3105,13 @@
   },
   "infallibly": null,
   "infant": null,
+  "infidel": null,
+  "infield": null,
   "infill": {
     "definition": "That which fills in a space, hole or gap.",
     "partOfSpeech": "noun"
   },
+  "infilled": null,
   "ingot": null,
   "initial": null,
   "initiation": {
@@ -3388,6 +3447,7 @@
     "definition": "The state of organisms preceding their death, characterized by biological processes such as metabolism and reproduction and distinguishing them from inanimate objects; the state of being alive and living.",
     "partOfSpeech": "noun"
   },
+  "lifeline": null,
   "lift": null,
   "lilac": null,
   "lilt": {
@@ -3564,6 +3624,8 @@
   "loyal": null,
   "loyally": null,
   "luau": null,
+  "luff": null,
+  "luffed": null,
   "lull": null,
   "lulled": null,
   "lulu": null,
@@ -4137,6 +4199,7 @@
     "definition": "To have an absolute requirement for.",
     "partOfSpeech": "verb"
   },
+  "needful": null,
   "needing": {
     "definition": "To have an absolute requirement for.",
     "partOfSpeech": "verb"
@@ -4284,6 +4347,7 @@
   "nuke": null,
   "nuked": null,
   "null": null,
+  "nullified": null,
   "numb": {
     "definition": "To cause to become numb (physically or emotionally).",
     "partOfSpeech": "verb"
@@ -5468,6 +5532,7 @@
     "definition": "Not defended.",
     "partOfSpeech": "adjective"
   },
+  "undefined": null,
   "undo": {
     "definition": "An operation that reverses a previous action.",
     "partOfSpeech": "noun"
@@ -5481,10 +5546,13 @@
     "definition": "Not enclosed by a fence or other boundary; free to roam over a wider area.",
     "partOfSpeech": "adjective"
   },
+  "unfiled": null,
+  "unfilled": null,
   "unfounded": {
     "definition": "Having no strong foundation; not based on solid reasons or facts.",
     "partOfSpeech": "adjective"
   },
+  "unfulfilled": null,
   "unfunded": {
     "definition": "Not funded; having received no funding.",
     "partOfSpeech": "adjective"
@@ -5506,6 +5574,7 @@
     "definition": "(of a person) Not (yet) executed by hanging; unhanged.",
     "partOfSpeech": "adjective"
   },
+  "unified": null,
   "union": null,
   "unique": null,
   "unit": {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T08:44:35.038Z",
+  "lastUpdated": "2026-09-27T09:25:08.391Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56303,6 +56303,53 @@
             "CAT",
             "CUCUMBER",
             "CUSTOMER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "id": 1204,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SCULPTURE MEDIA",
+          "words": [
+            "BRONZE",
+            "CLAY",
+            "MARBLE",
+            "PLASTER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "RESTAURANT SEATING OPTIONS",
+          "words": [
+            "BANQUETTE",
+            "BOOTH",
+            "CHAIR",
+            "STOOL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "TELECOM",
+          "words": [
+            "CARRIER",
+            "NETWORK",
+            "OPERATOR",
+            "PROVIDER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN CHINESE DYNASTIES",
+          "words": [
+            "BBQING",
+            "HOMING",
+            "LOHAN",
+            "WU-TANG"
           ]
         }
       ]
