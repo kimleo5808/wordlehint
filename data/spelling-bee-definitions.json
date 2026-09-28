@@ -1327,6 +1327,7 @@
     "definition": "The dried and partially fermented fatty seeds of the cacao tree from which chocolate is made.",
     "partOfSpeech": "noun"
   },
+  "coconut": null,
   "cocoon": {
     "definition": "The silky protective case spun by the larvae of some insects in which they metamorphose, the pupa.",
     "partOfSpeech": "noun"
@@ -1403,6 +1404,9 @@
   },
   "comic": null,
   "conch": null,
+  "concoct": null,
+  "conduct": null,
+  "conductor": null,
   "confound": {
     "definition": "A confounding variable.",
     "partOfSpeech": "noun"
@@ -1411,6 +1415,8 @@
     "definition": "To perplex or puzzle.",
     "partOfSpeech": "verb"
   },
+  "contort": null,
+  "contour": null,
   "cooed": null,
   "cool": {
     "definition": "A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; coolness.",
@@ -1433,6 +1439,7 @@
     "definition": "A narrow hall or passage with rooms leading off it, as in a building or in a railway carriage.",
     "partOfSpeech": "noun"
   },
+  "cotton": null,
   "couch": null,
   "could": {
     "definition": "(auxiliary verb, defective) To know how to; to be able to.",
@@ -1442,6 +1449,11 @@
     "definition": "A stream.",
     "partOfSpeech": "noun"
   },
+  "count": {
+    "definition": "The act of counting or tallying a quantity.",
+    "partOfSpeech": "noun"
+  },
+  "court": null,
   "crab": {
     "definition": "A crustacean of the infraorder Brachyura, having five pairs of legs, the foremost of which are in the form of claws, and a carapace.",
     "partOfSpeech": "noun"
@@ -1474,6 +1486,7 @@
     "partOfSpeech": "noun"
   },
   "crouch": null,
+  "crouton": null,
   "cube": {
     "definition": "A regular polyhedron having six identical square faces.",
     "partOfSpeech": "noun"
@@ -1509,10 +1522,12 @@
     "partOfSpeech": "verb"
   },
   "curio": null,
+  "curt": null,
   "curtain": {
     "definition": "A piece of cloth covering a window, bed, etc. to offer privacy and keep out light.",
     "partOfSpeech": "noun"
   },
+  "cutout": null,
   "cyan": null,
   "cynic": {
     "definition": "A person who believes that all people are motivated by selfishness.",
@@ -1822,6 +1837,7 @@
   },
   "dizzying": null,
   "dizzyingly": null,
+  "doctor": null,
   "dodgy": {
     "definition": "Evasive and shifty",
     "partOfSpeech": "adjective"
@@ -1863,6 +1879,7 @@
     "definition": "One who makes a donation.",
     "partOfSpeech": "noun"
   },
+  "donut": null,
   "doodad": null,
   "door": {
     "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
@@ -1955,6 +1972,7 @@
     "partOfSpeech": "verb"
   },
   "ducked": null,
+  "duct": null,
   "dude": null,
   "duel": null,
   "dueled": null,
@@ -4288,6 +4306,7 @@
     "definition": "That which is not art",
     "partOfSpeech": "noun"
   },
+  "nonconductor": null,
   "none": null,
   "nonillion": null,
   "nonlocal": null,
@@ -4471,6 +4490,7 @@
   },
   "orchid": null,
   "orgy": null,
+  "orotund": null,
   "ottoman": {
     "definition": "An upholstered sofa, without arms or a back, sometimes with a compartment for storing linen, etc.",
     "partOfSpeech": "noun"
@@ -4484,6 +4504,8 @@
     "definition": "An outboard motor.",
     "partOfSpeech": "noun"
   },
+  "outdo": null,
+  "outdoor": null,
   "outgo": null,
   "outgoing": {
     "definition": "To go out, to set forth.",
@@ -4495,6 +4517,8 @@
   },
   "outgunning": null,
   "outing": null,
+  "outro": null,
+  "outrun": null,
   "outthought": {
     "definition": "To best an opponent by thinking.",
     "partOfSpeech": "verb"
@@ -4950,6 +4974,7 @@
     "definition": "A rotating part of a mechanical device, for example in an electric motor, generator, alternator or pump.",
     "partOfSpeech": "noun"
   },
+  "rotund": null,
   "rough": {
     "definition": "The unmowed part of a golf course.",
     "partOfSpeech": "noun"
@@ -4958,6 +4983,7 @@
     "definition": "So as to form a circle or trace a circular path, or approximation thereof.",
     "partOfSpeech": "adverb"
   },
+  "rout": null,
   "rove": null,
   "rover": {
     "definition": "(usually in the plural) A randomly selected target.",
@@ -4975,6 +5001,8 @@
     "partOfSpeech": "noun"
   },
   "runic": null,
+  "runout": null,
+  "runt": null,
   "tabard": {
     "definition": "A silk banner attached to a bugle or trumpet.",
     "partOfSpeech": "noun"
@@ -5407,6 +5435,7 @@
     "definition": "To make tough.",
     "partOfSpeech": "verb"
   },
+  "tour": null,
   "tout": {
     "definition": "Someone advertising for customers in an aggressive way.",
     "partOfSpeech": "noun"
@@ -5448,6 +5477,7 @@
   "trill": null,
   "trim": null,
   "trip": null,
+  "trod": null,
   "trot": {
     "definition": "Any of several animals related to Equus ferus caballus.",
     "partOfSpeech": "noun"
@@ -5456,6 +5486,7 @@
     "definition": "An itinerant composer and performer of songs in medieval Europe; a jongleur or travelling minstrel.",
     "partOfSpeech": "noun"
   },
+  "trout": null,
   "troy": null,
   "tuba": {
     "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
@@ -5488,6 +5519,9 @@
     "definition": "A species of flatfish native to Europe (Scophthalmus maximus, earlier Psetta maxima).",
     "partOfSpeech": "noun"
   },
+  "turn": null,
+  "turnout": null,
+  "tutor": null,
   "tutti": null,
   "tutting": {
     "definition": "To make a tut tut sound of disapproval.",
@@ -5527,6 +5561,7 @@
   "unchecked": null,
   "uncuff": null,
   "uncuffed": null,
+  "uncut": null,
   "undead": null,
   "undefended": {
     "definition": "Not defended.",

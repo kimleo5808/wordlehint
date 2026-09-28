@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T09:25:08.391Z",
+  "lastUpdated": "2026-09-28T10:01:36.130Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56350,6 +56350,53 @@
             "HOMING",
             "LOHAN",
             "WU-TANG"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "id": 1205,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS WITH STALKS",
+          "words": [
+            "BAMBOO",
+            "CELERY",
+            "CORN",
+            "WHEAT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "OYSTER CONDIMENTS",
+          "words": [
+            "HORSERADISH",
+            "LEMON",
+            "MIGNONETTE",
+            "TABASCO"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "DODGE MODELS",
+          "words": [
+            "CHALLENGER",
+            "CHARGER",
+            "DURANGO",
+            "VIPER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THREE LETTERS PLUS REPEATED TRIGRAMS",
+          "words": [
+            "ARKANSANS",
+            "CHIHUAHUA",
+            "POSSESSES",
+            "SPRINGING"
           ]
         }
       ]

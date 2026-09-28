@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T09:25:08.891Z",
+  "lastUpdated": "2026-09-28T10:01:36.685Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23500,6 +23500,32 @@
         "UREORZ",
         "TOSIUE",
         "RENSTR"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "id": 939,
+      "editor": "Tracy Bennett",
+      "clue": "A form of art",
+      "spangram": "SCULPTURE",
+      "themeWords": [
+        "BRONZE",
+        "CLAY",
+        "GLASS",
+        "MARBLE",
+        "SOAPSTONE",
+        "STEEL",
+        "WOOD"
+      ],
+      "board": [
+        "AOSRED",
+        "PSUWOO",
+        "TONTEY",
+        "AEPZCA",
+        "LSSLNL",
+        "EGUORB",
+        "LAMCET",
+        "BRSLES"
       ]
     }
   ]

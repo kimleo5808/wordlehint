@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T09:25:09.501Z",
+  "lastUpdated": "2026-09-28T10:01:37.400Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63858,6 +63858,71 @@
         "unfulfilled",
         "unfunded",
         "unified"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-28",
+      "id": 23215,
+      "centerLetter": "t",
+      "outerLetters": [
+        "c",
+        "d",
+        "n",
+        "o",
+        "r",
+        "u"
+      ],
+      "pangrams": [
+        "conductor",
+        "nonconductor"
+      ],
+      "answers": [
+        "coconut",
+        "concoct",
+        "conduct",
+        "conductor",
+        "contort",
+        "contour",
+        "coot",
+        "cotton",
+        "count",
+        "court",
+        "crouton",
+        "curt",
+        "cutout",
+        "doctor",
+        "donut",
+        "duct",
+        "nonconductor",
+        "onto",
+        "orotund",
+        "outdo",
+        "outdoor",
+        "outro",
+        "outrun",
+        "root",
+        "rotor",
+        "rotund",
+        "rout",
+        "runout",
+        "runt",
+        "toon",
+        "toot",
+        "torn",
+        "toro",
+        "tort",
+        "tour",
+        "tout",
+        "trod",
+        "trot",
+        "trout",
+        "turn",
+        "turnout",
+        "tutor",
+        "tutu",
+        "uncut",
+        "unto"
       ],
       "editor": "Sam Ezersky"
     }
