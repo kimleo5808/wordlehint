@@ -2216,6 +2216,8 @@
     "partOfSpeech": "noun"
   },
   "evener": null,
+  "evening": null,
+  "event": null,
   "ever": {
     "definition": "Occurring at any time, occurring even but once during a timespan.",
     "partOfSpeech": "adjective"
@@ -2579,6 +2581,8 @@
     "definition": "To remove the seeds from cotton with a cotton gin.",
     "partOfSpeech": "verb"
   },
+  "give": null,
+  "given": null,
   "giving": {
     "definition": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
     "partOfSpeech": "verb"
@@ -3192,6 +3196,12 @@
     "definition": "To place (the remains of a person who has died) in an urn or other container.",
     "partOfSpeech": "verb"
   },
+  "invent": null,
+  "inventing": null,
+  "invention": null,
+  "inventive": null,
+  "invite": null,
+  "invitee": null,
   "inviting": {
     "definition": "To ask for the presence or participation of someone or something.",
     "partOfSpeech": "verb"
@@ -4308,6 +4318,7 @@
   },
   "nonconductor": null,
   "none": null,
+  "nonevent": null,
   "nonillion": null,
   "nonlocal": null,
   "nonrandom": {
@@ -4315,6 +4326,7 @@
     "partOfSpeech": "adjective"
   },
   "nonunion": null,
+  "nonvoting": null,
   "noob": {
     "definition": "(often pejorative) A newb or newbie; refers to the idea that someone is new to a game, concept, or idea; implying a lack of experience. Also, in some areas the word noob can mean someone is obsessed with things.",
     "partOfSpeech": "noun"
@@ -4424,6 +4436,7 @@
     "partOfSpeech": "verb"
   },
   "ogee": null,
+  "ogive": null,
   "oilcloth": {
     "definition": "A fabric or cloth treated on one side with a waterproof covering, especially one made from linseed oil etc.; used for flooring, tablecloths, kitchen shelves and sometimes furniture covering.",
     "partOfSpeech": "noun"
@@ -4531,6 +4544,7 @@
     "definition": "A set of six legal balls bowled.",
     "partOfSpeech": "noun"
   },
+  "ovine": null,
   "owed": {
     "definition": "To be under an obligation to give something back to someone or to perform some action for someone.",
     "partOfSpeech": "verb"
@@ -5694,6 +5708,10 @@
     "definition": "To let out (a sail-line), to allow (a sheet) to run out.",
     "partOfSpeech": "verb"
   },
+  "veggie": null,
+  "vegging": null,
+  "vein": null,
+  "veining": null,
   "vellum": {
     "definition": "A type of parchment paper made from the skin of a lamb, baby goat, or calf.",
     "partOfSpeech": "noun"
@@ -5706,10 +5724,15 @@
     "definition": "A thin decorative covering of fine material (usually wood) applied to coarser wood or other material.",
     "partOfSpeech": "noun"
   },
+  "vent": null,
+  "venting": null,
   "verve": {
     "definition": "Excitement of imagination such as that which animates a poet, artist, or musician, in composing or performing",
     "partOfSpeech": "noun"
   },
+  "veto": null,
+  "vetoing": null,
+  "vetting": null,
   "vial": {
     "definition": "A glass vessel or bottle, especially a small tube-shaped bottle used to store medicine, perfume or other chemical.",
     "partOfSpeech": "noun"
@@ -5727,6 +5750,7 @@
     "definition": "Watchful, especially for danger or disorder; alert; wary",
     "partOfSpeech": "adjective"
   },
+  "vignette": null,
   "viking": {
     "definition": "One of the Scandinavian or other Northern European seafaring warriors that raided (and then settled) the British Isles and other parts of Europe in the 8th to the 11th centuries and, according to many historians, were the first Europeans to reach North America.",
     "partOfSpeech": "noun"
@@ -5739,6 +5763,7 @@
     "definition": "A vile, wicked person.",
     "partOfSpeech": "noun"
   },
+  "vine": null,
   "viny": null,
   "vital": {
     "definition": "Relating to, or characteristic of life.",
@@ -5771,6 +5796,9 @@
     "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",
     "partOfSpeech": "noun"
   },
+  "vote": null,
+  "voting": null,
+  "votive": null,
   "wail": null,
   "wait": null,
   "wall": null,

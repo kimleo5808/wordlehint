@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T10:01:36.130Z",
+  "lastUpdated": "2026-09-29T10:00:42.521Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56397,6 +56397,53 @@
             "CHIHUAHUA",
             "POSSESSES",
             "SPRINGING"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": 1206,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SECLUDED",
+          "words": [
+            "HIDDEN",
+            "REMOTE",
+            "SECRET",
+            "TUCKED AWAY"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "RIVER FEATURES",
+          "words": [
+            "DELTA",
+            "DRAINAGE BASIN",
+            "MOUTH",
+            "STREAM BED"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FIRST WORDS OF PIXAR FILMS",
+          "words": [
+            "FINDING",
+            "INSIDE",
+            "MONSTERS",
+            "TOY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "PHRASES HIDING GREEK LETTERS",
+          "words": [
+            "FREEZE TAG",
+            "HOME GAME",
+            "MODEL TANK",
+            "ORAL PHASE"
           ]
         }
       ]

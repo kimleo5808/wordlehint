@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T10:01:37.400Z",
+  "lastUpdated": "2026-09-29T10:00:43.678Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -63923,6 +63923,57 @@
         "tutu",
         "uncut",
         "unto"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-09-29",
+      "id": 19165,
+      "centerLetter": "v",
+      "outerLetters": [
+        "e",
+        "g",
+        "i",
+        "n",
+        "o",
+        "t"
+      ],
+      "pangrams": [
+        "vetoing"
+      ],
+      "answers": [
+        "even",
+        "evening",
+        "event",
+        "give",
+        "given",
+        "giving",
+        "invent",
+        "inventing",
+        "invention",
+        "inventive",
+        "invite",
+        "invitee",
+        "inviting",
+        "nonevent",
+        "nonvoting",
+        "ogive",
+        "oven",
+        "ovine",
+        "veggie",
+        "vegging",
+        "vein",
+        "veining",
+        "vent",
+        "venting",
+        "veto",
+        "vetoing",
+        "vetting",
+        "vignette",
+        "vine",
+        "vote",
+        "voting",
+        "votive"
       ],
       "editor": "Sam Ezersky"
     }

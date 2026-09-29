@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T10:01:36.685Z",
+  "lastUpdated": "2026-09-29T10:00:42.983Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23526,6 +23526,31 @@
         "EGUORB",
         "LAMCET",
         "BRSLES"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "id": 940,
+      "editor": "Tracy Bennett",
+      "clue": "Have a heart",
+      "spangram": "CARDIOVASCULAR",
+      "themeWords": [
+        "ARTERY",
+        "ATRIUM",
+        "BLOOD",
+        "PRESSURE",
+        "PULSE",
+        "VEIN"
+      ],
+      "board": [
+        "NTRYRE",
+        "IAIART",
+        "EDIUUL",
+        "VROMCA",
+        "CAVASR",
+        "OLSUEP",
+        "OBSRLU",
+        "DERPSE"
       ]
     }
   ]
