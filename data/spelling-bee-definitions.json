@@ -316,11 +316,16 @@
     "definition": "The great artery which carries the blood from the heart to all parts of the body except the lungs; the main trunk of the arterial system.",
     "partOfSpeech": "noun"
   },
+  "apace": null,
+  "aped": null,
+  "apnea": null,
   "apogee": null,
   "appall": null,
   "appeal": null,
   "appealable": null,
   "appellee": null,
+  "append": null,
+  "appended": null,
   "apple": {
     "definition": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
     "partOfSpeech": "noun"
@@ -940,6 +945,7 @@
     "definition": "An artificial waterway or artificially improved river used for travel, shipping, or irrigation.",
     "partOfSpeech": "noun"
   },
+  "canape": null,
   "cancan": {
     "definition": "A high-kicking chorus line dance originating in France.",
     "partOfSpeech": "noun"
@@ -1007,6 +1013,9 @@
     "definition": "A valley, especially a long, narrow, steep valley, cut in rock by a river.",
     "partOfSpeech": "noun"
   },
+  "cape": null,
+  "caped": null,
+  "capped": null,
   "carat": {
     "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
     "partOfSpeech": "noun"
@@ -1566,6 +1575,7 @@
     "definition": "A man very concerned about his clothes and his appearance.",
     "partOfSpeech": "noun"
   },
+  "dapped": null,
   "darn": {
     "definition": "Euphemism of damn.",
     "partOfSpeech": "verb"
@@ -1606,6 +1616,8 @@
   },
   "deadeye": null,
   "deadly": null,
+  "deadpan": null,
+  "deadpanned": null,
   "deal": {
     "definition": "A division, a portion, a share.",
     "partOfSpeech": "noun"
@@ -1737,6 +1749,7 @@
   },
   "depend": null,
   "depended": null,
+  "dependence": null,
   "depending": {
     "definition": "(followed by on or upon, formerly also by of) To be contingent or conditioned; to have something as a necessary condition; to hinge on.",
     "partOfSpeech": "verb"
@@ -3237,6 +3250,7 @@
   "jean": null,
   "jellybean": null,
   "jenny": null,
+  "kappa": null,
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
     "partOfSpeech": "noun"
@@ -3254,6 +3268,10 @@
   "keening": {
     "definition": "To make cold, to sharpen.",
     "partOfSpeech": "verb"
+  },
+  "keep": {
+    "definition": "The main tower of a castle or fortress, located within the castle walls.",
+    "partOfSpeech": "noun"
   },
   "keno": {
     "definition": "A gambling game, a variety of the game of lotto, played with balls or knobs, numbered, and cards also numbered.",
@@ -3296,11 +3314,14 @@
     "definition": "In humans, the joint or the region of the joint in the middle part of the leg between the thigh and the shank.",
     "partOfSpeech": "noun"
   },
+  "kneecap": null,
+  "kneecapped": null,
   "kneed": null,
   "kneeing": {
     "definition": "To kneel to.",
     "partOfSpeech": "verb"
   },
+  "kneepad": null,
   "knelt": null,
   "knit": null,
   "kook": {
@@ -4165,6 +4186,8 @@
     "definition": "A child's nurse.",
     "partOfSpeech": "noun"
   },
+  "nape": null,
+  "napped": null,
   "narrator": {
     "definition": "One who narrates or tells stories.",
     "partOfSpeech": "noun"
@@ -4198,6 +4221,7 @@
     "definition": "To plan, control and record the position and course of a vehicle, ship, aircraft, etc., on a journey; to follow a planned course.",
     "partOfSpeech": "verb"
   },
+  "neap": null,
   "neat": {
     "definition": "An artificial intelligence researcher who believes that solutions should be elegant, clear and provably correct. Compare scruffy.",
     "partOfSpeech": "noun"
@@ -4556,6 +4580,12 @@
   "oxen": null,
   "oxidant": null,
   "oxidation": null,
+  "pace": null,
+  "paced": null,
+  "pack": null,
+  "packed": null,
+  "padded": null,
+  "paean": null,
   "paella": null,
   "page": {
     "definition": "One of the many pieces of paper bound together within a book or similar document.",
@@ -4576,6 +4606,14 @@
   "palp": null,
   "palpable": null,
   "pampa": null,
+  "panacea": null,
+  "pancake": null,
+  "pancaked": null,
+  "panda": null,
+  "pandan": null,
+  "pane": null,
+  "paned": null,
+  "panned": null,
   "papa": null,
   "papal": null,
   "papaw": null,
@@ -4585,13 +4623,21 @@
   "partita": null,
   "pawl": null,
   "pawpaw": null,
+  "peace": null,
+  "peak": null,
+  "peaked": null,
   "peal": null,
   "pebble": null,
+  "pecan": null,
+  "peck": null,
+  "pecked": null,
   "peed": null,
   "peeing": {
     "definition": "To urinate.",
     "partOfSpeech": "verb"
   },
+  "peek": null,
+  "peeked": null,
   "peel": null,
   "peelable": null,
   "peen": null,
@@ -4611,6 +4657,9 @@
     "partOfSpeech": "verb"
   },
   "pegging": null,
+  "peke": null,
+  "penance": null,
+  "pence": null,
   "pend": null,
   "pended": null,
   "pending": null,
