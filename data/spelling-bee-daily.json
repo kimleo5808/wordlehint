@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T09:53:05.008Z",
+  "lastUpdated": "2026-10-01T10:20:17.118Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -64056,6 +64056,48 @@
         "penne",
         "penned",
         "pepped"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-01",
+      "id": 20201,
+      "centerLetter": "h",
+      "outerLetters": [
+        "d",
+        "e",
+        "m",
+        "n",
+        "o",
+        "y"
+      ],
+      "pangrams": [
+        "honeymooned"
+      ],
+      "answers": [
+        "heed",
+        "heeded",
+        "heme",
+        "hemmed",
+        "hoed",
+        "home",
+        "homed",
+        "homey",
+        "homonym",
+        "homonymy",
+        "hone",
+        "honed",
+        "honey",
+        "honeyed",
+        "honeymoon",
+        "honeymooned",
+        "hood",
+        "hooded",
+        "hoodoo",
+        "hooey",
+        "hymen",
+        "hymn",
+        "yoohoo"
       ],
       "editor": "Sam Ezersky"
     }

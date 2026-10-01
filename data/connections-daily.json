@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T09:53:03.814Z",
+  "lastUpdated": "2026-10-01T10:20:15.713Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56491,6 +56491,53 @@
             "NOVELTY",
             "OCTOPUSSY",
             "SEPTUM"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": 1208,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PUT",
+          "words": [
+            "PLACE",
+            "POSITION",
+            "SITUATE",
+            "STICK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "DRESS SHIRT MEASUREMENTS",
+          "words": [
+            "CHEST",
+            "NECK",
+            "SLEEVE",
+            "WAIST"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "2000S INDIE ROCK BANDS, WITH \"THE\"",
+          "words": [
+            "DECEMBERISTS",
+            "NATIONAL",
+            "SHINS",
+            "WALKMEN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTS OF NYT PRINT PUZZLES",
+          "words": [
+            "ACRO",
+            "CROSS",
+            "KEN",
+            "SUD"
           ]
         }
       ]

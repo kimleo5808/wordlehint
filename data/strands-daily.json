@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T09:53:04.320Z",
+  "lastUpdated": "2026-10-01T10:20:16.280Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23577,6 +23577,30 @@
         "AFITHR",
         "MIYNPE",
         "PLSKCI"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "id": 942,
+      "editor": "Tracy Bennett",
+      "clue": "Things fall apart",
+      "spangram": "BEYONDREPAIR",
+      "themeWords": [
+        "BREAK",
+        "COLLAPSE",
+        "CRUMBLE",
+        "DISSOLVE",
+        "FRAGMENT"
+      ],
+      "board": [
+        "LBCPBR",
+        "EMRSAE",
+        "EBUELA",
+        "YOCOLK",
+        "FNDREP",
+        "RTNOLA",
+        "AMESVI",
+        "GDISER"
       ]
     }
   ]
