@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T10:20:16.280Z",
+  "lastUpdated": "2026-10-02T09:57:22.959Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23601,6 +23601,30 @@
         "RTNOLA",
         "AMESVI",
         "GDISER"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": 943,
+      "editor": "Tracy Bennett",
+      "clue": "On the sly ...",
+      "spangram": "SNEAKINGAROUND",
+      "themeWords": [
+        "COVERT",
+        "DEVIOUS",
+        "FURTIVE",
+        "SHIFTY",
+        "STEALTHY"
+      ],
+      "board": [
+        "IHFUEV",
+        "FSAKRI",
+        "TEVSIT",
+        "YNEIUN",
+        "SDHOGT",
+        "SYTARE",
+        "TEALRV",
+        "DNUOCO"
       ]
     }
   ]

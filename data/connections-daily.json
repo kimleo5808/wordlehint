@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T10:20:15.713Z",
+  "lastUpdated": "2026-10-02T09:57:22.449Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56538,6 +56538,53 @@
             "CROSS",
             "KEN",
             "SUD"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "id": 1209,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FINANCE",
+          "words": [
+            "BACK",
+            "BANKROLL",
+            "FUND",
+            "SUPPORT"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FINGERS",
+          "words": [
+            "INDEX",
+            "LITTLE",
+            "MIDDLE",
+            "RING"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "CUSTOMARY",
+          "words": [
+            "COMMON",
+            "ROUTINE",
+            "STANDARD",
+            "STOCK"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "PRIME ___",
+          "words": [
+            "NUMBER",
+            "REAL ESTATE",
+            "RIB",
+            "TIME"
           ]
         }
       ]

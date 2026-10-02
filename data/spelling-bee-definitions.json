@@ -3123,6 +3123,7 @@
     "definition": "To make a physical impact on.",
     "partOfSpeech": "verb"
   },
+  "implant": null,
   "inactivity": {
     "definition": "The quality of being inactive; idleness; passiveness.",
     "partOfSpeech": "noun"
@@ -3131,6 +3132,7 @@
     "definition": "The property of being inane, of lacking material of interest or satisfaction, emptiness.",
     "partOfSpeech": "noun"
   },
+  "inapt": null,
   "incant": {
     "definition": "To state solemnly, to chant.",
     "partOfSpeech": "verb"
@@ -3808,6 +3810,7 @@
     "partOfSpeech": "noun"
   },
   "mantel": null,
+  "mantilla": null,
   "mantle": {
     "definition": "The shelf above a fireplace which may be also a structural support for the masonry of the chimney.",
     "partOfSpeech": "noun"
@@ -3926,7 +3929,9 @@
     "definition": "Medium.",
     "partOfSpeech": "noun"
   },
+  "militant": null,
   "militia": null,
+  "militiaman": null,
   "mill": {
     "definition": "A grinding apparatus for substances such as grains, seeds, etc.",
     "partOfSpeech": "noun"
@@ -4606,8 +4611,10 @@
   },
   "pageboy": null,
   "pail": null,
+  "paint": null,
   "pair": null,
   "palapa": null,
+  "palatal": null,
   "palatial": null,
   "pale": null,
   "paleo": null,
@@ -4627,6 +4634,7 @@
   "pane": null,
   "paned": null,
   "panned": null,
+  "pant": null,
   "papa": null,
   "papal": null,
   "papaw": null,
@@ -4634,6 +4642,7 @@
   "papilloma": null,
   "partial": null,
   "partita": null,
+  "patina": null,
   "pawl": null,
   "pawpaw": null,
   "peace": null,
@@ -4734,6 +4743,7 @@
     "definition": "To act as a procurer of prostitutes; to pander.",
     "partOfSpeech": "verb"
   },
+  "pinata": null,
   "pine": null,
   "pined": null,
   "pinewood": null,
@@ -4761,6 +4771,8 @@
     "partOfSpeech": "verb"
   },
   "pinniped": null,
+  "pint": null,
+  "pintail": null,
   "pipe": null,
   "piped": null,
   "pipet": null,
@@ -4782,11 +4794,16 @@
   "pith": null,
   "pitied": null,
   "pitted": null,
+  "plaint": null,
   "plaintiff": null,
   "plait": null,
+  "plant": null,
+  "plantain": null,
+  "plat": null,
   "plea": null,
   "pleb": null,
   "plebe": null,
+  "pliant": null,
   "plop": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
@@ -5168,6 +5185,7 @@
     "definition": "Describing Vajrayana Buddhism.",
     "partOfSpeech": "adjective"
   },
+  "tapa": null,
   "tapir": null,
   "taro": {
     "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
@@ -5365,6 +5383,7 @@
     "definition": "To measure or record the time, duration, or rate of.",
     "partOfSpeech": "verb"
   },
+  "timpani": null,
   "tinct": null,
   "tine": null,
   "tinge": null,
