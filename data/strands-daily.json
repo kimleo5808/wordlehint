@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T09:57:22.959Z",
+  "lastUpdated": "2026-10-03T09:19:09.888Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23625,6 +23625,30 @@
         "SYTARE",
         "TEALRV",
         "DNUOCO"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": 944,
+      "editor": "Tracy Bennett",
+      "clue": "A figment of your imagination",
+      "spangram": "WILLOTHEWISP",
+      "themeWords": [
+        "CHIMERA",
+        "ILLUSION",
+        "MIRAGE",
+        "PHANTASM",
+        "SPECTER"
+      ],
+      "board": [
+        "PECTSP",
+        "SREEGI",
+        "IMEMAW",
+        "HRAIRE",
+        "CLOTHI",
+        "LHANLL",
+        "IPTMSU",
+        "WASNOI"
       ]
     }
   ]

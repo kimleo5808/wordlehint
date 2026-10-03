@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T09:57:23.645Z",
+  "lastUpdated": "2026-10-03T09:19:10.713Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -64173,6 +64173,72 @@
         "tint",
         "tipi",
         "titan"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-03",
+      "id": 24710,
+      "centerLetter": "i",
+      "outerLetters": [
+        "a",
+        "b",
+        "c",
+        "h",
+        "l",
+        "n"
+      ],
+      "pangrams": [
+        "bacchanalia",
+        "bacchanalian"
+      ],
+      "answers": [
+        "abaci",
+        "acacia",
+        "acai",
+        "alibi",
+        "bacchanalia",
+        "bacchanalian",
+        "bacilli",
+        "bail",
+        "biblical",
+        "bilabial",
+        "bill",
+        "blin",
+        "blini",
+        "cabin",
+        "cannibal",
+        "chai",
+        "chain",
+        "chia",
+        "chic",
+        "chica",
+        "chichi",
+        "chili",
+        "chill",
+        "chin",
+        "china",
+        "chinchilla",
+        "cilia",
+        "cinch",
+        "clinch",
+        "clinic",
+        "clinical",
+        "clinician",
+        "hail",
+        "hibachi",
+        "hill",
+        "iliac",
+        "inch",
+        "labia",
+        "labial",
+        "laic",
+        "laical",
+        "lain",
+        "lanai",
+        "lilac",
+        "nail",
+        "niacin"
       ],
       "editor": "Sam Ezersky"
     }

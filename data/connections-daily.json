@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T09:57:22.449Z",
+  "lastUpdated": "2026-10-03T09:19:09.383Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56585,6 +56585,53 @@
             "REAL ESTATE",
             "RIB",
             "TIME"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": 1210,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "STARTING WITH TERMS FOR \"TOILET\"",
+          "words": [
+            "CAN OPENER",
+            "HEAD WAITER",
+            "JOHN DENVER",
+            "W.C. FIELDS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ENDING IN MUSICALS",
+          "words": [
+            "ELBOW GREASE",
+            "FAT CATS",
+            "LINDA HAMILTON",
+            "SOMETHING WICKED"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "STARTING WITH U.S. MUSEUMS",
+          "words": [
+            "BROAD BEAN",
+            "GETTY IMAGES",
+            "MET HALFWAY",
+            "WHITNEY HOUSTON"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN FANTASY CREATURES",
+          "words": [
+            "DIET SPRITE",
+            "MERV GRIFFIN",
+            "NY GIANT",
+            "RIVER PHOENIX"
           ]
         }
       ]

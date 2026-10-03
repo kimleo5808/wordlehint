@@ -1,4 +1,5 @@
 {
+  "abaci": null,
   "abandon": {
     "definition": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
     "partOfSpeech": "verb"
@@ -176,6 +177,7 @@
     "definition": "An alga.",
     "partOfSpeech": "noun"
   },
+  "alibi": null,
   "alit": null,
   "allay": null,
   "allayed": null,
@@ -477,6 +479,9 @@
     "definition": "A card game resembling chemin de fer with many forms - usually entailing the player(s) betting against two or three hands dealt - also bearing some similarities to blackjack.",
     "partOfSpeech": "noun"
   },
+  "bacchanalia": null,
+  "bacchanalian": null,
+  "bacilli": null,
   "backtrack": {
     "definition": "The act of backtracking",
     "partOfSpeech": "noun"
@@ -500,6 +505,7 @@
     "partOfSpeech": "verb"
   },
   "baggy": null,
+  "bail": null,
   "bailiff": {
     "definition": "(law enforcement) An officer of the court, particularly:",
     "partOfSpeech": "noun"
@@ -645,6 +651,7 @@
     "definition": "To make numb, as by cold or anesthetic.",
     "partOfSpeech": "verb"
   },
+  "biblical": null,
   "bicarb": null,
   "biennium": null,
   "biff": {
@@ -655,6 +662,7 @@
     "definition": "One who is narrow-mindedly devoted to one's own ideas and groups, and intolerant of (people of) differing ideas, races, genders, religions, politics, etc.",
     "partOfSpeech": "noun"
   },
+  "bilabial": null,
   "bill": null,
   "billing": null,
   "billion": null,
@@ -902,6 +910,7 @@
     "partOfSpeech": "noun"
   },
   "buttoning": null,
+  "cabin": null,
   "cacao": {
     "definition": "A tree, Theobroma cacao, whose seed is used to make chocolate.",
     "partOfSpeech": "noun"
@@ -987,6 +996,7 @@
     "definition": "To seal in a can.",
     "partOfSpeech": "verb"
   },
+  "cannibal": null,
   "cannon": {
     "definition": "A complete assembly, consisting of an artillery tube and a breech mechanism, firing mechanism or base cap, which is a component of a gun, howitzer or mortar. It may include muzzle appendages.",
     "partOfSpeech": "noun"
@@ -1088,6 +1098,7 @@
     "partOfSpeech": "noun"
   },
   "chai": null,
+  "chain": null,
   "chalet": {
     "definition": "An alpine style of wooden building with a sloping roof and overhanging eaves.",
     "partOfSpeech": "noun"
@@ -1162,6 +1173,9 @@
   "chicle": null,
   "chili": null,
   "chill": null,
+  "chin": null,
+  "china": null,
+  "chinchilla": null,
   "chip": {
     "definition": "A small piece broken from a larger piece of solid material.",
     "partOfSpeech": "noun"
@@ -1197,6 +1211,7 @@
   },
   "cicada": null,
   "cilia": null,
+  "cinch": null,
   "cinquain": null,
   "circa": null,
   "circuit": {
@@ -1244,6 +1259,10 @@
     "definition": "A vertical (or nearly vertical) rock face.",
     "partOfSpeech": "noun"
   },
+  "clinch": null,
+  "clinic": null,
+  "clinical": null,
+  "clinician": null,
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
     "partOfSpeech": "noun"
@@ -2884,6 +2903,7 @@
   },
   "hennaed": null,
   "hiatal": null,
+  "hibachi": null,
   "hick": null,
   "hike": null,
   "hiked": null,
@@ -3137,6 +3157,7 @@
     "definition": "To state solemnly, to chant.",
     "partOfSpeech": "verb"
   },
+  "inch": null,
   "incidence": null,
   "incite": null,
   "incur": {
@@ -3348,6 +3369,8 @@
     "partOfSpeech": "adjective"
   },
   "kudu": null,
+  "labia": null,
+  "labial": null,
   "labor": null,
   "lactic": null,
   "lade": null,
