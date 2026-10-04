@@ -25336,6 +25336,19 @@
       }
     ]
   },
+  "RITZY": {
+    "definition": "Elegant and luxurious.",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Elegant and luxurious.",
+        "example": null
+      }
+    ]
+  },
   "RIVAL": {
     "definition": "A competitor (person, team, company, etc.) with the same goal as another, or striving to attain the same thing. Defeating a rival may be a primary or necessary goal of a competitor.",
     "partOfSpeech": "noun",
@@ -34714,6 +34727,19 @@
       }
     ]
   },
+  "USURY": {
+    "definition": "An exorbitant rate of interest, in excess of any legal rates or at least immorally.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An exorbitant rate of interest, in excess of any legal rates or at least immorally.",
+        "example": null
+      }
+    ]
+  },
   "UTILE": {
     "definition": "A theoretical unit of measure of utility, for indicating a supposed quantity of satisfaction derived from an economic transaction.",
     "partOfSpeech": "noun",
@@ -35504,6 +35530,19 @@
         "partOfSpeech": "verb",
         "definition": "To relinquish (a right etc.); to give up claim to; to forego.",
         "example": "If you waive the right to be silent, anything you say can be used against you in a court of law."
+      }
+    ]
+  },
+  "WAKEN": {
+    "definition": "To wake or rouse from sleep.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To wake or rouse from sleep.",
+        "example": null
       }
     ]
   },
