@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T09:19:09.888Z",
+  "lastUpdated": "2026-10-04T09:58:57.456Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23649,6 +23649,30 @@
         "LHANLL",
         "IPTMSU",
         "WASNOI"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": 945,
+      "editor": "Tracy Bennett",
+      "clue": "Grab your tokens",
+      "spangram": "ARCADEGAMES",
+      "themeWords": [
+        "ASTEROIDS",
+        "CENTIPEDE",
+        "FROGGER",
+        "PONG",
+        "SCRAMBLE"
+      ],
+      "board": [
+        "TAGGES",
+        "ESRORE",
+        "ROFGAM",
+        "ISDEEC",
+        "DAITNG",
+        "CEPLEN",
+        "RDMBSO",
+        "AEARCP"
       ]
     }
   ]

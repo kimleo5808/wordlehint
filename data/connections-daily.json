@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T09:19:09.383Z",
+  "lastUpdated": "2026-10-04T09:58:57.008Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56632,6 +56632,53 @@
             "MERV GRIFFIN",
             "NY GIANT",
             "RIVER PHOENIX"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "id": 1211,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CONSIDERABLE AMOUNT",
+          "words": [
+            "BUNCH",
+            "HEAP",
+            "LOT",
+            "STACK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "TABLE TENNIS NEEDS",
+          "words": [
+            "BALL",
+            "NET",
+            "PADDLE",
+            "TABLE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "PARTS OF A JUDGE COSTUME",
+          "words": [
+            "COLLAR",
+            "GAVEL",
+            "ROBE",
+            "WIG"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SILENT ___",
+          "words": [
+            "AUCTION",
+            "FILM",
+            "PARTNER",
+            "TREATMENT"
           ]
         }
       ]
