@@ -381,6 +381,7 @@
     "definition": "Clothing and ornamentation.",
     "partOfSpeech": "noun"
   },
+  "arrival": null,
   "arrowroot": null,
   "arroyo": {
     "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
@@ -446,6 +447,7 @@
     "definition": "To turn to the advantage of.",
     "partOfSpeech": "verb"
   },
+  "avatar": null,
   "avian": {
     "definition": "A bird.",
     "partOfSpeech": "noun"
@@ -454,6 +456,7 @@
     "definition": "To operate an aircraft.",
     "partOfSpeech": "verb"
   },
+  "aviator": null,
   "avid": {
     "definition": "Enthusiastic; keen; eager; showing great interest in something or desire to do something",
     "partOfSpeech": "adjective"
@@ -3436,6 +3439,8 @@
     "partOfSpeech": "noun"
   },
   "lariat": null,
+  "larva": null,
+  "larval": null,
   "latch": {
     "definition": "To close or lock as if with a latch.",
     "partOfSpeech": "verb"
@@ -4618,6 +4623,7 @@
     "definition": "To best an opponent by thinking.",
     "partOfSpeech": "verb"
   },
+  "oval": null,
   "oven": {
     "definition": "A chamber used for baking or heating.",
     "partOfSpeech": "noun"
@@ -5036,6 +5042,7 @@
     "definition": "Similar to a rat; ratlike.",
     "partOfSpeech": "adjective"
   },
+  "ravioli": null,
   "reeve": null,
   "reprove": {
     "definition": "To express disapproval.",
@@ -5074,6 +5081,7 @@
   },
   "rill": null,
   "rimming": null,
+  "rival": null,
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",
     "partOfSpeech": "noun"
@@ -5610,6 +5618,7 @@
     "partOfSpeech": "noun"
   },
   "tramway": null,
+  "travail": null,
   "tray": {
     "definition": "A small, typically rectangular or round, flat, and rigid object upon which things are carried.",
     "partOfSpeech": "noun"
@@ -5623,6 +5632,8 @@
   "trill": null,
   "trim": null,
   "trip": null,
+  "trivia": null,
+  "trivial": null,
   "trod": null,
   "trot": {
     "definition": "Any of several animals related to Equus ferus caballus.",
@@ -5820,6 +5831,7 @@
     "partOfSpeech": "noun"
   },
   "validly": null,
+  "valor": null,
   "vanilla": {
     "definition": "Any tropical, climbing orchid of the genus Vanilla (especially Vanilla planifolia), bearing podlike fruit yielding an extract used in flavoring food or in perfumes.",
     "partOfSpeech": "noun"
@@ -5897,6 +5909,10 @@
   },
   "vine": null,
   "viny": null,
+  "viol": null,
+  "viola": null,
+  "violator": null,
+  "viral": null,
   "vital": {
     "definition": "Relating to, or characteristic of life.",
     "partOfSpeech": "adjective"
@@ -5910,6 +5926,7 @@
     "definition": "To spoil, make faulty; to reduce the value, quality, or effectiveness of something",
     "partOfSpeech": "verb"
   },
+  "vitriol": null,
   "vivace": null,
   "vivacity": {
     "definition": "The quality or state of being vivacious.",
@@ -5924,10 +5941,12 @@
     "definition": "In a vivid manner.",
     "partOfSpeech": "adverb"
   },
+  "voila": null,
   "vole": {
     "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",
     "partOfSpeech": "noun"
   },
+  "volt": null,
   "vote": null,
   "voting": null,
   "votive": null,

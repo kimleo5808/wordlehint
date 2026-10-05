@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T09:58:57.008Z",
+  "lastUpdated": "2026-10-05T10:42:41.474Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56679,6 +56679,53 @@
             "FILM",
             "PARTNER",
             "TREATMENT"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "id": 1212,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CALM",
+          "words": [
+            "CONTENT",
+            "PEACEFUL",
+            "PLACID",
+            "SERENE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ADJECTIVES FOR MATURE CONTENT",
+          "words": [
+            "EXPLICIT",
+            "GRAPHIC",
+            "STRONG",
+            "SUGGESTIVE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF BOARDS",
+          "words": [
+            "ADVISORY",
+            "CHESS",
+            "IRONING",
+            "MESSAGE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN WAYS TO TEMPORARILY ACQUIRE",
+          "words": [
+            "PARENT",
+            "PLEASE",
+            "SAPPHIRE",
+            "SLOAN"
           ]
         }
       ]
