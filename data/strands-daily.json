@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T10:42:42.010Z",
+  "lastUpdated": "2026-10-06T10:35:56.467Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23698,6 +23698,30 @@
         "BODUNA",
         "HOANUT",
         "OOSFOR"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "id": 947,
+      "editor": "Tracy Bennett",
+      "clue": "Changing course",
+      "spangram": "THEOLDSWITCHEROO",
+      "themeWords": [
+        "BACKPEDAL",
+        "FLIP",
+        "OVERTURN",
+        "REVERSE",
+        "UNDO"
+      ],
+      "board": [
+        "ALWION",
+        "EDSTVR",
+        "KPDCEU",
+        "BCLHRT",
+        "EAOEDO",
+        "SRERNU",
+        "VEHOFP",
+        "ERTOLI"
       ]
     }
   ]

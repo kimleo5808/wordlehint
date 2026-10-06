@@ -1363,6 +1363,7 @@
     "definition": "The silky protective case spun by the larvae of some insects in which they metamorphose, the pupa.",
     "partOfSpeech": "noun"
   },
+  "cocooned": null,
   "coda": null,
   "coddle": {
     "definition": "An Irish dish comprising layers of roughly sliced pork sausages and bacon rashers with sliced potatoes and onions.",
@@ -1380,6 +1381,7 @@
     "definition": "To write software programs.",
     "partOfSpeech": "verb"
   },
+  "codon": null,
   "coed": {
     "definition": "A young woman who attends college.",
     "partOfSpeech": "noun"
@@ -1434,10 +1436,18 @@
     "partOfSpeech": "noun"
   },
   "comic": null,
+  "concede": null,
+  "conceded": null,
   "conch": null,
   "concoct": null,
+  "concocted": null,
+  "condo": null,
+  "condone": null,
+  "condoned": null,
   "conduct": null,
   "conductor": null,
+  "cone": null,
+  "coned": null,
   "confound": {
     "definition": "A confounding variable.",
     "partOfSpeech": "noun"
@@ -1446,6 +1456,18 @@
     "definition": "To perplex or puzzle.",
     "partOfSpeech": "verb"
   },
+  "connect": null,
+  "connected": null,
+  "conned": null,
+  "connote": null,
+  "connoted": null,
+  "contend": null,
+  "contended": null,
+  "content": {
+    "definition": "(except in phrases) Satisfaction, contentment; pleasure.",
+    "partOfSpeech": "noun"
+  },
+  "contented": null,
   "contort": null,
   "contour": null,
   "cooed": null,
@@ -1470,7 +1492,9 @@
     "definition": "A narrow hall or passage with rooms leading off it, as in a building or in a railway carriage.",
     "partOfSpeech": "noun"
   },
+  "cote": null,
   "cotton": null,
+  "cottoned": null,
   "couch": null,
   "could": {
     "definition": "(auxiliary verb, defective) To know how to; to be able to.",
@@ -1655,8 +1679,10 @@
     "definition": "A state of moral or artistic decline or deterioration; decay",
     "partOfSpeech": "noun"
   },
+  "decedent": null,
   "deceive": null,
   "deceived": null,
+  "decent": null,
   "decide": null,
   "decided": null,
   "deck": {
@@ -1668,6 +1694,8 @@
     "definition": "(underwater diving) Decompression.",
     "partOfSpeech": "noun"
   },
+  "decoct": null,
+  "decocted": null,
   "decode": null,
   "decoded": {
     "definition": "To convert from an encrypted form to plain text.",
@@ -1782,6 +1810,8 @@
     "definition": "The vertical distance below a surface; the degree to which something is deep",
     "partOfSpeech": "noun"
   },
+  "detect": null,
+  "detected": null,
   "deuce": {
     "definition": "A card with two pips, one of four in a standard deck of playing cards.",
     "partOfSpeech": "noun"
@@ -1872,6 +1902,7 @@
   },
   "dizzying": null,
   "dizzyingly": null,
+  "docent": null,
   "doctor": null,
   "dodgy": {
     "definition": "Evasive and shifty",
@@ -2052,6 +2083,7 @@
     "definition": "A reflected sound that is heard again by its initial observer.",
     "partOfSpeech": "noun"
   },
+  "echoed": null,
   "echolocate": null,
   "eclectic": {
     "definition": "Someone who selects according to the eclectic method.",
@@ -2175,6 +2207,8 @@
     "partOfSpeech": "noun"
   },
   "enby": null,
+  "encode": null,
+  "encoded": null,
   "ended": {
     "definition": "To come to an end",
     "partOfSpeech": "verb"
@@ -2244,6 +2278,7 @@
     "definition": "To cut into a surface with an acid or other corrosive substance in order to make a pattern. Best known as a technique for creating printing plates, but also used for decoration on metal, and, in modern industry, to make circuit boards.",
     "partOfSpeech": "verb"
   },
+  "etched": null,
   "ethic": null,
   "ethical": null,
   "even": {
@@ -4328,6 +4363,7 @@
     "definition": "The Hawaiian goose, Branta sandvicensis, which was designated the state bird of Hawaii in 1957.",
     "partOfSpeech": "noun"
   },
+  "neocon": null,
   "neon": null,
   "nerve": {
     "definition": "A bundle of neurons with their connective tissue sheaths, blood vessels and lymphatics.",
@@ -4401,6 +4437,7 @@
     "definition": "That which is not art",
     "partOfSpeech": "noun"
   },
+  "nonce": null,
   "nonconductor": null,
   "none": null,
   "nonevent": null,
@@ -4435,6 +4472,8 @@
     "partOfSpeech": "noun"
   },
   "notator": null,
+  "notch": null,
+  "notched": null,
   "noting": {
     "definition": "To notice with care; to observe; to remark; to heed.",
     "partOfSpeech": "verb"
@@ -4501,6 +4540,7 @@
     "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",
     "partOfSpeech": "noun"
   },
+  "octet": null,
   "oddball": null,
   "oddly": {
     "definition": "In a peculiar manner; strangely; unusually.",
@@ -4546,6 +4586,7 @@
     "definition": "To leave out or exclude.",
     "partOfSpeech": "verb"
   },
+  "once": null,
   "ongoing": null,
   "onion": {
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
@@ -5292,6 +5333,7 @@
     "partOfSpeech": "noun"
   },
   "techie": null,
+  "techno": null,
   "teeing": null,
   "teem": {
     "definition": "To be stocked to overflowing.",
@@ -5365,6 +5407,7 @@
     "definition": "Used in comparisons, to introduce the basis of comparison.",
     "partOfSpeech": "conjunction"
   },
+  "thence": null,
   "theta": {
     "definition": "The eighth letter of the Modern Greek alphabet, ninth in Old Greek: Θ, θ.",
     "partOfSpeech": "noun"
