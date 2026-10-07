@@ -19391,6 +19391,19 @@
       }
     ]
   },
+  "MESSY": {
+    "definition": "(of a place, situation, person, etc) In a disorderly state; chaotic; disorderly.",
+    "partOfSpeech": "adjective",
+    "example": "Jim ran his fingers through his messy brown hair.",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "(of a place, situation, person, etc) In a disorderly state; chaotic; disorderly.",
+        "example": "Jim ran his fingers through his messy brown hair."
+      }
+    ]
+  },
   "METAL": {
     "definition": "(heading) Chemical elements or alloys, and the mines where their ores come from.",
     "partOfSpeech": "noun",
