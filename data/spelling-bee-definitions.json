@@ -123,14 +123,17 @@
   "advanced": null,
   "advice": null,
   "adze": null,
+  "afar": null,
   "affably": null,
   "affiant": null,
   "affiliate": null,
   "afflict": null,
+  "afford": null,
   "affray": {
     "definition": "The act of suddenly disturbing anyone; an assault or attack.",
     "partOfSpeech": "noun"
   },
+  "afro": null,
   "agape": null,
   "agar": {
     "definition": "A gelatinous material obtained from red algae, especially Gracilaria species, used as a bacterial culture medium, in electrophoresis and as a food additive.",
@@ -193,6 +196,7 @@
     "definition": "Good wishes, love.",
     "partOfSpeech": "noun"
   },
+  "aloof": null,
   "alto": {
     "definition": "A musical part or section higher than tenor and lower than soprano, formerly the part that performed a countermelody above the tenor or main melody.",
     "partOfSpeech": "noun"
@@ -585,6 +589,7 @@
     "definition": "A professional poet and singer, like among the ancient Celts, whose occupation was to compose and sing verses in honor of the heroic achievements of princes and brave men.",
     "partOfSpeech": "noun"
   },
+  "barf": null,
   "bariatric": null,
   "bark": {
     "definition": "The short, loud, explosive sound uttered by a dog, a fox, and some other animals.",
@@ -2342,6 +2347,7 @@
     "partOfSpeech": "noun"
   },
   "fallibly": null,
+  "falloff": null,
   "familial": null,
   "family": null,
   "fanny": {
@@ -2349,6 +2355,8 @@
     "partOfSpeech": "noun"
   },
   "fantail": null,
+  "farad": null,
+  "farro": null,
   "fatal": null,
   "fecund": {
     "definition": "Highly fertile; able to produce offspring.",
@@ -2487,6 +2495,9 @@
     "definition": "A (usually disastrous) overflow of water from a lake or other body of water due to excessive rainfall or other input of water.",
     "partOfSpeech": "noun"
   },
+  "floorboard": null,
+  "flora": null,
+  "floral": null,
   "florid": {
     "definition": "Having a rosy or pale red colour; ruddy.",
     "partOfSpeech": "adjective"
@@ -2500,6 +2511,7 @@
     "definition": "A flight past a celestial object in order to make observations.",
     "partOfSpeech": "noun"
   },
+  "foal": null,
   "foam": null,
   "foamily": null,
   "foamy": null,
@@ -2519,6 +2531,7 @@
     "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life.",
     "partOfSpeech": "noun"
   },
+  "fora": null,
   "foray": {
     "definition": "A sudden or irregular incursion in border warfare; hence, any irregular incursion for war or spoils; a raid.",
     "partOfSpeech": "noun"
@@ -3667,6 +3680,7 @@
     "partOfSpeech": "noun"
   },
   "load": null,
+  "loaf": null,
   "loam": {
     "definition": "A type of soil; an earthy mixture of sand, silt and clay, with organic matter to which its fertility is chiefly due.",
     "partOfSpeech": "noun"
@@ -3719,6 +3733,7 @@
     "partOfSpeech": "verb"
   },
   "lollop": null,
+  "loofa": null,
   "loom": null,
   "loon": null,
   "loony": null,
@@ -4548,6 +4563,7 @@
   },
   "odeon": null,
   "odor": null,
+  "offal": null,
   "offed": {
     "definition": "To kill.",
     "partOfSpeech": "verb"
@@ -4560,6 +4576,7 @@
     "definition": "To hurt the feelings of; to displease; to make angry; to insult.",
     "partOfSpeech": "verb"
   },
+  "offload": null,
   "ogee": null,
   "ogive": null,
   "oilcloth": {
