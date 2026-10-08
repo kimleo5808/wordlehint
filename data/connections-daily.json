@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T10:27:14.020Z",
+  "lastUpdated": "2026-10-08T10:48:00.914Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56820,6 +56820,53 @@
             "MUSICAL",
             "ORCHESTRATIONS",
             "PLAY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "id": 1215,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FOLLOWS, AS RULES",
+          "words": [
+            "HEEDS",
+            "MINDS",
+            "REGARDS",
+            "RESPECTS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "OUTDO",
+          "words": [
+            "BEST",
+            "ECLIPSE",
+            "SURPASS",
+            "TOP"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS THAT COME IN THREES",
+          "words": [
+            "CHEERS",
+            "STOOGES",
+            "STRIKES",
+            "WISHES"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN ACTORS NAMED TOM",
+          "words": [
+            "AUTOCRUISE",
+            "FOOLHARDY",
+            "MULHOLLAND",
+            "THANKS"
           ]
         }
       ]

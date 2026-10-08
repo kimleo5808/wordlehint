@@ -235,6 +235,8 @@
   "anally": null,
   "analyzed": null,
   "ancho": null,
+  "anemia": null,
+  "anemic": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
@@ -247,6 +249,7 @@
     "definition": "The act of animating, or giving life or spirit.",
     "partOfSpeech": "noun"
   },
+  "anime": null,
   "anion": {
     "definition": "A negatively charged ion.",
     "partOfSpeech": "noun"
@@ -1220,6 +1223,7 @@
   "cicada": null,
   "cilia": null,
   "cinch": null,
+  "cinema": null,
   "cinquain": null,
   "circa": null,
   "circuit": {
@@ -2084,6 +2088,7 @@
     "partOfSpeech": "verb"
   },
   "ebon": null,
+  "echinacea": null,
   "echo": {
     "definition": "A reflected sound that is heard again by its initial observer.",
     "partOfSpeech": "noun"
@@ -2198,6 +2203,7 @@
     "definition": "To correct and revise (text or a document).",
     "partOfSpeech": "verb"
   },
+  "eminence": null,
   "eminent": {
     "definition": "High, lofty.",
     "partOfSpeech": "adjective"
@@ -2212,6 +2218,7 @@
     "partOfSpeech": "noun"
   },
   "enby": null,
+  "enchain": null,
   "encode": null,
   "encoded": null,
   "ended": {
@@ -2925,6 +2932,7 @@
     "definition": "The distance from the base of something to the top.",
     "partOfSpeech": "noun"
   },
+  "heinie": null,
   "heliacal": null,
   "helical": null,
   "hell": null,
@@ -2950,6 +2958,8 @@
     "definition": "From here, from this place, away",
     "partOfSpeech": "adverb"
   },
+  "henchman": null,
+  "henchmen": null,
   "henge": {
     "definition": "A prehistoric enclosure in the form of a circle or circular arc defined by a raised circular bank and a circular ditch usually running inside the bank, with one or more entrances leading into the enclosed open space.",
     "partOfSpeech": "noun"
@@ -3102,6 +3112,8 @@
   "hymn": null,
   "iced": null,
   "icefall": null,
+  "iceman": null,
+  "icemen": null,
   "ichor": null,
   "icicle": null,
   "idiot": null,
@@ -3156,6 +3168,7 @@
     "definition": "The act of imitating.",
     "partOfSpeech": "noun"
   },
+  "imminence": null,
   "imminent": {
     "definition": "About to happen, occur, or take place very soon, especially of something which won't last long.",
     "partOfSpeech": "adjective"
@@ -3212,6 +3225,7 @@
     "definition": "The quality of being inactive; idleness; passiveness.",
     "partOfSpeech": "noun"
   },
+  "inane": null,
   "inanity": {
     "definition": "The property of being inane, of lacking material of interest or satisfaction, emptiness.",
     "partOfSpeech": "noun"
@@ -3789,6 +3803,7 @@
   "lunula": null,
   "lunulae": null,
   "lying": null,
+  "machine": null,
   "macing": null,
   "madam": {
     "definition": "A polite form of address for a woman or lady.",
@@ -3939,6 +3954,7 @@
     "definition": "To lament.",
     "partOfSpeech": "verb"
   },
+  "meanie": null,
   "meanly": null,
   "meant": {
     "definition": "To intend.",
@@ -3948,6 +3964,7 @@
     "definition": "A mean (unkind or miserly) person; a killjoy.",
     "partOfSpeech": "noun"
   },
+  "mechanic": null,
   "meet": {
     "definition": "A sports competition, especially for track and field (a track meet) or swimming (a swim meet).",
     "partOfSpeech": "noun"
@@ -3966,6 +3983,7 @@
   },
   "memed": null,
   "meming": null,
+  "menace": null,
   "mend": {
     "definition": "A place, as in clothing, which has been repaired by mending.",
     "partOfSpeech": "noun"
@@ -4053,6 +4071,7 @@
     "definition": "To mimic.",
     "partOfSpeech": "verb"
   },
+  "mince": null,
   "mincing": null,
   "mind": {
     "definition": "The ability for rational thought.",
@@ -4405,6 +4424,7 @@
   },
   "nibbling": null,
   "nice": null,
+  "niche": null,
   "nicknaming": null,
   "niece": null,
   "niggling": null,
