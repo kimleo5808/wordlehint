@@ -2121,6 +2121,7 @@
     "definition": "To direct the course of (a flow, journey etc.); to lead in a particular direction.",
     "partOfSpeech": "verb"
   },
+  "eely": null,
   "egged": {
     "definition": "To throw eggs at.",
     "partOfSpeech": "verb"
@@ -2158,6 +2159,7 @@
     "partOfSpeech": "noun"
   },
   "electee": null,
+  "elegy": null,
   "element": {
     "definition": "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based.",
     "partOfSpeech": "noun"
@@ -2272,6 +2274,7 @@
   "entice": null,
   "enticing": null,
   "entitle": null,
+  "entity": null,
   "envelop": {
     "definition": "To surround or enclose.",
     "partOfSpeech": "verb"
@@ -2333,10 +2336,13 @@
   "extent": null,
   "extinct": null,
   "eyed": null,
+  "eyeing": null,
+  "eyelet": null,
   "eyeteeth": {
     "definition": "A canine tooth of the upper jaw in humans.",
     "partOfSpeech": "noun"
   },
+  "eying": null,
   "facelift": null,
   "facial": null,
   "facile": null,
@@ -2625,6 +2631,8 @@
     "partOfSpeech": "noun"
   },
   "gent": null,
+  "gentility": null,
+  "gently": null,
   "getting": null,
   "ghee": {
     "definition": "A type of clarified butter used in South Asian cooking; usli ghee.",
@@ -3291,7 +3299,9 @@
     "definition": "The faculty of thinking, judging, abstract reasoning, and conceptual understanding; the cognitive faculty (uncountable)",
     "partOfSpeech": "noun"
   },
+  "intelligently": null,
   "intent": null,
+  "intently": null,
   "intimating": {
     "definition": "To suggest or disclose (something) discreetly.",
     "partOfSpeech": "verb"
@@ -3577,11 +3587,14 @@
     "partOfSpeech": "noun"
   },
   "leftie": null,
+  "leggy": null,
   "lend": {
     "definition": "The lumbar region; loin.",
     "partOfSpeech": "noun"
   },
   "lenient": null,
+  "leniently": null,
+  "lenity": null,
   "lent": {
     "definition": "A period of the ecclesiastical year preceding Easter, traditionally involving temporary abstention from certain foods and pleasures.",
     "partOfSpeech": "noun"
@@ -3650,6 +3663,7 @@
     "partOfSpeech": "noun"
   },
   "lintel": null,
+  "linty": null,
   "lion": {
     "definition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
     "partOfSpeech": "noun"
@@ -4393,6 +4407,7 @@
     "definition": "In need; poor.",
     "partOfSpeech": "adjective"
   },
+  "negligently": null,
   "nene": {
     "definition": "The Hawaiian goose, Branta sandvicensis, which was designated the state bird of Hawaii in 1957.",
     "partOfSpeech": "noun"
@@ -4428,6 +4443,7 @@
   "nicknaming": null,
   "niece": null,
   "niggling": null,
+  "niggly": null,
   "nigh": null,
   "nimbi": {
     "definition": "A circle of light; a halo.",
@@ -4436,6 +4452,7 @@
   "nine": null,
   "ninepin": null,
   "nineteen": null,
+  "ninety": null,
   "ninny": {
     "definition": "A silly or foolish person.",
     "partOfSpeech": "noun"
@@ -5402,6 +5419,7 @@
     "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
     "partOfSpeech": "noun"
   },
+  "tellingly": null,
   "tenant": {
     "definition": "One who pays a fee (rent) in return for the use of land, buildings, or other property owned by others.",
     "partOfSpeech": "noun"
@@ -5528,6 +5546,8 @@
   "tinge": null,
   "tingeing": null,
   "tinging": null,
+  "tingly": null,
+  "tinily": null,
   "tinkle": null,
   "tinning": {
     "definition": "To place into a tin in order to preserve.",
@@ -5779,6 +5799,7 @@
     "definition": "A reproach, gibe or taunt.",
     "partOfSpeech": "noun"
   },
+  "tying": null,
   "tyro": {
     "definition": "A beginner; a novice.",
     "partOfSpeech": "noun"
@@ -6128,8 +6149,11 @@
     "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
     "partOfSpeech": "noun"
   },
+  "yell": null,
   "yelled": null,
+  "yelling": null,
   "yenned": null,
+  "yenning": null,
   "yenta": {
     "definition": "A woman who meddles in the business of others; a busybody; a female gossipmonger.",
     "partOfSpeech": "noun"

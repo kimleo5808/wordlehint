@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T10:48:02.148Z",
+  "lastUpdated": "2026-10-09T10:46:45.897Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -64586,6 +64586,65 @@
         "niche",
         "niece",
         "nine"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-09",
+      "id": 24750,
+      "centerLetter": "y",
+      "outerLetters": [
+        "e",
+        "g",
+        "i",
+        "l",
+        "n",
+        "t"
+      ],
+      "pangrams": [
+        "gentility",
+        "intelligently",
+        "negligently",
+        "tellingly"
+      ],
+      "answers": [
+        "eely",
+        "eggy",
+        "elegy",
+        "entity",
+        "eyeing",
+        "eyelet",
+        "eying",
+        "gentility",
+        "gently",
+        "giggly",
+        "illy",
+        "intelligently",
+        "intently",
+        "itty",
+        "leggy",
+        "leniently",
+        "lenity",
+        "lily",
+        "linty",
+        "lying",
+        "negligently",
+        "netty",
+        "niggly",
+        "ninety",
+        "ninny",
+        "teeny",
+        "tellingly",
+        "tingly",
+        "tinily",
+        "tinny",
+        "tiny",
+        "tying",
+        "yell",
+        "yelling",
+        "yenning",
+        "yente",
+        "yeti"
       ],
       "editor": "Sam Ezersky"
     }

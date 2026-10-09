@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T10:48:00.914Z",
+  "lastUpdated": "2026-10-09T10:46:44.358Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56867,6 +56867,53 @@
             "FOOLHARDY",
             "MULHOLLAND",
             "THANKS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "id": 1216,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DECISIVE VICTORY",
+          "words": [
+            "BLOWOUT",
+            "ROMP",
+            "ROUT",
+            "SWEEP"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "CONTROLLED BY A TV REMOTE",
+          "words": [
+            "CHANNEL",
+            "INPUT",
+            "POWER",
+            "VOLUME"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FEATURES OF A SPORTS SHOW",
+          "words": [
+            "HIGHLIGHTS",
+            "RECAP",
+            "SCORES",
+            "STATS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "AIR ___",
+          "words": [
+            "CONDITIONER",
+            "GUITAR",
+            "KISS",
+            "QUOTES"
           ]
         }
       ]

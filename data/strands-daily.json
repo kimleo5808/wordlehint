@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T10:48:01.401Z",
+  "lastUpdated": "2026-10-09T10:46:45.100Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23771,6 +23771,30 @@
         "CYIEIE",
         "LARBNM",
         "MIECNE"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "id": 950,
+      "editor": "Tracy Bennett",
+      "clue": "That can't be right",
+      "spangram": "UNBELIEVABLE",
+      "themeWords": [
+        "BALDERDASH",
+        "DRIVEL",
+        "HOOEY",
+        "NONSENSE",
+        "RUBBISH"
+      ],
+      "board": [
+        "OEBLSH",
+        "OYAEIB",
+        "SHVRUB",
+        "NEEILD",
+        "ESNLAE",
+        "LONEBR",
+        "ERDBDH",
+        "VIUNAS"
       ]
     }
   ]
