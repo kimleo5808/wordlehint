@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T10:46:44.358Z",
+  "lastUpdated": "2026-10-10T10:01:45.729Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56914,6 +56914,53 @@
             "GUITAR",
             "KISS",
             "QUOTES"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "id": 1217,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "USEFUL WHEN WRITING A PAPER",
+          "words": [
+            "DRAFT",
+            "NOTES",
+            "OUTLINE",
+            "THESIS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PRESUME",
+          "words": [
+            "FIGURE",
+            "GATHER",
+            "IMAGINE",
+            "SUPPOSE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SOCIAL MEDIA SECTIONS",
+          "words": [
+            "FEED",
+            "MESSAGES",
+            "NOTIFICATIONS",
+            "PROFILE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___BOXING",
+          "words": [
+            "BEAT",
+            "KICK",
+            "SHADOW",
+            "UN"
           ]
         }
       ]

@@ -79,6 +79,7 @@
     "definition": "The state or quality of being active; activeness.",
     "partOfSpeech": "noun"
   },
+  "actor": null,
   "adamant": {
     "definition": "An imaginary rock or mineral of impenetrable hardness; a name given to the diamond and other substances of extreme hardness.",
     "partOfSpeech": "noun"
@@ -325,6 +326,7 @@
     "definition": "The great artery which carries the blood from the heart to all parts of the body except the lungs; the main trunk of the arterial system.",
     "partOfSpeech": "noun"
   },
+  "aortic": null,
   "apace": null,
   "aped": null,
   "apnea": null,
@@ -380,6 +382,7 @@
     "definition": "Any of several plants, of the genus Arnica, considered to have medicinal properties, especially Arnica montana.",
     "partOfSpeech": "noun"
   },
+  "aromatic": null,
   "arrant": {
     "definition": "Utter; complete (with a negative sense).",
     "partOfSpeech": "adjective"
@@ -410,6 +413,7 @@
     "partOfSpeech": "noun"
   },
   "atom": null,
+  "atomic": null,
   "atomization": null,
   "atria": null,
   "atrial": null,
@@ -441,6 +445,7 @@
     "definition": "To pull toward without touching.",
     "partOfSpeech": "verb"
   },
+  "attractor": null,
   "augur": {
     "definition": "A diviner who foretells events by the behaviour of birds or other animals, or by signs derived from celestial phenomena, or unusual occurrences.",
     "partOfSpeech": "noun"
@@ -961,6 +966,7 @@
     "partOfSpeech": "noun"
   },
   "cami": null,
+  "camo": null,
   "canal": {
     "definition": "An artificial waterway or artificially improved river used for travel, shipping, or irrigation.",
     "partOfSpeech": "noun"
@@ -1049,6 +1055,8 @@
   "cardiac": null,
   "cardio": null,
   "cardioid": null,
+  "carom": null,
+  "carrot": null,
   "cart": {
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
@@ -1337,6 +1345,7 @@
     "definition": "Any of several omnivorous mammals, of the genus Nasua or Nasuella, in order Carnivora, that live in the range from southern United States to northern Argentina.",
     "partOfSpeech": "noun"
   },
+  "coatroom": null,
   "coattail": {
     "definition": "The flap at the back of a coat that hangs down, sometimes below the waist.",
     "partOfSpeech": "noun"
@@ -1444,7 +1453,10 @@
     "definition": "A young male horse.",
     "partOfSpeech": "noun"
   },
+  "coma": null,
   "comic": null,
+  "comma": null,
+  "commit": null,
   "concede": null,
   "conceded": null,
   "conch": null,
@@ -1526,6 +1538,7 @@
     "definition": "A thin and usually jagged space opened in a previously solid material.",
     "partOfSpeech": "noun"
   },
+  "cram": null,
   "crania": {
     "definition": "The braincase or neurocranium; that part of the skull consisting of the bones enclosing the brain, but not including the bones of the face or jaw.",
     "partOfSpeech": "noun"
@@ -3819,6 +3832,7 @@
   "lying": null,
   "machine": null,
   "macing": null,
+  "macro": null,
   "madam": {
     "definition": "A polite form of address for a woman or lady.",
     "partOfSpeech": "noun"
@@ -3944,6 +3958,7 @@
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
     "partOfSpeech": "noun"
   },
+  "maraca": null,
   "marital": null,
   "marmot": null,
   "maroon": {
@@ -4258,6 +4273,7 @@
     "definition": "A machine or device that converts other energy forms into mechanical energy, or imparts motion.",
     "partOfSpeech": "noun"
   },
+  "motorcar": null,
   "motorway": null,
   "motto": null,
   "mucho": null,
@@ -5170,6 +5186,7 @@
     "partOfSpeech": "noun"
   },
   "rick": null,
+  "ricotta": null,
   "rigor": {
     "definition": "Short for rigor mortis.",
     "partOfSpeech": "noun"
@@ -5341,6 +5358,7 @@
   },
   "tapa": null,
   "tapir": null,
+  "tarmac": null,
   "taro": {
     "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
     "partOfSpeech": "noun"
@@ -5613,6 +5631,7 @@
     "partOfSpeech": "noun"
   },
   "tomato": null,
+  "tomcat": null,
   "tommyrot": {
     "definition": "Nonsense, rot.",
     "partOfSpeech": "noun"
@@ -5659,6 +5678,7 @@
     "partOfSpeech": "noun"
   },
   "tooting": null,
+  "toric": null,
   "torn": {
     "definition": "To rend (a solid material) by holding or restraining in two places and pulling apart, whether intentionally or not; to destroy or separate.",
     "partOfSpeech": "verb"
@@ -5704,6 +5724,7 @@
     "definition": "An area or expanse.",
     "partOfSpeech": "noun"
   },
+  "tractor": null,
   "trail": null,
   "train": {
     "definition": "Elongated portion.",
@@ -5717,6 +5738,7 @@
     "definition": "A passenger vehicle for public use that runs on tracks in the road (called a streetcar or trolley in North America).",
     "partOfSpeech": "noun"
   },
+  "tramcar": null,
   "tramway": null,
   "travail": null,
   "tray": {
@@ -5729,6 +5751,7 @@
     "definition": "Something designed to fool or swindle.",
     "partOfSpeech": "noun"
   },
+  "tricot": null,
   "trill": null,
   "trim": null,
   "trip": null,
