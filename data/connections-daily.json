@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T10:01:45.729Z",
+  "lastUpdated": "2026-10-11T10:12:04.438Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -56961,6 +56961,53 @@
             "KICK",
             "SHADOW",
             "UN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": 1218,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PUT TO USE",
+          "words": [
+            "APPLY",
+            "HARNESS",
+            "UTILIZE",
+            "WIELD"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MONTHLY BILLS",
+          "words": [
+            "CABLE",
+            "ELECTRICITY",
+            "INTERNET",
+            "PHONE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS YOU MIGHT FIND IN A GLOVE COMPARTMENT",
+          "words": [
+            "GLOVES",
+            "ICE SCRAPER",
+            "MAP",
+            "REGISTRATION"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN GAMBITS",
+          "words": [
+            "EMPLOY",
+            "PATRICK",
+            "PERUSE",
+            "SYNTACTIC"
           ]
         }
       ]

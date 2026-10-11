@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T10:01:46.840Z",
+  "lastUpdated": "2026-10-11T10:12:05.639Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -64727,6 +64727,76 @@
         "tractor",
         "tramcar",
         "tricot"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-11",
+      "id": 23597,
+      "centerLetter": "b",
+      "outerLetters": [
+        "a",
+        "l",
+        "n",
+        "o",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "butanol"
+      ],
+      "answers": [
+        "abbot",
+        "about",
+        "abut",
+        "baba",
+        "baboon",
+        "ball",
+        "balloon",
+        "ballot",
+        "banal",
+        "banana",
+        "baobab",
+        "baton",
+        "blab",
+        "blat",
+        "blatant",
+        "bloat",
+        "blob",
+        "blot",
+        "blotto",
+        "blunt",
+        "boat",
+        "boba",
+        "bola",
+        "boll",
+        "bolo",
+        "bolt",
+        "bonbon",
+        "bonobo",
+        "boob",
+        "booboo",
+        "boon",
+        "boot",
+        "bout",
+        "bubba",
+        "bulb",
+        "bull",
+        "bunt",
+        "butanol",
+        "butt",
+        "button",
+        "lobo",
+        "nabob",
+        "nanobot",
+        "noob",
+        "tabla",
+        "taboo",
+        "tuba",
+        "tubal",
+        "unban",
+        "unbolt",
+        "unbutton"
       ],
       "editor": "Sam Ezersky"
     }

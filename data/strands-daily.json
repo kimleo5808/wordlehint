@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T10:01:46.156Z",
+  "lastUpdated": "2026-10-11T10:12:04.995Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23819,6 +23819,30 @@
         "IDGNUT",
         "NARDPE",
         "ENESWE"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "id": 952,
+      "editor": "Tracy Bennett",
+      "clue": "They don't make 'em like they used to",
+      "spangram": "OLDFASHIONED",
+      "themeWords": [
+        "ICEBOX",
+        "INKWELL",
+        "PAGER",
+        "TELEGRAM",
+        "TYPEWRITER"
+      ],
+      "board": [
+        "GTOLDF",
+        "REESAI",
+        "ALHXOC",
+        "MEGIBE",
+        "RAORET",
+        "PKINRI",
+        "WNETWE",
+        "ELLDYP"
       ]
     }
   ]

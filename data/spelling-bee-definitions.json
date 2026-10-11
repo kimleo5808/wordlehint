@@ -532,6 +532,8 @@
   "ballad": null,
   "balladry": null,
   "ballboy": null,
+  "balloon": null,
+  "ballot": null,
   "ballyard": null,
   "banal": null,
   "banally": null,
@@ -607,6 +609,7 @@
     "definition": "(chiefly in the plural) A building for soldiers, especially within a garrison; originally referred to temporary huts, now usually to a permanent structure or set of buildings.",
     "partOfSpeech": "noun"
   },
+  "baton": null,
   "baud": {
     "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
     "partOfSpeech": "noun"
@@ -702,10 +705,13 @@
   "bitumen": null,
   "blab": null,
   "blabby": null,
+  "blat": null,
+  "blatant": null,
   "bleep": null,
   "blin": null,
   "bling": null,
   "blini": null,
+  "bloat": null,
   "blob": null,
   "blobbing": null,
   "blobby": null,
@@ -721,6 +727,7 @@
   "blot": null,
   "blotting": null,
   "blotto": null,
+  "blunt": null,
   "boar": {
     "definition": "A wild boar (Sus scrofa), the wild ancestor of the domesticated pig.",
     "partOfSpeech": "noun"
@@ -883,6 +890,8 @@
     "definition": "To annoy.",
     "partOfSpeech": "verb"
   },
+  "bulb": null,
+  "bull": null,
   "bung": null,
   "bunion": null,
   "bunt": {
@@ -913,6 +922,7 @@
     "definition": "A small donkey",
     "partOfSpeech": "noun"
   },
+  "butanol": null,
   "butt": {
     "definition": "The larger or thicker end of something; the blunt end, in distinction from the sharp or narrow end",
     "partOfSpeech": "noun"
@@ -4344,6 +4354,7 @@
     "definition": "A child's nurse.",
     "partOfSpeech": "noun"
   },
+  "nanobot": null,
   "nape": null,
   "napped": null,
   "narrator": {
@@ -5271,6 +5282,7 @@
     "definition": "A silk banner attached to a bugle or trumpet.",
     "partOfSpeech": "noun"
   },
+  "tabla": null,
   "taboo": {
     "definition": "An inhibition or ban that results from social custom or emotional aversion.",
     "partOfSpeech": "noun"
@@ -5772,6 +5784,7 @@
     "definition": "A large brass musical instrument, usually in the bass range, played through a vibration of the lips upon the mouthpiece and fingering of the keys.",
     "partOfSpeech": "noun"
   },
+  "tubal": null,
   "tubing": {
     "definition": "To supply with, or enclose in, a tube.",
     "partOfSpeech": "verb"
@@ -5830,6 +5843,8 @@
   "udon": null,
   "ulna": null,
   "ulnae": null,
+  "unban": null,
+  "unbolt": null,
   "unbutton": {
     "definition": "To open (something) by undoing its buttons.",
     "partOfSpeech": "verb"
