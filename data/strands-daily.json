@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T10:12:04.995Z",
+  "lastUpdated": "2026-10-12T11:10:18.925Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23843,6 +23843,30 @@
         "PKINRI",
         "WNETWE",
         "ELLDYP"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "id": 953,
+      "editor": "Tracy Bennett",
+      "clue": "In a manner of speaking",
+      "spangram": "TURNOFPHRASE",
+      "themeWords": [
+        "DIALECT",
+        "JARGON",
+        "LINGO",
+        "PARLANCE",
+        "VERNACULAR"
+      ],
+      "board": [
+        "TAIGNI",
+        "CELDOL",
+        "FPHRAS",
+        "OULONE",
+        "NCAJGE",
+        "RARARC",
+        "UNREVN",
+        "TPARLA"
       ]
     }
   ]

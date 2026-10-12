@@ -148,6 +148,7 @@
     "definition": "A place for gathering.",
     "partOfSpeech": "noun"
   },
+  "ahem": null,
   "ahoy": {
     "definition": "An utterance of this interjection.",
     "partOfSpeech": "noun"
@@ -435,6 +436,10 @@
   },
   "attar": {
     "definition": "An essential oil extracted from flowers.",
+    "partOfSpeech": "noun"
+  },
+  "attempt": {
+    "definition": "The action of trying at something.",
     "partOfSpeech": "noun"
   },
   "attic": {
@@ -2237,6 +2242,9 @@
     "definition": "To send out or give off",
     "partOfSpeech": "verb"
   },
+  "empath": null,
+  "empathy": null,
+  "empty": null,
   "enable": null,
   "enamel": {
     "definition": "An opaque, glassy coating baked onto metal or ceramic objects.",
@@ -2861,6 +2869,7 @@
     "definition": "To limp; move with a limping gait.",
     "partOfSpeech": "verb"
   },
+  "hamate": null,
   "hand": {
     "definition": "The part of the forelimb below the forearm or wrist in a human, and the corresponding part in many other animals.",
     "partOfSpeech": "noun"
@@ -2943,6 +2952,7 @@
     "definition": "The state of being free from physical or psychological disease, illness, or malfunction; wellness.",
     "partOfSpeech": "noun"
   },
+  "heap": null,
   "heat": {
     "definition": "Thermal energy.",
     "partOfSpeech": "noun"
@@ -2981,6 +2991,7 @@
   },
   "heme": null,
   "hemmed": null,
+  "hemp": null,
   "henbane": {
     "definition": "A poisonous plant, Hyoscyamus niger, used sometimes as a drug that causes at least hallucinations, dilated pupils, restlessness, and flushed skin.",
     "partOfSpeech": "noun"
@@ -3141,6 +3152,7 @@
   },
   "hymen": null,
   "hymn": null,
+  "hype": null,
   "iced": null,
   "icefall": null,
   "iceman": null,
@@ -3984,10 +3996,14 @@
     "definition": "One who willingly accepts being put to death for adhering openly to one's religious beliefs; notably, saints canonized after martyrdom.",
     "partOfSpeech": "noun"
   },
+  "mate": null,
+  "matey": null,
   "mating": null,
   "matron": null,
+  "matte": null,
   "matting": null,
   "mayfly": null,
+  "mayhem": null,
   "mayo": null,
   "mean": {
     "definition": "To lament.",
@@ -4003,6 +4019,8 @@
     "definition": "A mean (unkind or miserly) person; a killjoy.",
     "partOfSpeech": "noun"
   },
+  "meat": null,
+  "meaty": null,
   "mechanic": null,
   "meet": {
     "definition": "A sports competition, especially for track and field (a track meet) or swimming (a swim meet).",
@@ -4045,10 +4063,12 @@
     "definition": "The details of the food to be served at a banquet; a bill of fare.",
     "partOfSpeech": "noun"
   },
+  "meta": null,
   "mete": {
     "definition": "To measure.",
     "partOfSpeech": "verb"
   },
+  "meth": null,
   "mettle": {
     "definition": "A quality of endurance and courage.",
     "partOfSpeech": "noun"
@@ -4812,13 +4832,17 @@
   "papilloma": null,
   "partial": null,
   "partita": null,
+  "pate": null,
   "patina": null,
   "pawl": null,
   "pawpaw": null,
+  "payee": null,
   "peace": null,
   "peak": null,
   "peaked": null,
   "peal": null,
+  "peat": null,
+  "peaty": null,
   "pebble": null,
   "pecan": null,
   "peck": null,
@@ -4869,11 +4893,13 @@
   },
   "pepped": null,
   "pepping": null,
+  "peppy": null,
   "peptic": null,
   "peptide": null,
   "petit": null,
   "petite": null,
   "petted": null,
+  "petty": null,
   "pewee": null,
   "pfft": null,
   "phoning": {
@@ -5345,6 +5371,7 @@
   "tall": null,
   "tallit": null,
   "tamari": null,
+  "tame": null,
   "taming": {
     "definition": "To make (an animal) tame; to domesticate.",
     "partOfSpeech": "verb"
@@ -5369,7 +5396,9 @@
     "partOfSpeech": "adjective"
   },
   "tapa": null,
+  "tape": null,
   "tapir": null,
+  "tappet": null,
   "tarmac": null,
   "taro": {
     "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
@@ -5412,6 +5441,12 @@
     "definition": "To show (someone) the way; to guide, conduct; to point, indicate.",
     "partOfSpeech": "verb"
   },
+  "team": {
+    "definition": "A set of draught animals, such as two horses in front of a carriage.",
+    "partOfSpeech": "noun"
+  },
+  "teammate": null,
+  "teat": null,
   "tech": {
     "definition": "Technology",
     "partOfSpeech": "noun"
@@ -5450,6 +5485,9 @@
     "partOfSpeech": "noun"
   },
   "tellingly": null,
+  "temp": null,
+  "tempeh": null,
+  "tempt": null,
   "tenant": {
     "definition": "One who pays a fee (rent) in return for the use of land, buildings, or other property owned by others.",
     "partOfSpeech": "noun"
@@ -5488,6 +5526,8 @@
     "definition": "To address (a person) using the pronoun thee.",
     "partOfSpeech": "verb"
   },
+  "them": null,
+  "theme": null,
   "then": {
     "definition": "Used in comparisons, to introduce the basis of comparison.",
     "partOfSpeech": "conjunction"
@@ -5526,6 +5566,7 @@
     "definition": "Someone with an intimidating and unseemly appearance and mannerisms, who treats others violently and roughly, often for hire.",
     "partOfSpeech": "noun"
   },
+  "thyme": null,
   "tiara": {
     "definition": "The papal crown.",
     "partOfSpeech": "noun"
@@ -5836,6 +5877,7 @@
     "partOfSpeech": "noun"
   },
   "tying": null,
+  "type": null,
   "tyro": {
     "definition": "A beginner; a novice.",
     "partOfSpeech": "noun"
@@ -6187,6 +6229,7 @@
     "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
     "partOfSpeech": "noun"
   },
+  "yeah": null,
   "yell": null,
   "yelled": null,
   "yelling": null,
