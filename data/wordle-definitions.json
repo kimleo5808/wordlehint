@@ -4762,6 +4762,19 @@
       }
     ]
   },
+  "BUMPY": {
+    "definition": "Rough; jumpy; causing or characterized by jolts and irregular movements",
+    "partOfSpeech": "adjective",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Rough; jumpy; causing or characterized by jolts and irregular movements",
+        "example": null
+      }
+    ]
+  },
   "BUNCH": {
     "definition": "A group of similar things, either growing together, or in a cluster or clump, usually fastened together.",
     "partOfSpeech": "noun",
