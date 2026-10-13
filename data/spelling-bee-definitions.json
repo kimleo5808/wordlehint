@@ -161,6 +161,7 @@
     "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
     "partOfSpeech": "noun"
   },
+  "airdrop": null,
   "airmail": null,
   "alcohol": {
     "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
@@ -237,6 +238,8 @@
   "anally": null,
   "analyzed": null,
   "ancho": null,
+  "andiron": null,
+  "android": null,
   "anemia": null,
   "anemic": null,
   "anima": {
@@ -1894,6 +1897,7 @@
     "definition": "To make something less bright.",
     "partOfSpeech": "verb"
   },
+  "dinar": null,
   "ding": {
     "definition": "Very minor damage, a small dent or chip.",
     "partOfSpeech": "noun"
@@ -2034,6 +2038,7 @@
   },
   "drab": null,
   "drably": null,
+  "drain": null,
   "drat": {
     "definition": "To damn or curse.",
     "partOfSpeech": "verb"
@@ -2043,6 +2048,7 @@
     "definition": "A tool used to remove material so as to create a hole, typically by plunging a rotating cutting bit into a stationary workpiece.",
     "partOfSpeech": "noun"
   },
+  "drip": null,
   "droid": null,
   "droll": null,
   "drolly": null,
@@ -3295,6 +3301,7 @@
     "definition": "An indigenous person; a native.",
     "partOfSpeech": "noun"
   },
+  "indoor": null,
   "infallibly": null,
   "infant": null,
   "infidel": null,
@@ -3325,6 +3332,7 @@
     "definition": "A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game.",
     "partOfSpeech": "noun"
   },
+  "inroad": null,
   "intact": {
     "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
     "partOfSpeech": "adjective"
@@ -4351,6 +4359,7 @@
     "definition": "Nothing.",
     "partOfSpeech": "pronoun"
   },
+  "nadir": null,
   "naiad": null,
   "naif": {
     "definition": "One who is naive.",
@@ -4542,6 +4551,7 @@
   "nonevent": null,
   "nonillion": null,
   "nonlocal": null,
+  "nonpaid": null,
   "nonrandom": {
     "definition": "Not at random, caused or manipulated, arranged.",
     "partOfSpeech": "adjective"
@@ -4731,6 +4741,7 @@
     "partOfSpeech": "noun"
   },
   "orchid": null,
+  "ordain": null,
   "orgy": null,
   "orotund": null,
   "ottoman": {
@@ -4800,6 +4811,7 @@
     "partOfSpeech": "noun"
   },
   "pageboy": null,
+  "paid": null,
   "pail": null,
   "paint": null,
   "pair": null,
@@ -4830,6 +4842,9 @@
   "papaw": null,
   "papilla": null,
   "papilloma": null,
+  "paradrop": null,
+  "paranoid": null,
+  "pardon": null,
   "partial": null,
   "partita": null,
   "pate": null,
@@ -5012,6 +5027,7 @@
   },
   "plow": null,
   "plowable": null,
+  "podia": null,
   "pogo": {
     "definition": "A dance associated with the 1970s punk rock movement in which participants jump up and down on the spot in the manner of someone riding a pogo stick.",
     "partOfSpeech": "noun"
@@ -5137,6 +5153,7 @@
     "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces",
     "partOfSpeech": "noun"
   },
+  "radian": null,
   "radicchio": null,
   "radii": null,
   "radio": {
@@ -5161,6 +5178,7 @@
     "definition": "Condensed water falling from a cloud.",
     "partOfSpeech": "noun"
   },
+  "raindrop": null,
   "raita": {
     "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
     "partOfSpeech": "noun"
@@ -5180,6 +5198,7 @@
     "definition": "A criticism done by ranting.",
     "partOfSpeech": "noun"
   },
+  "rapid": null,
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
@@ -5230,6 +5249,7 @@
   },
   "rill": null,
   "rimming": null,
+  "rind": null,
   "rival": null,
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",

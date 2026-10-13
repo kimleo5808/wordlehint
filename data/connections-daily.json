@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T11:10:18.401Z",
+  "lastUpdated": "2026-10-13T10:51:37.447Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57055,6 +57055,53 @@
             "CALAMARI",
             "MANDARIN",
             "MELAMINE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "id": 1220,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DISCERNMENT",
+          "words": [
+            "EYE",
+            "FLAIR",
+            "SENSE",
+            "TASTE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FASTEN",
+          "words": [
+            "HITCH",
+            "LASH",
+            "TETHER",
+            "TIE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SPORTS CHAMPIONSHIP PRIZES",
+          "words": [
+            "BELT",
+            "CUP",
+            "JACKET",
+            "RING"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "LOOSE ___",
+          "words": [
+            "CANNON",
+            "CHANGE",
+            "ENDS",
+            "LIPS"
           ]
         }
       ]
