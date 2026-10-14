@@ -670,6 +670,9 @@
     "definition": "To remove the head of; to cut someone's head off.",
     "partOfSpeech": "verb"
   },
+  "belie": null,
+  "bell": null,
+  "belle": null,
   "bend": {
     "definition": "A curve.",
     "partOfSpeech": "noun"
@@ -678,6 +681,7 @@
     "definition": "To make numb, as by cold or anesthetic.",
     "partOfSpeech": "verb"
   },
+  "bible": null,
   "biblical": null,
   "bicarb": null,
   "biennium": null,
@@ -689,7 +693,9 @@
     "definition": "One who is narrow-mindedly devoted to one's own ideas and groups, and intolerant of (people of) differing ideas, races, genders, religions, politics, etc.",
     "partOfSpeech": "noun"
   },
+  "bike": null,
   "bilabial": null,
+  "bile": null,
   "bill": null,
   "billing": null,
   "billion": null,
@@ -729,6 +735,7 @@
   },
   "blog": null,
   "blogging": null,
+  "bloke": null,
   "blood": null,
   "bloody": null,
   "bloop": null,
@@ -761,6 +768,7 @@
     "definition": "To move gently and vertically, in either a single motion or repeatedly up and down, at or near the surface of a body of water, or similar medium.",
     "partOfSpeech": "verb"
   },
+  "bobble": null,
   "bobbling": null,
   "bocce": {
     "definition": "A game, similar to bowls or pétanque, played on a long, narrow, dirt-covered court",
@@ -836,6 +844,7 @@
   },
   "booed": null,
   "booing": null,
+  "bookie": null,
   "boon": null,
   "boop": null,
   "boor": {
@@ -856,6 +865,7 @@
     "definition": "A period of something, usually painful or unpleasant.",
     "partOfSpeech": "noun"
   },
+  "boxlike": null,
   "brad": {
     "definition": "A thin, small nail, with a slight projection at the top on one side instead of a head, or occasionally with a small domed head, similar to that of an escutcheon pin.",
     "partOfSpeech": "noun"
@@ -2364,6 +2374,7 @@
   "exciting": null,
   "exec": null,
   "exigent": null,
+  "exile": null,
   "exit": null,
   "exiting": null,
   "expending": {
@@ -3159,6 +3170,7 @@
   "hymen": null,
   "hymn": null,
   "hype": null,
+  "ibex": null,
   "iced": null,
   "icefall": null,
   "iceman": null,
@@ -3427,6 +3439,7 @@
     "partOfSpeech": "noun"
   },
   "kayak": null,
+  "keel": null,
   "keen": {
     "definition": "To make cold, to sharpen.",
     "partOfSpeech": "verb"
@@ -3447,6 +3460,7 @@
   "kente": null,
   "kettle": null,
   "khaki": null,
+  "kibble": null,
   "kick": null,
   "kicked": null,
   "kidded": null,
@@ -3629,6 +3643,7 @@
     "definition": "An aquatic blood-sucking annelid of class Hirudinea, especially Hirudo medicinalis.",
     "partOfSpeech": "noun"
   },
+  "leek": null,
   "leftie": null,
   "leggy": null,
   "lend": {
@@ -3664,6 +3679,8 @@
     "partOfSpeech": "noun"
   },
   "liar": null,
+  "libel": null,
+  "libelee": null,
   "lice": null,
   "licit": null,
   "life": {
@@ -3672,6 +3689,10 @@
   },
   "lifeline": null,
   "lift": null,
+  "like": {
+    "definition": "(usually in the plural) Something that a person likes (prefers).",
+    "partOfSpeech": "noun"
+  },
   "lilac": null,
   "lilt": {
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
@@ -3771,6 +3792,7 @@
   },
   "lobbing": null,
   "lobby": null,
+  "lobe": null,
   "loblolly": null,
   "lobo": null,
   "local": {
@@ -4689,10 +4711,12 @@
     "definition": "Endorsement; approval.",
     "partOfSpeech": "noun"
   },
+  "oleo": null,
   "olio": {
     "definition": "A rich, thick, Spanish stew consisting of meat and vegetables.",
     "partOfSpeech": "noun"
   },
+  "ollie": null,
   "omit": {
     "definition": "To leave out or exclude.",
     "partOfSpeech": "verb"
@@ -4799,6 +4823,7 @@
   "oxen": null,
   "oxidant": null,
   "oxidation": null,
+  "oxlike": null,
   "pace": null,
   "paced": null,
   "pack": null,

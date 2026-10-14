@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T10:51:37.447Z",
+  "lastUpdated": "2026-10-14T08:53:51.640Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57102,6 +57102,53 @@
             "CHANGE",
             "ENDS",
             "LIPS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "id": 1221,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "HINT",
+          "words": [
+            "FLICKER",
+            "SUGGESTION",
+            "TRACE",
+            "WHIFF"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "TENNIS SHOTS",
+          "words": [
+            "SERVE",
+            "SLICE",
+            "SMASH",
+            "VOLLEY"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SUPERHEROES, WITH \"THE\"",
+          "words": [
+            "FLASH",
+            "HULK",
+            "PUNISHER",
+            "THING"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH \"FEE, FI, FO, FUM\"",
+          "words": [
+            "FEED",
+            "FIERY",
+            "FOMENT",
+            "FUMBLE"
           ]
         }
       ]

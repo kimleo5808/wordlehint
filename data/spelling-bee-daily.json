@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T10:51:38.655Z",
+  "lastUpdated": "2026-10-14T08:53:52.746Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -64942,6 +64942,48 @@
         "road",
         "rondo",
         "rood"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-14",
+      "id": 22820,
+      "centerLetter": "e",
+      "outerLetters": [
+        "b",
+        "i",
+        "k",
+        "l",
+        "o",
+        "x"
+      ],
+      "pangrams": [
+        "boxlike"
+      ],
+      "answers": [
+        "belie",
+        "bell",
+        "belle",
+        "bible",
+        "bike",
+        "bile",
+        "bloke",
+        "bobble",
+        "bookie",
+        "boxlike",
+        "exile",
+        "ibex",
+        "keel",
+        "kibble",
+        "leek",
+        "libel",
+        "libelee",
+        "like",
+        "lobe",
+        "oboe",
+        "oleo",
+        "ollie",
+        "oxlike"
       ],
       "editor": "Sam Ezersky"
     }
