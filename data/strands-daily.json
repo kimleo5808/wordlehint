@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T08:53:52.051Z",
+  "lastUpdated": "2026-10-15T08:28:46.037Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23916,6 +23916,31 @@
         "PNAAFO",
         "OTESHR",
         "IMTERA"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "id": 956,
+      "editor": "Tracy Bennett",
+      "clue": "Sailor's guide",
+      "spangram": "LIGHTHOUSE",
+      "themeWords": [
+        "BEACON",
+        "DOME",
+        "GALLERY",
+        "LANTERN",
+        "STAIRCASE",
+        "TOWER"
+      ],
+      "board": [
+        "ELIGOM",
+        "ABHDNE",
+        "CNTLAT",
+        "OEHRNE",
+        "SAOEGR",
+        "CRUWAY",
+        "IASOLR",
+        "TSETLE"
       ]
     }
   ]

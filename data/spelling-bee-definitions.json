@@ -195,6 +195,7 @@
   "allude": null,
   "alluded": null,
   "ally": null,
+  "almanac": null,
   "aloha": {
     "definition": "Good wishes, love.",
     "partOfSpeech": "noun"
@@ -246,6 +247,7 @@
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
   },
+  "animal": null,
   "animating": {
     "definition": "To impart motion or the appearance of motion to.",
     "partOfSpeech": "verb"
@@ -1042,6 +1044,7 @@
     "partOfSpeech": "verb"
   },
   "cannibal": null,
+  "cannily": null,
   "cannon": {
     "definition": "A complete assembly, consisting of an artillery tube and a breech mechanism, firing mechanism or base cap, which is a component of a gun, howitzer or mortar. It may include muzzle appendages.",
     "partOfSpeech": "noun"
@@ -1118,6 +1121,7 @@
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
   },
+  "cayman": null,
   "cede": {
     "definition": "To give up; yield to another.",
     "partOfSpeech": "verb"
@@ -1310,6 +1314,7 @@
   "clinch": null,
   "clinic": null,
   "clinical": null,
+  "clinically": null,
   "clinician": null,
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
@@ -1638,6 +1643,8 @@
     "definition": "A person who believes that all people are motivated by selfishness.",
     "partOfSpeech": "noun"
   },
+  "cynical": null,
+  "cynically": null,
   "dabbed": {
     "definition": "To press lightly in a repetitive motion with a soft object without rubbing.",
     "partOfSpeech": "verb"
@@ -3324,6 +3331,8 @@
   },
   "infilled": null,
   "ingot": null,
+  "inimical": null,
+  "inimically": null,
   "initial": null,
   "initiation": {
     "definition": "The act of initiating, or the process of being initiated or introduced",
@@ -3335,6 +3344,7 @@
   },
   "inlaid": null,
   "inland": null,
+  "inlay": null,
   "inlet": {
     "definition": "To let in; admit.",
     "partOfSpeech": "verb"
@@ -3537,6 +3547,8 @@
     "definition": "An expression of grief, suffering, sadness or regret.",
     "partOfSpeech": "noun"
   },
+  "lamina": null,
+  "laminal": null,
   "lamp": {
     "definition": "A device that generates heat, light or other radiation. Especially an electric light bulb.",
     "partOfSpeech": "noun"
@@ -3704,6 +3716,7 @@
     "definition": "Any inorganic material containing calcium, usually calcium oxide (quicklime) or calcium hydroxide (slaked lime).",
     "partOfSpeech": "noun"
   },
+  "liminal": null,
   "limit": {
     "definition": "A restriction; a bound beyond which one may not go.",
     "partOfSpeech": "noun"
@@ -3910,6 +3923,7 @@
   },
   "mail": null,
   "maillot": null,
+  "mailman": null,
   "maim": {
     "definition": "A serious wound",
     "partOfSpeech": "noun"
@@ -3919,6 +3933,7 @@
     "definition": "Short for mainline.",
     "partOfSpeech": "verb"
   },
+  "mainly": null,
   "maintain": {
     "definition": "To support (someone), to back up or assist (someone) in an action.",
     "partOfSpeech": "verb"
@@ -3951,6 +3966,7 @@
     "definition": "An animal of the class Mammalia, characterized by being warm-blooded, having hair and feeding milk to its young.",
     "partOfSpeech": "noun"
   },
+  "mammalian": null,
   "mammogram": null,
   "mammon": {
     "definition": "The desire for wealth personified as an evil spirit or a malign influence.",
@@ -3962,6 +3978,7 @@
     "definition": "Any of several plant-eating marine mammals, of family Trichechidae, found in tropical regions.",
     "partOfSpeech": "noun"
   },
+  "mancala": null,
   "mandating": null,
   "mane": {
     "definition": "Longer hair growth on back of neck of an animal, especially a horse or lion",
@@ -3976,8 +3993,12 @@
     "partOfSpeech": "noun"
   },
   "maniac": null,
+  "maniacal": null,
+  "maniacally": null,
   "manic": null,
+  "manically": null,
   "manikin": null,
+  "manila": null,
   "manly": {
     "definition": "Having the characteristics of a man.",
     "partOfSpeech": "adjective"
@@ -4195,6 +4216,8 @@
     "definition": "The lowest limit.",
     "partOfSpeech": "noun"
   },
+  "minimal": null,
+  "minimally": null,
   "minimization": {
     "definition": "The act of lowering something to its smallest value or extent.",
     "partOfSpeech": "noun"

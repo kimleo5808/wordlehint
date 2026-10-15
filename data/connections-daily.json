@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T08:53:51.640Z",
+  "lastUpdated": "2026-10-15T08:28:45.511Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57149,6 +57149,53 @@
             "FIERY",
             "FOMENT",
             "FUMBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "id": 1222,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "WAYS TO PRESERVE FOOD",
+          "words": [
+            "CURE",
+            "DRY",
+            "PICKLE",
+            "SMOKE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS YOU CAN SCORE IN SPORTS",
+          "words": [
+            "BASKET",
+            "GOAL",
+            "RUN",
+            "TOUCHDOWN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "LOWEST PART",
+          "words": [
+            "BASE",
+            "BOTTOM",
+            "FOOT",
+            "FOUNDATION"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "LOW LANDFORMS WITH A LETTER CHANGED",
+          "words": [
+            "CANNON",
+            "FORGE",
+            "RACINE",
+            "VOLLEY"
           ]
         }
       ]
