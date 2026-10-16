@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:28:46.037Z",
+  "lastUpdated": "2026-10-16T08:21:38.347Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -23941,6 +23941,31 @@
         "CRUWAY",
         "IASOLR",
         "TSETLE"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "id": 957,
+      "editor": "Tracy Bennett",
+      "clue": "Just a little bit",
+      "spangram": "SMALLWORLD",
+      "themeWords": [
+        "AMOEBA",
+        "ATOM",
+        "FOLLICLE",
+        "MITE",
+        "MOLECULE",
+        "PINPOINT"
+      ],
+      "board": [
+        "OPNLEC",
+        "IPIOMU",
+        "NLLWOL",
+        "TATIRE",
+        "SMEMLD",
+        "ALIAMO",
+        "TLOCAE",
+        "OMFLEB"
       ]
     }
   ]

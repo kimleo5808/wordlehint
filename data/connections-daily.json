@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:28:45.511Z",
+  "lastUpdated": "2026-10-16T08:21:37.809Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57196,6 +57196,53 @@
             "FORGE",
             "RACINE",
             "VOLLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "id": 1223,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SURFACE IMPERFECTIONS",
+          "words": [
+            "CHIP",
+            "MARK",
+            "NICK",
+            "SCRATCH"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "LANDLOCKED COUNTRIES",
+          "words": [
+            "CHAD",
+            "HUNGARY",
+            "LAOS",
+            "PARAGUAY"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "EUROPEAN COUNTRIES MINUS A LETTER",
+          "words": [
+            "BULGARI",
+            "CYRUS",
+            "HUNGRY",
+            "SPAN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH WORDS FOR \"STYLISH\"",
+          "words": [
+            "CHICKEN",
+            "COOLIDGE",
+            "HIPPO",
+            "SMARTIES"
           ]
         }
       ]

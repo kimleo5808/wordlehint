@@ -881,6 +881,7 @@
     "definition": "Any of many plants with thorny stems growing in dense clusters, such as many in the Rosa, Rubus, and Smilax genera.",
     "partOfSpeech": "noun"
   },
+  "bribing": null,
   "brick": {
     "definition": "A hardened rectangular block of mud, clay etc., used for building.",
     "partOfSpeech": "noun"
@@ -889,6 +890,10 @@
     "definition": "A piece of brick used as a weapon, especially if thrown, or placed in something like a sock and used as a club.",
     "partOfSpeech": "noun"
   },
+  "brig": null,
+  "bring": null,
+  "bringing": null,
+  "brining": null,
   "broad": {
     "definition": "A shallow lake, one of a number of bodies of water in eastern Norfolk and Suffolk.",
     "partOfSpeech": "noun"
@@ -930,6 +935,9 @@
     "definition": "A freshwater fish, taxonomic name Lota lota, which is similar to the ling and the cusk and spawns in the winter.",
     "partOfSpeech": "noun"
   },
+  "burg": null,
+  "burning": null,
+  "burping": null,
   "burr": {
     "definition": "A sharp, pointy object, such as a sliver or splinter.",
     "partOfSpeech": "noun"
@@ -2823,6 +2831,11 @@
     "partOfSpeech": "noun"
   },
   "grim": null,
+  "grin": null,
+  "grinning": null,
+  "grip": null,
+  "griping": null,
+  "gripping": null,
   "grody": {
     "definition": "Nasty, dirty, disgusting, foul, revolting, yucky, grotesque.",
     "partOfSpeech": "adjective"
@@ -2844,6 +2857,8 @@
     "definition": "A red-brown marmot, Marmota monax, native to North America.",
     "partOfSpeech": "noun"
   },
+  "grub": null,
+  "grubbing": null,
   "guar": {
     "definition": "An annual legume (Cyamopsis tetragonoloba), used as a food for cattle and humans.",
     "partOfSpeech": "noun"
@@ -2856,6 +2871,7 @@
     "definition": "A seabird of the genus Larus or of the family Laridae.",
     "partOfSpeech": "noun"
   },
+  "gunning": null,
   "guru": {
     "definition": "A Hindu or Sikh spiritual teacher.",
     "partOfSpeech": "noun"
@@ -3394,10 +3410,12 @@
     "definition": "Immediate cognition without the use of conscious rational processes.",
     "partOfSpeech": "noun"
   },
+  "inuring": null,
   "inurn": {
     "definition": "To place (the remains of a person who has died) in an urn or other container.",
     "partOfSpeech": "verb"
   },
+  "inurning": null,
   "invent": null,
   "inventing": null,
   "invention": null,
@@ -4546,6 +4564,7 @@
   "niggling": null,
   "niggly": null,
   "nigh": null,
+  "nigiri": null,
   "nimbi": {
     "definition": "A circle of light; a halo.",
     "partOfSpeech": "noun"
@@ -5117,6 +5136,7 @@
     "partOfSpeech": "noun"
   },
   "powwow": null,
+  "prig": null,
   "prim": null,
   "primal": null,
   "priming": null,
@@ -5156,9 +5176,13 @@
     "definition": "A semi-hard cheese made of whole milk from cows. It comes primarily from Southern Italy.",
     "partOfSpeech": "noun"
   },
+  "pruning": null,
+  "punning": null,
+  "purging": null,
   "purl": null,
   "purloin": null,
   "purr": null,
+  "purring": null,
   "pyro": {
     "definition": "A pyromaniac",
     "partOfSpeech": "noun"
@@ -5281,6 +5305,7 @@
     "partOfSpeech": "noun"
   },
   "rial": null,
+  "ribbing": null,
   "ribbit": {
     "definition": "The vocal sound made by a frog or toad.",
     "partOfSpeech": "noun"
@@ -5291,6 +5316,7 @@
   },
   "rick": null,
   "ricotta": null,
+  "rigging": null,
   "rigor": {
     "definition": "Short for rigor mortis.",
     "partOfSpeech": "noun"
@@ -5298,6 +5324,9 @@
   "rill": null,
   "rimming": null,
   "rind": null,
+  "ring": null,
+  "ringing": null,
+  "ripping": null,
   "rival": null,
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",
@@ -5360,16 +5389,20 @@
   },
   "royal": null,
   "royally": null,
+  "rubbing": null,
   "ruin": {
     "definition": "(sometimes in the plural) The remains of a destroyed or dilapidated construction, such as a house or castle.",
     "partOfSpeech": "noun"
   },
+  "ruing": null,
+  "ruining": null,
   "rumor": null,
   "rung": {
     "definition": "A crosspiece forming a step of a ladder; a round.",
     "partOfSpeech": "noun"
   },
   "runic": null,
+  "running": null,
   "runout": null,
   "runt": null,
   "tabard": {
@@ -6039,6 +6072,9 @@
     "definition": "Not offended.",
     "partOfSpeech": "adjective"
   },
+  "unpinning": null,
+  "unrig": null,
+  "unrigging": null,
   "unroll": null,
   "unthought": {
     "definition": "To undo the process of thinking.",
@@ -6046,6 +6082,9 @@
   },
   "unto": null,
   "untuning": null,
+  "upbringing": null,
+  "upping": null,
+  "urging": null,
   "uric": {
     "definition": "Pertaining to, contained in, or obtained from urine.",
     "partOfSpeech": "adjective"
