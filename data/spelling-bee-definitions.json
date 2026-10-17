@@ -163,6 +163,7 @@
   },
   "airdrop": null,
   "airmail": null,
+  "album": null,
   "alcohol": {
     "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
     "partOfSpeech": "noun"
@@ -205,11 +206,14 @@
     "definition": "A musical part or section higher than tenor and lower than soprano, formerly the part that performed a countermelody above the tenor or main melody.",
     "partOfSpeech": "noun"
   },
+  "alum": null,
+  "alumna": null,
   "amalgam": {
     "definition": "An alloy containing mercury.",
     "partOfSpeech": "noun"
   },
   "amatory": null,
+  "ambulant": null,
   "amen": {
     "definition": "An instance of saying ‘amen’.",
     "partOfSpeech": "noun"
@@ -461,6 +465,11 @@
     "partOfSpeech": "noun"
   },
   "aunt": null,
+  "autumn": {
+    "definition": "Traditionally the third of the four seasons, when deciduous trees lose their leaves; typically regarded as being from September 24 to December 22 in parts of the Northern Hemisphere, and the months of March, April and May in the Southern Hemisphere.",
+    "partOfSpeech": "noun"
+  },
+  "autumnal": null,
   "avail": {
     "definition": "Effect in achieving a goal or aim; purpose, use (now usually in negative constructions).",
     "partOfSpeech": "noun"
@@ -545,6 +554,7 @@
   "balloon": null,
   "ballot": null,
   "ballyard": null,
+  "balm": null,
   "banal": null,
   "banally": null,
   "banana": {
@@ -591,6 +601,7 @@
     "definition": "To summon; to call out.",
     "partOfSpeech": "verb"
   },
+  "bantam": null,
   "banyan": null,
   "baobab": {
     "definition": "A tree, Adansonia digitata (and similar species), native to tropical Africa, having a broad swollen trunk and edible gourd-like hanging fruits.",
@@ -721,6 +732,7 @@
   "bitumen": null,
   "blab": null,
   "blabby": null,
+  "blam": null,
   "blat": null,
   "blatant": null,
   "bleep": null,
@@ -3561,6 +3573,7 @@
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
   },
+  "lamb": null,
   "lament": {
     "definition": "An expression of grief, suffering, sadness or regret.",
     "partOfSpeech": "noun"
@@ -3976,6 +3989,7 @@
     "definition": "(hypocoristic, usually childish) Mother, female parent.",
     "partOfSpeech": "noun"
   },
+  "mamba": null,
   "mamma": {
     "definition": "The milk-secreting organ of female humans and other mammals which includes the mammary gland and the nipple or teat; a breast; an udder. (plural: mammae)",
     "partOfSpeech": "noun"
@@ -4044,6 +4058,7 @@
     "definition": "The hymn portions of the Vedas; any passage of these used as a prayer.",
     "partOfSpeech": "noun"
   },
+  "manual": null,
   "many": null,
   "manzanita": {
     "definition": "Any evergreen shrub or tree of the genus Arctostaphylos, especially Arctostaphylos manzanita, having smooth red or orange bark and stiff, twisting branches.",
@@ -4071,6 +4086,7 @@
   "matron": null,
   "matte": null,
   "matting": null,
+  "maul": null,
   "mayfly": null,
   "mayhem": null,
   "mayo": null,
@@ -4394,6 +4410,7 @@
     "definition": "Having several levels or floors.",
     "partOfSpeech": "adjective"
   },
+  "mutant": null,
   "mute": {
     "definition": "A stopped consonant; a stop.",
     "partOfSpeech": "noun"
@@ -4402,6 +4419,7 @@
     "definition": "A mongrel dog (or sometimes cat); an animal of mixed breed or uncertain origin.",
     "partOfSpeech": "noun"
   },
+  "mutual": null,
   "muumuu": {
     "definition": "A long loose-fitting dress made of lightweight fabric printed with bright, stylized Hawaiian themes (such as flowers and palm branches).",
     "partOfSpeech": "noun"
@@ -4680,6 +4698,7 @@
     "definition": "To cause to become numb (physically or emotionally).",
     "partOfSpeech": "verb"
   },
+  "numbat": null,
   "nunchuck": null,
   "nunchuk": null,
   "nunhood": null,
@@ -5490,6 +5509,7 @@
     "definition": "Tannic acid or any of its derivatives.",
     "partOfSpeech": "noun"
   },
+  "tantalum": null,
   "tantara": null,
   "tantra": null,
   "tantric": {
@@ -5986,6 +6006,7 @@
   "udon": null,
   "ulna": null,
   "ulnae": null,
+  "umlaut": null,
   "unban": null,
   "unbolt": null,
   "unbutton": {
@@ -6062,6 +6083,7 @@
   "uniting": null,
   "unladen": null,
   "unleaded": null,
+  "unman": null,
   "unmet": {
     "definition": "Not met; unfulfilled; not achieved",
     "partOfSpeech": "adjective"

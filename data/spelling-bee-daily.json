@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T08:21:39.068Z",
+  "lastUpdated": "2026-10-17T07:56:35.104Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -65141,6 +65141,58 @@
         "upbringing",
         "upping",
         "urging"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-17",
+      "id": 21846,
+      "centerLetter": "m",
+      "outerLetters": [
+        "a",
+        "b",
+        "l",
+        "n",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "ambulant"
+      ],
+      "answers": [
+        "album",
+        "alum",
+        "alumna",
+        "ambulant",
+        "autumn",
+        "autumnal",
+        "balm",
+        "bantam",
+        "blam",
+        "lama",
+        "lamb",
+        "llama",
+        "mall",
+        "malt",
+        "mama",
+        "mamba",
+        "mamma",
+        "mammal",
+        "manna",
+        "manta",
+        "manual",
+        "maul",
+        "mull",
+        "mutant",
+        "mutt",
+        "mutual",
+        "muumuu",
+        "numb",
+        "numbat",
+        "tantalum",
+        "tumult",
+        "umlaut",
+        "unman"
       ],
       "editor": "Sam Ezersky"
     }

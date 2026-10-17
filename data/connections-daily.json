@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T08:21:37.809Z",
+  "lastUpdated": "2026-10-17T07:56:33.884Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57243,6 +57243,53 @@
             "COOLIDGE",
             "HIPPO",
             "SMARTIES"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "id": 1224,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DIGITAL NOTIFICATIONS",
+          "words": [
+            "ALERT",
+            "CHIME",
+            "DING",
+            "PING"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PHOTO",
+          "words": [
+            "PRINT",
+            "SHOT",
+            "SNAP",
+            "STILL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF CRABS",
+          "words": [
+            "FIDDLER",
+            "HERMIT",
+            "KING",
+            "SNOW"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "LA ___",
+          "words": [
+            "BOHÈME",
+            "BREA",
+            "PAZ",
+            "SCALA"
           ]
         }
       ]
