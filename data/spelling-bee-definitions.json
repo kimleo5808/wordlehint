@@ -1864,10 +1864,13 @@
   "dell": null,
   "delude": null,
   "deluded": null,
+  "denied": null,
   "denim": {
     "definition": "A textile often made of cotton with a distinct diagonal pattern.",
     "partOfSpeech": "noun"
   },
+  "dentin": null,
+  "dentition": null,
   "denude": null,
   "denuded": null,
   "deny": {
@@ -1889,6 +1892,7 @@
   },
   "detect": null,
   "detected": null,
+  "detention": null,
   "deuce": {
     "definition": "A card with two pips, one of four in a standard deck of playing cards.",
     "partOfSpeech": "noun"
@@ -1908,6 +1912,9 @@
   },
   "diddling": null,
   "diddly": null,
+  "died": null,
+  "diet": null,
+  "dieted": null,
   "digging": {
     "definition": "To move hard-packed earth out of the way, especially downward to make a hole with a shovel. Or to drill, or the like, through rocks, roads, or the like. More generally, to make any similar hole by moving material out of the way.",
     "partOfSpeech": "verb"
@@ -1935,6 +1942,9 @@
     "partOfSpeech": "verb"
   },
   "dinar": null,
+  "dine": null,
+  "dined": null,
+  "dinette": null,
   "ding": {
     "definition": "Very minor damage, a small dent or chip.",
     "partOfSpeech": "noun"
@@ -1954,6 +1964,7 @@
   },
   "dino": null,
   "dint": null,
+  "diode": null,
   "dioxin": null,
   "dipped": null,
   "dipping": {
@@ -1980,6 +1991,8 @@
   },
   "dizzying": null,
   "dizzyingly": null,
+  "djinn": null,
+  "djinni": null,
   "docent": null,
   "doctor": null,
   "dodgy": {
@@ -2170,6 +2183,7 @@
     "definition": "Someone who selects according to the eclectic method.",
     "partOfSpeech": "noun"
   },
+  "eddied": null,
   "eddy": null,
   "edge": {
     "definition": "The boundary line of a surface.",
@@ -2184,6 +2198,9 @@
     "partOfSpeech": "verb"
   },
   "edified": null,
+  "edit": null,
+  "edited": null,
+  "edition": null,
   "educe": {
     "definition": "An inference.",
     "partOfSpeech": "noun"
@@ -2329,6 +2346,8 @@
     "definition": "To lift, raise up.",
     "partOfSpeech": "verb"
   },
+  "enjoin": null,
+  "enjoined": null,
   "enlace": {
     "definition": "To bind or encircle with lace, or as with lace",
     "partOfSpeech": "verb"
@@ -3338,12 +3357,16 @@
     "definition": "To bring upon oneself or expose oneself to, especially something inconvenient, harmful, or onerous; to become liable or subject to",
     "partOfSpeech": "verb"
   },
+  "indeed": null,
+  "indent": null,
+  "indented": null,
   "indexing": {
     "definition": "To arrange an index for something, especially a long text.",
     "partOfSpeech": "verb"
   },
   "indica": null,
   "indicia": null,
+  "indie": null,
   "indigene": {
     "definition": "An indigenous person; a native.",
     "partOfSpeech": "noun"
@@ -3393,7 +3416,11 @@
     "partOfSpeech": "noun"
   },
   "intelligently": null,
+  "intend": null,
+  "intended": null,
   "intent": null,
+  "intention": null,
+  "intentioned": null,
   "intently": null,
   "intimating": {
     "definition": "To suggest or disclose (something) discreetly.",
@@ -3415,6 +3442,8 @@
     "definition": "The rise and fall of the voice in speaking.",
     "partOfSpeech": "noun"
   },
+  "intone": null,
+  "intoned": null,
   "intoning": null,
   "intuit": null,
   "intuiting": null,
@@ -3446,6 +3475,8 @@
     "definition": "To call upon (a person, a god) for help, assistance or guidance.",
     "partOfSpeech": "verb"
   },
+  "iodide": null,
+  "iodine": null,
   "ionization": null,
   "iota": {
     "definition": "The ninth letter of the Greek alphabet.",
@@ -3469,6 +3500,12 @@
   "jean": null,
   "jellybean": null,
   "jenny": null,
+  "jinn": null,
+  "jinni": null,
+  "join": null,
+  "joined": null,
+  "joint": null,
+  "jointed": null,
   "kappa": null,
   "karat": {
     "definition": "A unit of fineness or concentration of gold equalling 1/24 part of gold in an alloy.",
@@ -5703,6 +5740,10 @@
   "tickle": null,
   "tidal": null,
   "tidbit": null,
+  "tide": null,
+  "tided": null,
+  "tidied": null,
+  "tied": null,
   "tiff": null,
   "tight": null,
   "tiki": null,
@@ -5735,12 +5776,14 @@
   "timpani": null,
   "tinct": null,
   "tine": null,
+  "tined": null,
   "tinge": null,
   "tingeing": null,
   "tinging": null,
   "tingly": null,
   "tinily": null,
   "tinkle": null,
+  "tinned": null,
   "tinning": {
     "definition": "To place into a tin in order to preserve.",
     "partOfSpeech": "verb"
@@ -5753,6 +5796,7 @@
     "definition": "A slight coloring.",
     "partOfSpeech": "noun"
   },
+  "tinted": null,
   "tinting": null,
   "tiny": {
     "definition": "A small child; an infant.",
@@ -5839,6 +5883,7 @@
     "definition": "A cartoon, especially an animated television show.",
     "partOfSpeech": "noun"
   },
+  "toonie": null,
   "toot": {
     "definition": "The noise of a horn or whistle.",
     "partOfSpeech": "noun"

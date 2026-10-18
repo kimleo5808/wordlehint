@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T07:56:33.884Z",
+  "lastUpdated": "2026-10-18T08:12:14.674Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57290,6 +57290,53 @@
             "BREA",
             "PAZ",
             "SCALA"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "id": 1225,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PLACES TO STORE CLOTHES",
+          "words": [
+            "BUREAU",
+            "CHEST",
+            "TRUNK",
+            "WARDROBE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS THAT COME IN STICKS",
+          "words": [
+            "BUTTER",
+            "DEODORANT",
+            "DYNAMITE",
+            "INCENSE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FAMOUS PERFUMES",
+          "words": [
+            "ANGEL",
+            "COCO",
+            "OBSESSION",
+            "OPIUM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH THINGS THAT CLOUD THE AIR",
+          "words": [
+            "FOGERTY",
+            "HAZEL",
+            "MISTER",
+            "VAPORETTO"
           ]
         }
       ]
