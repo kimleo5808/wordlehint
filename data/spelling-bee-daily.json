@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T08:12:16.048Z",
+  "lastUpdated": "2026-10-19T09:09:28.161Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -65271,6 +65271,56 @@
         "tint",
         "tinted",
         "toonie"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-19",
+      "id": 17557,
+      "centerLetter": "h",
+      "outerLetters": [
+        "e",
+        "g",
+        "i",
+        "l",
+        "n",
+        "w"
+      ],
+      "pangrams": [
+        "wheeling"
+      ],
+      "answers": [
+        "ghee",
+        "heel",
+        "heeling",
+        "heinie",
+        "hell",
+        "henge",
+        "hewing",
+        "hewn",
+        "high",
+        "hill",
+        "hilling",
+        "hinge",
+        "hinging",
+        "neigh",
+        "neighing",
+        "nigh",
+        "weigh",
+        "weighing",
+        "whee",
+        "wheel",
+        "wheelie",
+        "wheeling",
+        "when",
+        "whew",
+        "while",
+        "whiling",
+        "whine",
+        "whinge",
+        "whingeing",
+        "whinging",
+        "whining"
       ],
       "editor": "Sam Ezersky"
     }

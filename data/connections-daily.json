@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T08:12:14.674Z",
+  "lastUpdated": "2026-10-19T09:09:27.028Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57337,6 +57337,53 @@
             "HAZEL",
             "MISTER",
             "VAPORETTO"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": 1226,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SEETHE",
+          "words": [
+            "BOIL",
+            "FUME",
+            "RAVE",
+            "STEAM"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ALL TALK",
+          "words": [
+            "BLATHER",
+            "GAS",
+            "HOT AIR",
+            "WIND"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "\"MC\" THINGS AT MCDONALD'S",
+          "words": [
+            "FLURRY",
+            "MUFFIN",
+            "NUGGETS",
+            "RIB"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN BIRDS",
+          "words": [
+            "ALIBIS",
+            "BALLOON",
+            "ESCROW",
+            "MOHAWK"
           ]
         }
       ]

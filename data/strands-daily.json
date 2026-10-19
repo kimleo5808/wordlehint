@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T08:12:15.225Z",
+  "lastUpdated": "2026-10-19T09:09:27.566Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24015,6 +24015,32 @@
         "NSGASE",
         "GSEDPN",
         "LAARHO"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "id": 960,
+      "editor": "Tracy Bennett",
+      "clue": "It's all Greek to me",
+      "spangram": "MYTHOLOGICAL",
+      "themeWords": [
+        "DEITY",
+        "DRYAD",
+        "FATES",
+        "FURIES",
+        "MUSES",
+        "NYMPH",
+        "SATYR"
+      ],
+      "board": [
+        "ADYMPY",
+        "YSANHT",
+        "RDTYRI",
+        "OLOGIE",
+        "HEIRCD",
+        "TSFUAL",
+        "YSUMTE",
+        "MESFAS"
       ]
     }
   ]

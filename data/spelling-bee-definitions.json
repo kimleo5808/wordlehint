@@ -3040,6 +3040,7 @@
     "definition": "The rear part of the foot, where it joins the leg.",
     "partOfSpeech": "noun"
   },
+  "heeling": null,
   "height": {
     "definition": "The distance from the base of something to the top.",
     "partOfSpeech": "noun"
@@ -3082,6 +3083,8 @@
     "partOfSpeech": "noun"
   },
   "hennaed": null,
+  "hewing": null,
+  "hewn": null,
   "hiatal": null,
   "hibachi": null,
   "hick": null,
@@ -3092,10 +3095,12 @@
     "definition": "An elevated location smaller than a mountain.",
     "partOfSpeech": "noun"
   },
+  "hilling": null,
   "hilt": {
     "definition": "The handle of a sword, consisting of grip, guard, and pommel, designed to facilitate use of the blade and afford protection to the hand.",
     "partOfSpeech": "noun"
   },
+  "hinge": null,
   "hinging": null,
   "hint": {
     "definition": "A clue.",
@@ -4582,6 +4587,8 @@
     "partOfSpeech": "adjective"
   },
   "negligently": null,
+  "neigh": null,
+  "neighing": null,
   "nene": {
     "definition": "The Hawaiian goose, Branta sandvicensis, which was designated the state bird of Hawaii in 1957.",
     "partOfSpeech": "noun"
@@ -6323,6 +6330,8 @@
   },
   "weep": null,
   "weepie": null,
+  "weigh": null,
+  "weighing": null,
   "weight": {
     "definition": "(physical) Matter, material.",
     "partOfSpeech": "noun"
@@ -6331,10 +6340,21 @@
     "definition": "Heavy.",
     "partOfSpeech": "adjective"
   },
+  "whee": null,
+  "wheel": null,
+  "wheelie": null,
+  "wheeling": null,
+  "when": null,
   "whet": {
     "definition": "The act of whetting something.",
     "partOfSpeech": "noun"
   },
+  "whew": null,
+  "while": null,
+  "whiling": null,
+  "whine": null,
+  "whinge": null,
+  "whingeing": null,
   "whinging": null,
   "whining": null,
   "whipping": null,
