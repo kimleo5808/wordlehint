@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T09:09:28.161Z",
+  "lastUpdated": "2026-10-20T08:44:45.648Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -65321,6 +65321,43 @@
         "whingeing",
         "whinging",
         "whining"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-20",
+      "id": 24073,
+      "centerLetter": "h",
+      "outerLetters": [
+        "c",
+        "i",
+        "k",
+        "m",
+        "n",
+        "u"
+      ],
+      "pangrams": [
+        "munchkin"
+      ],
+      "answers": [
+        "chic",
+        "chichi",
+        "chick",
+        "chin",
+        "chuck",
+        "chum",
+        "chunk",
+        "cinch",
+        "hick",
+        "hunch",
+        "hunk",
+        "inch",
+        "kimchi",
+        "much",
+        "munch",
+        "munchkin",
+        "nunchuck",
+        "nunchuk"
       ],
       "editor": "Sam Ezersky"
     }

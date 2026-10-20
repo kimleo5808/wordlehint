@@ -1270,6 +1270,7 @@
   "chromium": null,
   "chuck": null,
   "chucked": null,
+  "chum": null,
   "chunk": {
     "definition": "A part of something that has been separated.",
     "partOfSpeech": "noun"
@@ -3214,6 +3215,7 @@
   "hull": null,
   "hulled": null,
   "humor": null,
+  "hunch": null,
   "hung": {
     "definition": "To be or remain suspended.",
     "partOfSpeech": "verb"
@@ -3548,6 +3550,7 @@
   "kidded": null,
   "kiddie": null,
   "kilt": null,
+  "kimchi": null,
   "kinetic": {
     "definition": "Relating to motion",
     "partOfSpeech": "adjective"
@@ -4435,6 +4438,7 @@
   "motorcar": null,
   "motorway": null,
   "motto": null,
+  "much": null,
   "mucho": null,
   "mule": {
     "definition": "The generally sterile male or female hybrid offspring of a male donkey and a female horse.",
@@ -4452,6 +4456,8 @@
     "definition": "Having several levels or floors.",
     "partOfSpeech": "adjective"
   },
+  "munch": null,
+  "munchkin": null,
   "mutant": null,
   "mute": {
     "definition": "A stopped consonant; a stop.",

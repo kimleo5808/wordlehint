@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T09:09:27.028Z",
+  "lastUpdated": "2026-10-20T08:44:44.383Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57384,6 +57384,53 @@
             "BALLOON",
             "ESCROW",
             "MOHAWK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "id": 1227,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "FINISH",
+          "words": [
+            "CLOSE",
+            "END",
+            "STOP",
+            "WRAP"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "LACKEY",
+          "words": [
+            "MINION",
+            "POODLE",
+            "PUPPET",
+            "STOOGE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "MUSTACHES",
+          "words": [
+            "CHEVRON",
+            "HORSESHOE",
+            "PENCIL",
+            "WALRUS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOMOPHONES OF DISNEY CHARACTERS",
+          "words": [
+            "ARIAL",
+            "BELL",
+            "DOCK",
+            "MINI"
           ]
         }
       ]
