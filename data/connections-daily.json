@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T08:44:44.383Z",
+  "lastUpdated": "2026-10-21T08:45:12.057Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57431,6 +57431,53 @@
             "BELL",
             "DOCK",
             "MINI"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "id": 1228,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CLASSIC CHILDREN'S GAMES",
+          "words": [
+            "DUCK DUCK GOOSE",
+            "HOT POTATO",
+            "LEAPFROG",
+            "MUSICAL CHAIRS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "IMPORTANT PERSON",
+          "words": [
+            "ALPHA DOG",
+            "BIG CHEESE",
+            "HEAVYWEIGHT",
+            "TOP BANANA"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FAMOUS PAINTINGS",
+          "words": [
+            "AMERICAN GOTHIC",
+            "CAMPBELL'S SOUP CAN",
+            "SUNFLOWERS",
+            "THE SCREAM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "DOUBLE MISNOMERS (NEITHER WORD IS AN ACCURATE DESCRIPTION)",
+          "words": [
+            "ENGLISH HORN",
+            "GRAPE-NUTS",
+            "MANTIS SHRIMP",
+            "SWEETBREAD"
           ]
         }
       ]

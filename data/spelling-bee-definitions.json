@@ -162,7 +162,9 @@
     "partOfSpeech": "noun"
   },
   "airdrop": null,
+  "airily": null,
   "airmail": null,
+  "airplay": null,
   "album": null,
   "alcohol": {
     "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
@@ -351,6 +353,7 @@
     "definition": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
     "partOfSpeech": "noun"
   },
+  "apply": null,
   "aqua": null,
   "aquanaut": null,
   "aquatic": null,
@@ -1671,6 +1674,7 @@
     "partOfSpeech": "verb"
   },
   "daddy": null,
+  "daily": null,
   "dale": null,
   "dally": null,
   "damaging": null,
@@ -1721,6 +1725,7 @@
     "partOfSpeech": "noun"
   },
   "dawn": null,
+  "daylily": null,
   "daze": null,
   "dazed": {
     "definition": "To stun or stupefy, for example with bright light, with a blow, with cold, or with fear",
@@ -1930,6 +1935,7 @@
     "definition": "Redolent of dill (the herb).",
     "partOfSpeech": "adjective"
   },
+  "dillydally": null,
   "dime": {
     "definition": "A coin worth one-tenth of a U.S. dollar.",
     "partOfSpeech": "noun"
@@ -3650,6 +3656,7 @@
   },
   "lantana": null,
   "lapel": null,
+  "lapidary": null,
   "lard": null,
   "largo": {
     "definition": "A very slow tempo",
@@ -3821,10 +3828,12 @@
     "definition": "A big cat, Panthera leo, native to Africa, India and formerly much of Europe.",
     "partOfSpeech": "noun"
   },
+  "lipid": null,
   "lipoma": {
     "definition": "A nonmalignant tumor comprising fat cells.",
     "partOfSpeech": "noun"
   },
+  "lippy": null,
   "lira": null,
   "litchi": null,
   "lite": {
@@ -4957,6 +4966,8 @@
   "pale": null,
   "paleo": null,
   "pall": null,
+  "pallid": null,
+  "pallidly": null,
   "palm": {
     "definition": "Any of various evergreen trees from the family Palmae or Arecaceae, which are mainly found in the tropics.",
     "partOfSpeech": "noun"
@@ -4975,12 +4986,15 @@
   "pant": null,
   "papa": null,
   "papal": null,
+  "papally": null,
   "papaw": null,
   "papilla": null,
+  "papillary": null,
   "papilloma": null,
   "paradrop": null,
   "paranoid": null,
   "pardon": null,
+  "parlay": null,
   "partial": null,
   "partita": null,
   "pate": null,
@@ -5057,6 +5071,7 @@
     "definition": "To call (someone) using a telephone.",
     "partOfSpeech": "verb"
   },
+  "piddly": null,
   "pidgin": {
     "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
     "partOfSpeech": "noun"
@@ -5146,12 +5161,14 @@
   "pith": null,
   "pitied": null,
   "pitted": null,
+  "plaid": null,
   "plaint": null,
   "plaintiff": null,
   "plait": null,
   "plant": null,
   "plantain": null,
   "plat": null,
+  "play": null,
   "plea": null,
   "pleb": null,
   "plebe": null,
@@ -5294,6 +5311,8 @@
     "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces",
     "partOfSpeech": "noun"
   },
+  "radial": null,
+  "radially": null,
   "radian": null,
   "radicchio": null,
   "radii": null,
@@ -5340,6 +5359,7 @@
     "partOfSpeech": "noun"
   },
   "rapid": null,
+  "rapidly": null,
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
@@ -5396,7 +5416,9 @@
   "ring": null,
   "ringing": null,
   "ripping": null,
+  "ripply": null,
   "rival": null,
+  "riyal": null,
   "roach": {
     "definition": "Certain members of the fish family Cyprinidae, including:",
     "partOfSpeech": "noun"
