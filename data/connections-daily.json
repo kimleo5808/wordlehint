@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T08:45:12.057Z",
+  "lastUpdated": "2026-10-22T08:47:31.629Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57478,6 +57478,53 @@
             "GRAPE-NUTS",
             "MANTIS SHRIMP",
             "SWEETBREAD"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": 1229,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PARTS TO BE GRASPED",
+          "words": [
+            "GRIP",
+            "HANDLE",
+            "HILT",
+            "KNOB"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF SCULPTURES",
+          "words": [
+            "BUST",
+            "MOBILE",
+            "RELIEF",
+            "STATUE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "AMERICAN FOOTBALL POSITIONS",
+          "words": [
+            "END",
+            "GUARD",
+            "SAFETY",
+            "TACKLE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTS OF BEDDING",
+          "words": [
+            "BLANK",
+            "COMFORT",
+            "PILL",
+            "SHE"
           ]
         }
       ]

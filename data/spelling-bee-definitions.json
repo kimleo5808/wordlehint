@@ -434,6 +434,7 @@
     "definition": "To fasten, to join to (literally and figuratively).",
     "partOfSpeech": "verb"
   },
+  "attachable": null,
   "attache": {
     "definition": "A diplomatic officer, usually one who plays a specific role.",
     "partOfSpeech": "noun"
@@ -542,6 +543,7 @@
     "partOfSpeech": "verb"
   },
   "baggy": null,
+  "baht": null,
   "bail": null,
   "bailiff": {
     "definition": "(law enforcement) An officer of the court, particularly:",
@@ -633,11 +635,15 @@
     "definition": "(chiefly in the plural) A building for soldiers, especially within a garrison; originally referred to temporary huts, now usually to a permanent structure or set of buildings.",
     "partOfSpeech": "noun"
   },
+  "batch": null,
+  "bath": null,
+  "bathe": null,
   "baton": null,
   "baud": {
     "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
     "partOfSpeech": "noun"
   },
+  "beach": null,
   "bead": {
     "definition": "Prayer, later especially with a rosary.",
     "partOfSpeech": "noun"
@@ -664,6 +670,7 @@
   "beclouded": null,
   "bedded": null,
   "bedhead": null,
+  "beech": null,
   "been": {
     "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
     "partOfSpeech": "noun"
@@ -686,6 +693,7 @@
     "definition": "To remove the head of; to cut someone's head off.",
     "partOfSpeech": "verb"
   },
+  "belch": null,
   "belie": null,
   "bell": null,
   "belle": null,
@@ -735,9 +743,12 @@
   "bitumen": null,
   "blab": null,
   "blabby": null,
+  "blah": null,
   "blam": null,
   "blat": null,
   "blatant": null,
+  "bleach": null,
+  "blech": null,
   "bleep": null,
   "blin": null,
   "bling": null,
@@ -1128,6 +1139,7 @@
     "definition": "The act of seizing or capturing.",
     "partOfSpeech": "noun"
   },
+  "catchable": null,
   "catchall": {
     "definition": "Any place or repository where things are placed indiscriminately or without careful thought.",
     "partOfSpeech": "noun"
@@ -3000,6 +3012,7 @@
     "definition": "An object of hatred.",
     "partOfSpeech": "noun"
   },
+  "hateable": null,
   "hath": {
     "definition": "To possess, own.",
     "partOfSpeech": "verb"
@@ -3026,6 +3039,7 @@
     "definition": "A spell or ability that restores hit points or removes a status ailment.",
     "partOfSpeech": "noun"
   },
+  "healable": null,
   "health": {
     "definition": "The state of being free from physical or psychological disease, illness, or malfunction; wellness.",
     "partOfSpeech": "noun"
@@ -3035,6 +3049,7 @@
     "definition": "Thermal energy.",
     "partOfSpeech": "noun"
   },
+  "heatable": null,
   "heath": {
     "definition": "A tract of level uncultivated land with sandy soil and scrubby vegetation; heathland.",
     "partOfSpeech": "noun"
@@ -5634,6 +5649,7 @@
     "definition": "To show (someone) the way; to guide, conduct; to point, indicate.",
     "partOfSpeech": "verb"
   },
+  "teachable": null,
   "team": {
     "definition": "A set of draught animals, such as two horses in front of a carriage.",
     "partOfSpeech": "noun"

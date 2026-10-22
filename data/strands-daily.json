@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T08:45:12.580Z",
+  "lastUpdated": "2026-10-22T08:47:32.046Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24090,6 +24090,30 @@
         "TACYKO",
         "IROESO",
         "ONSARB"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "id": 963,
+      "editor": "Tracy Bennett",
+      "clue": "Any relation?",
+      "spangram": "FAMILYTIES",
+      "themeWords": [
+        "ANCESTORS",
+        "BLOOD",
+        "BRETHREN",
+        "KINFOLK",
+        "OFFSPRING"
+      ],
+      "board": [
+        "FINFOG",
+        "DAKLKN",
+        "OOMHTI",
+        "LINRER",
+        "SBLERP",
+        "SROYBS",
+        "ETTOFF",
+        "CNAIES"
       ]
     }
   ]
