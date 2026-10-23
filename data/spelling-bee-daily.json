@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T08:47:32.734Z",
+  "lastUpdated": "2026-10-23T08:43:25.181Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -65520,6 +65520,54 @@
         "thatch",
         "thee",
         "theta"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-23",
+      "id": 24727,
+      "centerLetter": "l",
+      "outerLetters": [
+        "c",
+        "g",
+        "i",
+        "o",
+        "t",
+        "x"
+      ],
+      "pangrams": [
+        "toxicologic"
+      ],
+      "answers": [
+        "clog",
+        "clot",
+        "coil",
+        "colic",
+        "colt",
+        "cool",
+        "gigolo",
+        "gill",
+        "gilt",
+        "googol",
+        "igloo",
+        "illicit",
+        "illogic",
+        "licit",
+        "lilt",
+        "loci",
+        "loco",
+        "logic",
+        "logo",
+        "loll",
+        "loot",
+        "lotto",
+        "olio",
+        "till",
+        "tilt",
+        "toil",
+        "toll",
+        "tool",
+        "toxicologic"
       ],
       "editor": "Sam Ezersky"
     }

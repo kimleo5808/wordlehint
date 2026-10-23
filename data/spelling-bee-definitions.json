@@ -1364,6 +1364,7 @@
     "definition": "A lump of something, especially of earth or clay.",
     "partOfSpeech": "noun"
   },
+  "clog": null,
   "clonal": {
     "definition": "Relating to, or created by asexual reproduction (cloning)",
     "partOfSpeech": "adjective"
@@ -2770,10 +2771,12 @@
   },
   "giggling": null,
   "giggly": null,
+  "gigolo": null,
   "gild": null,
   "gilding": null,
   "gill": null,
   "gilling": null,
+  "gilt": null,
   "gimme": {
     "definition": "That which is easily obtained, or certain to occur.",
     "partOfSpeech": "noun"
@@ -3269,6 +3272,7 @@
     "definition": "Of dubious authenticity, legitimacy or legality.",
     "partOfSpeech": "adjective"
   },
+  "igloo": null,
   "ignite": null,
   "igniting": null,
   "ignition": {
@@ -3288,6 +3292,7 @@
     "definition": "A banned or unlawful item.",
     "partOfSpeech": "noun"
   },
+  "illogic": null,
   "illy": null,
   "imaging": {
     "definition": "To represent by an image or symbol; to portray.",
@@ -3924,6 +3929,7 @@
     "definition": "A direction in written or printed music to be returning to the proper pitch after having played an octave higher or lower.",
     "partOfSpeech": "adverb"
   },
+  "logic": null,
   "logo": {
     "definition": "A visual symbol or emblem that acts as a trademark or a means of identification of a company or organization.",
     "partOfSpeech": "noun"
@@ -5985,6 +5991,7 @@
     "partOfSpeech": "noun"
   },
   "touting": null,
+  "toxicologic": null,
   "toxin": null,
   "track": {
     "definition": "A mark left by something that has passed along.",

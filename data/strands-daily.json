@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T08:47:32.046Z",
+  "lastUpdated": "2026-10-23T08:43:24.389Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24114,6 +24114,30 @@
         "SROYBS",
         "ETTOFF",
         "CNAIES"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "id": 964,
+      "editor": "Tracy Bennett",
+      "clue": "None of your beeswax!",
+      "spangram": "BUSYBODY",
+      "themeWords": [
+        "EAVESDROPPING",
+        "INQUISITIVE",
+        "NOSY",
+        "PRYING",
+        "SNOOPY"
+      ],
+      "board": [
+        "BEAVES",
+        "NUSORD",
+        "OVYPPI",
+        "SEIBON",
+        "YTSIDG",
+        "PRIIUY",
+        "YSNONQ",
+        "INGOPY"
       ]
     }
   ]
