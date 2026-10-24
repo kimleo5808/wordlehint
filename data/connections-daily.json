@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T08:43:23.896Z",
+  "lastUpdated": "2026-10-24T08:18:02.990Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57572,6 +57572,53 @@
             "LOVE",
             "PHONE",
             "SPINAL"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "id": 1231,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "KINDS OF STRIPS",
+          "words": [
+            "BACON",
+            "COMIC",
+            "FILM",
+            "MÖBIUS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS ON STICKS",
+          "words": [
+            "HOBBY HORSE",
+            "PINWHEEL",
+            "POPSICLE",
+            "SPARKLER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ONLINE AD FORMATS",
+          "words": [
+            "BANNER",
+            "INTERSTITIAL",
+            "OVERLAY",
+            "POP-UP"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ BAR",
+          "words": [
+            "CANDY",
+            "SALAD",
+            "SPACE",
+            "SPORTS"
           ]
         }
       ]

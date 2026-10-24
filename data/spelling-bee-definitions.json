@@ -204,6 +204,7 @@
     "partOfSpeech": "noun"
   },
   "aloof": null,
+  "alpaca": null,
   "alto": {
     "definition": "A musical part or section higher than tenor and lower than soprano, formerly the part that performed a countermelody above the tenor or main melody.",
     "partOfSpeech": "noun"
@@ -340,10 +341,12 @@
   },
   "aortic": null,
   "apace": null,
+  "apart": null,
   "aped": null,
   "apnea": null,
   "apogee": null,
   "appall": null,
+  "apparat": null,
   "appeal": null,
   "appealable": null,
   "appellee": null,
@@ -1107,7 +1110,9 @@
   },
   "cape": null,
   "caped": null,
+  "capital": null,
   "capped": null,
+  "capri": null,
   "carat": {
     "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
     "partOfSpeech": "noun"
@@ -1121,11 +1126,15 @@
   "cardio": null,
   "cardioid": null,
   "carom": null,
+  "carp": null,
+  "carpal": null,
+  "carpi": null,
   "carrot": null,
   "cart": {
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
   },
+  "catalpa": null,
   "cataract": {
     "definition": "A waterspout",
     "partOfSpeech": "noun"
@@ -1321,6 +1330,8 @@
     "definition": "A group of people all descended from a common ancestor, in fact or belief.",
     "partOfSpeech": "noun"
   },
+  "clap": null,
+  "claptrap": null,
   "clean": {
     "definition": "Removal of dirt.",
     "partOfSpeech": "noun"
@@ -1352,6 +1363,7 @@
   "clinical": null,
   "clinically": null,
   "clinician": null,
+  "clip": null,
   "cloaca": {
     "definition": "(sometimes figurative) A sewer.",
     "partOfSpeech": "noun"
@@ -1613,6 +1625,7 @@
     "definition": "The braincase or neurocranium; that part of the skull consisting of the bones enclosing the brain, but not including the bones of the face or jaw.",
     "partOfSpeech": "noun"
   },
+  "crap": null,
   "crib": {
     "definition": "A baby’s bed with high, often slatted, often moveable sides, suitable for a child who has outgrown a cradle or bassinet.",
     "partOfSpeech": "noun"
@@ -4969,6 +4982,7 @@
   "paced": null,
   "pack": null,
   "packed": null,
+  "pact": null,
   "padded": null,
   "paean": null,
   "paella": null,
@@ -5016,6 +5030,7 @@
   "paranoid": null,
   "pardon": null,
   "parlay": null,
+  "part": null,
   "partial": null,
   "partita": null,
   "pate": null,
@@ -5092,6 +5107,8 @@
     "definition": "To call (someone) using a telephone.",
     "partOfSpeech": "verb"
   },
+  "pica": null,
+  "piccata": null,
   "piddly": null,
   "pidgin": {
     "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
@@ -5171,6 +5188,7 @@
   },
   "pipit": null,
   "pippin": null,
+  "piratic": null,
   "pita": null,
   "pitapat": null,
   "pitch": {
@@ -5243,6 +5261,9 @@
     "partOfSpeech": "noun"
   },
   "powwow": null,
+  "practical": null,
+  "prat": null,
+  "priapic": null,
   "prig": null,
   "prim": null,
   "primal": null,
@@ -5381,12 +5402,14 @@
   },
   "rapid": null,
   "rapidly": null,
+  "rapt": null,
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
   },
   "rattail": null,
   "rattan": null,
+  "rattrap": null,
   "ratty": {
     "definition": "Similar to a rat; ratlike.",
     "partOfSpeech": "adjective"
@@ -5622,6 +5645,7 @@
     "definition": "(singular or plural) A card game played in various different variations.",
     "partOfSpeech": "noun"
   },
+  "tarp": null,
   "tarry": {
     "definition": "A sojourn.",
     "partOfSpeech": "noun"
@@ -6017,6 +6041,7 @@
   },
   "tramcar": null,
   "tramway": null,
+  "trap": null,
   "travail": null,
   "tray": {
     "definition": "A small, typically rectangular or round, flat, and rigid object upon which things are carried.",

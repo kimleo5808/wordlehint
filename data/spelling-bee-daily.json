@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T08:43:25.181Z",
+  "lastUpdated": "2026-10-24T08:18:04.245Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -65568,6 +65568,75 @@
         "toll",
         "tool",
         "toxicologic"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-24",
+      "id": 26051,
+      "centerLetter": "p",
+      "outerLetters": [
+        "a",
+        "c",
+        "i",
+        "l",
+        "r",
+        "t"
+      ],
+      "pangrams": [
+        "practical"
+      ],
+      "answers": [
+        "alpaca",
+        "apart",
+        "appall",
+        "apparat",
+        "capital",
+        "capri",
+        "carp",
+        "carpal",
+        "carpi",
+        "catalpa",
+        "clap",
+        "claptrap",
+        "clip",
+        "crap",
+        "pact",
+        "pail",
+        "pair",
+        "palapa",
+        "palatal",
+        "palatial",
+        "pall",
+        "palp",
+        "papa",
+        "papal",
+        "papilla",
+        "part",
+        "partial",
+        "partita",
+        "pica",
+        "piccata",
+        "pill",
+        "pillar",
+        "pipit",
+        "piratic",
+        "pita",
+        "pitapat",
+        "plait",
+        "plat",
+        "practical",
+        "prat",
+        "priapic",
+        "rapt",
+        "rattrap",
+        "tapa",
+        "tapir",
+        "tarp",
+        "tilapia",
+        "tipi",
+        "trap",
+        "trip"
       ],
       "editor": "Sam Ezersky"
     }
