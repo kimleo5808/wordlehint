@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T08:18:02.990Z",
+  "lastUpdated": "2026-10-25T08:35:59.749Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57619,6 +57619,53 @@
             "SALAD",
             "SPACE",
             "SPORTS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": 1232,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "STEAL",
+          "words": [
+            "BOOST",
+            "PALM",
+            "POCKET",
+            "SWIPE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PASTA SHAPES",
+          "words": [
+            "BOW TIE",
+            "ELBOW",
+            "SHELL",
+            "WAGON WHEEL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FICTIONAL TOMS",
+          "words": [
+            "RIPLEY",
+            "SAWYER",
+            "SWIFT",
+            "THUMB"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT CAN BE SNAPPED",
+          "words": [
+            "FINGERS",
+            "FOOTBALL",
+            "GLOW STICK",
+            "RUBBER BAND"
           ]
         }
       ]

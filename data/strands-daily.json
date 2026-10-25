@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T08:18:03.495Z",
+  "lastUpdated": "2026-10-25T08:36:00.271Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24164,6 +24164,29 @@
         "WUNDRK",
         "AERNSC",
         "SHKIAR"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "id": 966,
+      "editor": "Tracy Bennett",
+      "clue": "Something to build on",
+      "spangram": "FOUNDATIONS",
+      "themeWords": [
+        "FRAMEWORK",
+        "SCAFFOLDING",
+        "SKELETON",
+        "STRUCTURE"
+      ],
+      "board": [
+        "SKNING",
+        "LEODRF",
+        "ETOLAM",
+        "SFTAWE",
+        "CFIDOK",
+        "AOCUNR",
+        "NETRSU",
+        "SRUTFO"
       ]
     }
   ]

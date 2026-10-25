@@ -16,6 +16,7 @@
     "definition": "In bed, or on the bed; confined to bed.",
     "partOfSpeech": "adverb"
   },
+  "abloom": null,
   "ably": null,
   "aboard": {
     "definition": "On board; into or within a ship or boat; hence, into or within a railway car.",
@@ -563,6 +564,7 @@
   "ballot": null,
   "ballyard": null,
   "balm": null,
+  "bamboo": null,
   "banal": null,
   "banally": null,
   "banana": {
@@ -710,6 +712,7 @@
   },
   "bible": null,
   "biblical": null,
+  "bibliomania": null,
   "bicarb": null,
   "biennium": null,
   "biff": {
@@ -736,6 +739,7 @@
     "partOfSpeech": "noun"
   },
   "binning": null,
+  "binomial": null,
   "biotin": null,
   "bird": {
     "definition": "A member of the class of animals Aves in the phylum Chordata, characterized by being warm-blooded, having feathers and wings usually capable of flight, and laying eggs.",
@@ -769,6 +773,7 @@
   "bloke": null,
   "blood": null,
   "bloody": null,
+  "bloom": null,
   "bloop": null,
   "blot": null,
   "blotting": null,
@@ -830,6 +835,7 @@
   "bolo": null,
   "bolt": null,
   "bolting": null,
+  "bomb": null,
   "bonbon": {
     "definition": "A sweet, especially a small chocolate-covered candy.",
     "partOfSpeech": "noun"
@@ -876,6 +882,7 @@
   "booed": null,
   "booing": null,
   "bookie": null,
+  "boom": null,
   "boon": null,
   "boop": null,
   "boor": {
@@ -3268,6 +3275,8 @@
   "hymen": null,
   "hymn": null,
   "hype": null,
+  "iamb": null,
+  "iambi": null,
   "ibex": null,
   "iced": null,
   "icefall": null,
@@ -3828,6 +3837,8 @@
   },
   "lily": null,
   "lima": null,
+  "limb": null,
+  "limbo": null,
   "lime": {
     "definition": "Any inorganic material containing calcium, usually calcium oxide (quicklime) or calcium hydroxide (slaked lime).",
     "partOfSpeech": "noun"
@@ -4078,6 +4089,7 @@
     "partOfSpeech": "noun"
   },
   "mamba": null,
+  "mambo": null,
   "mamma": {
     "definition": "The milk-secreting organ of female humans and other mammals which includes the mammary gland and the nipple or teat; a breast; an udder. (plural: mammae)",
     "partOfSpeech": "noun"
@@ -4432,6 +4444,7 @@
     "definition": "A viral infection marked by extreme fatigue, high fever, and swollen lymph nodes.",
     "partOfSpeech": "noun"
   },
+  "monobob": null,
   "monodrama": null,
   "monolith": {
     "definition": "A large, single block of stone which is a natural feature; or a block of stone or other similar material used in architecture and sculpture, especially one carved into a monument in ancient times.",
@@ -4441,6 +4454,7 @@
     "definition": "Excessive interest or concentration on a singular object or subject.",
     "partOfSpeech": "noun"
   },
+  "monomial": null,
   "mooch": null,
   "moola": {
     "definition": "Money, cash.",
@@ -4712,6 +4726,7 @@
   "nohow": null,
   "noir": null,
   "nomad": null,
+  "nominal": null,
   "nomination": {
     "definition": "An act or instance of nominating.",
     "partOfSpeech": "noun"
@@ -4853,6 +4868,7 @@
     "definition": "A fabric or cloth treated on one side with a waterproof covering, especially one made from linseed oil etc.; used for flooring, tablecloths, kitchen shelves and sometimes furniture covering.",
     "partOfSpeech": "noun"
   },
+  "oilman": null,
   "oink": {
     "definition": "The sound made by a pig, or an imitation thereof.",
     "partOfSpeech": "noun"
