@@ -30983,40 +30983,40 @@
           "level": 0,
           "name": "CURRENCY SYMBOLS",
           "words": [
-            "",
-            "",
-            "",
-            ""
+            "$",
+            "€",
+            "£",
+            "¥"
           ]
         },
         {
           "level": 1,
           "name": "AND/TOGETHER WITH",
           "words": [
-            "",
-            "",
-            "",
-            ""
+            "&",
+            "+",
+            "N",
+            "X"
           ]
         },
         {
           "level": 2,
           "name": "EMOTICON MOUTHS",
           "words": [
-            "",
-            "",
-            "",
-            ""
+            "(",
+            ")",
+            "O",
+            "P"
           ]
         },
         {
           "level": 3,
           "name": "\"RIGHT\"",
           "words": [
-            "",
-            "",
-            "",
-            ""
+            "R",
+            "→",
+            "⊾",
+            "✔"
           ]
         }
       ]
