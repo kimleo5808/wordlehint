@@ -96,5 +96,13 @@ jobs:
       - name: Check for unreleased puzzle leaks
         run: node scripts/check-future-leak.mjs
 
+      # Cloudflare's API sometimes answers the R2 cache upload with a 502;
+      # the deploy is idempotent, so retry before giving up.
       - name: Deploy with OpenNext
-        run: pnpm exec opennextjs-cloudflare deploy
+        run: |
+          for attempt in 1 2 3; do
+            pnpm exec opennextjs-cloudflare deploy && exit 0
+            echo "Deploy attempt $attempt failed"
+            [ "$attempt" -lt 3 ] && sleep 30
+          done
+          exit 1
