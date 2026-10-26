@@ -109,7 +109,8 @@ A static SEO cluster of five-letter word lists — separate from the daily pipel
 | Wordle game UI | `components/wordle/` |
 | Unlimited mode UI | `components/wordle-unlimited/`, `components/connections-unlimited/` (playable board: `ConnectionsGame` + `gameReducer`), `components/strands-unlimited/` (trace board: `StrandsGame` + `gameReducer` + `lib/strands-solver.ts`) |
 | Connections / Strands UI | `components/connections/`, `components/strands/` (`StrandsPathBoard` = SVG path reveal on date pages) |
-| Per-date pages (Connections/Strands) | `app/[locale]/{connections,strands}-answers/[date]/page.tsx`, start dates in `data/date-pages.json`, read layer `lib/date-pages.ts` + `lib/connections-history.ts` (word history) + `lib/strands-notes.ts`, shared UI `components/date-pages/` |
+| Per-date pages (Connections/Strands/Pips) | `app/[locale]/{connections,strands,pips}-answers/[date]/page.tsx`, start dates in `data/date-pages.json`, read layer `lib/date-pages.ts` + `lib/connections-history.ts` (word history, category notes) + `lib/strands-notes.ts` (word positions, history, comparisons), shared UI `components/date-pages/` (`DatePageHeader` is deliberately compact: H1 + meta line + data chips; the summary sentence goes after the answers) |
+| Pips text & comparisons | `lib/pips-insights.ts` — region-by-region answers, highlights, comparisons with *earlier* boards only (published pages never change), hub records/month/weekday tables, build-time archive check; `lib/pips-palette.ts` — region colours shared by the SVG board and the text answers |
 | Other page UI | `components/wordle-answers/`, `components/best-starting-words/` |
 | Wordle daily read API | `lib/wordle-daily.ts` |
 | Connections / Strands read API | `lib/connections-daily.ts`, `lib/strands-daily.ts` |

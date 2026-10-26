@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { Eye, EyeOff } from "lucide-react";
-import type { PipsHintStep } from "@/lib/pips-hints";
+import { describePlacement, type PipsHintStep } from "@/lib/pips-hints";
 import type { PipsBoard, PipsDifficulty } from "@/types/pips";
 import PipsBoardSvg from "./PipsBoardSvg";
 
@@ -19,14 +19,7 @@ const COOKIE_PREFIX = "pips_stage";
 /** Step text for the full solution: every domino as words (also the
  *  accessible version of the drawn board). */
 function placements(board: PipsBoard): string[] {
-  return board.solution.map(([a, b], i) => {
-    const [p, q] = board.dominoes[i];
-    const where =
-      a[0] === b[0]
-        ? `row ${a[0] + 1}, columns ${Math.min(a[1], b[1]) + 1}–${Math.max(a[1], b[1]) + 1}`
-        : `column ${a[1] + 1}, rows ${Math.min(a[0], b[0]) + 1}–${Math.max(a[0], b[0]) + 1}`;
-    return `${p}–${q}: ${where}`;
-  });
+  return board.solution.map((_, i) => describePlacement(board, i));
 }
 
 /**

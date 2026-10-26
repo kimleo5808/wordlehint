@@ -18,6 +18,12 @@ function monthLabel(m: string): string {
   });
 }
 
+/** "#d=2025-12-01" in the URL opens that date (used by the record links). */
+function hashDate(): string | null {
+  const m = window.location.hash.match(/^#d=(d{4}-d{2}-d{2})$/);
+  return m ? m[1] : null;
+}
+
 /**
  * Every past Pips without a page per day: pick a month and a date, and the
  * three solved boards load from /data/pips/<month>.json (built before each
@@ -35,13 +41,33 @@ export default function PipsArchiveExplorer() {
       .then((r) => r.json())
       .then((idx: MonthIndex) => {
         setIndex(idx);
-        if (idx[0]) {
+        const wanted = hashDate();
+        const hit = wanted ? idx.find((m) => m.days.some(([d]) => d === wanted)) : undefined;
+        if (hit && wanted) {
+          setMonth(hit.month);
+          setDate(wanted);
+          requestAnimationFrame(() => document.getElementById("archive-heading")?.scrollIntoView());
+        } else if (idx[0]) {
           setMonth(idx[0].month);
           setDate(idx[0].days[0]?.[0] ?? "");
         }
       })
       .catch(() => setError(true));
   }, []);
+
+  useEffect(() => {
+    if (!index) return;
+    const onHash = () => {
+      const wanted = hashDate();
+      const hit = wanted ? index.find((m) => m.days.some(([d]) => d === wanted)) : undefined;
+      if (!hit || !wanted) return;
+      setMonth(hit.month);
+      setDate(wanted);
+      document.getElementById("archive-heading")?.scrollIntoView({ behavior: "smooth" });
+    };
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, [index]);
 
   useEffect(() => {
     if (!month || cache[month]) return;

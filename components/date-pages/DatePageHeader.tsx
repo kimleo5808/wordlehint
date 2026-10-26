@@ -3,13 +3,14 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 /**
- * Compact masthead for per-date puzzle pages. Deliberately shorter than the
- * "today" heroes so the answer cards start above the fold on mobile.
+ * Compact masthead for per-date puzzle pages: breadcrumb, H1, one meta line
+ * and a row of data chips — nothing else, so the answers start on the first
+ * screen on mobile. The one-sentence summary goes right after the answers.
  */
 export default function DatePageHeader({
   kicker,
   title,
-  summary,
+  chips = [],
   date,
   publishedLabel,
   editor,
@@ -20,7 +21,8 @@ export default function DatePageHeader({
 }: {
   kicker: string;
   title: string;
-  summary: string;
+  /** Short data points; `highlight` ones stand out (rare-board notes). */
+  chips?: { label: string; highlight?: boolean }[];
   date: string;
   publishedLabel: string;
   editor?: string;
@@ -34,7 +36,7 @@ export default function DatePageHeader({
       className="border-b border-border bg-gradient-to-b from-slate-900 to-slate-800"
       style={{ boxShadow: `inset 0 3px 0 ${accent}` }}
     >
-      <div className="mx-auto max-w-3xl px-4 pb-7 pt-6 sm:px-6">
+      <div className="mx-auto max-w-3xl px-4 pb-5 pt-5 sm:px-6">
         <nav
           aria-label="Breadcrumb"
           className="flex flex-wrap items-center gap-1.5 font-mono text-[11px] uppercase tracking-wider text-slate-400"
@@ -50,7 +52,7 @@ export default function DatePageHeader({
           <span className="text-slate-300">{kicker}</span>
         </nav>
 
-        <div className="mt-4 flex items-start justify-between gap-4">
+        <div className="mt-3 flex items-start justify-between gap-4">
           <h1 className="font-heading text-2xl font-bold leading-tight text-white sm:text-3xl">
             {title}
           </h1>
@@ -60,14 +62,27 @@ export default function DatePageHeader({
           </div>
         </div>
 
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          {summary}
-        </p>
-
-        <p className="mt-3 font-mono text-xs text-slate-400">
+        <p className="mt-2 font-mono text-xs text-slate-400">
           Published <time dateTime={date}>{publishedLabel}</time>
           {editor ? ` · Edited by ${editor}` : ""} · Puzzle data from NYT Games
         </p>
+
+        {chips.length > 0 && (
+          <ul className="mt-3 flex flex-wrap gap-1.5 text-xs">
+            {chips.map((c) => (
+              <li
+                key={c.label}
+                className={
+                  c.highlight
+                    ? "rounded-full border border-amber-400/40 bg-amber-400/10 px-2.5 py-1 font-semibold text-amber-200"
+                    : "rounded-full border border-slate-600 bg-slate-800/60 px-2.5 py-1 font-mono text-slate-200"
+                }
+              >
+                {c.label}
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </section>
   );

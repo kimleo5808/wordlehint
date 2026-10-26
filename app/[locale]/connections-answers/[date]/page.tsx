@@ -2,6 +2,7 @@ import { BASE_URL } from "@/config/site";
 import StagedHints, { type HintGroup } from "@/components/connections/StagedHints";
 import StartingWords from "@/components/connections/StartingWords";
 import WordHistory from "@/components/connections/WordHistory";
+import { CONN_COLORS, type ConnColor } from "@/components/connections/colors";
 import AlsoOnStrip from "@/components/date-pages/AlsoOnStrip";
 import DateFaq, { type DateFaqItem } from "@/components/date-pages/DateFaq";
 import DatePageHeader from "@/components/date-pages/DatePageHeader";
@@ -14,6 +15,7 @@ import {
   LEVEL_META,
 } from "@/lib/connections-daily";
 import {
+  getConnectionsCategoryNotes,
   getConnectionsFacts,
   getConnectionsWordHistory,
 } from "@/lib/connections-history";
@@ -34,6 +36,7 @@ import { constructMetadata } from "@/lib/metadata";
 import type { ConnectionsPuzzle } from "@/types/connections";
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 type Params = Promise<{ locale: string; date: string }>;
@@ -103,6 +106,7 @@ export default async function ConnectionsDatePage({
   const neighbors = getConnectionsNeighbors(date);
   const purple = puzzle.groups.find((g) => g.level === 3);
   const allWords = puzzle.groups.flatMap((g) => g.words);
+  const categoryNotes = getConnectionsCategoryNotes(date);
 
   const hintGroups: HintGroup[] = puzzle.groups.map((g) => ({
     level: g.level,
@@ -121,10 +125,10 @@ export default async function ConnectionsDatePage({
     facts.seenBeforeWords > 0
       ? `NYT Connections #${puzzle.id} (${longDate})${
           puzzle.editor ? ` was edited by ${puzzle.editor}` : ""
-        }. ${facts.seenBeforeWords} of its 16 words had appeared in earlier puzzles, and ${facts.colorChangers} of those had been in a different color group before. Below: hints, every answer, and each word's history.`
+        }. ${facts.seenBeforeWords} of its 16 words had appeared in earlier puzzles, and ${facts.colorChangers} of those had been in a different color group before. Above: every answer, with a hint mode; below, notes on each category and every word's history.`
       : `NYT Connections #${puzzle.id} (${longDate})${
           puzzle.editor ? ` was edited by ${puzzle.editor}` : ""
-        }. All 16 of its words were new to Connections. Below: hints, every answer, and the full board.`;
+        }. All 16 of its words were new to Connections. Above: every answer, with a hint mode; below, notes on each category.`;
 
   const faq: DateFaqItem[] = [
     {
@@ -188,7 +192,11 @@ export default async function ConnectionsDatePage({
       <DatePageHeader
         kicker={`#${puzzle.id}`}
         title={`NYT Connections #${puzzle.id} — ${longDate}`}
-        summary={summary}
+        chips={[
+          { label: `${facts.seenBeforeWords}/16 words seen before` },
+          { label: `${facts.colorChangers} changed color` },
+          ...(facts.purpleIsFillInBlank ? [{ label: "Purple: fill in the blank", highlight: true }] : []),
+        ]}
         date={date}
         publishedLabel={longDate}
         editor={puzzle.editor || undefined}
@@ -203,12 +211,12 @@ export default async function ConnectionsDatePage({
         current="connections"
       />
 
-      <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
         {/* Answer cards first */}
         <section aria-labelledby="answers-heading">
           <h2
             id="answers-heading"
-            className="font-heading text-2xl font-bold text-foreground"
+            className="font-heading text-xl font-bold text-foreground sm:text-2xl"
           >
             Hints &amp; Answers by Color
           </h2>
@@ -230,6 +238,61 @@ export default async function ConnectionsDatePage({
               allowHide
             />
           </div>
+          <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+            {summary}
+          </p>
+        </section>
+
+        {/* Unique data: one note per category */}
+        <section className="mt-14" aria-labelledby="categories-heading">
+          <h2
+            id="categories-heading"
+            className="font-heading text-2xl font-bold text-foreground"
+          >
+            Category Notes
+          </h2>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+            What each group shared with earlier puzzles: words that had already
+            sat in the same color, the group&apos;s most-used word, and whether the
+            exact category name had run before.
+          </p>
+          <ul className="mt-4 space-y-3">
+            {categoryNotes.map((n) => (
+              <li
+                key={n.level}
+                className="rounded-xl border border-border bg-card px-4 py-3 text-sm leading-relaxed text-muted-foreground"
+                style={{ borderLeft: `4px solid ${CONN_COLORS[LEVEL_META[n.level].color as ConnColor].bg}` }}
+              >
+                <span className="font-semibold text-foreground">
+                  {COLOR_NAMES[n.level]} — {n.name}.
+                </span>{" "}
+                {n.sameColour.length > 0
+                  ? `${n.sameColour.length} of its 4 words had been ${COLOR_NAMES[n.level].toLowerCase()} before (${n.sameColour.join(", ")}).`
+                  : `None of its words had been ${COLOR_NAMES[n.level].toLowerCase()} before.`}{" "}
+                {n.firstTimers > 0
+                  ? `${n.firstTimers} ${n.firstTimers === 1 ? "word was" : "words were"} new to Connections.`
+                  : ""}{" "}
+                {n.veteran
+                  ? `${n.veteran.word} is the group's most-used word (${n.veteran.total} earlier ${n.veteran.total === 1 ? "appearance" : "appearances"}).`
+                  : ""}{" "}
+                {n.sameNameBefore ? (
+                  <>
+                    The same category name ran in{" "}
+                    {n.sameNameBefore.href ? (
+                      <Link href={n.sameNameBefore.href} className="font-semibold text-primary hover:text-primary/80">
+                        #{n.sameNameBefore.id}
+                      </Link>
+                    ) : (
+                      <>#{n.sameNameBefore.id}</>
+                    )}{" "}
+                    ({formatShortDate(n.sameNameBefore.date)}).
+                  </>
+                ) : (
+                  "The category name itself was new."
+                )}
+              </li>
+            ))}
+          </ul>
         </section>
 
         {/* Unique data: word history */}

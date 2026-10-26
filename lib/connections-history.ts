@@ -126,6 +126,51 @@ export const getConnectionsFacts = cache((date: string): ConnectionsFacts => {
   };
 });
 
+export interface ConnectionsCategoryNote {
+  level: ConnectionsLevel;
+  name: string;
+  /** Words that had already been in this same colour. */
+  sameColour: string[];
+  /** Words appearing in Connections for the first time. */
+  firstTimers: number;
+  /** The group's most-used word before this puzzle. */
+  veteran: { word: string; total: number } | null;
+  /** The latest earlier puzzle with the exact same category name. */
+  sameNameBefore: { id: number; date: string; href: string | null } | null;
+}
+
+/** One note per colour group, from the word history and earlier categories. */
+export const getConnectionsCategoryNotes = cache(
+  (date: string): ConnectionsCategoryNote[] => {
+    const all = getAllConnections();
+    const puzzle = all.find((p) => p.date === date);
+    if (!puzzle) return [];
+    const rows = new Map(getConnectionsWordHistory(date).map((r) => [r.word, r]));
+    const lastName = new Map<string, { id: number; date: string }>();
+    for (const p of all) {
+      if (p.date >= date) break;
+      for (const g of p.groups) lastName.set(g.name.trim().toLowerCase(), { id: p.id, date: p.date });
+    }
+    return [...puzzle.groups]
+      .sort((a, b) => a.level - b.level)
+      .map((g) => {
+        const words = g.words.map((w) => rows.get(w)).filter((r) => r !== undefined);
+        const veteran = [...words].sort((a, b) => b.total - a.total || a.word.localeCompare(b.word))[0];
+        const same = lastName.get(g.name.trim().toLowerCase());
+        return {
+          level: g.level,
+          name: g.name,
+          sameColour: words.filter((r) => r.counts[g.level] > 0).map((r) => r.word),
+          firstTimers: words.filter((r) => r.total === 0).length,
+          veteran: veteran && veteran.total > 0 ? { word: veteran.word, total: veteran.total } : null,
+          sameNameBefore: same
+            ? { ...same, href: hasConnectionsDatePage(same.date) ? `/connections-answers/${same.date}` : null }
+            : null,
+        };
+      });
+  }
+);
+
 export function levelColorName(level: ConnectionsLevel): string {
   return LEVEL_META[level].color;
 }

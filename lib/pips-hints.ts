@@ -60,6 +60,30 @@ function readingOrder(a: PipsCell, b: PipsCell): number {
   return a[0] - b[0] || a[1] - b[1];
 }
 
+/** Pip count on every covered square, keyed "row,col". */
+export function cellValues(board: PipsBoard): Map<string, number> {
+  const values = new Map<string, number>();
+  board.solution.forEach(([a, b], i) => {
+    values.set(key(a), board.dominoes[i][0]);
+    values.set(key(b), board.dominoes[i][1]);
+  });
+  return values;
+}
+
+/** Domino i's numbers in board order (top to bottom, or left to right). */
+function orderedPips(board: PipsBoard, i: number): [number, number] {
+  const [a, b] = board.solution[i];
+  const [p, q] = board.dominoes[i];
+  return readingOrder(a, b) <= 0 ? [p, q] : [q, p];
+}
+
+/** Domino i in words, numbers read top to bottom or left to right:
+ *  "0–2: column 1, rows 1–2" puts the 0 in row 1. */
+export function describePlacement(board: PipsBoard, i: number): string {
+  const [first, second] = orderedPips(board, i);
+  return `${first}–${second}: ${describeDomino(board.solution[i])}`;
+}
+
 function pips(n: number): string {
   return `${n} pip${n === 1 ? "" : "s"}`;
 }
@@ -103,8 +127,12 @@ export function getPipsHints(board: PipsBoard): PipsHintStep[] {
 
   // 2. The domino covering the starting square.
   const anchorDomino = dominoAt.get(key(anchorCell))!;
-  const [p1, p2] = board.dominoes[anchorDomino];
-  const dominoText = `The ${p1}–${p2} domino covers that square: place it on ${describeDomino(board.solution[anchorDomino])}.`;
+  const [p1, p2] = orderedPips(board, anchorDomino);
+  const anchorValue = cellValues(board).get(key(anchorCell))!;
+  const dominoText =
+    p1 === p2
+      ? `The ${p1}–${p2} domino covers that square: place it on ${describeDomino(board.solution[anchorDomino])}.`
+      : `The ${p1}–${p2} domino covers that square, with its ${anchorValue} on it: place it on ${describeDomino(board.solution[anchorDomino])}.`;
 
   // 3. Half the dominoes, most constrained first (the anchor domino leads).
   const dominoRank = (i: number) =>

@@ -1,10 +1,9 @@
+import { EMPTY_COLOUR, regionColours } from "@/lib/pips-palette";
 import type { PipsBoard, PipsCell, PipsRegion } from "@/types/pips";
 
 const CELL = 60;
 const PAD = 10;
-// Our own palette (not NYT's) — light fills that stay readable in dark mode.
-const REGION_FILLS = ["#fde68a", "#bbf7d0", "#bfdbfe", "#fbcfe8", "#ddd6fe", "#fed7aa", "#a5f3fc", "#e9d5ff"];
-const EMPTY_FILL = "#e5e7eb";
+const EMPTY_FILL = EMPTY_COLOUR.fill;
 const INK = "#1f2937";
 const HIGHLIGHT = "#f59e0b";
 
@@ -62,10 +61,7 @@ export default function PipsBoardSvg({
 
   const regionIndex = new Map<string, number>();
   board.regions.forEach((reg, i) => reg.indices.forEach((c) => regionIndex.set(k(c), i)));
-  let colour = 0;
-  const regionFill = board.regions.map((reg) =>
-    reg.type === "empty" ? EMPTY_FILL : REGION_FILLS[colour++ % REGION_FILLS.length]
-  );
+  const regionFill = regionColours(board).map((c) => c.fill);
 
   const highlightSet = new Set(highlight.map(k));
   const placedSet = new Set(placed);
