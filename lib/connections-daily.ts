@@ -12,6 +12,18 @@ const loadData = cache((): ConnectionsDataFile => {
   return require("@/data/connections-daily.json") as ConnectionsDataFile;
 });
 
+/**
+ * Puzzles released as of `today`. The updater prefetches tomorrow's puzzle,
+ * so every accessor reads through this, never `loadData()` directly.
+ */
+const releasedPuzzles = cache((today: string): ConnectionsPuzzle[] =>
+  loadData().puzzles.filter((p) => p.date <= today)
+);
+
+function released(): ConnectionsPuzzle[] {
+  return releasedPuzzles(getTodayDateString());
+}
+
 /* ------------------------------------------------------------------ */
 /*  Difficulty colour metadata                                         */
 /* ------------------------------------------------------------------ */
@@ -34,13 +46,13 @@ export const LEVEL_META: Record<ConnectionsLevel, LevelMeta> = {
 /* ------------------------------------------------------------------ */
 
 export function getAllConnections(): ConnectionsPuzzle[] {
-  return loadData().puzzles;
+  return released();
 }
 
 export function getConnectionsByDate(
   date: string
 ): ConnectionsPuzzle | undefined {
-  return loadData().puzzles.find((p) => p.date === date);
+  return released().find((p) => p.date === date);
 }
 
 export function getTodayConnections(): ConnectionsPuzzle | undefined {
@@ -49,14 +61,11 @@ export function getTodayConnections(): ConnectionsPuzzle | undefined {
 
 /** Most recent `count` puzzles up to and including today, newest first. */
 export function getRecentConnections(count: number): ConnectionsPuzzle[] {
-  const today = getTodayDateString();
-  const all = loadData().puzzles;
-  const upToToday = all.filter((p) => p.date <= today);
-  return upToToday.slice(-count).reverse();
+  return released().slice(-count).reverse();
 }
 
 export function getConnectionsCount(): number {
-  return loadData().puzzles.length;
+  return released().length;
 }
 
 /* ------------------------------------------------------------------ */
@@ -78,8 +87,8 @@ export function firstLetterHint(group: ConnectionsGroup): string {
 /** All puzzles before today (today excluded to avoid spoilers), newest first. */
 export const getArchiveConnections = cache((): ConnectionsPuzzle[] => {
   const today = getTodayDateString();
-  return loadData()
-    .puzzles.filter((p) => p.date < today)
+  return released()
+    .filter((p) => p.date < today)
     .slice()
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 });
@@ -92,7 +101,7 @@ export interface ConnectionsStats {
 }
 
 export const getConnectionsStats = cache((): ConnectionsStats => {
-  const puzzles = loadData().puzzles;
+  const puzzles = released();
   const total = puzzles.length;
   const dates = puzzles.map((p) => p.date).sort();
 

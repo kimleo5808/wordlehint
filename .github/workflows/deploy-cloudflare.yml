@@ -4,12 +4,12 @@ on:
   push:
     branches:
       - main
+  # The on-time daily deploys come from workers/deploy-trigger (Cloudflare
+  # Cron Trigger → workflow_dispatch) at 00:05 and 03:05 ET. GitHub's own
+  # schedule is often hours late, so it only stays as a fallback:
+  # 08:30 UTC = 4:30 AM EDT / 3:30 AM EST, after both NYT rollovers.
   schedule:
-    # NOTE: 03:30 UTC is 11:30 PM EDT / 10:30 PM EST — still the *previous*
-    # ET day, so this run normally finds nothing new. The 08:30 UTC run is the
-    # one that picks up the new puzzle. GitHub may delay schedules by hours.
-    - cron: "30 3 * * *"   # 3:30 AM UTC (before midnight ET)
-    - cron: "30 8 * * *"   # 8:30 AM UTC (first run after the ET rollover)
+    - cron: "30 8 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -72,7 +72,8 @@ jobs:
         continue-on-error: true
 
       - name: Commit updated data
-        if: github.event_name == 'schedule'
+        # Pushes HEAD to main, so only from runs of main itself.
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -83,5 +84,13 @@ jobs:
           # current HEAD explicitly to main.
           git push origin HEAD:main
 
-      - name: Build and deploy with OpenNext
-        run: pnpm run deploy
+      - name: Build with OpenNext
+        run: pnpm exec opennextjs-cloudflare build
+
+      # data/ holds tomorrow's prefetched puzzles; fail before deploying if
+      # any rendered page or client chunk mentions an unreleased date.
+      - name: Check for unreleased puzzle leaks
+        run: node scripts/check-future-leak.mjs
+
+      - name: Deploy with OpenNext
+        run: pnpm exec opennextjs-cloudflare deploy

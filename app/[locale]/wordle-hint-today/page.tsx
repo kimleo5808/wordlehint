@@ -51,8 +51,8 @@ export async function generateMetadata({
 
   return constructMetadata({
     page: "WordleHintToday",
-    title: `Wordle Hint Today — ${dateStr} (Puzzle #${puzzle?.id ?? "?"})`,
-    description: `Get today's Wordle hint for ${dateStr}. 5 progressive clues to help you solve Wordle #${puzzle?.id ?? "?"} without spoiling the answer. Reveal hints one at a time.`,
+    title: `Wordle Hint Today — ${dateStr}${puzzle ? ` (Puzzle #${puzzle.id})` : ""}`,
+    description: `Get today's Wordle hint for ${dateStr}. 5 progressive clues to help you solve ${puzzle ? `Wordle #${puzzle.id}` : "today's Wordle"} without spoiling the answer. Reveal hints one at a time.`,
     keywords: [
       "wordle hint today",
       "wordle hint",

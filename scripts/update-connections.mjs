@@ -3,28 +3,22 @@
 /**
  * update-connections.mjs
  *
- * Fetches today's NYT Connections puzzle and appends it to
- * data/connections-daily.json if missing. Mirrors update-wordle.mjs.
- * Designed to run daily via GitHub Actions cron.
+ * Refreshes today's NYT Connections puzzle (ET) and prefetches tomorrow's
+ * into data/connections-daily.json — see scripts/lib/daily-updater.mjs.
+ * Runs in the deploy workflow.
  *
  * Usage: node scripts/update-connections.mjs
  */
 
-import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { updateDaily } from "./lib/daily-updater.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../data/connections-daily.json");
 const NYT_API = "https://www.nytimes.com/svc/connections/v2";
 
 const LAUNCH = Date.UTC(2023, 5, 12); // Connections #1 = 2023-06-12
-
-function toEasternDate() {
-  return new Date()
-    .toLocaleDateString("en-CA", { timeZone: "America/New_York" })
-    .slice(0, 10);
-}
 
 function displayNumber(dateStr) {
   const d = Date.parse(`${dateStr}T00:00:00Z`);
@@ -50,43 +44,13 @@ async function fetchPuzzle(dateStr) {
   };
 }
 
-async function main() {
-  const today = toEasternDate();
-
-  if (!existsSync(DATA_PATH)) {
-    console.error(
-      "❌ data/connections-daily.json not found. Run 'pnpm run seed:connections' first."
-    );
-    process.exit(1);
-  }
-
-  const data = JSON.parse(readFileSync(DATA_PATH, "utf-8"));
-  const existingDates = new Set(data.puzzles.map((p) => p.date));
-
-  if (existingDates.has(today)) {
-    const p = data.puzzles.find((x) => x.date === today);
-    console.log(`✅ Today's Connections already exists: #${p.id} (${today})`);
-    console.log(`Total puzzles: ${data.puzzles.length}`);
-    return;
-  }
-
-  console.log(`Fetching Connections for ${today}…`);
-  const puzzle = await fetchPuzzle(today);
-  if (puzzle.groups.length !== 4) {
-    throw new Error(`Expected 4 groups, got ${puzzle.groups.length}`);
-  }
-  console.log(`✅ Fetched: #${puzzle.id} (editor ${puzzle.editor})`);
-
-  data.puzzles.push(puzzle);
-  data.puzzles.sort((a, b) => a.date.localeCompare(b.date));
-  data.lastUpdated = new Date().toISOString();
-
-  writeFileSync(DATA_PATH, JSON.stringify(data, null, 2), "utf-8");
-  console.log(`✅ Updated data/connections-daily.json`);
-  console.log(`Total puzzles: ${data.puzzles.length}`);
-}
-
-main().catch((err) => {
+updateDaily({
+  label: "Connections",
+  dataPath: DATA_PATH,
+  seedHint: "Run 'pnpm run seed:connections' first.",
+  fetchPuzzle,
+  validate: (p) => p.groups.length === 4,
+}).catch((err) => {
   console.error("❌ Update failed:", err.message);
   process.exit(1);
 });

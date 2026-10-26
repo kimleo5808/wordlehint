@@ -28,11 +28,12 @@
 | `pnpm deploy` | OpenNext build + deploy to Cloudflare |
 | `pnpm preview` | OpenNext local preview |
 | `pnpm seed:wordle` | Seed `data/wordle-daily.json` from scratch |
-| `pnpm update:wordle` | Fetch today's NYT Wordle answer and append to the daily JSON |
+| `pnpm update:wordle` | Refresh today's + prefetch tomorrow's NYT Wordle into the daily JSON (all four `update:*` scripts do today + tomorrow via `scripts/lib/daily-updater.mjs`) |
 | `pnpm seed:connections` / `pnpm update:connections` | Seed / append today's NYT Connections puzzle (`data/connections-daily.json`) |
 | `pnpm seed:strands` / `pnpm update:strands` | Seed / append today's NYT Strands puzzle (`data/strands-daily.json`) |
 | `pnpm seed:spelling-bee` / `pnpm update:spelling-bee` | Seed/backfill (`--from`/`--to`) / append today's NYT Spelling Bee (`data/spelling-bee-daily.json`) |
 | `pnpm og:images` | Generate OG share images (`scripts/generate-og-images.mjs`) |
+| `node scripts/check-future-leak.mjs` | After a build: fail if any rendered page / client chunk mentions an unreleased (prefetched) puzzle date. `--now <ISO>` simulates another moment |
 
 ---
 
@@ -59,7 +60,9 @@ Redirects (legacy short URLs, old Strands paths, dropped `/es` locale) live in `
 
 ## Daily data pipelines (Wordle / Connections / Strands / Spelling Bee)
 
-This is the core of the site — understand it before touching anything date-related. All four games share the same shape: **NYT JSON endpoint → idempotent updater script → `data/*-daily.json` → cached read layer**. All date logic uses **America/New_York** to match NYT's rollover (`getTodayDateString()` in `lib/wordle-daily.ts` is the shared source of truth — the other games import it).
+This is the core of the site — understand it before touching anything date-related. All four games share the same shape: **NYT JSON endpoint → idempotent updater script → `data/*-daily.json` → cached read layer**. All date logic uses **America/New_York** to match NYT's rollover (`getTodayDateString()` in `lib/wordle-daily.ts` is the shared source of truth — Connections/Strands import it). **Spelling Bee rolls over at 3 AM ET**, not midnight: its pages use `getSpellingBeeTodayDateString()` from `lib/spelling-bee-daily.ts`.
+
+**The data runs one day ahead.** Updaters prefetch tomorrow's puzzle (`scripts/lib/daily-updater.mjs`) so the rebuild right after the rollover already has it. Each read layer therefore filters everything through a private `released()` (`date <= today`) — every public accessor must read through it, never `loadData()` directly, or tomorrow's answer leaks. `scripts/check-future-leak.mjs` runs after every CI build and blocks the deploy if any rendered page / client chunk mentions an unreleased date. The repo is public, so tomorrow's puzzle is visible in `data/` on GitHub; updater logs never print answers.
 
 | Game | Data file | NYT endpoint (`<…>/<YYYY-MM-DD>.json`) | Updater | Read layer |
 |------|-----------|-----------------------------------------|---------|------------|
@@ -69,10 +72,10 @@ This is the core of the site — understand it before touching anything date-rel
 | Spelling Bee | `data/spelling-bee-daily.json` — puzzles with `centerLetter`, `outerLetters`, `pangrams`, `answers` (pangrams merged in — the v1 endpoint's `answers` excludes them) | `…/svc/spelling-bee/v1` (no v2) | `scripts/update-spelling-bee.mjs` (+ `seed-spelling-bee.mjs` backfill) | `lib/spelling-bee-daily.ts` — also computes scoring (`getSpellingBeeScoring()`: word points, total, Genius = 70% of max, rank ladder, bingo) |
 
 - **Read APIs:** Wordle — `getTodayPuzzle()`, `getYesterdayPuzzle()`, `getRecentPuzzles(n)`, `getPuzzleByDate()`, `getPuzzlesByMonth()`, `getAvailableMonths()`, `getPuzzleCount()`. Connections/Strands mirror this — `getToday*()`, `getRecent*(n)`, `get*ByDate()`, `getArchive*()` (today excluded for spoilers), `get*Stats()`, plus hint helpers (`firstLetterHint`, `spangramClue`, `themeWordClue`).
-- **Automation:** `.github/workflows/deploy-cloudflare.yml` runs on every push and on a **cron (`30 3 * * *` + `30 8 * * *` UTC)**. It runs `update:wordle`, then `update:connections`, `update:strands`, and `update:spelling-bee` (all `continue-on-error: true`, so a non-Wordle fetch failure won't block deploy — Wordle is the hard dependency), then `scripts/generate-definitions.mjs`. On `schedule` runs it commits the updated JSON files back to `main`, then deploys. Daily freshness depends on this workflow succeeding.
+- **Automation:** `.github/workflows/deploy-cloudflare.yml` runs on every push, on `workflow_dispatch`, and on a fallback `schedule` (`30 8 * * *` UTC). The **on-time daily deploys** are dispatched by `workers/deploy-trigger/` — a separate Cloudflare Cron Trigger worker (deployed by `deploy-trigger-worker.yml`, needs the `DEPLOY_TRIGGER_TOKEN` repo secret) that fires at 00:05 ET (Wordle/Connections/Strands) and 03:05 ET (Spelling Bee), DST-aware. GitHub's `schedule` alone was hours late. The workflow runs `update:wordle`, then `update:connections`, `update:strands`, and `update:spelling-bee` (all `continue-on-error: true`, so a non-Wordle fetch failure won't block deploy — Wordle is the hard dependency), then the definition scripts. On `schedule` / `workflow_dispatch` runs of `main` it commits the updated JSON back to `main`, then builds → runs the leak check → deploys. See `docs/daily-freshness-plan.md`.
 - **Wordle hint generation:** `lib/wordle-hints.ts` → `generateHints(puzzle)` returns 5 progressive `HintLevel`s (composition → vowels → first letter → last letter → pattern). **Note:** hardcoded for 5-letter words (uses `word[4]`), since the NYT daily is always 5 letters.
 
-> If "Today's Wordle Hint" shows the "hints are being prepared" fallback, `getTodayPuzzle()` returned undefined → the daily JSON is missing today's entry → check the GitHub Actions cron / `update:wordle` run. Same logic for Connections/Strands "today" pages.
+> If "Today's Wordle Hint" shows the "No puzzle data available" fallback, `getTodayPuzzle()` returned undefined → the daily JSON is missing today's entry → check the Cloudflare trigger worker's cron runs and the GitHub Actions `update:wordle` step. Same logic for Connections/Strands/Spelling Bee "today" pages. A page that is a day *stale* (not missing) means the post-rollover deploy didn't run.
 
 ---
 

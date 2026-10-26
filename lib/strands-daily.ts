@@ -7,12 +7,24 @@ const loadData = cache((): StrandsDataFile => {
   return require("@/data/strands-daily.json") as StrandsDataFile;
 });
 
+/**
+ * Puzzles released as of `today`. The updater prefetches tomorrow's puzzle,
+ * so every accessor reads through this, never `loadData()` directly.
+ */
+const releasedPuzzles = cache((today: string): StrandsPuzzle[] =>
+  loadData().puzzles.filter((p) => p.date <= today)
+);
+
+function released(): StrandsPuzzle[] {
+  return releasedPuzzles(getTodayDateString());
+}
+
 export function getAllStrands(): StrandsPuzzle[] {
-  return loadData().puzzles;
+  return released();
 }
 
 export function getStrandsByDate(date: string): StrandsPuzzle | undefined {
-  return loadData().puzzles.find((p) => p.date === date);
+  return released().find((p) => p.date === date);
 }
 
 export function getTodayStrands(): StrandsPuzzle | undefined {
@@ -21,15 +33,11 @@ export function getTodayStrands(): StrandsPuzzle | undefined {
 
 /** Most recent `count` puzzles up to and including today, newest first. */
 export function getRecentStrands(count: number): StrandsPuzzle[] {
-  const today = getTodayDateString();
-  return loadData()
-    .puzzles.filter((p) => p.date <= today)
-    .slice(-count)
-    .reverse();
+  return released().slice(-count).reverse();
 }
 
 export function getStrandsCount(): number {
-  return loadData().puzzles.length;
+  return released().length;
 }
 
 /** Spangram clue: first letter + letter count, e.g. "Starts with T · 12 letters". */
@@ -49,8 +57,8 @@ export function themeWordClue(word: string): string {
 /** All puzzles before today (today excluded for spoilers), newest first. */
 export const getArchiveStrands = cache((): StrandsPuzzle[] => {
   const today = getTodayDateString();
-  return loadData()
-    .puzzles.filter((p) => p.date < today)
+  return released()
+    .filter((p) => p.date < today)
     .slice()
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 });
@@ -63,7 +71,7 @@ export interface StrandsStats {
 }
 
 export const getStrandsStats = cache((): StrandsStats => {
-  const puzzles = loadData().puzzles;
+  const puzzles = released();
   const total = puzzles.length;
   const dates = puzzles.map((p) => p.date).sort();
 

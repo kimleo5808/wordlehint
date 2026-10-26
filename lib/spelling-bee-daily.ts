@@ -1,5 +1,5 @@
 import { cache } from "react";
-import { getTodayDateString } from "@/lib/wordle-daily";
+import { toEasternDateString } from "@/lib/wordle-daily";
 import { RANK_LADDER, scoreWord } from "@/lib/spelling-bee-scoring";
 import type {
   ScoredWord,
@@ -14,46 +14,69 @@ const loadData = cache((): SpellingBeeDataFile => {
   return require("@/data/spelling-bee-daily.json") as SpellingBeeDataFile;
 });
 
+/** NYT releases each new Spelling Bee at 3 AM ET, not midnight. */
+const ROLLOVER_HOURS_ET = 3;
+
+/**
+ * Today's Spelling Bee date (YYYY-MM-DD). Between midnight and 3 AM ET this
+ * is still yesterday's ET date — players are on the previous hive until then.
+ */
+export function getSpellingBeeTodayDateString(): string {
+  return toEasternDateString(
+    new Date(Date.now() - ROLLOVER_HOURS_ET * 60 * 60 * 1000)
+  );
+}
+
+/**
+ * Puzzles released as of `today`. The updater prefetches tomorrow's puzzle,
+ * so every accessor reads through this, never `loadData()` directly.
+ */
+const releasedPuzzles = cache((today: string): SpellingBeePuzzle[] =>
+  loadData().puzzles.filter((p) => p.date <= today)
+);
+
+function released(): SpellingBeePuzzle[] {
+  return releasedPuzzles(getSpellingBeeTodayDateString());
+}
+
 /* ------------------------------------------------------------------ */
 /*  Public API                                                         */
 /* ------------------------------------------------------------------ */
 
 export function getAllSpellingBee(): SpellingBeePuzzle[] {
-  return loadData().puzzles;
+  return released();
 }
 
 export function getSpellingBeeByDate(
   date: string
 ): SpellingBeePuzzle | undefined {
-  return loadData().puzzles.find((p) => p.date === date);
+  return released().find((p) => p.date === date);
 }
 
 export function getTodaySpellingBee(): SpellingBeePuzzle | undefined {
-  return getSpellingBeeByDate(getTodayDateString());
+  return getSpellingBeeByDate(getSpellingBeeTodayDateString());
 }
 
 export function getYesterdaySpellingBee(): SpellingBeePuzzle | undefined {
-  const today = getTodayDateString();
-  const before = loadData().puzzles.filter((p) => p.date < today);
+  const today = getSpellingBeeTodayDateString();
+  const before = released().filter((p) => p.date < today);
   return before[before.length - 1];
 }
 
 /** Most recent `count` puzzles up to and including today, newest first. */
 export function getRecentSpellingBee(count: number): SpellingBeePuzzle[] {
-  const today = getTodayDateString();
-  const upToToday = loadData().puzzles.filter((p) => p.date <= today);
-  return upToToday.slice(-count).reverse();
+  return released().slice(-count).reverse();
 }
 
 export function getSpellingBeeCount(): number {
-  return loadData().puzzles.length;
+  return released().length;
 }
 
 /** All puzzles before today (today excluded to avoid spoilers), newest first. */
 export const getArchiveSpellingBee = cache((): SpellingBeePuzzle[] => {
-  const today = getTodayDateString();
-  return loadData()
-    .puzzles.filter((p) => p.date < today)
+  const today = getSpellingBeeTodayDateString();
+  return released()
+    .filter((p) => p.date < today)
     .slice()
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 });
@@ -117,7 +140,7 @@ export interface SpellingBeeStats {
 }
 
 export const getSpellingBeeStats = cache((): SpellingBeeStats => {
-  const puzzles = loadData().puzzles;
+  const puzzles = released();
   const total = puzzles.length;
   const dates = puzzles.map((p) => p.date).sort();
 

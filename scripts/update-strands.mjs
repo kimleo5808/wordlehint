@@ -3,27 +3,21 @@
 /**
  * update-strands.mjs
  *
- * Fetches today's NYT Strands puzzle and appends it to
- * data/strands-daily.json if missing. Mirrors update-connections.mjs.
+ * Refreshes today's NYT Strands puzzle (ET) and prefetches tomorrow's into
+ * data/strands-daily.json — see scripts/lib/daily-updater.mjs.
  *
  * Usage: node scripts/update-strands.mjs
  */
 
-import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath, pathToFileURL } from "url";
+import { updateDaily } from "./lib/daily-updater.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../data/strands-daily.json");
 const NYT_API = "https://www.nytimes.com/svc/strands/v2";
 
 const LAUNCH = Date.UTC(2024, 2, 4); // Strands #1 = 2024-03-04
-
-function toEasternDate() {
-  return new Date()
-    .toLocaleDateString("en-CA", { timeZone: "America/New_York" })
-    .slice(0, 10);
-}
 
 function displayNumber(dateStr) {
   const d = Date.parse(`${dateStr}T00:00:00Z`);
@@ -45,40 +39,16 @@ export async function fetchStrands(dateStr) {
   };
 }
 
-async function main() {
-  const today = toEasternDate();
-
-  if (!existsSync(DATA_PATH)) {
-    console.error(
-      "❌ data/strands-daily.json not found. Run 'pnpm run seed:strands' first."
-    );
-    process.exit(1);
-  }
-
-  const data = JSON.parse(readFileSync(DATA_PATH, "utf-8"));
-  const existingDates = new Set(data.puzzles.map((p) => p.date));
-
-  if (existingDates.has(today)) {
-    const p = data.puzzles.find((x) => x.date === today);
-    console.log(`✅ Today's Strands already exists: #${p.id} (${today})`);
-    return;
-  }
-
-  console.log(`Fetching Strands for ${today}…`);
-  const puzzle = await fetchStrands(today);
-  console.log(`✅ Fetched: #${puzzle.id} — spangram ${puzzle.spangram}`);
-
-  data.puzzles.push(puzzle);
-  data.puzzles.sort((a, b) => a.date.localeCompare(b.date));
-  data.lastUpdated = new Date().toISOString();
-
-  writeFileSync(DATA_PATH, JSON.stringify(data, null, 2), "utf-8");
-  console.log(`✅ Updated data/strands-daily.json (${data.puzzles.length} total)`);
-}
-
 // Run only when executed directly — backfill-strands.mjs imports fetchStrands.
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
-  main().catch((err) => {
+  updateDaily({
+    label: "Strands",
+    dataPath: DATA_PATH,
+    seedHint: "Run 'pnpm run seed:strands' first.",
+    fetchPuzzle: fetchStrands,
+    validate: (p) =>
+      p.spangram.length > 0 && p.themeWords.length > 0 && p.board.length > 0,
+  }).catch((err) => {
     console.error("❌ Update failed:", err.message);
     process.exit(1);
   });

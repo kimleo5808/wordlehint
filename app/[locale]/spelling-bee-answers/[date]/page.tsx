@@ -6,8 +6,8 @@ import {
   getArchiveSpellingBee,
   getSpellingBeeByDate,
   getSpellingBeeScoring,
+  getSpellingBeeTodayDateString,
 } from "@/lib/spelling-bee-daily";
-import { getTodayDateString } from "@/lib/wordle-daily";
 import RankTable from "@/components/spelling-bee/RankTable";
 import SpellingBeeHive from "@/components/spelling-bee/SpellingBeeHive";
 import StatsTrio from "@/components/spelling-bee/StatsTrio";
@@ -70,7 +70,7 @@ export default async function SpellingBeeArchivePage({
   const { date } = await params;
   const puzzle = getSpellingBeeByDate(date);
   // Today's puzzle lives on the main page only — archive covers closed days.
-  if (!puzzle || date >= getTodayDateString()) notFound();
+  if (!puzzle || date >= getSpellingBeeTodayDateString()) notFound();
 
   const scoring = getSpellingBeeScoring(puzzle);
   const formattedDate = formatLong(puzzle.date);

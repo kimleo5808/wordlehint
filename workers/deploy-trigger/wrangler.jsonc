@@ -1,0 +1,17 @@
+{
+	"$schema": "../../node_modules/wrangler/config-schema.json",
+	// Cron-only helper worker — separate from the site worker (../../wrangler.jsonc).
+	"name": "wordlehint-deploy-trigger",
+	"main": "index.js",
+	"compatibility_date": "2026-02-10",
+	// No public URL: the worker only has a scheduled() handler.
+	"workers_dev": false,
+	"triggers": {
+		// UTC. Midnight ET = 04:00 (EDT) / 05:00 (EST); 3 AM ET = 07:00 / 08:00.
+		// index.js dispatches only from the run that lands at 00:xx or 03:xx ET.
+		"crons": ["5 4,5,7,8 * * *"]
+	},
+	"observability": {
+		"enabled": true
+	}
+}

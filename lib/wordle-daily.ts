@@ -15,10 +15,23 @@ const loadData = cache((): DailyDataFile => {
 /* ------------------------------------------------------------------ */
 
 /** Format a Date as YYYY-MM-DD in US Eastern timezone */
-function toEasternDateString(d: Date = new Date()): string {
+export function toEasternDateString(d: Date = new Date()): string {
   return d
     .toLocaleDateString("en-CA", { timeZone: "America/New_York" })
     .slice(0, 10);
+}
+
+/**
+ * Puzzles released as of `today`. The updater prefetches tomorrow's puzzle
+ * so the midnight-ET rebuild already has it — the raw JSON can run a day
+ * ahead, so every accessor below reads through this, never `loadData()`.
+ */
+const releasedPuzzles = cache((today: string): DailyPuzzle[] =>
+  loadData().puzzles.filter((p) => p.date <= today)
+);
+
+function released(): DailyPuzzle[] {
+  return releasedPuzzles(toEasternDateString());
 }
 
 /* ------------------------------------------------------------------ */
@@ -26,11 +39,11 @@ function toEasternDateString(d: Date = new Date()): string {
 /* ------------------------------------------------------------------ */
 
 export function getAllPuzzles(): DailyPuzzle[] {
-  return loadData().puzzles;
+  return released();
 }
 
 export function getPuzzleByDate(date: string): DailyPuzzle | undefined {
-  return loadData().puzzles.find((p) => p.date === date);
+  return released().find((p) => p.date === date);
 }
 
 export function getTodayPuzzle(): DailyPuzzle | undefined {
@@ -41,33 +54,30 @@ export function getTodayPuzzle(): DailyPuzzle | undefined {
 /** Most recent puzzle before today — correct even if today's entry is missing. */
 export function getYesterdayPuzzle(): DailyPuzzle | undefined {
   const today = toEasternDateString();
-  const before = loadData().puzzles.filter((p) => p.date < today);
+  const before = released().filter((p) => p.date < today);
   return before[before.length - 1];
 }
 
+/** Most recent `count` puzzles up to and including today, newest first. */
 export function getRecentPuzzles(count: number): DailyPuzzle[] {
-  const today = toEasternDateString();
-  const all = loadData().puzzles;
-  const todayIdx = all.findIndex((p) => p.date === today);
-  if (todayIdx === -1) return all.slice(-count).reverse();
-  return all.slice(Math.max(0, todayIdx - count + 1), todayIdx + 1).reverse();
+  return released().slice(-count).reverse();
 }
 
 export function getPuzzlesByMonth(yearMonth: string): DailyPuzzle[] {
   // yearMonth = "2025-01"
-  return loadData().puzzles.filter((p) => p.date.startsWith(yearMonth));
+  return released().filter((p) => p.date.startsWith(yearMonth));
 }
 
 export function getAvailableMonths(): string[] {
   const months = new Set<string>();
-  for (const p of loadData().puzzles) {
+  for (const p of released()) {
     months.add(p.date.slice(0, 7));
   }
   return Array.from(months).sort().reverse();
 }
 
 export function getPuzzleCount(): number {
-  return loadData().puzzles.length;
+  return released().length;
 }
 
 export function getTodayDateString(): string {

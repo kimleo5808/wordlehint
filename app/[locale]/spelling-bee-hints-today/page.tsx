@@ -9,10 +9,10 @@ import {
 import { constructMetadata } from "@/lib/metadata";
 import {
   getSpellingBeeScoring,
+  getSpellingBeeTodayDateString,
   getTodaySpellingBee,
 } from "@/lib/spelling-bee-daily";
 import { getSpellingBeeHints } from "@/lib/spelling-bee-hints";
-import { getTodayDateString } from "@/lib/wordle-daily";
 import {
   FAQ_ITEMS,
   GRID_DEFINITION,
@@ -54,7 +54,7 @@ export async function generateMetadata({
   params: Params;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const dateStr = getTodayDateString();
+  const dateStr = getSpellingBeeTodayDateString();
   return constructMetadata({
     page: "SpellingBeeHintsToday",
     title: `${PAGE_META.titleBase} — ${dateStr}`,
@@ -69,7 +69,7 @@ export async function generateMetadata({
 
 export default function SpellingBeeHintsTodayPage() {
   const puzzle = getTodaySpellingBee();
-  const today = getTodayDateString();
+  const today = getSpellingBeeTodayDateString();
   const pageUrl = `${BASE_URL}/spelling-bee-hints-today`;
 
   if (!puzzle) {

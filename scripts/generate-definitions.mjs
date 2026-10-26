@@ -5,6 +5,7 @@
 
 import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
+import { toEasternDate } from "./lib/daily-updater.mjs";
 
 const DAILY_PATH = resolve("data/wordle-daily.json");
 const OUTPUT_PATH = resolve("data/wordle-definitions.json");
@@ -18,9 +19,17 @@ try {
   // File doesn't exist yet
 }
 
-// Load all answer words
+// Load all released answer words. The updater prefetches tomorrow's puzzle;
+// defining it a day early would flag the word in the /N-letter-words lists.
 const daily = JSON.parse(readFileSync(DAILY_PATH, "utf-8"));
-const words = [...new Set(daily.puzzles.map((p) => p.answer.toUpperCase()))];
+const today = toEasternDate();
+const words = [
+  ...new Set(
+    daily.puzzles
+      .filter((p) => p.date <= today)
+      .map((p) => p.answer.toUpperCase())
+  ),
+];
 
 console.log(`Total unique words: ${words.length}`);
 console.log(`Already have definitions: ${Object.keys(existing).length}`);

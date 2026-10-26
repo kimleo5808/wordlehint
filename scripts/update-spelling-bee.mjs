@@ -3,9 +3,9 @@
 /**
  * update-spelling-bee.mjs
  *
- * Fetches today's NYT Spelling Bee puzzle and appends it to
- * data/spelling-bee-daily.json if missing. Mirrors update-connections.mjs.
- * Designed to run daily via GitHub Actions cron.
+ * Refreshes today's NYT Spelling Bee (ET) and prefetches tomorrow's into
+ * data/spelling-bee-daily.json — see scripts/lib/daily-updater.mjs. The site
+ * itself only rolls over at 3 AM ET (lib/spelling-bee-daily.ts).
  *
  * The v1 endpoint's `answers` array excludes pangrams — they are merged
  * here so `answers` always holds the complete word list.
@@ -13,19 +13,13 @@
  * Usage: node scripts/update-spelling-bee.mjs
  */
 
-import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { updateDaily } from "./lib/daily-updater.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../data/spelling-bee-daily.json");
 const NYT_API = "https://www.nytimes.com/svc/spelling-bee/v1";
-
-function toEasternDate() {
-  return new Date()
-    .toLocaleDateString("en-CA", { timeZone: "America/New_York" })
-    .slice(0, 10);
-}
 
 export async function fetchSpellingBee(dateStr) {
   const res = await fetch(`${NYT_API}/${dateStr}.json`);
@@ -56,49 +50,17 @@ export function validatePuzzle(puzzle) {
   );
 }
 
-async function main() {
-  const today = toEasternDate();
-
-  if (!existsSync(DATA_PATH)) {
-    console.error(
-      "❌ data/spelling-bee-daily.json not found. Run 'pnpm run seed:spelling-bee' first."
-    );
-    process.exit(1);
-  }
-
-  const data = JSON.parse(readFileSync(DATA_PATH, "utf-8"));
-  const existingDates = new Set(data.puzzles.map((p) => p.date));
-
-  if (existingDates.has(today)) {
-    const p = data.puzzles.find((x) => x.date === today);
-    console.log(`✅ Today's Spelling Bee already exists: ${today} (${p.answers.length} words)`);
-    console.log(`Total puzzles: ${data.puzzles.length}`);
-    return;
-  }
-
-  console.log(`Fetching Spelling Bee for ${today}…`);
-  const puzzle = await fetchSpellingBee(today);
-  if (!validatePuzzle(puzzle)) {
-    throw new Error("malformed payload");
-  }
-  console.log(
-    `✅ Fetched: ${puzzle.date} — ${puzzle.answers.length} words, ${puzzle.pangrams.length} pangram(s)`
-  );
-
-  data.puzzles.push(puzzle);
-  data.puzzles.sort((a, b) => a.date.localeCompare(b.date));
-  data.lastUpdated = new Date().toISOString();
-
-  writeFileSync(DATA_PATH, JSON.stringify(data, null, 2), "utf-8");
-  console.log(`✅ Updated data/spelling-bee-daily.json`);
-  console.log(`Total puzzles: ${data.puzzles.length}`);
-}
-
 const isDirectRun =
   process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1]);
 
 if (isDirectRun) {
-  main().catch((err) => {
+  updateDaily({
+    label: "Spelling Bee",
+    dataPath: DATA_PATH,
+    seedHint: "Run 'pnpm run seed:spelling-bee' first.",
+    fetchPuzzle: fetchSpellingBee,
+    validate: validatePuzzle,
+  }).catch((err) => {
     console.error("❌ Update failed:", err.message);
     process.exit(1);
   });
