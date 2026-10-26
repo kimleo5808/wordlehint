@@ -176,6 +176,12 @@ export default async function WordleAnswersPage() {
               >
                 Best starting words →
               </Link>
+              <Link
+                href="/wordle-repeats"
+                className="font-medium text-primary hover:text-primary/80"
+              >
+                Repeated answers →
+              </Link>
             </div>
           </div>
         </div>

@@ -188,6 +188,7 @@ function card({ title, subtitle, kind, accent }) {
 
 const PAGES = [
   { file: "wordle-answers", title: "Past Wordle Answers", subtitle: "Every answer with definitions · updated daily", kind: "wordle", accent: GREEN },
+  { file: "wordle-repeats", title: "Wordle Repeats", subtitle: "Every reused answer since 2026 · live", kind: "wordle", accent: GREEN },
   { file: "todays-wordle-answer", title: "Today's Wordle Answer", subtitle: "Spoiler-safe reveal with its definition", kind: "wordle", accent: GREEN },
   { file: "yesterdays-wordle-answer", title: "Yesterday's Wordle Answer", subtitle: "The full solution, meaning, and hints", kind: "wordle", accent: GREEN },
   { file: "best-wordle-starting-words", title: "Best Wordle Starting Words", subtitle: "Ranked by real answer data", kind: "wordle", accent: GREEN },

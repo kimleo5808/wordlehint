@@ -31,6 +31,7 @@
 | `pnpm update:wordle` | Refresh today's + prefetch tomorrow's NYT Wordle into the daily JSON (all four `update:*` scripts do today + tomorrow via `scripts/lib/daily-updater.mjs`) |
 | `pnpm seed:connections` / `pnpm update:connections` | Seed / append today's NYT Connections puzzle (`data/connections-daily.json`) |
 | `pnpm seed:strands` / `pnpm update:strands` | Seed / append today's NYT Strands puzzle (`data/strands-daily.json`) |
+| `node scripts/backfill-wordle.mjs [--from] [--to]` | Fill missing Wordle dates back to #0 (skips existing; data only — creates no pages) |
 | `pnpm seed:spelling-bee` / `pnpm update:spelling-bee` | Seed/backfill (`--from`/`--to`) / append today's NYT Spelling Bee (`data/spelling-bee-daily.json`) |
 | `pnpm og:images` | Generate OG share images (`scripts/generate-og-images.mjs`) |
 | `node scripts/generate-date-page-images.mjs [--static]` | Per-date OG images for the Connections/Strands date pages (runs automatically at the start of `pnpm build`; output gitignored). `--static` also redraws the committed color-fingerprint explainer |
@@ -43,7 +44,7 @@
 | Group | Routes |
 |-------|--------|
 | Home | `/` |
-| Wordle daily hints | `/wordle-hint-today`, `/wordle-hint` (archive), `/wordle-hint/[date]`, `/todays-wordle-answer`, `/yesterdays-wordle-answer`, `/wordle-answers` |
+| Wordle daily hints | `/wordle-hint-today`, `/wordle-hint` (archive), `/wordle-hint/[date]`, `/todays-wordle-answer`, `/yesterdays-wordle-answer`, `/wordle-answers`, `/wordle-repeats` (every reused answer since 2026-02-02 + word checker, full history) |
 | Wordle tools | `/wordle-solver`, `/wordle-unlimited`, `/best-wordle-starting-words` |
 | Letter games | `/4-letters` … `/11-letters` (one route per word length, 4–11) |
 | 5-letter word lists | `/5-letter-words` (starting-letter hub), `/5-letter-words/starting-with-[a–z]` (26 spokes), `/5-letter-words/ending-with` + `/ending-with-[a–z]` (26), `/5-letter-words/with` (contained-letter hub) + `/with-[a–z]` (26) — see the word-bank section below |
@@ -67,7 +68,7 @@ This is the core of the site — understand it before touching anything date-rel
 
 | Game | Data file | NYT endpoint (`<…>/<YYYY-MM-DD>.json`) | Updater | Read layer |
 |------|-----------|-----------------------------------------|---------|------------|
-| Wordle | `data/wordle-daily.json` — `{ lastUpdated, puzzles: [{ date, id, answer, editor }] }` | `…/svc/wordle/v2` | `scripts/update-wordle.mjs` | `lib/wordle-daily.ts` |
+| Wordle | `data/wordle-daily.json` — `{ lastUpdated, puzzles: [{ date, id, answer, editor }] }`, every puzzle since #0 (2021-06-19; `id` = `days_since_launch`). **Pages only see puzzles from `data/date-pages.json` `wordle` (2025-09-17) on** — older ones are history data read via `getFullWordleHistory()` (`/wordle-repeats`); `backfill-wordle.mjs` fills gaps | `…/svc/wordle/v2` | `scripts/update-wordle.mjs` | `lib/wordle-daily.ts` |
 | Connections | `data/connections-daily.json` — puzzles with 4 colour `groups` (`level` 0–3, `name`, `words`) | `…/svc/connections/v2` | `scripts/update-connections.mjs` | `lib/connections-daily.ts` |
 | Strands | `data/strands-daily.json` — puzzles with `clue`, `spangram`, `themeWords`, `board` | `…/svc/strands/v2` | `scripts/update-strands.mjs` | `lib/strands-daily.ts` |
 | Spelling Bee | `data/spelling-bee-daily.json` — puzzles with `centerLetter`, `outerLetters`, `pangrams`, `answers` (pangrams merged in — the v1 endpoint's `answers` excludes them) | `…/svc/spelling-bee/v1` (no v2) | `scripts/update-spelling-bee.mjs` (+ `seed-spelling-bee.mjs` backfill) | `lib/spelling-bee-daily.ts` — also computes scoring (`getSpellingBeeScoring()`: word points, total, Genius = 70% of max, rank ladder, bingo) |

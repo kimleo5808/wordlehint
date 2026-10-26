@@ -1,6 +1,6 @@
 # P1 需求文档：Wordle 历史数据回填 + `/wordle-repeats`
 
-> 状态：待确认（2026-10-26）。上级方案：`docs/expansion-plan-2026-10.md`（8.2 节、第九节）。
+> 状态：已实现，本地验证通过，待推送（2026-10-26）。上级方案：`docs/expansion-plan-2026-10.md`（8.2 节、第九节）。
 > 流程：竞对细查 → backlinko 内容方案 → frontend-design UI 方案 → 本文档 → 确认后实现。
 > 约束：不用 LLM、不用付费 API；说明文字由我撰写；不加作者署名；**回填数据不等于生成页面**：不为 1,551 个旧日期新增页面。
 
@@ -109,11 +109,11 @@
 
 ## 9. Todolist
 
-- [ ] `backfill-wordle.mjs` + 运行（1,551 期）+ 编号连续性校验
-- [ ] `data/date-pages.json` 增加 `wordle` 起始日；`/wordle-hint/[date]` 只生成起始日之后的日期，并设 `dynamicParams = false`
-- [ ] 读取层拆分（现有函数只读起始日之后；新增 `getFullWordleHistory()`）
-- [ ] A/B 构建对比：回填前后，现有页面的输出必须一致
-- [ ] `lib/wordle-repeats.ts` + 页面 + 弧线时间轴 + 查询工具 + 防剧透折叠块
-- [ ] 正文与 FAQ（我撰写），schema，sitemap，内链
-- [ ] 验证：tsc / lint / build / 防泄露检查；手机截图
+- [x] `backfill-wordle.mjs` + 运行（1,551 期）+ 编号连续性校验（#0 → #1954，无缺口；与独立抓取的研究数据逐期核对一致）
+- [x] `data/date-pages.json` 增加 `wordle` 起始日；`/wordle-hint/[date]` 只生成起始日之后的日期（实现时改为在读取层过滤，**保留** `dynamicParams` 的默认值：旧日期在读取层就查不到，按需渲染也只会 404；同时保住了午夜到部署之间新一天页面可以按需生成的行为）
+- [x] 读取层拆分（现有函数只读起始日之后；新增 `getFullWordleHistory()`）；`generate-definitions.mjs` 同样只处理起始日之后的答案，否则词表页的释义会变
+- [x] A/B 构建对比：16,491 个渲染文件内容 0 处变化（归一化构建 ID、chunk/CSS 哈希文件名、模块编号之后）
+- [x] `lib/wordle-repeats.ts` + 页面 + 弧线时间轴 + 查询工具 + 防剧透折叠块（查询结果不附释义：全量释义数据太大，改为链接到有页面的日期）
+- [x] 正文与 FAQ（我撰写），schema，sitemap，内链（导航 Wordle 菜单与页脚加 “Repeated Answers”；`/wordle-answers` 首屏加链接）
+- [x] 验证：tsc / lint / build / 防泄露检查（数据含明天时也通过）；桌面和 390px 手机截图
 - [ ] 后续单独评估的项目（见第 8 节第 3 步）
