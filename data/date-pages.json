@@ -3,5 +3,6 @@
   "_wordle": "Wordle history before this date (#0 from 2021-06-19 on) is data only: no /wordle-hint/[date] pages, and the existing pages keep their range. Only getFullWordleHistory() (e.g. /wordle-repeats) reads further back.",
   "wordle": "2025-09-17",
   "connections": "2026-10-20",
-  "strands": "2026-10-20"
+  "strands": "2026-10-20",
+  "pips": "2026-10-20"
 }

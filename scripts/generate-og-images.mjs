@@ -137,6 +137,27 @@ function motif(kind) {
     });
     return s;
   }
+  if (kind === "pips") {
+    // two dominoes (3–5 and 6–1) with dot pips
+    const PIP = {
+      1: [[1, 1]],
+      3: [[0, 0], [1, 1], [2, 2]],
+      5: [[0, 0], [0, 2], [1, 1], [2, 0], [2, 2]],
+      6: [[0, 0], [1, 0], [2, 0], [0, 2], [1, 2], [2, 2]],
+    };
+    const half = 96;
+    const domino = (x0, y0, a, b) => {
+      let s = `<rect x="${x0}" y="${y0}" width="${half * 2}" height="${half}" rx="16" fill="#f8fafc"/>
+        <line x1="${x0 + half}" y1="${y0 + 16}" x2="${x0 + half}" y2="${y0 + half - 16}" stroke="#94a3b8" stroke-width="3"/>`;
+      [[a, 0], [b, 1]].forEach(([n, h]) =>
+        PIP[n].forEach(([r, c]) => {
+          s += `<circle cx="${x0 + h * half + 28 + c * 20}" cy="${y0 + 28 + r * 20}" r="8" fill="#0f172a"/>`;
+        })
+      );
+      return s;
+    };
+    return domino(W - 64 - half * 2, H - 64 - half * 2 - 20, 3, 5) + domino(W - 64 - half * 2 - 60, H - 64 - half, 6, 1);
+  }
   if (kind === "strands") {
     // a yellow spangram chip + blue theme chips
     const y = H - 116;
@@ -189,6 +210,8 @@ function card({ title, subtitle, kind, accent }) {
 const PAGES = [
   { file: "wordle-answers", title: "Past Wordle Answers", subtitle: "Every answer with definitions · updated daily", kind: "wordle", accent: GREEN },
   { file: "wordle-repeats", title: "Wordle Repeats", subtitle: "Every reused answer since 2026 · live", kind: "wordle", accent: GREEN },
+  { file: "pips-hint-today", title: "NYT Pips Hints Today", subtitle: "Easy, Medium & Hard, step by step", kind: "pips", accent: "#f97316" },
+  { file: "pips-answers", title: "NYT Pips Answers", subtitle: "Every past solution since Aug 2025", kind: "pips", accent: "#f97316" },
   { file: "todays-wordle-answer", title: "Today's Wordle Answer", subtitle: "Spoiler-safe reveal with its definition", kind: "wordle", accent: GREEN },
   { file: "yesterdays-wordle-answer", title: "Yesterday's Wordle Answer", subtitle: "The full solution, meaning, and hints", kind: "wordle", accent: GREEN },
   { file: "best-wordle-starting-words", title: "Best Wordle Starting Words", subtitle: "Ranked by real answer data", kind: "wordle", accent: GREEN },

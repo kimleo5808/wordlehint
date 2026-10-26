@@ -149,6 +149,34 @@ function strandsCard(p) {
   return frame(BLUE, `${heading("NYT STRANDS", p.id, p.date)}${clue}${board}`);
 }
 
+const PIPS_FILLS = ["#fde68a", "#bbf7d0", "#bfdbfe", "#fbcfe8", "#ddd6fe", "#fed7aa", "#a5f3fc", "#e9d5ff"];
+
+function pipsCard(p) {
+  // The Hard board's regions without any dominoes — the empty puzzle, as
+  // players see it before solving, so no spoiler.
+  const b = p.hard;
+  const cells = b.solution.flat();
+  const rows = Math.max(...cells.map((c) => c[0])) + 1;
+  const cols = Math.max(...cells.map((c) => c[1])) + 1;
+  const s = Math.min(46, Math.floor(380 / Math.max(rows, cols)));
+  const x0 = W - 72 - cols * s;
+  const y0 = (H - rows * s) / 2 + 10;
+  let colour = 0;
+  let board = "";
+  for (const r of b.regions) {
+    const fill = r.type === "empty" ? "#475569" : PIPS_FILLS[colour++ % PIPS_FILLS.length];
+    for (const [row, col] of r.indices) {
+      board += `<rect x="${x0 + col * s + 2}" y="${y0 + row * s + 2}" width="${s - 4}" height="${s - 4}" rx="6" fill="${fill}"/>`;
+    }
+  }
+  return frame(
+    "#f97316",
+    `${heading("NYT PIPS", p.id, p.date)}
+    <text x="64" y="420" font-family="${FONT}" font-weight="500" font-size="30" fill="#94a3b8">Easy, Medium &amp; Hard solutions</text>
+    ${board}`
+  );
+}
+
 async function renderDatePages(game, file, startKey, card) {
   const start = readJson("data/date-pages.json")[startKey];
   const today = toEasternDate();
@@ -248,6 +276,7 @@ function fingerprintExplainer() {
 async function main() {
   await renderDatePages("connections", "connections-daily.json", "connections", connectionsCard);
   await renderDatePages("strands", "strands-daily.json", "strands", strandsCard);
+  await renderDatePages("pips", "pips-daily.json", "pips", pipsCard);
 
   if (process.argv.includes("--static")) {
     const dir = join(ROOT, "public", "images", "connections-answers");

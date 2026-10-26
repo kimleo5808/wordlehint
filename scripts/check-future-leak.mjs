@@ -9,7 +9,8 @@
  * scans the rendered build output — prerendered HTML / RSC payloads /
  * route bodies such as the sitemaps — plus the client JS chunks, and fails
  * if any unreleased puzzle date shows up in a file name or its contents.
- * It also checks the file names under public/ (per-date OG images).
+ * It also checks the file names under public/ (per-date OG images) and the
+ * contents of generated JSON under public/data/ (Pips archive explorer).
  *
  * "Released" mirrors the read layer: Wordle, Connections and Strands roll
  * over at midnight ET, Spelling Bee at 3 AM ET. Between those two moments
@@ -63,6 +64,7 @@ for (const file of [
   "connections-daily.json",
   "strands-daily.json",
   "spelling-bee-daily.json",
+  "pips-daily.json",
 ]) {
   for (const date of datesIn(file)) if (date > today) unreleased.add(date);
 }
@@ -134,6 +136,13 @@ if (existsSync(PUBLIC_DIR)) {
       ? [...unreleased, ...beeOnly]
       : [...unreleased];
     for (const date of dates) if (rel.includes(date)) hits.push({ rel, date });
+    // Generated data files (e.g. the Pips archive JSON) are checked by content too.
+    if (rel.startsWith("public/data/") && rel.endsWith(".json")) {
+      const buf = readFileSync(path);
+      for (const date of dates) {
+        if (buf.includes(Buffer.from(date))) hits.push({ rel, date });
+      }
+    }
   }
 }
 

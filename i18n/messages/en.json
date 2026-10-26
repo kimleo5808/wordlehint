@@ -42,6 +42,13 @@
           { "name": "Today's Answers", "href": "/spelling-bee-answers" },
           { "name": "Unlimited", "href": "/spelling-bee-unlimited" }
         ]
+      },
+      {
+        "name": "Pips",
+        "items": [
+          { "name": "Today's Hints", "href": "/pips-hint-today" },
+          { "name": "Past Answers", "href": "/pips-answers" }
+        ]
       }
     ]
   },
@@ -77,7 +84,9 @@
             { "href": "/strands-unlimited", "name": "Strands Unlimited" },
             { "href": "/spelling-bee-hints-today", "name": "Spelling Bee Hints" },
             { "href": "/spelling-bee-answers", "name": "Spelling Bee Answers" },
-            { "href": "/spelling-bee-unlimited", "name": "Spelling Bee Unlimited" }
+            { "href": "/spelling-bee-unlimited", "name": "Spelling Bee Unlimited" },
+            { "href": "/pips-hint-today", "name": "Pips Hints" },
+            { "href": "/pips-answers", "name": "Pips Answers" }
           ]
         },
         {

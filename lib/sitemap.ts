@@ -3,7 +3,7 @@ import { GUIDE_SLUGS } from '@/data/guides'
 import { getPosts } from '@/lib/getBlogs'
 import { getAllPuzzles } from '@/lib/wordle-daily'
 import { getArchiveSpellingBee } from '@/lib/spelling-bee-daily'
-import { getConnectionsDatePages, getStrandsDatePages } from '@/lib/date-pages'
+import { getConnectionsDatePages, getPipsDatePages, getStrandsDatePages } from '@/lib/date-pages'
 import type { MetadataRoute } from 'next'
 import fs from 'fs/promises'
 import matter from 'gray-matter'
@@ -33,6 +33,8 @@ const staticPageRules: Record<string, { changeFrequency: ChangeFrequency; lastMo
   '/strands-answers': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
   '/spelling-bee-answers': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
   '/spelling-bee-hints-today': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
+  '/pips-hint-today': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
+  '/pips-answers': { changeFrequency: 'daily', lastModifiedKind: 'puzzle' },
   '/how-to-play-wordle': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/wordle-hint-faq': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
   '/wordle-solver': { changeFrequency: 'monthly', lastModifiedKind: 'site' },
@@ -134,6 +136,8 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/strands-answers',
     '/spelling-bee-answers',
     '/spelling-bee-hints-today',
+    '/pips-hint-today',
+    '/pips-answers',
     '/how-to-play-wordle',
     '/wordle-hint-faq',
     '/wordle-solver',
@@ -162,6 +166,8 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     '/strands-answers': 0.8,
     '/spelling-bee-answers': 0.9,
     '/spelling-bee-hints-today': 0.95,
+    '/pips-hint-today': 0.9,
+    '/pips-answers': 0.8,
     '/how-to-play-wordle': 0.9,
     '/wordle-solver': 0.9,
     '/best-wordle-starting-words': 0.85,
@@ -234,6 +240,12 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
   // Per-date Connections / Strands pages (only from data/date-pages.json on).
   const connectionsDatePages = getConnectionsDatePages().map(p => ({
     url: `${siteUrl}/connections-answers/${p.date}`,
+    lastModified: new Date(`${p.date}T12:00:00Z`),
+    changeFrequency: 'yearly' as ChangeFrequency,
+    priority: 0.6,
+  }))
+  const pipsDatePages = getPipsDatePages().map(p => ({
+    url: `${siteUrl}/pips-answers/${p.date}`,
     lastModified: new Date(`${p.date}T12:00:00Z`),
     changeFrequency: 'yearly' as ChangeFrequency,
     priority: 0.6,
@@ -370,6 +382,7 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     ...spellingBeePages,
     ...connectionsDatePages,
     ...strandsDatePages,
+    ...pipsDatePages,
     ...letterGamePages,
     ...wordListPages,
     ...nLetterPages,

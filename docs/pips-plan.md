@@ -1,6 +1,6 @@
 # P1 需求文档：NYT Pips（数据管线 + 今日页 + 汇总页 + 日期页 + 玩法指南）
 
-> 状态：待确认（2026-10-26）。上级方案：`docs/expansion-plan-2026-10.md`（8.3 节、第九节）。
+> 状态：数据管线 + 今日页 + 汇总页 + 日期页已实现，待验证与推送；玩法指南 `/how-to-play-pips` 下一步（2026-10-26）。上级方案：`docs/expansion-plan-2026-10.md`（8.3 节、第九节）。
 > 流程：竞对细查 → backlinko 内容方案 → frontend-design UI 方案 → 本文档 → 确认后实现。
 > 约束：不用 LLM、不用付费 API；提示由解答数据确定性推导；说明文字由我撰写；不加作者署名；日期页只从上线日起每天新增，不回填历史页。
 
@@ -146,11 +146,11 @@
 
 ## 10. Todolist
 
-- [ ] `update-pips.mjs`、`backfill-pips.mjs`、`lib/pips-daily.ts`；CI 步骤；防泄露检查加入 Pips
-- [ ] `lib/pips-hints.ts`（提示阶梯 + 单元核对：对全部 1,302 盘生成提示，不能报错，第 1 步给出的点数必须与解答一致）
-- [ ] `PipsBoard` SVG + `PipsHintLadder` + 难度切换
-- [ ] 今日页、汇总页（含归档浏览器）、日期页；metadata 与 schema
-- [ ] 每期 OG 图；指南配图
+- [x] `update-pips.mjs`、`backfill-pips.mjs`（434 期，#1 → #434 无缺口）、`lib/pips-daily.ts`；CI 步骤；防泄露检查加入 Pips（并扫描归档 JSON 内容）；数据文件每期一行（约 940KB）
+- [x] `lib/pips-hints.ts`（提示阶梯 + 单元核对：全部 1,302 盘 0 错误；Hard 82% 以单格区域起步）
+- [x] `PipsBoardSvg` + `PipsHintLadder` + 难度切换（默认 Hard；第 4 步附“Solution as text”）
+- [x] 今日页、汇总页（含按月加载的归档浏览器）、日期页；metadata 与 schema
+- [x] 每期 OG 图（Hard 棋盘区域轮廓，无骨牌）+ 今日页 / 汇总页 OG 图；指南配图随指南页做
 - [ ] 指南正文约 1,800–2,000 词（我撰写），统计数字由数据代入
-- [ ] 导航、跨游戏条、sitemap、CLAUDE.md
+- [x] 导航（新增 Pips 菜单 + 页脚）、跨游戏条、sitemap、CLAUDE.md
 - [ ] 验证：tsc / lint / build / 防泄露检查；手机截图；三个难度各抽查 10 盘的提示正确性

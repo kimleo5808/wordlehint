@@ -1,6 +1,8 @@
 import { cache } from "react";
 import dateConfig from "@/data/date-pages.json";
 import { getAllConnections } from "@/lib/connections-daily";
+import { getAllPips } from "@/lib/pips-daily";
+import type { PipsPuzzle } from "@/types/pips";
 import {
   getSpellingBeeByDate,
   getSpellingBeeTodayDateString,
@@ -20,6 +22,16 @@ import type { StrandsPuzzle } from "@/types/strands";
 
 export const CONNECTIONS_DATE_PAGES_START: string = dateConfig.connections;
 export const STRANDS_DATE_PAGES_START: string = dateConfig.strands;
+export const PIPS_DATE_PAGES_START: string = dateConfig.pips;
+
+/** Pips puzzles that have a date page, oldest first. */
+export const getPipsDatePages = cache((): PipsPuzzle[] =>
+  getAllPips().filter((p) => p.date >= PIPS_DATE_PAGES_START)
+);
+
+export function hasPipsDatePage(date: string): boolean {
+  return getPipsDatePages().some((p) => p.date === date);
+}
 
 /** Connections puzzles that have a date page, oldest first. */
 export const getConnectionsDatePages = cache((): ConnectionsPuzzle[] =>
@@ -78,6 +90,16 @@ export function getStrandsNeighbors(date: string): DatePageNeighbors {
   return neighbors(getStrandsDatePages(), date, "/strands-answers");
 }
 
+export function getPipsNeighbors(date: string): DatePageNeighbors {
+  return neighbors(getPipsDatePages(), date, "/pips-answers");
+}
+
+/** The 7 newest Pips date pages, newest first (for the hub). */
+export function getLatestPipsDateLinks(): DateLink[] {
+  const pages = getPipsDatePages();
+  return neighbors(pages, pages.at(-1)?.date ?? "", "/pips-answers").recent;
+}
+
 /** The 7 newest Connections date pages, newest first (for the hub). */
 export function getLatestConnectionsDateLinks(): DateLink[] {
   const pages = getConnectionsDatePages();
@@ -125,6 +147,15 @@ export function getAlsoOnDate(date: string): AlsoOnLink[] {
       game: "strands",
       label: `Strands #${strands.id}`,
       href: `/strands-answers/${date}`,
+    });
+  }
+
+  const pips = getPipsDatePages().find((p) => p.date === date);
+  if (pips) {
+    links.push({
+      game: "pips",
+      label: `Pips #${pips.id}`,
+      href: `/pips-answers/${date}`,
     });
   }
 

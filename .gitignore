@@ -146,3 +146,6 @@ package-lock.json
 # Per-date OG images, regenerated on every build (scripts/generate-date-page-images.mjs)
 /public/og/connections/
 /public/og/strands/
+/public/og/pips/
+# Pips archive explorer data, regenerated on every build (scripts/generate-pips-archive.mjs)
+/public/data/pips/

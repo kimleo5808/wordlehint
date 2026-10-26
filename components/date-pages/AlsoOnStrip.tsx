@@ -6,6 +6,7 @@ const DOT: Record<string, string> = {
   connections: "#9333ea",
   strands: "#3b82f6",
   "spelling-bee": "#eab308",
+  pips: "#f97316",
 };
 
 /** "Also on Oct 26" — the other daily games for the same date. */
