@@ -1844,6 +1844,19 @@
       }
     ]
   },
+  "ASTER": {
+    "definition": "Any of several plants of the genus Aster; one of its flowers.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Any of several plants of the genus Aster; one of its flowers.",
+        "example": null
+      }
+    ]
+  },
   "ATOLL": {
     "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
     "partOfSpeech": "noun",
@@ -20649,6 +20662,19 @@
       }
     ]
   },
+  "NIFTY": {
+    "definition": "Good, smart; useful or beneficial.",
+    "partOfSpeech": "adjective",
+    "example": "a nifty trick for reducing your household energy bill",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Good, smart; useful or beneficial.",
+        "example": "a nifty trick for reducing your household energy bill"
+      }
+    ]
+  },
   "NIGHT": {
     "definition": "The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark.",
     "partOfSpeech": "noun",
@@ -20965,6 +20991,19 @@
       {
         "partOfSpeech": "adjective",
         "definition": "Made from the wood of the oak tree. Also in metaphorical uses, suggesting robustness.",
+        "example": null
+      }
+    ]
+  },
+  "OASIS": {
+    "definition": "A spring of fresh water, surrounded by a fertile region of vegetation, in a desert.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A spring of fresh water, surrounded by a fertile region of vegetation, in a desert.",
         "example": null
       }
     ]
@@ -21613,6 +21652,19 @@
       }
     ]
   },
+  "PAGER": {
+    "definition": "A wireless telecommunications device that receives text or voice messages.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A wireless telecommunications device that receives text or voice messages.",
+        "example": null
+      }
+    ]
+  },
   "PAINT": {
     "definition": "A substance that is applied as a liquid or paste, and dries into a solid coating that protects or adds color/colour to an object or surface to which it has been applied.",
     "partOfSpeech": "noun",
@@ -22046,6 +22098,24 @@
         "partOfSpeech": "verb",
         "definition": "To operate a pedal attached to a wheel in a continuous circular motion.",
         "example": "to pedal one's loom"
+      }
+    ]
+  },
+  "PEEVE": {
+    "definition": "An annoyance or grievance.",
+    "partOfSpeech": "noun",
+    "example": "stylistic peeve",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "An annoyance or grievance.",
+        "example": "stylistic peeve"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To annoy; vex.",
+        "example": "He was peeved to note that his hard work had been undone."
       }
     ]
   },
@@ -23591,6 +23661,24 @@
         "partOfSpeech": "interjection",
         "definition": "Indicating disapproval, scoffery, irritation, impatience or disbelief.",
         "example": "Pshaw! I can't believe it!"
+      }
+    ]
+  },
+  "PSYCH": {
+    "definition": "Psychology or psychiatry.",
+    "partOfSpeech": "noun",
+    "example": "a psych class",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "Psychology or psychiatry.",
+        "example": "a psych class"
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To put (someone) into a required psychological frame of mind (also psych up).",
+        "example": null
       }
     ]
   },
@@ -31174,6 +31262,19 @@
       }
     ]
   },
+  "STREW": {
+    "definition": "(archaic except strewn) To distribute objects or pieces of something over an area, especially in a random manner.",
+    "partOfSpeech": "verb",
+    "example": "to strew sand over a floor",
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "(archaic except strewn) To distribute objects or pieces of something over an area, especially in a random manner.",
+        "example": "to strew sand over a floor"
+      }
+    ]
+  },
   "STRIP": {
     "definition": "A long, thin piece of land; any long, thin area.",
     "partOfSpeech": "noun",
@@ -34327,6 +34428,19 @@
       }
     ]
   },
+  "UNCAP": {
+    "definition": "To remove a cap or cover from.",
+    "partOfSpeech": "verb",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "To remove a cap or cover from.",
+        "example": null
+      }
+    ]
+  },
   "UNCLE": {
     "definition": "The brother or brother-in-law of one’s parent.",
     "partOfSpeech": "noun",
@@ -36835,6 +36949,24 @@
       {
         "partOfSpeech": "verb",
         "definition": "To pay, give in payment; repay, recompense; reward; requite.",
+        "example": null
+      }
+    ]
+  },
+  "YODEL": {
+    "definition": "A song incorporating yodelling.",
+    "partOfSpeech": "noun",
+    "example": null,
+    "origin": null,
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definition": "A song incorporating yodelling.",
+        "example": null
+      },
+      {
+        "partOfSpeech": "verb",
+        "definition": "To sing (a song) in such a way that the voice fluctuates rapidly between the normal chest voice and falsetto.",
         "example": null
       }
     ]

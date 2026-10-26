@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T08:36:00.271Z",
+  "lastUpdated": "2026-10-26T08:10:53.819Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -1906,6 +1906,30 @@
         "UDNEKG",
         "LAEION",
         "PRNGWT"
+      ]
+    },
+    {
+      "date": "2024-05-18",
+      "id": 76,
+      "editor": "Tracy Bennett",
+      "clue": "Part of the equation",
+      "spangram": "MATHEMATICS",
+      "themeWords": [
+        "CALCULATE",
+        "DERIVE",
+        "DIVIDE",
+        "MULTIPLY",
+        "SUBTRACT"
+      ],
+      "board": [
+        "MALUET",
+        "ACCALA",
+        "THEMTI",
+        "BUSVCS",
+        "TRDIID",
+        "ACTEMU",
+        "IVELPL",
+        "REDYIT"
       ]
     },
     {

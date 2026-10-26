@@ -35,7 +35,6 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-import { Analytics } from "@vercel/analytics/react";
 import { Metadata, Viewport } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import {
@@ -130,7 +129,6 @@ export default async function LocaleLayout({
         ) : (
           <>
             <ConsentDefaults />
-            <Analytics />
             <GoogleAnalytics />
             <GoogleAdsense />
             <PlausibleAnalytics />

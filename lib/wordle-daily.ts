@@ -38,12 +38,11 @@ export function getTodayPuzzle(): DailyPuzzle | undefined {
   return getPuzzleByDate(today);
 }
 
+/** Most recent puzzle before today — correct even if today's entry is missing. */
 export function getYesterdayPuzzle(): DailyPuzzle | undefined {
   const today = toEasternDateString();
-  const all = loadData().puzzles;
-  const todayIdx = all.findIndex((p) => p.date === today);
-  if (todayIdx <= 0) return all.length >= 2 ? all[all.length - 2] : undefined;
-  return all[todayIdx - 1];
+  const before = loadData().puzzles.filter((p) => p.date < today);
+  return before[before.length - 1];
 }
 
 export function getRecentPuzzles(count: number): DailyPuzzle[] {

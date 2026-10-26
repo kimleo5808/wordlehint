@@ -5,8 +5,11 @@ on:
     branches:
       - main
   schedule:
-    - cron: "30 3 * * *"   # 3:30 AM UTC (after midnight ET)
-    - cron: "30 8 * * *"   # 8:30 AM UTC (backup)
+    # NOTE: 03:30 UTC is 11:30 PM EDT / 10:30 PM EST — still the *previous*
+    # ET day, so this run normally finds nothing new. The 08:30 UTC run is the
+    # one that picks up the new puzzle. GitHub may delay schedules by hours.
+    - cron: "30 3 * * *"   # 3:30 AM UTC (before midnight ET)
+    - cron: "30 8 * * *"   # 8:30 AM UTC (first run after the ET rollover)
   workflow_dispatch:
 
 concurrency:

@@ -13,10 +13,10 @@
 - **Styling:** TailwindCSS 3 + shadcn/ui (Radix primitives) + `tailwindcss-animate`
 - **i18n:** next-intl — currently **English only** (`LOCALES = ['en']`, `localePrefix: 'as-needed'`, so URLs have no `/en` prefix in practice)
 - **Content:** MDX via `next-mdx-remote-client` + `gray-matter` (blog posts, legal pages)
-- **State:** zustand (game state), `js-cookie`
+- **State:** plain React state — `useReducer` `gameReducer`s in the Connections / Strands / Spelling Bee unlimited games, `useState` elsewhere; `js-cookie` for spoiler/hint preferences
 - **Deploy:** Cloudflare Workers via OpenNext (`@opennextjs/cloudflare`), `wrangler`
 - **Package manager:** pnpm 10.12.4, Node 20.x
-- **Analytics:** Vercel Analytics + optional GA / AdSense / Baidu / Plausible (env-driven)
+- **Analytics:** optional GA / AdSense / Baidu / Plausible (env-driven). No Vercel Analytics — its `/_vercel/insights` endpoint doesn't exist on Cloudflare
 
 ## Scripts
 
@@ -24,6 +24,7 @@
 |---------|---------|
 | `pnpm dev` | Local dev server |
 | `pnpm build` | Next.js production build |
+| `pnpm lint` | ESLint 9 flat config (`eslint.config.mjs`; Next 16 removed `next lint`) |
 | `pnpm deploy` | OpenNext build + deploy to Cloudflare |
 | `pnpm preview` | OpenNext local preview |
 | `pnpm seed:wordle` | Seed `data/wordle-daily.json` from scratch |
@@ -49,8 +50,7 @@
 | Strands | `/strands-hint-today`, `/strands-answers`, `/strands-unlimited` (playable trace board; word paths derived at build by `lib/strands-solver.ts`, newest 14 days excluded) |
 | Spelling Bee | `/spelling-bee-answers` (today's words/pangram/Genius score, spoiler curtains), `/spelling-bee-answers/[date]` (archive, SSG from all past puzzles, `dynamicParams = false`), `/spelling-bee-hints-today` (progressive hints: grid → two-letter list → staged pangram → per-word clues from `lib/spelling-bee-hints.ts` + `data/spelling-bee-definitions.json`), `/spelling-bee-unlimited` (playable hive game, 120-puzzle anonymised archive pool, newest 14 days excluded; pure scoring in `lib/spelling-bee-scoring.ts` so the client bundle skips the data JSON) |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
-| Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share`, `/unsubscribe` |
-| API | `/api/newsletter` |
+| Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share` |
 | Sitemaps | `app/sitemap-index.xml`, `app/sitemap-main.xml` |
 
 Redirects (legacy short URLs, old Strands paths, dropped `/es` locale) live in `next.config.mjs` → `redirects()`.
@@ -122,7 +122,6 @@ A static SEO cluster of five-letter word lists — separate from the daily pipel
 | SEO metadata helpers | `lib/metadata.ts` |
 | Schema.org JSON-LD | `lib/jsonld.tsx` |
 | Sitemap helper | `lib/sitemap.ts` |
-| Email / newsletter | `lib/email.ts`, `lib/resend/` |
 | Translations | `i18n/messages/en.json` |
 | Routing / locales | `i18n/routing.ts` |
 | Redirects | `next.config.mjs` |

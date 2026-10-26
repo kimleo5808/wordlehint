@@ -17,12 +17,30 @@ export interface HintLevel {
 
 const VOWELS = new Set(["A", "E", "I", "O", "U"]);
 
-function getVowelInfo(word: string): { count: number; vowels: string[] } {
-  const found: string[] = [];
+/**
+ * `count` is the number of vowel *positions* (repeats included), so it adds
+ * up with the consonant count to the word length; `vowels` lists each
+ * distinct vowel in order of first appearance with how often it occurs.
+ */
+function getVowelInfo(word: string): {
+  count: number;
+  vowels: { letter: string; times: number }[];
+} {
+  const vowels: { letter: string; times: number }[] = [];
+  let count = 0;
   for (const ch of word) {
-    if (VOWELS.has(ch) && !found.includes(ch)) found.push(ch);
+    if (!VOWELS.has(ch)) continue;
+    count++;
+    const seen = vowels.find((v) => v.letter === ch);
+    if (seen) seen.times++;
+    else vowels.push({ letter: ch, times: 1 });
   }
-  return { count: found.length, vowels: found };
+  return { count, vowels };
+}
+
+function formatVowel({ letter, times }: { letter: string; times: number }): string {
+  if (times === 1) return letter;
+  return `${letter} (${times === 2 ? "twice" : `${times} times`})`;
 }
 
 function hasDoubleLetters(word: string): boolean {
@@ -67,11 +85,13 @@ export function generateHints(
     ? `Today's word is ${articleFor(partOfSpeech)} ${partOfSpeech}. It has ${makeup}.`
     : `This word has ${makeup}.`;
 
-  // Level 2: Vowel positions
+  // Level 2: Which vowels appear
   const vowelText =
     vowelInfo.count === 0
-      ? "Contains no vowels"
-      : `Vowels: ${vowelInfo.vowels.join(", ")}`;
+      ? word.includes("Y")
+        ? "No A, E, I, O or U — Y does the vowel's job"
+        : "Contains no vowels"
+      : `Vowels: ${vowelInfo.vowels.map(formatVowel).join(", ")}`;
 
   // Level 3: First letter
   // Level 4: Last letter

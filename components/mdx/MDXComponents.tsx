@@ -93,7 +93,7 @@ const MDXComponents: MDXComponentsProps = {
     />
   ),
   img: (props) => (
-    <img className="rounded-lg border-2 border-indigo-200 dark:border-indigo-800 my-6" {...props} />
+    <img alt="" className="rounded-lg border-2 border-indigo-200 dark:border-indigo-800 my-6" {...props} />
   ),
   strong: (props) => <strong className="font-bold" {...props} />,
   table: (props) => (

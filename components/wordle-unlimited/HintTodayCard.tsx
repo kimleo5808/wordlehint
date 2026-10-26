@@ -25,7 +25,7 @@ export default function HintTodayCard({ data }: { data: HintTodayData }) {
       {/* Header bar */}
       <div className="flex items-center justify-between bg-brand-signal px-4 py-2 text-brand-cream sm:px-5">
         <div className="font-plex-mono text-[11px] uppercase tracking-[0.18em] sm:text-[12px]">
-          Today's Wordle Hint
+          Today&apos;s Wordle Hint
         </div>
         <div className="font-plex-mono text-[10px] uppercase tracking-[0.14em] opacity-90 sm:text-[11px]">
           {data.puzzleNumber ? `№ ${data.puzzleNumber}  ·  ` : ""}
