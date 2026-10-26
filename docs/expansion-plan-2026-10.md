@@ -13,7 +13,7 @@
 |---|---|---|---|
 | P0 | 修复线上回归（5 期 Connections 显示 “UNDEFINED”） | 0 | — |
 | P0 | Connections / Strands **从上线日起**每天一个日期页 | 每天 +2 | 当天棋盘图（Strands 画出 spangram 路径）+ 每个词的释义（免费词典）|
-| P1 | `/connections-stats` 原创数据页 | 1 | 1,232 期全量统计：最常出现的词、四种颜色都出现过的 446 个词、31% 紫色组是填空题……（SERP 里没有任何真实统计） |
+| P1 | `/connections-stats` 原创数据页 | 1 | 1,232 期全量统计：最常出现的词、四种颜色都出现过的 446 个词、31% 紫色组是填空题……（已有对手：nytgamesolver 的一次性快照、connectionshint.app 同名页；我们的差异是实时更新 + 查词工具，见 `docs/connections-stats-plan.md`） |
 | P1 | `/wordle-repeats` 重复答案追踪 + “用过没有”查询 | 1 | 2026 年起 Wordle 开始重复出题，但 SERP 信息互相矛盾，没有权威数据页 |
 | P1 | Pips 集群：今日页、归档页、玩法指南 | 3（+ 每天 +1） | 可交互棋盘 + 由解答数据推导的分步提示（对手是截图或文字）；指南里有基于约 435 期数据的统计（SERP 里甚至有把 Pips 写成猜词游戏的错误内容）|
 | P1 | `/nyt-games-reset-times` 换题时间工具 | 1 | 按访客本地时间实时显示各游戏的换题时间和倒计时（beebom 用 13 个静态页做同一件事）|
@@ -122,7 +122,7 @@
 
 ### 8.1 `/connections-stats` — 原创数据页（推荐的首个旗舰页）
 
-- **SERP 空白**：搜“connections statistics / most common words”，结果全是泛泛的攻略和垃圾页，**没有一份真实统计**（2026-10-26 实测）。
+- **SERP 情况（2026-10-26 修正）**：最初用的搜索工具没有找到真实统计，但深入调研后发现：nytgamesolver.com 有一份深度分析（1,191 期的一次性快照），wordsrated 有基于 Reddit 玩家成绩的统计，**connectionshint.app 上有同名的 `/connections-stats`**。我们的差异化改为：每天自动更新 + 查词工具 + 重复类别 / 重复四词组合 / 词对等对手没有的维度。详见 `docs/connections-stats-plan.md`。
 - **我们已有数据**（1,232 期，本地实算）：共出现 8,874 个不同的词；989 个词出现过 5 次以上；最常见的是 BALL（30 次）、RING（26）、FLY / BAR（各 22）、CHECK（21）；**446 个词在黄、绿、蓝、紫四种颜色里都出现过**（“最会骗人的词”）；**31%（379/1,232）的紫色组是填空题（___）**。
 - **第一版范围**：最常出现的词 Top 50（可搜索）；“百变词”（跨颜色出现的词）；各颜色的类别类型分布；编辑 / 年份趋势；“这个词以前出现过吗”查询框。每天随管线自动更新。
 - **为什么适合本站**：零 LLM、零 API 成本；数字天然适合被 AI 搜索引用；r/NYTConnections 这类社区愿意自发分享，带来品牌信号。
@@ -243,12 +243,24 @@
 4. **社区推广**：统计页上线后，是否愿意在 Reddit（r/wordle、r/NYTConnections）上以分享数据的方式发帖？这是 skill 推荐的品牌信号来源，但完全可选。
 5. **GSC 数据**：用来校准优先级。
 
-## 十三、Todolist
+## 十三、Todolist 与需求文档状态（2026-10-26 更新）
 
-- [ ] 推送 UNDEFINED 回归修复
-- [ ] 你对第十二节给出决定
-- [ ] P0 Connections / Strands 日期页（单页需求文档 → 实现 → 观察 2 周）
-- [ ] P1 `/connections-stats`（需求文档：SERP 细查 + 指标清单）
+| 项目 | 单页需求文档 | 进度 |
+|---|---|---|
+| UNDEFINED 回归修复 | — | ✅ 已上线（b8809d0）|
+| P0 Connections / Strands 日期页 | `docs/daily-date-pages-plan.md` | ✅ 第一批已上线（d9bf36b），观察 1–2 周 |
+| P0 提前发布次日页 | 同上（第二批） | ⏳ 第一批观察期后开始 |
+| P1 `/connections-stats` | `docs/connections-stats-plan.md` | ⏳ 待你确认 connectionshint.app 的处理方式 |
+| P1 Wordle 数据回填 + `/wordle-repeats` | `docs/wordle-repeats-plan.md` | ⏳ 待确认 |
+| P1 Pips 三页 + 管线 | `docs/pips-plan.md` | ⏳ 待确认 |
+| P1 `/nyt-games-reset-times` | `docs/nyt-games-reset-times-plan.md` | ⏳ 待确认（上线前需在某个周日实测 Mini 的发布时间）|
+| P2 两个求解器、Sports Edition | **未写**（第九节只有概要）| 第 12 周复盘后再定 |
+
+- [x] 推送 UNDEFINED 回归修复
+- [x] 你对第十二节给出决定（说明文字由我写、无作者署名、其余按建议）
+- [x] P0 Connections / Strands 日期页第一批
+- [ ] P0 第二批：提前发布
+- [ ] P1 `/connections-stats`（需求文档 → 实现）
 - [ ] P1 Wordle 历史数据回填 → 核实重复数据 → `/wordle-repeats`
 - [ ] P1 Pips 管线 + 三页
 - [ ] P1 `/nyt-games-reset-times`
