@@ -1,6 +1,6 @@
 # P1 需求文档：`/connections-stats` 原创数据页
 
-> 状态：待确认（2026-10-26）。上级方案：`docs/expansion-plan-2026-10.md`（8.1 节、第九节）。
+> 状态：已确认（2026-10-26），用户选 A，实现中。上级方案：`docs/expansion-plan-2026-10.md`（8.1 节、第九节）。
 > 流程：竞对细查 → backlinko 内容方案 → frontend-design UI 方案 → 本文档 → 确认后实现。
 > 约束：不用 LLM、不用付费 API；全部数字由数据计算、每天自动更新；说明文字由我撰写；不加作者署名。
 
@@ -14,6 +14,8 @@
 - C. wordlehint.info 做，connectionshint.app 那一页 301 跳转过来，或者加 canonical 指向这里。
 
 如果它不是你的站，就按下面的方案做，它只是一个普通对手。
+
+**决定（2026-10-26）：A。** 用户确认 connectionshint.app 是自己的站，选择两站并存：wordlehint.info 照常做这一页，不改 connectionshint.app。
 
 ## 1. 目标与范围
 
@@ -98,9 +100,14 @@
 
 ## 8. Todolist
 
-- [ ] 你确认第 0 节 connectionshint.app 的处理方式
-- [ ] `lib/connections-stats.ts`（10 项统计）+ 单元核对（关键数字与本文第 3 节一致）
-- [ ] 查词索引 JSON 生成脚本 + 防泄露检查扩展
-- [ ] 页面、SVG 图表、查询工具、正文与 FAQ（我撰写）、schema
-- [ ] 内链、sitemap
-- [ ] 验证：tsc / lint / build / 防泄露检查；手机截图；HTML 体积（目标 < 200KB）
+- [x] 你确认第 0 节 connectionshint.app 的处理方式（A：两站并存）
+- [x] `lib/connections-stats.ts`：统计逻辑。数字由构建时实算，和第 3 节略有出入的以实算为准：不同的词 8,887（文档写的 8,874）、完全相同的四词组合重复过 62 组（文档写的约 10 组）。
+- [x] 查词索引：`scripts/generate-connections-word-index.mjs` → `public/data/connections-words.json`。已加入 gitignore 和 build 脚本；`check-future-leak.mjs` 本来就会扫描 `public/data/` 下的 JSON，不需要再扩展。和原始数据逐词核对，0 处不符。
+- [x] 页面、图表（用 HTML 条形图代替 SVG，效果一样，也能被抓取）、查词工具、正文与 FAQ、schema（Dataset、Article、FAQPage、BreadcrumbList）
+- [x] 内链：Connections 导航菜单、页脚、`/connections-answers`、日期页的词语历史区；sitemap；OG 图
+- [x] 验证：tsc、lint（0 错误）、构建、防泄露检查通过。手机首屏是四张数字卡片加查词框；查词交互实测正常（BALL → 30 次）。HTML 260KB（gzip 40KB），没有达到 200KB 的目标，但站内同类页面 `/connections-answers` 有 768KB。
+
+**和方案的差异：**
+- **不做 “Special Editions”：** 数据里没有标记哪几期是图片卡片，无法自动识别。
+- **“你自己的统计”一节：** 按 NYT 帮助中心核实过的内容写（从 2024-06-15 起统计、本地午夜后完成会断连胜、存档题不计连胜）。“2024-09-03 上线”这个日期查不到可靠来源，不写。
+- **新增“紫色组类型按年份”表：** 结论句由数据生成。填空题从 38% 降到 24%；开头、结尾和藏词类从 0% 升到 16%，加减字母从 2% 升到 9%；谐音一直在 5% 左右。

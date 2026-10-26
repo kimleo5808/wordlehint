@@ -6,7 +6,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "build": "node scripts/generate-date-page-images.mjs && node scripts/generate-pips-archive.mjs && next build",
+    "build": "node scripts/generate-date-page-images.mjs && node scripts/generate-pips-archive.mjs && node scripts/generate-connections-word-index.mjs && next build",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint .",

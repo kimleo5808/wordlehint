@@ -140,3 +140,7 @@ export const FAQ_ITEMS: FaqItem[] = [
       "Yes — alongside Connections help, we cover the daily Wordle with progressive hints, a Wordle solver, and unlimited Wordle practice from 4 to 11 letters.",
   },
 ];
+
+/** NYT's Connections help page (rules, release time, in-game Statistics). */
+export const NYT_CONNECTIONS_HELP =
+  "https://help.nytimes.com/360011158491-New-York-Times-Games/28525912587924-Connections";

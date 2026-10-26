@@ -24,6 +24,7 @@
         "items": [
           { "name": "Today's Hint", "href": "/connections-hint-today" },
           { "name": "Past Answers", "href": "/connections-answers" },
+          { "name": "Statistics", "href": "/connections-stats" },
           { "name": "Unlimited", "href": "/connections-unlimited" }
         ]
       },
@@ -79,6 +80,7 @@
           "links": [
             { "href": "/connections-hint-today", "name": "Connections Hint" },
             { "href": "/connections-answers", "name": "Connections Answers" },
+            { "href": "/connections-stats", "name": "Connections Stats" },
             { "href": "/connections-unlimited", "name": "Connections Unlimited" },
             { "href": "/strands-hint-today", "name": "Strands Hint" },
             { "href": "/strands-answers", "name": "Strands Answers" },

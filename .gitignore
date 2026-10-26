@@ -149,3 +149,4 @@ package-lock.json
 /public/og/pips/
 # Pips archive explorer data, regenerated on every build (scripts/generate-pips-archive.mjs)
 /public/data/pips/
+/public/data/connections-words.json

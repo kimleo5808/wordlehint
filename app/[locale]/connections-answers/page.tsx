@@ -158,6 +158,13 @@ export default function ConnectionsAnswersPage() {
           ))}
         </ul>
 
+        <p className="mt-3 text-sm text-muted-foreground">
+          Most-used words, words seen in every color, repeated groups and more:{" "}
+          <Link href="/connections-stats" className="font-semibold text-cta hover:underline">
+            Connections statistics →
+          </Link>
+        </p>
+
         {/* Newest per-date pages */}
         <LatestDatePages
           heading="Latest Connections Puzzles, One Page Each"

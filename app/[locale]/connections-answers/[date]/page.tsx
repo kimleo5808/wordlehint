@@ -324,6 +324,12 @@ export default async function ConnectionsDatePage({
             </figcaption>
           </figure>
           <WordHistory rows={history} />
+          <p className="mt-3 text-sm text-muted-foreground">
+            Any word&apos;s full record, plus the most-used words across every puzzle:{" "}
+            <Link href="/connections-stats" className="font-semibold text-primary hover:text-primary/80">
+              Connections statistics →
+            </Link>
+          </p>
         </section>
 
         {/* Unique data: in numbers */}
