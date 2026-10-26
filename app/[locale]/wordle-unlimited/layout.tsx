@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
-import { Fraunces, Newsreader, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
+import { fraunces } from "@/app/fonts/fraunces";
+import { Newsreader, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 
 /**
  * Editorial Newsprint font stack — only loaded on /wordle-unlimited.
@@ -10,13 +11,6 @@ import { Fraunces, Newsreader, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/go
  *  - IBM Plex Mono → stats badges, data tables, captions
  *  - IBM Plex Sans → keyboard caps, UI labels
  */
-
-const fraunces = Fraunces({
-  weight: ["500", "700"],
-  subsets: ["latin"],
-  variable: "--font-fraunces",
-  display: "swap",
-});
 
 const newsreader = Newsreader({
   weight: ["400", "500", "600"],
