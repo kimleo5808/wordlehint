@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
-import { Eye } from "lucide-react";
+import { Eye, EyeOff } from "lucide-react";
 import { CONN_COLORS, type ConnColor } from "./colors";
 
 export interface HintGroup {
@@ -20,11 +20,20 @@ const COOKIE_PREFIX = "conn_stage";
 export default function StagedHints({
   groups,
   date,
+  initialStage = 0,
+  allowHide = false,
 }: {
   groups: HintGroup[];
   date: string;
+  /** Stage rendered on the server and before any saved choice (0–3). Date
+   *  pages pass 3 so the answers are in the HTML; today's page stays at 0. */
+  initialStage?: number;
+  /** Offer a "hide answers" switch back to hint mode once all are open. */
+  allowHide?: boolean;
 }) {
-  const [stages, setStages] = useState<number[]>(() => groups.map(() => 0));
+  const [stages, setStages] = useState<number[]>(() =>
+    groups.map(() => initialStage)
+  );
   const [mounted, setMounted] = useState(false);
   const cookieKey = `${COOKIE_PREFIX}_${date}`;
 
@@ -54,7 +63,12 @@ export default function StagedHints({
     persist(groups.map(() => 3));
   }
 
+  function hideAll() {
+    persist(groups.map(() => 0));
+  }
+
   const allRevealed = stages.every((s) => s >= 3);
+  const showHide = allowHide && allRevealed;
 
   return (
     <div>
@@ -64,12 +78,20 @@ export default function StagedHints({
         </p>
         <button
           type="button"
-          onClick={revealAll}
-          disabled={!mounted || allRevealed}
+          onClick={showHide ? hideAll : revealAll}
+          disabled={!mounted || (allRevealed && !showHide)}
           className="inline-flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:bg-muted disabled:opacity-50"
         >
-          <Eye className="h-3.5 w-3.5" />
-          {allRevealed ? "All revealed" : "Reveal all answers"}
+          {showHide ? (
+            <EyeOff className="h-3.5 w-3.5" />
+          ) : (
+            <Eye className="h-3.5 w-3.5" />
+          )}
+          {showHide
+            ? "Hide answers (hint mode)"
+            : allRevealed
+              ? "All revealed"
+              : "Reveal all answers"}
         </button>
       </div>
 

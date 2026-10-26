@@ -33,6 +33,7 @@ import ColorLegend from "@/components/connections/ColorLegend";
 import { Grid3x3, ChevronRight } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { hasConnectionsDatePage } from "@/lib/date-pages";
 
 type Params = Promise<{ locale: string }>;
 
@@ -175,6 +176,14 @@ export default function ConnectionsHintTodayPage() {
             >
               Play Connections Unlimited →
             </Link>
+            {hasConnectionsDatePage(puzzle.date) && (
+              <Link
+                href={`/connections-answers/${puzzle.date}`}
+                className="inline-block text-sm font-semibold text-primary hover:text-primary/80"
+              >
+                #{puzzle.id} answer page →
+              </Link>
+            )}
           </div>
         </div>
       </section>

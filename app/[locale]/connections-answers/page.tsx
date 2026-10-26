@@ -17,6 +17,8 @@ import AnswersFAQ from "@/components/wordle-answers/AnswersFAQ";
 import RelatedTools from "@/components/wordle-answers/RelatedTools";
 import ConnectionsArchive from "@/components/connections/ConnectionsArchive";
 import ColorLegend from "@/components/connections/ColorLegend";
+import LatestDatePages from "@/components/date-pages/LatestDatePages";
+import { getLatestConnectionsDateLinks } from "@/lib/date-pages";
 import { Archive } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -155,6 +157,14 @@ export default function ConnectionsAnswersPage() {
             </li>
           ))}
         </ul>
+
+        {/* Newest per-date pages */}
+        <LatestDatePages
+          heading="Latest Connections Puzzles, One Page Each"
+          intro="Each recent puzzle has its own page with step-by-step hints, every answer, and the history of all sixteen words."
+          game="Connections"
+          pages={getLatestConnectionsDateLinks()}
+        />
 
         {/* Archive explorer */}
         <section className="mt-8" aria-labelledby="browse-heading">

@@ -25,6 +25,7 @@ import BoardGrid from "@/components/strands/BoardGrid";
 import { Spline, ChevronRight } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { hasStrandsDatePage } from "@/lib/date-pages";
 
 type Params = Promise<{ locale: string }>;
 
@@ -148,6 +149,14 @@ export default function StrandsHintTodayPage() {
             >
               Play Strands Unlimited →
             </Link>
+            {hasStrandsDatePage(puzzle.date) && (
+              <Link
+                href={`/strands-answers/${puzzle.date}`}
+                className="inline-block text-sm font-semibold text-primary hover:text-primary/80"
+              >
+                #{puzzle.id} answer page →
+              </Link>
+            )}
           </div>
         </div>
       </section>

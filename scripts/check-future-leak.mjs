@@ -9,6 +9,7 @@
  * scans the rendered build output — prerendered HTML / RSC payloads /
  * route bodies such as the sitemaps — plus the client JS chunks, and fails
  * if any unreleased puzzle date shows up in a file name or its contents.
+ * It also checks the file names under public/ (per-date OG images).
  *
  * "Released" mirrors the read layer: Wordle, Connections and Strands roll
  * over at midnight ET, Spelling Bee at 3 AM ET. Between those two moments
@@ -121,6 +122,19 @@ for (const path of walk(RENDERED_DIR)) {
 }
 if (existsSync(CLIENT_DIR)) {
   for (const path of walk(CLIENT_DIR)) if (path.endsWith(".js")) scan(path);
+}
+// Static files are served as-is: a per-date image (public/og/<game>/<date>.png)
+// for an unreleased date would be a leak by file name alone.
+const PUBLIC_DIR = join(ROOT, "public");
+if (existsSync(PUBLIC_DIR)) {
+  for (const path of walk(PUBLIC_DIR)) {
+    scanned++;
+    const rel = relative(ROOT, path).split("\\").join("/");
+    const dates = rel.includes("spelling-bee")
+      ? [...unreleased, ...beeOnly]
+      : [...unreleased];
+    for (const date of dates) if (rel.includes(date)) hits.push({ rel, date });
+  }
 }
 
 if (hits.length === 0) {

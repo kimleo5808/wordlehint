@@ -3,6 +3,7 @@ import { GUIDE_SLUGS } from '@/data/guides'
 import { getPosts } from '@/lib/getBlogs'
 import { getAllPuzzles } from '@/lib/wordle-daily'
 import { getArchiveSpellingBee } from '@/lib/spelling-bee-daily'
+import { getConnectionsDatePages, getStrandsDatePages } from '@/lib/date-pages'
 import type { MetadataRoute } from 'next'
 import fs from 'fs/promises'
 import matter from 'gray-matter'
@@ -227,6 +228,20 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }))
 
+  // Per-date Connections / Strands pages (only from data/date-pages.json on).
+  const connectionsDatePages = getConnectionsDatePages().map(p => ({
+    url: `${siteUrl}/connections-answers/${p.date}`,
+    lastModified: new Date(`${p.date}T12:00:00Z`),
+    changeFrequency: 'yearly' as ChangeFrequency,
+    priority: 0.6,
+  }))
+  const strandsDatePages = getStrandsDatePages().map(p => ({
+    url: `${siteUrl}/strands-answers/${p.date}`,
+    lastModified: new Date(`${p.date}T12:00:00Z`),
+    changeFrequency: 'yearly' as ChangeFrequency,
+    priority: 0.6,
+  }))
+
   const letterGamePages = [4, 5, 6, 7, 8, 9, 10, 11].map(n => ({
     url: `${siteUrl}/${n}-letters`,
     lastModified: latestPuzzleModified,
@@ -350,6 +365,8 @@ export async function getSitemapEntries(): Promise<MetadataRoute.Sitemap> {
     ...pages,
     ...puzzlePages,
     ...spellingBeePages,
+    ...connectionsDatePages,
+    ...strandsDatePages,
     ...letterGamePages,
     ...wordListPages,
     ...nLetterPages,

@@ -13,6 +13,8 @@ import { RELATED_TOOLS } from "@/data/wordle-answers/content";
 import AnswersFAQ from "@/components/wordle-answers/AnswersFAQ";
 import RelatedTools from "@/components/wordle-answers/RelatedTools";
 import StrandsArchive from "@/components/strands/StrandsArchive";
+import LatestDatePages from "@/components/date-pages/LatestDatePages";
+import { getLatestStrandsDateLinks } from "@/lib/date-pages";
 import { Archive } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -164,6 +166,14 @@ export default function StrandsAnswersPage() {
           </a>
           ? It tracks every day&apos;s spangram and theme words.
         </p>
+
+        {/* Newest per-date pages */}
+        <LatestDatePages
+          heading="Latest Strands Puzzles, One Page Each"
+          intro="Each recent puzzle has its own page with the theme clue, every answer traced on the board, and notes on the spangram."
+          game="Strands"
+          pages={getLatestStrandsDateLinks()}
+        />
 
         {/* Archive */}
         <section className="mt-8" aria-labelledby="browse-heading">

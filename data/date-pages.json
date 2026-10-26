@@ -1,0 +1,5 @@
+{
+  "_comment": "First date with an indexable per-date page. Launched 2026-10-26 with the 7 most recent days; later days are added as they are released. Do not move these dates earlier without a rollout plan (see docs/daily-date-pages-plan.md). Read by lib/date-pages.ts and scripts/generate-date-page-images.mjs.",
+  "connections": "2026-10-20",
+  "strands": "2026-10-20"
+}

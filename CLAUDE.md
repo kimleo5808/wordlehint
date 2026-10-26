@@ -33,6 +33,7 @@
 | `pnpm seed:strands` / `pnpm update:strands` | Seed / append today's NYT Strands puzzle (`data/strands-daily.json`) |
 | `pnpm seed:spelling-bee` / `pnpm update:spelling-bee` | Seed/backfill (`--from`/`--to`) / append today's NYT Spelling Bee (`data/spelling-bee-daily.json`) |
 | `pnpm og:images` | Generate OG share images (`scripts/generate-og-images.mjs`) |
+| `node scripts/generate-date-page-images.mjs [--static]` | Per-date OG images for the Connections/Strands date pages (runs automatically at the start of `pnpm build`; output gitignored). `--static` also redraws the committed color-fingerprint explainer |
 | `node scripts/check-future-leak.mjs` | After a build: fail if any rendered page / client chunk mentions an unreleased (prefetched) puzzle date. `--now <ISO>` simulates another moment |
 
 ---
@@ -47,8 +48,8 @@
 | Letter games | `/4-letters` … `/11-letters` (one route per word length, 4–11) |
 | 5-letter word lists | `/5-letter-words` (starting-letter hub), `/5-letter-words/starting-with-[a–z]` (26 spokes), `/5-letter-words/ending-with` + `/ending-with-[a–z]` (26), `/5-letter-words/with` (contained-letter hub) + `/with-[a–z]` (26) — see the word-bank section below |
 | 4/6/7-letter word lists | `/{4,6,7}-letter-words` (hubs, hand-written copy in `data/word-bank/hub-{4,6,7}.ts`) + dynamic `[spoke]` route (`starting-with-[a–z]`, SSG, `dynamicParams=false`) + `/4-letter-words/without-vowels`. Templated spokes: per-length templates (`starting-templates.ts`) + per-letter hooks (`letter-hooks.ts`) + live stats (`lib/n-letter-template.ts`). Data = ENABLE + frequency common tier (`data/word-bank/{4,6,7}.json`, built by `build-word-bank.mjs 4 6 7`). Run `node scripts/check-duplicate-content.mjs` after build to verify template pages stay differentiated |
-| Connections | `/connections-hint-today`, `/connections-answers`, `/connections-unlimited` (playable game, 120-puzzle build-time pool from the archive, newest 14 days excluded) |
-| Strands | `/strands-hint-today`, `/strands-answers`, `/strands-unlimited` (playable trace board; word paths derived at build by `lib/strands-solver.ts`, newest 14 days excluded) |
+| Connections | `/connections-hint-today`, `/connections-answers`, `/connections-answers/[date]` (per-date page, see below), `/connections-unlimited` (playable game, 120-puzzle build-time pool from the archive, newest 14 days excluded) |
+| Strands | `/strands-hint-today`, `/strands-answers`, `/strands-answers/[date]` (per-date page, see below), `/strands-unlimited` (playable trace board; word paths derived at build by `lib/strands-solver.ts`, newest 14 days excluded) |
 | Spelling Bee | `/spelling-bee-answers` (today's words/pangram/Genius score, spoiler curtains), `/spelling-bee-answers/[date]` (archive, SSG from all past puzzles, `dynamicParams = false`), `/spelling-bee-hints-today` (progressive hints: grid → two-letter list → staged pangram → per-word clues from `lib/spelling-bee-hints.ts` + `data/spelling-bee-definitions.json`), `/spelling-bee-unlimited` (playable hive game, 120-puzzle anonymised archive pool, newest 14 days excluded; pure scoring in `lib/spelling-bee-scoring.ts` so the client bundle skips the data JSON) |
 | Content | `/how-to-play-wordle`, `/wordle-hint-faq`, `/guides`, `/guides/[slug]`, `/blog`, `/blog/[slug]` |
 | Legal / misc | `/about`, `/contact`, `/privacy-policy`, `/terms-of-service`, `/share` |
@@ -73,6 +74,7 @@ This is the core of the site — understand it before touching anything date-rel
 
 - **Read APIs:** Wordle — `getTodayPuzzle()`, `getYesterdayPuzzle()`, `getRecentPuzzles(n)`, `getPuzzleByDate()`, `getPuzzlesByMonth()`, `getAvailableMonths()`, `getPuzzleCount()`. Connections/Strands mirror this — `getToday*()`, `getRecent*(n)`, `get*ByDate()`, `getArchive*()` (today excluded for spoilers), `get*Stats()`, plus hint helpers (`firstLetterHint`, `spangramClue`, `themeWordClue`).
 - **Automation:** `.github/workflows/deploy-cloudflare.yml` runs on every push, on `workflow_dispatch`, and on a fallback `schedule` (`30 8 * * *` UTC). The **on-time daily deploys** are dispatched by `workers/deploy-trigger/` — a separate Cloudflare Cron Trigger worker (deployed by `deploy-trigger-worker.yml`, needs the `DEPLOY_TRIGGER_TOKEN` repo secret) that fires at 00:05 ET (Wordle/Connections/Strands) and 03:05 ET (Spelling Bee), DST-aware. GitHub's `schedule` alone was hours late. The workflow runs `update:wordle`, then `update:connections`, `update:strands`, and `update:spelling-bee` (all `continue-on-error: true`, so a non-Wordle fetch failure won't block deploy — Wordle is the hard dependency), then the definition scripts. On `schedule` / `workflow_dispatch` runs of `main` it commits the updated JSON back to `main`, then builds → runs the leak check → deploys. See `docs/daily-freshness-plan.md`.
+- **Per-date pages (Connections/Strands):** only dates from `data/date-pages.json` onward get a page — history before that stays on the archive hubs; never backfill old dates in bulk (owner's "no mass homogeneous pages" rule). Content is deterministic: Connections word history counts only *earlier* puzzles, so a published page never changes. Pages open answers-first (`StagedHints initialStage={3}`) with a hint-mode switch. See `docs/daily-date-pages-plan.md`.
 - **Wordle hint generation:** `lib/wordle-hints.ts` → `generateHints(puzzle)` returns 5 progressive `HintLevel`s (composition → vowels → first letter → last letter → pattern). **Note:** hardcoded for 5-letter words (uses `word[4]`), since the NYT daily is always 5 letters.
 
 > If "Today's Wordle Hint" shows the "No puzzle data available" fallback, `getTodayPuzzle()` returned undefined → the daily JSON is missing today's entry → check the Cloudflare trigger worker's cron runs and the GitHub Actions `update:wordle` step. Same logic for Connections/Strands/Spelling Bee "today" pages. A page that is a day *stale* (not missing) means the post-rollover deploy didn't run.
@@ -103,7 +105,8 @@ A static SEO cluster of five-letter word lists — separate from the daily pipel
 | Header / Footer | `components/header/`, `components/footer/` |
 | Wordle game UI | `components/wordle/` |
 | Unlimited mode UI | `components/wordle-unlimited/`, `components/connections-unlimited/` (playable board: `ConnectionsGame` + `gameReducer`), `components/strands-unlimited/` (trace board: `StrandsGame` + `gameReducer` + `lib/strands-solver.ts`) |
-| Connections / Strands UI | `components/connections/`, `components/strands/` |
+| Connections / Strands UI | `components/connections/`, `components/strands/` (`StrandsPathBoard` = SVG path reveal on date pages) |
+| Per-date pages (Connections/Strands) | `app/[locale]/{connections,strands}-answers/[date]/page.tsx`, start dates in `data/date-pages.json`, read layer `lib/date-pages.ts` + `lib/connections-history.ts` (word history) + `lib/strands-notes.ts`, shared UI `components/date-pages/` |
 | Other page UI | `components/wordle-answers/`, `components/best-starting-words/` |
 | Wordle daily read API | `lib/wordle-daily.ts` |
 | Connections / Strands read API | `lib/connections-daily.ts`, `lib/strands-daily.ts` |

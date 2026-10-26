@@ -142,3 +142,7 @@ package-lock.json
 .open-next
 .dev.vars
 .gstack/
+
+# Per-date OG images, regenerated on every build (scripts/generate-date-page-images.mjs)
+/public/og/connections/
+/public/og/strands/
