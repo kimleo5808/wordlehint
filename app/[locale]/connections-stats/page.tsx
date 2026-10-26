@@ -149,7 +149,7 @@ export default function ConnectionsStatsPage() {
           title: "NYT Connections Statistics (Updated Daily)",
           description: "Statistics computed from every past NYT Connections puzzle: word frequency, colors, categories and repeats.",
           url: pageUrl,
-          datePublished: "2026-10-27T00:00:00Z",
+          datePublished: "2026-10-26T12:00:00Z",
           dateModified: `${today}T06:00:00Z`,
         })}
       />
