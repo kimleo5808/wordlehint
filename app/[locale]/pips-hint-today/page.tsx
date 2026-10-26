@@ -215,6 +215,9 @@ export default function PipsHintTodayPage() {
             <Link href="/how-to-play-pips" className="text-sm font-semibold text-primary hover:text-primary/80">
               How to play Pips →
             </Link>
+            <Link href="/nyt-games-reset-times#pips" className="text-sm font-semibold text-primary hover:text-primary/80">
+              Reset times →
+            </Link>
           </div>
         </section>
 

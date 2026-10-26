@@ -1,26 +1,21 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Clock } from "lucide-react";
+import { nextRelease } from "@/lib/reset-times";
 
-function getTimeUntilMidnightET(): { hours: number; minutes: number; seconds: number } {
-  const now = new Date();
-  // Get current time in ET
-  const etString = now.toLocaleString("en-US", {
-    timeZone: "America/New_York",
-    hour12: false,
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-  });
-  const [h, m, s] = etString.split(":").map(Number);
-  const totalSecondsLeft = (24 - h - 1) * 3600 + (59 - m) * 60 + (60 - s);
-
-  return {
-    hours: Math.floor(totalSecondsLeft / 3600),
-    minutes: Math.floor((totalSecondsLeft % 3600) / 60),
-    seconds: totalSecondsLeft % 60,
-  };
+/** Seconds until the next Wordle, which NYT releases at midnight in the
+ *  player's own time zone (not New York's). */
+function secondsUntilNextWordle(): number {
+  let timeZone = "America/New_York";
+  try {
+    timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone || timeZone;
+  } catch {
+    /* keep New York */
+  }
+  const now = Date.now();
+  return Math.max(0, Math.floor((nextRelease({ kind: "local-midnight" }, now, timeZone).at - now) / 1000));
 }
 
 function pad(n: number) {
@@ -28,17 +23,15 @@ function pad(n: number) {
 }
 
 export default function DailyCountdown() {
-  const [time, setTime] = useState<ReturnType<typeof getTimeUntilMidnightET> | null>(null);
+  const [left, setLeft] = useState<number | null>(null);
 
   useEffect(() => {
-    setTime(getTimeUntilMidnightET());
-    const timer = setInterval(() => {
-      setTime(getTimeUntilMidnightET());
-    }, 1000);
+    setLeft(secondsUntilNextWordle());
+    const timer = setInterval(() => setLeft(secondsUntilNextWordle()), 1000);
     return () => clearInterval(timer);
   }, []);
 
-  if (!time) return null;
+  if (left === null) return null;
 
   return (
     <div className="rounded-xl border border-border bg-card p-4 text-center">
@@ -47,10 +40,13 @@ export default function DailyCountdown() {
         Next Wordle in
       </div>
       <div className="mt-2 font-heading text-3xl font-bold tracking-wider text-foreground tabular-nums">
-        {pad(time.hours)}:{pad(time.minutes)}:{pad(time.seconds)}
+        {pad(Math.floor(left / 3600))}:{pad(Math.floor((left % 3600) / 60))}:{pad(left % 60)}
       </div>
       <p className="mt-1 text-xs text-muted-foreground">
-        Resets at midnight Eastern Time
+        Resets at midnight your time ·{" "}
+        <Link href="/nyt-games-reset-times" className="font-semibold text-primary hover:text-primary/80">
+          every NYT reset time
+        </Link>
       </p>
     </div>
   );

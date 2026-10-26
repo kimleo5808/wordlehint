@@ -176,6 +176,12 @@ export default function ConnectionsHintTodayPage() {
             >
               Play Connections Unlimited →
             </Link>
+            <Link
+              href="/nyt-games-reset-times#connections"
+              className="inline-block text-sm font-semibold text-primary hover:text-primary/80"
+            >
+              Reset times →
+            </Link>
             {hasConnectionsDatePage(puzzle.date) && (
               <Link
                 href={`/connections-answers/${puzzle.date}`}

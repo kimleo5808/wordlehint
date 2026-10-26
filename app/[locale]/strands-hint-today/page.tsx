@@ -149,6 +149,12 @@ export default function StrandsHintTodayPage() {
             >
               Play Strands Unlimited →
             </Link>
+            <Link
+              href="/nyt-games-reset-times#strands"
+              className="inline-block text-sm font-semibold text-primary hover:text-primary/80"
+            >
+              Reset times →
+            </Link>
             {hasStrandsDatePage(puzzle.date) && (
               <Link
                 href={`/strands-answers/${puzzle.date}`}

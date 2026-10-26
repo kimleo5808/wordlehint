@@ -212,6 +212,7 @@ const PAGES = [
   { file: "wordle-repeats", title: "Wordle Repeats", subtitle: "Every reused answer since 2026 · live", kind: "wordle", accent: GREEN },
   { file: "pips-hint-today", title: "NYT Pips Hints Today", subtitle: "Easy, Medium & Hard, step by step", kind: "pips", accent: "#f97316" },
   { file: "pips-answers", title: "NYT Pips Answers", subtitle: "Every past solution since Aug 2025", kind: "pips", accent: "#f97316" },
+  { file: "nyt-games-reset-times", title: "When Do NYT Games Reset?", subtitle: "Live times in your time zone", kind: "trio", accent: GREEN },
   { file: "how-to-play-pips", title: "How to Play NYT Pips", subtitle: "Rules, symbols & data-backed strategy", kind: "pips", accent: "#f97316" },
   { file: "todays-wordle-answer", title: "Today's Wordle Answer", subtitle: "Spoiler-safe reveal with its definition", kind: "wordle", accent: GREEN },
   { file: "yesterdays-wordle-answer", title: "Yesterday's Wordle Answer", subtitle: "The full solution, meaning, and hints", kind: "wordle", accent: GREEN },

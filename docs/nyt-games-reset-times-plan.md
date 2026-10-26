@@ -1,6 +1,6 @@
 # P1 需求文档：`/nyt-games-reset-times` 换题时间工具
 
-> 状态：待确认（2026-10-26）。上级方案：`docs/expansion-plan-2026-10.md`（8.4 节、第九节）。
+> 状态：已在分支 `feat/nyt-games-reset-times` 上实现（2026-10-26），等 Mini 实测后合并上线。上级方案：`docs/expansion-plan-2026-10.md`（8.4 节、第九节）。
 > 流程：竞对细查 → backlinko 内容方案 → frontend-design UI 方案 → 本文档 → 确认后实现。
 > 约束：不用 LLM、不用付费 API；说明文字由我撰写；不加作者署名，显示“最后核实日期”；一次只新增 1 个 URL。
 
@@ -100,10 +100,13 @@
 
 ## 8. Todolist
 
-- [ ] 上线前在某个周日美东 18:05 前后实测 Mini 的发布时间（请求 `svc/crosswords/v6/puzzle/mini.json`），确定 Mini 的最终规则
-- [ ] `data/nyt-reset-rules.ts`（含出处 URL、核实日期）
-- [ ] `lib/reset-times.ts` + `scripts/check-reset-times.mjs`（夏令时和周末规则断言）
-- [ ] `ResetBoard`、`ReleaseCalendar` 组件；页面、metadata、四种 schema
-- [ ] 正文约 1,500 词（我撰写）
-- [ ] 各今日页加链接；修正 `DailyCountdown`
-- [ ] sitemap；验证：tsc / lint / build；手机截图；用多个时区检查渲染
+- [ ] **上线前**在 2026-11-01（周日）美东 18:05 前后实测 Mini 的发布时间（请求 `svc/crosswords/v6/puzzle/mini.json`，北京时间 11-02 07:05）。
+  - 如果周一的 Mini 在周日 18:00 就出了：把 `data/nyt-reset-rules.ts` 里 `MINI_EVENINGS[0]` 改成 18，并改写页面上 “One difference stands out” 那一段和 FAQ 里 Mini 的回答。
+  - 如果按帮助中心写的 22:00 出：不用改。
+- [x] `data/nyt-reset-rules.ts`：13 个游戏，每条附 NYT 原文、出处链接和核实日期（2026-10-26 重新抓取了帮助中心各页面）。Sports Edition 的出处是 MediaPost 2025-01 的上线报道。Soccer Edition 没找到可靠出处，不收录。
+- [x] `lib/reset-times.ts`：只用 Intl，不加依赖。`scripts/check-reset-times.mjs` 的 21 项断言全部通过，覆盖美国夏令时切换日、英美换令时错开的那一周、印度、周末填字规则、每周 Bonus。
+  - 运行方式：`node --experimental-strip-types scripts/check-reset-times.mjs`
+- [x] `ResetBoard`、`ReleaseCalendar`、`ResetClock`（共用的时区和时钟），以及页面、metadata、schema（Article、WebApplication、FAQPage、BreadcrumbList）
+- [x] 正文 2,023 词
+- [x] 入口链接：`DailyCountdown` 改为按本地午夜倒计时并链到本页；Connections、Strands、Spelling Bee、Pips 四个今日页的链接行加了 “Reset times →”；页脚 Resources 分组；sitemap；OG 图
+- [x] 验证：tsc、lint（0 错误）、build。在纽约、伦敦、东京、悉尼、加尔各答五个时区实测，时间和日历都正确，控制台没有水合错误。手机首屏就是看板。

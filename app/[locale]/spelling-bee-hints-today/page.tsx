@@ -147,6 +147,12 @@ export default function SpellingBeeHintsTodayPage() {
               >
                 Play on NYT →
               </a>
+              <Link
+                href="/nyt-games-reset-times#spelling-bee"
+                className="inline-block text-sm font-semibold text-wordle-present hover:text-wordle-present/80"
+              >
+                Reset times →
+              </Link>
             </div>
           </div>
           <div>

@@ -114,6 +114,7 @@
           "links": [
             { "href": "/how-to-play-wordle", "name": "How to Play" },
             { "href": "/guides", "name": "Strategy Guides" },
+            { "href": "/nyt-games-reset-times", "name": "NYT Games Reset Times" },
             { "href": "/blog", "name": "Tips & Articles" },
             { "href": "https://connectionshint.app/", "name": "ConnectionsHint", "useA": true, "target": "_blank", "rel": "noopener" },
             { "href": "https://strandshint.app/", "name": "StrandsHint", "useA": true, "target": "_blank", "rel": "noopener" },
