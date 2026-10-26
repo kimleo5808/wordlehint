@@ -137,6 +137,9 @@ export default function PipsHintTodayPage() {
             <Link href="/pips-answers" className="text-sm font-semibold text-primary hover:text-primary/80">
               Past Pips answers →
             </Link>
+            <Link href="/how-to-play-pips" className="text-sm font-semibold text-primary hover:text-primary/80">
+              How to play Pips →
+            </Link>
             {hasPipsDatePage(puzzle.date) && (
               <Link href={`/pips-answers/${puzzle.date}`} className="text-sm font-semibold text-primary hover:text-primary/80">
                 #{puzzle.id} answer page →
@@ -184,6 +187,12 @@ export default function PipsHintTodayPage() {
               </div>
             ))}
           </dl>
+          <p className="mt-3 text-sm text-muted-foreground">
+            Diagrams for every region type and seven data-backed strategies:{" "}
+            <Link href="/how-to-play-pips" className="font-semibold text-primary hover:text-primary/80">
+              how to play Pips →
+            </Link>
+          </p>
         </section>
 
         {yesterday && (

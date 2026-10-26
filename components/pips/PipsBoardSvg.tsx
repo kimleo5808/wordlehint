@@ -41,12 +41,16 @@ export default function PipsBoardSvg({
   placed,
   highlight = [],
   label: ariaLabel,
+  numerals = false,
 }: {
   board: PipsBoard;
   /** Domino indices to draw. */
   placed: number[];
   highlight?: PipsCell[];
   label: string;
+  /** Teaching mode: write each half's number (bottom-right) instead of dots
+   *  and keep the rule badges on top, so the condition stays readable. */
+  numerals?: boolean;
 }) {
   const cells = board.solution.flat();
   const rows = Math.max(...cells.map((c) => c[0])) + 1;
@@ -80,6 +84,29 @@ export default function PipsBoardSvg({
     for (const [n, d] of sides) if (regionIndex.get(k(n)) !== me) borders.push(d);
   }
 
+  // Rule badges, on each region's first square in reading order.
+  const badges = board.regions.map((reg, i) => {
+    const text = label(reg);
+    if (!text) return null;
+    const [r, c] = [...reg.indices].sort((a, b) => a[0] - b[0] || a[1] - b[1])[0];
+    const bw = 14 + text.length * 11;
+    return (
+      <g key={`badge-${i}`}>
+        <rect x={x(c) + 3} y={y(r) + 3} width={bw} height={24} rx={7} fill="#ffffff" stroke={INK} strokeWidth={1.5} />
+        <text
+          x={x(c) + 3 + bw / 2}
+          y={y(r) + 15.5}
+          textAnchor="middle"
+          dominantBaseline="central"
+          fill={INK}
+          style={{ font: "700 16px var(--font-mono-code), ui-monospace, monospace" }}
+        >
+          {text}
+        </text>
+      </g>
+    );
+  });
+
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label={ariaLabel}>
       <style>{`
@@ -105,28 +132,7 @@ export default function PipsBoardSvg({
       })}
       <path d={borders.join("")} stroke={INK} strokeWidth={3} strokeLinecap="round" fill="none" opacity={0.75} />
 
-      {/* rule badges, on each region's first square in reading order */}
-      {board.regions.map((reg, i) => {
-        const text = label(reg);
-        if (!text) return null;
-        const [r, c] = [...reg.indices].sort((a, b) => a[0] - b[0] || a[1] - b[1])[0];
-        const bw = 14 + text.length * 11;
-        return (
-          <g key={`badge-${i}`}>
-            <rect x={x(c) + 3} y={y(r) + 3} width={bw} height={24} rx={7} fill="#ffffff" stroke={INK} strokeWidth={1.5} />
-            <text
-              x={x(c) + 3 + bw / 2}
-              y={y(r) + 15.5}
-              textAnchor="middle"
-              dominantBaseline="central"
-              fill={INK}
-              style={{ font: "700 16px var(--font-mono-code), ui-monospace, monospace" }}
-            >
-              {text}
-            </text>
-          </g>
-        );
-      })}
+      {!numerals && badges}
 
       {/* placed dominoes */}
       {board.solution.map(([a, b], i) => {
@@ -145,14 +151,30 @@ export default function PipsBoardSvg({
             ) : (
               <line x1={x(left) + 12} y1={y(top) + CELL} x2={x(left) + CELL - 12} y2={y(top) + CELL} stroke={INK} strokeWidth={1.5} opacity={0.5} />
             )}
-            {halves.flatMap(([[r, c], n]) =>
-              PIP_LAYOUT[n].map(([pr, pc], j) => (
-                <circle key={`${r}-${c}-${j}`} cx={x(c) + 18 + pc * 12} cy={y(r) + 18 + pr * 12} r={4.5} fill={INK} />
-              ))
-            )}
+            {numerals
+              ? halves.map(([[r, c], n]) => (
+                  <text
+                    key={`${r}-${c}`}
+                    x={x(c) + 40}
+                    y={y(r) + 40}
+                    textAnchor="middle"
+                    dominantBaseline="central"
+                    fill={INK}
+                    style={{ font: "700 22px var(--font-mono-code), ui-monospace, monospace" }}
+                  >
+                    {n}
+                  </text>
+                ))
+              : halves.flatMap(([[r, c], n]) =>
+                  PIP_LAYOUT[n].map(([pr, pc], j) => (
+                    <circle key={`${r}-${c}-${j}`} cx={x(c) + 18 + pc * 12} cy={y(r) + 18 + pr * 12} r={4.5} fill={INK} />
+                  ))
+                )}
           </g>
         );
       })}
+
+      {numerals && badges}
 
       {/* hint highlight */}
       {cells

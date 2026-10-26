@@ -47,7 +47,8 @@
         "name": "Pips",
         "items": [
           { "name": "Today's Hints", "href": "/pips-hint-today" },
-          { "name": "Past Answers", "href": "/pips-answers" }
+          { "name": "Past Answers", "href": "/pips-answers" },
+          { "name": "How to Play", "href": "/how-to-play-pips" }
         ]
       }
     ]
@@ -86,7 +87,8 @@
             { "href": "/spelling-bee-answers", "name": "Spelling Bee Answers" },
             { "href": "/spelling-bee-unlimited", "name": "Spelling Bee Unlimited" },
             { "href": "/pips-hint-today", "name": "Pips Hints" },
-            { "href": "/pips-answers", "name": "Pips Answers" }
+            { "href": "/pips-answers", "name": "Pips Answers" },
+            { "href": "/how-to-play-pips", "name": "How to Play Pips" }
           ]
         },
         {

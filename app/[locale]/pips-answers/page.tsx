@@ -111,12 +111,17 @@ export default function PipsAnswersPage() {
           <p className="mt-4 font-mono text-xs text-slate-400">
             Updated <time dateTime={today}>{formatLongDate(today)}</time> · Puzzle data from NYT Games
           </p>
-          <Link
-            href="/pips-hint-today"
-            className="mt-6 inline-flex items-center gap-2 rounded-lg bg-cta px-5 py-2.5 text-sm font-bold text-cta-foreground"
-          >
-            Today&apos;s Pips hints
-          </Link>
+          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3">
+            <Link
+              href="/pips-hint-today"
+              className="inline-flex items-center gap-2 rounded-lg bg-cta px-5 py-2.5 text-sm font-bold text-cta-foreground"
+            >
+              Today&apos;s Pips hints
+            </Link>
+            <Link href="/how-to-play-pips" className="text-sm font-semibold text-primary hover:text-primary/80">
+              How to play Pips →
+            </Link>
+          </div>
         </div>
       </section>
 
