@@ -1,5 +1,14 @@
 import { cache } from "react";
+import dateConfig from "@/data/date-pages.json";
 import type { DailyDataFile, DailyPuzzle } from "@/types/wordle-daily";
+
+/**
+ * First date the site's Wordle pages cover. The JSON holds every puzzle
+ * since #0 (2021-06-19), but older puzzles are history data only: they get
+ * no /wordle-hint/[date] page and don't change any existing page. Only
+ * getFullWordleHistory() reads further back.
+ */
+const PAGES_START: string = dateConfig.wordle;
 
 /* ------------------------------------------------------------------ */
 /*  Load data (cached per request)                                     */
@@ -30,7 +39,20 @@ const releasedPuzzles = cache((today: string): DailyPuzzle[] =>
   loadData().puzzles.filter((p) => p.date <= today)
 );
 
+/** Released puzzles within the pages' range (PAGES_START onward). */
+const pageRangePuzzles = cache((today: string): DailyPuzzle[] =>
+  releasedPuzzles(today).filter((p) => p.date >= PAGES_START)
+);
+
 function released(): DailyPuzzle[] {
+  return pageRangePuzzles(toEasternDateString());
+}
+
+/**
+ * Every released Wordle since #0 (2021-06-19), oldest first. For history
+ * features (e.g. /wordle-repeats); page accessors below stay in range.
+ */
+export function getFullWordleHistory(): DailyPuzzle[] {
   return releasedPuzzles(toEasternDateString());
 }
 

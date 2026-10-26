@@ -19,14 +19,19 @@ try {
   // File doesn't exist yet
 }
 
-// Load all released answer words. The updater prefetches tomorrow's puzzle;
-// defining it a day early would flag the word in the /N-letter-words lists.
+// Load released answer words within the pages' range. The updater prefetches
+// tomorrow's puzzle — defining it a day early would flag the word in the
+// /N-letter-words lists — and history before data/date-pages.json "wordle"
+// is data only, so it must not add definitions that change existing pages.
 const daily = JSON.parse(readFileSync(DAILY_PATH, "utf-8"));
+const pagesStart = JSON.parse(
+  readFileSync(resolve("data/date-pages.json"), "utf-8")
+).wordle;
 const today = toEasternDate();
 const words = [
   ...new Set(
     daily.puzzles
-      .filter((p) => p.date <= today)
+      .filter((p) => p.date >= pagesStart && p.date <= today)
       .map((p) => p.answer.toUpperCase())
   ),
 ];

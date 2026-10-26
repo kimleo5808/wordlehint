@@ -12,16 +12,16 @@
  */
 
 import { resolve, dirname } from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
 import { updateDaily } from "./lib/daily-updater.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../data/wordle-daily.json");
 const NYT_API = "https://www.nytimes.com/svc/wordle/v2";
 
-async function fetchPuzzle(dateStr) {
+export async function fetchPuzzle(dateStr, init = {}) {
   const url = `${NYT_API}/${dateStr}.json`;
-  const res = await fetch(url);
+  const res = await fetch(url, init);
   if (!res.ok) throw new Error(`NYT API returned ${res.status} for ${dateStr}`);
   const data = await res.json();
   return {
@@ -34,13 +34,16 @@ async function fetchPuzzle(dateStr) {
   };
 }
 
-updateDaily({
-  label: "Wordle",
-  dataPath: DATA_PATH,
-  seedHint: "Run 'pnpm run seed:wordle' first.",
-  fetchPuzzle,
-  validate: (p) => /^[A-Z]{5}$/.test(p.answer),
-}).catch((err) => {
-  console.error("❌ Update failed:", err.message);
-  process.exit(1);
-});
+// Run only when executed directly — backfill-wordle.mjs imports fetchPuzzle.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  updateDaily({
+    label: "Wordle",
+    dataPath: DATA_PATH,
+    seedHint: "Run 'pnpm run seed:wordle' first.",
+    fetchPuzzle,
+    validate: (p) => /^[A-Z]{5}$/.test(p.answer),
+  }).catch((err) => {
+    console.error("❌ Update failed:", err.message);
+    process.exit(1);
+  });
+}
