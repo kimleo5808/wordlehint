@@ -30,11 +30,13 @@ async function fetchPuzzle(dateStr) {
   if (!res.ok) throw new Error(`NYT API returned ${res.status} for ${dateStr}`);
   const data = await res.json();
   // V2 returns categories ordered easiest→hardest (yellow→purple).
+  // Special editions use picture cards: no `content`, the word is the alt text.
   const groups = data.categories.map((cat, level) => ({
     level,
     name: String(cat.title).toUpperCase(),
-    words: cat.cards
-      .map((c) => String(c.content).toUpperCase()),
+    words: cat.cards.map((c) =>
+      String(c.content ?? c.image_alt_text ?? "").toUpperCase()
+    ),
   }));
   return {
     date: data.print_date,
@@ -49,7 +51,9 @@ updateDaily({
   dataPath: DATA_PATH,
   seedHint: "Run 'pnpm run seed:connections' first.",
   fetchPuzzle,
-  validate: (p) => p.groups.length === 4,
+  validate: (p) =>
+    p.groups.length === 4 &&
+    p.groups.every((g) => g.words.length === 4 && g.words.every(Boolean)),
 }).catch((err) => {
   console.error("❌ Update failed:", err.message);
   process.exit(1);
