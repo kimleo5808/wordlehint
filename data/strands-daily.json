@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T08:10:53.819Z",
+  "lastUpdated": "2026-10-26T15:20:38.685Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24211,6 +24211,56 @@
         "AOCUNR",
         "NETRSU",
         "SRUTFO"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": 967,
+      "editor": "Tracy Bennett",
+      "clue": "Please, be my guest!",
+      "spangram": "HOSPITALITY",
+      "themeWords": [
+        "ENTERTAIN",
+        "HOST",
+        "INVITE",
+        "MEET",
+        "RECEIVE",
+        "WELCOME"
+      ],
+      "board": [
+        "OMEHEE",
+        "CESOMT",
+        "LWPEIR",
+        "IVIVEE",
+        "NITHOC",
+        "ETANES",
+        "TILTET",
+        "YNIATR"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": 968,
+      "editor": "Tracy Bennett",
+      "clue": "Who ya gonna call?",
+      "spangram": "EXTERMINATOR",
+      "themeWords": [
+        "ANTS",
+        "COCKROACHES",
+        "MICE",
+        "RATS",
+        "TERMITES",
+        "TICKS"
+      ],
+      "board": [
+        "HESOCA",
+        "ACCMNT",
+        "ORKRIS",
+        "EXTERN",
+        "AMIOAI",
+        "TRCTMT",
+        "SECTRE",
+        "TISKES"
       ]
     }
   ]

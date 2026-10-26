@@ -125,6 +125,7 @@
   "advanced": null,
   "advice": null,
   "adze": null,
+  "aeon": null,
   "afar": null,
   "affably": null,
   "affiant": null,
@@ -336,6 +337,7 @@
     "definition": "Anyhow",
     "partOfSpeech": "adverb"
   },
+  "anyone": null,
   "aorta": {
     "definition": "The great artery which carries the blood from the heart to all parts of the body except the lungs; the main trunk of the arterial system.",
     "partOfSpeech": "noun"
@@ -2832,6 +2834,8 @@
   },
   "glib": null,
   "gliding": null,
+  "glint": null,
+  "glinting": null,
   "glob": null,
   "glom": {
     "definition": "To steal, to grab.",
@@ -3007,6 +3011,8 @@
     "definition": "To touch; to feel or hold with the hand(s).",
     "partOfSpeech": "verb"
   },
+  "happen": null,
+  "happy": null,
   "hardhat": {
     "definition": "A helmet, usually made from rigid plastic, used on construction sites to protect the head from falling objects.",
     "partOfSpeech": "noun"
@@ -3134,6 +3140,9 @@
   "hibachi": null,
   "hick": null,
   "high": null,
+  "highlight": null,
+  "highlighting": null,
+  "highly": null,
   "hike": null,
   "hiked": null,
   "hill": {
@@ -3141,6 +3150,7 @@
     "partOfSpeech": "noun"
   },
   "hilling": null,
+  "hilly": null,
   "hilt": {
     "definition": "The handle of a sword, consisting of grip, guard, and pommel, designed to facilitate use of the blade and afford protection to the hand.",
     "partOfSpeech": "noun"
@@ -3272,6 +3282,7 @@
     "definition": "The act of hunting.",
     "partOfSpeech": "noun"
   },
+  "hyena": null,
   "hymen": null,
   "hymn": null,
   "hype": null,
@@ -3826,6 +3837,10 @@
   },
   "lifeline": null,
   "lift": null,
+  "light": null,
+  "lighting": null,
+  "lightly": null,
+  "lightning": null,
   "like": {
     "definition": "(usually in the plural) Something that a person likes (prefers).",
     "partOfSpeech": "noun"
@@ -3835,6 +3850,7 @@
     "definition": "Animated, brisk motion; spirited rhythm; sprightliness.",
     "partOfSpeech": "noun"
   },
+  "lilting": null,
   "lily": null,
   "lima": null,
   "limb": null,
@@ -4689,6 +4705,8 @@
   "niggling": null,
   "niggly": null,
   "nigh": null,
+  "nightlight": null,
+  "nightly": null,
   "nigiri": null,
   "nimbi": {
     "definition": "A circle of light; a halo.",
@@ -4706,6 +4724,7 @@
     "definition": "The person or thing in the ninth position.",
     "partOfSpeech": "noun"
   },
+  "ninthly": null,
   "nipped": null,
   "nipping": {
     "definition": "To catch and enclose or compress tightly between two surfaces, or points which are brought together or closed; to pinch; to close in upon.",
@@ -5039,9 +5058,11 @@
   "papal": null,
   "papally": null,
   "papaw": null,
+  "papaya": null,
   "papilla": null,
   "papillary": null,
   "papilloma": null,
+  "pappy": null,
   "paradrop": null,
   "paranoid": null,
   "pardon": null,
@@ -5054,7 +5075,9 @@
   "pawl": null,
   "pawpaw": null,
   "payee": null,
+  "payphone": null,
   "peace": null,
+  "peahen": null,
   "peak": null,
   "peaked": null,
   "peal": null,
@@ -5804,6 +5827,7 @@
     "definition": "A loss or tearing of paper from the back of a stamp, although not sufficient to create a complete hole.",
     "partOfSpeech": "noun"
   },
+  "thinly": null,
   "thong": {
     "definition": "A strip of leather.",
     "partOfSpeech": "noun"
@@ -5843,13 +5867,16 @@
   "tied": null,
   "tiff": null,
   "tight": null,
+  "tightly": null,
   "tiki": null,
   "tilapia": null,
   "tile": null,
+  "tiling": null,
   "till": {
     "definition": "Until; to, up to; as late as (a given time).",
     "partOfSpeech": "preposition"
   },
+  "tilling": null,
   "tilt": {
     "definition": "A slope or inclination.",
     "partOfSpeech": "noun"
@@ -5858,6 +5885,7 @@
     "definition": "Agricultural labour; husbandry.",
     "partOfSpeech": "noun"
   },
+  "tilting": null,
   "time": {
     "definition": "The inevitable progression into the future with the passing of present and past events.",
     "partOfSpeech": "noun"
@@ -5877,6 +5905,7 @@
   "tinge": null,
   "tingeing": null,
   "tinging": null,
+  "tingling": null,
   "tingly": null,
   "tinily": null,
   "tinkle": null,
@@ -5923,6 +5952,7 @@
     "definition": "A prefix (honorific) or suffix (post-nominal) added to a person's name to signify either veneration, official position or a professional or academic qualification. See also",
     "partOfSpeech": "noun"
   },
+  "titling": null,
   "tittle": {
     "definition": "A small, insignificant amount (of something); a modicum or speck.",
     "partOfSpeech": "noun"
@@ -6515,6 +6545,7 @@
     "definition": "A rough, coarse, loud or uncouth person; yokel; lout.",
     "partOfSpeech": "noun"
   },
+  "yappy": null,
   "yeah": null,
   "yell": null,
   "yelled": null,

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T08:36:00.923Z",
+  "lastUpdated": "2026-10-26T15:20:39.820Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -65723,6 +65723,116 @@
         "nimbi",
         "nominal",
         "oilman"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-26",
+      "id": 21324,
+      "centerLetter": "l",
+      "outerLetters": [
+        "g",
+        "h",
+        "i",
+        "n",
+        "t",
+        "y"
+      ],
+      "pangrams": [
+        "nightly"
+      ],
+      "answers": [
+        "giggling",
+        "giggly",
+        "gill",
+        "gilling",
+        "gilt",
+        "glint",
+        "glinting",
+        "highlight",
+        "highlighting",
+        "highly",
+        "hill",
+        "hilling",
+        "hilly",
+        "hilt",
+        "illy",
+        "light",
+        "lighting",
+        "lightly",
+        "lightning",
+        "lilt",
+        "lilting",
+        "lily",
+        "lining",
+        "lint",
+        "linty",
+        "lying",
+        "niggling",
+        "niggly",
+        "nightlight",
+        "nightly",
+        "ninthly",
+        "thinly",
+        "tightly",
+        "tiling",
+        "till",
+        "tilling",
+        "tilt",
+        "tilth",
+        "tilting",
+        "tingling",
+        "tingly",
+        "tinily",
+        "titling"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-10-27",
+      "id": 19496,
+      "centerLetter": "a",
+      "outerLetters": [
+        "e",
+        "h",
+        "n",
+        "o",
+        "p",
+        "y"
+      ],
+      "pangrams": [
+        "payphone"
+      ],
+      "answers": [
+        "aeon",
+        "ahoy",
+        "annoy",
+        "anon",
+        "anyhoo",
+        "anyone",
+        "apnea",
+        "happen",
+        "happy",
+        "heap",
+        "henna",
+        "hyena",
+        "naan",
+        "nana",
+        "nanny",
+        "nape",
+        "neap",
+        "paean",
+        "pane",
+        "papa",
+        "papaya",
+        "pappy",
+        "payee",
+        "payphone",
+        "peahen",
+        "poppa",
+        "yahoo",
+        "yappy",
+        "yeah"
       ],
       "editor": "Sam Ezersky"
     }

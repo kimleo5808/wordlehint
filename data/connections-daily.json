@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T08:35:59.749Z",
+  "lastUpdated": "2026-10-26T15:20:37.731Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57901,6 +57901,100 @@
             "FOOTBALL",
             "GLOW STICK",
             "RUBBER BAND"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "id": 1233,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "RESPONSES TO \"HOW ARE YOU?\"",
+          "words": [
+            "CHILLING",
+            "MANAGING",
+            "NOT BAD",
+            "SAME OLD"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF MATS",
+          "words": [
+            "PRAYER",
+            "WELCOME",
+            "WRESTLING",
+            "YOGA"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "AKC DOG BREED GROUPS",
+          "words": [
+            "HERDING",
+            "HOUND",
+            "SPORTING",
+            "TOY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HORROR MOVIES WITH LAST LETTER CHANGED",
+          "words": [
+            "HALLOWEEK",
+            "HOSTED",
+            "JAWN",
+            "PSYCHS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "id": 1234,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "MESS (WITH)",
+          "words": [
+            "FIDDLE",
+            "MEDDLE",
+            "TINKER",
+            "TRIFLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTS OF THE EAR",
+          "words": [
+            "ANVIL",
+            "CANAL",
+            "DRUM",
+            "STIRRUP"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___ BELL",
+          "words": [
+            "DIVING",
+            "JINGLE",
+            "LIBERTY",
+            "TACO"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "BELL ___",
+          "words": [
+            "BOTTOMS",
+            "JAR",
+            "PEPPER",
+            "TOWER"
           ]
         }
       ]
