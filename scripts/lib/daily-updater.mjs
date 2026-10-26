@@ -25,6 +25,20 @@ export function toEasternDate(d = new Date()) {
     .slice(0, 10);
 }
 
+/** Default layout: 2-space indented JSON. */
+export function prettyJson(data) {
+  return JSON.stringify(data, null, 2);
+}
+
+/** One puzzle per line — for deeply nested data (Pips boards) that the
+ *  pretty layout would blow up to several MB; diffs stay one line per day. */
+export function puzzlePerLineJson(data) {
+  const { puzzles, ...rest } = data;
+  const head = JSON.stringify(rest).slice(0, -1);
+  const sep = head.length > 1 ? "," : "";
+  return `${head}${sep}"puzzles":[\n${puzzles.map((p) => JSON.stringify(p)).join(",\n")}\n]}\n`;
+}
+
 export function addDays(dateStr, n) {
   const d = new Date(`${dateStr}T12:00:00Z`);
   d.setUTCDate(d.getUTCDate() + n);
@@ -38,6 +52,7 @@ export function addDays(dateStr, n) {
  * @param {string} opts.seedHint     Shown when the data file is missing.
  * @param {(date: string) => Promise<{ date: string, id: number }>} opts.fetchPuzzle
  * @param {(puzzle: object) => boolean} [opts.validate]
+ * @param {(data: object) => string} [opts.serialize]  File layout (default pretty).
  */
 export async function updateDaily({
   label,
@@ -45,6 +60,7 @@ export async function updateDaily({
   seedHint,
   fetchPuzzle,
   validate = () => true,
+  serialize = prettyJson,
 }) {
   if (!existsSync(dataPath)) {
     throw new Error(`${dataPath} not found. ${seedHint}`);
@@ -91,6 +107,6 @@ export async function updateDaily({
 
   data.puzzles.sort((a, b) => a.date.localeCompare(b.date));
   data.lastUpdated = new Date().toISOString();
-  writeFileSync(dataPath, JSON.stringify(data, null, 2), "utf-8");
+  writeFileSync(dataPath, serialize(data), "utf-8");
   console.log(`✅ Updated ${dataPath} (${data.puzzles.length} total)`);
 }
