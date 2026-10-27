@@ -700,10 +700,13 @@
     "definition": "To remove the head of; to cut someone's head off.",
     "partOfSpeech": "verb"
   },
+  "beige": null,
   "belch": null,
   "belie": null,
+  "belied": null,
   "bell": null,
   "belle": null,
+  "bellied": null,
   "bend": {
     "definition": "A curve.",
     "partOfSpeech": "noun"
@@ -716,11 +719,14 @@
   "biblical": null,
   "bibliomania": null,
   "bicarb": null,
+  "bide": null,
+  "bided": null,
   "biennium": null,
   "biff": {
     "definition": "A sudden, sharp blow or punch.",
     "partOfSpeech": "noun"
   },
+  "biggie": null,
   "bigot": {
     "definition": "One who is narrow-mindedly devoted to one's own ideas and groups, and intolerant of (people of) differing ideas, races, genders, religions, politics, etc.",
     "partOfSpeech": "noun"
@@ -728,7 +734,9 @@
   "bike": null,
   "bilabial": null,
   "bile": null,
+  "bilge": null,
   "bill": null,
+  "billed": null,
   "billing": null,
   "billion": null,
   "biltong": null,
@@ -774,6 +782,7 @@
   "blogging": null,
   "bloke": null,
   "blood": null,
+  "bloodied": null,
   "bloody": null,
   "bloom": null,
   "bloop": null,
@@ -815,6 +824,7 @@
   "bode": null,
   "boded": null,
   "bodega": null,
+  "bodied": null,
   "bogey": null,
   "bogged": null,
   "bogging": {
@@ -824,6 +834,7 @@
   "boggling": null,
   "boggy": null,
   "boil": null,
+  "boiled": null,
   "boiling": null,
   "boing": {
     "definition": "The sound made by an elastic object (such as a spring) when bouncing; the sound of a bounce.",
@@ -882,6 +893,8 @@
     "partOfSpeech": "noun"
   },
   "booed": null,
+  "boogie": null,
+  "boogied": null,
   "booing": null,
   "bookie": null,
   "boom": null,
@@ -1902,6 +1915,7 @@
     "partOfSpeech": "noun"
   },
   "delayed": null,
+  "deli": null,
   "dell": null,
   "delude": null,
   "deluded": null,
@@ -1951,6 +1965,8 @@
     "definition": "A treatise on teaching or education.",
     "partOfSpeech": "noun"
   },
+  "diddle": null,
+  "diddled": null,
   "diddling": null,
   "diddly": null,
   "died": null,
@@ -2051,17 +2067,20 @@
     "partOfSpeech": "verb"
   },
   "dogbane": null,
+  "doggie": null,
   "doggo": {
     "definition": "A dog.",
     "partOfSpeech": "noun"
   },
   "doggy": null,
+  "dogie": null,
   "doily": null,
   "doll": {
     "definition": "A toy in the form of a human.",
     "partOfSpeech": "noun"
   },
   "dollar": null,
+  "dollied": null,
   "dolly": null,
   "dolor": null,
   "donation": null,
@@ -2079,6 +2098,7 @@
     "partOfSpeech": "noun"
   },
   "donut": null,
+  "doobie": null,
   "doodad": null,
   "door": {
     "definition": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
@@ -2239,6 +2259,7 @@
     "definition": "To move an object slowly and carefully in a particular direction.",
     "partOfSpeech": "verb"
   },
+  "edible": null,
   "edified": null,
   "edit": null,
   "edited": null,
@@ -2308,6 +2329,9 @@
     "definition": "To evoke, educe (emotions, feelings, responses, etc.); to generate, obtain, or provoke as a response or answer.",
     "partOfSpeech": "verb"
   },
+  "elide": null,
+  "elided": null,
+  "eligible": null,
   "elite": {
     "definition": "A special group or social class of people which have a superior intellectual, social or economic status as, the elite of society.",
     "partOfSpeech": "noun"
@@ -2753,6 +2777,7 @@
     "definition": "To behave geekishly or in a socially awkward manner, especially when under the influence of drugs or other psycho-active substances, and exhibiting such marked characteristics as hyperactivity, repetitiveness, talkativeness, nervousness, irritability, or paranoia.",
     "partOfSpeech": "verb"
   },
+  "gelid": null,
   "gene": {
     "definition": "A theoretical unit of heredity of living organisms; a gene may take several values and in principle predetermines a precise trait of an organism's form (phenotype), such as hair color.",
     "partOfSpeech": "noun"
@@ -2769,6 +2794,7 @@
   "gent": null,
   "gentility": null,
   "gently": null,
+  "geoid": null,
   "getting": null,
   "ghee": {
     "definition": "A type of clarified butter used in South Asian cooking; usli ghee.",
@@ -2779,6 +2805,8 @@
     "partOfSpeech": "noun"
   },
   "gibbon": null,
+  "gibe": null,
+  "gibed": null,
   "gibing": null,
   "giddily": null,
   "giddy": null,
@@ -2791,12 +2819,16 @@
     "definition": "To fish or catch with a gig, or fish spear.",
     "partOfSpeech": "verb"
   },
+  "giggle": null,
+  "giggled": null,
   "giggling": null,
   "giggly": null,
   "gigolo": null,
   "gild": null,
+  "gilded": null,
   "gilding": null,
   "gill": null,
+  "gilled": null,
   "gilling": null,
   "gilt": null,
   "gimme": {
@@ -2833,6 +2865,8 @@
     "partOfSpeech": "noun"
   },
   "glib": null,
+  "glide": null,
+  "glided": null,
   "gliding": null,
   "glint": null,
   "glinting": null,
@@ -2867,6 +2901,7 @@
     "definition": "(of people)",
     "partOfSpeech": "adjective"
   },
+  "goodie": null,
   "goody": {
     "definition": "A good character in a story, often a hero.",
     "partOfSpeech": "noun"
@@ -3296,6 +3331,8 @@
   "ichor": null,
   "icicle": null,
   "idiot": null,
+  "idle": null,
+  "idled": null,
   "idling": null,
   "idly": null,
   "idol": null,
@@ -3321,6 +3358,7 @@
     "definition": "The upper and widest of the three bones that make up each side of the hipbone and pelvis.",
     "partOfSpeech": "noun"
   },
+  "illegible": null,
   "illicit": {
     "definition": "A banned or unlawful item.",
     "partOfSpeech": "noun"
@@ -3794,6 +3832,7 @@
   "leek": null,
   "leftie": null,
   "leggy": null,
+  "legible": null,
   "lend": {
     "definition": "The lumbar region; loin.",
     "partOfSpeech": "noun"
@@ -3828,9 +3867,14 @@
   },
   "liar": null,
   "libel": null,
+  "libeled": null,
   "libelee": null,
+  "libido": null,
   "lice": null,
   "licit": null,
+  "lidded": null,
+  "lied": null,
+  "liege": null,
   "life": {
     "definition": "The state of organisms preceding their death, characterized by biological processes such as metabolism and reproduction and distinguishing them from inanimate objects; the state of being alive and living.",
     "partOfSpeech": "noun"
@@ -3948,6 +3992,7 @@
     "definition": "To detest, hate, revile.",
     "partOfSpeech": "verb"
   },
+  "lobbied": null,
   "lobbing": null,
   "lobby": null,
   "lobe": null,
@@ -4843,6 +4888,8 @@
     "definition": "Death of a person.",
     "partOfSpeech": "noun"
   },
+  "oblige": null,
+  "obliged": null,
   "obliging": null,
   "oblong": null,
   "oboe": null,
@@ -4887,6 +4934,7 @@
     "definition": "A fabric or cloth treated on one side with a waterproof covering, especially one made from linseed oil etc.; used for flooring, tablecloths, kitchen shelves and sometimes furniture covering.",
     "partOfSpeech": "noun"
   },
+  "oiled": null,
   "oilman": null,
   "oink": {
     "definition": "The sound made by a pig, or an imitation thereof.",
@@ -4900,6 +4948,7 @@
     "definition": "Endorsement; approval.",
     "partOfSpeech": "noun"
   },
+  "oldie": null,
   "oleo": null,
   "olio": {
     "definition": "A rich, thick, Spanish stew consisting of meat and vegetables.",

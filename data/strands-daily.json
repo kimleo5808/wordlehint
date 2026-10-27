@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T15:20:38.685Z",
+  "lastUpdated": "2026-10-27T04:06:06.661Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24261,6 +24261,30 @@
         "TRCTMT",
         "SECTRE",
         "TISKES"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "id": 969,
+      "editor": "Tracy Bennett",
+      "clue": "Comedy club",
+      "spangram": "FUNNYBUSINESS",
+      "themeWords": [
+        "BURLESQUE",
+        "FARCE",
+        "IMPROV",
+        "SKETCH",
+        "SLAPSTICK"
+      ],
+      "board": [
+        "ISSEOR",
+        "TCKNVP",
+        "SLSISM",
+        "PAFAUI",
+        "TEKRBY",
+        "CHSCEN",
+        "UQSRBN",
+        "EELUFU"
       ]
     }
   ]

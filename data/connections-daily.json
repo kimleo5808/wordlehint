@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T15:20:37.731Z",
+  "lastUpdated": "2026-10-27T04:06:06.008Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -57995,6 +57995,53 @@
             "JAR",
             "PEPPER",
             "TOWER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "id": 1235,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "ROMANTIC LIKING",
+          "words": [
+            "ATTRACTION",
+            "CRUSH",
+            "FEELINGS",
+            "INTEREST"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "COMPONENTS OF AN EMAIL",
+          "words": [
+            "ATTACHMENT",
+            "BODY",
+            "SIGNATURE",
+            "SUBJECT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "NASA MARS ROVERS",
+          "words": [
+            "CURIOSITY",
+            "OPPORTUNITY",
+            "PERSEVERANCE",
+            "SPIRIT"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOMOPHONES OF PATHS",
+          "words": [
+            "COARSE",
+            "RODE",
+            "ROUT",
+            "WEIGH"
           ]
         }
       ]
