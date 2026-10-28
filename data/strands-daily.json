@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T04:06:06.661Z",
+  "lastUpdated": "2026-10-28T04:06:06.554Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24285,6 +24285,33 @@
         "CHSCEN",
         "UQSRBN",
         "EELUFU"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": 970,
+      "editor": "Tracy Bennett",
+      "clue": "Double, double toil and trouble",
+      "spangram": "CAULDRON",
+      "themeWords": [
+        "BLOOD",
+        "BUBBLE",
+        "FIRE",
+        "LIZARD",
+        "NEWT",
+        "SNAKE",
+        "TONGUE",
+        "WORM"
+      ],
+      "board": [
+        "EMWNTL",
+        "UROEWI",
+        "GNBUAZ",
+        "COBBRN",
+        "ATELDO",
+        "OULDRE",
+        "ODFESK",
+        "LBIRNA"
       ]
     }
   ]

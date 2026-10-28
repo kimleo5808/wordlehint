@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T04:06:06.008Z",
+  "lastUpdated": "2026-10-28T04:06:05.835Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58042,6 +58042,53 @@
             "RODE",
             "ROUT",
             "WEIGH"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "id": 1236,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS YOU PUT COINS INTO",
+          "words": [
+            "PARKING METER",
+            "PAYPHONE",
+            "PIGGY BANK",
+            "WISHING WELL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ASSOCIATED WITH PENGUINS",
+          "words": [
+            "ANTARCTICA",
+            "EMPEROR",
+            "TUXEDO",
+            "WADDLE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ENDS OF FAMOUS FONTS",
+          "words": [
+            "GOTHIC",
+            "ROMAN",
+            "SANS",
+            "TYPEWRITER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT FEATURE THREE COLORS",
+          "words": [
+            "CALICO",
+            "CANDY CORN",
+            "NEAPOLITAN",
+            "TRAFFIC LIGHT"
           ]
         }
       ]

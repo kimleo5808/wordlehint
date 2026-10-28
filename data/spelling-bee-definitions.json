@@ -252,6 +252,7 @@
   "android": null,
   "anemia": null,
   "anemic": null,
+  "angora": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
     "partOfSpeech": "noun"
@@ -360,6 +361,7 @@
     "partOfSpeech": "noun"
   },
   "apply": null,
+  "apron": null,
   "aqua": null,
   "aquanaut": null,
   "aquatic": null,
@@ -383,6 +385,7 @@
     "partOfSpeech": "noun"
   },
   "ardor": null,
+  "argon": null,
   "arhat": {
     "definition": "One who has attained enlightenment; a Buddhist saint.",
     "partOfSpeech": "noun"
@@ -2150,6 +2153,9 @@
   },
   "drab": null,
   "drably": null,
+  "drag": null,
+  "dragon": null,
+  "dragoon": null,
   "drain": null,
   "drat": {
     "definition": "To damn or curse.",
@@ -2914,6 +2920,7 @@
   "goon": null,
   "goop": null,
   "goopy": null,
+  "gorgon": null,
   "gorp": {
     "definition": "A loose mixture of dried fruit, nuts, frequently salt, and sometimes other ingredients; designed as an energy supplement for use while hiking, climbing, canoeing, etc.",
     "partOfSpeech": "noun"
@@ -2933,6 +2940,7 @@
   },
   "gown": null,
   "gowning": null,
+  "grad": null,
   "gram": {
     "definition": "A unit of mass equal to one-thousandth of a kilogram. Symbol: g",
     "partOfSpeech": "noun"
@@ -2942,12 +2950,21 @@
     "definition": "A system of rules and principles for speaking and writing a language.",
     "partOfSpeech": "noun"
   },
+  "gran": null,
+  "grand": null,
+  "grandad": null,
+  "granddad": null,
+  "grandpa": null,
+  "grandpapa": null,
+  "grandpop": null,
+  "grappa": null,
   "grim": null,
   "grin": null,
   "grinning": null,
   "grip": null,
   "griping": null,
   "gripping": null,
+  "groan": null,
   "grody": {
     "definition": "Nasty, dirty, disgusting, foul, revolting, yucky, grotesque.",
     "partOfSpeech": "adjective"
@@ -4995,6 +5012,7 @@
   },
   "oral": null,
   "orally": null,
+  "orang": null,
   "orator": null,
   "oratory": null,
   "orca": null,
@@ -5004,6 +5022,7 @@
   },
   "orchid": null,
   "ordain": null,
+  "organ": null,
   "orgy": null,
   "orotund": null,
   "ottoman": {
@@ -5113,6 +5132,7 @@
   "papilloma": null,
   "pappy": null,
   "paradrop": null,
+  "paragon": null,
   "paranoid": null,
   "pardon": null,
   "parlay": null,
@@ -5375,11 +5395,13 @@
     "definition": "An extraordinary thing seen as an omen; a portent.",
     "partOfSpeech": "noun"
   },
+  "prong": null,
   "pronoun": null,
   "prop": {
     "definition": "An object placed against or under another, to support it; anything that supports.",
     "partOfSpeech": "noun"
   },
+  "propaganda": null,
   "prove": {
     "definition": "To proofread.",
     "partOfSpeech": "verb"
@@ -5480,6 +5502,7 @@
     "definition": "A roving motion; course without definite direction; lack of rule or method; chance.",
     "partOfSpeech": "noun"
   },
+  "rang": null,
   "rani": {
     "definition": "The wife of a rajah.",
     "partOfSpeech": "noun"
