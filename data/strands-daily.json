@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T04:06:06.554Z",
+  "lastUpdated": "2026-10-29T04:06:05.904Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24312,6 +24312,31 @@
         "OULDRE",
         "ODFESK",
         "LBIRNA"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "id": 971,
+      "editor": "Tracy Bennett",
+      "clue": "All charged up",
+      "spangram": "PLUGGEDIN",
+      "themeWords": [
+        "CURRENT",
+        "ELECTRICITY",
+        "ENERGY",
+        "JUICE",
+        "POWER",
+        "SPARK"
+      ],
+      "board": [
+        "PJUICE",
+        "LGEDIN",
+        "UGCTCI",
+        "ELERIT",
+        "RUCOWY",
+        "REKPER",
+        "NAREGY",
+        "TPSNER"
       ]
     }
   ]

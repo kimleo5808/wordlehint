@@ -176,6 +176,7 @@
     "definition": "A person addicted to alcohol.",
     "partOfSpeech": "noun"
   },
+  "alcove": null,
   "alfalfa": {
     "definition": "A plant, principally of Medicago sativa, grown as a pasture crop.",
     "partOfSpeech": "noun"
@@ -1053,10 +1054,13 @@
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
     "partOfSpeech": "noun"
   },
+  "call": null,
+  "calla": null,
   "callaloo": {
     "definition": "Any of various tropical plants grown in the Americas, especially of the genus Xanthosoma, cultivated for their edible leaves.",
     "partOfSpeech": "noun"
   },
+  "calve": null,
   "cami": null,
   "camo": null,
   "canal": {
@@ -1115,6 +1119,7 @@
     "definition": "Careful, prudent, cautious.",
     "partOfSpeech": "adjective"
   },
+  "canoe": null,
   "canola": {
     "definition": "Any of a number of cultivars of rapeseed (Brassica napus) and closely related field mustard (Brassica rapa), which have a lower erucic acid and glucosinolate content than traditional rapeseed.",
     "partOfSpeech": "noun"
@@ -1357,6 +1362,7 @@
   },
   "clap": null,
   "claptrap": null,
+  "clave": null,
   "clean": {
     "definition": "Removal of dirt.",
     "partOfSpeech": "noun"
@@ -1365,6 +1371,7 @@
     "definition": "To remove dirt from a place or object.",
     "partOfSpeech": "verb"
   },
+  "cleave": null,
   "clench": {
     "definition": "Tight grip.",
     "partOfSpeech": "noun"
@@ -1406,6 +1413,7 @@
     "definition": "Relating to, or created by asexual reproduction (cloning)",
     "partOfSpeech": "adjective"
   },
+  "clone": null,
   "clot": {
     "definition": "A thrombus, solidified mass of blood.",
     "partOfSpeech": "noun"
@@ -1426,6 +1434,8 @@
     "definition": "To become foggy or gloomy, or obscured from sight.",
     "partOfSpeech": "verb"
   },
+  "clove": null,
+  "cloven": null,
   "club": {
     "definition": "An association of members joining together for some common purpose, especially sports or recreation.",
     "partOfSpeech": "noun"
@@ -1511,6 +1521,7 @@
     "definition": "A young woman who attends college.",
     "partOfSpeech": "noun"
   },
+  "coevolve": null,
   "coffee": {
     "definition": "A beverage made by infusing the beans of the coffee plant in hot water.",
     "partOfSpeech": "noun"
@@ -1546,12 +1557,14 @@
     "definition": "Severe pains that grip the abdomen or the disease that causes such pains (due to intestinal or bowel-related problems).",
     "partOfSpeech": "noun"
   },
+  "colleen": null,
   "collude": {
     "definition": "To act in concert with; to conspire",
     "partOfSpeech": "verb"
   },
   "colluded": null,
   "colon": null,
+  "colonel": null,
   "colony": {
     "definition": "A governmental unit created on land of another country owned by colonists from a country.",
     "partOfSpeech": "noun"
@@ -1564,9 +1577,12 @@
   "comic": null,
   "comma": null,
   "commit": null,
+  "concave": null,
+  "conceal": null,
   "concede": null,
   "conceded": null,
   "conch": null,
+  "conclave": null,
   "concoct": null,
   "concocted": null,
   "condo": null,
@@ -1598,6 +1614,8 @@
   "contented": null,
   "contort": null,
   "contour": null,
+  "convene": null,
+  "convo": null,
   "cooed": null,
   "cool": {
     "definition": "A moderate or refreshing state of cold; moderate temperature of the air between hot and cold; coolness.",
@@ -1637,6 +1655,9 @@
     "partOfSpeech": "noun"
   },
   "court": null,
+  "covalence": null,
+  "cove": null,
+  "coven": null,
   "crab": {
     "definition": "A crustacean of the infraorder Brachyura, having five pairs of legs, the foremost of which are in the form of claws, and a carapace.",
     "partOfSpeech": "noun"
@@ -2384,6 +2405,7 @@
   },
   "enby": null,
   "enchain": null,
+  "enclave": null,
   "encode": null,
   "encoded": null,
   "ended": {
@@ -3716,6 +3738,7 @@
   "labia": null,
   "labial": null,
   "labor": null,
+  "lace": null,
   "lactic": null,
   "lade": null,
   "laded": null,
@@ -4019,6 +4042,7 @@
     "definition": "A person who lives near a given place.",
     "partOfSpeech": "noun"
   },
+  "locale": null,
   "loch": {
     "definition": "A lake.",
     "partOfSpeech": "noun"
@@ -4919,6 +4943,7 @@
     "partOfSpeech": "verb"
   },
   "occur": null,
+  "ocean": null,
   "octal": {
     "definition": "The number system that uses the eight digits 0, 1, 2, 3, 4, 5, 6, 7.",
     "partOfSpeech": "noun"
@@ -6374,6 +6399,8 @@
     "definition": "Overly proud of oneself, especially concerning appearance; having a high opinion of one's own accomplishments with slight reason.",
     "partOfSpeech": "adjective"
   },
+  "valance": null,
+  "valence": null,
   "valiant": {
     "definition": "A person who acts with valor, showing hero-like characteristics in the midst of danger.",
     "partOfSpeech": "noun"
@@ -6497,7 +6524,9 @@
     "definition": "In a vivid manner.",
     "partOfSpeech": "adverb"
   },
+  "vocal": null,
   "voila": null,
+  "volcano": null,
   "vole": {
     "definition": "Any of a large number of species of small rodents of the subfamily Arvicolinae of the family Cricetidae which are not lemmings or muskrats.",
     "partOfSpeech": "noun"
