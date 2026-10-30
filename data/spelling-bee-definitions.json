@@ -137,11 +137,15 @@
     "partOfSpeech": "noun"
   },
   "afro": null,
+  "again": null,
   "agape": null,
   "agar": {
     "definition": "A gelatinous material obtained from red algae, especially Gracilaria species, used as a bacterial culture medium, in electrophoresis and as a food additive.",
     "partOfSpeech": "noun"
   },
+  "aging": null,
+  "agita": null,
+  "agitating": null,
   "agog": {
     "definition": "In eager desire, eager, astir.",
     "partOfSpeech": "adjective"
@@ -253,6 +257,7 @@
   "android": null,
   "anemia": null,
   "anemic": null,
+  "angina": null,
   "angora": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
@@ -457,6 +462,7 @@
     "definition": "To gain (an object or desired result).",
     "partOfSpeech": "verb"
   },
+  "attaining": null,
   "attar": {
     "definition": "An essential oil extracted from flowers.",
     "partOfSpeech": "noun"
@@ -474,6 +480,8 @@
     "partOfSpeech": "verb"
   },
   "attractor": null,
+  "attuning": null,
+  "aught": null,
   "augur": {
     "definition": "A diviner who foretells events by the behaviour of birds or other animals, or by signs derived from celestial phenomena, or unusual occurrences.",
     "partOfSpeech": "noun"
@@ -2774,6 +2782,10 @@
     "partOfSpeech": "adjective"
   },
   "gage": null,
+  "gagging": null,
+  "gain": null,
+  "gaining": null,
+  "gait": null,
   "gala": {
     "definition": "Pomp, show, or festivity.",
     "partOfSpeech": "noun"
@@ -2796,7 +2808,12 @@
     "definition": "The third letter of the Greek alphabet (Γ, γ), preceded by beta (Β, β) and followed by delta, (Δ, δ).",
     "partOfSpeech": "noun"
   },
+  "gang": null,
+  "ganging": null,
   "gape": null,
+  "gating": null,
+  "gauging": null,
+  "gaunt": null,
   "geek": {
     "definition": "A carnival performer specializing in bizarre and unappetizing behavior.",
     "partOfSpeech": "noun"
@@ -2832,6 +2849,7 @@
     "definition": "An (often walled) area of a city in which Jews are concentrated by force and law. (Used particularly of areas in medieval Italy and in Nazi-controlled Europe.)",
     "partOfSpeech": "noun"
   },
+  "giant": null,
   "gibbon": null,
   "gibe": null,
   "gibed": null,
@@ -2915,6 +2933,7 @@
     "definition": "Despondent; moody; sullen",
     "partOfSpeech": "adjective"
   },
+  "gnat": null,
   "goal": {
     "definition": "A result that one is attempting to achieve.",
     "partOfSpeech": "noun"
@@ -3085,6 +3104,8 @@
     "definition": "To touch; to feel or hold with the hand(s).",
     "partOfSpeech": "verb"
   },
+  "hang": null,
+  "hanging": null,
   "happen": null,
   "happy": null,
   "hardhat": {
@@ -3121,12 +3142,15 @@
     "partOfSpeech": "verb"
   },
   "hatha": null,
+  "hating": null,
   "hatrack": {
     "definition": "A piece of furniture used to store hats and clothing, consisting of a pole with pegs on a moderately broad base; a hatstand.",
     "partOfSpeech": "noun"
   },
   "haul": null,
   "hauled": null,
+  "haunt": null,
+  "haunting": null,
   "hayfork": {
     "definition": "A tool used for moving hay; a pitchfork.",
     "partOfSpeech": "noun"
@@ -3388,6 +3412,7 @@
     "definition": "The act of igniting.",
     "partOfSpeech": "noun"
   },
+  "iguana": null,
   "ileum": {
     "definition": "The last, and usually the longest, division of the small intestine; the part between the jejunum and large intestine.",
     "partOfSpeech": "noun"
@@ -3528,6 +3553,7 @@
   "inimical": null,
   "inimically": null,
   "initial": null,
+  "initiating": null,
   "initiation": {
     "definition": "The act of initiating, or the process of being initiated or introduced",
     "partOfSpeech": "noun"
@@ -4648,6 +4674,7 @@
     "partOfSpeech": "pronoun"
   },
   "nadir": null,
+  "nagging": null,
   "naiad": null,
   "naif": {
     "definition": "One who is naive.",
@@ -4699,6 +4726,7 @@
     "definition": "Smart and fashionable.",
     "partOfSpeech": "adjective"
   },
+  "naught": null,
   "naval": {
     "definition": "Of or relating to a navy.",
     "partOfSpeech": "adjective"
@@ -5723,7 +5751,9 @@
     "partOfSpeech": "noun"
   },
   "tactile": null,
+  "tagging": null,
   "tahini": null,
+  "taiga": null,
   "tail": null,
   "tailcoat": {
     "definition": "A formal evening jacket with an extended back panel; a dress coat.",
@@ -5735,6 +5765,7 @@
     "definition": "A contamination, decay or putrefaction, especially in food",
     "partOfSpeech": "noun"
   },
+  "tainting": null,
   "talent": {
     "definition": "A marked natural ability or skill.",
     "partOfSpeech": "noun"
@@ -5753,6 +5784,7 @@
     "partOfSpeech": "verb"
   },
   "tandoor": null,
+  "tang": null,
   "tannic": {
     "definition": "Pertaining to, containing, or obtained from tannin.",
     "partOfSpeech": "adjective"
@@ -5761,6 +5793,7 @@
     "definition": "Tannic acid or any of its derivatives.",
     "partOfSpeech": "noun"
   },
+  "tanning": null,
   "tantalum": null,
   "tantara": null,
   "tantra": null,
@@ -5799,6 +5832,7 @@
     "definition": "Straw matting, in a standard size, used as a floor covering in Japanese houses",
     "partOfSpeech": "noun"
   },
+  "tatting": null,
   "tattoo": {
     "definition": "An image made in the skin with ink and a needle.",
     "partOfSpeech": "noun"
@@ -5807,7 +5841,9 @@
     "definition": "Potato",
     "partOfSpeech": "noun"
   },
+  "taught": null,
   "taunt": null,
+  "taunting": null,
   "taut": null,
   "taxation": null,
   "taxon": null,
@@ -6330,6 +6366,8 @@
   "unhand": null,
   "unhanded": null,
   "unhandled": null,
+  "unhang": null,
+  "unhanging": null,
   "unhealed": null,
   "unheeded": null,
   "unhood": {
@@ -6369,6 +6407,9 @@
   "unrig": null,
   "unrigging": null,
   "unroll": null,
+  "untag": null,
+  "untagging": null,
+  "untaught": null,
   "unthought": {
     "definition": "To undo the process of thinking.",
     "partOfSpeech": "verb"

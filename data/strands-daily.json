@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T04:06:05.904Z",
+  "lastUpdated": "2026-10-30T04:06:09.293Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24337,6 +24337,31 @@
         "REKPER",
         "NAREGY",
         "TPSNER"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "id": 972,
+      "editor": "Tracy Bennett",
+      "clue": "It's in the bag",
+      "spangram": "TRICKORTREAT",
+      "themeWords": [
+        "APPLE",
+        "CANDY",
+        "FANGS",
+        "RING",
+        "STICKER",
+        "TOOTHBRUSH"
+      ],
+      "board": [
+        "NAERPP",
+        "DCSKAL",
+        "TYTICE",
+        "RTREAT",
+        "ICRANG",
+        "OTKOFS",
+        "OTGNIR",
+        "HBRUSH"
       ]
     }
   ]
