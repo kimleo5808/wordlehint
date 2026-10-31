@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T04:06:09.293Z",
+  "lastUpdated": "2026-10-31T04:06:04.172Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24362,6 +24362,32 @@
         "OTKOFS",
         "OTGNIR",
         "HBRUSH"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": 973,
+      "editor": "Tracy Bennett",
+      "clue": "For the rest of the day",
+      "spangram": "ZZZZZZZZ",
+      "themeWords": [
+        "CATNAP",
+        "DOZE",
+        "DROWSE",
+        "SIESTA",
+        "SLEEP",
+        "SLUMBER",
+        "SNOOZE"
+      ],
+      "board": [
+        "SZCASE",
+        "ELZTNZ",
+        "EZPNOO",
+        "PRZAIS",
+        "MBEZEA",
+        "ULZDST",
+        "EDSZRE",
+        "ZOZOWS"
       ]
     }
   ]

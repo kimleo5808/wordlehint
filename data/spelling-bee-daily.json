@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T04:06:10.229Z",
+  "lastUpdated": "2026-10-31T04:06:04.881Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66160,6 +66160,52 @@
         "untag",
         "untagging",
         "untaught"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-01",
+      "id": 13293,
+      "centerLetter": "e",
+      "outerLetters": [
+        "f",
+        "g",
+        "i",
+        "o",
+        "p",
+        "t"
+      ],
+      "pangrams": [
+        "pettifog"
+      ],
+      "answers": [
+        "effete",
+        "epee",
+        "feet",
+        "fete",
+        "fief",
+        "fife",
+        "footie",
+        "ogee",
+        "peep",
+        "petit",
+        "petite",
+        "pettifog",
+        "pipe",
+        "pipet",
+        "pipette",
+        "poet",
+        "pope",
+        "poppet",
+        "potpie",
+        "teepee",
+        "teff",
+        "tepee",
+        "tippet",
+        "tiptoe",
+        "toffee",
+        "tope",
+        "tote"
       ],
       "editor": "Sam Ezersky"
     }

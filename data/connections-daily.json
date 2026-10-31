@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T04:06:08.528Z",
+  "lastUpdated": "2026-10-31T04:06:03.254Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58183,6 +58183,53 @@
             "SHAKESPEARE",
             "SITCOM",
             "STAYCATION"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "id": 1239,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "KINDS OF TEETH",
+          "words": [
+            "BICUSPID",
+            "CANINE",
+            "INCISOR",
+            "MOLAR"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF LOVE",
+          "words": [
+            "BROTHERLY",
+            "PUPPY",
+            "SELF",
+            "UNREQUITED"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ENTHUSIAST",
+          "words": [
+            "FIEND",
+            "HEAD",
+            "HOUND",
+            "LOVER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SYNONYMS FOR \"SOAKED\" WITH FIRST LETTER CHANGED",
+          "words": [
+            "DOGGY",
+            "MATURATED",
+            "TRENCHED",
+            "TRIPPING"
           ]
         }
       ]

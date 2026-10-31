@@ -2308,6 +2308,7 @@
     "partOfSpeech": "verb"
   },
   "eely": null,
+  "effete": null,
   "egged": {
     "definition": "To throw eggs at.",
     "partOfSpeech": "verb"
@@ -2579,6 +2580,7 @@
     "definition": "A quality of an object experienced by touch.",
     "partOfSpeech": "noun"
   },
+  "feet": null,
   "felid": null,
   "feline": null,
   "fell": null,
@@ -2600,6 +2602,7 @@
     "partOfSpeech": "verb"
   },
   "fennel": null,
+  "fete": null,
   "feud": {
     "definition": "A state of long-standing mutual hostility.",
     "partOfSpeech": "noun"
@@ -2740,6 +2743,7 @@
     "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life.",
     "partOfSpeech": "noun"
   },
+  "footie": null,
   "fora": null,
   "foray": {
     "definition": "A sudden or irregular incursion in border warfare; hence, any irregular incursion for war or spoils; a raid.",
@@ -5261,6 +5265,7 @@
   "petit": null,
   "petite": null,
   "petted": null,
+  "pettifog": null,
   "petty": null,
   "pewee": null,
   "pfft": null,
@@ -5381,6 +5386,7 @@
   "plow": null,
   "plowable": null,
   "podia": null,
+  "poet": null,
   "pogo": {
     "definition": "A dance associated with the 1970s punk rock movement in which participants jump up and down on the spot in the manner of someone riding a pogo stick.",
     "partOfSpeech": "noun"
@@ -5410,6 +5416,7 @@
   "popover": null,
   "poppa": null,
   "popped": null,
+  "poppet": null,
   "popping": null,
   "poppy": {
     "definition": "Any plant of the genus Papaver or the family Papaveraceae, with crumpled, often red, petals and a milky juice having narcotic properties; especially the common poppy or corn poppy (Papaver rhoeas) which has orange-red flowers; the flower of such a plant.",
@@ -5417,6 +5424,7 @@
   },
   "porn": null,
   "porno": null,
+  "potpie": null,
   "pour": {
     "definition": "The act of pouring.",
     "partOfSpeech": "noun"
@@ -5886,6 +5894,7 @@
     "definition": "To grow teeth.",
     "partOfSpeech": "verb"
   },
+  "teff": null,
   "telehealth": {
     "definition": "Healthcare facilitated by telecommunication technology.",
     "partOfSpeech": "noun"
@@ -6064,6 +6073,7 @@
   "tipi": null,
   "tipped": null,
   "tippet": null,
+  "tiptoe": null,
   "titan": {
     "definition": "Something or someone of very large stature, greatness, or godliness.",
     "partOfSpeech": "noun"
@@ -6095,6 +6105,7 @@
     "definition": "A piece of music (usually for a keyboard instrument) designed to emphasise the dexterity of the performer.",
     "partOfSpeech": "noun"
   },
+  "toffee": null,
   "togging": null,
   "toil": {
     "definition": "Labour, work, especially of a grueling nature.",
@@ -6157,6 +6168,7 @@
     "partOfSpeech": "noun"
   },
   "tooting": null,
+  "tope": null,
   "toric": null,
   "torn": {
     "definition": "To rend (a solid material) by holding or restraining in two places and pulling apart, whether intentionally or not; to destroy or separate.",
@@ -6179,6 +6191,7 @@
     "definition": "An amount obtained by the addition of smaller amounts.",
     "partOfSpeech": "noun"
   },
+  "tote": null,
   "toting": null,
   "tough": {
     "definition": "A person who obtains things by force; a thug or bully.",
