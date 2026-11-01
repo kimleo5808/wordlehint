@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T04:06:04.172Z",
+  "lastUpdated": "2026-11-01T04:06:16.108Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24388,6 +24388,32 @@
         "ULZDST",
         "EDSZRE",
         "ZOZOWS"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": 974,
+      "editor": "Tracy Bennett",
+      "clue": "High and mighty",
+      "spangram": "MOUNTAINTOP",
+      "themeWords": [
+        "CLIFF",
+        "GLACIER",
+        "PEAK",
+        "RIDGE",
+        "SADDLE",
+        "SNOW",
+        "SUMMIT"
+      ],
+      "board": [
+        "EUSIFP",
+        "LMMLFO",
+        "DIECNT",
+        "DTGAIW",
+        "ADNTKO",
+        "SIUANS",
+        "ROEREI",
+        "MPGLAC"
       ]
     }
   ]

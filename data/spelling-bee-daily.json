@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T04:06:04.881Z",
+  "lastUpdated": "2026-11-01T04:06:16.772Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66206,6 +66206,60 @@
         "toffee",
         "tope",
         "tote"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-02",
+      "id": 21387,
+      "centerLetter": "d",
+      "outerLetters": [
+        "a",
+        "c",
+        "e",
+        "t",
+        "v",
+        "x"
+      ],
+      "pangrams": [
+        "excavated"
+      ],
+      "answers": [
+        "accede",
+        "acceded",
+        "aced",
+        "acted",
+        "added",
+        "axed",
+        "cadet",
+        "caved",
+        "cede",
+        "ceded",
+        "data",
+        "date",
+        "dated",
+        "dead",
+        "decade",
+        "deed",
+        "deeded",
+        "detect",
+        "detected",
+        "eaved",
+        "evade",
+        "evaded",
+        "exacted",
+        "excavated",
+        "exceed",
+        "exceeded",
+        "tatted",
+        "taxed",
+        "teed",
+        "texted",
+        "vacated",
+        "vaxed",
+        "vaxxed",
+        "vetted",
+        "vexed"
       ],
       "editor": "Sam Ezersky"
     }

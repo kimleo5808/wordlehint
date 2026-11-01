@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T04:06:03.254Z",
+  "lastUpdated": "2026-11-01T04:06:15.498Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58230,6 +58230,53 @@
             "MATURATED",
             "TRENCHED",
             "TRIPPING"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "id": 1240,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "THINGS TO BRING ON A TREK",
+          "words": [
+            "BACKPACK",
+            "COMPASS",
+            "HIKING BOOTS",
+            "WATER BOTTLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "ANGER",
+          "words": [
+            "INCENSE",
+            "NETTLE",
+            "PIQUE",
+            "WIND UP"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "MIST MAKERS",
+          "words": [
+            "DRY ICE",
+            "FOG MACHINE",
+            "HUMIDIFIER",
+            "WATERFALL"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS WITH MIRRORS",
+          "words": [
+            "DISCO BALL",
+            "DRESSING ROOM",
+            "KALEIDOSCOPE",
+            "MEDICINE CABINET"
           ]
         }
       ]

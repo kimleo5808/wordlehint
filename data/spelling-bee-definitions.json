@@ -76,6 +76,7 @@
     "definition": "Sharp and harsh, or bitter and not to the taste.",
     "partOfSpeech": "adjective"
   },
+  "acted": null,
   "activity": {
     "definition": "The state or quality of being active; activeness.",
     "partOfSpeech": "noun"
@@ -517,6 +518,7 @@
   "avidity": null,
   "avidly": null,
   "await": null,
+  "axed": null,
   "axon": null,
   "baaed": {
     "definition": "To make the characteristic cry of a sheep.",
@@ -1050,6 +1052,7 @@
     "definition": "The act or state of declining or sinking.",
     "partOfSpeech": "noun"
   },
+  "cadet": null,
   "caiman": null,
   "cairn": {
     "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument.",
@@ -1800,6 +1803,8 @@
     "definition": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc.",
     "partOfSpeech": "noun"
   },
+  "date": null,
+  "dated": null,
   "daub": {
     "definition": "Excrement or clay used as a bonding material in construction.",
     "partOfSpeech": "noun"
@@ -2264,6 +2269,7 @@
     "definition": "To ingest; to be ingested.",
     "partOfSpeech": "verb"
   },
+  "eaved": null,
   "ebbed": {
     "definition": "To flow back or recede",
     "partOfSpeech": "verb"
@@ -2492,6 +2498,8 @@
   "etched": null,
   "ethic": null,
   "ethical": null,
+  "evade": null,
+  "evaded": null,
   "even": {
     "definition": "(diminutive) An even number.",
     "partOfSpeech": "noun"
@@ -2519,6 +2527,10 @@
     "definition": "To move in regular procession through a system.",
     "partOfSpeech": "verb"
   },
+  "exacted": null,
+  "excavated": null,
+  "exceed": null,
+  "exceeded": null,
   "excite": null,
   "exciting": null,
   "exec": null,
@@ -5840,6 +5852,7 @@
     "definition": "Straw matting, in a standard size, used as a floor covering in Japanese houses",
     "partOfSpeech": "noun"
   },
+  "tatted": null,
   "tatting": null,
   "tattoo": {
     "definition": "An image made in the skin with ink and a needle.",
@@ -5854,6 +5867,7 @@
   "taunting": null,
   "taut": null,
   "taxation": null,
+  "taxed": null,
   "taxon": null,
   "teach": {
     "definition": "To show (someone) the way; to guide, conduct; to point, indicate.",
@@ -5872,6 +5886,7 @@
   },
   "techie": null,
   "techno": null,
+  "teed": null,
   "teeing": null,
   "teem": {
     "definition": "To be stocked to overflowing.",
@@ -5932,6 +5947,7 @@
   "tepee": null,
   "tepid": null,
   "text": null,
+  "texted": null,
   "texting": null,
   "than": null,
   "that": {
@@ -6436,6 +6452,7 @@
     "definition": "Pertaining to, contained in, or obtained from urine.",
     "partOfSpeech": "adjective"
   },
+  "vacated": null,
   "vaccine": null,
   "vagal": {
     "definition": "Of or relating to the vagus nerve.",
@@ -6481,6 +6498,8 @@
     "definition": "That which is vain, futile, or worthless; that which is of no value, use or profit.",
     "partOfSpeech": "noun"
   },
+  "vaxed": null,
+  "vaxxed": null,
   "veep": {
     "definition": "(US politics) The Vice President of the United States; the office of Vice President of the United States, especially during an election cycle where several are in the running for the nomination.",
     "partOfSpeech": "noun"
@@ -6513,7 +6532,9 @@
   },
   "veto": null,
   "vetoing": null,
+  "vetted": null,
   "vetting": null,
+  "vexed": null,
   "vial": {
     "definition": "A glass vessel or bottle, especially a small tube-shaped bottle used to store medicine, perfume or other chemical.",
     "partOfSpeech": "noun"
