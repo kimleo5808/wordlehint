@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T04:06:16.772Z",
+  "lastUpdated": "2026-11-02T05:06:07.837Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66260,6 +66260,76 @@
         "vaxxed",
         "vetted",
         "vexed"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-03",
+      "id": 10512,
+      "centerLetter": "c",
+      "outerLetters": [
+        "a",
+        "b",
+        "i",
+        "k",
+        "l",
+        "t"
+      ],
+      "pangrams": [
+        "backlit",
+        "clickbait",
+        "tailback"
+      ],
+      "answers": [
+        "abaci",
+        "aback",
+        "acacia",
+        "acai",
+        "alack",
+        "attack",
+        "attic",
+        "bacilli",
+        "back",
+        "backbit",
+        "backlit",
+        "backtalk",
+        "biblical",
+        "black",
+        "blackball",
+        "cabal",
+        "cabala",
+        "cacti",
+        "call",
+        "calla",
+        "callback",
+        "catcall",
+        "cattail",
+        "ciabatta",
+        "cilia",
+        "clack",
+        "click",
+        "clickbait",
+        "iliac",
+        "illicit",
+        "italic",
+        "kick",
+        "kickback",
+        "kickball",
+        "lack",
+        "lactic",
+        "laic",
+        "laical",
+        "licit",
+        "lick",
+        "lilac",
+        "tacit",
+        "tack",
+        "tact",
+        "tactic",
+        "tactical",
+        "tailback",
+        "talc",
+        "tick"
       ],
       "editor": "Sam Ezersky"
     }

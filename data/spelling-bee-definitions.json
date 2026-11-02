@@ -1,5 +1,6 @@
 {
   "abaci": null,
+  "aback": null,
   "abandon": {
     "definition": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
     "partOfSpeech": "verb"
@@ -172,6 +173,7 @@
   "airily": null,
   "airmail": null,
   "airplay": null,
+  "alack": null,
   "album": null,
   "alcohol": {
     "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
@@ -540,6 +542,10 @@
   "bacchanalia": null,
   "bacchanalian": null,
   "bacilli": null,
+  "back": null,
+  "backbit": null,
+  "backlit": null,
+  "backtalk": null,
   "backtrack": {
     "definition": "The act of backtracking",
     "partOfSpeech": "noun"
@@ -774,6 +780,8 @@
   "bitumen": null,
   "blab": null,
   "blabby": null,
+  "black": null,
+  "blackball": null,
   "blah": null,
   "blam": null,
   "blat": null,
@@ -1029,6 +1037,8 @@
     "partOfSpeech": "noun"
   },
   "buttoning": null,
+  "cabal": null,
+  "cabala": null,
   "cabin": null,
   "cacao": {
     "definition": "A tree, Theobroma cacao, whose seed is used to make chocolate.",
@@ -1071,6 +1081,7 @@
     "definition": "Any of various tropical plants grown in the Americas, especially of the genus Xanthosoma, cultivated for their edible leaves.",
     "partOfSpeech": "noun"
   },
+  "callback": null,
   "calve": null,
   "cami": null,
   "camo": null,
@@ -1185,6 +1196,7 @@
     "partOfSpeech": "noun"
   },
   "catbird": null,
+  "catcall": null,
   "catch": {
     "definition": "The act of seizing or capturing.",
     "partOfSpeech": "noun"
@@ -1342,6 +1354,7 @@
   },
   "chunked": null,
   "churro": null,
+  "ciabatta": null,
   "ciao": {
     "definition": "A greeting or farewell using the word \"ciao\".",
     "partOfSpeech": "noun"
@@ -1367,6 +1380,7 @@
     "definition": "Of, relating to, or belonging to a city, a citizen, or citizenship; municipal or civil.",
     "partOfSpeech": "adjective"
   },
+  "clack": null,
   "clan": {
     "definition": "A group of people all descended from a common ancestor, in fact or belief.",
     "partOfSpeech": "noun"
@@ -1392,6 +1406,8 @@
     "partOfSpeech": "verb"
   },
   "cliche": null,
+  "click": null,
+  "clickbait": null,
   "client": {
     "definition": "A customer, a buyer or receiver of goods or services.",
     "partOfSpeech": "noun"
@@ -3724,6 +3740,8 @@
   "khaki": null,
   "kibble": null,
   "kick": null,
+  "kickback": null,
+  "kickball": null,
   "kicked": null,
   "kidded": null,
   "kiddie": null,
@@ -3781,6 +3799,7 @@
   "labial": null,
   "labor": null,
   "lace": null,
+  "lack": null,
   "lactic": null,
   "lade": null,
   "laded": null,
@@ -3954,6 +3973,7 @@
   "libido": null,
   "lice": null,
   "licit": null,
+  "lick": null,
   "lidded": null,
   "lied": null,
   "liege": null,
@@ -5775,6 +5795,7 @@
   "tahini": null,
   "taiga": null,
   "tail": null,
+  "tailback": null,
   "tailcoat": {
     "definition": "A formal evening jacket with an extended back panel; a dress coat.",
     "partOfSpeech": "noun"
@@ -5786,6 +5807,7 @@
     "partOfSpeech": "noun"
   },
   "tainting": null,
+  "talc": null,
   "talent": {
     "definition": "A marked natural ability or skill.",
     "partOfSpeech": "noun"
