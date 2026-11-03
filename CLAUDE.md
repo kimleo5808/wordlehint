@@ -14,8 +14,9 @@
 - **i18n:** next-intl — currently **English only** (`LOCALES = ['en']`, `localePrefix: 'as-needed'`, so URLs have no `/en` prefix in practice)
 - **Content:** MDX via `next-mdx-remote-client` + `gray-matter` (blog posts, legal pages)
 - **State:** plain React state — `useReducer` `gameReducer`s in the Connections / Strands / Spelling Bee unlimited games, `useState` elsewhere; `js-cookie` for spoiler/hint preferences
-- **Deploy:** Cloudflare Workers via OpenNext (`@opennextjs/cloudflare`), `wrangler`
-- **Package manager:** pnpm 10.12.4, Node 20.x
+- **Deploy:** Cloudflare Workers via OpenNext (`@opennextjs/cloudflare`), `wrangler`. Prerendered pages are served from **Workers static assets** (`staticAssetsIncrementalCache`, read-only — no R2). Don't switch back to the R2 cache: its per-page API uploads (~1,700/deploy) hit the account-wide 1,200-requests/5-min limit whenever the sister sites deploy at the same time
+- **Fonts:** all self-hosted with `next/font/local` (`app/fonts/site.ts`, `app/fonts/newsprint.ts`). Never use `next/font/google`: Google randomly serves `/l/font?kit=…` URLs that Turbopack can't parse, which breaks CI builds
+- **Package manager:** pnpm 10.12.4, Node 22 in CI (pinned in the deploy workflow; `engines` is `>=22`)
 - **Analytics:** optional GA / AdSense / Baidu / Plausible (env-driven). No Vercel Analytics — its `/_vercel/insights` endpoint doesn't exist on Cloudflare
 
 ## Scripts

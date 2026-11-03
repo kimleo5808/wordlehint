@@ -39,6 +39,27 @@ jobs:
           git fetch --depth=1 origin "${GITHUB_SHA}"
           git checkout FETCH_HEAD
 
+      # Pin Node instead of taking whatever the runner image ships: ubuntu-latest
+      # is moving to Ubuntu 26 and already hands out Node 22 or newer. Plain
+      # shell rather than actions/setup-node — this workflow avoids external
+      # actions. If nodejs.org is unreachable, warn and keep the runner's Node
+      # so the daily deploy still goes out.
+      - name: Setup Node.js
+        run: |
+          NODE_MAJOR=22
+          cd "$RUNNER_TEMP"
+          base="https://nodejs.org/dist/latest-v${NODE_MAJOR}.x"
+          if curl -fsSL --retry 3 -o SHASUMS256.txt "$base/SHASUMS256.txt" \
+            && tarball=$(grep -oE "node-v[0-9.]+-linux-x64\.tar\.xz" SHASUMS256.txt | head -1) \
+            && curl -fsSL --retry 3 -o "$tarball" "$base/$tarball" \
+            && grep " ${tarball}\$" SHASUMS256.txt | sha256sum -c --quiet -; then
+            mkdir -p node
+            tar -xJf "$tarball" -C node --strip-components=1
+            echo "$RUNNER_TEMP/node/bin" >> "$GITHUB_PATH"
+          else
+            echo "::warning::Could not download Node ${NODE_MAJOR}; using the runner's $(node --version)"
+          fi
+
       - name: Setup pnpm
         run: |
           node --version
@@ -96,8 +117,10 @@ jobs:
       - name: Check for unreleased puzzle leaks
         run: node scripts/check-future-leak.mjs
 
-      # Cloudflare's API sometimes answers the R2 cache upload with a 502;
-      # the deploy is idempotent, so retry before giving up.
+      # Prerendered pages ship as Workers static assets (open-next.config.ts),
+      # uploaded in a few batched requests. Cloudflare's API still has the odd
+      # 5xx; the deploy is idempotent and assets already uploaded are kept,
+      # so a retry resumes rather than starting over.
       - name: Deploy with OpenNext
         run: |
           for attempt in 1 2 3; do

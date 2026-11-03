@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "packageManager": "pnpm@10.12.4",
   "engines": {
-    "node": "20.x"
+    "node": ">=22"
   },
   "scripts": {
     "build": "node scripts/generate-date-page-images.mjs && node scripts/generate-pips-archive.mjs && node scripts/generate-connections-word-index.mjs && next build",
