@@ -1,37 +1,7 @@
 import { cn } from "@/lib/utils";
-import { fraunces } from "@/app/fonts/fraunces";
-import { Newsreader, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
+import { fraunces, newsreader, plexMono, plexSans } from "@/app/fonts/newsprint";
 
-/**
- * Editorial Newsprint font stack — only loaded on /wordle-unlimited.
- * Total woff2 size budget: ≤ 180 KB.
- *
- *  - Fraunces      → display (H1, H2, drop cap, pull quote)
- *  - Newsreader    → body paragraphs
- *  - IBM Plex Mono → stats badges, data tables, captions
- *  - IBM Plex Sans → keyboard caps, UI labels
- */
-
-const newsreader = Newsreader({
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
-  variable: "--font-newsreader",
-  display: "swap",
-});
-
-const plexMono = IBM_Plex_Mono({
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
-  variable: "--font-plex-mono",
-  display: "swap",
-});
-
-const plexSans = IBM_Plex_Sans({
-  weight: ["400", "500"],
-  subsets: ["latin"],
-  variable: "--font-plex-sans",
-  display: "swap",
-});
+/** Editorial Newsprint font stack (see app/fonts/newsprint.ts). */
 
 export default function WordleUnlimitedLayout({
   children,
