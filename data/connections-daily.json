@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T05:06:06.219Z",
+  "lastUpdated": "2026-11-03T05:06:07.039Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58324,6 +58324,53 @@
             "INTERVIEW",
             "PROFILE",
             "WHELP"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "id": 1242,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TRIANGULAR PRISMS WITH A SHARP EDGE",
+          "words": [
+            "DOORSTOP",
+            "FLATIRON BUILDING",
+            "PIE SLICE",
+            "WEDGE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WORDS AFTER \"DO NOT\" ON A CARE LABEL",
+          "words": [
+            "BLEACH",
+            "IRON",
+            "TUMBLE DRY",
+            "WRING"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "MOVE IDLY, WITH \"AROUND\"",
+          "words": [
+            "LOLL",
+            "POKE",
+            "PUTTER",
+            "SHUFFLE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "FIRE___",
+          "words": [
+            "CRACKER",
+            "FLY",
+            "WOOD",
+            "WORKS"
           ]
         }
       ]

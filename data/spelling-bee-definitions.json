@@ -446,8 +446,10 @@
   "atom": null,
   "atomic": null,
   "atomization": null,
+  "atop": null,
   "atria": null,
   "atrial": null,
+  "atrophy": null,
   "attach": {
     "definition": "To fasten, to join to (literally and figuratively).",
     "partOfSpeech": "verb"
@@ -3351,6 +3353,7 @@
   "hoodoo": null,
   "hooey": null,
   "hooky": null,
+  "hoop": null,
   "hooping": null,
   "hoorah": null,
   "hooray": null,
@@ -3360,6 +3363,7 @@
   },
   "hoping": null,
   "hopping": null,
+  "hoppy": null,
   "hora": {
     "definition": "A circle dance popular in the Balkans, Israel and Yiddish culture worldwide.",
     "partOfSpeech": "noun"
@@ -3372,10 +3376,12 @@
     "definition": "An intense distressing emotion of fear or repugnance.",
     "partOfSpeech": "noun"
   },
+  "hortatory": null,
   "hotel": {
     "definition": "A large town house or mansion; a grand private residence, especially in France.",
     "partOfSpeech": "noun"
   },
+  "hotpot": null,
   "hound": {
     "definition": "A dog, particularly a breed with a good sense of smell developed for hunting other animals.",
     "partOfSpeech": "noun"
@@ -3416,6 +3422,7 @@
   "hymen": null,
   "hymn": null,
   "hype": null,
+  "hypo": null,
   "iamb": null,
   "iambi": null,
   "ibex": null,
@@ -5223,8 +5230,10 @@
   "paradrop": null,
   "paragon": null,
   "paranoid": null,
+  "paratroop": null,
   "pardon": null,
   "parlay": null,
+  "parrot": null,
   "part": null,
   "partial": null,
   "partita": null,
@@ -5301,10 +5310,12 @@
   "petty": null,
   "pewee": null,
   "pfft": null,
+  "pharaoh": null,
   "phoning": {
     "definition": "To call (someone) using a telephone.",
     "partOfSpeech": "verb"
   },
+  "photo": null,
   "pica": null,
   "piccata": null,
   "piddly": null,
@@ -5433,6 +5444,7 @@
   "pone": null,
   "pong": null,
   "ponied": null,
+  "pooh": null,
   "pool": null,
   "poop": {
     "definition": "Fecal matter, feces.",
@@ -5456,7 +5468,11 @@
   },
   "porn": null,
   "porno": null,
+  "port": null,
+  "portray": null,
+  "potato": null,
   "potpie": null,
+  "potty": null,
   "pour": {
     "definition": "The act of pouring.",
     "partOfSpeech": "noun"
@@ -5606,7 +5622,9 @@
   },
   "rapid": null,
   "rapidly": null,
+  "rapport": null,
   "rapt": null,
+  "raptor": null,
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
@@ -5847,6 +5865,7 @@
   "tape": null,
   "tapir": null,
   "tappet": null,
+  "taproot": null,
   "tarmac": null,
   "taro": {
     "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
@@ -6021,6 +6040,8 @@
     "definition": "To ponder, to go over in one's head.",
     "partOfSpeech": "verb"
   },
+  "throat": null,
+  "throaty": null,
   "thug": {
     "definition": "Someone with an intimidating and unseemly appearance and mannerisms, who treats others violently and roughly, often for hire.",
     "partOfSpeech": "noun"
@@ -6205,8 +6226,10 @@
     "definition": "A pain or ache in a tooth.",
     "partOfSpeech": "noun"
   },
+  "toothy": null,
   "tooting": null,
   "tope": null,
+  "torah": null,
   "toric": null,
   "torn": {
     "definition": "To rend (a solid material) by holding or restraining in two places and pulling apart, whether intentionally or not; to destroy or separate.",
@@ -6220,6 +6243,7 @@
     "definition": "A traditional Japanese lantern.",
     "partOfSpeech": "noun"
   },
+  "torpor": null,
   "tort": {
     "definition": "An injury or wrong.",
     "partOfSpeech": "noun"
@@ -6290,10 +6314,13 @@
   "trivia": null,
   "trivial": null,
   "trod": null,
+  "troop": null,
+  "trophy": null,
   "trot": {
     "definition": "Any of several animals related to Equus ferus caballus.",
     "partOfSpeech": "noun"
   },
+  "troth": null,
   "troubadour": {
     "definition": "An itinerant composer and performer of songs in medieval Europe; a jongleur or travelling minstrel.",
     "partOfSpeech": "noun"
@@ -6357,6 +6384,7 @@
   },
   "tying": null,
   "type": null,
+  "typo": null,
   "tyro": {
     "definition": "A beginner; a novice.",
     "partOfSpeech": "noun"
