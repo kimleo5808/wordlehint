@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T05:06:08.282Z",
+  "lastUpdated": "2026-11-04T05:06:09.067Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66417,6 +66417,67 @@
         "tyro",
         "yahoo",
         "yoohoo"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-05",
+      "id": 20881,
+      "centerLetter": "p",
+      "outerLetters": [
+        "g",
+        "i",
+        "n",
+        "o",
+        "t",
+        "v"
+      ],
+      "pangrams": [
+        "pivoting"
+      ],
+      "answers": [
+        "goop",
+        "nipping",
+        "opining",
+        "opinion",
+        "opting",
+        "option",
+        "optioning",
+        "pigging",
+        "ping",
+        "pinging",
+        "pining",
+        "pinion",
+        "pinioning",
+        "pinning",
+        "pinot",
+        "pinpoint",
+        "pinpointing",
+        "pint",
+        "pinto",
+        "piping",
+        "pipit",
+        "pippin",
+        "piton",
+        "pitting",
+        "pivot",
+        "pivoting",
+        "pogo",
+        "pogoing",
+        "point",
+        "pointing",
+        "pong",
+        "pontoon",
+        "poop",
+        "pooping",
+        "popping",
+        "potion",
+        "potting",
+        "tipi",
+        "tipping",
+        "tiptop",
+        "toping",
+        "topping"
       ],
       "editor": "Sam Ezersky"
     }

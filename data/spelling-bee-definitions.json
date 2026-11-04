@@ -5106,6 +5106,9 @@
     "definition": "The best of its kind",
     "partOfSpeech": "noun"
   },
+  "opting": null,
+  "option": null,
+  "optioning": null,
   "oral": null,
   "orally": null,
   "orang": null,
@@ -5385,8 +5388,12 @@
     "partOfSpeech": "verb"
   },
   "pinniped": null,
+  "pinot": null,
+  "pinpoint": null,
+  "pinpointing": null,
   "pint": null,
   "pintail": null,
+  "pinto": null,
   "pipe": null,
   "piped": null,
   "pipet": null,
@@ -5408,7 +5415,11 @@
   "pitfall": null,
   "pith": null,
   "pitied": null,
+  "piton": null,
   "pitted": null,
+  "pitting": null,
+  "pivot": null,
+  "pivoting": null,
   "plaid": null,
   "plaint": null,
   "plaintiff": null,
@@ -5435,6 +5446,8 @@
     "partOfSpeech": "noun"
   },
   "pogoing": null,
+  "point": null,
+  "pointing": null,
   "pole": null,
   "poll": null,
   "polo": null,
@@ -5444,6 +5457,7 @@
   "pone": null,
   "pong": null,
   "ponied": null,
+  "pontoon": null,
   "pooh": null,
   "pool": null,
   "poop": {
@@ -5471,7 +5485,9 @@
   "port": null,
   "portray": null,
   "potato": null,
+  "potion": null,
   "potpie": null,
+  "potting": null,
   "potty": null,
   "pour": {
     "definition": "The act of pouring.",
@@ -6132,7 +6148,9 @@
   "tipi": null,
   "tipped": null,
   "tippet": null,
+  "tipping": null,
   "tiptoe": null,
+  "tiptop": null,
   "titan": {
     "definition": "Something or someone of very large stature, greatness, or godliness.",
     "partOfSpeech": "noun"
@@ -6229,6 +6247,8 @@
   "toothy": null,
   "tooting": null,
   "tope": null,
+  "toping": null,
+  "topping": null,
   "torah": null,
   "toric": null,
   "torn": {

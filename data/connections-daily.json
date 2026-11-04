@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T05:06:07.039Z",
+  "lastUpdated": "2026-11-04T05:06:07.175Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58371,6 +58371,53 @@
             "FLY",
             "WOOD",
             "WORKS"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "id": 1243,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "KINDS OF HEELS",
+          "words": [
+            "KITTEN",
+            "PLATFORM",
+            "SPIKE",
+            "WEDGE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FLOWERS",
+          "words": [
+            "ANEMONE",
+            "LOTUS",
+            "NARCISSUS",
+            "ROSE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "TEARDROP-SHAPED THINGS",
+          "words": [
+            "PEAR",
+            "RAINDROP",
+            "SPEEDBAG",
+            "UVULA"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "LIQUORS WITH LAST LETTERS CHANGED",
+          "words": [
+            "BRANDO",
+            "GIG",
+            "RUN",
+            "WHISKER"
           ]
         }
       ]
