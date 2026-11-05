@@ -1463,6 +1463,7 @@
     "definition": "To become foggy or gloomy, or obscured from sight.",
     "partOfSpeech": "verb"
   },
+  "clout": null,
   "clove": null,
   "cloven": null,
   "club": {
@@ -1594,6 +1595,7 @@
   "colluded": null,
   "colon": null,
   "colonel": null,
+  "colonic": null,
   "colony": {
     "definition": "A governmental unit created on land of another country owned by colonists from a country.",
     "partOfSpeech": "noun"
@@ -1668,6 +1670,7 @@
     "partOfSpeech": "noun"
   },
   "cote": null,
+  "cotillion": null,
   "cotton": null,
   "cottoned": null,
   "couch": null,
@@ -1679,6 +1682,7 @@
     "definition": "A stream.",
     "partOfSpeech": "noun"
   },
+  "council": null,
   "count": {
     "definition": "The act of counting or tallying a quantity.",
     "partOfSpeech": "noun"
@@ -1756,6 +1760,8 @@
     "definition": "To pick or take someone or something (from a larger group).",
     "partOfSpeech": "verb"
   },
+  "cult": null,
+  "cultic": null,
   "curio": null,
   "curt": null,
   "curtain": {
@@ -4031,6 +4037,7 @@
   },
   "lining": null,
   "linnet": null,
+  "linocut": null,
   "lint": {
     "definition": "A fine material made by scraping cotton or linen cloth; used for dressing wounds.",
     "partOfSpeech": "noun"
@@ -4124,6 +4131,7 @@
     "definition": "A direction in written or printed music to be returning to the proper pitch after having played an octave higher or lower.",
     "partOfSpeech": "adverb"
   },
+  "locution": null,
   "logic": null,
   "logo": {
     "definition": "A visual symbol or emblem that acts as a trademark or a means of identification of a company or organization.",
@@ -4171,6 +4179,7 @@
     "definition": "A game of chance similar to bingo",
     "partOfSpeech": "noun"
   },
+  "lout": null,
   "love": {
     "definition": "Strong affection.",
     "partOfSpeech": "noun"
@@ -5013,6 +5022,7 @@
     "definition": "To obstruct, cover, or otherwise block (an opening, a portion of an image, etc.).",
     "partOfSpeech": "verb"
   },
+  "occult": null,
   "occur": null,
   "ocean": null,
   "octal": {
@@ -5020,6 +5030,8 @@
     "partOfSpeech": "noun"
   },
   "octet": null,
+  "octillion": null,
+  "oculi": null,
   "oddball": null,
   "oddly": {
     "definition": "In a peculiar manner; strangely; unusually.",
@@ -6425,6 +6437,8 @@
   },
   "uncheck": null,
   "unchecked": null,
+  "uncoil": null,
+  "uncool": null,
   "uncuff": null,
   "uncuffed": null,
   "uncut": null,
@@ -6491,6 +6505,7 @@
   "uniting": null,
   "unladen": null,
   "unleaded": null,
+  "unlit": null,
   "unman": null,
   "unmet": {
     "definition": "Not met; unfulfilled; not achieved",
@@ -6513,6 +6528,7 @@
     "definition": "To undo the process of thinking.",
     "partOfSpeech": "verb"
   },
+  "until": null,
   "unto": null,
   "untuning": null,
   "upbringing": null,

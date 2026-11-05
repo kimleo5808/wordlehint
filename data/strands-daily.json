@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T05:06:08.156Z",
+  "lastUpdated": "2026-11-05T05:06:05.020Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24487,6 +24487,32 @@
         "TENRDF",
         "DCIEHA",
         "ANKATI"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": 978,
+      "editor": "Tracy Bennett",
+      "clue": "Autumn walk in the woods",
+      "spangram": "FORESTFLOOR",
+      "themeWords": [
+        "ACORN",
+        "BRANCH",
+        "HUSK",
+        "LEAVES",
+        "MOSS",
+        "PINECONE",
+        "TWIG"
+      ],
+      "board": [
+        "FNGHCN",
+        "SORIAB",
+        "SHROWR",
+        "OMUECT",
+        "INSKSA",
+        "PESELT",
+        "ECEVAF",
+        "NOROOL"
       ]
     }
   ]

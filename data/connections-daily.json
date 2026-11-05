@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T05:06:07.175Z",
+  "lastUpdated": "2026-11-05T05:06:04.376Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58418,6 +58418,53 @@
             "GIG",
             "RUN",
             "WHISKER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "id": 1244,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "COMPOSITION",
+          "words": [
+            "CONSTITUTION",
+            "FABRIC",
+            "MAKEUP",
+            "STRUCTURE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "COPY",
+          "words": [
+            "BACKUP",
+            "EXTRA",
+            "REPLACEMENT",
+            "SPARE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "KINDS OF TRUCKS",
+          "words": [
+            "FLATBED",
+            "PICKUP",
+            "SEMI",
+            "TANKER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN PARTS OF THE EYE",
+          "words": [
+            "HOT ROD",
+            "OSIRIS",
+            "TRAFFIC CONE",
+            "WOOLENS"
           ]
         }
       ]

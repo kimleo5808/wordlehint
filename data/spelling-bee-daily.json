@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T05:06:09.067Z",
+  "lastUpdated": "2026-11-05T05:06:05.713Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66478,6 +66478,73 @@
         "tiptop",
         "toping",
         "topping"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-06",
+      "id": 23169,
+      "centerLetter": "l",
+      "outerLetters": [
+        "c",
+        "i",
+        "n",
+        "o",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "linocut",
+        "locution"
+      ],
+      "answers": [
+        "clinic",
+        "clot",
+        "clout",
+        "coil",
+        "colic",
+        "colon",
+        "colonic",
+        "colt",
+        "cool",
+        "cotillion",
+        "council",
+        "cull",
+        "cult",
+        "cultic",
+        "illicit",
+        "licit",
+        "lilt",
+        "linocut",
+        "lint",
+        "lion",
+        "loci",
+        "loco",
+        "locution",
+        "loin",
+        "loll",
+        "loon",
+        "loot",
+        "lotion",
+        "lotto",
+        "lout",
+        "lull",
+        "lulu",
+        "nonillion",
+        "null",
+        "occult",
+        "octillion",
+        "oculi",
+        "olio",
+        "till",
+        "tilt",
+        "toil",
+        "toll",
+        "tool",
+        "uncoil",
+        "uncool",
+        "unlit",
+        "until"
       ],
       "editor": "Sam Ezersky"
     }
