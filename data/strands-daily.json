@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T05:06:05.020Z",
+  "lastUpdated": "2026-11-06T05:06:07.208Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24513,6 +24513,32 @@
         "PESELT",
         "ECEVAF",
         "NOROOL"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "id": 979,
+      "editor": "Tracy Bennett",
+      "clue": "In the blink of an eye",
+      "spangram": "WHATSTHEHURRY",
+      "themeWords": [
+        "FLASH",
+        "HURTLE",
+        "RUSH",
+        "STREAK",
+        "WHIZ",
+        "WHOOSH",
+        "ZOOM"
+      ],
+      "board": [
+        "OOHSYR",
+        "SWRTWR",
+        "HTURHU",
+        "WLHEIH",
+        "HEAKZE",
+        "OATSTH",
+        "OZFLRH",
+        "MHSAUS"
       ]
     }
   ]

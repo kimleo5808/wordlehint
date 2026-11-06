@@ -161,6 +161,10 @@
     "definition": "An utterance of this interjection.",
     "partOfSpeech": "noun"
   },
+  "aide": null,
+  "aided": null,
+  "ailed": null,
+  "aimed": null,
   "aiming": {
     "definition": "To point or direct a missile, or a weapon which propels as missile, towards an object or spot with the intent of hitting it",
     "partOfSpeech": "verb"
@@ -198,8 +202,10 @@
   },
   "alibi": null,
   "alit": null,
+  "alive": null,
   "allay": null,
   "allayed": null,
+  "allied": null,
   "allot": {
     "definition": "To distribute or apportion by (or as if by) lot.",
     "partOfSpeech": "verb"
@@ -501,6 +507,7 @@
     "definition": "Effect in achieving a goal or aim; purpose, use (now usually in negative constructions).",
     "partOfSpeech": "noun"
   },
+  "availed": null,
   "availing": {
     "definition": "To turn to the advantage of.",
     "partOfSpeech": "verb"
@@ -1783,6 +1790,7 @@
   "daddy": null,
   "daily": null,
   "dale": null,
+  "dallied": null,
   "dally": null,
   "damaging": null,
   "damming": null,
@@ -2015,9 +2023,13 @@
   },
   "deviance": null,
   "device": null,
+  "devil": null,
+  "deviled": null,
   "dhoti": null,
   "diacritic": null,
+  "diadem": null,
   "dial": null,
+  "dialed": null,
   "dice": null,
   "diced": null,
   "dicta": null,
@@ -2039,6 +2051,7 @@
   },
   "dike": null,
   "dildo": null,
+  "dilemma": null,
   "dill": {
     "definition": "Anethum graveolens (the type species of the genus Anethum), a herb, the seeds of which are moderately warming, pungent, and aromatic, formerly used as a soothing medicine for children; also known as dillseed.",
     "partOfSpeech": "noun"
@@ -2099,6 +2112,11 @@
     "definition": "Any female celebrity, usually a well known singer or actress.",
     "partOfSpeech": "noun"
   },
+  "dive": null,
+  "dived": null,
+  "divide": null,
+  "divided": null,
+  "divvied": null,
   "divvy": {
     "definition": "A dividend; a share or portion.",
     "partOfSpeech": "noun"
@@ -2409,6 +2427,8 @@
     "definition": "A young eel.",
     "partOfSpeech": "noun"
   },
+  "email": null,
+  "emailed": null,
   "emanate": {
     "definition": "To come from a source; issue from.",
     "partOfSpeech": "verb"
@@ -2537,6 +2557,7 @@
   },
   "evidence": null,
   "evidenced": null,
+  "evil": null,
   "evince": null,
   "evinced": null,
   "evoke": {
@@ -3438,6 +3459,8 @@
   "icemen": null,
   "ichor": null,
   "icicle": null,
+  "idea": null,
+  "ideal": null,
   "idiot": null,
   "idle": null,
   "idled": null,
@@ -3711,6 +3734,7 @@
     "partOfSpeech": "noun"
   },
   "itty": null,
+  "ivied": null,
   "jean": null,
   "jellybean": null,
   "jenny": null,
@@ -3814,6 +3838,7 @@
   "lace": null,
   "lack": null,
   "lactic": null,
+  "laddie": null,
   "lade": null,
   "laded": null,
   "laden": null,
@@ -3979,6 +4004,7 @@
     "definition": "(except in generalized senses below) A crowbar.",
     "partOfSpeech": "noun"
   },
+  "levied": null,
   "liar": null,
   "libel": null,
   "libeled": null,
@@ -4018,6 +4044,7 @@
     "definition": "Any inorganic material containing calcium, usually calcium oxide (quicklime) or calcium hydroxide (slaked lime).",
     "partOfSpeech": "noun"
   },
+  "limeade": null,
   "liminal": null,
   "limit": {
     "definition": "A restriction; a bound beyond which one may not go.",
@@ -4070,6 +4097,8 @@
     "partOfSpeech": "noun"
   },
   "littleneck": null,
+  "live": null,
+  "lived": null,
   "livid": {
     "definition": "Having a dark, bluish appearance.",
     "partOfSpeech": "adjective"
@@ -4232,12 +4261,14 @@
     "partOfSpeech": "noun"
   },
   "mail": null,
+  "mailed": null,
   "maillot": null,
   "mailman": null,
   "maim": {
     "definition": "A serious wound",
     "partOfSpeech": "noun"
   },
+  "maimed": null,
   "maiming": null,
   "main": {
     "definition": "Short for mainline.",
@@ -4387,6 +4418,9 @@
   "meat": null,
   "meaty": null,
   "mechanic": null,
+  "media": null,
+  "medial": null,
+  "medieval": null,
   "meet": {
     "definition": "A sports competition, especially for track and field (a track meet) or swimming (a swim meet).",
     "partOfSpeech": "noun"
@@ -4440,6 +4474,7 @@
   },
   "mica": null,
   "micro": null,
+  "middle": null,
   "midge": {
     "definition": "Any of various small two-winged flies, for example, from the family Chironomidae or non-biting midges, the family Chaoboridae or phantom midges, and the family Ceratopogonidae or biting midges, all belonging to the order Diptera",
     "partOfSpeech": "noun"
@@ -4454,6 +4489,7 @@
   },
   "miff": null,
   "miking": null,
+  "mild": null,
   "mile": {
     "definition": "The international mile: a unit of length precisely equal to 1.609344 kilometers established by treaty among Anglophone nations in 1959, divided into 5,280 feet or 1,760 yards.",
     "partOfSpeech": "noun"
@@ -4469,6 +4505,7 @@
     "definition": "A grinding apparatus for substances such as grains, seeds, etc.",
     "partOfSpeech": "noun"
   },
+  "milled": null,
   "millet": {
     "definition": "Any of a group of various types of grass or its grains used as food, widely cultivated in the developing world.",
     "partOfSpeech": "noun"
@@ -6596,6 +6633,8 @@
   },
   "veggie": null,
   "vegging": null,
+  "veil": null,
+  "veiled": null,
   "vein": null,
   "veining": null,
   "vellum": {
@@ -6630,6 +6669,7 @@
     "definition": "Proximity; the state of being near.",
     "partOfSpeech": "noun"
   },
+  "vied": null,
   "vigil": {
     "definition": "An instance of keeping awake during normal sleeping hours, especially to keep watch or pray.",
     "partOfSpeech": "noun"
@@ -6643,6 +6683,7 @@
     "definition": "One of the Scandinavian or other Northern European seafaring warriors that raided (and then settled) the British Isles and other parts of Europe in the 8th to the 11th centuries and, according to many historians, were the first Europeans to reach North America.",
     "partOfSpeech": "noun"
   },
+  "vile": null,
   "villa": {
     "definition": "(plural \"villas\") A house, often larger and more expensive than average, in the countryside or on the coast, often used as a retreat.",
     "partOfSpeech": "noun"
