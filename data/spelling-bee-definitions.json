@@ -375,6 +375,7 @@
     "definition": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
     "partOfSpeech": "noun"
   },
+  "applejack": null,
   "apply": null,
   "apron": null,
   "aqua": null,
@@ -3735,7 +3736,9 @@
   },
   "itty": null,
   "ivied": null,
+  "jape": null,
   "jean": null,
+  "jeep": null,
   "jellybean": null,
   "jenny": null,
   "jinn": null,
@@ -3768,6 +3771,7 @@
     "definition": "The main tower of a castle or fortress, located within the castle walls.",
     "partOfSpeech": "noun"
   },
+  "kelp": null,
   "keno": {
     "definition": "A gambling game, a variety of the game of lotto, played with balls or knobs, numbered, and cards also numbered.",
     "partOfSpeech": "noun"
@@ -5246,6 +5250,7 @@
   "pail": null,
   "paint": null,
   "pair": null,
+  "palace": null,
   "palapa": null,
   "palatal": null,
   "palatial": null,
@@ -5469,6 +5474,7 @@
   "pitting": null,
   "pivot": null,
   "pivoting": null,
+  "place": null,
   "plaid": null,
   "plaint": null,
   "plaintiff": null,

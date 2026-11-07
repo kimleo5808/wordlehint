@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T05:06:07.208Z",
+  "lastUpdated": "2026-11-07T05:06:05.997Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24539,6 +24539,30 @@
         "OATSTH",
         "OZFLRH",
         "MHSAUS"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "id": 980,
+      "editor": "Tracy Bennett",
+      "clue": "Disciplined combat",
+      "spangram": "MARTIALARTS",
+      "themeWords": [
+        "JUDO",
+        "KARATE",
+        "KICKBOXING",
+        "NINJUTSU",
+        "TAEKWONDO"
+      ],
+      "board": [
+        "UJCKBI",
+        "DKIOXN",
+        "ORTIAG",
+        "AURAKL",
+        "MSATEA",
+        "NTNDOR",
+        "IUOWKT",
+        "NJTAES"
       ]
     }
   ]
