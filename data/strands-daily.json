@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T05:06:05.997Z",
+  "lastUpdated": "2026-11-08T05:06:06.249Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24563,6 +24563,30 @@
         "NTNDOR",
         "IUOWKT",
         "NJTAES"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": 981,
+      "editor": "Tracy Bennett",
+      "clue": "Idle chatter",
+      "spangram": "SHOOTTHEBREEZE",
+      "themeWords": [
+        "BANTER",
+        "CHINWAG",
+        "GABFEST",
+        "GOSSIP",
+        "SCHMOOZE"
+      ],
+      "board": [
+        "SSOGEZ",
+        "IPNESE",
+        "SATFTE",
+        "IHBEBR",
+        "HNORAB",
+        "CWAOGE",
+        "OZEGTH",
+        "OMHCST"
       ]
     }
   ]

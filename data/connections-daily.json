@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T05:06:05.321Z",
+  "lastUpdated": "2026-11-08T05:06:05.663Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58559,6 +58559,53 @@
             "CHARRED",
             "KORN",
             "LEAK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "id": 1247,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DECEITFUL SCHEME",
+          "words": [
+            "CON JOB",
+            "FLIMFLAM",
+            "RIP-OFF",
+            "SHELL GAME"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "JEANS DESCRIPTORS",
+          "words": [
+            "BOOTCUT",
+            "DISTRESSED",
+            "LOW-RISE",
+            "SKINNY"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS WITH SERRATED EDGES",
+          "words": [
+            "GRAPEFRUIT SPOON",
+            "MINT LEAF",
+            "STEAK KNIFE",
+            "TAPE DISPENSER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN SEA CREATURES",
+          "words": [
+            "CARD SHARK",
+            "FUN SPONGE",
+            "GAMMA RAY",
+            "NAVY SEAL"
           ]
         }
       ]

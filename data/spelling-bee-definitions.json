@@ -445,6 +445,7 @@
     "partOfSpeech": "noun"
   },
   "athletic": null,
+  "athrob": null,
   "atilt": null,
   "atoll": {
     "definition": "A type of island consisting of a ribbon reef that nearly or entirely surrounds a lagoon and supports, in most cases, one to many islets on the reef platform. Atolls have a unique geology, so not all islands with a reef and a lagoon are atolls",
@@ -675,6 +676,8 @@
   "batch": null,
   "bath": null,
   "bathe": null,
+  "bathmat": null,
+  "bathroom": null,
   "baton": null,
   "baud": {
     "definition": "A unit of data transmission symbol rate; the number of signalling events per second.",
@@ -940,11 +943,14 @@
     "definition": "A heavy shoe that covers part of the leg.",
     "partOfSpeech": "noun"
   },
+  "booth": null,
   "booting": {
     "definition": "To kick.",
     "partOfSpeech": "verb"
   },
+  "both": null,
   "bottling": null,
+  "bottom": null,
   "boucle": null,
   "bout": {
     "definition": "A period of something, usually painful or unpleasant.",
@@ -986,6 +992,7 @@
     "definition": "The young of certain animals, especially a group of young birds or fowl hatched at one time by the same mother.",
     "partOfSpeech": "noun"
   },
+  "broth": null,
   "brut": {
     "definition": "(of champagne) very dry, and not sweet",
     "partOfSpeech": "adjective"
@@ -4260,6 +4267,7 @@
     "definition": "The molten matter within the earth, the source of the material of lava flows, dikes of eruptive rocks, etc.",
     "partOfSpeech": "noun"
   },
+  "mahatma": null,
   "maid": {
     "definition": "A girl or an unmarried young woman; maiden.",
     "partOfSpeech": "noun"
@@ -4319,6 +4327,7 @@
     "definition": "The desire for wealth personified as an evil spirit or a malign influence.",
     "partOfSpeech": "noun"
   },
+  "mammoth": null,
   "managing": null,
   "manakin": null,
   "manatee": {
@@ -4397,6 +4406,7 @@
   },
   "mate": null,
   "matey": null,
+  "math": null,
   "mating": null,
   "matron": null,
   "matte": null,
@@ -4705,6 +4715,7 @@
     "definition": "A mixture of lime or cement, sand and water used for bonding building blocks.",
     "partOfSpeech": "noun"
   },
+  "moth": null,
   "motion": {
     "definition": "A state of progression from one place to another.",
     "partOfSpeech": "noun"
@@ -4713,6 +4724,7 @@
     "definition": "A machine or device that converts other energy forms into mechanical energy, or imparts motion.",
     "partOfSpeech": "noun"
   },
+  "motorboat": null,
   "motorcar": null,
   "motorway": null,
   "motto": null,
@@ -6113,6 +6125,7 @@
   },
   "throat": null,
   "throaty": null,
+  "throb": null,
   "thug": {
     "definition": "Someone with an intimidating and unseemly appearance and mannerisms, who treats others violently and roughly, often for hire.",
     "partOfSpeech": "noun"
@@ -6252,6 +6265,7 @@
     "partOfSpeech": "noun"
   },
   "tomato": null,
+  "tomb": null,
   "tomcat": null,
   "tommyrot": {
     "definition": "Nonsense, rot.",
