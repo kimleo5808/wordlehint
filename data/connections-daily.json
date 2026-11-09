@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T05:06:05.663Z",
+  "lastUpdated": "2026-11-09T05:06:06.022Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58606,6 +58606,53 @@
             "FUN SPONGE",
             "GAMMA RAY",
             "NAVY SEAL"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "id": 1248,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "HUBBUB",
+          "words": [
+            "BROUHAHA",
+            "FOOFARAW",
+            "HULLABALOO",
+            "KERFUFFLE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "LITERARY DEVICES",
+          "words": [
+            "HYPERBOLE",
+            "METONYMY",
+            "ONOMATOPOEIA",
+            "OXYMORON"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "OLD-TIMEY OCCUPATIONS",
+          "words": [
+            "APOTHECARY",
+            "HABERDASHER",
+            "SCRIVENER",
+            "WAINWRIGHT"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "WORDS WITH FIVE OF ONE VOWEL",
+          "words": [
+            "ABRACADABRA",
+            "BEEKEEPER",
+            "INVISIBILITY",
+            "PROTOZOOLOGY"
           ]
         }
       ]

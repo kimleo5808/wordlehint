@@ -2106,6 +2106,8 @@
   "dint": null,
   "diode": null,
   "dioxin": null,
+  "diploid": null,
+  "dipole": null,
   "dipped": null,
   "dipping": {
     "definition": "To lower into a liquid.",
@@ -2766,7 +2768,10 @@
   "flimflam": null,
   "flint": null,
   "flip": null,
+  "flipflop": null,
+  "flipflopped": null,
   "flippant": null,
+  "flipped": null,
   "flit": null,
   "flood": {
     "definition": "A (usually disastrous) overflow of water from a lake or other body of water due to excessive rainfall or other input of water.",
@@ -2792,10 +2797,13 @@
   "foam": null,
   "foamily": null,
   "foamy": null,
+  "foil": null,
+  "foiled": null,
   "fold": {
     "definition": "An act of folding.",
     "partOfSpeech": "noun"
   },
+  "folio": null,
   "fond": {
     "definition": "To have a foolish affection for, to be fond of.",
     "partOfSpeech": "verb"
@@ -2808,6 +2816,7 @@
     "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life.",
     "partOfSpeech": "noun"
   },
+  "foodie": null,
   "footie": null,
   "fora": null,
   "foray": {
@@ -4087,10 +4096,12 @@
     "partOfSpeech": "noun"
   },
   "lipid": null,
+  "lipo": null,
   "lipoma": {
     "definition": "A nonmalignant tumor comprising fat cells.",
     "partOfSpeech": "noun"
   },
+  "lipped": null,
   "lippy": null,
   "lira": null,
   "litchi": null,
@@ -4187,6 +4198,7 @@
     "definition": "To act lazily or indolently while reclining; to lean; to lie at ease.",
     "partOfSpeech": "verb"
   },
+  "lollipop": null,
   "lollop": null,
   "loofa": null,
   "loom": null,
@@ -5387,6 +5399,8 @@
   "photo": null,
   "pica": null,
   "piccata": null,
+  "piddle": null,
+  "piddled": null,
   "piddly": null,
   "pidgin": {
     "definition": "An amalgamation of two disparate languages, used by two populations having no common language as a lingua franca to communicate with each other, lacking formalized grammar and having a small, utilitarian vocabulary and no native speakers.",
@@ -5398,6 +5412,7 @@
   },
   "pieced": null,
   "pied": null,
+  "piffle": null,
   "pigged": {
     "definition": "(of swine) to give birth.",
     "partOfSpeech": "verb"
@@ -5411,8 +5426,11 @@
     "partOfSpeech": "noun"
   },
   "pilaf": null,
+  "pile": null,
+  "piled": null,
   "pill": null,
   "pillar": null,
+  "pilled": null,
   "pimp": {
     "definition": "Someone who solicits customers for prostitution and acts as manager for a group of prostitutes; a pander.",
     "partOfSpeech": "noun"
@@ -5499,6 +5517,8 @@
   "pleb": null,
   "plebe": null,
   "pliant": null,
+  "plie": null,
+  "plied": null,
   "plop": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
@@ -5516,6 +5536,7 @@
   "point": null,
   "pointing": null,
   "pole": null,
+  "polio": null,
   "poll": null,
   "polo": null,
   "pomp": null,
