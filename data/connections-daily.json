@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T05:06:06.022Z",
+  "lastUpdated": "2026-11-10T05:06:05.570Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58653,6 +58653,53 @@
             "BEEKEEPER",
             "INVISIBILITY",
             "PROTOZOOLOGY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": 1249,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "KINDS OF MEDICINE",
+          "words": [
+            "FOLK",
+            "HERBAL",
+            "HOLISTIC",
+            "TRADITIONAL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "PARTS OF A GOLF COURSE",
+          "words": [
+            "GREEN",
+            "ROUGH",
+            "SAND TRAP",
+            "TEE BOX"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS FILLED WITH AIR",
+          "words": [
+            "AIR MATTRESS",
+            "BUBBLE",
+            "TIRE",
+            "WHOOPIE CUSHION"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN PALINDROMES",
+          "words": [
+            "AFTERNOON",
+            "PATOOT",
+            "RHEOSTATS",
+            "SHREDDER"
           ]
         }
       ]

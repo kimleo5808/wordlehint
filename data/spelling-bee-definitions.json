@@ -1393,6 +1393,7 @@
     "definition": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place.",
     "partOfSpeech": "noun"
   },
+  "civet": null,
   "civic": {
     "definition": "Of, relating to, or belonging to a city, a citizen, or citizenship; municipal or civil.",
     "partOfSpeech": "adjective"
@@ -1917,6 +1918,7 @@
     "definition": "To reach a conclusion by applying rules of logic to given premises.",
     "partOfSpeech": "verb"
   },
+  "deductive": null,
   "deed": {
     "definition": "An action or act; something that is done.",
     "partOfSpeech": "noun"
@@ -2024,6 +2026,7 @@
   },
   "detect": null,
   "detected": null,
+  "detective": null,
   "detention": null,
   "deuce": {
     "definition": "A card with two pips, one of four in a standard deck of playing cards.",
@@ -2309,6 +2312,7 @@
   "dunked": null,
   "dunned": null,
   "dunno": null,
+  "duvet": null,
   "dyad": null,
   "dyed": null,
   "dying": null,
@@ -2565,6 +2569,9 @@
     "definition": "Occurring at any time, occurring even but once during a timespan.",
     "partOfSpeech": "adjective"
   },
+  "evict": null,
+  "evicted": null,
+  "evictee": null,
   "evidence": null,
   "evidenced": null,
   "evil": null,

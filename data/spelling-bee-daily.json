@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T05:06:07.247Z",
+  "lastUpdated": "2026-11-10T05:06:06.883Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66867,6 +66867,46 @@
         "plie",
         "plied",
         "polio"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-11",
+      "id": 13592,
+      "centerLetter": "v",
+      "outerLetters": [
+        "c",
+        "d",
+        "e",
+        "i",
+        "t",
+        "u"
+      ],
+      "pangrams": [
+        "deductive"
+      ],
+      "answers": [
+        "civet",
+        "civic",
+        "deceive",
+        "deceived",
+        "deductive",
+        "detective",
+        "device",
+        "dive",
+        "dived",
+        "divide",
+        "divided",
+        "divvied",
+        "duvet",
+        "evict",
+        "evicted",
+        "evictee",
+        "ivied",
+        "vetted",
+        "vice",
+        "vied",
+        "vivid"
       ],
       "editor": "Sam Ezersky"
     }

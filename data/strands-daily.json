@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T05:06:06.616Z",
+  "lastUpdated": "2026-11-10T05:06:06.203Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24612,6 +24612,31 @@
         "OTAERC",
         "EAIOEM",
         "RCTNDO"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "id": 983,
+      "editor": "Tracy Bennett",
+      "clue": "Work it out",
+      "spangram": "MUSCLEGROUP",
+      "themeWords": [
+        "BICEPS",
+        "HAMSTRINGS",
+        "LATS",
+        "OBLIQUES",
+        "PECS",
+        "QUADS"
+      ],
+      "board": [
+        "SPECIB",
+        "MBLIQU",
+        "UCOSEP",
+        "SLEROU",
+        "PSGDSH",
+        "ECAUQA",
+        "TARTSM",
+        "SLINGS"
       ]
     }
   ]
