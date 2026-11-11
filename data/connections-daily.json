@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T05:06:05.570Z",
+  "lastUpdated": "2026-11-11T05:06:10.559Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58700,6 +58700,53 @@
             "PATOOT",
             "RHEOSTATS",
             "SHREDDER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": 1250,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "\"GADZOOKS!\"",
+          "words": [
+            "GOOD HEAVENS",
+            "GREAT SCOTT",
+            "HOLY SMOKES",
+            "JIMINY CRICKET"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "STARTING WITH VARIATIONS",
+          "words": [
+            "CHANGE PURSE",
+            "FLUX CAPACITOR",
+            "SHIFT DRESS",
+            "SWING SET"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ENDING IN WAYS TO COOK THINGS",
+          "words": [
+            "ARCTIC CHAR",
+            "COMEDY ROAST",
+            "DOC BROWN",
+            "YOU'RE TOAST"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH BEST PICTURE OSCAR WINNERS",
+          "words": [
+            "GLADIATOR SANDALS",
+            "MARTY MCFLY",
+            "MOONLIGHT SONATA",
+            "ROCKY ROAD"
           ]
         }
       ]

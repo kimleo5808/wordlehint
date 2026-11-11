@@ -1371,6 +1371,7 @@
   },
   "chunked": null,
   "churro": null,
+  "chute": null,
   "ciabatta": null,
   "ciao": {
     "definition": "A greeting or farewell using the word \"ciao\".",
@@ -1704,6 +1705,7 @@
     "partOfSpeech": "noun"
   },
   "court": null,
+  "couth": null,
   "covalence": null,
   "cove": null,
   "coven": null,
@@ -1784,6 +1786,7 @@
     "definition": "A piece of cloth covering a window, bed, etc. to offer privacy and keep out light.",
     "partOfSpeech": "noun"
   },
+  "cute": null,
   "cutout": null,
   "cyan": null,
   "cynic": {
@@ -1918,6 +1921,8 @@
     "definition": "To reach a conclusion by applying rules of logic to given premises.",
     "partOfSpeech": "verb"
   },
+  "deduct": null,
+  "deducted": null,
   "deductive": null,
   "deed": {
     "definition": "An action or act; something that is done.",
@@ -2150,6 +2155,7 @@
     "partOfSpeech": "adjective"
   },
   "dodo": null,
+  "doeth": null,
   "doff": {
     "definition": "(clothing) To remove or take off, especially of clothing.",
     "partOfSpeech": "verb"
@@ -2209,7 +2215,10 @@
     "partOfSpeech": "noun"
   },
   "dory": null,
+  "dote": null,
+  "doted": null,
   "doth": null,
+  "dotted": null,
   "doubt": {
     "definition": "Disbelief or uncertainty (about something); a particular instance of such disbelief or uncertainty.",
     "partOfSpeech": "noun"
@@ -2289,9 +2298,12 @@
   },
   "ducked": null,
   "duct": null,
+  "ducted": null,
   "dude": null,
   "duel": null,
   "dueled": null,
+  "duet": null,
+  "duetted": null,
   "duff": {
     "definition": "Dough.",
     "partOfSpeech": "noun"
@@ -2556,6 +2568,7 @@
   "etched": null,
   "ethic": null,
   "ethical": null,
+  "etude": null,
   "evade": null,
   "evaded": null,
   "even": {
@@ -3412,6 +3425,7 @@
     "definition": "A derisive cry or shout.",
     "partOfSpeech": "noun"
   },
+  "hooted": null,
   "hoping": null,
   "hopping": null,
   "hoppy": null,
@@ -3469,6 +3483,7 @@
     "definition": "The act of hunting.",
     "partOfSpeech": "noun"
   },
+  "hutch": null,
   "hyena": null,
   "hymen": null,
   "hymn": null,
@@ -5223,6 +5238,7 @@
   },
   "outdo": null,
   "outdoor": null,
+  "outed": null,
   "outgo": null,
   "outgoing": {
     "definition": "To go out, to set forth.",
@@ -6061,6 +6077,7 @@
     "definition": "To grow teeth.",
     "partOfSpeech": "verb"
   },
+  "teethed": null,
   "teff": null,
   "telehealth": {
     "definition": "Healthcare facilitated by telecommunication technology.",
@@ -6154,6 +6171,8 @@
   "throat": null,
   "throaty": null,
   "throb": null,
+  "thud": null,
+  "thudded": null,
   "thug": {
     "definition": "Someone with an intimidating and unseemly appearance and mannerisms, who treats others violently and roughly, often for hire.",
     "partOfSpeech": "noun"
@@ -6278,6 +6297,7 @@
     "definition": "A piece of music (usually for a keyboard instrument) designed to emphasise the dexterity of the performer.",
     "partOfSpeech": "noun"
   },
+  "toed": null,
   "toffee": null,
   "togging": null,
   "toil": {
@@ -6333,6 +6353,7 @@
     "definition": "The noise of a horn or whistle.",
     "partOfSpeech": "noun"
   },
+  "tooted": null,
   "tooth": {
     "definition": "A hard, calcareous structure present in the mouth of many vertebrate animals, generally used for eating.",
     "partOfSpeech": "noun"
@@ -6341,6 +6362,7 @@
     "definition": "A pain or ache in a tooth.",
     "partOfSpeech": "noun"
   },
+  "toothed": null,
   "toothy": null,
   "tooting": null,
   "tope": null,
@@ -6371,7 +6393,11 @@
     "partOfSpeech": "noun"
   },
   "tote": null,
+  "toted": null,
   "toting": null,
+  "touch": null,
+  "touche": null,
+  "touched": null,
   "tough": {
     "definition": "A person who obtains things by force; a thug or bully.",
     "partOfSpeech": "noun"
@@ -6385,6 +6411,7 @@
     "definition": "Someone advertising for customers in an aggressive way.",
     "partOfSpeech": "noun"
   },
+  "touted": null,
   "touting": null,
   "toxicologic": null,
   "toxin": null,
@@ -6478,7 +6505,9 @@
   },
   "turn": null,
   "turnout": null,
+  "tutee": null,
   "tutor": null,
+  "tutted": null,
   "tutti": null,
   "tutting": {
     "definition": "To make a tut tut sound of disapproval.",

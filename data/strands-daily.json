@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T05:06:06.203Z",
+  "lastUpdated": "2026-11-11T05:06:11.416Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24637,6 +24637,30 @@
         "ECAUQA",
         "TARTSM",
         "SLINGS"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "id": 984,
+      "editor": "Tracy Bennett",
+      "clue": "Facing the music",
+      "spangram": "AUDIENCE",
+      "themeWords": [
+        "CONCERTGOER",
+        "LISTENER",
+        "PATRON",
+        "SPECTATOR",
+        "VIEWER"
+      ],
+      "board": [
+        "RPETRO",
+        "EOSCAT",
+        "TGIENE",
+        "RELSTR",
+        "NCREWV",
+        "OCNOEI",
+        "APATRE",
+        "UDIENC"
       ]
     }
   ]
