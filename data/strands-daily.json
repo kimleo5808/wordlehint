@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T05:06:11.416Z",
+  "lastUpdated": "2026-11-12T05:06:08.080Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24661,6 +24661,31 @@
         "OCNOEI",
         "APATRE",
         "UDIENC"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": 985,
+      "editor": "Tracy Bennett",
+      "clue": "Not a good sign",
+      "spangram": "ROTTENLUCK",
+      "themeWords": [
+        "BROKEN",
+        "FLOOR",
+        "MIRROR",
+        "SALT",
+        "SPILLED",
+        "THIRTEENTH"
+      ],
+      "board": [
+        "IRTOKN",
+        "HEHLRE",
+        "TETILB",
+        "RNPSED",
+        "OTTENL",
+        "FLMORU",
+        "OOTIRC",
+        "RSALRK"
       ]
     }
   ]

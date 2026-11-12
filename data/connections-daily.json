@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T05:06:10.559Z",
+  "lastUpdated": "2026-11-12T05:06:07.414Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58747,6 +58747,53 @@
             "MARTY MCFLY",
             "MOONLIGHT SONATA",
             "ROCKY ROAD"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "id": 1251,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "USE THE INTERNET",
+          "words": [
+            "BROWSE",
+            "SCROLL",
+            "SEARCH",
+            "SURF"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "MEDIA ATTENTION",
+          "words": [
+            "COVERAGE",
+            "EXPOSURE",
+            "PRESS",
+            "PUBLICITY"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS THAT ARE TOWED",
+          "words": [
+            "BARGE",
+            "GLIDER",
+            "TRAILER",
+            "WATER SKIER"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "BRAIN ___",
+          "words": [
+            "FREEZE",
+            "TEASER",
+            "TRUST",
+            "WAVES"
           ]
         }
       ]

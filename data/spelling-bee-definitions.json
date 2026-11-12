@@ -62,6 +62,7 @@
     "partOfSpeech": "noun"
   },
   "achoo": null,
+  "achy": null,
   "acid": {
     "definition": "A sour substance.",
     "partOfSpeech": "noun"
@@ -1069,6 +1070,7 @@
     "definition": "A seal, as of a letter.",
     "partOfSpeech": "noun"
   },
+  "cacophony": null,
   "cacti": {
     "definition": "Any member of the family Cactaceae, a family of flowering New World succulent plants suited to a hot, semi-desert climate.",
     "partOfSpeech": "noun"
@@ -1167,6 +1169,7 @@
     "definition": "A generally accepted principle; a rule.",
     "partOfSpeech": "noun"
   },
+  "canopy": null,
   "cant": null,
   "cantata": null,
   "cantina": {
@@ -1180,6 +1183,8 @@
   "cape": null,
   "caped": null,
   "capital": null,
+  "capo": null,
+  "capon": null,
   "capped": null,
   "capri": null,
   "carat": {
@@ -1295,6 +1300,7 @@
     "definition": "A character having a chaotic alignment.",
     "partOfSpeech": "noun"
   },
+  "chap": null,
   "chart": {
     "definition": "A map.",
     "partOfSpeech": "noun"
@@ -1360,6 +1366,8 @@
     "definition": "Singing group; group of people who sing together; company of people who are trained to sing together.",
     "partOfSpeech": "noun"
   },
+  "chop": null,
+  "choppy": null,
   "chord": null,
   "chromium": null,
   "chuck": null,
@@ -1673,10 +1681,13 @@
     "definition": "To lose heat, to get colder.",
     "partOfSpeech": "verb"
   },
+  "coop": null,
   "coot": {
     "definition": "Any of various aquatic birds of the genus Fulica that are mainly black with a prominent frontal shield on the forehead.",
     "partOfSpeech": "noun"
   },
+  "copay": null,
+  "copy": null,
   "cord": {
     "definition": "A harmonic set of three or more notes that is heard as if sounding simultaneously.",
     "partOfSpeech": "noun"
@@ -5323,6 +5334,7 @@
   "panned": null,
   "pant": null,
   "papa": null,
+  "papacy": null,
   "papal": null,
   "papally": null,
   "papaw": null,
@@ -5549,6 +5561,7 @@
   },
   "plow": null,
   "plowable": null,
+  "poach": null,
   "podia": null,
   "poet": null,
   "pogo": {
@@ -5564,11 +5577,13 @@
   "polo": null,
   "pomp": null,
   "pompom": null,
+  "poncho": null,
   "pond": null,
   "pone": null,
   "pong": null,
   "ponied": null,
   "pontoon": null,
+  "pooch": null,
   "pooh": null,
   "pool": null,
   "poop": {

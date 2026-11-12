@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T05:06:12.830Z",
+  "lastUpdated": "2026-11-12T05:06:08.987Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -66980,6 +66980,60 @@
         "tutee",
         "tutted",
         "tutu"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-13",
+      "id": 23424,
+      "centerLetter": "c",
+      "outerLetters": [
+        "a",
+        "h",
+        "n",
+        "o",
+        "p",
+        "y"
+      ],
+      "pangrams": [
+        "cacophony"
+      ],
+      "answers": [
+        "achoo",
+        "achy",
+        "ancho",
+        "cacao",
+        "cacophony",
+        "cancan",
+        "canna",
+        "cannon",
+        "canny",
+        "canon",
+        "canopy",
+        "canyon",
+        "capo",
+        "capon",
+        "chancy",
+        "chap",
+        "chop",
+        "choppy",
+        "coach",
+        "coca",
+        "cocoa",
+        "cocoon",
+        "coho",
+        "conch",
+        "coop",
+        "copay",
+        "copy",
+        "cyan",
+        "honcho",
+        "hooch",
+        "nacho",
+        "papacy",
+        "poach",
+        "poncho",
+        "pooch"
       ],
       "editor": "Sam Ezersky"
     }
