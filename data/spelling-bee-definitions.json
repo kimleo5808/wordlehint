@@ -165,6 +165,7 @@
   "aide": null,
   "aided": null,
   "ailed": null,
+  "ailing": null,
   "aimed": null,
   "aiming": {
     "definition": "To point or direct a missile, or a weapon which propels as missile, towards an object or spot with the intent of hitting it",
@@ -202,6 +203,8 @@
     "partOfSpeech": "noun"
   },
   "alibi": null,
+  "align": null,
+  "aligning": null,
   "alit": null,
   "alive": null,
   "allay": null,
@@ -268,6 +271,7 @@
   "anemia": null,
   "anemic": null,
   "angina": null,
+  "angling": null,
   "angora": null,
   "anima": {
     "definition": "The soul or animating principle of a living thing, especially as contrasted with the animus.",
@@ -2899,10 +2903,13 @@
     "definition": "Pomp, show, or festivity.",
     "partOfSpeech": "noun"
   },
+  "galangal": null,
   "gall": {
     "definition": "Bile, especially that of an animal; the greenish, profoundly bitter-tasting fluid found in bile ducts and gall bladders, structures associated with the liver.",
     "partOfSpeech": "noun"
   },
+  "gallant": null,
+  "galling": null,
   "gallivant": {
     "definition": "To roam about for pleasure without any definite plan.",
     "partOfSpeech": "verb"
@@ -2919,6 +2926,8 @@
   },
   "gang": null,
   "ganging": null,
+  "ganglia": null,
+  "gangling": null,
   "gape": null,
   "gating": null,
   "gauging": null,
@@ -3019,12 +3028,15 @@
     "definition": "Originally, enchantment; magic charm; especially, the effect of a spell that causes one to see objects in a form that differs from reality, typically to make filthy, ugly, or repulsive things seems beauteous.",
     "partOfSpeech": "noun"
   },
+  "glazing": null,
+  "glia": null,
   "glib": null,
   "glide": null,
   "glided": null,
   "gliding": null,
   "glint": null,
   "glinting": null,
+  "glitz": null,
   "glob": null,
   "glom": {
     "definition": "To steal, to grab.",
@@ -3671,6 +3683,8 @@
   "inimical": null,
   "inimically": null,
   "initial": null,
+  "initialing": null,
+  "initializing": null,
   "initiating": null,
   "initiation": {
     "definition": "The act of initiating, or the process of being initiated or introduced",
@@ -3898,6 +3912,7 @@
   "ladle": null,
   "ladled": null,
   "lady": null,
+  "lagging": null,
   "laic": null,
   "laical": null,
   "laid": null,
@@ -3984,6 +3999,7 @@
     "partOfSpeech": "noun"
   },
   "lazed": null,
+  "lazing": null,
   "leach": {
     "definition": "A quantity of wood ashes, through which water passes, and thus imbibes the alkali.",
     "partOfSpeech": "noun"
@@ -4075,6 +4091,7 @@
   },
   "lifeline": null,
   "lift": null,
+  "ligating": null,
   "light": null,
   "lighting": null,
   "lightly": null,
@@ -4147,6 +4164,8 @@
     "definition": "To lithograph.",
     "partOfSpeech": "verb"
   },
+  "litigant": null,
+  "litigating": null,
   "little": {
     "definition": "A small amount.",
     "partOfSpeech": "noun"
@@ -4831,6 +4850,7 @@
     "partOfSpeech": "noun"
   },
   "nail": null,
+  "nailing": null,
   "name": {
     "definition": "Any nounal word or phrase which indicates a particular person, place, class, or thing.",
     "partOfSpeech": "noun"
@@ -5960,6 +5980,8 @@
     "definition": "A formal evening jacket with an extended back panel; a dress coat.",
     "partOfSpeech": "noun"
   },
+  "tailgating": null,
+  "tailing": null,
   "taillamp": null,
   "tailwind": null,
   "taint": {
@@ -5987,6 +6009,7 @@
   },
   "tandoor": null,
   "tang": null,
+  "tangling": null,
   "tannic": {
     "definition": "Pertaining to, containing, or obtained from tannin.",
     "partOfSpeech": "adjective"
@@ -5996,6 +6019,7 @@
     "partOfSpeech": "noun"
   },
   "tanning": null,
+  "tantalizing": null,
   "tantalum": null,
   "tantara": null,
   "tantra": null,
@@ -6037,6 +6061,7 @@
   },
   "tatted": null,
   "tatting": null,
+  "tattling": null,
   "tattoo": {
     "definition": "An image made in the skin with ink and a needle.",
     "partOfSpeech": "noun"
@@ -6294,6 +6319,7 @@
     "partOfSpeech": "noun"
   },
   "titillate": null,
+  "titillating": null,
   "titivating": {
     "definition": "To make small improvements or alterations to (one's appearance etc.); to add some finishing touches to.",
     "partOfSpeech": "verb"

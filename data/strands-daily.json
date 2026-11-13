@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T05:06:08.080Z",
+  "lastUpdated": "2026-11-13T05:06:07.337Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24686,6 +24686,32 @@
         "FLMORU",
         "OOTIRC",
         "RSALRK"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": 986,
+      "editor": "Tracy Bennett",
+      "clue": "Preschool fun",
+      "spangram": "FOLLOWTHELEADER",
+      "themeWords": [
+        "GALLOP",
+        "JUMP",
+        "MARCH",
+        "SKIP",
+        "SPIN",
+        "TIPTOE",
+        "WALK"
+      ],
+      "board": [
+        "OPILLO",
+        "TESNAP",
+        "PTOWTG",
+        "ILLAHE",
+        "FOMHRL",
+        "KWACAE",
+        "ISPLDE",
+        "PJUMKR"
       ]
     }
   ]

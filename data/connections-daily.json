@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T05:06:07.414Z",
+  "lastUpdated": "2026-11-13T05:06:06.426Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58794,6 +58794,53 @@
             "TEASER",
             "TRUST",
             "WAVES"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "id": 1252,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CUTTING-EDGE",
+          "words": [
+            "ADVANCED",
+            "FOREMOST",
+            "MODERN",
+            "PROGRESSIVE"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "LOCATIONS FOR AN INSTITUTION",
+          "words": [
+            "CAMPUS",
+            "CENTER",
+            "COMPLEX",
+            "FACILITY"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "STRATEGY BOARD GAMES",
+          "words": [
+            "CHESS",
+            "GO",
+            "OTHELLO",
+            "STRATEGO"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "BABY GEAR WITH FIRST LETTER CHANGED",
+          "words": [
+            "BATTLE",
+            "MARRIAGE",
+            "MOTTLE",
+            "TRIB"
           ]
         }
       ]
