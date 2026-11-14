@@ -2462,6 +2462,7 @@
     "partOfSpeech": "noun"
   },
   "elope": null,
+  "elote": null,
   "elude": null,
   "eluded": null,
   "elver": {
@@ -2941,6 +2942,7 @@
     "partOfSpeech": "verb"
   },
   "gelid": null,
+  "gelt": null,
   "gene": {
     "definition": "A theoretical unit of heredity of living organisms; a gene may take several values and in principle predetermines a precise trait of an organism's form (phenotype), such as hair color.",
     "partOfSpeech": "noun"
@@ -4241,6 +4243,7 @@
     "partOfSpeech": "noun"
   },
   "logogram": null,
+  "logotype": null,
   "logroll": null,
   "loin": {
     "definition": "The part of the body (of humans and quadrupeds) at each side of the backbone, between the ribs and hips",
@@ -5254,6 +5257,7 @@
   "organ": null,
   "orgy": null,
   "orotund": null,
+  "otology": null,
   "ottoman": {
     "definition": "An upholstered sofa, without arms or a back, sometimes with a compartment for storing linen, etc.",
     "partOfSpeech": "noun"
@@ -5417,6 +5421,8 @@
   },
   "pegging": null,
   "peke": null,
+  "pellet": null,
+  "pelt": null,
   "penance": null,
   "pence": null,
   "pend": null,
@@ -5445,6 +5451,7 @@
   "pettifog": null,
   "petty": null,
   "pewee": null,
+  "peyote": null,
   "pfft": null,
   "pharaoh": null,
   "phoning": {
@@ -5575,6 +5582,7 @@
   "plie": null,
   "plied": null,
   "plop": null,
+  "plot": null,
   "plover": {
     "definition": "Any of various wading birds of the family Charadriidae.",
     "partOfSpeech": "noun"
@@ -5595,6 +5603,7 @@
   "polio": null,
   "poll": null,
   "polo": null,
+  "polyglot": null,
   "pomp": null,
   "pompom": null,
   "poncho": null,
@@ -6124,6 +6133,8 @@
     "partOfSpeech": "noun"
   },
   "telekinetic": null,
+  "teleology": null,
+  "teletype": null,
   "tell": {
     "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
     "partOfSpeech": "noun"
@@ -6341,6 +6352,7 @@
   "toed": null,
   "toffee": null,
   "togging": null,
+  "toggle": null,
   "toil": {
     "definition": "Labour, work, especially of a grueling nature.",
     "partOfSpeech": "noun"
@@ -6406,9 +6418,12 @@
   "toothed": null,
   "toothy": null,
   "tooting": null,
+  "tootle": null,
   "tope": null,
   "toping": null,
+  "topology": null,
   "topping": null,
+  "topple": null,
   "torah": null,
   "toric": null,
   "torn": {
@@ -6572,6 +6587,7 @@
   "tying": null,
   "type": null,
   "typo": null,
+  "typology": null,
   "tyro": {
     "definition": "A beginner; a novice.",
     "partOfSpeech": "noun"

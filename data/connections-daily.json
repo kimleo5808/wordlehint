@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T05:06:06.426Z",
+  "lastUpdated": "2026-11-14T05:06:07.227Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58841,6 +58841,53 @@
             "MARRIAGE",
             "MOTTLE",
             "TRIB"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": 1253,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "UNMATCHED",
+          "words": [
+            "ALL-TIME",
+            "HISTORIC",
+            "RECORD",
+            "UNPRECEDENTED"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WEDDING WEBSITE SECTIONS",
+          "words": [
+            "DRESS CODE",
+            "REGISTRY",
+            "RSVP",
+            "TRAVEL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "___ PLANE",
+          "words": [
+            "ASTRAL",
+            "CARTESIAN",
+            "INCLINED",
+            "JET"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN VEGETABLES IN THE ALLIUM FAMILY",
+          "words": [
+            "ARCHIVE",
+            "OCTONION",
+            "RAPSCALLION",
+            "SLEEK"
           ]
         }
       ]

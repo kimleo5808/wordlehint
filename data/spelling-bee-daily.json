@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T05:06:08.078Z",
+  "lastUpdated": "2026-11-14T05:06:08.706Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67116,6 +67116,58 @@
         "tingling",
         "titillating",
         "titling"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-15",
+      "id": 23691,
+      "centerLetter": "t",
+      "outerLetters": [
+        "e",
+        "g",
+        "l",
+        "o",
+        "p",
+        "y"
+      ],
+      "pangrams": [
+        "logotype"
+      ],
+      "answers": [
+        "elote",
+        "eyelet",
+        "gelt",
+        "logotype",
+        "loot",
+        "lotto",
+        "otology",
+        "pellet",
+        "pelt",
+        "petty",
+        "peyote",
+        "plot",
+        "poet",
+        "polyglot",
+        "poppet",
+        "potty",
+        "teepee",
+        "teleology",
+        "teletype",
+        "tell",
+        "tepee",
+        "toggle",
+        "toll",
+        "tool",
+        "toot",
+        "tootle",
+        "tope",
+        "topology",
+        "topple",
+        "tote",
+        "type",
+        "typo",
+        "typology"
       ],
       "editor": "Sam Ezersky"
     }

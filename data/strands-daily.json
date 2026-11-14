@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T05:06:07.337Z",
+  "lastUpdated": "2026-11-14T05:06:07.869Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24712,6 +24712,30 @@
         "KWACAE",
         "ISPLDE",
         "PJUMKR"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "id": 987,
+      "editor": "Tracy Bennett",
+      "clue": "Foiled again!",
+      "spangram": "BATMANVILLAIN",
+      "themeWords": [
+        "FIREFLY",
+        "JOKER",
+        "PENGUIN",
+        "RIDDLER",
+        "SCARECROW"
+      ],
+      "board": [
+        "KORIER",
+        "EJMADL",
+        "RATNVD",
+        "BCROWI",
+        "REALLI",
+        "AFINUN",
+        "CIFLEG",
+        "SREYPN"
       ]
     }
   ]
