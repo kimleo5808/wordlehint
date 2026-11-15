@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T05:06:07.227Z",
+  "lastUpdated": "2026-11-15T05:06:03.657Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58888,6 +58888,53 @@
             "OCTONION",
             "RAPSCALLION",
             "SLEEK"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "id": 1254,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SUMMER ___",
+          "words": [
+            "BLOCKBUSTER",
+            "CAMP",
+            "SAUSAGE",
+            "SCHOOL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "SPRING ___",
+          "words": [
+            "CHICKEN",
+            "CLEANING",
+            "ONION",
+            "WATER"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "WINTER ___",
+          "words": [
+            "GARDEN",
+            "GLOVES",
+            "MELON",
+            "WONDERLAND"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "FALL ___",
+          "words": [
+            "ASLEEP",
+            "FOLIAGE",
+            "GUY",
+            "IN LOVE"
           ]
         }
       ]

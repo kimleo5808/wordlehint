@@ -1208,6 +1208,7 @@
   "carpal": null,
   "carpi": null,
   "carrot": null,
+  "carry": null,
   "cart": {
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
@@ -1240,6 +1241,7 @@
   "cava": null,
   "cave": null,
   "caved": null,
+  "caviar": null,
   "cavity": {
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
@@ -1738,6 +1740,7 @@
     "partOfSpeech": "noun"
   },
   "crap": null,
+  "crappy": null,
   "crib": {
     "definition": "A baby’s bed with high, often slatted, often moveable sides, suitable for a child who has outgrown a cradle or bassinet.",
     "partOfSpeech": "noun"
@@ -5550,6 +5553,7 @@
   },
   "pipit": null,
   "pippin": null,
+  "piracy": null,
   "piratic": null,
   "pita": null,
   "pitapat": null,
@@ -5652,6 +5656,7 @@
   "practical": null,
   "prat": null,
   "priapic": null,
+  "pricy": null,
   "prig": null,
   "prim": null,
   "primal": null,
@@ -5667,6 +5672,7 @@
     "definition": "A monastery or convent governed by a prior or prioress.",
     "partOfSpeech": "noun"
   },
+  "privacy": null,
   "prod": {
     "definition": "A device (now often electrical) used to goad livestock into moving.",
     "partOfSpeech": "noun"
@@ -5739,6 +5745,7 @@
     "definition": "A series of one or more shelves, stacked one above the other",
     "partOfSpeech": "noun"
   },
+  "racy": null,
   "radar": {
     "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces",
     "partOfSpeech": "noun"
@@ -6798,6 +6805,7 @@
     "definition": "A glass vessel or bottle, especially a small tube-shaped bottle used to store medicine, perfume or other chemical.",
     "partOfSpeech": "noun"
   },
+  "vicar": null,
   "vice": null,
   "vicinity": {
     "definition": "Proximity; the state of being near.",

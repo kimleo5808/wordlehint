@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T05:06:08.706Z",
+  "lastUpdated": "2026-11-15T05:06:05.277Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67168,6 +67168,46 @@
         "type",
         "typo",
         "typology"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-16",
+      "id": 10584,
+      "centerLetter": "c",
+      "outerLetters": [
+        "a",
+        "i",
+        "p",
+        "r",
+        "v",
+        "y"
+      ],
+      "pangrams": [
+        "privacy"
+      ],
+      "answers": [
+        "acacia",
+        "acai",
+        "capri",
+        "carp",
+        "carpi",
+        "carry",
+        "cava",
+        "caviar",
+        "circa",
+        "cirri",
+        "civic",
+        "crap",
+        "crappy",
+        "papacy",
+        "pica",
+        "piracy",
+        "priapic",
+        "pricy",
+        "privacy",
+        "racy",
+        "vicar"
       ],
       "editor": "Sam Ezersky"
     }
