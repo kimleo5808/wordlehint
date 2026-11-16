@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T05:06:04.332Z",
+  "lastUpdated": "2026-11-16T05:06:06.027Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24761,6 +24761,31 @@
         "SGSILE",
         "URTNFW",
         "THAGRO"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": 989,
+      "editor": "Tracy Bennett",
+      "clue": "It's going down",
+      "spangram": "COMETOPASS",
+      "themeWords": [
+        "BEFALL",
+        "DEVELOP",
+        "ENSUE",
+        "HAPPEN",
+        "OCCUR",
+        "TRANSPIRE"
+      ],
+      "board": [
+        "IRERFA",
+        "PSOUEL",
+        "ANCCBL",
+        "RTPASS",
+        "NHOVED",
+        "EATELE",
+        "PPEOEU",
+        "COMPNS"
       ]
     }
   ]

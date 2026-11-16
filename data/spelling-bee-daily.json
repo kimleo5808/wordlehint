@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T05:06:05.277Z",
+  "lastUpdated": "2026-11-16T05:06:06.816Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67208,6 +67208,72 @@
         "privacy",
         "racy",
         "vicar"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-17",
+      "id": 16569,
+      "centerLetter": "o",
+      "outerLetters": [
+        "h",
+        "i",
+        "l",
+        "n",
+        "p",
+        "y"
+      ],
+      "pangrams": [
+        "phonily"
+      ],
+      "answers": [
+        "hippo",
+        "holly",
+        "holy",
+        "hoop",
+        "hoppy",
+        "hypo",
+        "lion",
+        "lipo",
+        "loin",
+        "loll",
+        "lollipop",
+        "lollop",
+        "loon",
+        "loony",
+        "loop",
+        "loopily",
+        "loopy",
+        "nonillion",
+        "noon",
+        "nylon",
+        "oily",
+        "olio",
+        "onion",
+        "oniony",
+        "only",
+        "opinion",
+        "phonily",
+        "phono",
+        "phony",
+        "phyllo",
+        "pillion",
+        "pinion",
+        "plop",
+        "ploy",
+        "polio",
+        "poll",
+        "polo",
+        "polyp",
+        "polyphony",
+        "pony",
+        "pooh",
+        "pool",
+        "poop",
+        "poplin",
+        "poppy",
+        "pylon",
+        "yoohoo"
       ],
       "editor": "Sam Ezersky"
     }

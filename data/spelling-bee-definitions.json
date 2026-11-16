@@ -3386,6 +3386,7 @@
     "partOfSpeech": "noun"
   },
   "hippie": null,
+  "hippo": null,
   "hitch": null,
   "hoar": null,
   "hoard": null,
@@ -3406,10 +3407,12 @@
     "definition": "A hollow place or cavity; an excavation; a pit; an opening in or through a solid body, a fabric, etc.; a perforation; a rent; a fissure.",
     "partOfSpeech": "noun"
   },
+  "holly": null,
   "holt": {
     "definition": "A small piece of woodland or a woody hill; a copse.",
     "partOfSpeech": "noun"
   },
+  "holy": null,
   "home": null,
   "homed": null,
   "homey": null,
@@ -4263,6 +4266,8 @@
   "loon": null,
   "loony": null,
   "loop": null,
+  "loopily": null,
+  "loopy": null,
   "loot": {
     "definition": "A kind of scoop or ladle, chiefly used to remove the scum from brine-pans in saltworks.",
     "partOfSpeech": "noun"
@@ -5185,6 +5190,7 @@
   },
   "oiled": null,
   "oilman": null,
+  "oily": null,
   "oink": {
     "definition": "The sound made by a pig, or an imitation thereof.",
     "partOfSpeech": "noun"
@@ -5214,6 +5220,7 @@
     "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice.",
     "partOfSpeech": "noun"
   },
+  "oniony": null,
   "onlay": null,
   "only": {
     "definition": "An only child.",
@@ -5457,11 +5464,15 @@
   "peyote": null,
   "pfft": null,
   "pharaoh": null,
+  "phonily": null,
   "phoning": {
     "definition": "To call (someone) using a telephone.",
     "partOfSpeech": "verb"
   },
+  "phono": null,
+  "phony": null,
   "photo": null,
+  "phyllo": null,
   "pica": null,
   "piccata": null,
   "piddle": null,
@@ -5496,6 +5507,7 @@
   "pill": null,
   "pillar": null,
   "pilled": null,
+  "pillion": null,
   "pimp": {
     "definition": "Someone who solicits customers for prostitution and acts as manager for a group of prostitutes; a pander.",
     "partOfSpeech": "noun"
@@ -5593,6 +5605,7 @@
   },
   "plow": null,
   "plowable": null,
+  "ploy": null,
   "poach": null,
   "podia": null,
   "poet": null,
@@ -5608,6 +5621,8 @@
   "poll": null,
   "polo": null,
   "polyglot": null,
+  "polyp": null,
+  "polyphony": null,
   "pomp": null,
   "pompom": null,
   "poncho": null,
@@ -5616,6 +5631,7 @@
   "pong": null,
   "ponied": null,
   "pontoon": null,
+  "pony": null,
   "pooch": null,
   "pooh": null,
   "pool": null,
@@ -5630,6 +5646,7 @@
     "partOfSpeech": "noun"
   },
   "pope": null,
+  "poplin": null,
   "popover": null,
   "poppa": null,
   "popped": null,
@@ -5707,6 +5724,7 @@
   "purloin": null,
   "purr": null,
   "purring": null,
+  "pylon": null,
   "pyro": {
     "definition": "A pyromaniac",
     "partOfSpeech": "noun"

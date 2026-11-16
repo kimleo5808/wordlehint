@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T05:06:03.657Z",
+  "lastUpdated": "2026-11-16T05:06:05.514Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58935,6 +58935,53 @@
             "FOLIAGE",
             "GUY",
             "IN LOVE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "id": 1255,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "CONVENE",
+          "words": [
+            "ASSEMBLE",
+            "COME TOGETHER",
+            "FLOCK",
+            "GATHER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS IN \"SING A SONG OF SIXPENCE\"",
+          "words": [
+            "BLACKBIRD",
+            "PIE",
+            "RYE",
+            "SIXPENCE"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "FILMS WITH \"!\" IN THE TITLE",
+          "words": [
+            "AIRPLANE",
+            "HELP",
+            "SHAZAM",
+            "THEM"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN BOWLING TERMS",
+          "words": [
+            "KINGPIN",
+            "MASKED BALL",
+            "PENNY LANE",
+            "VALLEY"
           ]
         }
       ]
