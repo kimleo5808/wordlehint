@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T05:06:05.514Z",
+  "lastUpdated": "2026-11-17T05:06:06.845Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -58982,6 +58982,53 @@
             "MASKED BALL",
             "PENNY LANE",
             "VALLEY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": 1256,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DESCRIPTORS FOR A LEMON",
+          "words": [
+            "JUICY",
+            "OVOID",
+            "SOUR",
+            "YELLOW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS BEES PRODUCE",
+          "words": [
+            "BUZZ",
+            "COMB",
+            "HONEY",
+            "VENOM"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "CITIES IN FRANCE",
+          "words": [
+            "CANNES",
+            "DIJON",
+            "NICE",
+            "TOURS"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "___ FRY",
+          "words": [
+            "DEEP",
+            "FRENCH",
+            "SMALL",
+            "VOCAL"
           ]
         }
       ]

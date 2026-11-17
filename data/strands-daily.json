@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T05:06:06.027Z",
+  "lastUpdated": "2026-11-17T05:06:07.658Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24786,6 +24786,31 @@
         "EATELE",
         "PPEOEU",
         "COMPNS"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "id": 990,
+      "editor": "Tracy Bennett",
+      "clue": "You're gonna blow it!",
+      "spangram": "BRASSBAND",
+      "themeWords": [
+        "BUGLE",
+        "CORNET",
+        "EUPHONIUM",
+        "TROMBONE",
+        "TRUMPET",
+        "TUBA"
+      ],
+      "board": [
+        "ROMBCO",
+        "TNOTNR",
+        "RAEEBN",
+        "ABSSAD",
+        "BEPOIM",
+        "UTUHNU",
+        "ELTUPT",
+        "BUGRME"
       ]
     }
   ]

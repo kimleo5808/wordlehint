@@ -2123,6 +2123,7 @@
     "definition": "To hit or strike.",
     "partOfSpeech": "verb"
   },
+  "dingo": null,
   "dingy": null,
   "dining": {
     "definition": "To eat; to eat dinner or supper.",
@@ -2168,6 +2169,7 @@
   "djinni": null,
   "docent": null,
   "doctor": null,
+  "dodging": null,
   "dodgy": {
     "definition": "Evasive and shifty",
     "partOfSpeech": "adjective"
@@ -2184,6 +2186,7 @@
   },
   "dogbane": null,
   "doggie": null,
+  "dogging": null,
   "doggo": {
     "definition": "A dog.",
     "partOfSpeech": "noun"
@@ -2191,6 +2194,7 @@
   "doggy": null,
   "dogie": null,
   "doily": null,
+  "doing": null,
   "doll": {
     "definition": "A toy in the form of a human.",
     "partOfSpeech": "noun"
@@ -2205,10 +2209,12 @@
     "partOfSpeech": "verb"
   },
   "donee": null,
+  "dong": null,
   "donned": {
     "definition": "(clothing) To put on, to dress in.",
     "partOfSpeech": "verb"
   },
+  "donning": null,
   "donor": {
     "definition": "One who makes a donation.",
     "partOfSpeech": "noun"
@@ -2286,6 +2292,7 @@
   "droid": null,
   "droll": null,
   "drolly": null,
+  "droning": null,
   "drool": {
     "definition": "Saliva trickling from the mouth.",
     "partOfSpeech": "noun"
@@ -2305,6 +2312,8 @@
     "definition": "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose.",
     "partOfSpeech": "noun"
   },
+  "drugging": null,
+  "druid": null,
   "dryly": {
     "definition": "In a dry manner.",
     "partOfSpeech": "adverb"
@@ -2341,7 +2350,9 @@
   "dunk": null,
   "dunked": null,
   "dunned": null,
+  "dunning": null,
   "dunno": null,
+  "during": null,
   "duvet": null,
   "dyad": null,
   "dyed": null,
@@ -3018,6 +3029,8 @@
     "definition": "To remove the seeds from cotton with a cotton gin.",
     "partOfSpeech": "verb"
   },
+  "gird": null,
+  "girding": null,
   "give": null,
   "given": null,
   "giving": {
@@ -3125,8 +3138,12 @@
   "grandpapa": null,
   "grandpop": null,
   "grappa": null,
+  "grid": null,
+  "gridiron": null,
   "grim": null,
   "grin": null,
+  "grind": null,
+  "grinding": null,
   "grinning": null,
   "grip": null,
   "griping": null,
@@ -3153,12 +3170,15 @@
     "definition": "A red-brown marmot, Marmota monax, native to North America.",
     "partOfSpeech": "noun"
   },
+  "grounding": null,
   "grub": null,
   "grubbing": null,
+  "grudging": null,
   "guar": {
     "definition": "An annual legume (Cyamopsis tetragonoloba), used as a food for cattle and humans.",
     "partOfSpeech": "noun"
   },
+  "guiding": null,
   "gulag": {
     "definition": "A prison camp.",
     "partOfSpeech": "noun"
@@ -3677,6 +3697,7 @@
     "definition": "An indigenous person; a native.",
     "partOfSpeech": "noun"
   },
+  "indigo": null,
   "indoor": null,
   "infallibly": null,
   "infant": null,
@@ -5035,6 +5056,7 @@
     "definition": "To incline the head up and down, as to indicate agreement.",
     "partOfSpeech": "verb"
   },
+  "nodding": null,
   "node": null,
   "noggin": null,
   "nohow": null,
@@ -5112,6 +5134,7 @@
     "partOfSpeech": "noun"
   },
   "nude": null,
+  "nudging": null,
   "nuke": null,
   "nuked": null,
   "null": null,
@@ -5867,7 +5890,11 @@
   },
   "rick": null,
   "ricotta": null,
+  "ridding": null,
+  "ridging": null,
+  "riding": null,
   "rigging": null,
+  "rigid": null,
   "rigor": {
     "definition": "Short for rigor mortis.",
     "partOfSpeech": "noun"
@@ -5934,6 +5961,7 @@
     "definition": "So as to form a circle or trace a circular path, or approximation thereof.",
     "partOfSpeech": "adverb"
   },
+  "rounding": null,
   "rout": null,
   "rove": null,
   "rover": {
@@ -6644,10 +6672,12 @@
     "partOfSpeech": "adjective"
   },
   "undefined": null,
+  "undid": null,
   "undo": {
     "definition": "An operation that reverses a previous action.",
     "partOfSpeech": "noun"
   },
+  "undoing": null,
   "undue": null,
   "unfed": {
     "definition": "A mosquito that has not had a blood meal.",
