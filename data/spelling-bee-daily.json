@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T05:06:08.597Z",
+  "lastUpdated": "2026-11-18T05:06:07.533Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67351,6 +67351,67 @@
         "undo",
         "undoing",
         "unground"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-19",
+      "id": 14022,
+      "centerLetter": "k",
+      "outerLetters": [
+        "c",
+        "d",
+        "e",
+        "l",
+        "n",
+        "u"
+      ],
+      "pangrams": [
+        "clunked",
+        "knuckled"
+      ],
+      "answers": [
+        "cluck",
+        "clucked",
+        "clunk",
+        "clunked",
+        "cuke",
+        "deck",
+        "decked",
+        "deckle",
+        "deke",
+        "deked",
+        "duck",
+        "ducked",
+        "duke",
+        "duked",
+        "dunk",
+        "dunked",
+        "eked",
+        "keel",
+        "keeled",
+        "keen",
+        "keened",
+        "kennel",
+        "kenneled",
+        "knee",
+        "kneed",
+        "kneel",
+        "kneeled",
+        "knell",
+        "knelled",
+        "knuckle",
+        "knuckled",
+        "kudu",
+        "leek",
+        "luck",
+        "lucked",
+        "lunk",
+        "neck",
+        "necked",
+        "nuke",
+        "nuked",
+        "ukulele"
       ],
       "editor": "Sam Ezersky"
     }

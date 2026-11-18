@@ -1502,11 +1502,15 @@
     "partOfSpeech": "noun"
   },
   "clubbed": null,
+  "cluck": null,
+  "clucked": null,
   "clue": {
     "definition": "A strand of yarn etc. as used to guide one through a labyrinth; something which points the way, a guide.",
     "partOfSpeech": "noun"
   },
   "clued": null,
+  "clunk": null,
+  "clunked": null,
   "coach": {
     "definition": "A wheeled vehicle, generally drawn by horse power.",
     "partOfSpeech": "noun"
@@ -1920,6 +1924,7 @@
     "partOfSpeech": "noun"
   },
   "decked": null,
+  "deckle": null,
   "deco": {
     "definition": "(underwater diving) Decompression.",
     "partOfSpeech": "noun"
@@ -3850,6 +3855,7 @@
   },
   "kayak": null,
   "keel": null,
+  "keeled": null,
   "keen": {
     "definition": "To make cold, to sharpen.",
     "partOfSpeech": "verb"
@@ -3864,6 +3870,8 @@
     "partOfSpeech": "noun"
   },
   "kelp": null,
+  "kennel": null,
+  "kenneled": null,
   "keno": {
     "definition": "A gambling game, a variety of the game of lotto, played with balls or knobs, numbered, and cards also numbered.",
     "partOfSpeech": "noun"
@@ -3916,9 +3924,15 @@
     "definition": "To kneel to.",
     "partOfSpeech": "verb"
   },
+  "kneel": null,
+  "kneeled": null,
   "kneepad": null,
+  "knell": null,
+  "knelled": null,
   "knelt": null,
   "knit": null,
+  "knuckle": null,
+  "knuckled": null,
   "kook": {
     "definition": "An eccentric, strange or crazy person.",
     "partOfSpeech": "noun"
@@ -4331,6 +4345,8 @@
   "loyal": null,
   "loyally": null,
   "luau": null,
+  "luck": null,
+  "lucked": null,
   "luff": null,
   "luffed": null,
   "lull": null,
@@ -4338,6 +4354,7 @@
   "lulu": null,
   "luna": null,
   "lune": null,
+  "lunk": null,
   "lunula": null,
   "lunulae": null,
   "lying": null,
@@ -6646,6 +6663,7 @@
     "partOfSpeech": "noun"
   },
   "udon": null,
+  "ukulele": null,
   "ulna": null,
   "ulnae": null,
   "umlaut": null,
