@@ -1,0 +1,272 @@
+.pt-maker,
+.cw-player {
+  --paper: #f5f2f8;
+  --panel: #fff;
+  --ink: #302640;
+  --muted: #5d546c;
+  --accent: #503576;
+  --wash: #e8e0f1;
+  --rule: #cbbfd6;
+  --button-ink: #fff;
+}
+.dark .pt-maker,
+.dark .cw-player {
+  --paper: #201c29;
+  --panel: #2a2434;
+  --ink: #f6f0fc;
+  --muted: #cbc0d8;
+  --accent: #ddc3fa;
+  --wash: #41344e;
+  --rule: #6d5c7d;
+  --button-ink: #211a27;
+}
+.cw-maker {
+  display: grid;
+  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+  gap: clamp(2rem, 7vw, 7.5rem);
+  align-items: start;
+  margin: clamp(1.4rem, 4vw, 3rem) 0;
+}
+.cw-editor {
+  display: grid;
+  gap: 0.45rem;
+}
+.cw-editor label,
+.cw-guess label {
+  font-weight: 650;
+}
+.cw-editor label span {
+  color: var(--muted);
+  font-weight: 400;
+}
+.cw-editor label:not(:first-child) {
+  margin-top: 0.7rem;
+}
+.cw-maker :is(input, textarea),
+.cw-player :is(input, textarea) {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  border: 1px solid var(--rule);
+  border-radius: 0.35rem;
+  padding: 0.55rem 0.8rem;
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+}
+.cw-maker textarea,
+.cw-player textarea {
+  resize: vertical;
+}
+.cw-maker :is(input, textarea)::placeholder,
+.cw-player :is(input, textarea)::placeholder {
+  color: var(--muted);
+  opacity: 0.9;
+}
+.cw-maker :is(textarea, summary):focus-visible,
+.cw-player :is(input, textarea, a, button, summary):focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.cw-actions,
+.cw-copy {
+  display: flex;
+  gap: 0.4rem 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cw-actions {
+  margin-top: 0.65rem;
+}
+.cw-btn,
+.cw-outline,
+.cw-text {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 650;
+}
+.cw-btn,
+.cw-outline {
+  padding: 0.5rem 1.05rem;
+  border: 1px solid var(--accent);
+  border-radius: 0.4rem;
+}
+.cw-btn {
+  background: var(--accent);
+  color: var(--button-ink);
+}
+.cw-btn:disabled {
+  opacity: 0.58;
+}
+.cw-outline {
+  color: var(--accent);
+  background: var(--panel);
+}
+.cw-text {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.22rem;
+}
+.cw-preview {
+  padding: clamp(1.15rem, 3vw, 2.4rem);
+  border-radius: 0.6rem;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-top: 0.4rem solid var(--accent);
+}
+.cw-preview h2 {
+  font: 650 clamp(1.4rem, 2.7vw, 2.15rem)/1.15 var(--display);
+}
+.cw-face {
+  display: flex;
+  gap: 0.42rem;
+  margin: 1.2rem 0 0.6rem;
+}
+.cw-face span {
+  display: grid;
+  place-content: center;
+  background: var(--wash);
+  color: var(--accent);
+  font:
+    650 clamp(1.25rem, 2.4vw, 1.95rem)/1 var(--font-plex-mono),
+    monospace;
+  width: clamp(2.3rem, 4.3vw, 3.7rem);
+  aspect-ratio: 1;
+  border-radius: 0.2rem;
+}
+.cw-rules {
+  color: var(--muted);
+}
+.cw-rules i {
+  padding: 0 0.45rem;
+}
+.cw-preview > .cw-outline {
+  margin-top: 0.9rem;
+}
+.cw-invite,
+.cw-error {
+  border-left: 3px solid var(--accent);
+  padding-left: 0.8rem;
+  margin-top: 0.5rem;
+}
+.cw-invite > p,
+.cw-finish > p {
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.cw-player {
+  background: var(--paper);
+  color: var(--ink);
+  width: 100%;
+  padding: clamp(1.3rem, 3vw, 3rem) 1rem 3rem;
+  min-height: calc(100svh - 3rem);
+}
+.cw-play-wrap {
+  max-width: 32rem;
+  margin: auto;
+}
+.cw-play-wrap h1 {
+  font:
+    650 clamp(1.7rem, 3vw, 2.8rem)/1.15 var(--font-heading),
+    sans-serif;
+}
+.cw-game {
+  max-width: 29rem;
+}
+.cw-turn {
+  color: var(--muted);
+  font-weight: 650;
+  margin: 0.6rem 0;
+}
+.cw-clue {
+  margin: 0.45rem 0;
+}
+.cw-clue summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 0.45rem 0;
+  width: fit-content;
+}
+.cw-clue p {
+  overflow-wrap: anywhere;
+}
+.cw-board {
+  display: grid;
+  gap: 0.25rem;
+  max-width: 17rem;
+  margin: 0.75rem 0;
+}
+.cw-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.25rem;
+}
+.cw-row span {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  border-radius: 0.16rem;
+  aspect-ratio: 1.12;
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  color: var(--ink);
+  font:
+    650 1.45rem/1.02 var(--font-heading),
+    sans-serif;
+}
+.cw-row span[data-color] {
+  border-color: transparent;
+  color: white;
+}
+.cw-row span[data-color="G"] {
+  background: #286247;
+}
+.cw-row span[data-color="Y"] {
+  background: #80591b;
+}
+.cw-row span[data-color="B"] {
+  background: #536373;
+}
+.cw-row small {
+  font-size: 0.65rem;
+}
+.cw-guess {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.3rem 0.6rem;
+  align-items: end;
+}
+.cw-guess input {
+  display: block;
+  margin-top: 0.25rem;
+}
+.cw-error {
+  grid-column: 1/-1;
+}
+.cw-legend {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin-top: 0.5rem;
+}
+.cw-broken {
+  margin-top: 1rem;
+}
+@media (max-width: 760px) {
+  .cw-maker {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    margin: 0.95rem 0;
+  }
+  .cw-preview {
+    padding: 0.85rem 1rem;
+  }
+  .cw-face {
+    margin-top: 0.65rem;
+  }
+  .cw-editor label:not(:first-child) {
+    margin-top: 0.2rem;
+  }
+}

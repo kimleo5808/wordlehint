@@ -28,6 +28,7 @@
 import { existsSync, readdirSync, readFileSync } from "fs";
 import { join, relative, resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { getSpellingBeeTodayDateString } from "../lib/spelling-bee-clock.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const NEXT_DIR = join(ROOT, ".next");
@@ -50,7 +51,7 @@ function easternDate(d) {
 }
 
 const today = easternDate(now);
-const beeToday = easternDate(new Date(now.getTime() - 3 * 60 * 60 * 1000));
+const beeToday = getSpellingBeeTodayDateString(now);
 
 function datesIn(file) {
   const data = JSON.parse(readFileSync(join(ROOT, "data", file), "utf-8"));

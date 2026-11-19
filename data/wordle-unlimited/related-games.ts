@@ -12,6 +12,12 @@ export type RelatedGame = {
 
 export const RELATED_GAMES: RelatedGame[] = [
   {
+    label: "CHALLENGE",
+    title: "Make Your Own Wordle",
+    description: "Choose a secret word, try the board and send a friend a playable link.",
+    href: "/make-your-own-wordle",
+  },
+  {
     label: "DAILY",
     title: "Today's Wordle Hint",
     description:

@@ -1,5 +1,6 @@
 import { cache } from "react";
-import { toEasternDateString } from "@/lib/wordle-daily";
+import { getSpellingBeeTodayDateString } from "./spelling-bee-clock.mjs";
+export { getSpellingBeeTodayDateString };
 import { RANK_LADDER, scoreWord } from "@/lib/spelling-bee-scoring";
 import type {
   ScoredWord,
@@ -13,19 +14,6 @@ const loadData = cache((): SpellingBeeDataFile => {
   // eslint-disable-next-line @typescript-eslint/no-require-imports
   return require("@/data/spelling-bee-daily.json") as SpellingBeeDataFile;
 });
-
-/** NYT releases each new Spelling Bee at 3 AM ET, not midnight. */
-const ROLLOVER_HOURS_ET = 3;
-
-/**
- * Today's Spelling Bee date (YYYY-MM-DD). Between midnight and 3 AM ET this
- * is still yesterday's ET date — players are on the previous hive until then.
- */
-export function getSpellingBeeTodayDateString(): string {
-  return toEasternDateString(
-    new Date(Date.now() - ROLLOVER_HOURS_ET * 60 * 60 * 1000)
-  );
-}
 
 /**
  * Puzzles released as of `today`. The updater prefetches tomorrow's puzzle,

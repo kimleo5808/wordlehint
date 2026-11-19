@@ -168,6 +168,16 @@ export const FAQ_ITEMS: { question: string; answer: string }[] = [
 
 export const RELATED_GAMES: RelatedTool[] = [
   {
+    title: "Spelling Bee Solver",
+    description: "Enter a hive and uncover word counts, pangram clues or a single word.",
+    href: "/spelling-bee-solver",
+  },
+  {
+    title: "Spelling Bee Word History",
+    href: "/spelling-bee-word-history",
+    description: "Check when a word’s letters fit and which past hives actually listed it.",
+  },
+  {
     title: "Spelling Bee Hints Today",
     description:
       "The letter grid, two-letter list, and staged pangram clues — no spoilers until you ask.",

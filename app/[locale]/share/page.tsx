@@ -265,6 +265,13 @@ export default async function SharePage({ params }: { params: Params }) {
             Start Playing
           </I18nLink>
           <I18nLink
+            href="/make-your-own-wordle"
+            prefetch={false}
+            className="rounded-xl bg-white px-5 py-2 text-sm font-bold text-primary"
+          >
+            Make a Wordle for a friend
+          </I18nLink>
+          <I18nLink
             href="/about"
             prefetch={false}
             className="rounded-xl border-2 border-white/30 px-5 py-2 text-sm font-bold text-white transition-all hover:bg-white/10"

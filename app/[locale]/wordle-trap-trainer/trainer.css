@@ -1,0 +1,256 @@
+.tt-trainer {
+  margin: clamp(1.2rem, 3.5vw, 2.7rem) 0;
+}
+.tt-controls {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.6rem;
+}
+.tt-controls > label,
+.tt-controls legend,
+.tt-form > label {
+  font-weight: 650;
+}
+.tt-controls select {
+  display: block;
+  margin-top: 0.25rem;
+  min-width: 8rem;
+}
+.tt-controls :is(select, fieldset label),
+.tt-form input {
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  color: var(--ink);
+  border-radius: 0.35rem;
+  min-height: 44px;
+  padding: 0.45rem 0.75rem;
+}
+.tt-controls fieldset {
+  display: flex;
+  gap: 0.3rem;
+}
+.tt-controls legend {
+  margin-bottom: 0.25rem;
+}
+.tt-controls fieldset label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+.tt-controls input {
+  accent-color: var(--accent);
+}
+.tt-controls fieldset label:has(:checked) {
+  background: var(--wash);
+  border-color: var(--accent);
+}
+.tt-round {
+  margin-top: 1.15rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 0.65rem;
+  overflow: hidden;
+}
+.tt-board,
+.tt-study {
+  min-width: 0;
+  padding: clamp(1rem, 3vw, 2.6rem);
+}
+.tt-study {
+  background: var(--paper);
+  border-left: 1px solid var(--rule);
+}
+.tt-balance {
+  font-size: 1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+.tt-mask,
+.tt-tiles {
+  display: flex;
+  gap: clamp(0.2rem, 0.7vw, 0.54rem);
+}
+.tt-mask {
+  margin: 0.7rem 0;
+}
+.tt-mask > span,
+.tt-tiles > span {
+  aspect-ratio: 1;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  border-radius: 0.22rem;
+  color: #fff;
+  background: #27634c;
+  font:
+    650 clamp(1.6rem, 3.2vw, 3rem)/1 var(--font-plex-mono),
+    monospace;
+}
+.tt-mask > span {
+  width: clamp(2.5rem, 5.6vw, 4.75rem);
+}
+.tt-mask [data-blank="true"] {
+  border: 2px dashed #87642c;
+  background: #f0d397;
+  color: #4a371a;
+}
+.tt-rule,
+.tt-note,
+.tt-comparison p {
+  color: var(--muted);
+  line-height: 1.55;
+  max-width: 53ch;
+}
+.tt-form {
+  margin-top: 1rem;
+}
+.tt-form > div {
+  margin: 0.32rem 0;
+  display: flex;
+  gap: 0.4rem;
+}
+.tt-form input {
+  width: 100%;
+  max-width: 17rem;
+  min-width: 0;
+  font-size: 1rem;
+}
+.tt-submit {
+  white-space: nowrap;
+  border-radius: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  background: var(--accent);
+  color: var(--button-ink);
+  font-weight: 650;
+  min-height: 44px;
+}
+.tt-count {
+  font: 650 clamp(1.45rem, 2.75vw, 2.35rem)/1.12 var(--display);
+}
+.tt-candidates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  margin: 0.9rem 0;
+}
+.tt-candidates li {
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.3rem;
+  background: var(--panel);
+  font:
+    600 0.96rem/1.4 var(--font-plex-mono),
+    monospace;
+}
+.tt-restart,
+.tt-comparison summary {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18rem;
+  cursor: pointer;
+  min-height: 40px;
+  padding-block: 0.4rem;
+}
+.tt-history {
+  margin: 0.7rem 0;
+}
+.tt-history li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0.3rem 0;
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+.tt-tiles {
+  gap: 0.18rem;
+}
+.tt-tiles > span {
+  width: 1.9rem;
+  font-size: 1rem;
+}
+.tt-tiles small {
+  font-size: 0.6rem;
+}
+.tt-tiles [data-color="Y"] {
+  background: #795710;
+}
+.tt-tiles [data-color="B"] {
+  background: #505e67;
+}
+.tt-error,
+.tt-answer {
+  border-left: 3px solid var(--accent);
+  padding-left: 0.7rem;
+  margin: 0.65rem 0;
+}
+.tt-comparison {
+  margin-top: 1rem;
+}
+.tt-comparison h3 {
+  font-weight: 700;
+}
+.tt-comparison table {
+  margin: 0.45rem 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+.tt-comparison :is(th, td) {
+  padding: 0.4rem 0.3rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: right;
+}
+.tt-comparison tr > :first-child {
+  text-align: left;
+}
+.tt-comparison small {
+  display: block;
+  color: var(--muted);
+  font-weight: 400;
+}
+.tt-comparison details ul {
+  margin-bottom: 0.45rem;
+}
+.tt-comparison details li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  padding: 0.26rem 0;
+}
+.tt-comparison details b {
+  font-family: var(--font-plex-mono), monospace;
+}
+.tt-trainer :is(select, summary):focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+@media (max-width: 760px) {
+  .tt-trainer {
+    margin-top: 1rem;
+  }
+  .tt-round {
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: 0.8rem;
+  }
+  .tt-controls {
+    gap: 0.5rem 0.7rem;
+  }
+  .tt-controls select {
+    min-width: 5.5rem;
+  }
+  .tt-controls fieldset label {
+    padding-inline: 0.45rem;
+  }
+  .tt-study {
+    border-left: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .tt-candidates {
+    margin: 0.6rem 0;
+  }
+}

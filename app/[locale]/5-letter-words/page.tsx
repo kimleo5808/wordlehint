@@ -167,6 +167,7 @@ export default async function FiveLetterWordsHub({
         <SectionHeading title="Wordle Tools" />
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
+            { href: "/5-letter-words/without-vowels", title: "5 Letter Words Without Vowels", desc: "Filter vowel-free guesses by position and compare past answers." },
             { href: "/wordle-solver", title: "Wordle Solver", desc: "Filter by green/yellow/gray letters." },
             { href: "/best-wordle-starting-words", title: "Best Starting Words", desc: "Data-ranked opening words." },
             { href: "/wordle-hint-today", title: "Today's Hint", desc: "Progressive clues for today's puzzle." },

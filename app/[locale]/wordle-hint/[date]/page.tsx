@@ -187,6 +187,11 @@ export default async function WordleHintDatePage({
         <div className="mx-auto max-w-2xl space-y-6 px-4 sm:px-6">
           <DailyHintCard hints={hints} />
           <DailyAnswerReveal answer={puzzle.answer} />
+          {!isToday && (
+            <Link href={`/wordle-analyzer#${date}`} prefetch={false} className="inline-block font-semibold text-primary underline underline-offset-4">
+              Review your guesses for puzzle #{puzzle.id}
+            </Link>
+          )}
 
           {/* Definition & Etymology */}
           <AnswerDefinition word={puzzle.answer} />

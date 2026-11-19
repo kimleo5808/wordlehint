@@ -118,6 +118,7 @@ export default function WithoutVowelsPage() {
           <div className="mt-6">
             <WordGrid words={words} />
           </div>
+          <p className="mt-5 text-muted-foreground">Playing Wordle? Browse <Link className="font-semibold text-cta hover:underline" href="/5-letter-words/without-vowels">five-letter words without vowels</Link> and filter by known positions.</p>
         </section>
 
         <section className="mt-14">

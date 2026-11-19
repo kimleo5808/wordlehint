@@ -1,0 +1,103 @@
+## Why does the Wordle Trap Trainer start with four greens?
+
+You have the last four letters of a word. They are I, G, H and T. It feels as if the puzzle is nearly over, until you try to name all the letters that could go in front. The Wordle Trap Trainer starts at exactly that moment. Choose a family, play a five-letter guess and see which answers can still produce the colors you received.
+
+In this exercise the four green positions are given. You have three playable turns and there are no earlier gray letters to remember. The starting list is printed beside the board so you can spend your attention on the decision. A candidate is a word the trainer can choose as its secret. A legal guess can come from a much larger list.
+
+### Choose a starting board in the Wordle Trap Trainer
+
+| Family | Missing position | Possible answers at the start | Example choices |
+| --- | --- | ---: | --- |
+| `_IGHT` | First letter | 9 | EIGHT, LIGHT and WIGHT |
+| `_ATCH` | First letter | 7 | BATCH, MATCH and WATCH |
+| `S_ORE` | Second letter | 6 | SCORE, SPORE and SWORE |
+
+These counts come from WordleHint’s 2,315-word common-answer reference list, built on June 17, 2026. The guess dictionary contains 14,855 entries. Every training target is equally likely within the selected family at the start of a round. The counts describe this practice board. A real game can have fewer candidates because of letters eliminated on earlier rows.
+
+#### Try one move before reading the worked example
+
+Pick Regular and submit a word you would genuinely play. Before pressing the button, predict how many answers might remain if the guess misses. After submitting, compare that prediction with the **Most left** column. The Wordle Trap Trainer also shows the actual before-and-after count beside your colored row. Those two numbers can differ even when your reasoning was sound.
+
+## What does a probe word buy you?
+
+A probe spends a turn to test several possibilities at once. It can be worth playing when only one square is open and several guesses remain. In the nine-word family, LIGHT can finish the puzzle immediately. If its L misses, the other eight words all produce the same gray tile followed by four greens. The feedback gives you no way to choose among those eight yet.
+
+### Compare LIGHT with FERNS in the Wordle Trap Trainer
+
+FERNS tests five possible opening letters in one move. F is in the first position of the guess, so a green F identifies FIGHT. E, R, N and S occur in other positions of the guess. A yellow on just one of those tiles identifies EIGHT, RIGHT, NIGHT or SIGHT respectively. Each outcome is tied to a specific letter and position.
+
+<StudyFigure />
+
+| First guess | Distinct feedback patterns | Largest group | Can it solve on this turn? |
+| --- | ---: | ---: | --- |
+| LIGHT | 2 | 8 answers | Yes, when the secret is LIGHT. |
+| FERNS | 6 | 4 answers | No. It can identify a word you must then enter. |
+
+FERNS leaves at most four words on this starting board, so it eliminates at least five. LIGHT eliminates at least one, and it can also produce five greens. The Wordle Trap Trainer reports the largest group to show what you can count on before the colors arrive. It also records the actual survivors, which are the ones that matter for your next move.
+
+#### Five gray tiles can still be a good result
+
+If FERNS returns five grays, cross out the words beginning with F, E, R, N or S. LIGHT, MIGHT, TIGHT and WIGHT remain. The row contains no colored letters to carry forward, yet it has resolved more than half of the starting list. Reading only the number of green tiles would miss most of what that guess achieved.
+
+## Can you finish the nine-word family in the Wordle Trap Trainer in three turns?
+
+For this specific regular-mode exercise, start with FERNS. Five of the six feedback patterns identify a single answer, which you can enter on the second turn. If the result is all gray, use the second turn to test the four remaining words together. WHELM is one guess that separates them all in the Wordle Trap Trainer.
+
+| Secret still possible | What WHELM would tell you |
+| --- | --- |
+| LIGHT | H and L are yellow. The L points to the remaining word beginning with L. |
+| MIGHT | H and M are yellow. The M identifies the opening letter. |
+| TIGHT | Only H is yellow. The letters W, L and M have all missed. |
+| WIGHT | W is green and H is yellow. The green W identifies the word. |
+
+### Leave a turn to type the answer
+
+WHELM cannot itself be the secret in this family. Even a perfect split earns no win until you submit the one surviving word. That is why the exercise gives you three turns. The sequence above covers every target in the starting pool, provided you read the first result, take the appropriate branch and enter the answer while a row remains.
+
+#### How the trainer picks its comparison
+
+Each family has two example probe words. After your turn, the Wordle Trap Trainer tries both against the candidates you faced before that guess. It displays the one with the smaller largest group. When that measure ties, it favors more distinct patterns, then the first example. This narrow comparison lets you inspect the arithmetic without treating one sample word as a universal best move.
+
+The expandable group list includes every outcome of the comparison word. If you played LIGHT, you can examine what FERNS could have done from the same position. Its table leaves all the branches open. Only a guess you actually submit tells you which colors belong to the hidden target.
+
+## What changes in Wordle Trap Trainer hard mode?
+
+Select Hard and every accepted guess must keep the four starting greens in their positions. On the first family, that means ending in IGHT on every turn. FERNS is an English word in the guess dictionary, but it breaks the shape of this board. The Wordle Trap Trainer explains the conflict and leaves the guess counter alone.
+
+### How much can a legal miss eliminate in the Wordle Trap Trainer?
+
+With just one unknown position, a family member tests one possible letter in that position. If it misses, all the other family members produce the same row. There is no hidden bonus for choosing a rare spelling. In the nine-word exercise, three different candidate guesses cover three of nine equally likely targets, giving a one-in-three chance of finishing under these rules.
+
+| Position you face | Regular mode | Hard mode |
+| --- | --- | --- |
+| More candidates than turns | A probe can divide several openings in one row. | Keep the greens and choose a surviving candidate. |
+| Two candidates and two turns | Either candidate can win now or identify the other. | The same plan works if you enter the other word on the last turn. |
+| Several candidates on the final turn | Guess one that could actually win. | A previously eliminated or guess-only word cannot finish the puzzle. |
+
+#### A repeated letter can receive both green and gray
+
+Try TIGHT in the Wordle Trap Trainer. If the answer is LIGHT, the final T already claims the only T in the target. The first T turns gray. You have learned that the answer does not start with a second T. The green T on the right remains part of the word. Keeping the two copies separate makes the row easy to interpret.
+
+## What if the gap is in the middle?
+
+Choose the family with S in the first position and ORE at the end. The six starting candidates are SCORE, SHORE, SNORE, SPORE, STORE and SWORE. Look at the second letter of each one. C, H, N, P, T and W are doing the same job that the opening letters did on the first board.
+
+### Test an interior gap in the Wordle Trap Trainer
+
+In regular mode, play BENCH and pay attention to E. It turns yellow for every possible target because each answer ends in E while the guess places E second. A letter can light up and tell you nothing new about the difference between two survivors. The tiles for C, H and N do most of the distinguishing work here.
+
+SCORE, SHORE and SNORE each form a group of one. SPORE, STORE and SWORE share the remaining pattern. The Wordle Trap Trainer lets you expand these groups after the guess. Pick two words in the largest group and go through BENCH one tile at a time. Finding the exact reason they look identical is a useful way to choose your next guess.
+
+## Can you go from a finished game to the Wordle Trap Trainer?
+
+If you still have a live game in progress, use the [Wordle Solver](/wordle-solver) with your actual tiles. If you have finished it, enter the answer and your guesses in the [Wordle Analyzer](/wordle-analyzer). When a reviewed board matches one of these three four-green families, its practice link takes you to that family in the Wordle Trap Trainer.
+
+### Why might the practice board show more words?
+
+Suppose your earlier guesses already ruled out R and N before you reached the IGHT ending. Your real list would exclude RIGHT and NIGHT. A fresh Wordle Trap Trainer round gives you only the four green positions, so both words are back in contention. Replaying a family isolates one decision that may have looked different inside a longer game.
+
+#### How should you spend a second practice round?
+
+Switch from Regular to Hard and try the same family again. Take a moment to name the move you would have preferred in Regular, then choose a word permitted by the current rules. Changing families or rules starts a fresh round. You can also restart the current one or play again after a win or loss.
+
+For one last exercise, choose a candidate first and note the largest group it leaves. On another round of the Wordle Trap Trainer, try a probe first and read that number again. Compare those two worst cases even if one round happened to end on a lucky first guess. The comparison travels across different targets because both moves faced the same starting pool.

@@ -1,0 +1,105 @@
+## What did your first guess actually tell you?
+
+A Wordle analyzer can answer a question that the little green squares leave open after a game. How many words would have produced exactly the same row? Pick an old puzzle or enter the answer you saw, then type your guesses as you played them. Open any turn to inspect some of the words that survived and some that dropped out.
+
+Start with the example on the board. The answer is SIREN, the archived solution for [December 31, 2025](/wordle-hint/2025-12-31). SHEEP, SANER and SIREN are a sequence you can try against that answer. The date and solution come from the archive. The guesses are a worked example you can change.
+
+### Read the Wordle analyzer sample replay
+
+| Guess | Candidates before | Candidates after | What changed |
+| --- | ---: | ---: | --- |
+| SHEEP | 2,315 | 9 | S and the fourth-position E turned green. The other E had no match left. |
+| SANER | 9 | 1 | N and R both appeared in other positions. Only SIREN reproduced the whole row. |
+| SIREN | 1 | 1 | The five greens confirmed the word already isolated by turn two. |
+
+The first row of the Wordle analyzer shows the largest numerical drop. The second row did something a little different. It gave you enough information to distinguish the answer from every other surviving reference word. The third row recorded the win. A player remembering this as a three-guess solve and a player remembering that they knew the answer after two are describing the same game.
+
+#### Open the nine-word branch
+
+After SHEEP, the survivors are SAFER, SANER, SCREW, SINEW, SIREN, SKIER, SOBER, SOWER and SURER. Read them aloud. Every one starts with S and has E in the fourth spot. Some end in R, some end in W, and one ends in N. SANER tests several of those differences in a single turn.
+
+## How does the Wordle analyzer handle repeated letters?
+
+Each copy of a letter in the answer can color one tile in your guess. First reserve every letter you placed correctly. Then read the other guessed letters from left to right and give each a yellow tile if an unused copy remains. An extra copy gets a gray tile. The order matters whenever a guess uses a letter twice.
+
+### Follow both E tiles in SHEEP
+
+SIREN has one E, in the fourth position. The fourth tile in SHEEP claims that copy immediately. The E in the third spot has nothing left to claim. This is how a green E and a gray E can sit beside each other on a perfectly consistent board.
+
+<StudyFigure />
+
+The diagram holds the guess steady and changes the answer. Compare SIREN with SWEET, a tempting candidate if you only remember where the greens were. Against SWEET, the E in position three would also turn green. That single disagreement rules SWEET out of the original replay even though its first and fourth letters fit.
+
+#### Try an answer with two available copies
+
+Enter SEVER as the answer in the Wordle analyzer and enter SHEEP as the only guess. The fourth E is still green. This time an E in position two of the answer is free to give the third guessed letter a yellow. The tile mark changes as soon as you review the row. Try predicting it before you press the button.
+
+## Which words count as possible answers in the Wordle analyzer?
+
+The Wordle analyzer starts every replay with the same 2,315 entries from WordleHint’s five-letter common-answer reference list. The snapshot used here was built on June 17, 2026. You can compare boards from different years under a single rule because the starting list stays fixed throughout the calculation.
+
+For each candidate, the Wordle analyzer temporarily treats that word as the secret answer and scores your guess against it. The candidate survives only if all five tiles agree with the row produced by your actual answer. On turn two, only the survivors of turn one are tested. A word that dropped out earlier cannot return later.
+
+### Three counts you can read from one row
+
+| Number | Where it comes from | How to use it |
+| --- | --- | --- |
+| Before | Words consistent with every earlier row | Reconstruct the choice you faced before this guess. |
+| After | Words that also match this row | Open the row to see examples that still fit. |
+| Removed | Before minus after | Compare the size of the change with another turn on this board. |
+
+#### Why can another tool report a different total?
+
+Open a word finder and you may see obscure words, inflected forms and plausible guesses you would never expect to be the daily answer. A list that includes them starts larger. Two tools can agree on every colored tile and still display different counts. Check the size and purpose of each starting list before comparing their results.
+
+The Wordle analyzer lets you enter any five-letter spelling so you can transcribe a finished board, including a custom puzzle. If the known answer falls outside the reference list, the feedback still uses the answer you supplied. The number of reference words can reach zero, even on a five-green row. A note appears beside your replay when this happens.
+
+## How do you replay a win or a loss?
+
+Choose **Known answer** for a game in front of you, or **Past puzzle** for a dated entry in the WordleHint archive. With a past puzzle, check the displayed answer and add only the words you personally played. The Wordle analyzer orders guesses exactly as entered. Separate them with commas, spaces or new lines.
+
+### A lost game has six guesses and a separate answer
+
+Suppose the game revealed LIGHT after your sixth guess. Type LIGHT in the answer field. Enter your six attempts in the guesses box and stop at the last word you actually played. Adding LIGHT as a seventh guess would change the history you meant to reconstruct. The Wordle analyzer can score all six attempts even when none earned five greens.
+
+#### Finishing early or reconstructing part of a board
+
+For a win in two, supply the opening guess and the winning guess. For a photograph with only two legible rows, enter those two if you also know the answer. The replay then describes the visible prefix of the game. The final count tells you what remained at that point. Anything that happened off camera stays an open question.
+
+### Can a share grid recover my guesses?
+
+A share grid records colors and turn order. It leaves out the letters you typed. A gray first tile might have been a rejected S, an extra E, or many other letters. To recreate your row in the Wordle analyzer, look at the finished board and copy its words. You can also ask the friend who shared the grid for their opening guess and replay just that turn.
+
+## What can four green tiles leave undecided in a Wordle analyzer replay?
+
+Try another board in the Wordle analyzer. Set the answer to LIGHT and play SIGHT, MIGHT, LIGHT. Each of the first two guesses fixes the same four letters. The accepted endings make both rows look close to victory, yet their identical color patterns leave quite different numbers of choices because the second row inherits everything the first established.
+
+| Guess | Feedback | Candidates left | Read the changing first letter |
+| --- | --- | ---: | --- |
+| SIGHT | Gray, then four green | 8 | EIGHT, FIGHT, LIGHT, MIGHT, NIGHT, RIGHT, TIGHT and WIGHT fit. |
+| MIGHT | Gray, then four green | 7 | Only MIGHT leaves this group. |
+| LIGHT | Five green | 1 | LIGHT matches the winning row at every position. |
+
+### Open a turn and compare its two lists
+
+The second turn is a small enough case to audit by hand. Cover the last four tiles. Now compare M with the first letter of each of the eight possible answers from the first row. Only one starts with M. Once the first tile turned gray, the other seven words remained. That explains the one-word drop without assigning a grade to the player.
+
+#### What if I entered the same word twice?
+
+Repeat SIGHT in a fresh replay against LIGHT. The Wordle analyzer shows eight candidates after the first guess and eight after the second. Repeating the same question about the same secret word returns the same evidence. The duplicate row is useful if you really did repeat a guess, or if you want to check that later turns honor the earlier clues.
+
+## Which turn helped you the most?
+
+The largest drop in the Wordle analyzer is a count of words eliminated on the path you played. It depends on the hidden answer as well as the guess. A first turn with thousands of candidates available can remove more words than a late turn with just three left. Read the starting count whenever you compare two drops.
+
+### Compare two guesses from the same position
+
+Load the example and keep SHEEP as the opener. For a second replay, replace SANER with SOWER, leaving the answer unchanged. Before submitting, write down which of the nine words you think each second guess can separate. Then open turn two in each replay. Checking your predictions against the actual survivors says more about your reasoning than comparing your final score alone.
+
+To study opening choices across many possible answers, visit the [starting words guide](/best-wordle-starting-words). A single Wordle analyzer replay follows one answer through one game. A choice that worked beautifully here could have left a sizable group on a different day. Both observations can be true for the very same spelling.
+
+### Where should I go after the review?
+
+If an old board caught your attention, select a different date from the [Wordle answer archive](/wordle-answers) and try your usual opener against it. Predict one tile that would change, then check it against the Wordle analyzer. This short exercise works even when you cannot recall the rest of your guesses from that day.
+
+If your current game is still open and you only know the colors, use the [Wordle Solver](/wordle-solver) to work with that information. Come back to the Wordle analyzer once you have the answer and the words you played. Then you can find the precise row where a favorite possibility disappeared and read which alternatives were still on the board.

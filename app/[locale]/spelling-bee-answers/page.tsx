@@ -92,6 +92,8 @@ export default function SpellingBeeAnswersPage() {
           Today&apos;s Wordle hint
           <ChevronRight className="h-4 w-4" />
         </Link>
+        <p className="mt-4"><Link className="text-cta underline" href="/spelling-bee-word-history">Look up a word’s history in completed hives</Link></p>
+        <p className="mt-4"><Link className="text-cta underline" href="/spelling-bee-solver">Solve a hive using your seven letters</Link></p>
       </div>
     );
   }

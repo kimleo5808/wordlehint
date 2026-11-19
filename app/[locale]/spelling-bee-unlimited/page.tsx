@@ -18,6 +18,7 @@ import {
 import { constructMetadata } from "@/lib/metadata";
 import type { UnlimitedBeePuzzle } from "@/components/spelling-bee-unlimited/gameReducer";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import SectionRenderer from "@/components/spelling-bee-unlimited/SectionRenderer";
 import UnlimitedSpellingBeeShell from "@/components/spelling-bee-unlimited/UnlimitedSpellingBeeShell";
@@ -164,6 +165,7 @@ export default async function SpellingBeeUnlimitedPage({
         {SECTIONS.map((section) => (
           <SectionRenderer key={section.id} section={section} />
         ))}
+        <p className="mt-8"><Link className="underline" href="/spelling-bee-word-history">Look up a word’s history in past Spelling Bee puzzles</Link></p>
       </article>
     </>
   );

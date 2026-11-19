@@ -313,6 +313,9 @@ export default async function WordleSolverPage({
         </h2>
         <div className="mt-4">
           <RelatedTools tools={RELATED_TOOLS} />
+          <Link href="/wordle-trap-trainer" className="mt-4 inline-block font-semibold text-cta underline">
+            Practice a four-green endgame in the Wordle Trap Trainer
+          </Link>
         </div>
       </section>
     </div>

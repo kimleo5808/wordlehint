@@ -1,0 +1,265 @@
+.bs-tool {
+  --leaf: #245544;
+  --tile: #dbe4dd;
+  --tile-ink: #253b32;
+  --gold: #f2c94c;
+  display: grid;
+  grid-template-columns: minmax(17rem, 0.8fr) minmax(0, 1.45fr);
+  align-items: start;
+  gap: clamp(2rem, 6vw, 6rem);
+  margin-top: clamp(1.4rem, 3.2vw, 3rem);
+}
+.dark .bs-tool {
+  --tile: #3c5146;
+  --tile-ink: #f1f7ed;
+  --leaf: #b0d8bf;
+}
+.bs-entry {
+  padding: clamp(1rem, 2.3vw, 1.8rem);
+  border: 1px solid var(--rule);
+  border-radius: 0.8rem;
+  background: var(--panel);
+}
+.bs-board-row {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.75rem, 2vw, 2rem);
+  margin-bottom: 1rem;
+}
+.bs-board-row p {
+  flex: 1;
+  min-width: 0;
+}
+.bs-board-row p b,
+.bs-board-row p span {
+  display: block;
+}
+.bs-board-row p b {
+  color: var(--leaf);
+  margin-bottom: 0.2rem;
+}
+.bs-board-row p span,
+.bs-source p {
+  color: var(--muted);
+}
+.bs-hive {
+  --unit: clamp(2.85rem, 4.2vw, 3.9rem);
+  width: calc(var(--unit) * 2.58);
+  height: calc(var(--unit) * 2.65);
+  position: relative;
+  flex-shrink: 0;
+}
+.bs-hex {
+  position: absolute;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  width: var(--unit);
+  height: calc(var(--unit) * 0.866);
+  background: var(--tile);
+  color: var(--tile-ink);
+  font-size: clamp(1.15rem, 2vw, 1.65rem);
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+.bs-hex:hover {
+  filter: brightness(0.91);
+}
+.bs-hex:focus-visible {
+  text-decoration: underline double;
+}
+.bs-hex-0 {
+  left: 30.5%;
+  top: 33.5%;
+  background: var(--gold);
+  color: #342e18;
+}
+.bs-hex-1 {
+  left: 30.5%;
+  top: 0;
+}
+.bs-hex-2 {
+  left: 61%;
+  top: 16.75%;
+}
+.bs-hex-3 {
+  left: 61%;
+  top: 50.25%;
+}
+.bs-hex-4 {
+  left: 30.5%;
+  top: 67%;
+}
+.bs-hex-5 {
+  left: 0;
+  top: 50.25%;
+}
+.bs-hex-6 {
+  left: 0;
+  top: 16.75%;
+}
+.bs-entry label,
+.bs-groups legend {
+  font-weight: 600;
+  display: block;
+}
+.bs-entry input,
+.bs-source select {
+  border: 1px solid var(--rule);
+  border-radius: 0.35rem;
+  color: var(--ink);
+  background: var(--panel);
+  min-height: 44px;
+  padding: 0.45rem 0.7rem;
+}
+.bs-entry input {
+  display: block;
+  width: 100%;
+  margin: 0.3rem 0 0.65rem;
+  font:
+    550 1.15rem var(--font-plex-mono),
+    monospace;
+  letter-spacing: 0.1em;
+}
+.bs-actions,
+.bs-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+.bs-primary {
+  background: var(--leaf);
+  color: var(--panel);
+  border-radius: 0.35rem;
+  min-height: 44px;
+  padding: 0.45rem 1rem;
+  font-weight: 650;
+}
+.bs-error {
+  font-weight: 600;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.6rem;
+  margin-top: 0.6rem;
+}
+.bs-result {
+  min-width: 0;
+}
+.bs-title {
+  font: 600 clamp(1.5rem, 2.7vw, 2.3rem)/1.2 var(--display);
+}
+.bs-source a,
+.bs-links button {
+  color: var(--leaf);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.bs-source label {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.35rem 0;
+}
+.bs-totals {
+  margin: 0.8rem 0 1.2rem;
+  padding: 0.75rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-block: 1px solid var(--rule);
+}
+.bs-totals div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+}
+.bs-totals dt {
+  color: var(--muted);
+}
+.bs-totals dd {
+  font: 550 clamp(1.8rem, 3.5vw, 3.2rem)/1.15 var(--display);
+  font-variant-numeric: tabular-nums;
+}
+.bs-groups {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.bs-groups legend {
+  margin-bottom: 0.45rem;
+}
+.bs-groups button {
+  min-height: 44px;
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--rule);
+  font-size: 0.94rem;
+}
+.bs-groups button b {
+  margin-left: 0.18rem;
+  font-variant-numeric: tabular-nums;
+}
+.bs-groups button[aria-pressed="true"] {
+  background: var(--tile);
+  color: var(--tile-ink);
+  border-color: var(--leaf);
+}
+.bs-hints {
+  padding: 0.8rem 0;
+}
+.bs-hints h3 {
+  font-weight: 650;
+}
+.bs-links button {
+  min-height: 44px;
+}
+.bs-prefixes,
+.bs-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.85rem;
+}
+.bs-prefixes {
+  padding: 0.65rem;
+  background: var(--panel);
+}
+.bs-words {
+  margin-top: 0.5rem;
+}
+.bs-words li {
+  display: flex;
+  gap: 0.35rem;
+  align-items: baseline;
+}
+.bs-words li span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+.bs-idle {
+  padding: 1rem 0;
+  color: var(--muted);
+}
+@media (max-width: 760px) {
+  .bs-tool {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.15rem;
+    margin-top: 0.9rem;
+  }
+  .bs-entry {
+    padding: 0;
+    background: transparent;
+    border: 0;
+  }
+  .bs-board-row {
+    margin-bottom: 0.55rem;
+  }
+  .bs-hive {
+    --unit: 3.2rem;
+  }
+  .bs-totals {
+    margin: 0.5rem 0 0.75rem;
+    padding: 0.5rem 0;
+  }
+  .bs-totals dd {
+    font-size: 1.9rem;
+  }
+}

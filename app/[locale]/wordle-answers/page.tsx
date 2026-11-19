@@ -334,7 +334,10 @@ export default async function WordleAnswersPage() {
             >
               Get today&apos;s Wordle hints
             </Link>{" "}
-            instead.
+            instead. Finished playing?{" "}
+            <Link href="/wordle-analyzer" className="font-semibold text-cta underline-offset-2 hover:underline">
+              Review your guesses in the Wordle Analyzer
+            </Link>.
           </p>
         </section>
 
