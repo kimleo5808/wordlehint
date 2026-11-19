@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T05:06:07.533Z",
+  "lastUpdated": "2026-11-19T05:06:04.445Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67412,6 +67412,74 @@
         "nuke",
         "nuked",
         "ukulele"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-20",
+      "id": 21354,
+      "centerLetter": "t",
+      "outerLetters": [
+        "a",
+        "c",
+        "d",
+        "f",
+        "i",
+        "r"
+      ],
+      "pangrams": [
+        "diffract"
+      ],
+      "answers": [
+        "addict",
+        "adrift",
+        "aircraft",
+        "arctic",
+        "artifact",
+        "atria",
+        "attar",
+        "attic",
+        "attract",
+        "cacti",
+        "carat",
+        "cart",
+        "cataract",
+        "citric",
+        "craft",
+        "critic",
+        "daft",
+        "dart",
+        "data",
+        "diacritic",
+        "dicta",
+        "didact",
+        "didactic",
+        "diffract",
+        "dirt",
+        "draft",
+        "drat",
+        "drift",
+        "fact",
+        "fart",
+        "fiat",
+        "frat",
+        "frittata",
+        "raft",
+        "raita",
+        "ratatat",
+        "rift",
+        "tacit",
+        "tact",
+        "tactic",
+        "tariff",
+        "tart",
+        "tartar",
+        "tiara",
+        "tiff",
+        "tract",
+        "traffic",
+        "trait",
+        "triad"
       ],
       "editor": "Sam Ezersky"
     }

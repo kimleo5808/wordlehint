@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T05:06:06.251Z",
+  "lastUpdated": "2026-11-19T05:06:02.929Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59076,6 +59076,53 @@
             "GALANGAL",
             "HOTSHOT",
             "UNDERGROUND"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "id": 1258,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PERSON WHO EXCELS AT SOMETHING",
+          "words": [
+            "ACE",
+            "BEAST",
+            "MAVEN",
+            "WIZARD"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "NOTICE",
+          "words": [
+            "CATCH",
+            "CLOCK",
+            "REGISTER",
+            "SPOT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "DESCRIPTORS FOR SMALL ANIMALS",
+          "words": [
+            "MINIATURE",
+            "POCKET",
+            "TEACUP",
+            "TOY"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN LINGERIE",
+          "words": [
+            "CANDELABRA",
+            "COWSLIP",
+            "DIPHTHONG",
+            "STUTTGARTER"
           ]
         }
       ]

@@ -124,6 +124,7 @@
     "definition": "Adornment",
     "partOfSpeech": "noun"
   },
+  "adrift": null,
   "advance": null,
   "advanced": null,
   "advice": null,
@@ -175,6 +176,7 @@
     "definition": "A type of sauce, similar to mayonnaise, made from garlic, egg, lemon juice and olive oil.",
     "partOfSpeech": "noun"
   },
+  "aircraft": null,
   "airdrop": null,
   "airily": null,
   "airmail": null,
@@ -440,6 +442,7 @@
     "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
     "partOfSpeech": "noun"
   },
+  "artifact": null,
   "arty": null,
   "arugula": {
     "definition": "One of three yellowish-flowered Mediterranean herbs of the mustard family with flavoured leaves, often eaten in salads. Has a distinct, peppery flavor:",
@@ -1738,6 +1741,7 @@
     "definition": "A thin and usually jagged space opened in a previously solid material.",
     "partOfSpeech": "noun"
   },
+  "craft": null,
   "cram": null,
   "crania": {
     "definition": "The braincase or neurocranium; that part of the skull consisting of the bones enclosing the brain, but not including the bones of the face or jaw.",
@@ -1822,6 +1826,7 @@
     "partOfSpeech": "verb"
   },
   "daddy": null,
+  "daft": null,
   "daily": null,
   "dale": null,
   "dallied": null,
@@ -2084,6 +2089,7 @@
   "died": null,
   "diet": null,
   "dieted": null,
+  "diffract": null,
   "digging": {
     "definition": "To move hard-packed earth out of the way, especially downward to make a hole with a shovel. Or to drill, or the like, through rocks, roads, or the like. More generally, to make any similar hole by moving material out of the way.",
     "partOfSpeech": "verb"
@@ -2280,6 +2286,7 @@
   },
   "drab": null,
   "drably": null,
+  "draft": null,
   "drag": null,
   "dragon": null,
   "dragoon": null,
@@ -2289,6 +2296,7 @@
     "partOfSpeech": "verb"
   },
   "drib": null,
+  "drift": null,
   "drill": {
     "definition": "A tool used to remove material so as to create a hole, typically by plunging a rotating cutting bit into a stationary workpiece.",
     "partOfSpeech": "noun"
@@ -2669,6 +2677,7 @@
     "definition": "To make easy or easier.",
     "partOfSpeech": "verb"
   },
+  "fact": null,
   "fail": {
     "definition": "Poor quality; substandard workmanship.",
     "partOfSpeech": "noun"
@@ -2689,6 +2698,7 @@
   "fantail": null,
   "farad": null,
   "farro": null,
+  "fart": null,
   "fatal": null,
   "fecund": {
     "definition": "Highly fertile; able to produce offspring.",
@@ -2887,10 +2897,12 @@
     "definition": "To start (an institution or organization).",
     "partOfSpeech": "verb"
   },
+  "frat": null,
   "fray": {
     "definition": "To (cause to) unravel; used particularly for the edge of something made of cloth, or the end of a rope.",
     "partOfSpeech": "verb"
   },
+  "frittata": null,
   "fuddle": null,
   "fuddled": null,
   "fuel": null,
@@ -5821,6 +5833,7 @@
     "definition": "The chemical element (symbol Rn, formerly Ro) with atomic number 86. It is an odorless, colorless, chemically inert but radioactive noble gas.",
     "partOfSpeech": "noun"
   },
+  "raft": null,
   "raga": {
     "definition": "Any of various melodic forms used in Indian classical music, or a piece of music composed in such a form.",
     "partOfSpeech": "noun"
@@ -5910,6 +5923,7 @@
   "ridding": null,
   "ridging": null,
   "riding": null,
+  "rift": null,
   "rigging": null,
   "rigid": null,
   "rigor": {
@@ -6111,6 +6125,7 @@
   "tapir": null,
   "tappet": null,
   "taproot": null,
+  "tariff": null,
   "tarmac": null,
   "taro": {
     "definition": "Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.",
@@ -6550,6 +6565,7 @@
     "partOfSpeech": "noun"
   },
   "tractor": null,
+  "traffic": null,
   "trail": null,
   "train": {
     "definition": "Elongated portion.",
