@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T05:06:03.583Z",
+  "lastUpdated": "2026-11-20T05:06:02.167Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24860,6 +24860,31 @@
         "NHCUTC",
         "TICPHT",
         "MENTHI"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": 993,
+      "editor": "Tracy Bennett",
+      "clue": "Fix this, please",
+      "spangram": "EDITORSNOTE",
+      "themeWords": [
+        "AWKWARD",
+        "CLICHE",
+        "ERROR",
+        "SOURCE",
+        "SPELLING",
+        "WORDY"
+      ],
+      "board": [
+        "EPELLI",
+        "DSKWDN",
+        "IAWARG",
+        "TORSNO",
+        "LCCERT",
+        "ICRDOE",
+        "HOUYWR",
+        "ESERRO"
       ]
     }
   ]

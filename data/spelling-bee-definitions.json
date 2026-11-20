@@ -260,6 +260,7 @@
     "definition": "Amniocentesis",
     "partOfSpeech": "noun"
   },
+  "amoral": null,
   "amyl": null,
   "anal": {
     "definition": "Any of the anal scales of a reptile.",
@@ -422,11 +423,14 @@
     "partOfSpeech": "adjective"
   },
   "aril": null,
+  "armor": null,
+  "armorial": null,
   "armpit": null,
   "arnica": {
     "definition": "Any of several plants, of the genus Arnica, considered to have medicinal properties, especially Arnica montana.",
     "partOfSpeech": "noun"
   },
+  "aroma": null,
   "aromatic": null,
   "arrant": {
     "definition": "Utter; complete (with a negative sense).",
@@ -3631,6 +3635,7 @@
     "definition": "About to happen, occur, or take place very soon, especially of something which won't last long.",
     "partOfSpeech": "adjective"
   },
+  "immoral": null,
   "immune": {
     "definition": "A person who is not susceptible to infection by a particular disease",
     "partOfSpeech": "noun"
@@ -3833,6 +3838,7 @@
     "definition": "A common, inexpensive metal, silvery grey when untarnished, that rusts, is attracted by magnets, and is used in making steel.",
     "partOfSpeech": "noun"
   },
+  "ironman": null,
   "irritant": {
     "definition": "Any medication designed to cause irritation",
     "partOfSpeech": "noun"
@@ -4007,6 +4013,7 @@
     "definition": "(used in street names) A road, street, or similar thoroughfare.",
     "partOfSpeech": "noun"
   },
+  "lanolin": null,
   "lantana": null,
   "lapel": null,
   "lapidary": null,
@@ -4401,6 +4408,7 @@
   "mailed": null,
   "maillot": null,
   "mailman": null,
+  "mailroom": null,
   "maim": {
     "definition": "A serious wound",
     "partOfSpeech": "noun"
@@ -4493,6 +4501,7 @@
     "definition": "A landed estate.",
     "partOfSpeech": "noun"
   },
+  "manorial": null,
   "manta": {
     "definition": "A kind of fabric or blanket used in Latin America and southwestern United States.",
     "partOfSpeech": "noun"
@@ -4725,6 +4734,7 @@
     "partOfSpeech": "noun"
   },
   "mink": null,
+  "minor": null,
   "mint": {
     "definition": "A building or institution where money (originally, only coins) is produced under government licence.",
     "partOfSpeech": "noun"
@@ -4779,6 +4789,7 @@
     "definition": "Hard work.",
     "partOfSpeech": "noun"
   },
+  "molar": null,
   "moll": {
     "definition": "A female companion of a gangster, especially a former or current prostitute.",
     "partOfSpeech": "noun"
@@ -4811,6 +4822,7 @@
     "partOfSpeech": "noun"
   },
   "monomial": null,
+  "monorail": null,
   "mooch": null,
   "moola": {
     "definition": "Money, cash.",
@@ -4829,6 +4841,7 @@
     "definition": "A moot court.",
     "partOfSpeech": "noun"
   },
+  "moral": null,
   "mordant": null,
   "morn": null,
   "morocco": null,
@@ -5131,6 +5144,7 @@
     "definition": "That which is normal or typical.",
     "partOfSpeech": "noun"
   },
+  "normal": null,
   "notation": {
     "definition": "The act, process, method, or an instance of representing by a system or set of marks, signs, figures, or characters.",
     "partOfSpeech": "noun"
@@ -5947,6 +5961,7 @@
     "definition": "A way used for travelling between places, originally one wide enough to allow foot passengers and horses to travel, now (US) usually one surfaced with asphalt or concrete and designed to accommodate many vehicles travelling in both directions. In the UK both senses are heard: a country road is the same as a country lane.",
     "partOfSpeech": "noun"
   },
+  "roam": null,
   "roan": null,
   "roar": {
     "definition": "A long, loud, deep shout, as of rage or laughter, made with the mouth wide open.",

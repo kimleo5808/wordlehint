@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T05:06:02.929Z",
+  "lastUpdated": "2026-11-20T05:06:01.732Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59123,6 +59123,53 @@
             "COWSLIP",
             "DIPHTHONG",
             "STUTTGARTER"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "id": 1259,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "KINDS OF COOKIES",
+          "words": [
+            "BLACK AND WHITE",
+            "BUTTER",
+            "GIRL SCOUT",
+            "SUGAR"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS RATED IN A CUSTOMER SURVEY",
+          "words": [
+            "COURTESY",
+            "HELPFULNESS",
+            "SATISFACTION",
+            "WAIT TIME"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "TAROT CARDS, WITH \"THE\"",
+          "words": [
+            "DEVIL",
+            "EMPRESS",
+            "FOOL",
+            "HIEROPHANT"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOLD YOUR ___",
+          "words": [
+            "BREATH",
+            "HORSES",
+            "OWN",
+            "TONGUE"
           ]
         }
       ]
