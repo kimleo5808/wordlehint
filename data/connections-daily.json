@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T05:06:01.732Z",
+  "lastUpdated": "2026-11-21T05:06:03.568Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59170,6 +59170,53 @@
             "HORSES",
             "OWN",
             "TONGUE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "id": 1260,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "MULTITUDE",
+          "words": [
+            "HOST",
+            "MASS",
+            "SEA",
+            "SLEW"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "INTERJECTIONS BEFORE A REACTION",
+          "words": [
+            "GEE",
+            "SAY",
+            "WELL",
+            "WHY"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "BUBBLE ___",
+          "words": [
+            "BATH",
+            "GUM",
+            "TEA",
+            "WRAP"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "HOMOPHONES OF PRONOUNS",
+          "words": [
+            "EWE",
+            "EYE",
+            "HEE",
+            "WEE"
           ]
         }
       ]
