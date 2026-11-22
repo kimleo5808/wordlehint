@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T05:06:03.568Z",
+  "lastUpdated": "2026-11-22T05:06:06.365Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59217,6 +59217,53 @@
             "EYE",
             "HEE",
             "WEE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": 1261,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TINY AMOUNT",
+          "words": [
+            "IOTA",
+            "MODICUM",
+            "PARTICLE",
+            "SHRED"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "INFO ON A NAVIGATION APP",
+          "words": [
+            "DISTANCE",
+            "ETA",
+            "ROUTE",
+            "TRAFFIC"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "METAL SUBGENRES",
+          "words": [
+            "BLACK",
+            "DOOM",
+            "NU",
+            "THRASH"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "STARTING WITH BABY ANIMALS",
+          "words": [
+            "CHICKPEA",
+            "CUBISM",
+            "LAMBDA",
+            "PUPIL"
           ]
         }
       ]

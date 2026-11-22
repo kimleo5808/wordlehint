@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T05:06:04.163Z",
+  "lastUpdated": "2026-11-22T05:06:07.173Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24909,6 +24909,31 @@
         "RITRES",
         "CSNAEP",
         "ENDCLI"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "id": 995,
+      "editor": "Tracy Bennett",
+      "clue": "Don't poke the bear",
+      "spangram": "BADMOOD",
+      "themeWords": [
+        "CHURLISH",
+        "CRABBY",
+        "CROSS",
+        "IRRITABLE",
+        "PETULANT",
+        "TESTY"
+      ],
+      "board": [
+        "BBABYT",
+        "AYTLES",
+        "DRIRRE",
+        "OCMIAT",
+        "IOHDCB",
+        "LSALRS",
+        "RCNUOS",
+        "UHTTEP"
       ]
     }
   ]

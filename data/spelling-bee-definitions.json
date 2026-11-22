@@ -182,7 +182,9 @@
   "airily": null,
   "airmail": null,
   "airplay": null,
+  "ajar": null,
   "alack": null,
+  "alarm": null,
   "album": null,
   "alcohol": {
     "definition": "Any of a class of organic compounds (such as ethanol) containing a hydroxyl functional group (-OH).",
@@ -262,6 +264,7 @@
     "partOfSpeech": "noun"
   },
   "amoral": null,
+  "amorally": null,
   "amyl": null,
   "anal": {
     "definition": "Any of the anal scales of a reptile.",
@@ -426,7 +429,9 @@
   "aril": null,
   "armor": null,
   "armorial": null,
+  "armory": null,
   "armpit": null,
+  "army": null,
   "arnica": {
     "definition": "Any of several plants, of the genus Arnica, considered to have medicinal properties, especially Arnica montana.",
     "partOfSpeech": "noun"
@@ -4446,6 +4451,8 @@
     "definition": "To support (someone), to back up or assist (someone) in an action.",
     "partOfSpeech": "verb"
   },
+  "major": null,
+  "majorly": null,
   "maki": null,
   "making": {
     "definition": "The act of forming, causing, or constituting; workmanship; construction.",
@@ -4473,6 +4480,7 @@
     "partOfSpeech": "noun"
   },
   "mammalian": null,
+  "mammary": null,
   "mammogram": null,
   "mammon": {
     "definition": "The desire for wealth personified as an evil spirit or a malign influence.",
@@ -4542,11 +4550,14 @@
   },
   "maraca": null,
   "marital": null,
+  "marjoram": null,
+  "marm": null,
   "marmot": null,
   "maroon": {
     "definition": "An escaped negro slave of the Caribbean and the Americas or a descendant of escaped slaves.",
     "partOfSpeech": "noun"
   },
+  "marry": null,
   "mart": {
     "definition": "A market.",
     "partOfSpeech": "noun"
@@ -4567,6 +4578,8 @@
   "mayfly": null,
   "mayhem": null,
   "mayo": null,
+  "mayor": null,
+  "mayoral": null,
   "mean": {
     "definition": "To lament.",
     "partOfSpeech": "verb"
@@ -4860,6 +4873,8 @@
     "partOfSpeech": "noun"
   },
   "moral": null,
+  "morally": null,
+  "moray": null,
   "mordant": null,
   "morn": null,
   "morocco": null,
@@ -5888,6 +5903,7 @@
     "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
     "partOfSpeech": "noun"
   },
+  "raja": null,
   "rally": null,
   "rand": null,
   "rando": null,
@@ -6004,6 +6020,7 @@
   "rondo": null,
   "rood": null,
   "room": null,
+  "roomy": null,
   "root": {
     "definition": "The part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction.",
     "partOfSpeech": "noun"
