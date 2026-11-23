@@ -84,6 +84,11 @@
     "partOfSpeech": "noun"
   },
   "actor": null,
+  "actual": null,
+  "actuality": null,
+  "actually": null,
+  "acuity": null,
+  "acyclic": null,
   "adamant": {
     "definition": "An imaginary rock or mineral of impenetrable hardness; a name given to the diamond and other substances of extreme hardness.",
     "partOfSpeech": "noun"
@@ -1107,6 +1112,7 @@
   "cake": null,
   "caked": null,
   "calcite": null,
+  "calculi": null,
   "calico": {
     "definition": "A kind of rough cloth made from unbleached and not fully processed cotton, often printed with a bright pattern.",
     "partOfSpeech": "noun"
@@ -1227,6 +1233,8 @@
     "partOfSpeech": "noun"
   },
   "catalpa": null,
+  "catalytic": null,
+  "catalytically": null,
   "cataract": {
     "definition": "A waterspout",
     "partOfSpeech": "noun"
@@ -1251,6 +1259,9 @@
     "partOfSpeech": "adjective"
   },
   "cattail": null,
+  "cattily": null,
+  "catty": null,
+  "caul": null,
   "cava": null,
   "cave": null,
   "caved": null,
@@ -1434,6 +1445,7 @@
   "clap": null,
   "claptrap": null,
   "clave": null,
+  "clay": null,
   "clean": {
     "definition": "Removal of dirt.",
     "partOfSpeech": "noun"
@@ -1825,6 +1837,8 @@
   "cute": null,
   "cutout": null,
   "cyan": null,
+  "cyclical": null,
+  "cyclically": null,
   "cynic": {
     "definition": "A person who believes that all people are motivated by selfishness.",
     "partOfSpeech": "noun"
@@ -3989,6 +4003,7 @@
   "lace": null,
   "lack": null,
   "lactic": null,
+  "lacy": null,
   "laddie": null,
   "lade": null,
   "laded": null,
@@ -4002,6 +4017,7 @@
   "laid": null,
   "lain": null,
   "lair": null,
+  "laity": null,
   "lama": {
     "definition": "A master of Tibetan Buddhism.",
     "partOfSpeech": "noun"
@@ -6091,6 +6107,7 @@
     "definition": "Expressed in silence; implied, but not made explicit; silent.",
     "partOfSpeech": "adjective"
   },
+  "tacitly": null,
   "taciturn": {
     "definition": "Silent; temperamentally untalkative; disinclined to speak.",
     "partOfSpeech": "adjective"
@@ -6112,11 +6129,14 @@
     "partOfSpeech": "noun"
   },
   "tactical": null,
+  "tactically": null,
   "tactician": {
     "definition": "A person skilled in the planning and execution of tactics.",
     "partOfSpeech": "noun"
   },
   "tactile": null,
+  "tactility": null,
+  "tactual": null,
   "tagging": null,
   "tahini": null,
   "taiga": null,
@@ -6143,6 +6163,7 @@
   "tali": null,
   "tall": null,
   "tallit": null,
+  "tally": null,
   "tamari": null,
   "tame": null,
   "taming": {
@@ -6221,6 +6242,7 @@
   "taunt": null,
   "taunting": null,
   "taut": null,
+  "tautly": null,
   "taxation": null,
   "taxed": null,
   "taxon": null,
@@ -7148,6 +7170,8 @@
     "partOfSpeech": "adjective"
   },
   "yoohoo": null,
+  "yuca": null,
+  "yucca": null,
   "zigging": null,
   "zing": null,
   "zinging": null,

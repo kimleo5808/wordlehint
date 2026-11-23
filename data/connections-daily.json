@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T05:06:06.365Z",
+  "lastUpdated": "2026-11-23T05:06:04.496Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59264,6 +59264,53 @@
             "CUBISM",
             "LAMBDA",
             "PUPIL"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": 1262,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "DROP DRAMATICALLY",
+          "words": [
+            "BOTTOM OUT",
+            "CRATER",
+            "NOSEDIVE",
+            "TANK"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "THINGS WITH PLEATED FOLDS",
+          "words": [
+            "ACCORDION",
+            "CUPCAKE LINER",
+            "FIREPLACE BELLOWS",
+            "PAPER FAN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS WITH SLIDES",
+          "words": [
+            "MICROSCOPE",
+            "PLAYGROUND",
+            "POWERPOINT DECK",
+            "TROMBONE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT FORM CHAINS",
+          "words": [
+            "AMINO ACID",
+            "BIG BOX STORE",
+            "LINK",
+            "MOUNTAIN"
           ]
         }
       ]

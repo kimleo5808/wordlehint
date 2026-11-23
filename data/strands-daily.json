@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T05:06:07.173Z",
+  "lastUpdated": "2026-11-23T05:06:05.189Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24934,6 +24934,31 @@
         "LSALRS",
         "RCNUOS",
         "UHTTEP"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "id": 996,
+      "editor": "Tracy Bennett",
+      "clue": "Are we there yet?",
+      "spangram": "THELONGHAUL",
+      "themeWords": [
+        "CAMPAIGN",
+        "GRIND",
+        "MARATHON",
+        "SLOG",
+        "STRUGGLE",
+        "TREK"
+      ],
+      "board": [
+        "TSCAAI",
+        "GHLMPG",
+        "LGEOMN",
+        "ERULGA",
+        "TSOTAR",
+        "NDGNHN",
+        "IRRTGO",
+        "KELUAH"
       ]
     }
   ]
