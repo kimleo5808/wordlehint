@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T05:06:05.909Z",
+  "lastUpdated": "2026-11-24T05:06:07.968Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67763,6 +67763,41 @@
         "tautly",
         "yuca",
         "yucca"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-25",
+      "id": 27645,
+      "centerLetter": "i",
+      "outerLetters": [
+        "k",
+        "m",
+        "n",
+        "p",
+        "u",
+        "b"
+      ],
+      "pangrams": [
+        "bumpkin"
+      ],
+      "answers": [
+        "bikini",
+        "bumpkin",
+        "kink",
+        "mini",
+        "minim",
+        "minimum",
+        "mink",
+        "nimbi",
+        "nubbin",
+        "pimp",
+        "pink",
+        "pinup",
+        "pippin",
+        "pumpkin",
+        "unkink",
+        "unpin"
       ],
       "editor": "Sam Ezersky"
     }

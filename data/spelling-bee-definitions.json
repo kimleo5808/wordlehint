@@ -788,6 +788,7 @@
     "partOfSpeech": "noun"
   },
   "bike": null,
+  "bikini": null,
   "bilabial": null,
   "bile": null,
   "bilge": null,
@@ -1030,6 +1031,7 @@
   },
   "bulb": null,
   "bull": null,
+  "bumpkin": null,
   "bung": null,
   "bunion": null,
   "bunt": {
@@ -5660,6 +5662,7 @@
   "pinion": null,
   "pinioned": null,
   "pinioning": null,
+  "pink": null,
   "pinned": null,
   "pinning": {
     "definition": "To shape metal by striking it, especially with a peen.",
@@ -5672,6 +5675,7 @@
   "pint": null,
   "pintail": null,
   "pinto": null,
+  "pinup": null,
   "pipe": null,
   "piped": null,
   "pipet": null,
@@ -5836,6 +5840,7 @@
     "partOfSpeech": "noun"
   },
   "pruning": null,
+  "pumpkin": null,
   "punning": null,
   "purging": null,
   "purl": null,
@@ -6838,6 +6843,7 @@
     "partOfSpeech": "noun"
   },
   "uniting": null,
+  "unkink": null,
   "unladen": null,
   "unleaded": null,
   "unlit": null,
@@ -6852,6 +6858,7 @@
     "definition": "Not offended.",
     "partOfSpeech": "adjective"
   },
+  "unpin": null,
   "unpinning": null,
   "unrig": null,
   "unrigging": null,

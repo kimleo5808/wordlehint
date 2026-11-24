@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T05:06:04.496Z",
+  "lastUpdated": "2026-11-24T05:06:06.461Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59311,6 +59311,53 @@
             "BIG BOX STORE",
             "LINK",
             "MOUNTAIN"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "id": 1263,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "PARTS OF A FREEWAY",
+          "words": [
+            "LANE",
+            "MEDIAN",
+            "RAMP",
+            "SHOULDER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "U-SHAPED THINGS",
+          "words": [
+            "HALF-PIPE",
+            "HORSESHOE",
+            "NECK PILLOW",
+            "PARABOLA"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "RUG SPECIFICATIONS",
+          "words": [
+            "DIMENSIONS",
+            "MATERIAL",
+            "PILE",
+            "WEAVE"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "DOGS BREEDS MINUS FIRST LETTER",
+          "words": [
+            "EAGLE",
+            "OBERMAN",
+            "OLLIE",
+            "OODLE"
           ]
         }
       ]
