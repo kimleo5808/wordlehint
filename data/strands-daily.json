@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T05:06:07.157Z",
+  "lastUpdated": "2026-11-25T05:06:06.677Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -24985,6 +24985,30 @@
         "TCLOEB",
         "HAVEHB",
         "ERTCIR"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": 998,
+      "editor": "Tracy Bennett",
+      "clue": "A crowded table",
+      "spangram": "CHOSENFAMILY",
+      "themeWords": [
+        "COLLEAGUE",
+        "FRIEND",
+        "NEIGHBOR",
+        "NEWCOMER",
+        "NOMAD"
+      ],
+      "board": [
+        "ENDEUG",
+        "RIOLLA",
+        "CFCAME",
+        "HOSFIL",
+        "NEENNY",
+        "WCADOE",
+        "ORMRBI",
+        "MEONHG"
       ]
     }
   ]

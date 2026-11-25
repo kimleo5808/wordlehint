@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T05:06:06.461Z",
+  "lastUpdated": "2026-11-25T05:06:06.080Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59358,6 +59358,53 @@
             "OBERMAN",
             "OLLIE",
             "OODLE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "id": 1264,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "SHADES OF PINK",
+          "words": [
+            "BLUSH",
+            "BUBBLEGUM",
+            "CARNATION",
+            "CORAL"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "KINDS OF CARS",
+          "words": [
+            "COMPACT",
+            "CONVERTIBLE",
+            "HYBRID",
+            "MANUAL"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "THINGS HOMER SIMPSON LIKES",
+          "words": [
+            "BEER",
+            "BOWLING",
+            "DONUTS",
+            "TELEVISION"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "THINGS THAT ARE POPPED",
+          "words": [
+            "BOTTLE OF CHAMPAGNE",
+            "POPCORN",
+            "THE QUESTION",
+            "WHEELIE"
           ]
         }
       ]

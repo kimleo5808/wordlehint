@@ -68,6 +68,7 @@
     "partOfSpeech": "noun"
   },
   "acidic": null,
+  "acing": null,
   "acne": {
     "definition": "A skin condition, usually of the face, that is common in adolescents. It is characterised by red pimples, and is caused by the inflammation of sebaceous glands through bacterial infection.",
     "partOfSpeech": "noun"
@@ -163,6 +164,7 @@
     "definition": "A place for gathering.",
     "partOfSpeech": "noun"
   },
+  "agrarian": null,
   "ahead": null,
   "ahem": null,
   "ahoy": {
@@ -185,6 +187,7 @@
   "aircraft": null,
   "airdrop": null,
   "airily": null,
+  "airing": null,
   "airmail": null,
   "airplay": null,
   "ajar": null,
@@ -409,6 +412,8 @@
     "partOfSpeech": "noun"
   },
   "arcadia": null,
+  "arcana": null,
+  "arcing": null,
   "arco": {
     "definition": "A note in string instrument musical notation indicating that the bow is to be used in the usual way, usually following a passage that is played pizzicato.",
     "partOfSpeech": "adverb"
@@ -443,6 +448,9 @@
   },
   "aroma": null,
   "aromatic": null,
+  "arraign": null,
+  "arraigning": null,
+  "arranging": null,
   "arrant": {
     "definition": "Utter; complete (with a negative sense).",
     "partOfSpeech": "adjective"
@@ -452,6 +460,7 @@
     "partOfSpeech": "noun"
   },
   "arrival": null,
+  "arriving": null,
   "arrowroot": null,
   "arroyo": {
     "definition": "A dry creek or streambed, a gulch which temporarily or seasonally fills and flows (after sufficient rain).",
@@ -1106,6 +1115,7 @@
     "partOfSpeech": "noun"
   },
   "cadet": null,
+  "caging": null,
   "caiman": null,
   "cairn": {
     "definition": "A rounded or conical heap of stones erected by early inhabitants of the British Isles, apparently as a sepulchral monument.",
@@ -1167,6 +1177,7 @@
   },
   "canid": null,
   "canine": null,
+  "caning": null,
   "canna": {
     "definition": "Any member of the genus Canna of tropical plants with large leaves and often showy flowers.",
     "partOfSpeech": "noun"
@@ -1177,6 +1188,7 @@
   },
   "cannibal": null,
   "cannily": null,
+  "canning": null,
   "cannon": {
     "definition": "A complete assembly, consisting of an artillery tube and a breech mechanism, firing mechanism or base cap, which is a component of a gun, howitzer or mortar. It may include muzzle appendages.",
     "partOfSpeech": "noun"
@@ -1216,6 +1228,8 @@
     "definition": "A unit of weight for precious stones and pearls, equivalent to 200 milligrams.",
     "partOfSpeech": "noun"
   },
+  "caravan": null,
+  "caravanning": null,
   "carb": null,
   "card": {
     "definition": "A playing card.",
@@ -1224,6 +1238,7 @@
   "cardiac": null,
   "cardio": null,
   "cardioid": null,
+  "caring": null,
   "carom": null,
   "carp": null,
   "carpal": null,
@@ -1234,6 +1249,7 @@
     "definition": "A small, open, wheeled vehicle, drawn or pushed by a person or animal, more often used for transporting goods than passengers.",
     "partOfSpeech": "noun"
   },
+  "carving": null,
   "catalpa": null,
   "catalytic": null,
   "catalytically": null,
@@ -1268,6 +1284,7 @@
   "cave": null,
   "caved": null,
   "caviar": null,
+  "caving": null,
   "cavity": {
     "definition": "A hole or hollow depression.",
     "partOfSpeech": "noun"
@@ -1418,6 +1435,7 @@
     "partOfSpeech": "noun"
   },
   "cicada": null,
+  "cigar": null,
   "cilia": null,
   "cinch": null,
   "cinema": null,
@@ -1766,13 +1784,16 @@
     "partOfSpeech": "noun"
   },
   "craft": null,
+  "crag": null,
   "cram": null,
   "crania": {
     "definition": "The braincase or neurocranium; that part of the skull consisting of the bones enclosing the brain, but not including the bones of the face or jaw.",
     "partOfSpeech": "noun"
   },
+  "craning": null,
   "crap": null,
   "crappy": null,
+  "craving": null,
   "crib": {
     "definition": "A baby’s bed with high, often slatted, often moveable sides, suitable for a child who has outgrown a cradle or bassinet.",
     "partOfSpeech": "noun"
@@ -2990,6 +3011,7 @@
   "ganglia": null,
   "gangling": null,
   "gape": null,
+  "garaging": null,
   "gating": null,
   "gauging": null,
   "gaunt": null,
@@ -3166,7 +3188,10 @@
   },
   "gown": null,
   "gowning": null,
+  "gracing": null,
   "grad": null,
+  "grain": null,
+  "graining": null,
   "gram": {
     "definition": "A unit of mass equal to one-thousandth of a kilogram. Symbol: g",
     "partOfSpeech": "noun"
@@ -3770,6 +3795,8 @@
   },
   "infilled": null,
   "ingot": null,
+  "ingrain": null,
+  "ingraining": null,
   "inimical": null,
   "inimically": null,
   "initial": null,
@@ -4996,6 +5023,7 @@
   "nanobot": null,
   "nape": null,
   "napped": null,
+  "narc": null,
   "narrator": {
     "definition": "One who narrates or tells stories.",
     "partOfSpeech": "noun"
@@ -5139,6 +5167,7 @@
     "definition": "To catch and enclose or compress tightly between two surfaces, or points which are brought together or closed; to pinch; to close in upon.",
     "partOfSpeech": "verb"
   },
+  "nirvana": null,
   "nite": null,
   "nitric": null,
   "nixing": {
@@ -5882,6 +5911,7 @@
     "definition": "A human or animal infected with rabies.",
     "partOfSpeech": "noun"
   },
+  "racing": null,
   "rack": {
     "definition": "A series of one or more shelves, stacked one above the other",
     "partOfSpeech": "noun"
@@ -5909,6 +5939,8 @@
     "definition": "Any of various melodic forms used in Indian classical music, or a piece of music composed in such a form.",
     "partOfSpeech": "noun"
   },
+  "ragging": null,
+  "raging": null,
   "ragu": null,
   "raid": {
     "definition": "A quick hostile or predatory incursion or invasion in a battle.",
@@ -5920,6 +5952,7 @@
     "partOfSpeech": "noun"
   },
   "raindrop": null,
+  "raining": null,
   "raita": {
     "definition": "A condiment used as a dip or sauce in the cuisine of southern Asia, made from seasoned yogurt.",
     "partOfSpeech": "noun"
@@ -5933,6 +5966,7 @@
     "partOfSpeech": "noun"
   },
   "rang": null,
+  "ranging": null,
   "rani": {
     "definition": "The wife of a rajah.",
     "partOfSpeech": "noun"
@@ -5946,6 +5980,7 @@
   "rapport": null,
   "rapt": null,
   "raptor": null,
+  "raring": null,
   "ratatat": {
     "definition": "A swiftly repeated knocking sound.",
     "partOfSpeech": "noun"
@@ -5957,6 +5992,8 @@
     "definition": "Similar to a rat; ratlike.",
     "partOfSpeech": "adjective"
   },
+  "ravaging": null,
+  "raving": null,
   "ravioli": null,
   "reeve": null,
   "reprove": {
