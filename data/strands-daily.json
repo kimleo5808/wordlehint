@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T05:06:06.677Z",
+  "lastUpdated": "2026-11-26T05:06:06.022Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -25009,6 +25009,32 @@
         "WCADOE",
         "ORMRBI",
         "MEONHG"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": 999,
+      "editor": "Tracy Bennett",
+      "clue": "Take your leave",
+      "spangram": "TIMEOFF",
+      "themeWords": [
+        "BREAK",
+        "HIATUS",
+        "HOLIDAY",
+        "PAUSE",
+        "RECESS",
+        "REST",
+        "VACATION"
+      ],
+      "board": [
+        "TAKSSE",
+        "SREBRC",
+        "EIMROE",
+        "TNOEPF",
+        "HTIUAF",
+        "IACSAY",
+        "ASAEDI",
+        "TUVHOL"
       ]
     }
   ]

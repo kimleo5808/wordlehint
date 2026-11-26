@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T05:06:06.080Z",
+  "lastUpdated": "2026-11-26T05:06:05.400Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59405,6 +59405,53 @@
             "POPCORN",
             "THE QUESTION",
             "WHEELIE"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "id": 1265,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "TOUCH LIGHTLY",
+          "words": [
+            "BRUSH",
+            "GRAZE",
+            "KISS",
+            "SKIM"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "FEMALE ANIMALS",
+          "words": [
+            "LEOPARDESS",
+            "PEAHEN",
+            "QUEEN",
+            "VIXEN"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "ENDING IN PARTS OF THE FOOT",
+          "words": [
+            "CAMISOLE",
+            "MISTLETOE",
+            "MONARCH",
+            "PINWHEEL"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ASSOCIATED WITH THE COLOR PURPLE",
+          "words": [
+            "ALICE WALKER",
+            "FLOWERY LANGUAGE",
+            "PRINCE",
+            "ROYALTY"
           ]
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T05:06:07.547Z",
+  "lastUpdated": "2026-11-26T05:06:06.737Z",
   "puzzles": [
     {
       "date": "2024-01-01",
@@ -67891,6 +67891,62 @@
         "vagina",
         "vain",
         "vicar"
+      ],
+      "editor": "Sam Ezersky"
+    },
+    {
+      "date": "2026-11-27",
+      "id": 19169,
+      "centerLetter": "u",
+      "outerLetters": [
+        "a",
+        "e",
+        "f",
+        "l",
+        "p",
+        "t"
+      ],
+      "pangrams": [
+        "plateful"
+      ],
+      "answers": [
+        "epaulet",
+        "fateful",
+        "fault",
+        "flauta",
+        "flue",
+        "fluff",
+        "flute",
+        "fuel",
+        "full",
+        "letup",
+        "luau",
+        "luff",
+        "lull",
+        "lulu",
+        "lute",
+        "luteal",
+        "plateau",
+        "plateful",
+        "puff",
+        "pule",
+        "pull",
+        "pullet",
+        "pulp",
+        "pupa",
+        "pupae",
+        "pupal",
+        "pupate",
+        "puppet",
+        "putt",
+        "taupe",
+        "taut",
+        "tuffet",
+        "tuft",
+        "tulle",
+        "tutee",
+        "tutu",
+        "ululate"
       ],
       "editor": "Sam Ezersky"
     }

@@ -2648,6 +2648,7 @@
     "definition": "A paper or cardboard wrapper used to enclose small, flat items, especially letters, for mailing.",
     "partOfSpeech": "noun"
   },
+  "epaulet": null,
   "epee": null,
   "epic": null,
   "epithet": null,
@@ -2750,6 +2751,8 @@
   "farro": null,
   "fart": null,
   "fatal": null,
+  "fateful": null,
+  "fault": null,
   "fecund": {
     "definition": "Highly fertile; able to produce offspring.",
     "partOfSpeech": "adjective"
@@ -2873,6 +2876,7 @@
   },
   "flap": null,
   "flat": null,
+  "flauta": null,
   "flay": {
     "definition": "A fright; a scare.",
     "partOfSpeech": "noun"
@@ -2904,6 +2908,7 @@
   "fluff": null,
   "fluffed": null,
   "fluid": null,
+  "flute": null,
   "flyby": {
     "definition": "A flight past a celestial object in order to make observations.",
     "partOfSpeech": "noun"
@@ -4187,6 +4192,7 @@
     "definition": "Any weapon that causes death.",
     "partOfSpeech": "noun"
   },
+  "letup": null,
   "levee": {
     "definition": "An embankment to prevent inundation; as, the levees along the Mississippi.",
     "partOfSpeech": "noun"
@@ -4444,6 +4450,8 @@
   "lunk": null,
   "lunula": null,
   "lunulae": null,
+  "lute": null,
+  "luteal": null,
   "lying": null,
   "machine": null,
   "macing": null,
@@ -5740,6 +5748,8 @@
   "plant": null,
   "plantain": null,
   "plat": null,
+  "plateau": null,
+  "plateful": null,
   "play": null,
   "plea": null,
   "pleb": null,
@@ -5869,13 +5879,24 @@
     "partOfSpeech": "noun"
   },
   "pruning": null,
+  "puff": null,
+  "pule": null,
+  "pull": null,
+  "pullet": null,
+  "pulp": null,
   "pumpkin": null,
   "punning": null,
+  "pupa": null,
+  "pupae": null,
+  "pupal": null,
+  "pupate": null,
+  "puppet": null,
   "purging": null,
   "purl": null,
   "purloin": null,
   "purr": null,
   "purring": null,
+  "putt": null,
   "pylon": null,
   "pyro": {
     "definition": "A pyromaniac",
@@ -6283,6 +6304,7 @@
   "taught": null,
   "taunt": null,
   "taunting": null,
+  "taupe": null,
   "taut": null,
   "tautly": null,
   "taxation": null,
@@ -6739,11 +6761,14 @@
     "definition": "To supply with, or enclose in, a tube.",
     "partOfSpeech": "verb"
   },
+  "tuffet": null,
+  "tuft": null,
   "tugging": null,
   "tuition": {
     "definition": "A sum of money paid for instruction (such as in a high school, boarding school, university, or college).",
     "partOfSpeech": "noun"
   },
+  "tulle": null,
   "tumult": {
     "definition": "Confused, agitated noise as made by a crowd.",
     "partOfSpeech": "noun"
@@ -6799,6 +6824,7 @@
   "ukulele": null,
   "ulna": null,
   "ulnae": null,
+  "ululate": null,
   "umlaut": null,
   "unban": null,
   "unbolt": null,
