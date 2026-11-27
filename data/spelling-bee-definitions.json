@@ -1626,6 +1626,7 @@
     "definition": "To write software programs.",
     "partOfSpeech": "verb"
   },
+  "codeine": null,
   "codon": null,
   "coed": {
     "definition": "A young woman who attends college.",
@@ -1652,6 +1653,11 @@
     "definition": "Something wound in the form of a helix or spiral.",
     "partOfSpeech": "noun"
   },
+  "coin": null,
+  "coincide": null,
+  "coincided": null,
+  "coincidence": null,
+  "coined": null,
   "coir": null,
   "coital": null,
   "cola": {
@@ -1711,6 +1717,9 @@
     "definition": "To perplex or puzzle.",
     "partOfSpeech": "verb"
   },
+  "conic": null,
+  "conjoin": null,
+  "conjoined": null,
   "connect": null,
   "connected": null,
   "conned": null,
@@ -3639,6 +3648,8 @@
   "icemen": null,
   "ichor": null,
   "icicle": null,
+  "icon": null,
+  "iconic": null,
   "idea": null,
   "ideal": null,
   "idiot": null,
@@ -3828,6 +3839,7 @@
     "definition": "A period of play in which members of a visiting baseball team attempt to hit a baseball pitched by the opposing home team until three players are called out, followed by a similar attempt by members of the home baseball team against the visiting team's pitching. There are nine or more innings in a regulation baseball game.",
     "partOfSpeech": "noun"
   },
+  "innocence": null,
   "inroad": null,
   "intact": {
     "definition": "Left complete or whole; not touched, defiled, sullied or otherwise damaged",
@@ -3900,6 +3912,7 @@
   },
   "iodide": null,
   "iodine": null,
+  "ionic": null,
   "ionization": null,
   "iota": {
     "definition": "The ninth letter of the Greek alphabet.",

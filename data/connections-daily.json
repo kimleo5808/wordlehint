@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T05:06:05.400Z",
+  "lastUpdated": "2026-11-27T05:06:06.857Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59452,6 +59452,53 @@
             "FLOWERY LANGUAGE",
             "PRINCE",
             "ROYALTY"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": 1266,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "MILD OATHS",
+          "words": [
+            "BLAST",
+            "DARN",
+            "FUDGE",
+            "NUTS"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "EDGE",
+          "words": [
+            "BORDER",
+            "HEM",
+            "RIM",
+            "SKIRT"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "SYMBOLS ON A SLOT MACHINE",
+          "words": [
+            "BAR",
+            "BELL",
+            "CHERRY",
+            "SEVEN"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "SOUL ___",
+          "words": [
+            "FOOD",
+            "MATE",
+            "MUSIC",
+            "PATCH"
           ]
         }
       ]

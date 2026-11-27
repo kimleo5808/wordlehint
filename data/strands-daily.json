@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T05:06:06.022Z",
+  "lastUpdated": "2026-11-27T05:06:07.428Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -25035,6 +25035,30 @@
         "IACSAY",
         "ASAEDI",
         "TUVHOL"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "id": 1000,
+      "editor": "Tracy Bennett",
+      "clue": "Feeling nostalgic",
+      "spangram": "NINETIESSHOW",
+      "themeWords": [
+        "BLOSSOM",
+        "CHARMED",
+        "FELICITY",
+        "FRIENDS",
+        "RUGRATS"
+      ],
+      "board": [
+        "NIENDS",
+        "IRYFEL",
+        "NFTICI",
+        "ETIESS",
+        "RMEDHB",
+        "AHCOLM",
+        "TAWROO",
+        "SRGUSS"
       ]
     }
   ]
