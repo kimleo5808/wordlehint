@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T05:06:07.428Z",
+  "lastUpdated": "2026-11-28T05:06:05.468Z",
   "puzzles": [
     {
       "date": "2024-03-04",
@@ -25059,6 +25059,32 @@
         "AHCOLM",
         "TAWROO",
         "SRGUSS"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "id": 1001,
+      "editor": "Tracy Bennett",
+      "clue": "Breakfast in a bowl",
+      "spangram": "MUESLI",
+      "themeWords": [
+        "ALMONDS",
+        "BARLEY",
+        "BRAN",
+        "COCONUT",
+        "OATS",
+        "PEPITAS",
+        "RAISINS"
+      ],
+      "board": [
+        "AOSDNO",
+        "TSALMS",
+        "PEPITA",
+        "MRLEYI",
+        "RUABLN",
+        "ASESAB",
+        "INCOCR",
+        "SITUNO"
       ]
     }
   ]

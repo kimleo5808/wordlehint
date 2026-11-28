@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T05:06:06.857Z",
+  "lastUpdated": "2026-11-28T05:06:04.774Z",
   "puzzles": [
     {
       "date": "2023-06-12",
@@ -59499,6 +59499,53 @@
             "MATE",
             "MUSIC",
             "PATCH"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "id": 1267,
+      "editor": "Wyna Liu",
+      "groups": [
+        {
+          "level": 0,
+          "name": "BODYWEIGHT EXERCISES",
+          "words": [
+            "BEAR CRAWL",
+            "BURPEE",
+            "CRUNCH",
+            "MOUNTAIN CLIMBER"
+          ]
+        },
+        {
+          "level": 1,
+          "name": "WHIT",
+          "words": [
+            "CENT",
+            "FARTHING",
+            "PITTANCE",
+            "SOU"
+          ]
+        },
+        {
+          "level": 2,
+          "name": "CARTOON FAMILY SURNAMES",
+          "words": [
+            "BELCHER",
+            "GRIFFIN",
+            "HILL",
+            "SIMPSON"
+          ]
+        },
+        {
+          "level": 3,
+          "name": "ENDING IN WORDS FOR THE MAIN IDEA",
+          "words": [
+            "DEMEANING",
+            "DISAPPOINT",
+            "MANTICORE",
+            "ZOOLOGIST"
           ]
         }
       ]
